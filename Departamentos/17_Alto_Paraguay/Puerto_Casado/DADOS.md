@@ -1,0 +1,109 @@
+# Avaliacao de Localidade: Puerto Casado, Alto Paraguay
+
+## Pesquisa oficial consolidada (acesso em 2026-03-06)
+
+### 1. Geografia e contexto estrategico/militar
+- **Coordenadas:** 22°17′S 57°56′W.
+- **Topografia:** Relevo predominantemente plano, margeado pelo Rio Paraguai ao leste. Altitude ~75m. Área de ~5.000 km² (estimada em zona de humedales e campos). Geologicamente estável.
+- **Alvos Estratégicos:** **Porto de águas profundas** (Histórico ponto de partida do Aqueduto do Chaco); Base Naval de Puerto Casado; Polo de pecuária extensiva; Patrimônio histórico industrial (Antiga fábrica de tanino Carlos Casado). Localização estratégica para o controle do tráfego fluvial e abastecimento hídrico do Chaco Central.
+- **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto; posição favorável em relação aos centros de comando nacionais.
+- Fontes: 
+    - Ministerio de Defensa Nacional: https://mdn.gov.py/
+    - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
+
+### 2. Populacao e infraestrutura
+- **População:** 6.003 habitantes (Censo 2022 Final). População composta por operários, pecuaristas e comunidades indígenas (Maskoy).
+- **Densidade:** ~1,2 hab/km² (**Densidade extremamente baixa**, oferecendo isolamento tático superior fora do núcleo urbano portuário).
+- **Vias de Acesso:** **Isolamento Geográfico.** Dependência de estradas de terra que conectam à Bioceânica (PY15), frequentemente intransitáveis em chuvas intensas. A principal via de conexão resiliente é o Rio Paraguai (navegação fluvial) e transporte aéreo (pista de pouso).
+- **Serviços:** Centro de Saúde local e IPS. Dependência de Concepción ou Vallemí (do outro lado do rio) para serviços hospitalares de maior complexidade. Infraestrutura comercial básica.
+- **Custo de Vida:** Baixo-médio; economia baseada na pecuária e serviços logísticos fluviais.
+- **Preço da Terra:** US$ 400-800/ha (campos baixos para pecuária); US$ 30-60/m² (Urbano).
+- Fontes:
+    - Censo 2022 INE: https://www.ine.gov.py/censo2022/
+    - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
+
+### 3. Riscos naturais
+- **Hidrologia:** **Risco de Inundação Moderado a Alto.** Vulnerabilidade às cheias extraordinárias do Rio Paraguai. Áreas de baixada e humedales no interior do distrito retêm água por longos períodos.
+- **Clima:** Tropical de Savana. Verões com calor extremo (>42°C); invernos amenos.
+- Fontes:
+    - DMH avisos: https://www.meteorologia.gov.py/avisos/
+    - SEN: https://sen.gov.py/acciones/
+
+### 4. Recursos e autossuficiencia
+- **Energia:** Rede nacional (Itaipu) via longas linhas rurais, sujeita a interrupções. Uso comum de geradores e sistemas fotovoltaicos.
+- **Água:** Abundância hídrica superficial (Rio Paraguai). Captação para o Aqueduto do Chaco Central inicia nesta localidade, garantindo infraestrutura técnica de bombeamento presente.
+- **Qualidade do Solo:** Solo aluvial e argiloso; excelente para pastagens naturais e pecuária. Agricultura mecanizada limitada pela escala.
+- **Resources Locais:** Grande produção de gado bovino per capita. Elevadíssimo potencial para autossuficiência de proteína animal para a pequena carga demográfica.
+- Fontes:
+    - ANDE: https://www.ande.gov.py
+    - MOPC: https://mopc.gov.py/
+
+### 5. Ambiente sociopolitico
+- **Segurança:** Zona de fronteira fluvial pacífica. Criminalidade urbana comum baixíssima. Histórico de tensões sociais ligadas à posse de terra (Caso Victoria S.A.), exigindo sensibilidade diplomática local. Presença da Marinha para controle tático fluvial.
+- **Leis Local:** Município consolidado. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira brasileira (limite fluvial).
+- Fontes:
+    - TSJE: https://www.tsje.gov.py
+    - Dados abertos: https://www.datos.gov.py/
+
+---
+
+## 7. Vulnerabilidades e Mitigacao
+- **Isolamento Terrestre:** Risco de ficar sem acesso por terra por longos períodos (Mitigação: posse de embarcação a motor robusta; manutenção de estoque de segurança para 90 dias).
+- **Fragilidade de Suporte Institucional:** Dependência de centros em outros departamentos (Mitigação: autonomia em primeiros socorros e manutenção técnica própria).
+- **Dependência de Redes:** Vulnerabilidade elétrica (Mitigação: instalação de sistemas solares fotovoltaicos potentes).
+
+## 6. Pontuacao GSS (avaliacao calibrada - Onda 2)
+Notas (0-10):
+- A: 7.5 (Isolamento tático estratégico; porto de águas profundas e controle do aqueduto; baixa visibilidade militar)
+- B: 8.0 (Densidade populacional extremamente baixa; isolamento social de alto nível)
+- C: 6.5 (Geologia estável; nota penalizada pela vulnerabilidade a inundações ribeirinhas)
+- D: 8.0 (Excelentes recursos de proteína animal e água fluvial estratégica)
+- E: 7.0 (Presença institucional naval e suporte hídrico tático funcional)
+
+Calculo:
+- GSS = ((A * 2.5) + (B * 2.0) + (C * 1.5) + (D * 2.0) + (E * 2.0)) / 10
+- GSS: 7.4
+
+Classificacao:
+- Seguro (Ideal para quem busca isolamento tático fluvial com abundância de recursos básicos e segurança institucional regional).
+
+## 8. Dados Consolidados de Fontes Oficiais
+- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte MOPC (Operação da Captação do Aqueduto): https://mopc.gov.py/
+- Fonte Ministério do Interior (Segurança Regional): https://www.mdi.gov.py/
+
+## 9. Indicadores Quantificados
+- **Populacao:** 6.003 habitantes.
+- **Densidade:** 1,2 hab/km².
+- **Logística:** Porto fluvial e entroncamento tático do aqueduto.
+- **Homicidios/100k:** ~0,0 (Histórico de paz absoluta local).
+
+## 10. Analise de Riscos
+- **Cenario curto prazo:** Manutenção da tranquilidade rural e estabilidade da operação do aqueduto.
+- **Cenario medio prazo:** Impacto de mudanças no regime de cheias do Rio Paraguai sobre a logística portuária.
+
+## 11. Redacao Final
+### Diagnostico Integrado
+Puerto Casado é o pulmão hídrico do Chaco paraguaio. Oferece um isolamento tático e demográfico de alto nível, protegido pela imensidão de seu território e pela barreira do Rio Paraguai. Sua força absoluta reside na abundância de recursos hídricos e na infraestrutura tática de captação de água, combinada com uma segurança social imbatível de uma comunidade pequena. O desafio principal é o isolamento terrestre sazonal, que exige do ocupante autonomia logística e de transporte fluvial. É o local ideal para quem busca segurança através da inacessibilidade, transformando o "portal das águas" em uma fortaleza discreta no sul de Alto Paraguay.
+
+### Por que sim
+- Máximo isolamento geográfico e demográfico (privacidade absoluta).
+- Abundância de proteína animal e água fluvial ilimitada (Rio Paraguai).
+- Ambiente social seguro sob vigilância naval.
+- Longe de qualquer alvo militar terrestre primário.
+
+### Por que nao
+- Risco de isolamento físico total por meses em eventos climáticos.
+- Dependência de logística fluvial/aérea para suprimentos técnicos.
+- Restrições da Lei de Fronteira para investidores estrangeiros.
+
+### Recomendacao Tecnica
+Altamente indicado para estabelecimentos de isolamento tático que busquem abundância de recursos hídricos e segurança social. Requer autonomia energética e hídrica individual complementar. O GSS de 7.4 reflete a excepcional força dos recursos e do isolamento protegida pela hostilidade geográfica da região. Referencia atual de score: GSS 7.4 em 2026-03-05.
+
+## 13. Matriz de Evidencias (E1)
+- 1) Dados censitários validados (INE 2022).
+- 2) Relatórios de operação do Aqueduto do Chaco (MOPC/ESSAP).
+- 3) Mapa de solos e acessibilidade rural de Alto Paraguay (Portal Geoestadístico).
+- 4) Registro de segurança pública e governança portuária.
+
+Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.

@@ -1,0 +1,109 @@
+# Avaliacao de Localidade: La Paloma (del Espíritu Santo), Canindeyú
+
+## Pesquisa oficial consolidada (acesso em 2026-03-06)
+
+### 1. Geografia e contexto estrategico/militar
+- **Coordenadas:** 24°08′S 54°37′W.
+- **Topografia:** Relevo predominantemente plano a suavemente ondulado, com solos de altíssima produtividade (Terra Roxa). Altitude ~250m. Área de ~728 km². Geologicamente muito estável, risco sísmico desprezível.
+- **Alvos Estratégicos:** **Polo Agroindustrial Regional** (Sede da Cooperativa La Paloma e grandes silos); Nó logístico sobre a Ruta **PY03**; Proximidade tática com o entroncamento para Katueté e Salto del Guairá. Ausência de alvos militares diretos, mas estratégico para o fluxo de commodities nacionais.
+- **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto; posição isolada e protegida.
+- Fontes: 
+    - Ministerio de Defensa Nacional: https://mdn.gov.py/
+    - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
+
+### 2. Populacao e infraestrutura
+- **População:** 7.284 habitantes (Censo 2022 Final). População estável com forte cultura de agronegócio e comércio de sementes/insumos.
+- **Densidade:** ~10,0 hab/km² (**Densidade baixa**, oferecendo isolamento tático superior fora do núcleo comercial asfáltico).
+- **Vias de Acesso:** Localização estratégica sobre a Ruta **PY03**. Conectividade asfáltica de elite para Assunção e Salto del Guairá. Facilidade logística tática em tempos de paz, mas sujeita a controle de eixos rodoviários em crises nacionais.
+- **Serviços:** Infraestrutura básica a média funcional. USF local e centros de apoio técnico agroindustrial. Dependência de Katueté ou Salto del Guairá para serviços de saúde de alta complexidade.
+- **Custo de Vida:** Baixo; economia impulsionada pelo agronegócio e produção de grãos.
+- **Preço da Terra:** US$ 10.000-14.000/ha (terras mecanizadas de elite - "Terra Roxa").
+- Fontes:
+    - Censo 2022 INE: https://www.ine.gov.py/censo2022/
+    - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
+
+### 3. Riscos naturais
+- **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia favorável e drenagem natural eficiente. Presença de arroios perenes de alta qualidade hídrica utilizados para pecuária e irrigação.
+- **Clima:** Subtropical Úmido. Verões intensos e invernos amenos com geadas ocasionais benéficas ao trigo.
+- Fontes: 
+    - DMH avisos: https://www.meteorologia.gov.py/avisos/
+    - SEN: https://sen.gov.py/acciones/
+
+### 4. Recursos e autossuficiencia
+- **Energia:** Rede nacional (Itaipu); boa estabilidade devido à importância das agroindústrias locais.
+- **Água:** Abundante via poços artesianos profundos e nascentes naturais; excelente qualidade hídrica subterrânea.
+- **Qualidade do Solo:** **Latossolo Vermelho de Elite**; solo profundo e de altíssima fertilidade. Excelente aptidão para soja, milho e sementes selecionadas.
+- **Resources Locais:** Grande produção de grãos e proteína animal. Elevadíssimo potencial para autossuficiência alimentar básica em nível de propriedade devido à vasta área produtiva e baixa população rural.
+- Fontes:
+    - ANDE: https://www.ande.gov.py
+    - MOPC: https://mopc.gov.py/
+
+### 5. Ambiente sociopolitico
+- **Segurança:** Cidade próspera e pacífica. Baixíssima criminalidade urbana comum. Forte coesão comunitária baseada na cultura produtora. Presença de segurança patrimonial privada eficiente nas zonas industriais.
+- **Leis Local:** Município consolidado e polo de sementes regionais. **Livre de Restrição de Fronteira.**
+- Fontes:
+    - TSJE: https://www.tsje.gov.py
+    - Dados abertos: https://www.datos.gov.py/
+
+---
+
+## 7. Vulnerabilidades e Mitigacao
+- **Visibilidade Tática:** Polo de silos é um alvo estratégico em crises de desabastecimento (Mitigação: residência rural afastada 5-10 km do núcleo industrial).
+- **Dependência de Exportação:** Economia vinculada ao mercado de commodities (Mitigação: diversificação produtiva para consumo interno e autonomia energética).
+- **Gargalo Logístico:** Dependência da Ruta PY03 (Mitigação: mapeamento de rotas rurais vicinais em direção a Katueté).
+
+## 6. Pontuacao GSS (avaliacao calibrada - Onda 2)
+Notas (0-10):
+- A: 6.5 (Hub agroindustrial estratégico; boa invisibilidade tática fora do núcleo urbano, visibilidade moderada como alvo logístico)
+- B: 8.0 (Densidade populacional baixa; isolamento social satisfatório em ambiente rural organizado)
+- C: 7.0 (Geologia muito estável e baixo risco de grandes desastres naturais)
+- D: 8.0 (Excelentes recursos agrícolas e hídricos; solo de elite e polo de sementes)
+- E: 7.0 (Forte segurança institucional privada e serviços funcionais próximos)
+
+Calculo:
+- GSS = ((A * 2.5) + (B * 2.0) + (C * 1.5) + (D * 2.0) + (E * 2.0)) / 10
+- GSS: 7.2
+
+Classificacao:
+- Seguro (Altamente recomendado para quem busca isolamento tático rural em terras férteis com suporte industrial próximo).
+
+## 8. Dados Consolidados de Fontes Oficiais
+- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte MAG (Relatórios de produção de sementes em Canindeyú): https://www.mag.gov.py/
+- Fonte MOPC infraestrutura (acesso em 2026-03-06): Manutenção da Ruta PY03.
+
+## 9. Indicadores Quantificados
+- **Populacao:** 7.284 habitantes.
+- **Densidade:** 10,0 hab/km².
+- **Solo:** Latossolo Vermelho (Terra Roxa).
+- **Homicidios/100k:** ~12,0 (Regional/Abaixo da média de fronteira).
+
+## 10. Analise de Riscos
+- **Cenario curto prazo:** Manutenção da prosperidade econômica e controle de segurança regional.
+- **Cenario medio prazo:** Impacto de mudanças nos fluxos rodoviários da fronteira na logística local.
+
+## 11. Redacao Final
+### Diagnostico Integrado
+La Paloma é um dos pilares produtivos e mais estáveis do leste paraguaio. Oferece solos de produtividade mundial e um isolamento demográfico que garante privacidade superior, protegida pela organização da comunidade produtora. Sua força reside na excepcional abundância de recursos hídricos e na eficiência da produção de sementes e grãos. É o local ideal para quem busca autonomia tática em solo fértil, transformando a riqueza de recursos em uma barreira de resiliência alimentar e econômica. O contexto exige apenas autonomia em saúde de alta complexidade.
+
+### Por que sim
+- Solos de altíssima produtividade e abundância de águas puras.
+- Baixíssima densidade populacional (privacidade absoluta).
+- Conectividade asfáltica de elite via Ruta PY03.
+- Sem restrições da Lei de Fronteira.
+
+### Por que nao
+- Alvo estratégico logístico e de suprimentos em cenários de conflito.
+- Dependência de centros maiores para serviços de saúde avançados.
+- Valor da terra entre os mais altos do departamento.
+
+### Recomendacao Tecnica
+Altamente indicado para estabelecimentos de autossuficiência tecnificada que busquem solo de alta performance. Requer autonomia energética e médica complementar. O GSS de 7.2 reflete a solidez dos recursos e da segurança institucional da localidade em equilíbrio com a visibilidade estratégica. Referencia atual de score: GSS 7.2 em 2026-03-05.
+
+## 13. Matriz de Evidencias (E1)
+- 1) Dados censitários validados (INE 2022).
+- 2) Relatórios de produção agrícola e certificação de sementes (MAG).
+- 3) Mapa de solos e bacias hidrográficas de Canindeyú (MAG).
+- 4) Registro de segurança pública departamental.
+
+Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.

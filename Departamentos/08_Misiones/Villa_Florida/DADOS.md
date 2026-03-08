@@ -1,0 +1,109 @@
+# Avaliacao de Localidade: Villa Florida, Misiones
+
+## Pesquisa oficial consolidada (acesso em 2026-03-06)
+
+### 1. Geografia e contexto estrategico/militar
+- **Coordenadas:** 26°23′S 57°08′W.
+- **Topografia:** Relevo predominantemente plano, margeado pelo Rio Tebicuary. Altitude ~80m. Geologicamente muito estável.
+- **Alvos Estratégicos:** Ponto de entrada estratégico do departamento de Misiones; Ponte sobre o Rio Tebicuary (infraestrutura logística vital na Ruta PY01); Polo de turismo fluvial e pesca.
+- **Fallout:** Ventos predominantes do Norte e Leste. Baixo risco de fallout direto.
+- Fontes: 
+    - Ministerio de Defensa Nacional: https://mdn.gov.py/
+    - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
+
+### 2. Populacao e infraestrutura
+- **População:** 3.066 habitantes (Censo 2022 Final). Menor população do departamento de Misiones. Perfil urbano focado em serviços turísticos.
+- **Densidade:** ~15,6 hab/km² (**Densidade baixíssima**, oferecendo excelente isolamento social fora do núcleo urbano turístico).
+- **Vias de Acesso:** Localização privilegiada sobre a Ruta **PY01** (Totalmente asfaltada). Conectividade de elite para Assunção (161 km) e Encarnación. Risco elevado de tornar-se "funil" tático e rota de fuga massiva em crises na capital.
+- **Serviços:** Unidade de Saúde da Família (USF) local. Dependência de San Juan Bautista (35 km) para serviços médicos de alta complexidade. Infraestrutura urbana focada no turismo (hotéis, restaurantes).
+- **Custo de Vida:** Médio-baixo; economia impulsionada pelo turismo sazonal e pesca.
+- **Preço da Terra:** US$ 10.000-20.000/ha (áreas urbanas/turísticas na beira do rio); US$ 3.000-5.000/ha (áreas rurais).
+- Fontes:
+    - Censo 2022 INE: https://www.ine.gov.py/censo2022/
+    - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
+
+### 3. Riscos naturais
+- **Hidrologia:** **Risco Crítico de Inundação.** Situado às margens do Rio Tebicuary. Histórico de cheias severas que atingem o núcleo urbano baixo. Drenagem natural facilitada pelo relevo plano para o leito fluvial.
+- **Clima:** Subtropical Úmido. Verões quentes e úmidos com tempestades de vento.
+- Fontes:
+    - DMH avisos: https://www.meteorologia.gov.py/avisos/
+    - SEN: https://sen.gov.py/acciones/
+
+### 4. Recursos e autossuficiencia
+- **Energia:** Rede nacional (Itaipu/Yacyretá); boa estabilidade devido à proximidade com grandes centros consumidores.
+- **Água:** Abundante via Rio Tebicuary e poços artesianos de alta vazão.
+- **Qualidade do Solo:** Solo arenoso e hidromórfico nas áreas baixas (excelente para arroz); franco-arenoso nas áreas altas (apto para gado e fruticultura).
+- **Resources Locais:** Pesca comercial e de subsistência, turismo e pequena pecuária. Elevado potencial para autossuficiência hídrica e proteica per capita devido à baixa população.
+- Fontes:
+    - ANDE: https://www.ande.gov.py
+    - MOPC: https://mopc.gov.py/
+
+### 5. Ambiente sociopolitico
+- **Segurança:** Zona extremamente pacífica e segura. Taxa de homicídios no departamento entre as menores do Paraguai (~7,0/100k). Ambiente social acolhedor baseado na cultura turística. Baixa visibilidade para conflitos externos.
+- **Leis Local:** Município histórico e polo turístico nacional ("Portal de Misiones"). **Livre de Restrição de Fronteira.**
+- Fontes:
+    - TSJE: https://www.tsje.gov.py
+    - Dados abertos: https://www.datos.gov.py/
+
+---
+
+## 7. Vulnerabilidades e Mitigacao
+- **Risco Hídrico Extremo:** Inundações recorrentes do Rio Tebicuary (Mitigação: construção em cotas de segurança elevadas >90m e monitoramento do SEN).
+- **Exposição Rodoviária:** A ponte e a PY01 são alvos táticos logísticos (Mitigação: residência rural afastada 5-10 km do eixo asfáltico principal).
+- **Dependência de Serviços Externos:** Saúde especializada em cidades vizinhas (Mitigação: manutenção de estoque médico básico e kit trauma local).
+
+## 6. Pontuacao GSS (avaliacao calibrada - Onda 2)
+Notas (0-10):
+- A: 5.5 (Portal logístico tático e ponte estratégica; visibilidade elevada pela localização na PY01)
+- B: 7.0 (Baixíssima densidade demográfica; excelente segurança social e baixo risco de agitação)
+- C: 5.5 (Geologia estável; penalizado pelo risco crítico de inundação fluvial cíclica)
+- D: 7.5 (Excelentes recursos hídricos e pesca; solo apto para policultivos específicos)
+- E: 8.0 (Forte estabilidade institucional e ambiente social seguro/turístico)
+
+Calculo:
+- GSS = ((A * 2.5) + (B * 2.0) + (C * 1.5) + (D * 2.0) + (E * 2.0)) / 10
+- GSS: 6.7
+
+Classificacao:
+- Moderadamente Seguro (Ideal para quem busca base turística/residencial com alta segurança social).
+
+## 8. Dados Consolidados de Fontes Oficiais
+- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura (acesso em 2026-03-06): Ponte Rio Tebicuary e Ruta PY01.
+- Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
+
+## 9. Indicadores Quantificados
+- **Populacao:** 3.066 habitantes.
+- **Densidade:** 15,6 hab/km².
+- **Geografia:** Margem do Rio Tebicuary (Portal do departamento).
+- **Homicidios/100k:** ~7,0 (Regional).
+
+## 10. Analise de Riscos
+- **Cenario curto prazo:** Manutenção da estabilidade turística e vigilância contra inundações sazonais.
+- **Cenario medio prazo:** Impacto positivo da modernização da infraestrutura costeira e de saneamento.
+
+## 11. Redacao Final
+### Diagnostico Integrado
+Villa Florida é o cartão postal de Misiones e oferece um dos ambientes mais seguros e exclusivos do Sul do Paraguai. Sua força reside na baixíssima carga demográfica e na segurança institucional superior provida pelo seu status de polo turístico. Oferece abundância de água e proteína (pesca), sendo o local ideal para quem busca qualidade de vida e paz social com fácil acesso à capital, ciente da necessidade de proteção hidrológica rigorosa devido à proximidade com o Rio Tebicuary.
+
+### Por que sim
+- Ambiente social extremamente seguro, ordeiro e pacífico.
+- Abundância de águas puras e recursos proteicos (pesca fluvial).
+- Conectividade direta e rápida com Assunção via Ruta PY01.
+- Sem restrições da Lei de Fronteira.
+
+### Por que nao
+- Risco crítico de inundação em áreas baixas do núcleo urbano.
+- Alvo estratégico logístico em crises nacionais (ponte sobre o Tebicuary).
+- Infraestrutura de saúde local limitada a atendimentos primários.
+
+### Recomendacao Tecnica
+Altamente indicado para residências permanentes de lazer ou estabelecimentos de autossuficiência de pequena escala. Requer escolha rigorosa de terrenos em cotas de inundação seguras e autonomia em saúde. O GSS de 6.7 reflete a força da segurança social equilibrada pelo risco hídrico geográfico. Referencia atual de score: GSS 6.7 em 2026-03-05.
+
+## 13. Matriz de Evidencias (E1)
+- 1) Dados censitários validados (INE 2022).
+- 2) Relatórios de inundações históricas do Rio Tebicuary (SEN).
+- 3) Mapa de solos e hidrografia de Misiones (MAG).
+- 4) Registro de segurança pública departamental.
+
+Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.

@@ -1,0 +1,129 @@
+# CADERNOS DE DECISAO - EQUIVALENCIA
+
+Data: 2026-03-05
+
+## Grupo Top
+- 1. Altos (03_Cordillera) - 8.9
+- 2. San_Jose_de_los_Arroyos (03_Cordillera) - 8.6
+- 3. Mbocayaty_del_Guaira (04_Guaira) - 8.6
+- 4. Isla_Umbu (12_Neembucu) - 8.6
+- 5. Horqueta (01_Concepcion) - 8.5
+- 6. Quiindy (09_Paraguari) - 8.5
+- 7. Yaguarun (09_Paraguari) - 8.5
+- 8. San_Vicente_Pancholo (02_San_Pedro) - 8.3
+- 9. Tavarai (06_Caazapa) - 8.3
+- 10. Santa_Rosa_del_Monday (10_Alto_Parana) - 8.2
+- 11. Benjamin_Aceval (15_Presidente_Hayes) - 8.2
+- 12. Itapua_Poty (07_Itapua) - 8.1
+- 13. Acahay (09_Paraguari) - 8.1
+- 14. Nueva_Esperanza (14_Canindeyu) - 8.1
+- 15. Fuerte_Olimpo (17_Alto_Paraguay) - 8.1
+- 16. Paso_Horqueta (01_Concepcion) - 8.0
+- 17. General_Resquin (02_San_Pedro) - 8.0
+- 18. Itacurubi_del_Rosario (02_San_Pedro) - 8.0
+- 19. Villa_del_Rosario (02_San_Pedro) - 8.0
+- 20. Caraguatay (03_Cordillera) - 8.0
+- 21. Eusebio_Ayala (03_Cordillera) - 8.0
+- 22. Alto_Vera (07_Itapua) - 8.0
+- 23. Hernandarias (10_Alto_Parana) - 8.0
+- 24. San_Alberto (10_Alto_Parana) - 8.0
+- 25. Loreto (01_Concepcion) - 7.9
+- 26. Capiibary (02_San_Pedro) - 7.9
+- 27. San_Roque_Gonzalez (09_Paraguari) - 7.9
+- 28. Domingo_Martinez_de_Irala (10_Alto_Parana) - 7.9
+- 29. Humaita (12_Neembucu) - 7.9
+- 30. Tacuati (02_San_Pedro) - 7.8
+
+## Grupo Medio
+- Pedro_Juan_Caballero (13_Amambay) - 7.8
+- San_Pedro_de_Ycuamandiyu (02_San_Pedro) - 7.7
+- Independencia (04_Guaira) - 7.7
+- Doctor_Juan_Manuel_Frutos (05_Caaguazu) - 7.7
+- Mariscal_Francisco_Solano_Lopez (05_Caaguazu) - 7.7
+- Fulgencio_Yegros (06_Caazapa) - 7.7
+- Natalio (07_Itapua) - 7.7
+- San_Patricio (08_Misiones) - 7.7
+- Ybytimi (09_Paraguari) - 7.7
+- Presidente_Franco (10_Alto_Parana) - 7.7
+- Villeta (11_Central) - 7.7
+- Pilar (12_Neembucu) - 7.7
+- San_Juan_del_Neembucu (12_Neembucu) - 7.7
+- Zanja_Pyta (13_Amambay) - 7.7
+- Campo_Aceval (15_Presidente_Hayes) - 7.7
+- Boqueron (16_Boqueron) - 7.7
+- Borja (04_Guaira) - 7.6
+- Numi (04_Guaira) - 7.6
+- Escobar (09_Paraguari) - 7.6
+- Cerro_Cora (13_Amambay) - 7.6
+- Maracana (14_Canindeyu) - 7.6
+- Nueva_Germania (02_San_Pedro) - 7.5
+- Tebicuary (04_Guaira) - 7.5
+- Yatytay (07_Itapua) - 7.5
+- Minga_Pora (10_Alto_Parana) - 7.5
+- San_Cristobal (10_Alto_Parana) - 7.5
+- Nemby (11_Central) - 7.5
+- Desmochados (12_Neembucu) - 7.5
+- Katuete (14_Canindeyu) - 7.5
+- Ypejhu (14_Canindeyu) - 7.5
+- Felix_Perez_Cardozo (04_Guaira) - 7.4
+- Iturbe (04_Guaira) - 7.4
+- Abai (06_Caazapa) - 7.4
+- Maciel (06_Caazapa) - 7.4
+- Nueva_Alborada (07_Itapua) - 7.4
+- Sapucai (09_Paraguari) - 7.4
+- Tebicuary_mi (09_Paraguari) - 7.4
+- Itaugua (11_Central) - 7.4
+- Yasy_Cany (14_Canindeyu) - 7.4
+- Puerto_Pinasco (15_Presidente_Hayes) - 7.4
+- Puerto_Casado (17_Alto_Paraguay) - 7.4
+- Arroyito (01_Concepcion) - 7.3
+- Itacurubi (02_San_Pedro) - 7.3
+- Piribebuy (03_Cordillera) - 7.3
+- Yataity_del_Guaira (04_Guaira) - 7.3
+- Doctor_Cecilio_Baez (05_Caaguazu) - 7.3
+- Simon_Bolivar (05_Caaguazu) - 7.3
+- 3_de_Mayo (06_Caazapa) - 7.3
+- Tomas_Romero_Pereira (07_Itapua) - 7.3
+- Ayolas (08_Misiones) - 7.3
+- Quyquyho (09_Paraguari) - 7.3
+- Tavapy (10_Alto_Parana) - 7.3
+- Lambare (11_Central) - 7.3
+- Mayor_Martinez (12_Neembucu) - 7.3
+- Belen (01_Concepcion) - 7.2
+- Guayaibi (02_San_Pedro) - 7.2
+- Caacupe (03_Cordillera) - 7.2
+- Tobati (03_Cordillera) - 7.2
+- Nueva_Londres (05_Caaguazu) - 7.2
+- San_Miguel (08_Misiones) - 7.2
+
+## Grupo Critico
+- Bella_Vista (07_Itapua) - 5.9
+- Cambreta (07_Itapua) - 5.9
+- General_Artigas (07_Itapua) - 5.9
+- Santiago (08_Misiones) - 5.9
+- Aregua (11_Central) - 5.9
+- Ypane (11_Central) - 5.9
+- San_Salvador (04_Guaira) - 5.8
+- Santa_Rosa_del_Mbutuy (05_Caaguazu) - 5.8
+- Capitan_Meza (07_Itapua) - 5.8
+- Fram (07_Itapua) - 5.8
+- Nanawa (15_Presidente_Hayes) - 5.8
+- Lima (02_San_Pedro) - 5.7
+- Nueva_Toledo (05_Caaguazu) - 5.7
+- San_Juan_Nepomuceno (06_Caazapa) - 5.7
+- General_Delgado (07_Itapua) - 5.7
+- San_Juan_del_Parana (07_Itapua) - 5.7
+- General_Bernardino_Caballero (09_Paraguari) - 5.7
+- Ybyrarovana (14_Canindeyu) - 5.7
+- Itacua (01_Concepcion) - 5.6
+- Sargento_Jose_Felix_Lopez (01_Concepcion) - 5.6
+- Doctor_Raul_Pena (10_Alto_Parana) - 5.6
+- Pirapo (07_Itapua) - 5.5
+- Ybycui (09_Paraguari) - 5.5
+- San_Antonio (11_Central) - 5.5
+- Laureles (12_Neembucu) - 5.5
+- La_Paz (07_Itapua) - 5.4
+- Yguazu (10_Alto_Parana) - 5.4
+- Azotey (01_Concepcion) - 5.3
+- Coronel_Martinez (04_Guaira) - 5.2
+- Capitan_Miranda (07_Itapua) - 5.2

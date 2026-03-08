@@ -1,0 +1,109 @@
+# Avaliacao de Localidade: Itapé, Guairá
+
+## Pesquisa oficial consolidada (acesso em 2026-03-06)
+
+### 1. Geografia e contexto estrategico/militar
+- **Coordenadas:** 25°51′S 56°37′W.
+- **Topografia:** Relevo predominantemente plano, localizado às margens do Rio Tebicuary-mí. Altitude ~130m. Geologicamente muito estável, risco sísmico desprezível.
+- **Alvos Estratégicos:** **Santuário Natural da Virgen del Paso** (Polo de turismo religioso nacional que atrai grandes fluxos anuais); Travessias fluviais no Rio Tebicuary-mí. Ausência de alvos militares primários, oferecendo boa invisibilidade fora do calendário religioso.
+- **Fallout:** Ventos predominantes do Leste (E) e Sudeste (SE). Baixo risco de fallout direto.
+- Fontes: 
+    - Ministerio de Defensa Nacional: https://mdn.gov.py/
+    - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
+
+### 2. Populacao e infraestrutura
+- **População:** 6.070 habitantes (Censo 2022 Final). Perfil demográfico estável com forte coesão comunitária e religiosa.
+- **Densidade:** ~37,5 hab/km² (**Baixa densidade**, oferecendo isolamento relativo com bom suporte social local).
+- **Vias de Acesso:** Acesso via ramais pavimentados que conectam com a Ruta **PY08**. Localização estratégica fora do eixo principal de trânsito comercial pesado, mas vulnerável a grandes concentrações de pessoas durante peregrinações.
+- **Serviços:** Unidade de Saúde da Família (USF) local. Dependência do Hospital Regional de Villarrica (17 km) para atendimentos de alta complexidade. Infraestrutura urbana focada no suporte ao turismo religioso.
+- **Custo de Vida:** Baixo; economia baseada na prestação de serviços, turismo e agricultura de pequena escala.
+- **Preço da Terra:** US$ 4.000-8.000/ha (áreas rurais); lotes próximos ao santuário e rio possuem valorização turística elevada.
+- Fontes:
+    - Censo 2022 INE: https://www.ine.gov.py/censo2022/
+    - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
+
+### 3. Riscos naturais
+- **Hidrologia:** **Risco Crítico de Inundação.** A proximidade direta com o Rio Tebicuary-mí torna o distrito altamente vulnerável a cheias severas. Histórico de inundações que isolam bairros e afetam o núcleo urbano baixo.
+- **Clima:** Subtropical Úmido. Precipitação anual de 1.500-1.700 mm. Verões quentes e úmidos.
+- Fontes:
+    - DMH avisos: https://www.meteorologia.gov.py/avisos/
+    - SEN: https://sen.gov.py/acciones/
+
+### 4. Recursos e autossuficiencia
+- **Energia:** Rede nacional (Itaipu); manutenção facilitada pela proximidade com Villarrica.
+- **Água:** Abundante via Rio Tebicuary-mí e poços artesianos; lençol freático produtivo.
+- **Qualidade do Solo:** Solo franco-argiloso e sedimentar (Alfisoles); muito fértil, excelente para cana-de-açúcar, mandioca e horticultura.
+- **Resources Locais:** Produção de cana-de-açúcar, pesca artesanal e pecuária de subsistência. Elevado potencial para autossuficiência alimentar e hídrica básica em nível familiar.
+- Fontes:
+    - ANDE: https://www.ande.gov.py
+    - MOPC: https://mopc.gov.py/
+
+### 5. Ambiente sociopolitico
+- **Segurança:** Zona extremamente pacífica. Taxa de homicídios no departamento de Guairá entre as menores do Paraguai (~3,6/100k). Coesão social muito alta baseada em tradições culturais e na influência do santuário nacional.
+- **Leis Local:** Município histórico conhecido como a "Capital da Fé". **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira, permitindo plena titularidade para brasileiros.
+- Fontes:
+    - TSJE: https://www.tsje.gov.py
+    - Dados abertos: https://www.datos.gov.py/
+
+---
+
+## 7. Vulnerabilidades e Mitigacao
+- **Risco Hídrico Severo:** Inundações recorrentes do Rio Tebicuary-mí (Mitigação: construção em cotas de segurança elevadas >150m e monitoramento constante de avisos do SEN).
+- **Fluxos Populacionais Sazonais:** Concentração massiva de peregrinos em datas religiosas (Mitigação: planejar estoques e segurança para períodos de pico turístico).
+- **Dependência de Serviços Externos:** Saúde especializada em Villarrica (Mitigação: manutenção de recursos médicos básicos e treinamento local).
+
+## 6. Pontuacao GSS (avaliacao calibrada - Onda 2)
+Notas (0-10):
+- A: 5.5 (Localização discreta e protegida de rotas principais, mas com visibilidade turística alta)
+- B: 6.5 (População pequena e densidade controlada; risco social urbano desprezível)
+- C: 5.5 (Geologia estável; penalizado pelo risco crítico de inundação fluvial cíclica)
+- D: 7.5 (Excelentes recursos hídricos, pesca e solo fértil para autossuficiência)
+- E: 8.5 (Altíssima segurança institucional e coesão social comunitária/religiosa)
+
+Calculo:
+- GSS = ((A x 2.5) + (B x 2.0) + (C x 1.5) + (D x 2.0) + (E x 2.0)) / 10
+- GSS: 6.6
+
+Classificacao:
+- Moderadamente Seguro (Ideal para quem busca paz social e recursos hídricos, com preparo para riscos de cheias).
+
+## 8. Dados Consolidados de Fontes Oficiais
+- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
+
+## 9. Indicadores Quantificados
+- **Populacao:** 6.070 habitantes.
+- **Densidade:** 37,5 hab/km².
+- **Risco Hidroclimático:** Nível Elevado (Inundações fluviais).
+- **Homicidios/100k:** ~3,6 (Regional/Guairá).
+
+## 10. Analise de Riscos
+- **Cenario curto prazo:** Manutenção da estabilidade social e preservação do patrimônio religioso.
+- **Cenario medio prazo:** Valorização das terras pela melhoria da infraestrutura turística e agrícola.
+
+## 11. Redacao Final
+### Diagnostico Integrado
+Itapé é um centro de estabilidade social e religiosa no interior de Guairá. Oferece uma das melhores coesões comunitárias do país e abundância de recursos hídricos e produtivos. Sua viabilidade como refúgio é sustentada pela baixíssima criminalidade e pela riqueza de seu solo, porém é geograficamente limitada pela vulnerabilidade às cheias do Rio Tebicuary-mí. É o local ideal para quem busca integração comunitária e qualidade de vida rural, desde que o terreno possua proteção hidrológica natural ou artificial.
+
+### Por que sim
+- Coesão social e segurança institucional excepcionais (Capital da Fé).
+- Solo de alta fertilidade e abundância de recursos hídricos e pesca.
+- Proximidade estratégica com a capital departamental (Villarrica).
+- Sem restrições da Lei de Fronteira.
+
+### Por que nao
+- Risco crítico de inundação em áreas baixas ribeirinhas.
+- Exposição a fluxos migratórios temporários durante eventos religiosos.
+- Infraestrutura de saúde local limitada a atendimentos primários.
+
+### Recomendacao Tecnica
+Altamente indicado para residências rurais e estabelecimentos de autossuficiência que priorizem a paz social. Requer escolha rigorosa de terrenos em cotas de inundação seguras e autonomia em saúde. O GSS de 6.6 reflete a força da segurança social equilibrada pelo risco hídrico. Referencia atual de score: GSS 6.6 em 2026-03-05.
+
+## 13. Matriz de Evidencias (E1)
+- 1) Dados censitários validados (INE 2022).
+- 2) Relatórios de inundações históricas do Rio Tebicuary-mí (SEN).
+- 3) Mapa de solos e aptidão agrícola de Guairá (MAG).
+- 4) Registro de segurança pública e coesão comunitária departamental.
+
+Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.

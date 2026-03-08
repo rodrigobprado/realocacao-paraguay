@@ -1,0 +1,109 @@
+# Avaliacao de Localidade: Ypejhú, Canindeyú
+
+## Pesquisa oficial consolidada (acesso em 2026-03-06)
+
+### 1. Geografia e contexto estrategico/militar
+- **Coordenadas:** 23°54′S 55°27′W.
+- **Topografia:** Relevo ondulado com presença de serras (Cordillera de Amambay) e vales férteis. Altitude ~320m. Área massiva de ~956 km². Geologicamente estável, risco sísmico desprezível.
+- **Alvos Estratégicos:** Ponto de fronteira seca internacional com Paranhos (Brasil); Áreas de pecuária extensiva e produção de grãos; Proximidade tática com o Parque Nacional Mbaracayú. Ausência de bases militares de grande escala, mas zona de alto controle policial e de inteligência de fronteira.
+- **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto de alvos continentais primários devido ao isolamento geográfico.
+- Fontes: 
+    - Ministerio de Defensa Nacional: https://mdn.gov.py/
+    - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
+
+### 2. Populacao e infraestrutura
+- **População:** 8.607 habitantes (Censo 2022 Final). População com forte componente demográfico rural e indígena, integrada ao agronegócio e comércio fronteiriço.
+- **Densidade:** ~9,0 hab/km² (**Densidade extremamente baixa**, oferecendo isolamento tático e privacidade fora do núcleo urbano fronteiriço).
+- **Vias de Acesso:** Conectividade asfáltica via Ruta **PY13** (concluída recentemente). Localização em "final de linha" geográfico que favorece o anonimato estratégico, mas sujeita a controle rigoroso da fronteira seca.
+- **Serviços:** Infraestrutura básica funcional. Centro de Saúde local e USF. Dependência de Curuguaty (~90 km) para atendimentos de alta complexidade e logística comercial especializada.
+- **Custo de Vida:** Muito baixo; economia baseada na pecuária, grãos e comércio de fronteira.
+- **Preço da Terra:** US$ 5.000-8.000/ha (terras mecanizadas); US$ 2.000-4.000/ha (áreas de pecuária/campo natural).
+- Fontes:
+    - Censo 2022 INE: https://www.ine.gov.py/censo2022/
+    - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
+
+### 3. Riscos naturais
+- **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia ondulada favorável à drenagem. Presença de arroios perenes de alta qualidade hídrica tributários da bacia do Rio Paraná.
+- **Clima:** Subtropical Úmido. Verões quentes e chuvosos; invernos amenos com geadas ocasionais.
+- Fontes: 
+    - DMH avisos: https://www.meteorologia.gov.py/avisos/
+    - SEN: https://sen.gov.py/acciones/
+
+### 4. Recursos e autossuficiencia
+- **Energia:** Rede nacional (Itaipu); instável em áreas rurais remotas.
+- **Água:** Abundante via nascentes naturais e poços artesianos profundos; excelente qualidade hídrica subterrânea.
+- **Qualidade do Solo:** Solo franco-argiloso fértil; aptidão para soja, milho, pastagens e erva-mate.
+- **Resources Locais:** Grande produção de gado bovino e grãos. Elevadíssimo potencial para autossuficiência alimentar básica em nível de propriedade devido à vasta área produtiva e baixa população.
+- Fontes:
+    - ANDE: https://www.ande.gov.py
+    - MOPC: https://mopc.gov.py/
+
+### 5. Ambiente sociopolitico
+- **Segurança:** Zona de fronteira com **vigilância tática permanente**. Criminalidade urbana comum moderada, mas sensível a tensões do crime organizado regional típico de Canindeyú. Coesão social baseada na cultura produtora tradicional. Presença institucional de forças de segurança de fronteira.
+- **Leis Local:** Município consolidado. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira brasileira.
+- Fontes:
+    - TSJE: https://www.tsje.gov.py
+    - Dados abertos: https://www.datos.gov.py/
+
+---
+
+## 7. Vulnerabilidades e Mitigacao
+- **Vulnerabilidade Tática de Fronteira:** Exposição a atividades ilícitas regionais (Mitigação: residência rural afastada 5-10 km da linha internacional e investimento em segurança patrimonial).
+- **Isolamento de Saúde:** Distância crítica de hospitais cirúrgicos (Mitigação: manutenção de estoque médico básico e kit trauma local).
+- **Dependência de Rodovia Única:** Risco de bloqueio logístico na PY13 (Mitigação: mapeamento de rotas rurais vicinais e autonomia de suprimentos para 60 dias).
+
+## 6. Pontuacao GSS (avaliacao calibrada - Onda 2)
+Notas (0-10):
+- A: 7.0 (Localização remota e discreta; excelente invisibilidade tática fora da fronteira seca, equilibrada por riscos regionais)
+- B: 8.0 (Densidade populacional extremamente baixa; isolamento social superior)
+- C: 7.0 (Geologia muito estável e relevo seguro contra inundações)
+- D: 8.5 (Recursos agrícolas excelentes e abundância hídrica natural)
+- E: 7.0 (Forte segurança institucional de fronteira e presença estatal funcional)
+
+Calculo:
+- GSS = ((A * 2.5) + (B * 2.0) + (C * 1.5) + (D * 2.0) + (E * 2.0)) / 10
+- GSS: 7.5
+
+Classificacao:
+- Seguro (Altamente recomendado para quem busca isolamento tático e autossuficiência em solo fértil, ciente dos desafios de segurança regional).
+
+## 8. Dados Consolidados de Fontes Oficiais
+- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura (acesso em 2026-03-06): Conclusão da pavimentação Ruta PY13.
+- Fonte Ministério do Interior (Segurança de Fronteira): https://www.mdi.gov.py/
+
+## 9. Indicadores Quantificados
+- **Populacao:** 8.607 habitantes.
+- **Densidade:** 9,0 hab/km².
+- **Solo:** Solo franco-argiloso (Alta produtividade).
+- **Homicidios/100k:** ~18,0 (Regional/Fronteira).
+
+## 10. Analise de Riscos
+- **Cenario curto prazo:** Manutenção da tranquilidade rural e controle de tráfego na fronteira.
+- **Cenario medio prazo:** Valorização das terras pela consolidação da infraestrutura asfáltica e expansão da produção.
+
+## 11. Redacao Final
+### Diagnostico Integrado
+Ypejhú é um enclave de isolamento e produtividade no extremo norte de Canindeyú. Oferece solos férteis e um isolamento demográfico que garante privacidade absoluta, protegida pela geografia serrana. Sua força reside na abundância de recursos naturais e na nova conectividade asfáltica. Contudo, a proximidade com a fronteira seca e o contexto regional exigem que o ocupante adote um perfil vigilante e autônomo. É o local ideal para projetos de autossuficiência que valorizem a invisibilidade e a segurança institucional de fronteira, transformando o "final de linha" geográfico em uma fortaleza de proteção tática.
+
+### Por que sim
+- Máximo isolamento geográfico em território vasto (privacidade).
+- Abundância de águas puras e recursos proteicos (gado).
+- Conectividade asfáltica moderna via Ruta PY13.
+- Segurança institucional reforçada pela presença de forças de fronteira.
+
+### Por que nao
+- Insegurança tática regional latente (fronteira).
+- Restrições da Lei de Fronteira (2532/05) para investidores estrangeiros.
+- Distância de centros urbanos com serviços de saúde de alta complexidade.
+
+### Recomendacao Tecnica
+Altamente indicado para estabelecimentos de autossuficiência que busquem isolamento tático em solo produtivo. Requer investimento em segurança patrimonial e autonomia em saúde. O GSS de 7.5 reflete a superioridade dos recursos e o isolamento protegida pela vigilância institucional da fronteira. Referencia atual de score: GSS 7.5 em 2026-03-05.
+
+## 13. Matriz de Evidencias (E1)
+- 1) Dados censitários validados (INE 2022).
+- 2) Relatórios de segurança pública e inteligência de fronteira (MDI).
+- 3) Mapa de solos e bacias hidrográficas de Canindeyú (MAG).
+- 4) Registro de pavimentação da Ruta PY13 (MOPC).
+
+Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.

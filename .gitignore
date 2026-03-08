@@ -1,0 +1,21 @@
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.pdf
+*.gz
+*.fdb_latexmk
+*.fls
+
+# Temporários do script de geração
+t_*.md
+raw_sources.txt
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Sistema
+.DS_Store
+.directory

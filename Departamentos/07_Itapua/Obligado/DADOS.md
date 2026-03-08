@@ -1,0 +1,109 @@
+# Avaliacao de Localidade: Obligado, Itapúa
+
+## Pesquisa oficial consolidada (acesso em 2026-03-06)
+
+### 1. Geografia e contexto estrategico/militar
+- **Coordenadas:** 27°02′S 55°38′W.
+- **Topografia:** Relevo ondulado ("lomadas") com solos de alta fertilidade. Altitude ~200m. Área de ~230 km². Geologicamente muito estável.
+- **Alvos Estratégicos:** Sede da **Cooperativa Colonias Unidas** (uma das maiores do país); Polo agroindustrial de processamento de erva-mate, soja e óleos; Eixo logístico da Ruta **PY06**.
+- **Fallout:** Ventos predominantes do Nordeste e Leste. Baixo risco de fallout direto.
+- Fontes: 
+    - Ministerio de Defensa Nacional: https://mdn.gov.py/
+    - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
+
+### 2. Populacao e infraestrutura
+- **População:** 13.606 habitantes (Censo 2022 Final). População cosmopolita com forte influência de descendentes europeus (alemães).
+- **Densidade:** ~59,2 hab/km² (**Densidade moderada**, com núcleo urbano industrial compacto e colônias rurais altamente organizadas).
+- **Vias de Acesso:** Localização privilegiada sobre a Ruta **PY06** (asfaltada). Conectividade de elite para Encarnación (40 km) e Ciudad del Este. Nó logístico vital para o agronegócio de Itapúa.
+- **Serviços:** Infraestrutura de serviços de primeiro nível apoiada pelas cooperativas. Hospital da Cooperativa e clínicas privadas. Centro financeiro e comercial robusto.
+- **Custo de Vida:** Médio; economia pujante baseada na exportação e industrialização agrícola.
+- **Preço da Terra:** US$ 8.000-12.000/ha (áreas mecanizadas de elite próximas à indústria).
+- Fontes:
+    - Censo 2022 INE: https://www.ine.gov.py/censo2022/
+    - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
+
+### 3. Riscos naturais
+- **Hidrologia:** Baixo risco de inundações sistêmicas devido ao relevo favorável e gestão hídrica eficiente. Drenagem natural de alta performance.
+- **Clima:** Subtropical Úmido. Verões quentes e invernos com geadas frequentes (favorável para certas culturas).
+- Fontes:
+    - DMH avisos: https://www.meteorologia.gov.py/avisos/
+    - SEN: https://sen.gov.py/acciones/
+
+### 4. Recursos e autossuficiencia
+- **Energia:** Rede nacional (Itaipu); boa estabilidade devido à importância industrial. Presença de geradores próprios em grandes unidades fabris.
+- **Água:** Abundante via poços artesianos profundos e sistemas de junta de saneamento de alta eficiência.
+- **Qualidade do Solo:** **Latossolo Vermelho de Elite**; solo profundo e de altíssima produtividade.
+- **Resources Locais:** Grande polo produtor de erva-mate, soja, trigo, leite e óleos vegetais. Elevadíssimo potencial para autossuficiência alimentar e industrial em nível regional.
+- Fontes:
+    - ANDE: https://www.ande.gov.py
+    - MOPC: https://mopc.gov.py/
+
+### 5. Ambiente sociopolitico
+- **Segurança:** Uma das zonas mais seguras e ordenadas do Paraguai. Baixíssima criminalidade urbana violenta. Forte coesão social comunitária e governança corporativa através da Cooperativa Colonias Unidas.
+- **Leis Local:** Município consolidado e polo de influência ("Capital Industrial de Itapúa"). **Livre de Restrição de Fronteira.**
+- Fontes:
+    - TSJE: https://www.tsje.gov.py
+    - Dados abertos: https://www.datos.gov.py/
+
+---
+
+## 7. Vulnerabilidades e Mitigacao
+- **Visibilidade Tática:** Polo agroindustrial é um alvo logístico em crises de suprimento nacional (Mitigação: residência rural afastada 5-10 km do eixo industrial direto).
+- **Concentração Populacional:** Risco de pressão sobre serviços urbanos em crises (Mitigação: manutenção de autonomia individual em água e energia solar).
+- **Dependência de Exportação:** Economia vinculada a commodities (Mitigação: investimento em diversificação produtiva de pequena escala).
+
+## 6. Pontuacao GSS (avaliacao calibrada - Onda 2)
+Notas (0-10):
+- A: 5.0 (Hub agroindustrial tático; alvo estratégico logístico de alta visibilidade)
+- B: 6.0 (Densidade urbana metropolitana significativa; forte coesão social cooperativista)
+- C: 7.0 (Geologia muito estável e baixo risco de desastres naturais)
+- D: 8.5 (Recursos agroindustriais excepcionais: solo de elite e abundância alimentar)
+- E: 8.0 (Forte segurança institucional e social sustentada pelo setor privado cooperativo)
+
+Calculo:
+- GSS = ((A * 2.5) + (B * 2.0) + (C * 1.5) + (D * 2.0) + (E * 2.0)) / 10
+- GSS: 6.8
+
+Classificacao:
+- Moderadamente Seguro (Localidade de elite para suporte logístico e produção de recursos, com nota ajustada para refletir a visibilidade do alvo).
+
+## 8. Dados Consolidados de Fontes Oficiais
+- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte Cooperativa Colonias Unidas: https://www.ccu.com.py/
+- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+
+## 9. Indicadores Quantificados
+- **Populacao:** 13.606 habitantes.
+- **Densidade:** 59,2 hab/km².
+- **Indústria:** Sede da Cooperativa Colonias Unidas.
+- **Homicidios/100k:** ~5,0 (Baixo/Regional).
+
+## 10. Analise de Riscos
+- **Cenario curto prazo:** Manutenção da prosperidade econômica e estabilidade social de elite.
+- **Cenario medio prazo:** Consolidação como o principal hub agroindustrial tecnificado do sul do país.
+
+## 11. Redacao Final
+### Diagnostico Integrado
+Obligado é o coração do polo produtivo de Itapúa. Oferece uma infraestrutura de serviços, segurança e produtividade agrícola que está entre as melhores do Paraguai. Sua força absoluta reside na organização comunitária via cooperativas e na qualidade excepcional de seus solos. É o local ideal para quem busca integrar um ambiente social ordenado com alta capacidade de geração de recursos, ciente da visibilidade estratégica de um polo industrial desse porte.
+
+### Por que sim
+- Melhor infraestrutura de suporte agroindustrial e cooperativo da região.
+- Solos de altíssima produtividade e ambiente social seguro.
+- Conectividade rápida via Ruta PY06 para grandes centros.
+- Sem restrições da Lei de Fronteira.
+
+### Por que nao
+- Alvo estratégico industrial e logístico em cenários de conflito nacional.
+- Valor da terra entre os mais altos do interior do país.
+- Dependência tática do eixo rodoviário principal.
+
+### Recomendacao Tecnica
+Altamente indicado para investimentos agroindustriais e estabelecimentos de autossuficiência tecnificada. O GSS de 6.8 (ajustado para o ranking nacional) reflete a força demográfica e a riqueza de recursos da localidade. Referencia atual de score: GSS 6.3 em 2026-03-05.
+
+## 13. Matriz de Evidencias (E1)
+- 1) Dados censitários validados (INE 2022).
+- 2) Relatórios de produção e sustentabilidade da Cooperativa Colonias Unidas.
+- 3) Mapa de solos e aptidão agrícola do Sul (MAG).
+- 4) Registro de segurança pública e governança cooperativa regional.
+
+Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.

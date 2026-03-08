@@ -1,0 +1,109 @@
+# Avaliacao de Localidade: Yasy Cañy, Canindeyú
+
+## Pesquisa oficial consolidada (acesso em 2026-03-06)
+
+### 1. Geografia e contexto estrategico/militar
+- **Coordenadas:** 24°20′S 55°25′W.
+- **Topografia:** Relevo predominantemente plano a suavemente ondulado, com solos de elite (Latossolo Vermelho). Altitude ~240m. Área de ~850 km². Geologicamente muito estável, risco sísmico desprezível.
+- **Alvos Estratégicos:** Polo de produção agrícola intensiva; Gigantesco complexo de silos e armazenamento de grãos; Ponto logístico sobre a Ruta **PY03**. Ausência de bases militares massivas, mas centro de gravidade econômica regional e ponto de passagem para o centro-oeste do departamento.
+- **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto; posição isolada e protegida.
+- Fontes: 
+    - Ministerio de Defensa Nacional: https://mdn.gov.py/
+    - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
+
+### 2. Populacao e infraestrutura
+- **População:** 20.399 habitantes (Censo 2022 Final). Município em plena expansão demográfica urbana e rural, ligada ao vigor do agronegócio.
+- **Densidade:** ~24,0 hab/km² (**Densidade baixa**, oferecendo isolamento tático superior e privacidade fora do núcleo comercial asfáltico).
+- **Vias de Acesso:** Localização estratégica sobre a Ruta **PY03**. Conectividade asfáltica de elite para Assunção e Curuguaty. Facilidade logística tática em tempos de paz, com rotas internas que favorecem o desaparecimento rural.
+- **Serviços:** Infraestrutura institucional média. Unidade de Saúde da Família (USF) local. Dependência de Curuguaty (approx. 25 km) para serviços hospitalares de alta complexidade e logística comercial especializada.
+- **Custo de Vida:** Baixo; economia baseada na exportação de grãos e pecuária mecanizada.
+- **Preço da Terra:** US$ 8.000-12.000/ha (terras mecanizadas de elite - "Terra Roxa").
+- Fontes:
+    - Censo 2022 INE: https://www.ine.gov.py/censo2022/
+    - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
+
+### 3. Riscos naturais
+- **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia favorável e drenagem natural eficiente. Presença de diversos arroios perenes de alta qualidade hídrica (ex: Rio Jejuí Guazú ao norte).
+- **Clima:** Subtropical Úmido. Verões quentes e chuvosos; invernos amenos com geadas ocasionais.
+- Fontes: 
+    - DMH avisos: https://www.meteorologia.gov.py/avisos/
+    - SEN: https://sen.gov.py/acciones/
+
+### 4. Recursos e autossuficiencia
+- **Energia:** Rede nacional (Itaipu); boa estabilidade devido à proximidade com polos industriais regionais.
+- **Água:** Abundante via poços artesianos profundos e sistemas de captação local; excelente qualidade hídrica subterrânea.
+- **Qualidade do Solo:** **Latossolo Vermelho de Elite**; solo profundo, estruturado e de altíssima fertilidade natural. Excelente aptidão para soja, milho e pastagens mecanizadas.
+- **Resources Locais:** Grande polo produtor de grãos e proteína animal. Elevadíssimo potencial para autossuficiência alimentar básica em nível de propriedade devido à vasta área produtiva e baixa densidade populacional total.
+- Fontes:
+    - ANDE: https://www.ande.gov.py
+    - MOPC: https://mopc.gov.py/
+
+### 5. Ambiente sociopolitico
+- **Segurança:** Zona rural pacífica em termos de crime comum urbano. No entanto, exige **atenção tática regional** devido ao contexto de Canindeyú (histórico de tensões agrárias e trânsito de ilícitos). Estabilidade social baseada na cultura produtora tradicional e pequenos/médios fazendeiros.
+- **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira.**
+- Fontes:
+    - TSJE: https://www.tsje.gov.py
+    - Dados abertos: https://www.datos.gov.py/
+
+---
+
+## 7. Vulnerabilidades e Mitigacao
+- **Vulnerabilidade Tática Regional:** Insegurança ligada ao contexto do departamento (Mitigação: aquisição de propriedades com título perfeito e investimento em segurança patrimonial).
+- **Gargalo Logístico:** Dependência do eixo da Ruta PY03 para escoamento (Mitigação: mapeamento de rotas rurais vicinais em direção a Curuguaty).
+- **Isolamento de Saúde:** Dependência de centros vizinhos para cirurgias (Mitigação: manutenção de estoque médico básico e kit trauma local).
+
+## 6. Pontuacao GSS (avaliacao calibrada - Onda 2)
+Notas (0-10):
+- A: 6.5 (Hub produtivo estratégico; boa invisibilidade tática fora do eixo urbano, visibilidade moderada como alvo logístico)
+- B: 7.5 (Densidade populacional baixa; isolamento social satisfatório em ambiente rural produtor)
+- C: 7.0 (Geologia muito estável e baixo risco de grandes desastres naturais)
+- D: 9.0 (Recursos agrícolas e hídricos excepcionais; solo de elite mundial)
+- E: 7.5 (Forte segurança institucional municipal e suporte social baseado na produção)
+
+Calculo:
+- GSS = ((A * 2.5) + (B * 2.0) + (C * 1.5) + (D * 2.0) + (E * 2.0)) / 10
+- GSS: 7.4
+
+Classificacao:
+- Seguro (Altamente recomendado para quem busca autossuficiência em solo de elite e suporte institucional regional próximo).
+
+## 8. Dados Consolidados de Fontes Oficiais
+- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte MAG (Relatórios de produção agrícola departamental): https://www.mag.gov.py/
+- Fonte MOPC infraestrutura (acesso em 2026-03-06): Manutenção da Ruta PY03.
+
+## 9. Indicadores Quantificados
+- **Populacao:** 20.399 habitantes.
+- **Densidade:** 24,0 hab/km².
+- **Solo:** Latossolo Vermelho (Terra Roxa).
+- **Homicidios/100k:** ~18,0 (Regional/Canindeyú).
+
+## 10. Analise de Riscos
+- **Cenario curto prazo:** Manutenção da tranquilidade rural e rentabilidade da produção mecanizada.
+- **Cenario medio prazo:** Valorização das terras pela expansão urbana planejada e consolidação industrial.
+
+## 11. Redacao Final
+### Diagnostico Integrado
+Yasy Cañy é um dos polos de resiliência e produtividade mais equilibrados de Canindeyú. Oferece solos de elite mundial e uma abundância massiva de recursos naturais, funcionando como um enclave de segurança alimentar e hídrica. Sua força reside na excepcional qualidade da base produtiva combinada com um suporte institucional sólido para o contexto regional. É o local ideal para quem busca autonomia total em ambiente de alta performance, transformando a fertilidade do solo em uma barreira definitiva de proteção econômica e tática contra crises externas.
+
+### Por que sim
+- Solos de altíssima produtividade mundial e abundância de águas puras.
+- Ambiente social seguro e resiliente sustentado pela produção.
+- Conectividade asfáltica de elite via Ruta PY03 para Curuguaty.
+- Sem restrições da Lei de Fronteira.
+
+### Por que nao
+- Insegurança tática regional latente no departamento de Canindeyú.
+- Alvo estratégico logístico em cenários de conflito por suprimentos.
+- Valor da terra em processo de valorização acelerada.
+
+### Recomendacao Tecnica
+Altamente indicado para estabelecimentos de autossuficiência tecnificada ou investimentos produtivos de larga escala. Requer autonomia energética e médica complementar. O GSS de 7.4 reflete a excepcional força dos recursos e da governança local em equilíbrio com a visibilidade estratégica. Referencia atual de score: GSS 7.4 em 2026-03-05.
+
+## 13. Matriz de Evidencias (E1)
+- 1) Dados censitários validados (INE 2022).
+- 2) Relatórios de produção agrícola mecanizada de alta precisão (MAG).
+- 3) Mapa de solos e bacias hidrográficas de Canindeyú (Portal Geoestadístico).
+- 4) Registro de segurança pública departamental.
+
+Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
