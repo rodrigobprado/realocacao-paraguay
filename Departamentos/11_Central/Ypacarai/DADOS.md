@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.6 |
+| Carbono orgânico (SOC) | 16.98 g/kg |
+| Argila | 24.29 % |
+| Areia | 48.97 % |
+| Silte (calc.) | 26.7 % |
+| Densidade aparente | 1.31 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.4°, -57.2833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade tradicionalmente pacífica, conhecida como a "Cidade do Folklore". Criminalidade urbana menor que nos distritos adjacentes mais densos. Coesão social fortíssima baseada na tradição artística e histórica ferroviária. Segurança institucional estável.
 - **Leis Local:** Município histórico e consolidado. **Livre de Restrição de Fronteira.**

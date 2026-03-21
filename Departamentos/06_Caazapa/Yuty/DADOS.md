@@ -57,6 +57,21 @@
 
 ### 5. Recursos e autossuficiencia
 - **Solo:** Arenas Cuarzosas e Ultisols. Excelente para pecuária e reflorestamento.
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.12 |
+| Carbono orgânico (SOC) | 17.35 g/kg |
+| Argila | 28.18 % |
+| Areia | 41.08 % |
+| Silte (calc.) | 30.7 % |
+| Densidade aparente | 1.38 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.6°, -56.25°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Agua:** Recursos hídricos superficiais abundantes.
 - **Energia:** Rede ANDE.
 - **Producao:** Arroz, pecuária, e pequena agricultura de subsistência.

@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.58 |
+| Carbono orgânico (SOC) | 16.74 g/kg |
+| Argila | 22.49 % |
+| Areia | 53.03 % |
+| Silte (calc.) | 24.5 % |
+| Densidade aparente | 1.4 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.3833°, -57.1333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona extremamente pacífica e segura. Taxa de homicídios no departamento entre as menores do Paraguai (~7,0/100k). Ambiente social acolhedor baseado na cultura turística. Baixa visibilidade para conflitos externos.
 - **Leis Local:** Município histórico e polo turístico nacional ("Portal de Misiones"). **Livre de Restrição de Fronteira.**

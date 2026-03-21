@@ -3,6 +3,7 @@
 ## Pesquisa oficial consolidada (acesso em 2026-03-06)
 
 ### 1. Geografia e contexto estrategico/militar
+- **Coordenadas:** 27°19′S 55°51′W (geocodificado via Nominatim).
 - Localizacao: Centro-Norte de Itapua.
 - Relevo: Ondulado, solo de terra vermelha profunda e fertil.
 - Acesso: Cruzamento estrategico entre a Rota PY06 e a Rota PY07 (Corredor de Exportacao).
@@ -48,6 +49,21 @@
 - Solo: Alta fertilidade, ideal para soja, trigo, milho e yerba mate.
 - Producao: Grande polo de producao mecanizada e cooperativista.
 - Agua: Abundante em aquiferos locais.
+
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.02 |
+| Carbono orgânico (SOC) | 21.16 g/kg |
+| Argila | 45.86 % |
+| Areia | 18.01 % |
+| Silte (calc.) | 36.1 % |
+| Densidade aparente | 1.25 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -27.3167°, -55.85°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - Segurança: Alerta para incidentes de assaltos a mao armada em comercios e areas rurais. Conflitos historicos por tenencia de terra em areas isoladas.

@@ -104,6 +104,21 @@ Classificacao:
 - **Populacao:** 3.843 habitantes.
 - **Densidade:** 53,4 hab/km².
 - **Solo:** Latossolo Vermelho (Fértil).
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.2 |
+| Carbono orgânico (SOC) | 17.62 g/kg |
+| Argila | 27.57 % |
+| Areia | 47.25 % |
+| Silte (calc.) | 25.2 % |
+| Densidade aparente | 1.31 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.6333°, -56.3167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Homicidios/100k:** ~3,6 (Regional/Guairá).
 
 ## 10. Analise de Riscos

@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.5 |
+| Carbono orgânico (SOC) | 18.06 g/kg |
+| Argila | 21.73 % |
+| Areia | 60.38 % |
+| Silte (calc.) | 17.9 % |
+| Densidade aparente | 1.25 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -23.4333°, -56.4833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** **Risco Crítico.** Zona de "hotspot" para narcotráfico (corredor Bolívia-Amambay-Brasil) e presença histórica do EPP (Ejército del Pueblo Paraguayo). Taxa de homicídios regional de 15-20/100k. Exige segurança privada robusta e perfil tático.
 - **Leis Local:** Município fora da restrição absoluta da Lei de Fronteira (distância > 50km da linha seca), facilitando a titularidade para estrangeiros.

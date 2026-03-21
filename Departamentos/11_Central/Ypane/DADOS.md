@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.55 |
+| Carbono orgânico (SOC) | 23.76 g/kg |
+| Argila | 24.08 % |
+| Areia | 53.61 % |
+| Silte (calc.) | 22.3 % |
+| Densidade aparente | 1.32 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.45°, -57.5167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade dinâmica com índices de criminalidade urbana típicos de áreas periféricas em expansão acelerada. Presença ostensiva da Polícia Nacional em eixos industriais. Estabilidade social média, desafiada pela pressão migratória interna da Grande Assunção.
 - **Leis Local:** Município consolidado e polo de referência em centros de treinamento esportivo. **Livre de Restrição de Fronteira.**

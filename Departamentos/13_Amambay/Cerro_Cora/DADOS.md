@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.4 |
+| Carbono orgânico (SOC) | 19.14 g/kg |
+| Argila | 26.11 % |
+| Areia | 50.87 % |
+| Silte (calc.) | 23.0 % |
+| Densidade aparente | 1.24 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -22.65°, -56.0167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural pacífica em termos de crime comum. No entanto, exige **atenção tática regional** devido ao contexto de Amambay (narcotráfico e trânsito de ilícitos nas proximidades de PJC). Forte identidade histórica nacionalista. Estabilidade social sustentada pela cultura tradicional.
 - **Leis Local:** Município de criação recente (ex-Chiriguelo). **Livre de Restrição de Fronteira:** Localizado fora da faixa de 50km da fronteira seca internacional (protegido pela linha de PJC).

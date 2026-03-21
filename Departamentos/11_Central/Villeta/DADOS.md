@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.7 |
+| Carbono orgânico (SOC) | 20.36 g/kg |
+| Argila | 21.92 % |
+| Areia | 58.15 % |
+| Silte (calc.) | 19.9 % |
+| Densidade aparente | 1.35 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.5°, -57.5667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade industrial com forte presença de segurança privada armada em perímetros portuários. Criminalidade urbana comum presente (furtos oportunos), mas monitorada. Estabilidade institucional alta garantida pela importância econômica nacional ("Cidade Industrial").
 - **Leis Local:** Município consolidado e polo de incentivos fiscais industriais. **Livre de Restrição de Fronteira.**

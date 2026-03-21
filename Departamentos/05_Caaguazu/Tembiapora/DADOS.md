@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.25 |
+| Carbono orgânico (SOC) | 18.57 g/kg |
+| Argila | 28.72 % |
+| Areia | 47.71 % |
+| Silte (calc.) | 23.6 % |
+| Densidade aparente | 1.29 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.3167°, -55.55°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural pacífica e estável. Baixíssima criminalidade urbana violenta. Estabilidade social sustentada pelo sucesso do agronegócio familiar de exportação. Geografia peninsular favorece o controle de acessos.
 - **Leis Local:** Município de criação recente (2008), emancipado de Raúl A. Oviedo. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira, permitindo plena titularidade para brasileiros.

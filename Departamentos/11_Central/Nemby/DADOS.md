@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.5 |
+| Carbono orgânico (SOC) | 22.3 g/kg |
+| Argila | 24.6 % |
+| Areia | 50.87 % |
+| Silte (calc.) | 24.5 % |
+| Densidade aparente | 1.34 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.3833°, -57.5333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade com índices de criminalidade urbana típicos de polos industriais metropolitanos. Presença ostensiva da Polícia Nacional e Grupo Lince. Forte coesão social em torno do patrimônio do Cerro Ñemby.
 - **Leis Local:** Município consolidado e altamente regulamentado. **Livre de Restrição de Fronteira.**

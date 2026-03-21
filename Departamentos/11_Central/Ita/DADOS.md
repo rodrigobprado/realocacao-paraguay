@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.5 |
+| Carbono orgânico (SOC) | 17.28 g/kg |
+| Argila | 22.93 % |
+| Areia | 54.72 % |
+| Silte (calc.) | 22.3 % |
+| Densidade aparente | 1.33 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.5°, -57.35°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade com forte identidade tradicional e artesanal. Criminalidade urbana comum presente (furtos), típica de periferia metropolitana. Coesão social baseada na cultura da cerâmica e tradições religiosas (San Blas). Segurança institucional estável.
 - **Leis Local:** Município histórico e consolidado. **Livre de Restrição de Fronteira.**

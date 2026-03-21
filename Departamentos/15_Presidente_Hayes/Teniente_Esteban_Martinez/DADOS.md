@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 6.18 |
+| Carbono orgânico (SOC) | 17.32 g/kg |
+| Argila | 38.34 % |
+| Areia | 20.41 % |
+| Silte (calc.) | 41.2 % |
+| Densidade aparente | 1.33 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.0833°, -59.75°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural excepcionalmente pacífica e segura. Criminalidade urbana inexistente. Estabilidade social máxima sustentada pela cultura da estância e pelo isolamento total. Localidade "invisível" para qualquer conflito sociopolítico nacional.
 - **Leis Local:** Município consolidado. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira argentina (limite tático do Pilcomayo).

@@ -104,6 +104,21 @@ Classificacao:
 - **Populacao:** 12.372 habitantes.
 - **Densidade:** 12,5 hab/km².
 - **Solo:** Arenoso (Aptidão Citros/Grãos).
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.4 |
+| Carbono orgânico (SOC) | 19.01 g/kg |
+| Argila | 23.35 % |
+| Areia | 58.47 % |
+| Silte (calc.) | 18.2 % |
+| Densidade aparente | 1.25 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -23.9833°, -56.3333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Homicidios/100k:** ~8,5 (Regional).
 
 ## 10. Analise de Riscos

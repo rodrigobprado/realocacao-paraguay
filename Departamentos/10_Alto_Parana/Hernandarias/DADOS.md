@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.15 |
+| Carbono orgânico (SOC) | 20.68 g/kg |
+| Argila | 54.29 % |
+| Areia | 14.12 % |
+| Silte (calc.) | 31.6 % |
+| Densidade aparente | 1.24 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.3833°, -54.6333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Uma das cidades mais seguras e vigiadas da região metropolitana de CDE. Baixíssima criminalidade urbana comparada à capital vizinha. Forte presença institucional de forças militares e segurança interna de Itaipu. Coesão social baseada na estabilidade econômica provida pela binacional.
 - **Leis Local:** Município consolidado e polo de incentivos industriais. **Livre de Restrição de Fronteira.**

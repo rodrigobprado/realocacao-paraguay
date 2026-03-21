@@ -3,6 +3,7 @@
 ## Pesquisa oficial consolidada (acesso em 2026-03-06)
 
 ### 1. Geografia e contexto estrategico/militar
+- **Coordenadas:** 26°24′S 54°45′W (geocodificado via Nominatim).
 - Localizacao: Nordeste de Itapua, fronteira com a Argentina (Rio Parana).
 - Relevo: Ondulado, tipico do Planalto do Parana.
 - Acesso: Rota PY07 (ex 14-18), via vital para o escoamento agricola.
@@ -48,6 +49,21 @@
 - Solo: Terra Colorada Premium (Ultisol), altamente fertil.
 - Producao: Soja, milho, trigo (mecanizado).
 - Agua: Abundante via aquiferos e Rio Parana.
+
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.2 |
+| Carbono orgânico (SOC) | 18.23 g/kg |
+| Argila | 47.57 % |
+| Areia | 24.08 % |
+| Silte (calc.) | 28.4 % |
+| Densidade aparente | 1.23 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.4°, -54.75°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - Segurança: Alerta elevado. Incidentes recentes de assaltos armados (jan/2026) e explosao de agencias bancarias (2022).

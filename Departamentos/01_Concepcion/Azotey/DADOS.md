@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.42 |
+| Carbono orgânico (SOC) | 14.85 g/kg |
+| Argila | 20.56 % |
+| Areia | 58.92 % |
+| Silte (calc.) | 20.5 % |
+| Densidade aparente | 1.33 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -23.2167°, -56.5°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** **Zona de Risco Crítico.** Azotey está no epicentro da área de influência do **EPP (Ejército del Pueblo Paraguayo)**. Presença militar permanente da FTC é a norma de segurança. Taxa de homicídios regional entre as maiores do país (~15/100k).
 - **Leis Local:** Município criado em 2009. **Restrição de Fronteira:** Zona limítrofe à faixa de 50km da Lei 2532/05; exige verificação detalhada da localização das glebas.

@@ -57,6 +57,21 @@
 
 ### 5. Recursos e autossuficiencia
 - **Solo:** Terra Roxa de origem basáltica, altamente fértil.
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.28 |
+| Carbono orgânico (SOC) | 19.21 g/kg |
+| Argila | 40.07 % |
+| Areia | 29.43 % |
+| Silte (calc.) | 30.5 % |
+| Densidade aparente | 1.27 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.6667°, -55.2333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Agua:** Poços artesianos e sistemas locais de distribuição.
 - **Energia:** Rede ANDE.
 - **Producao:** Soja, milho, trigo, girassol e erva-mate.

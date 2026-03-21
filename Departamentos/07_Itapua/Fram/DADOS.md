@@ -61,6 +61,21 @@
 - **Energia:** Rede nacional com infraestrutura industrial local robusta.
 - **Água:** Poços artesianos profundos de alta vazão.
 - **Solo:** Solo vermelho profundo, ideal para agricultura mecanizada intensiva (soja, trigo, milho, cítricos).
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.2 |
+| Carbono orgânico (SOC) | 21.73 g/kg |
+| Argila | 41.42 % |
+| Areia | 19.82 % |
+| Silte (calc.) | 38.8 % |
+| Densidade aparente | 1.22 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -27.1667°, -55.8833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Autossuficiência:** **Excepcional.** Produção massiva de proteína animal (suínos/aves) e grãos. Autogestão comunitária e cooperativa garante resiliência em colapsos de rede central.
 - Fontes:
     - ANDE: https://www.ande.gov.py

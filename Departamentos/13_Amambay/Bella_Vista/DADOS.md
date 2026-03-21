@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.72 |
+| Carbono orgânico (SOC) | 13.0 g/kg |
+| Argila | 15.48 % |
+| Areia | 67.22 % |
+| Silte (calc.) | 17.3 % |
+| Densidade aparente | 1.32 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -22.1333°, -56.5167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona de fronteira com **vigilância tática permanente**. Criminalidade urbana comum moderada, mas sensível a atividades ilícitas transfronteiriças (narcotráfico/contrabando) típicas do departamento de Amambay. Coesão social baseada na cultura agropecuária tradicional.
 - **Leis Local:** Município consolidado com forte intercâmbio cultural com o Brasil. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira brasileira.

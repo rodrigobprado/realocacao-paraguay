@@ -104,6 +104,21 @@ Classificacao:
 - **Populacao:** 10.113 habitantes.
 - **Densidade:** 20,4 hab/km².
 - **Solo:** Franco-arenoso/Argiloso (Alta fertilidade).
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.3 |
+| Carbono orgânico (SOC) | 19.27 g/kg |
+| Argila | 22.63 % |
+| Areia | 58.43 % |
+| Silte (calc.) | 18.9 % |
+| Densidade aparente | 1.27 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.8167°, -56.3333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Preço Terra Rural:** US$ 1.500-7.000/ha.
 
 ## 10. Analise de Riscos

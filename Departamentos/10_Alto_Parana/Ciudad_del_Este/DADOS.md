@@ -195,3 +195,18 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 **Principais estabelecimentos:** Hospital distrital / regional de Ciudad del Este; rede de USF e farmacias locais
 
 **Observação para imigrantes:** Centro de referencia do departamento. Acesso a atendimento primario e, em geral, a maior oferta publica e privada da area. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.
+
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.16 |
+| Carbono orgânico (SOC) | 25.39 g/kg |
+| Argila | 51.67 % |
+| Areia | 15.13 % |
+| Silte (calc.) | 33.2 % |
+| Densidade aparente | 1.24 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.5167°, -54.6167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.

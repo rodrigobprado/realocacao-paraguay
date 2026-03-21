@@ -58,6 +58,21 @@
 
 ### 5. Recursos e autossuficiencia
 - **Solo:** Alfisois e Ultisois predominantes, fertilidade media a alta.
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.4 |
+| Carbono orgânico (SOC) | 17.12 g/kg |
+| Argila | 30.97 % |
+| Areia | 48.71 % |
+| Silte (calc.) | 20.3 % |
+| Densidade aparente | 1.35 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.3833°, -56.7333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Agua:** Poços artesianos e sistemas de distribuição local (Juntas de Saneamiento).
 - **Energia:** Rede nacional (ANDE - Itaipu).
 - **Producao:** Cana-de-açúcar, gado e agricultura de subsistência.

@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.62 |
+| Carbono orgânico (SOC) | 22.13 g/kg |
+| Argila | 26.18 % |
+| Areia | 49.0 % |
+| Silte (calc.) | 24.8 % |
+| Densidade aparente | 1.31 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.1167°, -57.35°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** **Zona de Atenção Tática.** A presença do complexo penitenciário exige monitoramento contra fugas ou instabilidades internas. Contudo, a taxa de homicídios no departamento de Cordillera é uma das mais baixas do país (~3,6/100k).
 - **Leis Local:** Município histórico com regulamentações específicas para exploração mineral (MADES). **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira internacional.

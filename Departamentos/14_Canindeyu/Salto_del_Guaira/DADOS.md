@@ -60,6 +60,21 @@ Estação chuvosa Out-Dez; seca Jul-Ago (mínimo em Jul).
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.3 |
+| Carbono orgânico (SOC) | 19.87 g/kg |
+| Argila | 24.45 % |
+| Areia | 58.32 % |
+| Silte (calc.) | 17.2 % |
+| Densidade aparente | 1.25 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.05°, -54.3°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade dinâmica com criminalidade urbana presente (furtos/contrabando). Centro de gravidade para operações de segurança nacional e inteligência de fronteira. Estabilidade institucional alta por ser capital departamental e polo econômico vital.
 - **Leis Local:** Regime administrativo de fronteira. **Livre de Restrição de Fronteira** para propriedades urbanas centrais, mas restrições vigentes em áreas rurais limítrofes (Lei 2532/05).

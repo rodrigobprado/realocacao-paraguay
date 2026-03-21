@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.2 |
+| Carbono orgânico (SOC) | 16.52 g/kg |
+| Argila | 22.72 % |
+| Areia | 54.55 % |
+| Silte (calc.) | 22.7 % |
+| Densidade aparente | 1.38 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.6667°, -56.6333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona industrial extremamente estável e segura. Taxa de homicídios no departamento de Guairá entre as menores do país (~3,6/100k). Forte coesão social em torno da cultura do trabalho industrial e tradição da AZPA.
 - **Leis Local:** Município de criação recente (2008), emancipado de Coronel Martínez. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira, permitindo plena titularidade para brasileiros.

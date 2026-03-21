@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.22 |
+| Carbono orgânico (SOC) | 18.82 g/kg |
+| Argila | 27.33 % |
+| Areia | 52.23 % |
+| Silte (calc.) | 20.4 % |
+| Densidade aparente | 1.27 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.45°, -56.0167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade com dinamismo comercial intenso. Criminalidade urbana comum presente (furtos/roubos). Estabilidade social sustentada pelo setor industrial e agropecuário. Patrulhamento policial reforçado por ser um corredor logístico internacional.
 - **Leis Local:** Município consolidado e polo regional ("Capital da Madeira"). **Livre de Restrição de Fronteira:** Localizado no coração do país, permitindo plena titularidade para investidores brasileiros.

@@ -104,6 +104,21 @@ Classificacao:
 - **Populacao:** 5.382 habitantes.
 - **Densidade:** 4,2 hab/km².
 - **Solo:** Latossolo Vermelho (Alta produtividade).
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.3 |
+| Carbono orgânico (SOC) | 17.51 g/kg |
+| Argila | 27.46 % |
+| Areia | 52.04 % |
+| Silte (calc.) | 20.5 % |
+| Densidade aparente | 1.34 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -23.75°, -56.25°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Homicidios/100k:** ~25,0 (Regional/Amambay - Concentrado em áreas de fronteira).
 
 ## 10. Analise de Riscos

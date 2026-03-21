@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.42 |
+| Carbono orgânico (SOC) | 21.92 g/kg |
+| Argila | 51.86 % |
+| Areia | 27.44 % |
+| Silte (calc.) | 20.7 % |
+| Densidade aparente | 1.23 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.3167°, -54.35°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural excepcionalmente pacífica em termos de crime comum. No entanto, exige **vigilância tática regional** devido à localização em departamento de fronteira e proximidade com o Lago Itaipu (rota de ilícitos). Estabilidade social sustentada por comunidades tradicionais.
 - **Leis Local:** Município de criação recente (2018). **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira brasileira.

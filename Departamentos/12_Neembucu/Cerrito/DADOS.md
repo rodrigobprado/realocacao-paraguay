@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.7 |
+| Carbono orgânico (SOC) | 18.4 g/kg |
+| Argila | 15.05 % |
+| Areia | 68.82 % |
+| Silte (calc.) | 16.1 % |
+| Densidade aparente | 1.35 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -27.3333°, -57.6667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Localidade excepcionalmente pacífica e segura. Criminalidade urbana comum praticamente inexistente. Estabilidade institucional básica sustentada pela presença de destacamentos da Armada Paraguaia para controle fluvial. Coesão social baseada na cultura da pesca.
 - **Leis Local:** Município consolidado. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira argentina (limite fluvial).

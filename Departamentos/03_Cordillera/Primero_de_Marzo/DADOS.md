@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.42 |
+| Carbono orgânico (SOC) | 17.32 g/kg |
+| Argila | 26.12 % |
+| Areia | 51.93 % |
+| Silte (calc.) | 21.9 % |
+| Densidade aparente | 1.32 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.15°, -56.9167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona extremamente estável e pacífica. Cordillera mantém taxas de homicídios entre as menores do país (~3,8/100k). Alta coesão comunitária e baixíssima visibilidade para conflitos sociais de massa.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira:** Localizado no interior, permitindo plena titularidade para investidores estrangeiros.

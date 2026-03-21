@@ -74,6 +74,21 @@
 - **Energia:** Dependência total da rede nacional (Itaipu), mas com a energia mais barata da região (~US$ 0,05/kWh).
 - **Água:** Abundante (Rio Paraguai), tratamento centralizado pela ESSAP.
 - **Solo:** Solo fértil na Região Oriental, mas área urbana saturada. Potencial agrícola nos arredores (Central/Chaco'i).
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.72 |
+| Carbono orgânico (SOC) | 24.33 g/kg |
+| Argila | 19.82 % |
+| Areia | 56.72 % |
+| Silte (calc.) | 23.5 % |
+| Densidade aparente | 1.21 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.2667°, -57.6333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Autossuficiência:** Baixa no núcleo urbano; alta dependência de suprimentos logísticos nacionais e internacionais.
 - **Internet de alta velocidade:** 110 pontos de WiFi libre foram habilitados em Asunción pelo MITIC; 320 novos pontos chegaram ao país em 2023, com cobertura nacional ampliada.
 - **Rede celular:** a tecnologia 5G foi lançada oficialmente no país em dezembro de 2025 e teve ato em Asunción, no Paseo La Galería.

@@ -3,6 +3,7 @@
 ## Pesquisa oficial consolidada (acesso em 2026-03-05)
 
 ### 1. Geografia e contexto estrategico/militar
+- **Coordenadas:** 25°06′S 57°32′W (geocodificado via Nominatim).
 - Ministerio de Defensa Nacional: https://mdn.gov.py/
 - Politica de Defensa Nacional: https://mdn.gov.py/wp-content/uploads/2023/09/Politica_de_Defensa_Nacional_2019-2030.pdf
 - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
@@ -49,6 +50,21 @@
 - ANDE: https://www.ande.gov.py
 - MOPC: https://mopc.gov.py/
 - SEN (projetos): https://sen.gov.py/acciones/proyectos/
+
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.98 |
+| Carbono orgânico (SOC) | 14.32 g/kg |
+| Argila | 24.73 % |
+| Areia | 43.82 % |
+| Silte (calc.) | 31.4 % |
+| Densidade aparente | 1.37 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.1°, -57.5333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - TSJE institucional: https://www.tsje.gov.py

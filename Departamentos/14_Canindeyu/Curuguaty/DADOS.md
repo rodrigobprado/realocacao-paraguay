@@ -104,6 +104,21 @@ Classificacao:
 - **Populacao:** 47.778 habitantes.
 - **Densidade:** 13,1 hab/km².
 - **Solo:** Latossolo Vermelho (Alta performance).
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.3 |
+| Carbono orgânico (SOC) | 18.28 g/kg |
+| Argila | 20.75 % |
+| Areia | 58.73 % |
+| Silte (calc.) | 20.5 % |
+| Densidade aparente | 1.28 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.4667°, -55.6833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Homicidios/100k:** ~18,0 (Regional/Canindeyú).
 
 ## 10. Analise de Riscos

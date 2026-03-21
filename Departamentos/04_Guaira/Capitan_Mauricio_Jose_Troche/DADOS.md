@@ -106,6 +106,21 @@ Classificacao:
 - **Economia:** Polo nacional de biocombustível (Etanol).
 - **Solo:** Latossolo Vermelho (Alta produtividade).
 
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.2 |
+| Carbono orgânico (SOC) | 18.22 g/kg |
+| Argila | 26.77 % |
+| Areia | 50.68 % |
+| Silte (calc.) | 22.6 % |
+| Densidade aparente | 1.32 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.6333°, -56.25°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
+
 ## 10. Analise de Riscos
 - **Cenario curto prazo:** Manutenção da rentabilidade da cana-de-açúcar e estabilidade energética.
 - **Cenario medio prazo:** Valorização imobiliária residencial pelo aumento da demanda industrial local.

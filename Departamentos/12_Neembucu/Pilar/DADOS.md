@@ -196,3 +196,18 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 **Principais estabelecimentos:** Hospital distrital / regional de Pilar; rede de USF e farmacias locais
 
 **Observação para imigrantes:** Centro de referencia do departamento. Acesso a atendimento primario e, em geral, a maior oferta publica e privada da area. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.
+
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.9 |
+| Carbono orgânico (SOC) | 12.3 g/kg |
+| Argila | 18.32 % |
+| Areia | 56.8 % |
+| Silte (calc.) | 24.9 % |
+| Densidade aparente | 1.42 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.85°, -58.2833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.

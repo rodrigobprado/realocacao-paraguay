@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.3 |
+| Carbono orgânico (SOC) | 18.05 g/kg |
+| Argila | 26.91 % |
+| Areia | 48.44 % |
+| Silte (calc.) | 24.7 % |
+| Densidade aparente | 1.38 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.8833°, -57.0167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade dinâmica com criminalidade urbana comum (furtos/roubos) em ascensão. Segurança institucional forte através da Polícia Nacional e tradição comunitária conservadora. Vigilância necessária contra abigeato em áreas rurais.
 - **Leis Local:** Município histórico ("Capital do Barroco Hispano-Guarani"). **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira argentina.

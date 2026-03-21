@@ -57,6 +57,21 @@
 
 ### 5. Recursos e autossuficiencia
 - **Solo:** Oxisois/Alfisois, altamente produtivos.
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.25 |
+| Carbono orgânico (SOC) | 18.53 g/kg |
+| Argila | 23.95 % |
+| Areia | 58.36 % |
+| Silte (calc.) | 17.7 % |
+| Densidade aparente | 1.29 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.3°, -55.8333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Agua:** Poços artesianos privados e comunitários.
 - **Energia:** Rede ANDE.
 - **Producao:** Soja, milho e pequena pecuária.

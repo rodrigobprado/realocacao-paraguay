@@ -104,6 +104,21 @@ Classificacao:
 - **Populacao:** 5.923 habitantes.
 - **Densidade:** 11,8 hab/km².
 - **Solo:** Latossolo Vermelho (Terra Roxa de Elite).
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.4 |
+| Carbono orgânico (SOC) | 26.74 g/kg |
+| Argila | 45.46 % |
+| Areia | 20.18 % |
+| Silte (calc.) | 34.4 % |
+| Densidade aparente | 1.17 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.8833°, -54.9667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Homicidios/100k:** ~4,0 (Recorde de paz rural).
 
 ## 10. Analise de Riscos

@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.27 |
+| Carbono orgânico (SOC) | 18.89 g/kg |
+| Argila | 25.64 % |
+| Areia | 53.24 % |
+| Silte (calc.) | 21.1 % |
+| Densidade aparente | 1.31 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.35°, -55.7667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona agroindustrial muito estável. Índices de criminalidade violenta baixos. Forte controle comunitário exercido pelas cooperativas menonitas (Sommerfeld e Bergthal). Perfil de segurança tática focado na proteção patrimonial industrial.
 - **Leis Local:** Município com forte influência econômica nacional. **Livre de Restrição de Fronteira.**

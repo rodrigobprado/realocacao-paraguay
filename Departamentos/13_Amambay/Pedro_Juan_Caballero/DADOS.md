@@ -44,6 +44,21 @@ Estação chuvosa Jan-Fev; seca Jul-Ago (mínimo em Ago).
 - MOPC: https://mopc.gov.py/
 - SEN (projetos): https://sen.gov.py/acciones/proyectos/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.25 |
+| Carbono orgânico (SOC) | 24.82 g/kg |
+| Argila | 39.3 % |
+| Areia | 44.93 % |
+| Silte (calc.) | 15.8 % |
+| Densidade aparente | 1.25 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -22.55°, -55.73°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - TSJE institucional: https://www.tsje.gov.py
 - TSJE mapas: https://tsje.gov.py/sedess/mapas.php

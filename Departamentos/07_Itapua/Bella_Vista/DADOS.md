@@ -57,6 +57,21 @@
 
 ### 5. Recursos e autossuficiencia
 - **Solo:** Terra Roxa (Oxisols) de altíssima fertilidade.
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.2 |
+| Carbono orgânico (SOC) | 20.73 g/kg |
+| Argila | 37.7 % |
+| Areia | 23.73 % |
+| Silte (calc.) | 38.6 % |
+| Densidade aparente | 1.3 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -27.0333°, -55.5667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Agua:** Sistemas de cooperativas eficientes.
 - **Energia:** Rede ANDE estável.
 - **Producao:** Erva-mate, soja, trigo e agroindústria de alimentos.

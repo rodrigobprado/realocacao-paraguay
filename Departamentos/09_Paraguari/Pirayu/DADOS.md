@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.5 |
+| Carbono orgânico (SOC) | 21.93 g/kg |
+| Argila | 25.1 % |
+| Areia | 49.13 % |
+| Silte (calc.) | 25.8 % |
+| Densidade aparente | 1.31 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.4833°, -57.2333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona extremamente tranquila e pacífica. Paraguarí mantém baixos índices de criminalidade. Coesão social fortíssima baseada na preservação cultural e hospitalidade.
 - **Leis Local:** Município histórico e consolidado ("Cuna del Ñandutí"). **Livre de Restrição de Fronteira.**

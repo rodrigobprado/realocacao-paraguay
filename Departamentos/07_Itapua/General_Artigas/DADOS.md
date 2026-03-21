@@ -61,6 +61,21 @@
 - **Energia:** Rede nacional com baixa carga industrial, garantindo estabilidade.
 - **Água:** Abundante em lençol freático; sistemas de poços artesianos bem distribuídos.
 - **Solo:** Solo fértil para soja, milho e arroz. Rendimento médio de soja: 2.800-3.200 kg/ha.
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.2 |
+| Carbono orgânico (SOC) | 18.53 g/kg |
+| Argila | 34.49 % |
+| Areia | 33.8 % |
+| Silte (calc.) | 31.7 % |
+| Densidade aparente | 1.3 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.9333°, -56.2°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Autossuficiência:** **Muito Alta.** Vasta disponibilidade de terras por habitante. Elevado potencial para produção integrada familiar e pecuária.
 - Fontes:
     - ANDE: https://www.ande.gov.py

@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.32 |
+| Carbono orgânico (SOC) | 22.18 g/kg |
+| Argila | 47.21 % |
+| Areia | 19.22 % |
+| Silte (calc.) | 33.6 % |
+| Densidade aparente | 1.25 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.4833°, -54.75°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade dinâmica com criminalidade urbana típica de polos logísticos. Segurança institucional presente, mas sob vigilância tática constante devido ao aeroporto internacional. Estabilidade social baseada na cultura cooperativista e industrial ("Minga" = trabalho comunitário).
 - **Leis Local:** Município consolidado e integrado ao desenvolvimento do Alto Paraná. **Livre de Restrição de Fronteira.**

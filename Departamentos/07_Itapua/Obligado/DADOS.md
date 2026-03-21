@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.15 |
+| Carbono orgânico (SOC) | 20.0 g/kg |
+| Argila | 38.94 % |
+| Areia | 24.57 % |
+| Silte (calc.) | 36.5 % |
+| Densidade aparente | 1.27 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -27.0333°, -55.6333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Uma das zonas mais seguras e ordenadas do Paraguai. Baixíssima criminalidade urbana violenta. Forte coesão social comunitária e governança corporativa através da Cooperativa Colonias Unidas.
 - **Leis Local:** Município consolidado e polo de influência ("Capital Industrial de Itapúa"). **Livre de Restrição de Fronteira.**

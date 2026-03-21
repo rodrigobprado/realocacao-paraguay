@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.5 |
+| Carbono orgânico (SOC) | 18.27 g/kg |
+| Argila | 23.62 % |
+| Areia | 55.47 % |
+| Silte (calc.) | 20.9 % |
+| Densidade aparente | 1.32 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.4833°, -57.4667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade com forte identidade tradicional e cultural. Criminalidade urbana comum presente (furtos), mas monitorada. Coesão social baseada na atividade industrial centenária e festividades tradicionais (Virgen del Rosario). Segurança institucional estável.
 - **Leis Local:** Município consolidado e integrado ao desenvolvimento regional. **Livre de Restrição de Fronteira.**

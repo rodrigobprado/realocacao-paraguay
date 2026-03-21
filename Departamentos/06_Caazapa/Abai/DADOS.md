@@ -104,6 +104,21 @@ Classificacao:
 - **Populacao:** 38.589 habitantes.
 - **Densidade:** 20,1 hab/km².
 - **Solo:** Latossolo Vermelho (Alta produtividade).
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.3 |
+| Carbono orgânico (SOC) | 18.17 g/kg |
+| Argila | 29.45 % |
+| Areia | 38.66 % |
+| Silte (calc.) | 31.9 % |
+| Densidade aparente | 1.32 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.0333°, -55.9333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Homicidios/100k:** ~7,0 (Regional/Caazapá).
 
 ## 10. Analise de Riscos

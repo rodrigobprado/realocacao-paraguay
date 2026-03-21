@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.78 |
+| Carbono orgânico (SOC) | 21.74 g/kg |
+| Argila | 21.23 % |
+| Areia | 55.3 % |
+| Silte (calc.) | 23.5 % |
+| Densidade aparente | 1.34 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.2°, -57.5333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona industrial e portuária com índices de criminalidade urbana típicos de polos de trânsito (furtos/assaltos). Em crises, a proximidade com a Ponte Remanso a torna uma zona de alta tensão militar e policial para controle de fluxos nacionais e segurança estratégica da fronteira interna.
 - **Leis Local:** Município consolidado e altamente estratégico para a integração territorial. **Livre de Restrição de Fronteira.**

@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.22 |
+| Carbono orgânico (SOC) | 17.02 g/kg |
+| Argila | 25.18 % |
+| Areia | 46.23 % |
+| Silte (calc.) | 28.6 % |
+| Densidade aparente | 1.34 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.8333°, -56.5°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural extremamente pacífica. Taxa de homicídios no departamento de Guairá entre as menores do país (~3,6/100k). Coesão comunitária forte baseada em famílias tradicionais da região.
 - **Leis Local:** Município histórico e consolidado. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira, permitindo plena titularidade para brasileiros.

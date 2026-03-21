@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.4 |
+| Carbono orgânico (SOC) | 17.47 g/kg |
+| Argila | 24.2 % |
+| Areia | 57.97 % |
+| Silte (calc.) | 17.8 % |
+| Densidade aparente | 1.29 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -23.8833°, -56.4833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** **Zona sob Vigilância.** Historicamente inserida em região com presença de grupos insurgentes (EPP), o que motiva patrulhamento ostensivo da FTC e da Polícia Nacional. O núcleo urbano é um polo comercial vigiado e relativamente seguro.
 - **Leis Local:** Município em rápido desenvolvimento e com forte apoio institucional internacional (Coreia do Sul). **Livre de Restrição de Fronteira:** Fora da faixa de 50km da Lei 2532/05, sem restrições para brasileiros.

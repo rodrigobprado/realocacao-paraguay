@@ -60,6 +60,21 @@ Estação chuvosa Nov-Fev; seca Jun-Set (mínimo absoluto em Ago). Regime sub-ú
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 6.25 |
+| Carbono orgânico (SOC) | 13.4 g/kg |
+| Argila | 31.66 % |
+| Areia | 36.19 % |
+| Silte (calc.) | 32.2 % |
+| Densidade aparente | 1.33 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -21.0333°, -57.8667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona de fronteira fluvial pacífica e segura. Criminalidade urbana praticamente nula. Estabilidade institucional alta garantida pela presença da sede governamental e forças navais. Coesão social forjada pelo isolamento compartilhado.
 - **Leis Local:** Capital departamental. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira brasileira (limite fluvial).

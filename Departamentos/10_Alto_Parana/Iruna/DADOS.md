@@ -104,6 +104,21 @@ Classificacao:
 - **Populacao:** 3.943 habitantes.
 - **Densidade:** 7,4 hab/km².
 - **Solo:** Latossolo Vermelho (Alta produtividade).
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.4 |
+| Carbono orgânico (SOC) | 25.27 g/kg |
+| Argila | 45.22 % |
+| Areia | 21.14 % |
+| Silte (calc.) | 33.6 % |
+| Densidade aparente | 1.19 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.8333°, -55.0833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Homicidios/100k:** ~8,0 (Regional/Alto Paraná).
 
 ## 10. Analise de Riscos

@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.2 |
+| Carbono orgânico (SOC) | 19.98 g/kg |
+| Argila | 32.18 % |
+| Areia | 41.68 % |
+| Silte (calc.) | 26.1 % |
+| Densidade aparente | 1.32 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.4167°, -55.3833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural pacífica e estável. Baixíssima criminalidade urbana violenta. Estabilidade social sustentada pela cultura agrícola produtiva. Exposição moderada a fluxos de trânsito rodoviário.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira:** Localizado no interior do país, permitindo plena titularidade para brasileiros.

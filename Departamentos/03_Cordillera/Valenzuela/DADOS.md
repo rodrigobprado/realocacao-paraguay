@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.4 |
+| Carbono orgânico (SOC) | 17.32 g/kg |
+| Argila | 23.47 % |
+| Areia | 56.07 % |
+| Silte (calc.) | 20.5 % |
+| Densidade aparente | 1.35 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.5833°, -56.8667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Uma das zonas mais pacíficas do Paraguai. Taxa de homicídios regional de ~3,8/100k no departamento de Cordillera. Baixa criminalidade e alta coesão comunitária.
 - **Leis Local:** Município histórico consolidado. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira internacional, facilitando a titularidade para brasileiros.

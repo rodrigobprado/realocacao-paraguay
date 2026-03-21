@@ -196,3 +196,18 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 **Principais estabelecimentos:** USF local; referencia hospitalar em Aregua
 
 **Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Aregua. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.
+
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.7 |
+| Carbono orgânico (SOC) | 21.05 g/kg |
+| Argila | 23.62 % |
+| Areia | 44.72 % |
+| Silte (calc.) | 31.7 % |
+| Densidade aparente | 1.35 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.2667°, -57.4833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.

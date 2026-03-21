@@ -104,6 +104,21 @@ Classificacao:
 - **Populacao:** 20.399 habitantes.
 - **Densidade:** 24,0 hab/km².
 - **Solo:** Latossolo Vermelho (Terra Roxa).
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.4 |
+| Carbono orgânico (SOC) | 18.77 g/kg |
+| Argila | 26.99 % |
+| Areia | 54.23 % |
+| Silte (calc.) | 18.8 % |
+| Densidade aparente | 1.28 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.3333°, -55.4167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Homicidios/100k:** ~18,0 (Regional/Canindeyú).
 
 ## 10. Analise de Riscos

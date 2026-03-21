@@ -56,6 +56,21 @@ Estação chuvosa Out-Jan; seca Jun-Ago (mínimo em Ago).
 - **Energia:** Abundante, servida pela rede nacional com proximidade a Yacyretá.
 - **Água:** Captação no Rio Paraná (ESSAP) e rede de poços artesianos.
 - **Solo:** Solo vermelho basáltico de alta fertilidade nos arredores; principal hub de comercialização agrícola (soja/trigo) do país.
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.4 |
+| Carbono orgânico (SOC) | 54.57 g/kg |
+| Argila | 39.92 % |
+| Areia | 31.14 % |
+| Silte (calc.) | 28.9 % |
+| Densidade aparente | 1.1 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -27.3333°, -55.9°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Autossuficiência:** Moderada. Embora dependente de logística urbana, está no coração da produção de alimentos do Paraguai.
 - Fontes:
     - ANDE: https://www.ande.gov.py

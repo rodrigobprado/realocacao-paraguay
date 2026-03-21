@@ -3,6 +3,7 @@
 ## Pesquisa oficial consolidada (acesso em 2026-03-06)
 
 ### 1. Geografia e contexto estrategico/militar
+- **Coordenadas:** 27°10′S 56°04′W (geocodificado via Nominatim).
 - Localizacao: Sul de Itapua, as margens do Rio Parana.
 - Relevo: Planicie costeira e areas levemente onduladas.
 - Acesso: Rota PY01 (Asuncion-Encarnacion) e Corredor de Exportacao.
@@ -48,6 +49,21 @@
 - Solo: Fertil, ideal para arroz (Capital do Arroz), soja e trigo.
 - Producao: Grande capacidade de producao de graos.
 - Agua: Abundante (Rio Parana e aquiferos).
+
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.2 |
+| Carbono orgânico (SOC) | 20.0 g/kg |
+| Argila | 42.05 % |
+| Areia | 22.47 % |
+| Silte (calc.) | 35.5 % |
+| Densidade aparente | 1.24 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -27.1667°, -56.0667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - Segurança: Geralmente tranquila, mas com alertas recentes (2025) de assaltos a residencias de estrangeiros e operacoes contra o narcotrafico no Rio Parana.

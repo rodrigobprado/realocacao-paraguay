@@ -60,6 +60,21 @@
 - **Energia:** Rede nacional (Itaipu).
 - **Água:** Abundância de recursos hídricos superficiais (Manduvirá), porém sujeitos a contaminação. Poços artesianos são recomendados.
 - **Solo:** Predomínio de solos Podzólicos (Ultisoles) e Areias Quartzosas. Alta aptidão para cana-de-açúcar orgânica e pecuária.
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.6 |
+| Carbono orgânico (SOC) | 17.75 g/kg |
+| Argila | 25.58 % |
+| Areia | 53.18 % |
+| Silte (calc.) | 21.2 % |
+| Densidade aparente | 1.32 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.0667°, -57.1°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Preço da Terra:** Gs. 40-60 milhões/ha (USD 5.200 - 8.000). Propriedades premium até USD 11.000/ha.
 - **Fontes:**
     - ANDE: https://www.ande.gov.py

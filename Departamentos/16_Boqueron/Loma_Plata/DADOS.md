@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 7.03 |
+| Carbono orgânico (SOC) | 14.53 g/kg |
+| Argila | 30.35 % |
+| Areia | 35.52 % |
+| Silte (calc.) | 34.1 % |
+| Densidade aparente | 1.39 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -22.3833°, -59.8333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Uma das zonas urbanas mais seguras do Paraguai. Baixíssima criminalidade urbana. Coesão social fortíssima baseada na ética de trabalho menonita e na integração das comunidades locais ao sistema cooperativo. Presença institucional de segurança privada e pública funcional.
 - **Leis Local:** Município consolidado e polo de influência geopolítica no Chaco. **Livre de Restrição de Fronteira.**

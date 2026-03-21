@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.2 |
+| Carbono orgânico (SOC) | 19.92 g/kg |
+| Argila | 28.51 % |
+| Areia | 47.59 % |
+| Silte (calc.) | 23.9 % |
+| Densidade aparente | 1.27 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.7167°, -55.9833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** **Zona de Risco Moderado a Alto.** Histórico de conflitos por posse de terras e direitos minerários. Presença de grupos irregulares e aumento de assaltos violentos registrados em 2025/2026. Exige segurança privada robusta e perfil tático defensivo.
 - **Leis Local:** Município consolidado ("Capital do Ouro"). **Livre de Restrição de Fronteira.**

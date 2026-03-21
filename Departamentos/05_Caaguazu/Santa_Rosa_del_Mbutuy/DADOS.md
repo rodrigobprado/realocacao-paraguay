@@ -57,6 +57,21 @@
 
 ### 5. Recursos e autossuficiencia
 - **Solo:** Alfisois, boa aptidão para agricultura diversificada.
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.3 |
+| Carbono orgânico (SOC) | 18.23 g/kg |
+| Argila | 23.89 % |
+| Areia | 51.8 % |
+| Silte (calc.) | 24.3 % |
+| Densidade aparente | 1.31 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.0667°, -56.3°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Agua:** Poços comunitários e nascentes protegidas.
 - **Energia:** Rede ANDE.
 - **Producao:** Mandioca, milho, gado leiteiro e de corte.

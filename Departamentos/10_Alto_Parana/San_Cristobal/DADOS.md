@@ -104,6 +104,21 @@ Classificacao:
 - **Populacao:** 8.563 habitantes.
 - **Densidade:** 8,3 hab/km².
 - **Solo:** Latossolo Vermelho (Terra Roxa).
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.35 |
+| Carbono orgânico (SOC) | 21.54 g/kg |
+| Argila | 43.54 % |
+| Areia | 26.86 % |
+| Silte (calc.) | 29.6 % |
+| Densidade aparente | 1.21 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.9167°, -55.45°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Homicidios/100k:** ~5,0 (Abaixo da média nacional).
 
 ## 10. Analise de Riscos

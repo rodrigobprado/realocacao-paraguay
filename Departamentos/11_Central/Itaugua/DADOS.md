@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.6 |
+| Carbono orgânico (SOC) | 21.73 g/kg |
+| Argila | 25.23 % |
+| Areia | 51.87 % |
+| Silte (calc.) | 22.9 % |
+| Densidade aparente | 1.31 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.3833°, -57.3333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade próspera com segurança social estável para o padrão metropolitano. Criminalidade urbana comum presente (furtos), mas sob vigilância tática devido à importância do Hospital Nacional e polos industriais. Coesão social baseada na identidade cultural do Ñandutí.
 - **Leis Local:** Município consolidado e polo de referência em saúde. **Livre de Restrição de Fronteira.**

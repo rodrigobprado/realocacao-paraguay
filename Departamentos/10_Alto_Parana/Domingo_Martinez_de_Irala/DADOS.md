@@ -104,6 +104,21 @@ Classificacao:
 - **Populacao:** 5.035 habitantes.
 - **Densidade:** 15,1 hab/km².
 - **Solo:** Latossolo Vermelho (Alta produtividade).
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.3 |
+| Carbono orgânico (SOC) | 22.74 g/kg |
+| Argila | 41.52 % |
+| Areia | 20.32 % |
+| Silte (calc.) | 38.2 % |
+| Densidade aparente | 1.17 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.8833°, -54.6167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Homicidios/100k:** ~0,0 (Histórico de paz absoluta).
 
 ## 10. Analise de Riscos

@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.2 |
+| Carbono orgânico (SOC) | 21.32 g/kg |
+| Argila | 35.02 % |
+| Areia | 30.12 % |
+| Silte (calc.) | 34.9 % |
+| Densidade aparente | 1.28 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.7167°, -55.6833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural pacífica. Caazapá mantém índices de segurança estáveis, embora enfrente desafios de microtráfico em núcleos urbanos maiores. Coesão social baseada em comunidades agrícolas tradicionais.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira:** Localizado no interior do país, permitindo plena titularidade para brasileiros.

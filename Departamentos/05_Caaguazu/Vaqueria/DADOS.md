@@ -57,6 +57,21 @@
 
 ### 5. Recursos e autossuficiencia
 - **Solo:** Alfisois de boa profundidade, aptos para pecuária e agricultura extensiva.
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.32 |
+| Carbono orgânico (SOC) | 18.97 g/kg |
+| Argila | 23.57 % |
+| Areia | 58.52 % |
+| Silte (calc.) | 17.9 % |
+| Densidade aparente | 1.29 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.9167°, -55.75°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Agua:** Abundância de recursos hídricos superficiais e subterrâneos.
 - **Energia:** Rede ANDE com cobertura parcial em áreas remotas.
 - **Producao:** Pecuária de corte, milho e mandioca.

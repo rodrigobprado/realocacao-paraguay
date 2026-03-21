@@ -57,6 +57,21 @@
 
 ### 5. Recursos e autossuficiencia
 - **Solo:** Oxisois de alta qualidade, aptos para reflorestamento e agricultura de grãos.
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.4 |
+| Carbono orgânico (SOC) | 19.58 g/kg |
+| Argila | 22.01 % |
+| Areia | 61.24 % |
+| Silte (calc.) | 16.7 % |
+| Densidade aparente | 1.29 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.95°, -55.9333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Agua:** Recursos hídricos superficiais e subterrâneos abundantes.
 - **Energia:** Rede ANDE.
 - **Producao:** Madeira, soja, milho e mandioca.

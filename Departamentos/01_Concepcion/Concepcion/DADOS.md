@@ -63,6 +63,21 @@
 - **Energia:** Rede nacional (Itaipu), com melhorias recentes mas picos de instabilidade no verão.
 - **Água:** Abundante (Rio Paraguai).
 - **Solo:** Latossolos vermelhos férteis e profundos; excelente para silvicultura (eucalipto), gergelim e soja.
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.8 |
+| Carbono orgânico (SOC) | 14.59 g/kg |
+| Argila | 22.31 % |
+| Areia | 52.33 % |
+| Silte (calc.) | 25.4 % |
+| Densidade aparente | 1.35 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -23.4°, -57.4333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 - **Autossuficiência:** Elevada em proteína animal (indústria cárnea) e potencial agrícola de exportação.
 - Fontes:
     - ANDE: https://www.ande.gov.py

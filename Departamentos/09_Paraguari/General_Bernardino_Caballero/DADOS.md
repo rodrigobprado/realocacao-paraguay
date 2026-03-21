@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.3 |
+| Carbono orgânico (SOC) | 17.68 g/kg |
+| Argila | 24.32 % |
+| Areia | 55.72 % |
+| Silte (calc.) | 20.0 % |
+| Densidade aparente | 1.34 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.6667°, -56.8167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural pacífica. Paraguarí mantém baixos índices de criminalidade urbana. Coesão social forte baseada em tradições rurais conservadoras. Baixíssima incidência de crimes violentos graves.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira internacional.

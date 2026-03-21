@@ -106,6 +106,21 @@ Classificacao:
 - **Homicidios/100k:** <3,8 (Departamento de Cordillera).
 - **Solo:** Origem vulcânica/sedimentar (Alta fertilidade).
 
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.6 |
+| Carbono orgânico (SOC) | 24.47 g/kg |
+| Argila | 22.48 % |
+| Areia | 52.38 % |
+| Silte (calc.) | 25.1 % |
+| Densidade aparente | 1.28 g/cm³ |
+| **Aptidão agrícola** | **Alta** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.1833°, -57.3°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
+
 ## 10. Analise de Riscos
 - **Cenario curto prazo:** Manutenção da segurança e valorização das terras para uso residencial de médio padrão.
 - **Cenario medio prazo:** Pressão urbana vinda de Limpio e Assunção sobre as áreas rurais do distrito.

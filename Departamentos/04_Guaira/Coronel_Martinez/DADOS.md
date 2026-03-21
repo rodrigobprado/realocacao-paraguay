@@ -66,6 +66,21 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
+
+#### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| pH (H₂O) | 5.3 |
+| Carbono orgânico (SOC) | 15.52 g/kg |
+| Argila | 22.75 % |
+| Areia | 51.67 % |
+| Silte (calc.) | 25.6 % |
+| Densidade aparente | 1.36 g/cm³ |
+| **Aptidão agrícola** | **Média** |
+
+Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.75°, -56.6167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural pacata. Guairá é um dos departamentos mais seguros do Paraguai (~6,0/100k homicídios). Conflitos sociais ocasionais ligados a preços de cana-de-açúcar e logística industrial.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira:** Localizado no interior, sem impedimentos para brasileiros em terras privadas tituladas.
