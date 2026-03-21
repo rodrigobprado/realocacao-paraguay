@@ -23,6 +23,31 @@
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
 
+
+### Indicadores Sociais
+
+**Fontes:** PNUD 2020, INE Censo 2022, INE EPHC 2023, Ministerio Público 2024  
+**Nota:** Valores marcados como *(dept.)* referem-se ao departamento de Ñeembucú; valores *(dist.)* são específicos deste distrito. Dados marcados *(est.)* são estimativas.
+
+| Indicador | Valor | Âmbito |
+|-----------|-------|--------|
+| IDH (2020) | 0,710 | dept. |
+| Ranking IDH nacional | 8/18 | dept. |
+| Esperança de vida | 73,0 anos | dept. |
+| Escolaridade média | 8,2 anos | dept. |
+| RNB per capita (USD PPA) | 8.800 | dept. |
+| Pobreza monetária (%) | 28,8% | dept. |
+| Pobreza extrema (%) | 6,5% | dept. |
+| Índice de Gini | 0,445 | dept. |
+| Acesso a água potável (%) | 79,1% | dept. |
+| Acesso a saneamento (%) | 77,4% | dept. |
+| Taxa de homicídios (est., /100k hab) | 0,2–0,4 (2019–2020, fonte INE — mais baixa do país) | dept. |
+| Índice de segurança | alto | dept. |
+| População (Censo 2022) | 3.164 habitantes | dist. |
+| Idade mediana | N/D | dist. |
+| Taxa de fecundidade | N/D | dist. |
+
+
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)

@@ -12,6 +12,31 @@
 - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 - MOPC (estado de rutas): https://mopc.gov.py/servicios/estado-de-las-rutas/
 
+
+### Indicadores Sociais
+
+**Fontes:** PNUD 2020, INE Censo 2022, INE EPHC 2023, Ministerio Público 2024  
+**Nota:** Valores marcados como *(dept.)* referem-se ao departamento de Boquerón; valores *(dist.)* são específicos deste distrito. Dados marcados *(est.)* são estimativas.
+
+| Indicador | Valor | Âmbito |
+|-----------|-------|--------|
+| IDH (2020) | 0,676 | dept. |
+| Ranking IDH nacional | 16/18 | dept. |
+| Esperança de vida | 70,8 anos | dept. |
+| Escolaridade média | 7,1 anos | dept. |
+| RNB per capita (USD PPA) | 8.600 | dept. |
+| Pobreza monetária (%) | estimativa 24,0% | dept. |
+| Pobreza extrema (%) | estimativa 7,5% | dept. |
+| Índice de Gini | estimativa 0,485 | dept. |
+| Acesso a água potável (%) | estimativa 52,3% | dept. |
+| Acesso a saneamento (%) | estimativa 48,7% | dept. |
+| Taxa de homicídios (est., /100k hab) | 0,7–1,7 (2019–2020, fonte INE — entre as mais baixas do país) | dept. |
+| Índice de segurança | alto | dept. |
+| População (Censo 2022) | N/D | dist. |
+| Idade mediana | N/D | dist. |
+| Taxa de fecundidade | N/D | dist. |
+
+
 ### 3. Dados Climaticos (NASA POWER Climatology API, 2001-2020)
 
 Coordenadas: -22.35°S / -60.03°W. Acesso em 2026-03-20.

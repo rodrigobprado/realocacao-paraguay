@@ -12,6 +12,31 @@
 - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 - MOPC (estado de rutas): https://mopc.gov.py/servicios/estado-de-las-rutas/
 
+
+### Indicadores Sociais
+
+**Fontes:** PNUD 2020, INE Censo 2022, INE EPHC 2023, Ministerio Público 2024  
+**Nota:** Valores marcados como *(dept.)* referem-se ao departamento de Amambay; valores *(dist.)* são específicos deste distrito. Dados marcados *(est.)* são estimativas.
+
+| Indicador | Valor | Âmbito |
+|-----------|-------|--------|
+| IDH (2020) | 0,720 | dept. |
+| Ranking IDH nacional | 5/18 | dept. |
+| Esperança de vida | 73,6 anos | dept. |
+| Escolaridade média | 8,7 anos | dept. |
+| RNB per capita (USD PPA) | 9.500 | dept. |
+| Pobreza monetária (%) | 22,8% | dept. |
+| Pobreza extrema (%) | 4,5% | dept. |
+| Índice de Gini | 0,448 | dept. |
+| Acesso a água potável (%) | 82,1% | dept. |
+| Acesso a saneamento (%) | 80,5% | dept. |
+| Taxa de homicídios (est., /100k hab) | ~30–50 (estimativa 2022–2024; histórico: 107,4 em 2016, 69,9 em 2017) | dept. |
+| Índice de segurança | baixo | dept. |
+| População (Censo 2022) | N/D | dist. |
+| Idade mediana | N/D | dist. |
+| Taxa de fecundidade | N/D | dist. |
+
+
 ### 3. Dados Climaticos (NASA POWER Climatology API, 2001-2020)
 
 Coordenadas: -22.55°S / -55.73°W. Acesso em 2026-03-20.

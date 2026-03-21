@@ -23,6 +23,31 @@
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
 
+
+### Indicadores Sociais
+
+**Fontes:** PNUD 2020, INE Censo 2022, INE EPHC 2023, Ministerio Público 2024  
+**Nota:** Valores marcados como *(dept.)* referem-se ao departamento de Guairá; valores *(dist.)* são específicos deste distrito. Dados marcados *(est.)* são estimativas.
+
+| Indicador | Valor | Âmbito |
+|-----------|-------|--------|
+| IDH (2020) | 0,704 | dept. |
+| Ranking IDH nacional | 8/18 | dept. |
+| Esperança de vida | 72,8 anos | dept. |
+| Escolaridade média | 8,2 anos | dept. |
+| RNB per capita (USD PPA) | 8.700 | dept. |
+| Pobreza monetária (%) | 34,0% | dept. |
+| Pobreza extrema (%) | 8,9% | dept. |
+| Índice de Gini | 0,455 | dept. |
+| Acesso a água potável (%) | 76,5% | dept. |
+| Acesso a saneamento (%) | 74,2% | dept. |
+| Taxa de homicídios (est., /100k hab) | 1,74 (2022, fonte INE/Prosegur) | dept. |
+| Índice de segurança | alto | dept. |
+| População (Censo 2022) | ~76.320 habitantes | dist. |
+| Idade mediana | N/D | dist. |
+| Taxa de fecundidade | N/D | dist. |
+
+
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)

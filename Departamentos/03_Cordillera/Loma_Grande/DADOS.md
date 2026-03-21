@@ -23,6 +23,31 @@
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
 
+
+### Indicadores Sociais
+
+**Fontes:** PNUD 2020, INE Censo 2022, INE EPHC 2023, Ministerio Público 2024  
+**Nota:** Valores marcados como *(dept.)* referem-se ao departamento de Cordillera; valores *(dist.)* são específicos deste distrito. Dados marcados *(est.)* são estimativas.
+
+| Indicador | Valor | Âmbito |
+|-----------|-------|--------|
+| IDH (2020) | 0,718 | dept. |
+| Ranking IDH nacional | 6/18 | dept. |
+| Esperança de vida | 73,5 anos | dept. |
+| Escolaridade média | 8,6 anos | dept. |
+| RNB per capita (USD PPA) | 9.200 | dept. |
+| Pobreza monetária (%) | 23,9% | dept. |
+| Pobreza extrema (%) | 5,2% | dept. |
+| Índice de Gini | 0,440 | dept. |
+| Acesso a água potável (%) | 82,4% | dept. |
+| Acesso a saneamento (%) | 84,7% | dept. |
+| Taxa de homicídios (est., /100k hab) | 3,5 (2022, fonte INE/Prosegur) | dept. |
+| Índice de segurança | alto | dept. |
+| População (Censo 2022) | 3.836 habitantes | dist. |
+| Idade mediana | N/D | dist. |
+| Taxa de fecundidade | N/D | dist. |
+
+
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)

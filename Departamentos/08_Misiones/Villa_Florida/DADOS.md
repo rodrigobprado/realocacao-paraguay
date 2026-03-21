@@ -23,6 +23,31 @@
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
 
+
+### Indicadores Sociais
+
+**Fontes:** PNUD 2020, INE Censo 2022, INE EPHC 2023, Ministerio Público 2024  
+**Nota:** Valores marcados como *(dept.)* referem-se ao departamento de Misiones; valores *(dist.)* são específicos deste distrito. Dados marcados *(est.)* são estimativas.
+
+| Indicador | Valor | Âmbito |
+|-----------|-------|--------|
+| IDH (2020) | 0,712 | dept. |
+| Ranking IDH nacional | 7/18 (empate estimado com Caaguazú) | dept. |
+| Esperança de vida | 73,2 anos | dept. |
+| Escolaridade média | 8,3 anos | dept. |
+| RNB per capita (USD PPA) | 8.900 | dept. |
+| Pobreza monetária (%) | 26,4% | dept. |
+| Pobreza extrema (%) | 5,9% | dept. |
+| Índice de Gini | 0,442 | dept. |
+| Acesso a água potável (%) | 80,3% | dept. |
+| Acesso a saneamento (%) | 78,9% | dept. |
+| Taxa de homicídios (est., /100k hab) | ~2–4 (estimativa, abaixo da média nacional) | dept. |
+| Índice de segurança | alto | dept. |
+| População (Censo 2022) | 3.066 habitantes | dist. |
+| Idade mediana | N/D | dist. |
+| Taxa de fecundidade | N/D | dist. |
+
+
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)

@@ -23,6 +23,31 @@
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
 
+
+### Indicadores Sociais
+
+**Fontes:** PNUD 2020, INE Censo 2022, INE EPHC 2023, Ministerio Público 2024  
+**Nota:** Valores marcados como *(dept.)* referem-se ao departamento de Amambay; valores *(dist.)* são específicos deste distrito. Dados marcados *(est.)* são estimativas.
+
+| Indicador | Valor | Âmbito |
+|-----------|-------|--------|
+| IDH (2020) | 0,720 | dept. |
+| Ranking IDH nacional | 5/18 | dept. |
+| Esperança de vida | 73,6 anos | dept. |
+| Escolaridade média | 8,7 anos | dept. |
+| RNB per capita (USD PPA) | 9.500 | dept. |
+| Pobreza monetária (%) | 22,8% | dept. |
+| Pobreza extrema (%) | 4,5% | dept. |
+| Índice de Gini | 0,448 | dept. |
+| Acesso a água potável (%) | 82,1% | dept. |
+| Acesso a saneamento (%) | 80,5% | dept. |
+| Taxa de homicídios (est., /100k hab) | ~30–50 (estimativa 2022–2024; histórico: 107,4 em 2016, 69,9 em 2017) | dept. |
+| Índice de segurança | baixo | dept. |
+| População (Censo 2022) | 12.027 habitantes | dist. |
+| Idade mediana | N/D | dist. |
+| Taxa de fecundidade | N/D | dist. |
+
+
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)

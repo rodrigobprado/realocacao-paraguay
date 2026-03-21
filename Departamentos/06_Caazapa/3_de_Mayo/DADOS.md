@@ -23,6 +23,31 @@
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
 
+
+### Indicadores Sociais
+
+**Fontes:** PNUD 2020, INE Censo 2022, INE EPHC 2023, Ministerio Público 2024  
+**Nota:** Valores marcados como *(dept.)* referem-se ao departamento de Caazapá; valores *(dist.)* são específicos deste distrito. Dados marcados *(est.)* são estimativas.
+
+| Indicador | Valor | Âmbito |
+|-----------|-------|--------|
+| IDH (2020) | 0,648 | dept. |
+| Ranking IDH nacional | 18/18 | dept. |
+| Esperança de vida | 69,5 anos | dept. |
+| Escolaridade média | 6,4 anos | dept. |
+| RNB per capita (USD PPA) | 5.200 | dept. |
+| Pobreza monetária (%) | 34,7% | dept. |
+| Pobreza extrema (%) | 11,3% | dept. |
+| Índice de Gini | 0,472 | dept. |
+| Acesso a água potável (%) | 60,1% | dept. |
+| Acesso a saneamento (%) | 57,4% | dept. |
+| Taxa de homicídios (est., /100k hab) | ~4–6 (estimativa, próxima à média nacional) | dept. |
+| Índice de segurança | médio | dept. |
+| População (Censo 2022) | 20.514 habitantes | dist. |
+| Idade mediana | N/D | dist. |
+| Taxa de fecundidade | N/D | dist. |
+
+
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)

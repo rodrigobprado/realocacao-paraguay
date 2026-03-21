@@ -22,6 +22,31 @@
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
 
+
+### Indicadores Sociais
+
+**Fontes:** PNUD 2020, INE Censo 2022, INE EPHC 2023, Ministerio Público 2024  
+**Nota:** Valores marcados como *(dept.)* referem-se ao departamento de Itapúa; valores *(dist.)* são específicos deste distrito. Dados marcados *(est.)* são estimativas.
+
+| Indicador | Valor | Âmbito |
+|-----------|-------|--------|
+| IDH (2020) | 0,728 | dept. |
+| Ranking IDH nacional | 4/18 | dept. |
+| Esperança de vida | 74,0 anos | dept. |
+| Escolaridade média | 8,9 anos | dept. |
+| RNB per capita (USD PPA) | 10.100 | dept. |
+| Pobreza monetária (%) | 22,1% | dept. |
+| Pobreza extrema (%) | 4,8% | dept. |
+| Índice de Gini | 0,432 | dept. |
+| Acesso a água potável (%) | 84,6% | dept. |
+| Acesso a saneamento (%) | 83,1% | dept. |
+| Taxa de homicídios (est., /100k hab) | ~4–6 (estimativa, próxima à média nacional) | dept. |
+| Índice de segurança | médio | dept. |
+| População (Censo 2022) | 8.357 | dist. |
+| Idade mediana | N/D | dist. |
+| Taxa de fecundidade | N/D | dist. |
+
+
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)

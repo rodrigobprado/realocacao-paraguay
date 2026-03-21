@@ -175,6 +175,56 @@ apply_links() {
     fi
 }
 
+# Extrai tabelas-chave dos arquivos departamentais (IDH, Segurança, Terra Rural)
+# para exibição no capítulo do departamento (seções 3.1-3.4 do plano editorial)
+extract_dept_tables() {
+    local dept_id=$1
+    local outfile=$2
+    local dept_dir="Departamentos/${dept_id}"
+    local tmpfile="t_dept_tables_raw.md"
+
+    > "$tmpfile"
+
+    local idh_file="${dept_dir}/IDH_DEPARTAMENTAL.md"
+    if [ -f "$idh_file" ]; then
+        printf "\n### Desenvolvimento Humano e Social\n\n" >> "$tmpfile"
+        awk '/^## IDH Departamental$/{p=1} p && /^## / && !/^## IDH Departamental$/{p=0} p{print}' "$idh_file" \
+            | grep -v "^> \|^---" >> "$tmpfile"
+        printf "\n" >> "$tmpfile"
+        awk '/^## Indicadores de Pobreza$/{p=1} p && /^## / && !/^## Indicadores de Pobreza$/{p=0} p{print}' "$idh_file" \
+            | grep -v "^> \|^---" >> "$tmpfile"
+        printf "\n" >> "$tmpfile"
+        awk '/^## Infraestrutura Básica$/{p=1} p && /^## / && !/^## Infraestrutura Básica$/{p=0} p{print}' "$idh_file" \
+            | grep -v "^> \|^---" >> "$tmpfile"
+    fi
+
+    local seg_file="${dept_dir}/SEGURANCA_DEPARTAMENTAL.md"
+    if [ -f "$seg_file" ]; then
+        printf "\n### Segurança Pública\n\n" >> "$tmpfile"
+        awk '/^## Indicadores$/{p=1} p && /^## / && !/^## Indicadores$/{p=0} p{print}' "$seg_file" \
+            | grep -v "^> \|^---" >> "$tmpfile"
+    fi
+
+    local terra_file="${dept_dir}/TERRA_RURAL_DEPARTAMENTAL.md"
+    if [ -f "$terra_file" ]; then
+        printf "\n### Mercado de Terra Rural\n\n" >> "$tmpfile"
+        awk '/^## Preços por Tipo/{p=1} p && /^## / && !/^## Preços/{p=0} p{print}' "$terra_file" \
+            | grep -v "^> \|^---" >> "$tmpfile"
+        printf "\n" >> "$tmpfile"
+        awk '/^## Características do Mercado/{p=1} p && /^## / && !/^## Características/{p=0} p{print}' "$terra_file" \
+            | grep -v "^> \|^---" >> "$tmpfile"
+    fi
+
+    if [ $(wc -c < "$tmpfile") -gt 50 ]; then
+        pandoc "$tmpfile" -f markdown -t latex 2>/dev/null \
+            | sed 's/\\label{[^}]*}//g' \
+            | sed 's/\\section{/\\subsection{/g' > "$outfile"
+    else
+        echo "" > "$outfile"
+    fi
+    rm -f "$tmpfile"
+}
+
 
 # 1. Metodologia
 refine_content_py METODOLOGIA_RELOCACAO.md t_metod_refined.md
@@ -232,6 +282,15 @@ for dept_dir in $(ls -d Departamentos/*/ | sort); do
         echo "\clearpage" >> "$BASE/$tex_file"
     fi
     rm -f t_pacote_dept.tex
+
+    # Tabelas departamentais (3.1-3.4): IDH, Segurança, Terra Rural
+    extract_dept_tables "$dept_id_raw" t_dept_tables.tex
+    if [ -s t_dept_tables.tex ]; then
+        echo "\subsection*{Dados Departamentais}" >> "$BASE/$tex_file"
+        cat t_dept_tables.tex >> "$BASE/$tex_file"
+        echo "\clearpage" >> "$BASE/$tex_file"
+    fi
+    rm -f t_dept_tables.tex
 
     for dist_dir in $(ls -d "${dept_dir}"*/ | sort); do
         dados_file="${dist_dir}DADOS.md"
@@ -330,7 +389,21 @@ for dept_dir in $(ls -d Departamentos/*/ | sort); do
                 pandoc t_solo.md -f markdown -t latex | sed 's/\\label{[^}]*}//g' >> "$BASE/$tex_file"
             fi
 
-            rm -f t_dados_refined.md t_dist.md t_content.md t_raw_dossier.md t_title.md t_clima.md t_solo.md t_full_content.md
+            # 4.2 Indicadores Sociais (tabela derivada dos dados departamentais e distritais)
+            awk 'p && /^### / {exit} /^### Indicadores Sociais$/ {p=1} p' "t_dados_refined.md" > t_social.md
+            if [ $(wc -c < t_social.md) -gt 20 ]; then
+                pandoc t_social.md -f markdown -t latex | sed 's/\\label{[^}]*}//g' >> "$BASE/$tex_file"
+            fi
+
+            # 4.3 Serviços e Custo de Vida (Combustível, Celular, Internet, Imóvel, Saúde)
+            awk '/^### Combustível$/{p=1} p' "t_dados_refined.md" > t_servicos.md
+            if [ $(wc -c < t_servicos.md) -gt 20 ]; then
+                pandoc t_servicos.md -f markdown -t latex \
+                    | sed 's/\\label{[^}]*}//g' \
+                    | sed 's/\\section{/\\subsubsection{/g; s/\\subsection{/\\subsubsection{/g' >> "$BASE/$tex_file"
+            fi
+
+            rm -f t_dados_refined.md t_dist.md t_content.md t_raw_dossier.md t_title.md t_clima.md t_solo.md t_full_content.md t_social.md t_servicos.md
         fi
     done
                 apply_glossary "$BASE/$tex_file"
@@ -382,4 +455,6 @@ for f in $BASE/dept_*.tex $BASE/metodologia.tex $BASE/panorama_nacional.tex $LEI
     sed -i 's/Asuncion/Asuncion/g' "$f"
     sed -i 's/Concepcion/Concepcion/g' "$f"
     sed -i 's/Encarnacion/Encarnacion/g' "$f"
+    # Remove linhas com # solitário (heading vazio em Markdown que vira # inválido no LaTeX)
+    sed -i '/^# *$/d' "$f"
 done

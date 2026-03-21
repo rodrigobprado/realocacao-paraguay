@@ -23,6 +23,31 @@
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
 
+
+### Indicadores Sociais
+
+**Fontes:** PNUD 2020, INE Censo 2022, INE EPHC 2023, Ministerio Público 2024  
+**Nota:** Valores marcados como *(dept.)* referem-se ao departamento de Concepción; valores *(dist.)* são específicos deste distrito. Dados marcados *(est.)* são estimativas.
+
+| Indicador | Valor | Âmbito |
+|-----------|-------|--------|
+| IDH (2020) | 0.630 | dist. (est.) |
+| Ranking IDH nacional | 9/18 | dept. |
+| Esperança de vida | 72,4 anos | dept. |
+| Escolaridade média | 7 | dist. |
+| RNB per capita (USD PPA) | 8.400 | dept. |
+| Pobreza monetária (%) | 31,1% | dept. |
+| Pobreza extrema (%) | 7,8% | dept. |
+| Índice de Gini | 0,460 | dept. |
+| Acesso a água potável (%) | 74,2% | dept. |
+| Acesso a saneamento (%) | 71,8% | dept. |
+| Taxa de homicídios (est., /100k hab) | ~12–15 (estimativa, acima da média nacional) | dept. |
+| Índice de segurança | baixo | dept. |
+| População (Censo 2022) | 2.377 | dist. |
+| Idade mediana | 26 anos | dist. |
+| Taxa de fecundidade | 3 | dist. |
+
+
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)

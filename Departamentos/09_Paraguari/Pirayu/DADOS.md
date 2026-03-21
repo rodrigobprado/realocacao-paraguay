@@ -23,6 +23,31 @@
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
 
+
+### Indicadores Sociais
+
+**Fontes:** PNUD 2020, INE Censo 2022, INE EPHC 2023, Ministerio Público 2024  
+**Nota:** Valores marcados como *(dept.)* referem-se ao departamento de Paraguarí; valores *(dist.)* são específicos deste distrito. Dados marcados *(est.)* são estimativas.
+
+| Indicador | Valor | Âmbito |
+|-----------|-------|--------|
+| IDH (2020) | 0,706 | dept. |
+| Ranking IDH nacional | 9/18 | dept. |
+| Esperança de vida | 72,6 anos | dept. |
+| Escolaridade média | 8,1 anos | dept. |
+| RNB per capita (USD PPA) | 8.500 | dept. |
+| Pobreza monetária (%) | 30,5% | dept. |
+| Pobreza extrema (%) | 7,1% | dept. |
+| Índice de Gini | 0,453 | dept. |
+| Acesso a água potável (%) | 77,6% | dept. |
+| Acesso a saneamento (%) | 75,8% | dept. |
+| Taxa de homicídios (est., /100k hab) | ~3,0 (estimativa, abaixo da média nacional) | dept. |
+| Índice de segurança | alto | dept. |
+| População (Censo 2022) | 12.646 habitantes | dist. |
+| Idade mediana | N/D | dist. |
+| Taxa de fecundidade | N/D | dist. |
+
+
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)

@@ -32,6 +32,31 @@
     - INE, promedio de años de estudio (Atlas de Género): https://geoportal.ine.gov.py/detalle-indicador.php?id=39
 
 
+
+### Indicadores Sociais
+
+**Fontes:** PNUD 2020, INE Censo 2022, INE EPHC 2023, Ministerio Público 2024  
+**Nota:** Valores marcados como *(dept.)* referem-se ao departamento de Distrito Capital; valores *(dist.)* são específicos deste distrito. Dados marcados *(est.)* são estimativas.
+
+| Indicador | Valor | Âmbito |
+|-----------|-------|--------|
+| IDH (2020) | 0,835 | dept. |
+| Ranking IDH nacional | 1/18 | dept. |
+| Esperança de vida | 76,2 anos | dept. |
+| Escolaridade média | 11,7 anos de estudo em homens e 11,4 em mulheres na faixa de 15+ anos; a cidade concentra o maior capital educacional do país | dist. |
+| RNB per capita (USD PPA) | 18.200 | dept. |
+| Pobreza monetária (%) | 7,3% | dept. |
+| Pobreza extrema (%) | 1,2% | dept. |
+| Índice de Gini | 0,435 | dept. |
+| Acesso a água potável (%) | 98,5% | dept. |
+| Acesso a saneamento (%) | 99,1% | dept. |
+| Taxa de homicídios (est., /100k hab) | ~4,5 (estimativa) | dept. |
+| Índice de segurança | médio | dept. |
+| População (Censo 2022) | 464.185 em 2025 | dist. |
+| Idade mediana | 33 anos em 2025, segundo projeções do INE | dist. |
+| Taxa de fecundidade | 1,64 filho por mulher em 2022 e 1,68 em 2025 nas projeções do INE | dist. |
+
+
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
