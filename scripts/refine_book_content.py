@@ -30,8 +30,20 @@ def refine_content(text):
     for pattern in internal_patterns:
         text = re.sub(pattern, '', text)
 
-    # 3. Limpeza de URLs soltas
+    # 3a. Remove blocos de Fontes multi-linha (- Fontes:\n    - Label: URL\n...)
+    text = re.sub(
+        r'(?m)^[ \t]*-[ \t]+Fontes?:.*?(?=\n[ \t]*(?:-[ \t]+\*\*|\#{1,4} |\Z))',
+        '',
+        text,
+        flags=re.DOTALL
+    )
+    # Remove sub-bullets que ficaram vazios após remoção de URLs (ex: "    - ANDE: ")
+    text = re.sub(r'(?m)^[ \t]*-[ \t]+[A-Za-z][^:\n]*:[ \t]*\n', '\n', text)
+
+    # 3b. Limpeza de URLs soltas
     text = re.sub(r'https?://[^\s\)\],]+', '', text)
+    # Remove bullets que ficaram apenas com label e sem conteúdo após remoção de URL
+    text = re.sub(r'(?m)^([ \t]*-[ \t]+[^*\n]{1,60}):[ \t]*$', '', text)
     
     # 4. Conversão de Precipitação mm/dia -> mm/mês
     # Abordagem mais robusta: iterar pelas linhas

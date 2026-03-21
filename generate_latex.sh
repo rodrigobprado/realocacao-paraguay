@@ -253,7 +253,13 @@ for dept_dir in $(ls -d Departamentos/*/ | sort); do
                 pandoc t_clima.md -f markdown -t latex >> "$BASE/$tex_file"
             fi
 
-            rm -f t_dados_refined.md t_dist.md t_content.md t_raw_dossier.md t_title.md t_clima.md t_full_content.md
+            # Solo (SoilGrids 2.0 — extrai bloco #### Solo com a tabela)
+            awk '/#### Solo/,/^### [0-9]/ { if($0 !~ /^### [0-9]/) print }' "t_dados_refined.md" > t_solo.md
+            if [ $(wc -c < t_solo.md) -gt 20 ]; then
+                pandoc t_solo.md -f markdown -t latex | sed 's/\\label{[^}]*}//g' >> "$BASE/$tex_file"
+            fi
+
+            rm -f t_dados_refined.md t_dist.md t_content.md t_raw_dossier.md t_title.md t_clima.md t_solo.md t_full_content.md
         fi
     done
                 apply_glossary "$BASE/$tex_file"
@@ -291,11 +297,16 @@ for f in $BASE/dept_*.tex $BASE/metodologia.tex $BASE/panorama_nacional.tex $LEI
     sed -i '/^\\[a-zA-Z]/ ! s/Recomendacao/Recomendação/g' "$f"
     sed -i 's/autossuficiencia/autossuficiência/g' "$f"
     sed -i 's/Brasileiros/Estrangeiros/g' "$f"
+    # Corrige duplicação "estrangeiros estrangeiros" causada por substituições em cascata
+    sed -i 's/estrangeiros estrangeiros/estrangeiros/g' "$f"
+    sed -i 's/Estrangeiros estrangeiros/Estrangeiros/g' "$f"
     # Insere allowbreak em barras de texto (ex: cidade/regiao), mas ignora comandos LaTeX ou caminhos
     sed -i '/mapas\// ! s/\([^\\]\)\//\1\/\\allowbreak /g' "$f"
     sed -i "s/′/'/g" "$f"
     sed -i "s/″/''/g" "$f"
     sed -i "s/–/--/g" "$f"
+    # Subscripts Unicode → LaTeX math mode
+    sed -i 's/₂/\$_2\$/g; s/₃/\$_3\$/g; s/₄/\$_4\$/g; s/₅/\$_5\$/g' "$f"
     # Protege caminhos de arquivos e nomes próprios
     sed -i 's/Asuncion/Asuncion/g' "$f"
     sed -i 's/Concepcion/Concepcion/g' "$f"

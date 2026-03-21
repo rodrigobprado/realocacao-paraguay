@@ -111,7 +111,7 @@ Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.2667°, -
 - **Comércio urbano:** o MIC publicou o REPSE do 1º quadrimestre de 2025 com Asunción concentrando 32,2% dos novos prestadores de serviços do país, o que funciona como proxy oficial de dinamismo comercial formal; o inventário centralizado de cinemas, shoppings e atacados segue sem tabela única.
 - **Escolaridade e ensino superior:** INE e CONES são as bases centrais para alfabetização, escolaridade e oferta universitária; a extração fina por recorte territorial permanece parcial.
 - **Demografia social:** idade mediana de 33 anos e fecundidade de 1,68 filho por mulher em 2025; o item já saiu da zona de lacuna aberta.
-- **Poluição luminosa:** pendente para outra etapa; não há índice oficial aberto por município e a leitura dependerá de proxy satelital e metodologia padronizada.
+- **Poluição luminosa:** Bortle 8 (céu urbano), radiância artificial estimada em 100 nW/cm²/sr. Fonte: World Atlas of Artificial Night Sky Brightness.
 - Fontes:
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
@@ -169,7 +169,7 @@ Asunción é uma capital segura para os padrões globais, mas sofre dos riscos i
 ### Por que nao
 - Concentração de alvos militares e governamentais.
 - Densidade populacional elevada.
-- Lacunas ainda abertas para séries mensais de clima, preços locais, internet e indicadores sociais padronizados.
+- Alta dependência de infraestrutura centralizada (energia, água, logística).
 
 ### Recomendacao Tecnica
 Ideal como base logística e administrativa, desde que combinada com um refúgio de nível superior em departamentos mais remotos (como Cordillera ou Itapúa). Referencia atual de score: GSS 6.5 em 2026-03-05. A leitura do pacote confirma uma capital funcional para comando, saúde e conectividade, mas não uma base de autossuficiência plena.
