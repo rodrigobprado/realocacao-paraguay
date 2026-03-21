@@ -32,7 +32,7 @@
 | IDH (2020) | 0,715 | dept. |
 | Ranking IDH nacional | 7/18 | dept. |
 | Esperança de vida | 73,1 anos | dept. |
-| Escolaridade média | 8,4 anos | dept. |
+| Escolaridade média | 7.9 anos | dist. |
 | RNB per capita (USD PPA) | 9.000 | dept. |
 | Pobreza monetária (%) | 28,5% | dept. |
 | Pobreza extrema (%) | 6,8% | dept. |
@@ -41,8 +41,8 @@
 | Acesso a saneamento (%) | 78,3% | dept. |
 | Taxa de homicídios (est., /100k hab) | ~6–8 (estimativa, próxima ou acima da média nacional) | dept. |
 | Índice de segurança | médio | dept. |
-| População (Censo 2022) | 10.498 | dist. |
-| Idade mediana | N/D | dist. |
+| População (Censo 2022) | 10.498 hab. | dist. |
+| Idade mediana | 26.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
 

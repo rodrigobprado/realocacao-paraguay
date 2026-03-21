@@ -34,7 +34,7 @@
 | IDH (2020) | 0,712 | dept. |
 | Ranking IDH nacional | 7/18 (empate estimado com Caaguazú) | dept. |
 | Esperança de vida | 73,2 anos | dept. |
-| Escolaridade média | 8,3 anos | dept. |
+| Escolaridade média | 8.7 anos | dist. |
 | RNB per capita (USD PPA) | 8.900 | dept. |
 | Pobreza monetária (%) | 26,4% | dept. |
 | Pobreza extrema (%) | 5,9% | dept. |

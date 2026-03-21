@@ -34,7 +34,7 @@
 | IDH (2020) | 0,693 | dept. |
 | Ranking IDH nacional | 13/18 | dept. |
 | Esperança de vida | 71,8 anos | dept. |
-| Escolaridade média | 7,8 anos | dept. |
+| Escolaridade média | 8.4 anos | dist. |
 | RNB per capita (USD PPA) | 7.900 | dept. |
 | Pobreza monetária (%) | 29,4% | dept. |
 | Pobreza extrema (%) | 7,2% | dept. |
