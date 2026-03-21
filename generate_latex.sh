@@ -15,6 +15,66 @@ clean_geo() {
     echo "$1" | sed -E 's/^[0-9]+_//' | tr '_' ' '
 }
 
+# Nomes oficiais dos departamentos em espanhol
+dept_name_es() {
+    case "$1" in
+        00_Distrito_Capital)  echo "Distrito Capital" ;;
+        01_Concepcion)        echo "Concepción" ;;
+        02_San_Pedro)         echo "San Pedro" ;;
+        03_Cordillera)        echo "Cordillera" ;;
+        04_Guaira)            echo "Guairá" ;;
+        05_Caaguazu)          echo "Caaguazú" ;;
+        06_Caazapa)           echo "Caazapá" ;;
+        07_Itapua)            echo "Itapúa" ;;
+        08_Misiones)          echo "Misiones" ;;
+        09_Paraguari)         echo "Paraguarí" ;;
+        10_Alto_Parana)       echo "Alto Paraná" ;;
+        11_Central)           echo "Central" ;;
+        12_Neembucu)          echo "Ñeembucú" ;;
+        13_Amambay)           echo "Amambay" ;;
+        14_Canindeyu)         echo "Canindeyú" ;;
+        15_Presidente_Hayes)  echo "Presidente Hayes" ;;
+        16_Boqueron)          echo "Boquerón" ;;
+        17_Alto_Paraguay)     echo "Alto Paraguay" ;;
+        *)                    clean_geo "$1" ;;
+    esac
+}
+
+# Extrai a seção do LEITORES_ALFA correspondente ao departamento e converte para LaTeX
+extract_pacote_tex() {
+    local dept_id=$1
+    local dept_n=$2   # número inteiro sem zero à esquerda
+    local outfile=$3
+
+    if [ "$dept_n" -eq 0 ]; then
+        # Distrito Capital: do "## 2." até antes de "### 2.6"
+        awk '/^## 2\. /,/^### 2\.6 / { if ($0 !~ /^### 2\.6 /) print }' "$LEITORES_ALFA_MD" \
+            | sed 's/^## [0-9.]* /## /; s/^### [0-9.]* /### /' \
+            | sed 's/^## /# /; s/^### /## /' > t_pacote_raw.md
+    else
+        local sec_cur=$((dept_n + 5))
+        local sec_next=$((dept_n + 6))
+        # Outros departamentos: da subseção 2.N até a próxima ou ## 3.
+        awk "/^### 2\\.${sec_cur}[ /]/,/^### 2\\.${sec_next}[ /]|^## 3\\./ \
+             { if (\$0 !~ /^### 2\\.${sec_next}/ && \$0 !~ /^## 3\\./) print }" \
+             "$LEITORES_ALFA_MD" \
+            | sed 's/^### [0-9.]* /# /; s/^#### /## /' > t_pacote_raw.md
+    fi
+
+    # Remove linhas de fontes internas e limpa
+    grep -v "LEITORES_ALFA_PKG\|Fontes-base do pacote\|Pendente para outra etapa\|\.md)" t_pacote_raw.md \
+        | sed 's/`[0-9]*_[A-Za-z_]*`//' > t_pacote_clean.md
+
+    if [ $(wc -c < t_pacote_clean.md) -gt 50 ]; then
+        pandoc t_pacote_clean.md -f markdown -t latex --top-level-division=section 2>/dev/null \
+            | sed 's/\\label{[^}]*}//g' \
+            | sed 's/\\texttt{[^}]*}//g' > "$outfile"
+    else
+        echo "" > "$outfile"
+    fi
+    rm -f t_pacote_raw.md t_pacote_clean.md
+}
+
 # Função para escapar caracteres especiais do LaTeX
 escape_latex() {
     sed 's/&/\\\&/g; s/%/\\%/g; s/\$/\\\$/g; s/_/\\_/g; s/{/\\{/g; s/}/\\}/g; s/~/\\textasciitilde /g; s/#/\\#/g'
@@ -134,11 +194,14 @@ rm -f t_raw_rank.md t_pan_refined.md
 apply_glossary "$BASE/panorama_nacional.tex"
 apply_links "$BASE/panorama_nacional.tex"
 
-# 3. Expansão Editorial - Leituras Alfa
+# 3. Expansão Editorial - Leituras Alfa (sem seção 2 — vai para cada capítulo de departamento)
 if [ -f "$LEITORES_ALFA_MD" ]; then
-    refine_content_py "$LEITORES_ALFA_MD" t_alfa_refined.md
+    # Remove seção 2 (análises por departamento — inseridas após mapa de cada dept)
+    awk 'BEGIN{skip=0} /^## 2\./ {skip=1} /^## 3\./ {skip=0} !skip {print}' \
+        "$LEITORES_ALFA_MD" > t_alfa_no_sec2.md
+    refine_content_py t_alfa_no_sec2.md t_alfa_refined.md
     pandoc t_alfa_refined.md -f markdown -t latex --top-level-division=chapter -o "$LEITORES_ALFA_TEX"
-    rm -f t_alfa_refined.md
+    rm -f t_alfa_no_sec2.md t_alfa_refined.md
 else
     cat > "$LEITORES_ALFA_TEX" <<'EOF'
 \chapter{Expansão Editorial: Leituras Alfa}
@@ -153,14 +216,22 @@ for dept_dir in $(ls -d Departamentos/*/ | sort); do
     dept_id_raw=$(basename "$dept_dir")
     dept_num=$(echo "$dept_id_raw" | cut -d'_' -f1 | sed 's/^0//') # Remove zero à esquerda para o ifnum do LaTeX
     [ -z "$dept_num" ] && dept_num=0
-    
-    dept_name=$(clean_geo "$dept_id_raw")
+
+    dept_name=$(dept_name_es "$dept_id_raw")
     tex_file="dept_${dept_id_raw}.tex"
-    
-    # Adiciona o mapa grande do departamento com o NOME real e label para link
+
+    # Mapa grande do departamento com nome oficial em espanhol
     echo "\chapter{${dept_name}}\label{dept:${dept_name}}" > "$BASE/$tex_file"
     echo "\mapaparaguai{${dept_num}}{${dept_name}}" >> "$BASE/$tex_file"
-    echo "\vfill" >> "$BASE/$tex_file"
+    echo "\vfill\clearpage" >> "$BASE/$tex_file"
+
+    # Análise documental do departamento (extraída de LEITORES_ALFA.md seção 2)
+    extract_pacote_tex "$dept_id_raw" "$dept_num" t_pacote_dept.tex
+    if [ -s t_pacote_dept.tex ]; then
+        cat t_pacote_dept.tex >> "$BASE/$tex_file"
+        echo "\clearpage" >> "$BASE/$tex_file"
+    fi
+    rm -f t_pacote_dept.tex
 
     for dist_dir in $(ls -d "${dept_dir}"*/ | sort); do
         dados_file="${dist_dir}DADOS.md"
