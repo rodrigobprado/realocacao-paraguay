@@ -22,14 +22,42 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.48 | 5.93 | 5.56 | 4.60 | 3.42 | 3.02 | 3.35 | 4.16 | 4.70 | 5.31 | 6.29 | 6.46 | **4.94** |
+
+**Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.62 | 4.69 | 3.84 | 4.42 | 5.24 | 3.29 | 2.50 | 2.00 | 3.66 | 6.24 | 5.69 | 5.50 | **1573 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 6 — Céu suburbano brilhante |
+| Radiância artificial | 15.0 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia favorável e gestão hídrica eficiente. Presença de arroios perenes de alta qualidade.
 - **Clima:** Subtropical Úmido. Verões quentes; invernos frescos com geadas ocasionais benéficas.
 - Fontes: 
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu); boa estabilidade devido à importância industrial. Nodo de distribuição regional robusto.
 - **Água:** Abundante via poços artesianos profundos e lençol freático produtivo; excelente qualidade hídrica subterrânea.
 - **Qualidade do Solo:** **Latossolo Vermelho de Elite**; solo profundo, estruturado e de fertilidade máxima mundial. Excelente aptidão para soja, milho e trigo.
@@ -38,7 +66,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Uma das cidades rurais mais seguras e prósperas do país. Baixíssima criminalidade urbana. Coesão social fortíssima baseada na cultura produtora. Presença de segurança patrimonial privada de alta performance em todas as instalações agroindustriais.
 - **Leis Local:** Município consolidado e polo de influência no norte do departamento ("Capital do Trabalho"). **Livre de Restrição de Fronteira.**
 - Fontes:
@@ -107,3 +135,70 @@ Altamente indicado para estabelecimentos de autossuficiência tecnificada de alt
 - 4) Registro de segurança pública e governança municipal próspera.
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 0.97 | 7,178 |
+| Gasolina 97 oct (premium) | 1.07 | 7,918 |
+| Diesel | 0.90 | 6,660 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 95% |
+| Cobertura 4G área rural | 88% |
+| Melhor operadora | Tigo/Personal |
+| Qualidade rural | boa |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 85 Mbps |
+| Domicílios com internet (dept.) | 87% |
+| Tecnologia predominante | fibra/cabo |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 14,800 |
+| Imóvel urbano (USD/m²) | 1,400 |
+| Aluguel 2 quartos (USD/mês) | 600 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | não |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~84 km (Ciudad del Este) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Ciudad del Este
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Ciudad del Este. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

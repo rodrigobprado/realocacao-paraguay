@@ -22,14 +22,42 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.68 | 6.08 | 5.46 | 4.44 | 3.41 | 2.94 | 3.33 | 4.15 | 4.84 | 5.56 | 6.36 | 6.59 | **4.99** |
+
+**Inclinação solar recomendada:** 24° N (anual) · 34° N (inverno jun-ago) · 14° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.06 | 4.56 | 4.19 | 3.31 | 2.31 | 0.82 | 0.75 | 0.48 | 0.94 | 2.57 | 3.89 | 4.30 | **980 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 2 — Céu tipicamente escuro |
+| Radiância artificial | 0.3 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação e Seca Severa.** Vulnerabilidade extrema às oscilações do Rio Pilcomayo. Possibilidade de isolamento terrestre total por meses em cheias extraordinárias. Déficit hídrico crítico em períodos de seca prolongada, exigindo gestão de reservatórios (tajamares).
 - **Clima:** Tropical de Savana (Chaco). Verões com calor extremo (>42°C comuns) e radiação solar altíssima.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu) em expansão, mas altamente vulnerável e sujeita a interrupções prolongadas. Uso obrigatório de painéis solares e geradores para autonomia mínima.
 - **Água:** Dependência de poços artesianos (frequentemente salobros), tajamares e captação de águas pluviais (aljibes). Água potável é um recurso escasso que exige investimento em dessalinização ou filtragem massiva.
 - **Qualidade do Solo:** Solo aluvial e argiloso; aptidão para pastagens naturais e gado de corte. Baixa aptidão para agricultura mecanizada sem vultosos investimentos em correção e irrigação.
@@ -38,7 +66,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural excepcionalmente pacífica e segura. Criminalidade urbana inexistente. Estabilidade social máxima sustentada pela cultura da estância e pelo isolamento total. Localidade "invisível" para qualquer conflito sociopolítico nacional.
 - **Leis Local:** Município consolidado. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira argentina (limite tático do Pilcomayo).
 - Fontes:
@@ -107,3 +135,70 @@ Indicado exclusivamente para estabelecimentos de isolamento tático extremo que 
 - 4) Registro de segurança pública departamental.
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 1.05 | 7,770 |
+| Gasolina 97 oct (premium) | 1.15 | 8,510 |
+| Diesel | 0.98 | 7,252 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 60% |
+| Cobertura 4G área rural | 35% |
+| Melhor operadora | Tigo |
+| Qualidade rural | limitada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 25 Mbps |
+| Domicílios com internet (dept.) | 35% |
+| Tecnologia predominante | rádio/satélite |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 2,000 |
+| Imóvel urbano (USD/m²) | 600 |
+| Aluguel 2 quartos (USD/mês) | 250 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | não |
+| IPS (seguro social) | não |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~322 km (Villa Hayes) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Villa Hayes
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Villa Hayes. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

@@ -22,14 +22,42 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.59 | 6.02 | 5.41 | 4.37 | 3.38 | 2.88 | 3.34 | 4.19 | 4.79 | 5.46 | 6.25 | 6.43 | **4.93** |
+
+**Inclinação solar recomendada:** 22° N (anual) · 32° N (inverno jun-ago) · 12° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 3.05 | 4.09 | 2.98 | 2.10 | 1.20 | 0.47 | 0.25 | 0.20 | 0.40 | 1.69 | 2.28 | 2.95 | **659 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 2 — Céu tipicamente escuro |
+| Radiância artificial | 0.2 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** **Risco de Seca Crítica.** Escassez hídrica é o maior desafio regional. Dependência de sistemas de captação pluvial (aljibes), poços profundos e do Aquífero Yrenda. Baixíssimo risco de inundações fluviais, mas vulnerabilidade a inundações repentinas em solos Luvisóis impermeabilizados.
 - **Clima:** Semiárido/Árido (Chaco Boreal). Verões com calor extremo (>45°C) e invernos com noites muito frias e secas. Radiação solar entre as mais altas da América do Sul.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu) e geração própria em unidades militares estratégicas. Uso comum de geradores a diesel e sistemas fotovoltaicos de grande porte.
 - **Água:** **Recurso Estratégico.** Dependência do Aquífero Yrenda (água de boa qualidade em bolsões específicos) e infraestrutura de transporte de água. Captação pluvial é obrigatória para subsistência.
 - **Qualidade do Solo:** Solo argiloso-arenoso fértil, mas limitado pela aridez extrema. Potencial para agricultura mecanizada via irrigação técnica ou pecuária de alto rendimento.
@@ -38,7 +66,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Zona de alta segurança militarizada e ordem estrita. Criminalidade urbana comum praticamente inexistente. Presença marcante de comunidades indígenas e do Exército. Ideal para quem busca isolamento total sob proteção estatal, ciente da vigilância constante e importância militar do alvo.
 - **Leis Local:** Município consolidado com dinâmica social pautada pela segurança nacional e pelo Corredor Bioceânico. **Livre de Restrição de Fronteira.**
 - Fontes:
@@ -107,3 +135,70 @@ Altamente indicado como base de suprimentos pesados ou refúgio tático para per
 - 4) Registro de segurança pública e controle tático de fronteiras.
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 1.12 | 8,288 |
+| Gasolina 97 oct (premium) | 1.22 | 9,028 |
+| Diesel | 1.05 | 7,770 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 55% |
+| Cobertura 4G área rural | 30% |
+| Melhor operadora | Tigo |
+| Qualidade rural | limitada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 28 Mbps |
+| Domicílios com internet (dept.) | 38% |
+| Tecnologia predominante | rádio/satélite |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 1,200 |
+| Imóvel urbano (USD/m²) | 700 |
+| Aluguel 2 quartos (USD/mês) | 300 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | sim |
+| IPS (seguro social) | não |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~86 km (Filadelfia) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Filadelfia
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Filadelfia. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

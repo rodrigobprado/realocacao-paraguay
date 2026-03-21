@@ -12,17 +12,45 @@
 - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 - MOPC (estado de rutas): https://mopc.gov.py/servicios/estado-de-las-rutas/
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.56 | 6.06 | 5.32 | 4.33 | 3.21 | 2.76 | 3.08 | 3.81 | 4.39 | 5.25 | 6.31 | 6.67 | **4.81** |
+
+**Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.73 | 4.40 | 4.42 | 5.85 | 5.13 | 3.56 | 2.82 | 2.34 | 3.50 | 6.38 | 6.25 | 5.57 | **1673 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 5 — Céu suburbano |
+| Radiância artificial | 5.0 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - DMH avisos: https://www.meteorologia.gov.py/avisos/
 - DMH publicacoes: https://www.meteorologia.gov.py/publicaciones/
 - SEN acoes: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - ANDE: https://www.ande.gov.py
 - MOPC: https://mopc.gov.py/
 - SEN (projetos): https://sen.gov.py/acciones/proyectos/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - TSJE institucional: https://www.tsje.gov.py
 - TSJE mapas: https://tsje.gov.py/sedess/mapas.php
 - Portal de dados abertos: https://www.datos.gov.py/
@@ -124,3 +152,70 @@ Uso recomendado como candidato em analise multicriterio, condicionado ao cumprim
 - 12) Dados publicos complementares para verificacao cruzada (Fonte: https://www.datos.gov.py/; acesso: 2026-03-05).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 0.98 | 7,252 |
+| Gasolina 97 oct (premium) | 1.08 | 7,992 |
+| Diesel | 0.91 | 6,734 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 92% |
+| Cobertura 4G área rural | 82% |
+| Melhor operadora | Tigo |
+| Qualidade rural | boa |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 75 Mbps |
+| Domicílios com internet (dept.) | 78% |
+| Tecnologia predominante | fibra/rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 6,900 |
+| Imóvel urbano (USD/m²) | 1,300 |
+| Aluguel 2 quartos (USD/mês) | 550 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | não |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~107 km (Encarnacion) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Encarnacion
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Encarnacion. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

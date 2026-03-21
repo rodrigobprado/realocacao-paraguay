@@ -21,7 +21,29 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+### 3. Dados Climaticos (NASA POWER Climatology API, 2001-2020)
+
+Coordenadas: -27.33°S / -55.87°W. Acesso em 2026-03-20.
+
+**Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 6.56 | 6.11 | 5.31 | 4.26 | 3.15 | 2.69 | 2.99 | 3.69 | 4.36 | 5.27 | 6.39 | 6.73 |
+
+Média anual: 4.79 kWh/m²/dia. Mínimo: Jun (2.69) | Máximo: Dez (6.73).
+
+**Precipitação — PRECTOTCORR (mm/dia → mm/ano ~1.770):**
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 5.02 | 4.41 | 4.81 | 6.21 | 4.73 | 3.73 | 2.97 | 2.89 | 4.05 | 6.94 | 6.35 | 6.05 |
+
+Estação chuvosa Out-Jan; seca Jun-Ago (mínimo em Ago).
+
+**Inclinação solar recomendada:** 27° Norte (anual); 37° no inverno (Jun-Ago); 17° no verão (Nov-Jan). Base: latitude -27.33°S.
+
+### 4. Riscos naturais
 - **Hidrologia:** Protegida por tratamento costeiro (Yacyretá), mas vulnerável a tempestades severas e inundações pontuais em sistemas de drenagem pluvial saturados.
 - **Clima:** Subtropical Úmido. Verões intensos (>40°C) e tempestades com ventos fortes.
 - **Sismicidade:** Baixa. Histórico de eventos menores (intraplaca), sem danos estruturais registrados.
@@ -104,3 +126,70 @@ Recomendada como residência principal para quem busca serviços urbanos, desde 
 - 2) Relatórios de Sismicidade (Geologia del Paraguay).
 - 3) Dados de infraestrutura MOPC (Rutas PY01/PY06).
 - 4) Estatísticas de criminalidad (Ministerio del Interior).
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Capital departamental
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 0.98 | 7,252 |
+| Gasolina 97 oct (premium) | 1.08 | 7,992 |
+| Diesel | 0.91 | 6,734 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 92% |
+| Cobertura 4G área rural | 82% |
+| Melhor operadora | Tigo |
+| Qualidade rural | boa |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 75 Mbps |
+| Domicílios com internet (dept.) | 78% |
+| Tecnologia predominante | fibra/rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 6,900 |
+| Imóvel urbano (USD/m²) | 1,494 |
+| Aluguel 2 quartos (USD/mês) | 660 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | sim |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | local |
+
+**Principais estabelecimentos:** Hospital distrital / regional de Encarnacion; rede de USF e farmacias locais
+
+**Observação para imigrantes:** Centro de referencia do departamento. Acesso a atendimento primario e, em geral, a maior oferta publica e privada da area. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

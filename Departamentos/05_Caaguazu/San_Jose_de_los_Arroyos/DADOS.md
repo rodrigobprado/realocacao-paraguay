@@ -21,14 +21,42 @@
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
     - MOPC: https://mopc.gov.py/servicios/estado-de-las-rutas/
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.74 | 6.20 | 5.50 | 4.48 | 3.35 | 2.88 | 3.21 | 3.96 | 4.59 | 5.43 | 6.43 | 6.81 | **4.96** |
+
+**Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.09 | 4.96 | 4.29 | 4.95 | 4.91 | 2.61 | 2.14 | 1.32 | 2.58 | 5.53 | 6.42 | 5.66 | **1506 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 4 — Céu rural-suburbano |
+| Radiância artificial | 3.0 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** Cruzado por diversos arroios. Baixo risco de inundações graves na zona urbana. Risco moderado de danos em acessos rurais em eventos de chuva extrema.
 - **Sismicidade:** Baixa sismicidade (intraplaca), sem registros significativos locais.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acoes/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Solo:** Alfisois e Ultisois predominantes, fertilidade media a alta.
 - **Agua:** Poços artesianos e sistemas de distribuição local (Juntas de Saneamiento).
 - **Energia:** Rede nacional (ANDE - Itaipu).
@@ -37,7 +65,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Seguranca:** Taxa de homicídios departamental de 3,5/100k hab (2022). Baixa criminalidade urbana.
 - **Clima Social:** Comunidade agrícola tradicional, estabilidade social elevada.
 - Fontes:
@@ -110,3 +138,70 @@ Candidato viável para quem prioriza logística e acesso fácil, desde que possu
 - Dados populacionais validados pelo Censo 2022 (INE).
 - Infraestrutura rodoviária confirmada pelo MOPC.
 - Segurança departamental referenciada pelo Ministério do Interior.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 0.98 | 7,252 |
+| Gasolina 97 oct (premium) | 1.08 | 7,992 |
+| Diesel | 0.91 | 6,734 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 88% |
+| Cobertura 4G área rural | 72% |
+| Melhor operadora | Tigo |
+| Qualidade rural | boa |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 55 Mbps |
+| Domicílios com internet (dept.) | 62% |
+| Tecnologia predominante | rádio/fibra |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 8,800 |
+| Imóvel urbano (USD/m²) | 850 |
+| Aluguel 2 quartos (USD/mês) | 350 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | não |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~38 km (Coronel Oviedo) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Coronel Oviedo
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Coronel Oviedo. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

@@ -22,14 +22,42 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.76 | 6.22 | 5.34 | 4.20 | 3.30 | 2.73 | 3.14 | 3.88 | 4.59 | 5.48 | 6.49 | 6.76 | **4.91** |
+
+**Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.96 | 4.29 | 4.68 | 5.56 | 3.49 | 2.37 | 1.55 | 1.29 | 2.25 | 5.02 | 5.91 | 5.24 | **1419 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 2 — Céu tipicamente escuro |
+| Radiância artificial | 0.5 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Crítico.** Distrito situado no centro da bacia de drenagem dos esteros de Ñeembucú. O solo hidromórfico retém água por longos períodos, tornando as vias de terra intransitáveis em eventos de "El Niño". Abundância hídrica superficial permanente.
 - **Clima:** Subtropical Úmido. Verões intensos e chuvosos; invernos amenos com alta umidade e nevoeiros persistentes.
 - Fontes: 
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu/Yacyretá); altamente instável devido ao isolamento da rede rural e dificuldade de manutenção de acessos.
 - **Água:** Abundante via poços artesianos e águas superficiais (esteros). Qualidade da água superficial exige tratamento para consumo humano.
 - **Qualidade do Solo:** Solo hidromórfico e arenoso; excelente para pastagens naturais e gado de corte. Agricultura mecanizada inviável sem projetos massivos de drenagem.
@@ -38,7 +66,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Localidade excepcionalmente pacífica e segura. Criminalidade urbana inexistente. Estabilidade social máxima baseada na resiliência da população tradicional aos desafios hídricos. Localidade "invisível" para qualquer conflito sociopolítico nacional.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira.**
 - Fontes:
@@ -107,3 +135,70 @@ Altamente indicado para estabelecimentos de refúgio tático que priorizem o iso
 - 4) Registro de segurança pública departamental.
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 0.99 | 7,326 |
+| Gasolina 97 oct (premium) | 1.09 | 8,066 |
+| Diesel | 0.92 | 6,808 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 75% |
+| Cobertura 4G área rural | 50% |
+| Melhor operadora | Tigo |
+| Qualidade rural | moderada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 30 Mbps |
+| Domicílios com internet (dept.) | 40% |
+| Tecnologia predominante | rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 3,000 |
+| Imóvel urbano (USD/m²) | 500 |
+| Aluguel 2 quartos (USD/mês) | 200 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | não |
+| IPS (seguro social) | não |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~1 km (Pilar) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Pilar
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Pilar. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

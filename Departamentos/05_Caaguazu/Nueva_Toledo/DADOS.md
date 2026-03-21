@@ -22,14 +22,42 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.56 | 6.04 | 5.59 | 4.57 | 3.37 | 2.97 | 3.27 | 4.04 | 4.58 | 5.29 | 6.28 | 6.54 | **4.92** |
+
+**Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.32 | 4.90 | 3.91 | 4.93 | 5.62 | 3.09 | 2.36 | 1.64 | 3.45 | 6.00 | 6.16 | 5.55 | **1581 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 4 — Céu rural-suburbano |
+| Radiância artificial | 3.0 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas catastróficas. Presença de arroios locais que exigem atenção apenas em eventos de precipitação extrema. Drenagem natural favorável.
 - **Clima:** Subtropical Úmido. Verões intensos e invernos com entradas ocasionais de ar polar.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu); instável em áreas rurais remotas devido ao isolamento da rede.
 - **Água:** Captação via poços artesianos e sistemas de junta de saneamento local; boa disponibilidade hídrica subterrânea.
 - **Qualidade do Solo:** Latossolo Vermelho (Terra Vermelha); fértil, profundo e bem drenado. Excelente aptidão para soja, milho, trigo e pastagens cultivadas.
@@ -38,7 +66,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural pacífica e estável. Baixíssima criminalidade urbana violenta. Vigilância necessária contra furtos de gado e questões agrárias pontuais ligadas a comunidades indígenas e fronteira agrícola.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira internacional, permitindo plena titularidade para brasileiros.
 - Fontes:
@@ -107,3 +135,73 @@ Altamente indicado para estabelecimentos de autossuficiência de médio porte ou
 - 4) Registro de segurança pública departamental.
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 0.98 | 7,252 |
+| Gasolina 97 oct (premium) | 1.08 | 7,992 |
+| Diesel | 0.91 | 6,734 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 88% |
+| Cobertura 4G área rural | 72% |
+| Melhor operadora | Tigo |
+| Qualidade rural | boa |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 55 Mbps |
+| Domicílios com internet (dept.) | 62% |
+| Tecnologia predominante | rádio/fibra |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 8,800 |
+| Imóvel urbano (USD/m²) | 850 |
+| Aluguel 2 quartos (USD/mês) | 350 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+
+
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024)
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | não |
+| IPS (seguro social) | não |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~80 km (Coronel Oviedo) |
+
+**Principais estabelecimentos:** USF local; farmácias distritais.
+
+**Observação para imigrantes:** Atendimento primário disponível. Casos de maior complexidade encaminhados a Coronel Oviedo. Cobertura privada recomendada; IPS não disponível localmente.
+

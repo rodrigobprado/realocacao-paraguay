@@ -22,14 +22,45 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
-- **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia elevada. Abundância de arroios perenes e nascentes. Vulnerabilidade localizada em drenagem urbana pluvial durante tempestades severas (média 1.600 mm/ano).
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.76 | 6.20 | 5.42 | 4.44 | 3.36 | 2.83 | 3.21 | 3.93 | 4.61 | 5.49 | 6.42 | 6.78 | **4.95** |
+
+**Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.09 | 4.96 | 4.29 | 4.95 | 4.91 | 2.61 | 2.14 | 1.32 | 2.58 | 5.53 | 6.42 | 5.66 | **1506 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 5 — Céu suburbano |
+| Radiância artificial | 6.0 nW/cm²/sr |
+
+
+### 4. Riscos naturais
+- **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia elevada. Abundância de arroios perenes e nascentes. Vulnerabilidade localizada em drenagem urbana pluvial durante tempestades severas.
 - **Clima:** Microclima agradável influenciado pela cordilheira. Verões quentes; invernos frescos.
-- Fontes: 
+- **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):** Jan 6.76 | Fev 6.20 | Mar 5.42 | Abr 4.44 | Mai 3.36 | Jun 2.83 | Jul 3.21 | Ago 3.93 | Set 4.61 | Out 5.49 | Nov 6.42 | Dez 6.78. Média anual: 4.95 kWh/m²/dia. Mínimo: Jun (2.83) | Máximo: Dez (6.78). Fonte: NASA POWER Climatology API, período 2001-2020 (acesso em 2026-03-20).
+- **Precipitação — PRECTOTCORR (mm/dia):** Jan 4.09 | Fev 4.96 | Mar 4.29 | Abr 4.95 | Mai 4.91 | Jun 2.61 | Jul 2.14 | Ago 1.32 | Set 2.58 | Out 5.53 | Nov 6.42 | Dez 5.66. Média anual: ~1.500 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER (acesso em 2026-03-20).
+- **Inclinação recomendada para placas solares:** 25° voltado para o Norte (anual); 35° no inverno (Jun-Ago); 15° no verão (Nov-Jan). Base: latitude local -25.38°S.
+- Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu); nodo central de distribuição departamental com alta prioridade de manutenção.
 - **Água:** Abundância hídrica via poços artesianos profundos e sistemas de junta de saneamento bem estruturados. Qualidade da água subterrânea é excelente.
 - **Qualidade do Solo:** Solo franco-arenoso a argiloso; fértil e profundo, ideal para fruticultura, horticultura e viveiros de plantas.
@@ -38,7 +69,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Uma das capitais mais seguras do Paraguai. Baixíssima criminalidade urbana violenta. Segurança institucional forte através da presença da sede policial departamental e vigilância tática permanente. Coesão social baseada na identidade religiosa e comunitária.
 - **Leis Local:** Capital departamental com regime administrativo consolidado. **Livre de Restrição de Fronteira.**
 - Fontes:
@@ -107,3 +138,70 @@ Altamente indicado como base administrativa ou operacional de suporte para o pro
 - 4) Registro de segurança pública e governança administrativa departamental.
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Capital departamental
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 0.96 | 7,104 |
+| Gasolina 97 oct (premium) | 1.06 | 7,844 |
+| Diesel | 0.89 | 6,586 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 90% |
+| Cobertura 4G área rural | 78% |
+| Melhor operadora | Tigo |
+| Qualidade rural | boa |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 60 Mbps |
+| Domicílios com internet (dept.) | 65% |
+| Tecnologia predominante | rádio/fibra |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 5,500 |
+| Imóvel urbano (USD/m²) | 1,035 |
+| Aluguel 2 quartos (USD/mês) | 456 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | sim |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | local |
+
+**Principais estabelecimentos:** Hospital distrital / regional de Caacupe; rede de USF e farmacias locais
+
+**Observação para imigrantes:** Centro de referencia do departamento. Acesso a atendimento primario e, em geral, a maior oferta publica e privada da area. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

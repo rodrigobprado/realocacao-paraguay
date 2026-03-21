@@ -22,14 +22,42 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.74 | 6.20 | 5.50 | 4.48 | 3.35 | 2.88 | 3.21 | 3.96 | 4.59 | 5.43 | 6.43 | 6.81 | **4.96** |
+
+**Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.22 | 4.82 | 4.21 | 5.08 | 5.55 | 3.01 | 2.43 | 1.68 | 3.07 | 6.04 | 6.33 | 5.37 | **1577 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 4 — Céu rural-suburbano |
+| Radiância artificial | 2.5 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** **Risco de Contaminação Hídrica Severo.** Uso intensivo de mercúrio e cianeto na mineração irregular afeta o Rio Tebicuary-mí e arroios locais. Risco sanitário elevado para consumo de águas superficiais.
 - **Clima:** Subtropical Úmido. Média pluvial de 1.600 mm/ano. Tempestades severas podem causar deslizamentos em áreas de encosta mineradas.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu); instabilidade na rede rural devido à alta demanda de maquinário industrial e minerador.
 - **Água:** Dependência crítica de poços artesianos profundos e protegidos contra contaminação química de superfície.
 - **Qualidade do Solo:** Latossolos Vermelhos (férteis); excelente para erva-mate e cana-de-açúcar, mas degradado em zonas de extração mineral.
@@ -38,7 +66,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** **Zona de Risco Moderado a Alto.** Histórico de conflitos por posse de terras e direitos minerários. Presença de grupos irregulares e aumento de assaltos violentos registrados em 2025/2026. Exige segurança privada robusta e perfil tático defensivo.
 - **Leis Local:** Município consolidado ("Capital do Ouro"). **Livre de Restrição de Fronteira.**
 - Fontes:
@@ -107,3 +135,70 @@ Indicado para estabelecimentos que busquem explorar a riqueza mineral ou agroind
 - 4) Registro de incidentes de segurança pública regional.
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 0.97 | 7,178 |
+| Gasolina 97 oct (premium) | 1.07 | 7,918 |
+| Diesel | 0.90 | 6,660 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 87% |
+| Cobertura 4G área rural | 70% |
+| Melhor operadora | Tigo |
+| Qualidade rural | boa |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 50 Mbps |
+| Domicílios com internet (dept.) | 60% |
+| Tecnologia predominante | rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 7,000 |
+| Imóvel urbano (USD/m²) | 800 |
+| Aluguel 2 quartos (USD/mês) | 320 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | sim |
+| IPS (seguro social) | não |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~57 km (Villarrica) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Villarrica
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Villarrica. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

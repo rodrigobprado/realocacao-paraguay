@@ -1,0 +1,42 @@
+# Resumo Estrategico 03_Cordillera
+
+Data: 2026-03-20
+
+Distritos avaliados: 19
+GSS medio departamental: 7.02
+
+## Big Picture
+- Consolidacao baseada nos dossies distritais existentes (DADOS.md/MEDIA.md) e no ranking departamental.
+- Prioridade de decisao: preservar distritos mais altos no ranking como nos de continuidade operacional.
+
+## Vetores de Ameaça
+- Primero_de_Marzo - GSS 6.4 (maior necessidade de mitigacao)
+- Nueva_Colombia - GSS 6.4 (maior necessidade de mitigacao)
+- Juan_de_Mena - GSS 6.4 (maior necessidade de mitigacao)
+- Isla_Pucu - GSS 6.1 (maior necessidade de mitigacao)
+- Mbocayaty_del_Yhaguy - GSS 6.0 (maior necessidade de mitigacao)
+
+## Autossuficiencia Regional
+- 1. Altos - GSS 8.9
+- 2. San_Jose_de_los_Arroyos - GSS 8.6
+- 3. Eusebio_Ayala - GSS 8.0
+- 4. Caraguatay - GSS 8.0
+- 5. Piribebuy - GSS 7.3
+
+## Nota Operacional
+- Consolidacao feita a partir dos dossies distritais (DADOS.md/MEDIA.md) com criterios operacionais das Ondas 1-3.
+- Priorizacao de continuidade operacional baseada em GSS, sensibilidade e mitigacao.
+
+## Top 5 distritos por GSS
+- 1. Altos - GSS 8.9
+- 2. San_Jose_de_los_Arroyos - GSS 8.6
+- 3. Eusebio_Ayala - GSS 8.0
+- 4. Caraguatay - GSS 8.0
+- 5. Piribebuy - GSS 7.3
+
+## Distritos com maior necessidade de mitigacao
+- Primero_de_Marzo - GSS 6.4
+- Nueva_Colombia - GSS 6.4
+- Juan_de_Mena - GSS 6.4
+- Isla_Pucu - GSS 6.1
+- Mbocayaty_del_Yhaguy - GSS 6.0

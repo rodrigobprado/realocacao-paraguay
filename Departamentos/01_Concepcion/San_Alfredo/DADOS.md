@@ -22,14 +22,42 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.55 | 5.94 | 5.63 | 4.73 | 3.58 | 3.17 | 3.41 | 4.19 | 4.70 | 5.44 | 6.28 | 6.49 | **5.01** |
+
+**Inclinação solar recomendada:** 23° N (anual) · 33° N (inverno jun-ago) · 13° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 5.29 | 5.35 | 3.90 | 4.49 | 3.49 | 2.24 | 1.40 | 0.92 | 2.25 | 4.55 | 6.96 | 5.33 | **1405 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 3 — Céu rural |
+| Radiância artificial | 1.5 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** **Risco Moderado a Alto de Inundação.** Áreas próximas a tributários do Rio Paraguai vulneráveis em períodos de chuvas intensas.
 - **Clima:** Tropical Úmido. Verões quentes com precipitação concentrada.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (ANDE), com melhorias devido à pavimentação da PY22.
 - **Água:** Poços artesianos e proximidade de rios tributários.
 - **Qualidade do Solo:** Solo com boa aptidão para pastagem e silvicultura; potencial agrícola em expansão com correção (presença de calcário na região).
@@ -38,7 +66,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Zona de transição rural. Presença da FTC (Força de Tarefa Conjunta) devido à atuação de grupos armados (EPP) no departamento. Segurança urbana comum considerada estável.
 - **Leis Local:** Município de criação recente (2013). **Restrição de Fronteira (Lei 2532/05):** Proibição de compra de terras rurais por estrangeiros de países limítrofes na faixa de 50km.
 - Fontes:
@@ -104,3 +132,114 @@ Indicado para estabelecimentos rurais de médio/grande porte (fazendas/silvicult
 - 3) Mapa de sismicidade e riscos ambientais (SEN/DMH).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+
+## 14. Informações Técnicas e Infraestrutura (Leitores Alfa)
+
+# Pesquisa Técnica: San Alfredo, Concepción
+
+## 1. Clima e Energia Solar
+- **Sol e Chuva Mensal (Candle Format - Médias):**
+    - [Jan-Mar: 145mm | Max 34°C | Min 23°C]
+    - [Abr-Jun: 100mm | Max 29°C | Min 17°C]
+    - [Jul-Set: 40mm | Max 28°C | Min 14°C]
+    - [Out-Dez: 170mm | Max 33°C | Min 22°C]
+- **Ângulo Solar Ideal:** 23° ao Norte.
+- **Radiação Média:** 5.5 kWh/m²/dia.
+
+## 2. Indicadores Sociais (Censo 2022)
+- **População:** 2.385 habitantes.
+- **Idade Média:** 26 anos.
+- **IDH:** 0.632 (estimado).
+- **Escolaridade:** 7.4 anos (média).
+- **Fertilidade:** 3.0 filhos por mulher.
+- **Saúde:** Puesto de Salud San Alfredo. Referência em Concepción.
+- **Educação:** Ensino básico e médio focado em agropecuária/turismo.
+- **Violência:** Nível baixo; forte integração entre estancieiros e pequenos produtores.
+
+## 3. Serviços e Infraestrutura
+- **Serviços Públicos:** Delegacia local; Brigada de resposta a incêndios (apoio CBVP Concepción).
+- **Água:** Poços artesianos e captação de arroios cristalinos. Profundidade: 100-150 metros.
+- **Internet:** 4G (Personal/Tigo); Starlink em pousadas de ecoturismo.
+- **Energia:** ANDE. Linhas de transmissão ao longo da Ruta PY22.
+
+## 4. Custos e Logística
+- **Residência Urbana:** Gs. 700.000 - 1.200.000 (aluguel).
+- **Residência Rural (Terra):** USD 1.500 - 3.500/hectare (Valorizado pelo ecoturismo/Arroyo Tagatiyá).
+- **Postos:** 2 postos de combustível locais.
+- **Logística:** Rota PY22 pavimentada ligando Concepción a Vallemí.
+
+## 5. Lazer e Comércio
+- **Lazer:** Arroyo Tagatiyá (águas cristalinas), observação de aves, cavalgadas em estâncias.
+- **Comércio:** Pequenos mercados e fornecedores de serviços para o turismo de natureza.
+- **Poluição Luminosa:** Quase nula (Céu de alta qualidade para astrofotografia).
+
+---
+*Dados baseados no Censo INE 2022 e levantamentos técnicos regionais.*
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 1.01 | 7,474 |
+| Gasolina 97 oct (premium) | 1.11 | 8,214 |
+| Diesel | 0.94 | 6,956 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 78% |
+| Cobertura 4G área rural | 55% |
+| Melhor operadora | Tigo |
+| Qualidade rural | moderada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 38 Mbps |
+| Domicílios com internet (dept.) | 48% |
+| Tecnologia predominante | rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 3,500 |
+| Imóvel urbano (USD/m²) | 650 |
+| Aluguel 2 quartos (USD/mês) | 260 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | não |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~73 km (Concepcion) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Concepcion
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Concepcion. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

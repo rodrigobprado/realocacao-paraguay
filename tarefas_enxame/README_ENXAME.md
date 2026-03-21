@@ -7,6 +7,9 @@ Executar em paralelo a criacao de estrutura, pesquisa e populacao de dados por d
 - `TAREFAS_ENXAME.csv`: tarefas atomicas por distrito e por fase.
 - `GUIA_EXECUCAO_AGENTE.md`: instrucoes operacionais para reduzir tokens e padronizar entrega.
 - `PROMPT_BASE_ENXAME.md`: prompt pronto para repassar aos agentes.
+- `TAREFAS_LEITORES_ALFA.csv`: backlog complementar criado a partir das leituras do publico alvo, com tarefas de pais, departamento e localidade.
+- `pacotes_leitores_alfa_19/`: pacotes prontos para execucao por agentes, com 1 pacote de pais e 18 pacotes departamentais.
+- `README_PACOTES_LEITORES_ALFA.md`: ordem de execucao e regras dos pacotes alfa.
 
 ## Fases por distrito
 - `estrutura` (task_id `STR-*`)

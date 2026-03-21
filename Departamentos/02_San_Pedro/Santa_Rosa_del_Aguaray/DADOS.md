@@ -22,14 +22,42 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.60 | 6.02 | 5.62 | 4.65 | 3.48 | 3.07 | 3.35 | 4.15 | 4.72 | 5.46 | 6.29 | 6.53 | **4.99** |
+
+**Inclinação solar recomendada:** 24° N (anual) · 34° N (inverno jun-ago) · 14° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.30 | 5.59 | 3.83 | 4.68 | 4.70 | 2.79 | 1.94 | 1.42 | 3.00 | 5.56 | 6.44 | 5.43 | **1512 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 3 — Céu rural |
+| Radiância artificial | 1.0 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas catastróficas. Áreas ribeirinhas baixas do Rio Aguaray Guazú vulneráveis em tempestades severas (precipitação média 1.300-1.500 mm).
 - **Clima:** Subtropical Úmido. Verões intensos; invernos com entradas bruscas de ar frio.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu); subestação regional local garante maior prioridade em reparos técnicos.
 - **Água:** Abundância hídrica excepcional; proximidade com a Reserva **Laguna Blanca** (águas cristalinas sobre areia calcária).
 - **Qualidade do Solo:** Latossolo Vermelho (Terra Vermelha); profundo e muito fértil, excelente para agricultura mecanizada intensiva.
@@ -38,7 +66,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** **Zona sob Vigilância.** Historicamente inserida em região com presença de grupos insurgentes (EPP), o que motiva patrulhamento ostensivo da FTC e da Polícia Nacional. O núcleo urbano é um polo comercial vigiado e relativamente seguro.
 - **Leis Local:** Município em rápido desenvolvimento e com forte apoio institucional internacional (Coreia do Sul). **Livre de Restrição de Fronteira:** Fora da faixa de 50km da Lei 2532/05, sem restrições para brasileiros.
 - Fontes:
@@ -107,3 +135,70 @@ Ideal para estabelecimentos que buscam integrar alta produtividade agrícola com
 - 4) Dados turísticos e ambientais da Laguna Blanca (MADES).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 1.00 | 7,400 |
+| Gasolina 97 oct (premium) | 1.10 | 8,140 |
+| Diesel | 0.93 | 6,882 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 80% |
+| Cobertura 4G área rural | 58% |
+| Melhor operadora | Tigo |
+| Qualidade rural | moderada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 35 Mbps |
+| Domicílios com internet (dept.) | 45% |
+| Tecnologia predominante | rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 4,600 |
+| Imóvel urbano (USD/m²) | 600 |
+| Aluguel 2 quartos (USD/mês) | 250 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | sim |
+| IPS (seguro social) | não |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~80 km (San Pedro de Ycuamandiyu) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em San Pedro de Ycuamandiyu
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para San Pedro de Ycuamandiyu. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

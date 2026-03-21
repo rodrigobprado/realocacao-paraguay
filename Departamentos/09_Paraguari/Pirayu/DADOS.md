@@ -22,14 +22,42 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.76 | 6.20 | 5.42 | 4.44 | 3.36 | 2.83 | 3.21 | 3.93 | 4.61 | 5.49 | 6.42 | 6.78 | **4.95** |
+
+**Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 | **1477 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 3 — Céu rural |
+| Radiância artificial | 1.5 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** Diversos arroios cruzam o distrito (ex: Arroyo Pirayú). Baixo risco de inundações sistêmicas catastróficas. Drenagem natural facilitada pela topografia de encosta.
 - **Clima:** Subtropical Úmido. Microclima agradável influenciado pelas serras circundantes.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu); boa estabilidade devido à proximidade metropolitana.
 - **Água:** Abundante via poços artesianos e juntas de saneamento local; presença de mananciais de água pura nas encostas.
 - **Qualidade do Solo:** Solo franco-arenoso a argiloso; fértil e profundo, ideal para fruticultura, mandioca e pastagens cultivadas.
@@ -38,7 +66,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Zona extremamente tranquila e pacífica. Paraguarí mantém baixos índices de criminalidade. Coesão social fortíssima baseada na preservação cultural e hospitalidade.
 - **Leis Local:** Município histórico e consolidado ("Cuna del Ñandutí"). **Livre de Restrição de Fronteira.**
 - Fontes:
@@ -107,3 +135,70 @@ Altamente indicado para residências rurais de lazer ou estabelecimentos de auto
 - 4) Registro de segurança pública departamental.
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 0.97 | 7,178 |
+| Gasolina 97 oct (premium) | 1.07 | 7,918 |
+| Diesel | 0.90 | 6,660 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 88% |
+| Cobertura 4G área rural | 72% |
+| Melhor operadora | Tigo |
+| Qualidade rural | boa |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 50 Mbps |
+| Domicílios com internet (dept.) | 58% |
+| Tecnologia predominante | rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 4,500 |
+| Imóvel urbano (USD/m²) | 700 |
+| Aluguel 2 quartos (USD/mês) | 280 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | não |
+| IPS (seguro social) | não |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~22 km (Paraguari) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Paraguari
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Paraguari. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

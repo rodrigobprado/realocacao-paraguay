@@ -12,17 +12,45 @@
 - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 - MOPC (estado de rutas): https://mopc.gov.py/servicios/estado-de-las-rutas/
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.68 | 6.07 | 5.58 | 4.63 | 3.47 | 3.00 | 3.30 | 4.09 | 4.68 | 5.49 | 6.34 | 6.61 | **5.0** |
+
+**Inclinação solar recomendada:** 23° N (anual) · 33° N (inverno jun-ago) · 13° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 5.33 | 5.55 | 3.79 | 4.45 | 3.61 | 2.37 | 1.49 | 1.02 | 2.43 | 4.71 | 6.83 | 5.32 | **1428 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 3 — Céu rural |
+| Radiância artificial | 1.5 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - DMH avisos: https://www.meteorologia.gov.py/avisos/
 - DMH publicacoes: https://www.meteorologia.gov.py/publicaciones/
 - SEN acoes: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - ANDE: https://www.ande.gov.py
 - MOPC: https://mopc.gov.py/
 - SEN (projetos): https://sen.gov.py/acciones/proyectos/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - TSJE institucional: https://www.tsje.gov.py
 - TSJE mapas: https://tsje.gov.py/sedess/mapas.php
 - Dados abertos: https://www.datos.gov.py/
@@ -121,3 +149,114 @@ Uso recomendado como candidato em analise multicriterio, condicionado ao cumprim
 - 12) Dados publicos complementares para verificacao cruzada (Fonte: https://www.datos.gov.py/; acesso: 2026-03-05).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+
+## 14. Informações Técnicas e Infraestrutura (Leitores Alfa)
+
+# Pesquisa Técnica: Paso Barreto, Concepción
+
+## 1. Clima e Energia Solar
+- **Sol e Chuva Mensal (Candle Format - Médias):**
+    - [Jan-Mar: 145mm | Max 34°C | Min 23°C]
+    - [Abr-Jun: 100mm | Max 29°C | Min 17°C]
+    - [Jul-Set: 40mm | Max 28°C | Min 14°C]
+    - [Out-Dez: 170mm | Max 33°C | Min 22°C]
+- **Ângulo Solar Ideal:** 23° ao Norte.
+- **Radiação Média:** 5.5 kWh/m²/dia.
+
+## 2. Indicadores Sociais (Censo 2022)
+- **População:** 3.988 habitantes.
+- **Idade Média:** 25 anos.
+- **IDH:** 0.635 (estimado).
+- **Escolaridade:** 7.5 anos (média).
+- **Fertilidade:** 2.9 filhos por mulher.
+- **Saúde:** Puesto de Salud Paso Barreto. Referência em Concepción.
+- **Educação:** Escolas rurais de nível básico e médio.
+- **Violência:** Nível baixo; região de grandes estâncias ganadeiras.
+
+## 3. Serviços e Infraestrutura
+- **Serviços Públicos:** Delegacia local; Apoio de Bombeiros de Concepción.
+- **Água:** Poços artesianos em estâncias e núcleos urbanos. Profundidade: 100-160 metros.
+- **Internet:** 3G/4G restrito ao núcleo urbano e sedes de estâncias; Starlink em uso nas grandes propriedades.
+- **Energia:** ANDE. Frequentemente instável em áreas rurais remotas.
+
+## 4. Custos e Logística
+- **Residência Urbana:** Gs. 600.000 - 1.200.000 (aluguel simples).
+- **Residência Rural (Terra):** USD 1.300 - 2.800/hectare (Perfil ganadeiro extensivo).
+- **Postos:** 1 posto de combustível local.
+- **Logística:** Rio Aquidabán (turismo/logística local); Acesso via estrada de terra cascalhada ligando à PY05.
+
+## 5. Lazer e Comércio
+- **Lazer:** Praias fluviais do Rio Aquidabán, pesca, vida rural.
+- **Comércio:** Fornecedores de insumos para pecuária e veterinárias.
+- **Poluição Luminosa:** Quase nula (Céu profundo).
+
+---
+*Dados baseados no Censo INE 2022 e levantamentos técnicos regionais.*
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 1.01 | 7,474 |
+| Gasolina 97 oct (premium) | 1.11 | 8,214 |
+| Diesel | 0.94 | 6,956 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 78% |
+| Cobertura 4G área rural | 55% |
+| Melhor operadora | Tigo |
+| Qualidade rural | moderada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 38 Mbps |
+| Domicílios com internet (dept.) | 48% |
+| Tecnologia predominante | rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 3,500 |
+| Imóvel urbano (USD/m²) | 650 |
+| Aluguel 2 quartos (USD/mês) | 260 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | não |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~65 km (Concepcion) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Concepcion
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Concepcion. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

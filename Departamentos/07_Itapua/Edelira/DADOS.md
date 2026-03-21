@@ -12,16 +12,44 @@
 - Densidade: ~21 hab/km2.
 - Conectividade: Transformacao recente com a pavimentacao Edelira Km 28 - Km 65.2 (44 km), conectando a PY06 aos portos do Rio Parana.
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.56 | 6.11 | 5.31 | 4.26 | 3.15 | 2.69 | 2.99 | 3.69 | 4.36 | 5.27 | 6.39 | 6.73 | **4.79** |
+
+**Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 5.02 | 4.41 | 4.81 | 6.21 | 4.73 | 3.73 | 2.97 | 2.89 | 4.05 | 6.94 | 6.35 | 6.05 | **1770 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 5 — Céu suburbano |
+| Radiância artificial | 5.0 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - Sismicidade: Muito baixa (regiao intraplaca estavel).
 - Clima: Subtropical umido; apto para agricultura intensiva durante todo o ano.
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - Solo: Alta fertilidade, ideal para soja, trigo, milho e yerba mate.
 - Producao: Grande polo de producao mecanizada e cooperativista.
 - Agua: Abundante em aquiferos locais.
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - Segurança: Alerta para incidentes de assaltos a mao armada em comercios e areas rurais. Conflitos historicos por tenencia de terra em areas isoladas.
 - Gestao: Melhoria na resposta policial com novas patrulhas entregues em 2024 e 2026.
 
@@ -90,3 +118,70 @@ Recomendado para operacoes logisticas e agronegocio de grande escala. GSS 6.6.
 - 2) Relatorios de seguranca local (2024/2026).
 - 3) Dados MOPC sobre pavimentacao asfáltica.
 - 4) Melhorias no Centro de Saude (masencarnacion.com 2026).
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 0.98 | 7,252 |
+| Gasolina 97 oct (premium) | 1.08 | 7,992 |
+| Diesel | 0.91 | 6,734 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 92% |
+| Cobertura 4G área rural | 82% |
+| Melhor operadora | Tigo |
+| Qualidade rural | boa |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 75 Mbps |
+| Domicílios com internet (dept.) | 78% |
+| Tecnologia predominante | fibra/rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 6,900 |
+| Imóvel urbano (USD/m²) | 1,300 |
+| Aluguel 2 quartos (USD/mês) | 550 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | não |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~4 km (Encarnacion) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Encarnacion
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Encarnacion. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

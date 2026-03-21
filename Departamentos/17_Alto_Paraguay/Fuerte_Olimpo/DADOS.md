@@ -22,14 +22,36 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+### 3. Dados Climaticos (NASA POWER Climatology API, 2001-2020)
+
+Coordenadas: -21.04°S / -57.87°W. Acesso em 2026-03-20.
+
+**Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 6.43 | 5.94 | 5.66 | 4.87 | 3.73 | 3.33 | 3.58 | 4.35 | 4.83 | 5.51 | 6.31 | 6.42 |
+
+Média anual: 5.08 kWh/m²/dia. Mínimo: Jun (3.33) | Máximo: Jan (6.43).
+
+**Precipitação — PRECTOTCORR (mm/dia → mm/ano ~1.005):**
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 3.94 | 4.75 | 3.21 | 2.60 | 2.58 | 1.34 | 0.85 | 0.50 | 1.38 | 3.19 | 4.71 | 4.14 |
+
+Estação chuvosa Nov-Fev; seca Jun-Set (mínimo absoluto em Ago). Regime sub-úmido do Chaco Boreal.
+
+**Inclinação solar recomendada:** 21° Norte (anual); 31° no inverno (Jun-Ago); 11° no verão (Nov-Jan). Base: latitude -21.04°S.
+
+### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Moderado.** Vulnerabilidade às cheias extraordinárias do Rio Paraguai. A zona urbana possui sistema de muros e canais de proteção. Solo com drenagem lenta nas áreas de baixada.
 - **Clima:** Tropical de Savana. Verões extremamente quentes (>42°C); invernos amenos. Radiação solar intensa.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu) via longas linhas rurais, sujeita a interrupções. Uso comum de sistemas fotovoltaicos e geradores em estâncias e serviços públicos.
 - **Água:** Abundância hídrica superficial (Rio Paraguai) e poços artesianos. Água subterrânea em profundidade é geralmente de boa qualidade no Aquífero Yrenda.
 - **Qualidade do Solo:** Solo aluvial e argiloso; excelente para pastagens naturais e pecuária de corte. Agricultura mecanizada limitada pela escala e logística.
@@ -38,7 +60,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Zona de fronteira fluvial pacífica e segura. Criminalidade urbana praticamente nula. Estabilidade institucional alta garantida pela presença da sede governamental e forças navais. Coesão social forjada pelo isolamento compartilhado.
 - **Leis Local:** Capital departamental. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira brasileira (limite fluvial).
 - Fontes:
@@ -107,3 +129,70 @@ Altamente indicado para residências de isolamento tático extremo ou bases de i
 - 4) Registro de segurança pública e governança capital regional.
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Capital departamental
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 1.18 | 8,732 |
+| Gasolina 97 oct (premium) | 1.28 | 9,472 |
+| Diesel | 1.10 | 8,140 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 35% |
+| Cobertura 4G área rural | 15% |
+| Melhor operadora | Tigo |
+| Qualidade rural | limitada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 15 Mbps |
+| Domicílios com internet (dept.) | 22% |
+| Tecnologia predominante | satélite |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 600 |
+| Imóvel urbano (USD/m²) | 459 |
+| Aluguel 2 quartos (USD/mês) | 192 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | sim |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | local |
+
+**Principais estabelecimentos:** Hospital distrital / regional de Fuerte Olimpo; rede de USF e farmacias locais
+
+**Observação para imigrantes:** Centro de referencia do departamento. Acesso a atendimento primario e, em geral, a maior oferta publica e privada da area. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

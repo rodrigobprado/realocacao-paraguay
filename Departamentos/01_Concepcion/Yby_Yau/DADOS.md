@@ -22,14 +22,42 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.44 | 5.92 | 5.66 | 4.74 | 3.62 | 3.27 | 3.51 | 4.32 | 4.78 | 5.46 | 6.22 | 6.37 | **5.03** |
+
+**Inclinação solar recomendada:** 23° N (anual) · 33° N (inverno jun-ago) · 13° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 5.73 | 6.48 | 3.81 | 4.42 | 3.90 | 2.65 | 1.61 | 1.40 | 2.78 | 5.13 | 6.33 | 5.60 | **1517 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 3 — Céu rural |
+| Radiância artificial | 1.5 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** Diversos arroios cruzam o distrito. Baixo risco de inundações em comparação com distritos ribeirinhos. Saneamento básico em fase de expansão.
 - **Clima:** Subtropical Úmido. Precipitação anual de 1.400-1.600 mm.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu). Importante subestação de distribuição regional.
 - **Água:** Poços artesianos e arroios locais perenes.
 - **Qualidade do Solo:** Latossolos vermelhos e solos arenosos; profundos e mecanizáveis, exigem correção para alta produtividade.
@@ -38,7 +66,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** **Risco Crítico.** Zona de "hotspot" para narcotráfico (corredor Bolívia-Amambay-Brasil) e presença histórica do EPP (Ejército del Pueblo Paraguayo). Taxa de homicídios regional de 15-20/100k. Exige segurança privada robusta e perfil tático.
 - **Leis Local:** Município fora da restrição absoluta da Lei de Fronteira (distância > 50km da linha seca), facilitando a titularidade para estrangeiros.
 - Fontes:
@@ -106,3 +134,114 @@ Ideal para operações agroindustriais de larga escala que possam arcar com cust
 - 4) Jurisprudência sobre a Lei de Fronteira (2532/05).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+
+## 14. Informações Técnicas e Infraestrutura (Leitores Alfa)
+
+# Pesquisa Técnica: Yby Yaú, Concepción
+
+## 1. Clima e Energia Solar
+- **Sol e Chuva Mensal (Candle Format - Médias):**
+    - [Jan-Mar: 155mm | Max 34°C | Min 23°C]
+    - [Abr-Jun: 110mm | Max 29°C | Min 17°C]
+    - [Jul-Set: 50mm | Max 28°C | Min 15°C]
+    - [Out-Dez: 180mm | Max 33°C | Min 22°C]
+- **Ângulo Solar Ideal:** 23° ao Norte.
+- **Radiação Média:** 5.5 kWh/m²/dia.
+
+## 2. Indicadores Sociais (Censo 2022)
+- **População:** 19.468 habitantes.
+- **Idade Média:** 25 anos.
+- **IDH:** 0.650 (estimado).
+- **Escolaridade:** 8.4 anos (média urbana comercial).
+- **Fertilidade:** 2.7 filhos por mulher.
+- **Saúde:** Centro de Salud Yby Yaú; forte rede de farmácias e laboratórios privados.
+- **Educação:** Escolas de nível médio e centros de formação técnica em comércio e agricultura.
+- **Violência:** Nível moderado; cidade de trânsito intenso e fluxo comercial fronteiriço.
+
+## 3. Serviços e Infraestrutura
+- **Serviços Públicos:** Comisaría 7ª Yby Yaú; **Bombeiros CBVP K75 (Primeira Cia Departamental)**.
+- **Água:** Juntas de Saneamento. Poços artesianos: 100-150 metros.
+- **Internet:** Fibra ótica (Personal/Tigo/Giganet); 4G pleno em todo o perímetro urbano e rodovias.
+- **Energia:** ANDE. Subestação regional importante atendendo o entroncamento logístico.
+
+## 4. Custos e Logística
+- **Residência Urbana:** Gs. 1.200.000 - 2.500.000 (aluguel comercial/residencial).
+- **Residência Rural (Terra):** USD 2.500 - 5.500/hectare (Vocações comerciais e agrícolas de soja).
+- **Postos:** +10 postos de combustível (Petropar/Shell/Copetrol/Puma/Enex).
+- **Logística:** Entroncamento das Rutas PY03 e PY05; ponto crítico de conexão entre Concepción e Pedro Juan Caballero.
+
+## 5. Lazer e Comércio
+- **Lazer:** Praças centrais vibrantes, festivais folclóricos, Cerro Memby (proximidade - escalada e turismo).
+- **Comércio:** Polo comercial de atacados, agências bancárias, lojas de eletrônicos e insumos de fronteira.
+- **Poluição Luminosa:** Média-Alta (Centro comercial operando com iluminação intensiva).
+
+---
+*Dados baseados no Censo INE 2022 e levantamentos técnicos regionais.*
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 1.01 | 7,474 |
+| Gasolina 97 oct (premium) | 1.11 | 8,214 |
+| Diesel | 0.94 | 6,956 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 78% |
+| Cobertura 4G área rural | 55% |
+| Melhor operadora | Tigo |
+| Qualidade rural | moderada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 38 Mbps |
+| Domicílios com internet (dept.) | 48% |
+| Tecnologia predominante | rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 3,500 |
+| Imóvel urbano (USD/m²) | 650 |
+| Aluguel 2 quartos (USD/mês) | 260 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | não |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~130 km (Concepcion) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Concepcion
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Concepcion. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

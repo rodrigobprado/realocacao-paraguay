@@ -22,7 +22,35 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.74 | 6.20 | 5.50 | 4.48 | 3.35 | 2.88 | 3.21 | 3.96 | 4.59 | 5.43 | 6.43 | 6.81 | **4.96** |
+
+**Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.22 | 4.82 | 4.21 | 5.08 | 5.55 | 3.01 | 2.43 | 1.68 | 3.07 | 6.04 | 6.33 | 5.37 | **1577 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 1 — Céu verdadeiramente escuro |
+| Radiância artificial | 0.1 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Sazonal.** Localidade margeada pelo Rio Paraguai, vulnerável a cheias extraordinárias. Obras de defesa costeira em andamento. Risco de incêndios florestais em períodos de seca no Chaco.
 - **Clima:** Tropical Úmido/Seco. Verões com calor extremo. Déficit hídrico é o principal desafio agrícola.
 - **Sismicidade:** Risco baixo; região estável com eventos intraplaca raros e de baixa magnitude (<4.0 Richter).
@@ -30,7 +58,7 @@
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu) em fase de reforço para atender ao novo hub logístico.
 - **Água:** Rio Paraguai e sistemas de tratamento local.
 - **Qualidade do Solo:** Solos aluviais ricos em fósforo; desafios de drenagem e salinidade. Potencial agrícola em expansão (soja, milho, algodão) com manejo adequado.
@@ -39,7 +67,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Zona de fronteira em transformação. Baixa criminalidade urbana violenta tradicional, mas com desafios crescentes ligados ao fluxo internacional de carga. Coesão social desafiada pelo rápido crescimento populacional e migratório.
 - **Leis Local:** Município consolidado e foco prioritário de investimentos nacionais. **Restrição de Fronteira (Lei 2532/05):** Estrangeiros de países limítrofes não podem possuir terras em faixa de 50km da fronteira sem decreto de interesse público.
 - Fontes:
@@ -128,3 +156,70 @@ Uso recomendado para perfis que buscam valorização estratégica e autossufici�
 - 6) Restrições legais de fronteira - Lei 2532/05 (Fonte: https://www.datos.gov.py/; acesso: 2026-03-06).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 1.18 | 8,732 |
+| Gasolina 97 oct (premium) | 1.28 | 9,472 |
+| Diesel | 1.10 | 8,140 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 35% |
+| Cobertura 4G área rural | 15% |
+| Melhor operadora | Tigo |
+| Qualidade rural | limitada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 15 Mbps |
+| Domicílios com internet (dept.) | 22% |
+| Tecnologia predominante | satélite |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 600 |
+| Imóvel urbano (USD/m²) | 400 |
+| Aluguel 2 quartos (USD/mês) | 160 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | não |
+| IPS (seguro social) | não |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~641 km (Fuerte Olimpo) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Fuerte Olimpo
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Fuerte Olimpo. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

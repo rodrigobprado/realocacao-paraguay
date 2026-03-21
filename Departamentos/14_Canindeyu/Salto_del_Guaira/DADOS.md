@@ -22,14 +22,36 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+### 3. Dados Climaticos (NASA POWER Climatology API, 2001-2020)
+
+Coordenadas: -24.06°S / -54.33°W. Acesso em 2026-03-20.
+
+**Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 6.48 | 5.93 | 5.56 | 4.60 | 3.43 | 3.02 | 3.35 | 4.16 | 4.70 | 5.31 | 6.29 | 6.46 |
+
+Média anual: 4.94 kWh/m²/dia. Mínimo: Jun (3.02) | Máximo: Jan (6.48).
+
+**Precipitação — PRECTOTCORR (mm/dia → mm/ano ~1.464):**
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 4.42 | 4.71 | 3.28 | 3.68 | 4.50 | 2.74 | 2.08 | 2.26 | 3.10 | 5.70 | 5.63 | 6.07 |
+
+Estação chuvosa Out-Dez; seca Jul-Ago (mínimo em Jul).
+
+**Inclinação solar recomendada:** 24° Norte (anual); 34° no inverno (Jun-Ago); 14° no verão (Nov-Jan). Base: latitude -24.06°S.
+
+### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia elevada em relação ao reservatório. Vulnerabilidade localizada em drenagem urbana pluvial e áreas ribeirinhas baixas durante tempestades severas (média 1.700 mm/ano).
 - **Clima:** Subtropical Úmido. Verões intensos com ondas de calor significativas.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu); posição privilegiada próxima à fonte geradora, garantindo prioridade de rede, embora dependente da estabilidade nacional.
 - **Água:** Captação mista via Rio Paraná e poços artesianos profundos (Aquífero Guarani).
 - **Qualidade do Solo:** Solo franco-argiloso fértil; aptidão para agricultura mecanizada e pastagens nas zonas rurais do distrito.
@@ -38,7 +60,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Cidade dinâmica com criminalidade urbana presente (furtos/contrabando). Centro de gravidade para operações de segurança nacional e inteligência de fronteira. Estabilidade institucional alta por ser capital departamental e polo econômico vital.
 - **Leis Local:** Regime administrativo de fronteira. **Livre de Restrição de Fronteira** para propriedades urbanas centrais, mas restrições vigentes em áreas rurais limítrofes (Lei 2532/05).
 - Fontes:
@@ -107,3 +129,70 @@ Indicado como hub logístico ou base de suporte comercial. Para moradia, recomen
 - 4) Registro de investimentos imobiliários e desenvolvimento urbano capital.
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Capital departamental
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 1.00 | 7,400 |
+| Gasolina 97 oct (premium) | 1.10 | 8,140 |
+| Diesel | 0.93 | 6,882 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 78% |
+| Cobertura 4G área rural | 55% |
+| Melhor operadora | Tigo |
+| Qualidade rural | moderada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 35 Mbps |
+| Domicílios com internet (dept.) | 45% |
+| Tecnologia predominante | rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 7,500 |
+| Imóvel urbano (USD/m²) | 747 |
+| Aluguel 2 quartos (USD/mês) | 312 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | sim |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | local |
+
+**Principais estabelecimentos:** Hospital distrital / regional de Salto del Guaira; rede de USF e farmacias locais
+
+**Observação para imigrantes:** Centro de referencia do departamento. Acesso a atendimento primario e, em geral, a maior oferta publica e privada da area. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

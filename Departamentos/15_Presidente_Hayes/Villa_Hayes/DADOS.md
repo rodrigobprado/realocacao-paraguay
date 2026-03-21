@@ -22,14 +22,36 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+### 3. Dados Climaticos (NASA POWER Climatology API, 2001-2020)
+
+Coordenadas: -25.10°S / -57.57°W. Acesso em 2026-03-20.
+
+**Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 6.76 | 6.20 | 5.42 | 4.44 | 3.36 | 2.83 | 3.21 | 3.93 | 4.61 | 5.49 | 6.42 | 6.78 |
+
+Média anual: 4.95 kWh/m²/dia. Mínimo: Jun (2.83) | Máximo: Dez (6.78).
+
+**Precipitação — PRECTOTCORR (mm/dia → mm/ano ~1.460):**
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 3.98 | 5.28 | 4.20 | 4.77 | 4.60 | 2.36 | 1.90 | 1.08 | 2.32 | 5.20 | 6.56 | 5.87 |
+
+Estação chuvosa Out-Nov; seca Jul-Ago (mínimo em Ago).
+
+**Inclinação solar recomendada:** 25° Norte (anual); 35° no inverno (Jun-Ago); 15° no verão (Nov-Jan). Base: latitude -25.10°S.
+
+### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Moderado.** Vulnerável às cheias sazonais do Rio Paraguai e pântanos do Bajo Chaco. Sistemas de drenagem urbana sob pressão em eventos extremos (média 1.500 mm/ano).
 - **Clima:** Tropical Úmido/Seco. Verões com calor extremo (>42°C comuns) e alta radiação solar.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu). Ponto de recepção nevrálgico; alta prioridade de manutenção tática da rede elétrica nacional.
 - **Água:** Captação fluvial tratada (ESSAP) e abundância de poços artesianos profundos.
 - **Qualidade do Solo:** Solo aluvial e argiloso; fértil para pastagens e agricultura de subsistência em áreas drenadas.
@@ -38,7 +60,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Cidade industrial e administrativa com índices de criminalidade urbana típicos de zonas de transição metropolitana. Segurança institucional forte através da presença de comandos militares e polícia nacional ostensiva. Coesão social baseada na atividade industrial e tradição regionalista.
 - **Leis Local:** Capital departamental. **Livre de Restrição de Fronteira** em zonas urbanas, mas vigilância em zonas rurais ribeirinhas (Lei 2532/05).
 - Fontes:
@@ -107,3 +129,70 @@ Altamente indicado como base logística ou administrativa de suporte. Para resid
 - 4) Registro de segurança pública e governança administrativa departamental.
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Capital departamental
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 1.05 | 7,770 |
+| Gasolina 97 oct (premium) | 1.15 | 8,510 |
+| Diesel | 0.98 | 7,252 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 60% |
+| Cobertura 4G área rural | 35% |
+| Melhor operadora | Tigo |
+| Qualidade rural | limitada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 25 Mbps |
+| Domicílios com internet (dept.) | 35% |
+| Tecnologia predominante | rádio/satélite |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 2,000 |
+| Imóvel urbano (USD/m²) | 690 |
+| Aluguel 2 quartos (USD/mês) | 300 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | sim |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | local |
+
+**Principais estabelecimentos:** Hospital distrital / regional de Villa Hayes; rede de USF e farmacias locais
+
+**Observação para imigrantes:** Centro de referencia do departamento. Acesso a atendimento primario e, em geral, a maior oferta publica e privada da area. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

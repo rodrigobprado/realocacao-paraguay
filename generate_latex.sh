@@ -3,6 +3,8 @@ BASE="livro_latex/capitulos"
 LISTA_DEP="livro_latex/capitulos/lista_departamentos.tex"
 APENDICE="$BASE/apendice_referencias.tex"
 RAW_SOURCES="livro_latex/raw_sources.txt"
+LEITORES_ALFA_MD="tarefas_enxame/entregaveis_livro/LEITORES_ALFA.md"
+LEITORES_ALFA_TEX="$BASE/leitores_alfa.tex"
 
 # Inicialização
 echo "" > "$RAW_SOURCES"
@@ -123,7 +125,19 @@ rm -f t_raw_rank.md
 apply_glossary "$BASE/panorama_nacional.tex"
 apply_links "$BASE/panorama_nacional.tex"
 
-# 3. Departamentos
+# 3. Expansão Editorial - Leituras Alfa
+if [ -f "$LEITORES_ALFA_MD" ]; then
+    pandoc "$LEITORES_ALFA_MD" -f markdown -t latex --top-level-division=chapter -o "$LEITORES_ALFA_TEX"
+else
+    cat > "$LEITORES_ALFA_TEX" <<'EOF'
+\chapter{Expansão Editorial: Leituras Alfa}
+\label{cap:leitores-alfa}
+
+Este capítulo prepara a próxima etapa editorial do livro a partir das leituras feitas com o público-alvo.
+EOF
+fi
+
+# 4. Departamentos
 for dept_dir in $(ls -d Departamentos/*/ | sort); do
     dept_id_raw=$(basename "$dept_dir")
     dept_num=$(echo "$dept_id_raw" | cut -d'_' -f1 | sed 's/^0//') # Remove zero à esquerda para o ifnum do LaTeX
@@ -233,7 +247,7 @@ pandoc t_final_refs.md -f markdown -t latex >> "$APENDICE"
 rm -f "$RAW_SOURCES" t_final_refs.md t_metod.md t_pan.md
 
 # LIMPEZA FINAL
-for f in $BASE/dept_*.tex $BASE/metodologia.tex $BASE/panorama_nacional.tex $APENDICE; do
+for f in $BASE/dept_*.tex $BASE/metodologia.tex $BASE/panorama_nacional.tex $LEITORES_ALFA_TEX $APENDICE; do
     [ ! -f "$f" ] && continue
     sed -i 's/ não / não /g' "$f"
     sed -i 's/ não\./ não./g' "$f"

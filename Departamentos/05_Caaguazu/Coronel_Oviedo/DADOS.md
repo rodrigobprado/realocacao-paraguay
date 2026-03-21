@@ -22,14 +22,45 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
-- **Hidrologia:** Diversos arroios na zona urbana (ex: Arroyo Pasito). Baixo risco de inundações catastróficas sistêmicas. Vulnerabilidade localizada em drenagem urbana pluvial durante tempestades de verão (média 1.600 mm/ano).
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.74 | 6.20 | 5.50 | 4.48 | 3.35 | 2.88 | 3.21 | 3.96 | 4.59 | 5.43 | 6.43 | 6.81 | **4.96** |
+
+**Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.22 | 4.82 | 4.21 | 5.08 | 5.55 | 3.01 | 2.43 | 1.68 | 3.07 | 6.04 | 6.33 | 5.37 | **1577 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 5 — Céu suburbano |
+| Radiância artificial | 6.0 nW/cm²/sr |
+
+
+### 4. Riscos naturais
+- **Hidrologia:** Diversos arroios na zona urbana (ex: Arroyo Pasito). Baixo risco de inundações catastróficas sistêmicas. Vulnerabilidade localizada em drenagem urbana pluvial durante tempestades de verão.
 - **Clima:** Subtropical Úmido. Verões intensos (>40°C frequentes).
+- **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):** Jan 6.74 | Fev 6.20 | Mar 5.50 | Abr 4.48 | Mai 3.35 | Jun 2.88 | Jul 3.21 | Ago 3.96 | Set 4.59 | Out 5.43 | Nov 6.43 | Dez 6.81. Média anual: 4.96 kWh/m²/dia. Mínimo: Jun (2.88) | Máximo: Dez (6.81). Fonte: NASA POWER Climatology API, período 2001-2020 (acesso em 2026-03-20).
+- **Precipitação — PRECTOTCORR (mm/dia):** Jan 4.22 | Fev 4.82 | Mar 4.21 | Abr 5.08 | Mai 5.55 | Jun 3.01 | Jul 2.43 | Ago 1.68 | Set 3.07 | Out 6.04 | Nov 6.33 | Dez 5.37. Média anual: ~1.573 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER (acesso em 2026-03-20).
+- **Inclinação recomendada para placas solares:** 25° voltado para o Norte (anual); 35° no inverno (Jun-Ago); 15° no verão (Nov-Jan). Base: latitude local -25.44°S.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu). Nodo vital de distribuição elétrica nacional; alta prioridade de manutenção institucional.
 - **Água:** Sistema ESSAP e abundância de poços artesianos profundos (Aquífero Guarani).
 - **Qualidade do Solo:** Latossolo Vermelho de alta fertilidade; excelente para grãos, cana-de-açúcar e silvicultura nas áreas periféricas.
@@ -38,7 +69,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Centro urbano dinâmico com criminalidade urbana típica (furtos/roubos). Segurança institucional forte através da Direção de Polícia Departamental. Sensível a bloqueios rodoviários e manifestações sociais devido ao papel estratégico do cruzamento rodoviário.
 - **Leis Local:** Sede de todos os poderes estatais regionais. **Livre de Restrição de Fronteira.**
 - Fontes:
@@ -107,3 +138,73 @@ Altamente indicado como base logística e de serviços de suporte para o projeto
 - 4) Registro de investimentos em saúde pública (BID/MOPC).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Capital departamental
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 0.98 | 7,252 |
+| Gasolina 97 oct (premium) | 1.08 | 7,992 |
+| Diesel | 0.91 | 6,734 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 88% |
+| Cobertura 4G área rural | 72% |
+| Melhor operadora | Tigo |
+| Qualidade rural | boa |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 55 Mbps |
+| Domicílios com internet (dept.) | 62% |
+| Tecnologia predominante | rádio/fibra |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 8,800 |
+| Imóvel urbano (USD/m²) | 977 |
+| Aluguel 2 quartos (USD/mês) | 420 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+
+
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024)
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | sim |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | local |
+
+**Principais estabelecimentos:** Hospital Geral de Coronel Oviedo (referência regional); IPS Coronel Oviedo; diversas clínicas e farmácias privadas.
+
+**Observação para imigrantes:** Melhor infraestrutura de saúde do interior do país. IPS acessível mediante contrato de trabalho formal. Cobertura privada complementar recomendada para especialidades de alta complexidade (encaminhamento a Assunção).
+

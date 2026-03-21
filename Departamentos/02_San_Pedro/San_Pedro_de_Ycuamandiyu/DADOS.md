@@ -12,17 +12,48 @@
 - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 - MOPC (estado de rutas): https://mopc.gov.py/servicios/estado-de-las-rutas/
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.64 | 6.12 | 5.48 | 4.54 | 3.38 | 2.87 | 3.21 | 3.93 | 4.62 | 5.45 | 6.37 | 6.67 | **4.94** |
+
+**Inclinação solar recomendada:** 24° N (anual) · 34° N (inverno jun-ago) · 14° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.39 | 5.38 | 3.67 | 4.73 | 4.50 | 2.66 | 1.89 | 1.18 | 2.77 | 5.36 | 6.53 | 5.43 | **1476 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 4 — Céu rural-suburbano |
+| Radiância artificial | 2.0 nW/cm²/sr |
+
+
+### 4. Riscos naturais
+- **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):** Jan 6.64 | Fev 6.13 | Mar 5.48 | Abr 4.54 | Mai 3.38 | Jun 2.87 | Jul 3.21 | Ago 3.93 | Set 4.62 | Out 5.45 | Nov 6.37 | Dez 6.67. Média anual: 4.93 kWh/m²/dia. Mínimo: Jun (2.87) | Máximo: Dez (6.67). Fonte: NASA POWER Climatology API, período 2001-2020 (acesso em 2026-03-20).
+- **Precipitação — PRECTOTCORR (mm/dia):** Jan 4.39 | Fev 5.38 | Mar 3.67 | Abr 4.73 | Mai 4.50 | Jun 2.66 | Jul 1.89 | Ago 1.18 | Set 2.77 | Out 5.36 | Nov 6.53 | Dez 5.43. Média anual: ~1.471 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER (acesso em 2026-03-20).
+- **Inclinação recomendada para placas solares:** 24° voltado para o Norte (anual); 34° no inverno (Jun-Ago); 14° no verão (Nov-Jan). Base: latitude local -24.10°S.
 - DMH avisos: https://www.meteorologia.gov.py/avisos/
 - DMH publicacoes: https://www.meteorologia.gov.py/publicaciones/
 - SEN acoes: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - ANDE: https://www.ande.gov.py
 - MOPC: https://mopc.gov.py/
 - SEN (projetos): https://sen.gov.py/acciones/proyectos/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - TSJE institucional: https://www.tsje.gov.py
 - TSJE mapas: https://tsje.gov.py/sedess/mapas.php
 - Dados abertos: https://www.datos.gov.py/
@@ -121,3 +152,70 @@ Uso recomendado como candidato em analise multicriterio, condicionado ao cumprim
 - 12) Dados publicos complementares para verificacao cruzada (Fonte: https://www.datos.gov.py/; acesso: 2026-03-05).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Capital departamental
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 1.00 | 7,400 |
+| Gasolina 97 oct (premium) | 1.10 | 8,140 |
+| Diesel | 0.93 | 6,882 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 80% |
+| Cobertura 4G área rural | 58% |
+| Melhor operadora | Tigo |
+| Qualidade rural | moderada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 35 Mbps |
+| Domicílios com internet (dept.) | 45% |
+| Tecnologia predominante | rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 4,600 |
+| Imóvel urbano (USD/m²) | 690 |
+| Aluguel 2 quartos (USD/mês) | 300 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | sim |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | local |
+
+**Principais estabelecimentos:** Hospital distrital / regional de San Pedro de Ycuamandiyu; rede de USF e farmacias locais
+
+**Observação para imigrantes:** Centro de referencia do departamento. Acesso a atendimento primario e, em geral, a maior oferta publica e privada da area. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

@@ -7,6 +7,7 @@
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage[raggedright]{titlesec}
 \usepackage{hyperref}
+\usepackage{array}
 \usepackage{longtable}
 \usepackage{booktabs}
 \usepackage{graphicx}
@@ -18,6 +19,8 @@
 \usepackage{tikz}
 \usepackage{wrapfig}
 \usepackage{calc}
+\usepackage{xfp}
+\newcommand{\real}[1]{#1}
 
 % Tradução manual de termos do LaTeX
 \renewcommand{\contentsname}{Sumário}
@@ -127,6 +130,9 @@ Este guia consolida a análise tática de todos os 262 distritos do Paraguai, ap
 
 \include{capitulos/metodologia}
 \include{capitulos/panorama_nacional}
+
+\part{Expansão Editorial}
+\include{capitulos/leitores_alfa}
 
 \part{Análise por Departamento}
 \input{capitulos/lista_departamentos}

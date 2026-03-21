@@ -22,14 +22,42 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.74 | 6.20 | 5.50 | 4.48 | 3.35 | 2.88 | 3.21 | 3.96 | 4.59 | 5.43 | 6.43 | 6.81 | **4.96** |
+
+**Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.27 | 4.46 | 4.28 | 5.24 | 5.08 | 2.87 | 2.37 | 1.77 | 2.90 | 5.84 | 6.23 | 5.42 | **1544 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 4 — Céu rural-suburbano |
+| Radiância artificial | 2.5 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** **Risco Crítico de Inundação.** A proximidade direta com o Rio Tebicuary-mí torna o distrito altamente vulnerável a cheias severas. Histórico de inundações que isolam bairros e afetam o núcleo urbano baixo.
 - **Clima:** Subtropical Úmido. Precipitação anual de 1.500-1.700 mm. Verões quentes e úmidos.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu); manutenção facilitada pela proximidade com Villarrica.
 - **Água:** Abundante via Rio Tebicuary-mí e poços artesianos; lençol freático produtivo.
 - **Qualidade do Solo:** Solo franco-argiloso e sedimentar (Alfisoles); muito fértil, excelente para cana-de-açúcar, mandioca e horticultura.
@@ -38,7 +66,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Zona extremamente pacífica. Taxa de homicídios no departamento de Guairá entre as menores do Paraguai (~3,6/100k). Coesão social muito alta baseada em tradições culturais e na influência do santuário nacional.
 - **Leis Local:** Município histórico conhecido como a "Capital da Fé". **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira, permitindo plena titularidade para brasileiros.
 - Fontes:
@@ -107,3 +135,70 @@ Altamente indicado para residências rurais e estabelecimentos de autossuficiên
 - 4) Registro de segurança pública e coesão comunitária departamental.
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 0.97 | 7,178 |
+| Gasolina 97 oct (premium) | 1.07 | 7,918 |
+| Diesel | 0.90 | 6,660 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 87% |
+| Cobertura 4G área rural | 70% |
+| Melhor operadora | Tigo |
+| Qualidade rural | boa |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 50 Mbps |
+| Domicílios com internet (dept.) | 60% |
+| Tecnologia predominante | rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 7,000 |
+| Imóvel urbano (USD/m²) | 800 |
+| Aluguel 2 quartos (USD/mês) | 320 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | sim |
+| IPS (seguro social) | não |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~23 km (Villarrica) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Villarrica
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Villarrica. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

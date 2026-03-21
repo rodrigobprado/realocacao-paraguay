@@ -22,14 +22,42 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.56 | 6.04 | 5.59 | 4.57 | 3.37 | 2.97 | 3.27 | 4.04 | 4.58 | 5.29 | 6.28 | 6.54 | **4.92** |
+
+**Inclinação solar recomendada:** 24° N (anual) · 34° N (inverno jun-ago) · 14° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.39 | 4.77 | 3.64 | 4.30 | 4.93 | 2.99 | 2.20 | 2.04 | 3.42 | 6.00 | 5.90 | 5.67 | **1530 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 3 — Céu rural |
+| Radiância artificial | 1.0 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia ondulada favorável à drenagem. Presença de diversos arroios perenes. Risco moderado de isolamento de comunidades rurais por danos em estradas de terra em períodos de chuva intensa (média 1.700 mm/ano).
 - **Clima:** Subtropical Úmido. Verões intensos e chuvosos; invernos amenos com geadas ocasionais benéficas.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu); instável em áreas rurais devido ao isolamento da rede e exposição a intempéries.
 - **Água:** Abundante via poços artesianos e proximidade com as bacias hidrográficas da reserva natural.
 - **Qualidade do Solo:** **Latossolo Vermelho de Alta Performance**; solo profundo, estruturado e de altíssima fertilidade natural. Excelente aptidão para soja e milho.
@@ -38,7 +66,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural pacífica em termos de crime comum. No entanto, exige **atenção tática regional** por estar em departamento de fronteira sensível ao trânsito de ilícitos e histórico de conflitos agrários. Estabilidade social baseada na cultura agropecuária tradicional.
 - **Leis Local:** Município consolidado, criado em 2011. **Livre de Restrição de Fronteira:** Localizado fora da faixa de 50km da fronteira seca internacional.
 - Fontes:
@@ -107,3 +135,70 @@ Altamente indicado para estabelecimentos de autossuficiência que busquem isolam
 - 4) Registro de segurança pública departamental.
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 1.00 | 7,400 |
+| Gasolina 97 oct (premium) | 1.10 | 8,140 |
+| Diesel | 0.93 | 6,882 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 78% |
+| Cobertura 4G área rural | 55% |
+| Melhor operadora | Tigo |
+| Qualidade rural | moderada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 35 Mbps |
+| Domicílios com internet (dept.) | 45% |
+| Tecnologia predominante | rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 7,500 |
+| Imóvel urbano (USD/m²) | 650 |
+| Aluguel 2 quartos (USD/mês) | 260 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | sim |
+| IPS (seguro social) | não |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~104 km (Salto del Guaira) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Salto del Guaira
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Salto del Guaira. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

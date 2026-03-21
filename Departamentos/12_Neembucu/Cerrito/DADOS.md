@@ -22,14 +22,42 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.76 | 6.25 | 5.34 | 4.21 | 3.22 | 2.68 | 3.07 | 3.76 | 4.52 | 5.40 | 6.52 | 6.87 | **4.89** |
+
+**Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.84 | 4.28 | 4.50 | 5.68 | 3.87 | 2.90 | 1.99 | 1.88 | 2.94 | 5.81 | 6.06 | 5.47 | **1529 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 2 — Céu tipicamente escuro |
+| Radiância artificial | 0.5 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Moderado.** Embora o núcleo urbano esteja em cota elevada (Cerrito), vastas áreas rurais e acessos terrestres são vulneráveis às cheias do Rio Paraná. Abundância hídrica superficial inesgotável.
 - **Clima:** Subtropical Úmido. Verões intensos; invernos amenos com alta umidade e ventos fluviais.
 - Fontes: 
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu/Yacyretá); instável em áreas rurais remotas.
 - **Água:** Abundância hídrica absoluta via Rio Paraná e poços artesianos produtivos. Água superficial exige tratamento.
 - **Qualidade do Solo:** Solo arenoso e aluvial; excelente para pastagens naturais e pecuária de corte.
@@ -38,7 +66,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Localidade excepcionalmente pacífica e segura. Criminalidade urbana comum praticamente inexistente. Estabilidade institucional básica sustentada pela presença de destacamentos da Armada Paraguaia para controle fluvial. Coesão social baseada na cultura da pesca.
 - **Leis Local:** Município consolidado. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira argentina (limite fluvial).
 - Fontes:
@@ -107,3 +135,70 @@ Altamente indicado para residências de isolamento tático que priorizem a invis
 - 4) Registro de segurança pública e governança municipal.
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 0.99 | 7,326 |
+| Gasolina 97 oct (premium) | 1.09 | 8,066 |
+| Diesel | 0.92 | 6,808 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 75% |
+| Cobertura 4G área rural | 50% |
+| Melhor operadora | Tigo |
+| Qualidade rural | moderada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 30 Mbps |
+| Domicílios com internet (dept.) | 40% |
+| Tecnologia predominante | rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 3,000 |
+| Imóvel urbano (USD/m²) | 500 |
+| Aluguel 2 quartos (USD/mês) | 200 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | não |
+| IPS (seguro social) | não |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~106 km (Pilar) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Pilar
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Pilar. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

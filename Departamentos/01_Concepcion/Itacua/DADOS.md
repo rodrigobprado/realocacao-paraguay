@@ -22,14 +22,42 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.55 | 5.94 | 5.63 | 4.73 | 3.58 | 3.17 | 3.41 | 4.19 | 4.70 | 5.44 | 6.28 | 6.49 | **5.01** |
+
+**Inclinação solar recomendada:** 22° N (anual) · 32° N (inverno jun-ago) · 12° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.90 | 5.26 | 3.87 | 3.95 | 3.42 | 1.89 | 1.23 | 0.73 | 1.82 | 4.20 | 6.73 | 5.40 | **1321 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 3 — Céu rural |
+| Radiância artificial | 1.5 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** **Risco Crítico de Inundação.** Proximidade direta com o Rio Paraguai; histórico de cheias severas (2019, 2023) que podem isolar a localidade por terra.
 - **Clima:** Tropical Úmido. Precipitação anual de 1.300-1.500 mm. Verões quentes com tempestades severas.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (ANDE/Itaipu), sujeita a instabilidades por ser final de linha no Norte.
 - **Água:** Abundante (Rio Paraguai).
 - **Qualidade do Solo:** Solo calcário (carbonato de cálcio/magnésio); ideal para correção de solos ácidos, exige manejo para agricultura intensiva diversificada.
@@ -38,7 +66,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Zona remota com baixa criminalidade urbana comum. Presença da FTC (Força de Tarefa Conjunta) na região devido à atividade insurgente (EPP) no departamento. Taxa de homicídios regional de 14-19/100k (focada em áreas rurais/narcotráfico).
 - **Leis Local:** Município de criação recente (2021). **Restrição de Fronteira (Lei 2532/05):** Proibição de compra de terras rurais por estrangeiros de países limítrofes (faixa de 50km).
 - Fontes:
@@ -106,3 +134,114 @@ Indicado como local de apoio ou exploração mineral específica. Para moradia p
 - 4) Lei de Segurança Fronteiriça (2532/05).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+
+## 14. Informações Técnicas e Infraestrutura (Leitores Alfa)
+
+# Pesquisa Técnica: Itacuá, Concepción
+
+## 1. Clima e Energia Solar
+- **Sol e Chuva Mensal (Candle Format - Médias):**
+    - [Jan-Mar: 140mm | Max 34°C | Min 23°C]
+    - [Abr-Jun: 100mm | Max 29°C | Min 18°C]
+    - [Jul-Set: 40mm | Max 28°C | Min 15°C]
+    - [Out-Dez: 165mm | Max 33°C | Min 22°C]
+- **Ângulo Solar Ideal:** 23° ao Norte.
+- **Radiação Média:** 5.4 kWh/m²/dia.
+
+## 2. Indicadores Sociais (Censo 2022)
+- **População:** 2.377 habitantes.
+- **Idade Média:** 26 anos.
+- **IDH:** 0.630 (estimado).
+- **Escolaridade:** 7.2 anos (média).
+- **Fertilidade:** 3.1 filhos por mulher.
+- **Saúde:** Puesto de Salud local. Casos graves via Rio Paraguai ou terrestre a Concepción.
+- **Educação:** Ensino básico obrigatório e colégio técnico em mineração/indústria.
+- **Violência:** Nível baixo; comunidade pequena e focada na extração mineral.
+
+## 3. Serviços e Infraestrutura
+- **Serviços Públicos:** Subdelegacia local; Apoio de Bombeiros de Vallemí (San Lázaro).
+- **Água:** Poços artesianos privados e comunitários. Profundidade: 120-200 metros (Presença de rocha calcária).
+- **Internet:** 4G (Personal/Claro); Fibra ótica restrita a zonas industriais/pedreiras.
+- **Energia:** ANDE. Frequentemente dependente de linhas industriais de alta tensão.
+
+## 4. Custos e Logística
+- **Residência Urbana:** Gs. 600.000 - 1.000.000 (aluguel de casas simples).
+- **Residência Rural (Terra):** USD 1.000 - 2.500/hectare (Vocações minerais/calcárias).
+- **Postos:** 1 posto local (Bandeira branca ou Copetrol).
+- **Logística:** Rio Paraguai (transporte fluvial de calcário); Conexão via Ruta PY22.
+
+## 5. Lazer e Comércio
+- **Lazer:** Praias de rio, pesca, exploração de cavernas próximas.
+- **Comércio:** Pequenas lojas de conveniência e ferramentas para mineração.
+- **Poluição Luminosa:** Baixíssima.
+
+---
+*Dados baseados no Censo INE 2022 e levantamentos técnicos regionais.*
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 1.01 | 7,474 |
+| Gasolina 97 oct (premium) | 1.11 | 8,214 |
+| Diesel | 0.94 | 6,956 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 78% |
+| Cobertura 4G área rural | 55% |
+| Melhor operadora | Tigo |
+| Qualidade rural | moderada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 38 Mbps |
+| Domicílios com internet (dept.) | 48% |
+| Tecnologia predominante | rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 3,500 |
+| Imóvel urbano (USD/m²) | 650 |
+| Aluguel 2 quartos (USD/mês) | 260 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | não |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~138 km (Concepcion) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Concepcion
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Concepcion. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

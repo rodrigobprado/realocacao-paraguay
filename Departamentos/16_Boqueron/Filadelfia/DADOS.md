@@ -12,17 +12,39 @@
 - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 - MOPC (estado de rutas): https://mopc.gov.py/servicios/estado-de-las-rutas/
 
-### 3. Riscos naturais
+### 3. Dados Climaticos (NASA POWER Climatology API, 2001-2020)
+
+Coordenadas: -22.35°S / -60.03°W. Acesso em 2026-03-20.
+
+**Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 6.59 | 6.02 | 5.41 | 4.37 | 3.38 | 2.88 | 3.34 | 4.19 | 4.79 | 5.46 | 6.25 | 6.43 |
+
+Média anual: 4.92 kWh/m²/dia. Mínimo: Jun (2.88) | Máximo: Jan (6.59).
+
+**Precipitação — PRECTOTCORR (mm/dia → mm/ano ~854):**
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 3.36 | 4.51 | 3.39 | 2.66 | 2.04 | 0.87 | 0.57 | 0.38 | 0.74 | 2.43 | 3.54 | 3.77 |
+
+Estação chuvosa Nov-Mar; seca Jun-Set (mínimo absoluto em Ago). Regime semiárido do Chaco Central.
+
+**Inclinação solar recomendada:** 22° Norte (anual); 32° no inverno (Jun-Ago); 12° no verão (Nov-Jan). Base: latitude -22.35°S.
+
+### 4. Riscos naturais
 - DMH avisos: https://www.meteorologia.gov.py/avisos/
 - DMH publicacoes: https://www.meteorologia.gov.py/publicaciones/
 - SEN acoes: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - ANDE: https://www.ande.gov.py
 - MOPC: https://mopc.gov.py/
 - SEN (projetos): https://sen.gov.py/acciones/proyectos/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - TSJE institucional: https://www.tsje.gov.py
 - TSJE mapas: https://tsje.gov.py/sedess/mapas.php
 - Portal de dados abertos: https://www.datos.gov.py/
@@ -124,3 +146,70 @@ Uso recomendado como candidato em analise multicriterio, condicionado ao cumprim
 - 12) Dados publicos complementares para verificacao cruzada (Fonte: https://www.datos.gov.py/; acesso: 2026-03-05).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Capital departamental
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 1.12 | 8,288 |
+| Gasolina 97 oct (premium) | 1.22 | 9,028 |
+| Diesel | 1.05 | 7,770 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 55% |
+| Cobertura 4G área rural | 30% |
+| Melhor operadora | Tigo |
+| Qualidade rural | limitada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 28 Mbps |
+| Domicílios com internet (dept.) | 38% |
+| Tecnologia predominante | rádio/satélite |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 1,200 |
+| Imóvel urbano (USD/m²) | 804 |
+| Aluguel 2 quartos (USD/mês) | 360 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | sim |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | local |
+
+**Principais estabelecimentos:** Hospital distrital / regional de Filadelfia; rede de USF e farmacias locais
+
+**Observação para imigrantes:** Centro de referencia do departamento. Acesso a atendimento primario e, em geral, a maior oferta publica e privada da area. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

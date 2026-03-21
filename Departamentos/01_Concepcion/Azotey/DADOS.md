@@ -22,14 +22,42 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.60 | 6.02 | 5.62 | 4.65 | 3.48 | 3.07 | 3.35 | 4.15 | 4.72 | 5.46 | 6.29 | 6.53 | **4.99** |
+
+**Inclinação solar recomendada:** 23° N (anual) · 33° N (inverno jun-ago) · 13° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 5.02 | 6.05 | 3.88 | 4.59 | 4.15 | 2.69 | 1.75 | 1.40 | 2.84 | 5.35 | 6.49 | 5.50 | **1513 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 3 — Céu rural |
+| Radiância artificial | 1.5 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** Risco de isolamento logístico por transbordamento de pequenos tributários e degradação das vias de terra.
 - **Clima:** Tropical Úmido. Média de 1.300 a 1.600 mm de chuva anuais. Verões intensos com tempestades súbitas.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (ANDE), com vulnerabilidades em áreas rurais remotas.
 - **Água:** Poços artesianos; lençol freático acessível.
 - **Qualidade do Solo:** Alfisois e Ultisois; fertilidade média, exige calagem e adubação para agricultura intensiva (soja/milho).
@@ -38,7 +66,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** **Zona de Risco Crítico.** Azotey está no epicentro da área de influência do **EPP (Ejército del Pueblo Paraguayo)**. Presença militar permanente da FTC é a norma de segurança. Taxa de homicídios regional entre as maiores do país (~15/100k).
 - **Leis Local:** Município criado em 2009. **Restrição de Fronteira:** Zona limítrofe à faixa de 50km da Lei 2532/05; exige verificação detalhada da localização das glebas.
 - Fontes:
@@ -106,3 +134,114 @@ Não recomendado para residência civil passiva. Indicado apenas como ativo de i
 - 4) Delimitação de faixa de segurança de fronteira.
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+
+## 14. Informações Técnicas e Infraestrutura (Leitores Alfa)
+
+# Pesquisa Técnica: Azotey, Concepción
+
+## 1. Clima e Energia Solar
+- **Sol e Chuva Mensal (Candle Format - Médias):**
+    - [Jan-Mar: 145mm | Max 34°C | Min 23°C]
+    - [Abr-Jun: 85mm | Max 29°C | Min 17°C]
+    - [Jul-Set: 45mm | Max 28°C | Min 14°C]
+    - [Out-Dez: 170mm | Max 33°C | Min 22°C]
+- **Ângulo Solar Ideal:** 23° ao Norte.
+- **Radiação Média:** 5.3 kWh/m²/dia.
+
+## 2. Indicadores Sociais (Censo 2022)
+- **População:** 6.731 habitantes.
+- **Idade Média:** 22 anos.
+- **IDH:** 0.635 (estimado).
+- **Escolaridade:** 7.5 anos (média).
+- **Fertilidade:** 3.0 filhos por mulher.
+- **Saúde:** Puesto de Salud Azotey. Referência em Horqueta/Yby Yaú.
+- **Educação:** Escolas básicas e colégios técnicos agrícolas (Ruta PY08).
+- **Violência:** Presença militar contínua devido à localização estratégica no corredor norte.
+
+## 3. Serviços e Infraestrutura
+- **Serviços Públicos:** Delegacia 14ª Azotey; Bombeiros (apoio de Yby Yaú - K75).
+- **Água:** Juntas de Saneamento. Poços artesianos: 90-130 metros.
+- **Internet:** 3G/4G (Personal/Claro); Fibra ótica disponível ao longo da Ruta PY08.
+- **Energia:** ANDE. Frequentemente afetada por instabilidade em temporais.
+
+## 4. Custos e Logística
+- **Residência Urbana:** Gs. 700.000 - 1.200.000 (aluguel).
+- **Residência Rural (Terra):** USD 1.500 - 3.500/hectare (Alto valor para soja/milho).
+- **Postos:** 3 postos (Shell/Petropar/Copetrol) na zona urbana e rodovia.
+- **Logística:** Transportadoras ligando Assunção e Pedro Juan Caballero (PY08).
+
+## 5. Lazer e Comércio
+- **Lazer:** Eventos comunitários, rodeios e pesca esportiva no Rio Ypané (limite sul).
+- **Comércio:** Atacados de insumos agrícolas e mecânicas de caminhões.
+- **Poluição Luminosa:** Média-Baixa (focos em silos e postos).
+
+---
+*Dados baseados no Censo INE 2022 e levantamentos técnicos regionais.*
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 1.01 | 7,474 |
+| Gasolina 97 oct (premium) | 1.11 | 8,214 |
+| Diesel | 0.94 | 6,956 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 78% |
+| Cobertura 4G área rural | 55% |
+| Melhor operadora | Tigo |
+| Qualidade rural | moderada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 38 Mbps |
+| Domicílios com internet (dept.) | 48% |
+| Tecnologia predominante | rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 3,500 |
+| Imóvel urbano (USD/m²) | 650 |
+| Aluguel 2 quartos (USD/mês) | 260 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | não |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~122 km (Concepcion) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Concepcion
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Concepcion. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

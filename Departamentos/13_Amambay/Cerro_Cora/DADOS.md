@@ -22,14 +22,42 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.41 | 5.92 | 5.60 | 4.65 | 3.53 | 3.14 | 3.44 | 4.20 | 4.70 | 5.36 | 6.22 | 6.44 | **4.97** |
+
+**Inclinação solar recomendada:** 23° N (anual) · 33° N (inverno jun-ago) · 13° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 5.14 | 6.24 | 3.82 | 4.47 | 4.26 | 2.75 | 1.79 | 1.57 | 3.06 | 5.51 | 6.27 | 5.78 | **1542 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 4 — Céu rural-suburbano |
+| Radiância artificial | 2.0 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido ao relevo favorável à drenagem. Abundância de arroios perenes (ex: Rio Aquidabán) e nascentes de alta qualidade hídrica.
 - **Clima:** Subtropical Úmido. Verões intensos e chuvosos; invernos frescos com geadas ocasionais. Microclima influenciado pela vegetação do parque nacional.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu); instável em áreas rurais remotas.
 - **Água:** Abundante via nascentes naturais e poços artesianos; excelente qualidade hídrica superficial e subterrânea.
 - **Qualidade do Solo:** Solo franco-arenoso a argiloso fértil; aptidão para pastagens naturais, silvicultura e agricultura de subsistência.
@@ -38,7 +66,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural pacífica em termos de crime comum. No entanto, exige **atenção tática regional** devido ao contexto de Amambay (narcotráfico e trânsito de ilícitos nas proximidades de PJC). Forte identidade histórica nacionalista. Estabilidade social sustentada pela cultura tradicional.
 - **Leis Local:** Município de criação recente (ex-Chiriguelo). **Livre de Restrição de Fronteira:** Localizado fora da faixa de 50km da fronteira seca internacional (protegido pela linha de PJC).
 - Fontes:
@@ -107,3 +135,70 @@ Altamente indicado para estabelecimentos de autossuficiência familiar de alto p
 - 4) Registro de segurança pública departamental.
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 1.00 | 7,400 |
+| Gasolina 97 oct (premium) | 1.10 | 8,140 |
+| Diesel | 0.93 | 6,882 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 85% |
+| Cobertura 4G área rural | 68% |
+| Melhor operadora | Tigo |
+| Qualidade rural | moderada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 55 Mbps |
+| Domicílios com internet (dept.) | 62% |
+| Tecnologia predominante | rádio/fibra |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 5,000 |
+| Imóvel urbano (USD/m²) | 900 |
+| Aluguel 2 quartos (USD/mês) | 380 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | sim |
+| IPS (seguro social) | não |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~100 km (Pedro Juan Caballero) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Pedro Juan Caballero
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Pedro Juan Caballero. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

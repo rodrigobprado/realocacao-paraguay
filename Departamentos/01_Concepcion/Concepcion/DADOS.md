@@ -21,14 +21,45 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.68 | 6.07 | 5.58 | 4.63 | 3.47 | 3.00 | 3.30 | 4.09 | 4.68 | 5.49 | 6.34 | 6.61 | **5.0** |
+
+**Inclinação solar recomendada:** 23° N (anual) · 33° N (inverno jun-ago) · 13° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 5.06 | 5.33 | 3.86 | 4.64 | 3.74 | 2.38 | 1.55 | 1.01 | 2.42 | 4.87 | 6.80 | 5.38 | **1432 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 4 — Céu rural-suburbano |
+| Radiância artificial | 3.0 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** **Risco Crítico de Inundação.** Bairros ribeirinhos vulneráveis a cheias do Rio Paraguai e transbordamentos súbitos do Rio Ypané.
 - **Clima:** Tropical Úmido. Verões com temperaturas extremas. Tempestades intensas frequentes entre outubro e maio.
+- **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):** Jan 6.68 | Fev 6.07 | Mar 5.58 | Abr 4.63 | Mai 3.47 | Jun 3.00 | Jul 3.30 | Ago 4.09 | Set 4.68 | Out 5.49 | Nov 6.34 | Dez 6.61. Média anual: 4.99 kWh/m²/dia. Mínimo: Jun (3.00) | Máximo: Jan (6.68). Fonte: NASA POWER Climatology API, período 2001-2020 (acesso em 2026-03-20).
+- **Precipitação — PRECTOTCORR (mm/dia):** Jan 5.06 | Fev 5.33 | Mar 3.86 | Abr 4.64 | Mai 3.74 | Jun 2.38 | Jul 1.55 | Ago 1.01 | Set 2.42 | Out 4.87 | Nov 6.80 | Dez 5.38. Média anual: ~1.427 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER (acesso em 2026-03-20).
+- **Inclinação recomendada para placas solares:** 23° voltado para o Norte (anual); 33° no inverno (Jun-Ago); 13° no verão (Nov-Jan). Base: latitude local -23.40°S.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu), com melhorias recentes mas picos de instabilidade no verão.
 - **Água:** Abundante (Rio Paraguai).
 - **Solo:** Latossolos vermelhos férteis e profundos; excelente para silvicultura (eucalipto), gergelim e soja.
@@ -37,7 +68,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Zona de conflito contra a insurgência (EPP) no departamento. Taxa de homicídios elevada (18-20/100k), mas concentrada em áreas rurais e narcotráfico. A área urbana possui forte presença militar (CODI/FTC).
 - **Leis Local:** Capital departamental. **Restrição de Fronteira:** Aplicação da Lei 2532/05 (faixa de 50km).
 - Fontes:
@@ -102,3 +133,117 @@ Indicado para perfis que buscam exploração agroindustrial de alto desempenho, 
 - 3) Mapas de uso do solo e sismicidade (Embrapa/ResearchGate).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+
+## 14. Informações Técnicas e Infraestrutura (Leitores Alfa)
+
+# Pesquisa Técnica: Concepción (Capital), Concepción
+
+## 1. Clima e Energia Solar
+- **Sol e Chuva Mensal (Candle Format - Médias):**
+    - [Jan-Mar: 155mm | Max 34°C | Min 23°C]
+    - [Abr-Jun: 144mm | Max 29°C | Min 17°C]
+    - [Jul-Set: 55mm | Max 28°C | Min 15°C]
+    - [Out-Dez: 181mm | Max 33°C | Min 22°C]
+- **Ângulo Solar Ideal:** 23° ao Norte.
+- **Radiação Média:** 5.6 kWh/m²/dia (Pico regional).
+
+## 2. Indicadores Sociais (Censo 2022)
+- **População:** 73.360 habitantes.
+- **Idade Média:** 28 anos.
+- **IDH:** 0.658 (Desenvolvimento Médio).
+- **Escolaridade:** 9.2 anos (Média Urbana).
+- **Fertilidade:** 2.4 filhos por mulher.
+- **Saúde:** Hospital Regional de Concepción (Referência Regional), Centros de Saúde e Clínicas Privadas.
+- **Educação:** Sede da Universidad Nacional de Concepción (UNC); Colégios públicos e privados de alta qualidade.
+- **Violência:** Taxa moderada; aumento de delitos urbanos comuns; forte presença da Polícia Nacional (Sistema 911).
+
+## 3. Serviços e Infraestrutura
+- **Serviços Públicos:** Delegacia Central (Comisaría 1ª); Bombeiros CBVP; Essap (Rede de Água e Esgoto Parcial).
+- **Água:** Rede ESSAP no centro; Poços artesianos periféricos: 120-180 metros.
+- **Internet:** Fibra ótica (Personal/Tigo/Sol Internet); 4G/LTE/5G em expansão no centro.
+- **Energia:** ANDE - Sede regional; subestações redundantes.
+
+## 4. Custos e Logística
+- **Residência Urbana:** Gs. 1.500.000 - 3.500.000 (Centro/Bairros nobres).
+- **Residência Rural (Terra):** USD 3.000 - 8.000/hectare (Vetor logístico industrial).
+- **Postos:** +15 postos de combustível; Postos elétricos (ANDE) em implantação estratégica.
+- **Logística:** Porto Fluvial ANNP; Aeródromo SGCO; Hub de transportadoras nacionais; Correios central.
+
+## 5. Lazer e Comércio
+- **Lazer:** Cinema local (Cinema Concepción), Shoppings de médio porte (Plaza Real), Atacados (Fortis/Box), Orla Fluvial.
+- **Comércio:** Centro comercial vibrante; concessionárias de veículos; serviços financeiros/bancários completos.
+- **Poluição Luminosa:** Alta para os padrões regionais (Centro urbano iluminado).
+
+---
+*Dados baseados no Censo INE 2022 e levantamentos técnicos regionais.*
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Capital departamental
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 1.01 | 7,474 |
+| Gasolina 97 oct (premium) | 1.11 | 8,214 |
+| Diesel | 0.94 | 6,956 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 78% |
+| Cobertura 4G área rural | 55% |
+| Melhor operadora | Tigo |
+| Qualidade rural | moderada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 38 Mbps |
+| Domicílios com internet (dept.) | 48% |
+| Tecnologia predominante | rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 3,500 |
+| Imóvel urbano (USD/m²) | 747 |
+| Aluguel 2 quartos (USD/mês) | 312 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+
+
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024)
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | sim |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | local |
+
+**Principais estabelecimentos:** Hospital Regional de Concepción (referência para todo o Norte), IPS Concepción, clínicas privadas (CEDIMEC, Sanatorio San Antonio), Gran Hospital de Concepción (em implantação)
+
+**Observação para imigrantes:** IPS acessível mediante contrato formal de trabalho. Cobertura privada recomendada para maior agilidade; serviços públicos funcionais mas com demanda elevada. Imigrantes sem vínculo empregatício devem contratar seguro privado.
+

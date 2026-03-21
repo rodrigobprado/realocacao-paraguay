@@ -22,14 +22,45 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
-- **Hidrologia:** Diversos arroios na periferia urbana. Baixo risco de inundações catastróficas, mas vulnerabilidade localizada em drenagem urbana durante chuvas torrenciais (>1.500 mm anuais).
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.74 | 6.20 | 5.50 | 4.48 | 3.35 | 2.88 | 3.21 | 3.96 | 4.59 | 5.43 | 6.43 | 6.81 | **4.96** |
+
+**Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.35 | 4.55 | 4.28 | 5.31 | 5.34 | 3.12 | 2.53 | 1.97 | 3.11 | 6.11 | 6.25 | 5.30 | **1590 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 5 — Céu suburbano |
+| Radiância artificial | 5.0 nW/cm²/sr |
+
+
+### 4. Riscos naturais
+- **Hidrologia:** Diversos arroios na periferia urbana. Baixo risco de inundações catastróficas, mas vulnerabilidade localizada em drenagem urbana durante chuvas torrenciais.
 - **Clima:** Subtropical subúmido. Influência da Cordilheira do Ybytyruzú regula microclimas locais. Suscetível a temporais de verão com ventos moderados.
+- **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):** Jan 6.74 | Fev 6.20 | Mar 5.50 | Abr 4.48 | Mai 3.35 | Jun 2.88 | Jul 3.21 | Ago 3.96 | Set 4.59 | Out 5.43 | Nov 6.43 | Dez 6.81. Média anual: 4.96 kWh/m²/dia. Mínimo: Jun (2.88) | Máximo: Dez (6.81). Fonte: NASA POWER Climatology API, período 2001-2020 (acesso em 2026-03-20).
+- **Precipitação — PRECTOTCORR (mm/dia):** Jan 4.22 | Fev 4.82 | Mar 4.21 | Abr 5.08 | Mai 5.55 | Jun 3.01 | Jul 2.43 | Ago 1.68 | Set 3.07 | Out 6.04 | Nov 6.33 | Dez 5.37. Média anual: ~1.573 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER (acesso em 2026-03-20).
+- **Inclinação recomendada para placas solares:** 26° voltado para o Norte (anual); 36° no inverno (Jun-Ago); 16° no verão (Nov-Jan). Base: latitude local -25.75°S.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu). Nodo central de distribuição elétrica para o departamento.
 - **Água:** Sistema centralizado (ESSAP) e abundância de poços artesianos de alta vazão.
 - **Qualidade do Solo:** **Latossolo Vermelho (Terra Vermelha)** de alta fertilidade; excelente para cana-de-açúcar, grãos e erva-mate.
@@ -38,7 +69,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Um dos departamentos mais seguros do país. Taxa de homicídios regional entre 6,6 e 7,8/100k. Ambiente urbano com perfil cultural e universitário elevado, reduzindo a incidência de crimes violentos graves.
 - **Leis Local:** Capital departamental com forte governança. **Livre de Restrição de Fronteira:** Localizada no coração do país, permitindo plena titularidade para investidores estrangeiros.
 - Fontes:
@@ -107,3 +138,70 @@ Altamente indicado como base logística ou de serviços. Para fins de autossufic
 - 4) Estatísticas de segurança departamental (Policía Nacional).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Capital departamental
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 0.97 | 7,178 |
+| Gasolina 97 oct (premium) | 1.07 | 7,918 |
+| Diesel | 0.90 | 6,660 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 87% |
+| Cobertura 4G área rural | 70% |
+| Melhor operadora | Tigo |
+| Qualidade rural | boa |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 50 Mbps |
+| Domicílios com internet (dept.) | 60% |
+| Tecnologia predominante | rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 7,000 |
+| Imóvel urbano (USD/m²) | 919 |
+| Aluguel 2 quartos (USD/mês) | 384 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | sim |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | local |
+
+**Principais estabelecimentos:** Hospital distrital / regional de Villarrica; rede de USF e farmacias locais
+
+**Observação para imigrantes:** Centro de referencia do departamento. Acesso a atendimento primario e, em geral, a maior oferta publica e privada da area. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

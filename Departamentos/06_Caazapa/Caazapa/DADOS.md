@@ -22,14 +22,45 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.71 | 6.20 | 5.39 | 4.34 | 3.26 | 2.77 | 3.10 | 3.79 | 4.42 | 5.34 | 6.39 | 6.76 | **4.87** |
+
+**Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.35 | 4.55 | 4.28 | 5.31 | 5.34 | 3.12 | 2.53 | 1.97 | 3.11 | 6.11 | 6.25 | 5.30 | **1590 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 4 — Céu rural-suburbano |
+| Radiância artificial | 1.6 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** Abundância de mananciais e arroios. Famosa pela fonte **Ykua Bolaños**. Baixo risco de inundações sistêmicas catastróficas. Drenagem natural favorável.
-- **Clima:** Subtropical Úmido. Verões quentes; invernos secos com geadas ocasionais. Precipitação média 1.600 mm/ano.
+- **Clima:** Subtropical Úmido. Verões quentes; invernos secos com geadas ocasionais.
+- **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):** Jan 6.71 | Fev 6.20 | Mar 5.39 | Abr 4.34 | Mai 3.26 | Jun 2.77 | Jul 3.10 | Ago 3.79 | Set 4.42 | Out 5.34 | Nov 6.39 | Dez 6.76. Média anual: 4.87 kWh/m²/dia. Mínimo: Jun (2.77) | Máximo: Dez (6.76). Fonte: NASA POWER Climatology API, período 2001-2020 (acesso em 2026-03-20).
+- **Precipitação — PRECTOTCORR (mm/dia):** Jan 4.35 | Fev 4.55 | Mar 4.28 | Abr 5.31 | Mai 5.34 | Jun 3.12 | Jul 2.53 | Ago 1.97 | Set 3.11 | Out 6.11 | Nov 6.25 | Dez 5.30. Média anual: ~1.587 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER (acesso em 2026-03-20).
+- **Inclinação recomendada para placas solares:** 26° voltado para o Norte (anual); 36° no inverno (Jun-Ago); 16° no verão (Nov-Jan). Base: latitude local -26.18°S.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu); nodo central de distribuição departamental com alta prioridade de manutenção.
 - **Água:** Abundante via poços artesianos e nascentes históricas (Ykua Bolaños); lençol freático produtivo.
 - **Qualidade do Solo:** Latossolo Vermelho e solos podzólicos; muito férteis e aptos para pecuária de elite, grãos e citros.
@@ -38,7 +69,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Uma das capitais mais pacíficas do Paraguai. Taxa de homicídios regional entre as menores do país (~7,0/100k). Forte segurança institucional e controle social comunitário. Ambiente urbano ordenado e cultural.
 - **Leis Local:** Sede de todos os poderes estatais regionais. **Livre de Restrição de Fronteira:** Localizada no interior do país, permitindo plena titularidade para brasileiros.
 - Fontes:
@@ -107,3 +138,70 @@ Altamente indicado como base logística e administrativa para o projeto. Requer 
 - 4) Estatísticas de segurança departamental (Policía Nacional).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Capital departamental
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 0.99 | 7,326 |
+| Gasolina 97 oct (premium) | 1.09 | 8,066 |
+| Diesel | 0.91 | 6,734 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 78% |
+| Cobertura 4G área rural | 55% |
+| Melhor operadora | Tigo |
+| Qualidade rural | moderada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 32 Mbps |
+| Domicílios com internet (dept.) | 42% |
+| Tecnologia predominante | rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 5,500 |
+| Imóvel urbano (USD/m²) | 632 |
+| Aluguel 2 quartos (USD/mês) | 264 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | sim |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | local |
+
+**Principais estabelecimentos:** Hospital distrital / regional de Caazapa; rede de USF e farmacias locais
+
+**Observação para imigrantes:** Centro de referencia do departamento. Acesso a atendimento primario e, em geral, a maior oferta publica e privada da area. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

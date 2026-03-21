@@ -1,0 +1,263 @@
+department,district,path,lat,lon,radiance_nw_cm2_sr,bortle,bortle_descricao,fonte,data_acesso
+00_Distrito_Capital,Asuncion,Departamentos/00_Distrito_Capital/Asuncion,-25.2800459,-57.6343814,100.0,8,Céu urbano,estimativa_world_atlas,2026-03-20
+01_Concepcion,Arroyito,Departamentos/01_Concepcion/Arroyito,-23.1736945,-56.7749397,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+01_Concepcion,Azotey,Departamentos/01_Concepcion/Azotey,-23.3145263,-56.4883184,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+01_Concepcion,Belen,Departamentos/01_Concepcion/Belen,-23.4698991,-57.263577,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+01_Concepcion,Concepcion,Departamentos/01_Concepcion/Concepcion,-23.4068158,-57.4427755,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+01_Concepcion,Horqueta,Departamentos/01_Concepcion/Horqueta,-23.344573,-57.0513696,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+01_Concepcion,Itacua,Departamentos/01_Concepcion/Itacua,-22.4849968,-57.8399918,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+01_Concepcion,Loreto,Departamentos/01_Concepcion/Loreto,-23.2745683,-57.3238358,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+01_Concepcion,Paso_Barreto,Departamentos/01_Concepcion/Paso_Barreto,-23.0484433,-57.1218936,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+01_Concepcion,Paso_Horqueta,Departamentos/01_Concepcion/Paso_Horqueta,-23.0756831,-57.3851592,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+01_Concepcion,San_Alfredo,Departamentos/01_Concepcion/San_Alfredo,-22.8844489,-57.4050333,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+01_Concepcion,San_Carlos_del_Apa,Departamentos/01_Concepcion/San_Carlos_del_Apa,-22.2451434,-57.2873989,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+01_Concepcion,San_Lazaro,Departamentos/01_Concepcion/San_Lazaro,-22.1078086,-57.9629855,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+01_Concepcion,Sargento_Jose_Felix_Lopez,Departamentos/01_Concepcion/Sargento_Jose_Felix_Lopez,-20.5630771,-62.2657793,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+01_Concepcion,Yby_Yau,Departamentos/01_Concepcion/Yby_Yau,-22.9664133,-56.5447268,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,25_de_Diciembre,Departamentos/02_San_Pedro/25_de_Diciembre,-24.8131845,-56.7267452,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,Antequera,Departamentos/02_San_Pedro/Antequera,-24.085699,-57.2002552,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,Capiibary,Departamentos/02_San_Pedro/Capiibary,-24.7260964,-56.0162159,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,Chore,Departamentos/02_San_Pedro/Chore,-24.1858573,-56.5832982,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,General_Elizardo_Aquino,Departamentos/02_San_Pedro/General_Elizardo_Aquino,-24.4465037,-56.8994063,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,General_Resquin,Departamentos/02_San_Pedro/General_Resquin,-24.0917657,-57.0691874,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,Guayaibi,Departamentos/02_San_Pedro/Guayaibi,-24.5276771,-56.406702,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,Itacurubi,Departamentos/02_San_Pedro/Itacurubi,-24.5360385,-56.8248844,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,Itacurubi_del_Rosario,Departamentos/02_San_Pedro/Itacurubi_del_Rosario,-24.5360385,-56.8248844,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,Liberacion,Departamentos/02_San_Pedro/Liberacion,-24.1921208,-56.4349632,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,Lima,Departamentos/02_San_Pedro/Lima,-23.8807425,-56.4824428,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,Nueva_Germania,Departamentos/02_San_Pedro/Nueva_Germania,-23.9121136,-56.701067,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,San_Estanislao,Departamentos/02_San_Pedro/San_Estanislao,-24.6657428,-56.4416798,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,San_Pablo,Departamentos/02_San_Pedro/San_Pablo,-24.1042864,-56.8648728,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,San_Pedro_de_Ycuamandiyu,Departamentos/02_San_Pedro/San_Pedro_de_Ycuamandiyu,-24.0833,-57.0833,2.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+02_San_Pedro,San_Vicente_Pancholo,Departamentos/02_San_Pedro/San_Vicente_Pancholo,-23.7333,-56.5,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,Santa_Rosa_del_Aguaray,Departamentos/02_San_Pedro/Santa_Rosa_del_Aguaray,-23.8259783,-56.5207034,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,Tacuati,Departamentos/02_San_Pedro/Tacuati,-23.4572643,-56.7384496,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,Union,Departamentos/02_San_Pedro/Union,-24.8076366,-56.5190779,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,Villa_del_Rosario,Departamentos/02_San_Pedro/Villa_del_Rosario,-24.4233326,-57.1129598,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,Yataity_del_Norte,Departamentos/02_San_Pedro/Yataity_del_Norte,-24.8459312,-56.3560445,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+02_San_Pedro,Yrybucua,Departamentos/02_San_Pedro/Yrybucua,-24.479991,-56.085646,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+03_Cordillera,Altos,Departamentos/03_Cordillera/Altos,-25.2617324,-57.2492898,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+03_Cordillera,Arroyos_y_Esteros,Departamentos/03_Cordillera/Arroyos_y_Esteros,-25.0541561,-57.0970807,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+03_Cordillera,Caacupe,Departamentos/03_Cordillera/Caacupe,-25.3856888,-57.140477,6.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+03_Cordillera,Caraguatay,Departamentos/03_Cordillera/Caraguatay,-25.2395075,-56.8252913,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+03_Cordillera,Emboscada,Departamentos/03_Cordillera/Emboscada,-25.1250628,-57.349522,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+03_Cordillera,Eusebio_Ayala,Departamentos/03_Cordillera/Eusebio_Ayala,-25.3826238,-56.9622692,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+03_Cordillera,Isla_Pucu,Departamentos/03_Cordillera/Isla_Pucu,-25.3084188,-56.8994355,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+03_Cordillera,Itacurubi_de_la_Cordillera,Departamentos/03_Cordillera/Itacurubi_de_la_Cordillera,-25.4631759,-56.847988,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+03_Cordillera,Juan_de_Mena,Departamentos/03_Cordillera/Juan_de_Mena,-24.954092,-56.7627916,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+03_Cordillera,Loma_Grande,Departamentos/03_Cordillera/Loma_Grande,-25.1777335,-57.2335766,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+03_Cordillera,Mbocayaty_del_Yhaguy,Departamentos/03_Cordillera/Mbocayaty_del_Yhaguy,-25.3418119,-56.7263211,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+03_Cordillera,Nueva_Colombia,Departamentos/03_Cordillera/Nueva_Colombia,-25.1879075,-57.305443,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+03_Cordillera,Piribebuy,Departamentos/03_Cordillera/Piribebuy,-25.4644144,-57.0422264,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+03_Cordillera,Primero_de_Marzo,Departamentos/03_Cordillera/Primero_de_Marzo,-25.1530253,-56.9280309,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+03_Cordillera,San_Bernardino,Departamentos/03_Cordillera/San_Bernardino,-25.3087796,-57.2958319,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+03_Cordillera,San_Jose_de_los_Arroyos,Departamentos/03_Cordillera/San_Jose_de_los_Arroyos,-25.4724736,-56.7161598,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+03_Cordillera,Santa_Elena,Departamentos/03_Cordillera/Santa_Elena,-25.4144566,-56.797215,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+03_Cordillera,Tobati,Departamentos/03_Cordillera/Tobati,-25.2602337,-57.0824109,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+03_Cordillera,Valenzuela,Departamentos/03_Cordillera/Valenzuela,-25.5945372,-56.8705538,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+04_Guaira,Borja,Departamentos/04_Guaira/Borja,-25.9507222,-56.4961614,2.5,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+04_Guaira,Capitan_Mauricio_Jose_Troche,Departamentos/04_Guaira/Capitan_Mauricio_Jose_Troche,-25.6159267,-56.2773937,2.5,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+04_Guaira,Coronel_Martinez,Departamentos/04_Guaira/Coronel_Martinez,-25.7592199,-56.6192144,2.5,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+04_Guaira,Doctor_Botrell,Departamentos/04_Guaira/Doctor_Botrell,-25.6149241,-56.3398852,2.5,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+04_Guaira,Felix_Perez_Cardozo,Departamentos/04_Guaira/Felix_Perez_Cardozo,-25.7428872,-56.5227793,2.5,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+04_Guaira,General_Eugenio_A_Garay,Departamentos/04_Guaira/General_Eugenio_A_Garay,-25.9684172,-56.1861176,2.5,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+04_Guaira,Independencia,Departamentos/04_Guaira/Independencia,-25.706892,-56.1821368,2.5,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+04_Guaira,Itape,Departamentos/04_Guaira/Itape,-25.8520504,-56.6147051,2.5,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+04_Guaira,Iturbe,Departamentos/04_Guaira/Iturbe,-26.0583952,-56.4874273,2.5,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+04_Guaira,Jose_Fassardi,Departamentos/04_Guaira/Jose_Fassardi,-25.9795583,-56.1217721,2.5,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+04_Guaira,Mbocayaty_del_Guaira,Departamentos/04_Guaira/Mbocayaty_del_Guaira,-25.7148266,-56.4080301,2.5,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+04_Guaira,Natalicio_Talavera,Departamentos/04_Guaira/Natalicio_Talavera,-25.6547363,-56.3083909,2.5,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+04_Guaira,Numi,Departamentos/04_Guaira/Numi,-25.6055208,-56.3049434,2.5,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+04_Guaira,Paso_Yobai,Departamentos/04_Guaira/Paso_Yobai,-25.7132848,-56.0015539,2.5,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+04_Guaira,San_Salvador,Departamentos/04_Guaira/San_Salvador,-25.9430646,-56.4710195,2.5,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+04_Guaira,Tebicuary,Departamentos/04_Guaira/Tebicuary,-25.853769,-56.6133522,2.5,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+04_Guaira,Villarrica,Departamentos/04_Guaira/Villarrica,-25.7809839,-56.4478765,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+04_Guaira,Yataity_del_Guaira,Departamentos/04_Guaira/Yataity_del_Guaira,-25.6891251,-56.4668019,2.5,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,Caaguazu,Departamentos/05_Caaguazu/Caaguazu,-25.4661756,-56.0181685,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,Carayao,Departamentos/05_Caaguazu/Carayao,-25.2003076,-56.397201,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,Coronel_Oviedo,Departamentos/05_Caaguazu/Coronel_Oviedo,-25.450055,-56.4406994,6.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,Doctor_Cecilio_Baez,Departamentos/05_Caaguazu/Doctor_Cecilio_Baez,-25.0715236,-56.2430442,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,Doctor_Eulogio_Estigarribia,Departamentos/05_Caaguazu/Doctor_Eulogio_Estigarribia,-25.3715319,-55.7044814,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,Doctor_Juan_Manuel_Frutos,Departamentos/05_Caaguazu/Doctor_Juan_Manuel_Frutos,-25.3859791,-55.8332378,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,Jose_Domingo_Ocampos,Departamentos/05_Caaguazu/Jose_Domingo_Ocampos,-25.4110492,-55.4252228,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,La_Pastora,Departamentos/05_Caaguazu/La_Pastora,-25.2469599,-56.5383271,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,Mariscal_Francisco_Solano_Lopez,Departamentos/05_Caaguazu/Mariscal_Francisco_Solano_Lopez,-25.4651112,-56.0200575,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,Nueva_Londres,Departamentos/05_Caaguazu/Nueva_Londres,-25.4044721,-56.5498473,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,Nueva_Toledo,Departamentos/05_Caaguazu/Nueva_Toledo,-24.9707185,-55.6244966,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,RI_Tres_Corrales,Departamentos/05_Caaguazu/RI_Tres_Corrales,-25.3167,-55.7667,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,Raul_Arsenio_Oviedo,Departamentos/05_Caaguazu/Raul_Arsenio_Oviedo,-25.1968336,-55.6056436,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,Repatriacion,Departamentos/05_Caaguazu/Repatriacion,-25.5365912,-55.9931355,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,San_Joaquin,Departamentos/05_Caaguazu/San_Joaquin,-25.0276651,-56.0439584,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,San_Jose_de_los_Arroyos,Departamentos/05_Caaguazu/San_Jose_de_los_Arroyos,-25.5322822,-56.7317808,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,Santa_Rosa_del_Mbutuy,Departamentos/05_Caaguazu/Santa_Rosa_del_Mbutuy,-24.982285,-56.2561878,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,Simon_Bolivar,Departamentos/05_Caaguazu/Simon_Bolivar,-25.0497289,-56.3254977,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,Tembiapora,Departamentos/05_Caaguazu/Tembiapora,-25.3531583,-55.3777523,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,Tres_de_Febrero,Departamentos/05_Caaguazu/Tres_de_Febrero,-25.2457526,-55.7752737,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,Vaqueria,Departamentos/05_Caaguazu/Vaqueria,-24.9937428,-55.8200886,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+05_Caaguazu,Yhu,Departamentos/05_Caaguazu/Yhu,-25.056433,-55.9224442,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+06_Caazapa,3_de_Mayo,Departamentos/06_Caazapa/3_de_Mayo,-26.4809673,-56.0956001,0.8,3,Céu rural,estimativa_world_atlas,2026-03-20
+06_Caazapa,Abai,Departamentos/06_Caazapa/Abai,-26.0409337,-55.9442315,0.8,3,Céu rural,estimativa_world_atlas,2026-03-20
+06_Caazapa,Buena_Vista,Departamentos/06_Caazapa/Buena_Vista,-26.1839492,-56.082775,0.8,3,Céu rural,estimativa_world_atlas,2026-03-20
+06_Caazapa,Caazapa,Departamentos/06_Caazapa/Caazapa,-26.1973302,-56.3666422,1.6,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+06_Caazapa,Doctor_Moises_Bertoni,Departamentos/06_Caazapa/Doctor_Moises_Bertoni,-26.3560391,-56.4847984,0.8,3,Céu rural,estimativa_world_atlas,2026-03-20
+06_Caazapa,Fulgencio_Yegros,Departamentos/06_Caazapa/Fulgencio_Yegros,-26.4555348,-56.4037709,0.8,3,Céu rural,estimativa_world_atlas,2026-03-20
+06_Caazapa,General_Higinio_Morinigo,Departamentos/06_Caazapa/General_Higinio_Morinigo,-26.0272686,-56.0845959,0.8,3,Céu rural,estimativa_world_atlas,2026-03-20
+06_Caazapa,Maciel,Departamentos/06_Caazapa/Maciel,-26.1825151,-56.4726609,0.8,3,Céu rural,estimativa_world_atlas,2026-03-20
+06_Caazapa,San_Juan_Nepomuceno,Departamentos/06_Caazapa/San_Juan_Nepomuceno,-26.1115601,-55.9360092,0.8,3,Céu rural,estimativa_world_atlas,2026-03-20
+06_Caazapa,Tavarai,Departamentos/06_Caazapa/Tavarai,-26.25,-56.55,0.8,3,Céu rural,estimativa_world_atlas,2026-03-20
+06_Caazapa,Yuty,Departamentos/06_Caazapa/Yuty,-26.6141187,-56.2475118,0.8,3,Céu rural,estimativa_world_atlas,2026-03-20
+07_Itapua,Alto_Vera,Departamentos/07_Itapua/Alto_Vera,-26.7521622,-55.7682012,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Bella_Vista,Departamentos/07_Itapua/Bella_Vista,-27.0422036,-55.5770692,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Cambreta,Departamentos/07_Itapua/Cambreta,-27.2833,-55.7333,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Capitan_Meza,Departamentos/07_Itapua/Capitan_Meza,-26.9364706,-55.23533,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Capitan_Miranda,Departamentos/07_Itapua/Capitan_Miranda,-27.2196484,-55.8011417,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Carlos_Antonio_Lopez,Departamentos/07_Itapua/Carlos_Antonio_Lopez,-26.3985002,-54.7568241,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Carmen_del_Parana,Departamentos/07_Itapua/Carmen_del_Parana,-27.2209064,-56.1479269,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Coronel_Bogado,Departamentos/07_Itapua/Coronel_Bogado,-27.1605297,-56.2414071,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Edelira,Departamentos/07_Itapua/Edelira,-27.310307,-55.855905,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Encarnacion,Departamentos/07_Itapua/Encarnacion,-27.3376114,-55.8669492,10.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+07_Itapua,Fram,Departamentos/07_Itapua/Fram,-27.0953017,-56.0190012,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,General_Artigas,Departamentos/07_Itapua/General_Artigas,-26.9327817,-56.2245027,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,General_Delgado,Departamentos/07_Itapua/General_Delgado,-27.0906714,-56.5254794,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Hohenau,Departamentos/07_Itapua/Hohenau,-27.0712879,-55.639978,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Itapua_Poty,Departamentos/07_Itapua/Itapua_Poty,-26.6309512,-55.5202183,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Jesus,Departamentos/07_Itapua/Jesus,-27.0560079,-55.7542622,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Jose_Leandro_Oviedo,Departamentos/07_Itapua/Jose_Leandro_Oviedo,-26.7445942,-56.279358,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,La_Paz,Departamentos/07_Itapua/La_Paz,-26.9943634,-55.8888571,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Mayor_Otano,Departamentos/07_Itapua/Mayor_Otano,-26.3534303,-54.7215375,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Natalio,Departamentos/07_Itapua/Natalio,-26.7564696,-55.1367139,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Nueva_Alborada,Departamentos/07_Itapua/Nueva_Alborada,-27.2696145,-55.6796227,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Obligado,Departamentos/07_Itapua/Obligado,-27.0553072,-55.6293459,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Pirapo,Departamentos/07_Itapua/Pirapo,-26.8575086,-55.5438375,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,San_Cosme_y_Damian,Departamentos/07_Itapua/San_Cosme_y_Damian,-27.3159514,-56.3312694,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,San_Juan_del_Parana,Departamentos/07_Itapua/San_Juan_del_Parana,-27.2691069,-55.9898457,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,San_Pedro_del_Parana,Departamentos/07_Itapua/San_Pedro_del_Parana,-26.833795,-56.2091439,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,San_Rafael_del_Parana,Departamentos/07_Itapua/San_Rafael_del_Parana,-26.5942835,-54.9963893,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Tomas_Romero_Pereira,Departamentos/07_Itapua/Tomas_Romero_Pereira,-26.4640084,-55.2758653,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Trinidad,Departamentos/07_Itapua/Trinidad,-27.1450574,-55.7098346,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+07_Itapua,Yatytay,Departamentos/07_Itapua/Yatytay,-26.672829,-55.0876912,5.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+08_Misiones,Ayolas,Departamentos/08_Misiones/Ayolas,-27.3898739,-56.844718,0.8,3,Céu rural,estimativa_world_atlas,2026-03-20
+08_Misiones,San_Ignacio,Departamentos/08_Misiones/San_Ignacio,-26.8871898,-57.0240156,0.8,3,Céu rural,estimativa_world_atlas,2026-03-20
+08_Misiones,San_Juan_Bautista,Departamentos/08_Misiones/San_Juan_Bautista,-26.717513,-57.3337056,1.6,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+08_Misiones,San_Miguel,Departamentos/08_Misiones/San_Miguel,-26.534595,-57.038751,0.8,3,Céu rural,estimativa_world_atlas,2026-03-20
+08_Misiones,San_Patricio,Departamentos/08_Misiones/San_Patricio,-26.976687,-56.8273098,0.8,3,Céu rural,estimativa_world_atlas,2026-03-20
+08_Misiones,Santa_Maria,Departamentos/08_Misiones/Santa_Maria,-26.7825265,-56.9450719,0.8,3,Céu rural,estimativa_world_atlas,2026-03-20
+08_Misiones,Santa_Rosa,Departamentos/08_Misiones/Santa_Rosa,-26.8864043,-56.8492668,0.8,3,Céu rural,estimativa_world_atlas,2026-03-20
+08_Misiones,Santiago,Departamentos/08_Misiones/Santiago,-27.1402177,-56.7634235,0.8,3,Céu rural,estimativa_world_atlas,2026-03-20
+08_Misiones,Villa_Florida,Departamentos/08_Misiones/Villa_Florida,-26.408432,-57.1252096,0.8,3,Céu rural,estimativa_world_atlas,2026-03-20
+08_Misiones,Yabebyry,Departamentos/08_Misiones/Yabebyry,-27.3792946,-57.1653769,0.8,3,Céu rural,estimativa_world_atlas,2026-03-20
+09_Paraguari,Acahay,Departamentos/09_Paraguari/Acahay,-25.9139897,-57.1142066,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+09_Paraguari,Caapucu,Departamentos/09_Paraguari/Caapucu,-26.2336162,-57.1820645,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+09_Paraguari,Caballero,Departamentos/09_Paraguari/Caballero,-25.6913743,-56.8616212,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+09_Paraguari,Carapegua,Departamentos/09_Paraguari/Carapegua,-25.767636,-57.2425331,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+09_Paraguari,Escobar,Departamentos/09_Paraguari/Escobar,-25.6735792,-57.0403827,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+09_Paraguari,General_Bernardino_Caballero,Departamentos/09_Paraguari/General_Bernardino_Caballero,-25.6913743,-56.8616212,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+09_Paraguari,La_Colmena,Departamentos/09_Paraguari/La_Colmena,-25.8856298,-56.8404292,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+09_Paraguari,Mbuyapey,Departamentos/09_Paraguari/Mbuyapey,-26.2205658,-56.7572497,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+09_Paraguari,Paraguari,Departamentos/09_Paraguari/Paraguari,-25.6203507,-57.1505142,3.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+09_Paraguari,Pirayu,Departamentos/09_Paraguari/Pirayu,-25.48,-57.23,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+09_Paraguari,Quiindy,Departamentos/09_Paraguari/Quiindy,-25.9757816,-57.2324307,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+09_Paraguari,Quyquyho,Departamentos/09_Paraguari/Quyquyho,-26.2316581,-56.9888688,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+09_Paraguari,San_Roque_Gonzalez,Departamentos/09_Paraguari/San_Roque_Gonzalez,-25.8814105,-57.2891135,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+09_Paraguari,Sapucai,Departamentos/09_Paraguari/Sapucai,-25.66667,-56.91667,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+09_Paraguari,Tebicuary_mi,Departamentos/09_Paraguari/Tebicuary_mi,-25.7789491,-56.6472343,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+09_Paraguari,Yaguarun,Departamentos/09_Paraguari/Yaguarun,-26.0,-57.0,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+09_Paraguari,Ybycui,Departamentos/09_Paraguari/Ybycui,-26.1316891,-56.8429718,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+09_Paraguari,Ybytimi,Departamentos/09_Paraguari/Ybytimi,-25.2721958,-57.5636465,1.5,3,Céu rural,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,Ciudad_del_Este,Departamentos/10_Alto_Parana/Ciudad_del_Este,-25.516666666,-54.616666666,30.0,7,Transição suburbano-urbano,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,Doctor_Raul_Pena,Departamentos/10_Alto_Parana/Doctor_Raul_Pena,-25.5544822,-54.6134886,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,Domingo_Martinez_de_Irala,Departamentos/10_Alto_Parana/Domingo_Martinez_de_Irala,-25.9104961,-54.6290891,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,Hernandarias,Departamentos/10_Alto_Parana/Hernandarias,-25.4041794,-54.6320387,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,Iruna,Departamentos/10_Alto_Parana/Iruna,-26.1118133,-55.056369,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,Itakyry,Departamentos/10_Alto_Parana/Itakyry,-25.483333333,-57.35,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,Juan_Emilio_OLeary,Departamentos/10_Alto_Parana/Juan_Emilio_OLeary,-25.55,-55.1167,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,Juan_Leon_Mallorquin,Departamentos/10_Alto_Parana/Juan_Leon_Mallorquin,-25.4291628,-55.25452,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,Los_Cedrales,Departamentos/10_Alto_Parana/Los_Cedrales,-25.6584029,-54.7204891,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,Mbaracayu,Departamentos/10_Alto_Parana/Mbaracayu,-25.0282763,-54.824091,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,Minga_Guazu,Departamentos/10_Alto_Parana/Minga_Guazu,-25.4910326,-54.767743,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,Minga_Pora,Departamentos/10_Alto_Parana/Minga_Pora,-24.8760322,-54.9352852,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,Nacunday,Departamentos/10_Alto_Parana/Nacunday,-25.9798069,-54.6831659,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,Naranjal,Departamentos/10_Alto_Parana/Naranjal,-25.9739991,-55.1901109,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,Presidente_Franco,Departamentos/10_Alto_Parana/Presidente_Franco,-25.5651763,-54.6156341,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,San_Alberto,Departamentos/10_Alto_Parana/San_Alberto,-24.9765429,-54.9116344,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,San_Cristobal,Departamentos/10_Alto_Parana/San_Cristobal,-25.7780452,-55.3940964,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,Santa_Fe_del_Parana,Departamentos/10_Alto_Parana/Santa_Fe_del_Parana,-25.2269711,-54.7032888,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,Santa_Rita,Departamentos/10_Alto_Parana/Santa_Rita,-25.8004863,-55.0934459,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,Santa_Rosa_del_Monday,Departamentos/10_Alto_Parana/Santa_Rosa_del_Monday,-25.8143908,-54.9049752,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,Tavapy,Departamentos/10_Alto_Parana/Tavapy,-25.663704,-54.9958621,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+10_Alto_Parana,Yguazu,Departamentos/10_Alto_Parana/Yguazu,-25.4634017,-55.0011501,15.0,6,Céu suburbano brilhante,estimativa_world_atlas,2026-03-20
+11_Central,Aregua,Departamentos/11_Central/Aregua,-25.3,-57.416944,40.0,7,Transição suburbano-urbano,estimativa_world_atlas,2026-03-20
+11_Central,Capiata,Departamentos/11_Central/Capiata,-25.3548171,-57.4427315,40.0,7,Transição suburbano-urbano,estimativa_world_atlas,2026-03-20
+11_Central,Fernando_de_la_Mora,Departamentos/11_Central/Fernando_de_la_Mora,-25.3281673,-57.5521492,40.0,7,Transição suburbano-urbano,estimativa_world_atlas,2026-03-20
+11_Central,Guarambare,Departamentos/11_Central/Guarambare,-25.4920858,-57.4558665,40.0,7,Transição suburbano-urbano,estimativa_world_atlas,2026-03-20
+11_Central,Ita,Departamentos/11_Central/Ita,-25.483333333,-57.35,40.0,7,Transição suburbano-urbano,estimativa_world_atlas,2026-03-20
+11_Central,Itaugua,Departamentos/11_Central/Itaugua,-25.483333333,-57.35,40.0,7,Transição suburbano-urbano,estimativa_world_atlas,2026-03-20
+11_Central,J_Augusto_Saldivar,Departamentos/11_Central/J_Augusto_Saldivar,-25.4439,-57.4430461,40.0,7,Transição suburbano-urbano,estimativa_world_atlas,2026-03-20
+11_Central,Lambare,Departamentos/11_Central/Lambare,-25.3455354,-57.6261456,40.0,7,Transição suburbano-urbano,estimativa_world_atlas,2026-03-20
+11_Central,Limpio,Departamentos/11_Central/Limpio,-25.1728768,-57.4778284,40.0,7,Transição suburbano-urbano,estimativa_world_atlas,2026-03-20
+11_Central,Luque,Departamentos/11_Central/Luque,-25.2665417,-57.4926928,40.0,7,Transição suburbano-urbano,estimativa_world_atlas,2026-03-20
+11_Central,Mariano_Roque_Alonso,Departamentos/11_Central/Mariano_Roque_Alonso,-25.2118123,-57.5346458,40.0,7,Transição suburbano-urbano,estimativa_world_atlas,2026-03-20
+11_Central,Nemby,Departamentos/11_Central/Nemby,-25.3924542,-57.5471112,40.0,7,Transição suburbano-urbano,estimativa_world_atlas,2026-03-20
+11_Central,Nueva_Italia,Departamentos/11_Central/Nueva_Italia,-25.6120904,-57.4676865,40.0,7,Transição suburbano-urbano,estimativa_world_atlas,2026-03-20
+11_Central,San_Antonio,Departamentos/11_Central/San_Antonio,-25.379722222,-57.609722222,40.0,7,Transição suburbano-urbano,estimativa_world_atlas,2026-03-20
+11_Central,San_Lorenzo,Departamentos/11_Central/San_Lorenzo,-25.343055555,-57.509444444,40.0,7,Transição suburbano-urbano,estimativa_world_atlas,2026-03-20
+11_Central,Villa_Elisa,Departamentos/11_Central/Villa_Elisa,-25.3715212,-57.5898279,40.0,7,Transição suburbano-urbano,estimativa_world_atlas,2026-03-20
+11_Central,Villeta,Departamentos/11_Central/Villeta,-25.5045192,-57.5693789,40.0,7,Transição suburbano-urbano,estimativa_world_atlas,2026-03-20
+11_Central,Ypacarai,Departamentos/11_Central/Ypacarai,-25.4046805,-57.2857757,40.0,7,Transição suburbano-urbano,estimativa_world_atlas,2026-03-20
+11_Central,Ypane,Departamentos/11_Central/Ypane,-25.45,-57.53,40.0,7,Transição suburbano-urbano,estimativa_world_atlas,2026-03-20
+12_Neembucu,Alberdi,Departamentos/12_Neembucu/Alberdi,-26.1854132,-58.142486,0.5,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+12_Neembucu,Cerrito,Departamentos/12_Neembucu/Cerrito,-27.3393701,-57.6397704,0.5,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+12_Neembucu,Desmochados,Departamentos/12_Neembucu/Desmochados,-27.121115,-58.0879682,0.5,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+12_Neembucu,General_Diaz,Departamentos/12_Neembucu/General_Diaz,-26.8539807,-58.3110777,0.5,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+12_Neembucu,Guazu_Cua,Departamentos/12_Neembucu/Guazu_Cua,-26.8826508,-57.9659088,0.5,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+12_Neembucu,Humaita,Departamentos/12_Neembucu/Humaita,-25.483333333,-57.35,0.5,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+12_Neembucu,Isla_Umbu,Departamentos/12_Neembucu/Isla_Umbu,-26.9834127,-58.2725618,0.5,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+12_Neembucu,Laureles,Departamentos/12_Neembucu/Laureles,-27.2504746,-57.4581675,0.5,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+12_Neembucu,Mayor_Martinez,Departamentos/12_Neembucu/Mayor_Martinez,-27.1464309,-58.2291864,0.5,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+12_Neembucu,Paso_de_Patria,Departamentos/12_Neembucu/Paso_de_Patria,-27.2454211,-58.5454485,0.5,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+12_Neembucu,Pilar,Departamentos/12_Neembucu/Pilar,-26.856944444,-58.303888888,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+12_Neembucu,San_Juan_del_Neembucu,Departamentos/12_Neembucu/San_Juan_del_Neembucu,-26.8601823,-58.3011842,0.5,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+12_Neembucu,Tacuaras,Departamentos/12_Neembucu/Tacuaras,-26.8183687,-57.982401,0.5,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+12_Neembucu,Villa_Franca,Departamentos/12_Neembucu/Villa_Franca,-26.3148808,-58.1479754,0.5,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+12_Neembucu,Villa_Oliva,Departamentos/12_Neembucu/Villa_Oliva,-26.0161506,-57.8575555,0.5,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+12_Neembucu,Villalbin,Departamentos/12_Neembucu/Villalbin,-27.1386662,-57.9302857,0.5,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+13_Amambay,Bella_Vista,Departamentos/13_Amambay/Bella_Vista,-22.1231581,-56.5133016,2.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+13_Amambay,Capitan_Bado,Departamentos/13_Amambay/Capitan_Bado,-25.483333333,-57.35,2.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+13_Amambay,Cerro_Cora,Departamentos/13_Amambay/Cerro_Cora,-23.2706693,-55.541544,2.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+13_Amambay,Karapai,Departamentos/13_Amambay/Karapai,-23.489011,-56.031763,2.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+13_Amambay,Pedro_Juan_Caballero,Departamentos/13_Amambay/Pedro_Juan_Caballero,-22.566666666,-55.716666666,4.0,5,Céu suburbano,estimativa_world_atlas,2026-03-20
+13_Amambay,Zanja_Pyta,Departamentos/13_Amambay/Zanja_Pyta,-22.6298609,-55.6319262,2.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+14_Canindeyu,Corpus_Christi,Departamentos/14_Canindeyu/Corpus_Christi,-24.078626,-54.9399763,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+14_Canindeyu,Curuguaty,Departamentos/14_Canindeyu/Curuguaty,-24.4694166,-55.6945253,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+14_Canindeyu,General_Caballero_Alvarez,Departamentos/14_Canindeyu/General_Caballero_Alvarez,-24.1556231,-54.6656297,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+14_Canindeyu,Itanara,Departamentos/14_Canindeyu/Itanara,-23.7519813,-55.4645214,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+14_Canindeyu,Katuete,Departamentos/14_Canindeyu/Katuete,-24.3088036,-54.7482671,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+14_Canindeyu,La_Paloma,Departamentos/14_Canindeyu/La_Paloma,-24.1324273,-54.612178,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+14_Canindeyu,Laurel,Departamentos/14_Canindeyu/Laurel,-24.5635433,-54.9586833,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+14_Canindeyu,Maracana,Departamentos/14_Canindeyu/Maracana,-24.1899734,-56.1197791,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+14_Canindeyu,Nueva_Esperanza,Departamentos/14_Canindeyu/Nueva_Esperanza,-24.5060025,-54.8575842,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+14_Canindeyu,Puerto_Adela,Departamentos/14_Canindeyu/Puerto_Adela,-24.4844244,-54.3856984,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+14_Canindeyu,Salto_del_Guaira,Departamentos/14_Canindeyu/Salto_del_Guaira,-24.056639,-54.3342067,2.0,4,Céu rural-suburbano,estimativa_world_atlas,2026-03-20
+14_Canindeyu,Villa_Ygatimi,Departamentos/14_Canindeyu/Villa_Ygatimi,-24.1228762,-55.6447411,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+14_Canindeyu,Yasy_Cany,Departamentos/14_Canindeyu/Yasy_Cany,-24.5236147,-55.8829147,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+14_Canindeyu,Yby_Pyta,Departamentos/14_Canindeyu/Yby_Pyta,-24.348753,-55.3866594,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+14_Canindeyu,Ybyrarovana,Departamentos/14_Canindeyu/Ybyrarovana,-24.3667,-55.0833,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+14_Canindeyu,Ypejhu,Departamentos/14_Canindeyu/Ypejhu,-23.888163,-55.4411803,1.0,3,Céu rural,estimativa_world_atlas,2026-03-20
+15_Presidente_Hayes,Benjamin_Aceval,Departamentos/15_Presidente_Hayes/Benjamin_Aceval,-24.9947234,-57.5524442,0.3,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+15_Presidente_Hayes,Campo_Aceval,Departamentos/15_Presidente_Hayes/Campo_Aceval,-23.2010594,-59.7669554,0.3,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+15_Presidente_Hayes,General_Bruguez,Departamentos/15_Presidente_Hayes/General_Bruguez,-25.0968042,-57.5274809,0.3,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+15_Presidente_Hayes,Jose_Falcon,Departamentos/15_Presidente_Hayes/Jose_Falcon,-25.215938,-57.7130949,0.3,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+15_Presidente_Hayes,Nanawa,Departamentos/15_Presidente_Hayes/Nanawa,-25.2803256,-57.7029628,0.3,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+15_Presidente_Hayes,Nueva_Asuncion,Departamentos/15_Presidente_Hayes/Nueva_Asuncion,-25.2520156,-57.6415393,0.3,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+15_Presidente_Hayes,Puerto_Pinasco,Departamentos/15_Presidente_Hayes/Puerto_Pinasco,-22.6454007,-57.8402156,0.3,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+15_Presidente_Hayes,Teniente_Esteban_Martinez,Departamentos/15_Presidente_Hayes/Teniente_Esteban_Martinez,-23.9712786,-59.7561724,0.3,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+15_Presidente_Hayes,Teniente_Irala_Fernandez,Departamentos/15_Presidente_Hayes/Teniente_Irala_Fernandez,-23.2053339,-59.7676341,0.3,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+15_Presidente_Hayes,Villa_Hayes,Departamentos/15_Presidente_Hayes/Villa_Hayes,-25.0928654,-57.5246478,0.6,3,Céu rural,estimativa_world_atlas,2026-03-20
+16_Boqueron,Boqueron,Departamentos/16_Boqueron/Boqueron,-22.7724228,-59.9408946,0.2,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+16_Boqueron,Filadelfia,Departamentos/16_Boqueron/Filadelfia,-22.333333333,-60.016666666,0.4,3,Céu rural,estimativa_world_atlas,2026-03-20
+16_Boqueron,Loma_Plata,Departamentos/16_Boqueron/Loma_Plata,-22.3848499,-59.8382177,0.2,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+16_Boqueron,Mariscal_Estigarribia,Departamentos/16_Boqueron/Mariscal_Estigarribia,-22.0297927,-60.5984488,0.2,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+17_Alto_Paraguay,Bahia_Negra,Departamentos/17_Alto_Paraguay/Bahia_Negra,-20.2308712,-58.1690716,0.1,1,Céu verdadeiramente escuro,estimativa_world_atlas,2026-03-20
+17_Alto_Paraguay,Capitan_Carmelo_Peralta,Departamentos/17_Alto_Paraguay/Capitan_Carmelo_Peralta,-25.4633647,-56.4539106,0.1,1,Céu verdadeiramente escuro,estimativa_world_atlas,2026-03-20
+17_Alto_Paraguay,Fuerte_Olimpo,Departamentos/17_Alto_Paraguay/Fuerte_Olimpo,-21.0385406,-57.8748123,0.2,2,Céu tipicamente escuro,estimativa_world_atlas,2026-03-20
+17_Alto_Paraguay,Puerto_Casado,Departamentos/17_Alto_Paraguay/Puerto_Casado,-22.285746,-57.9431435,0.1,1,Céu verdadeiramente escuro,estimativa_world_atlas,2026-03-20

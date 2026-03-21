@@ -22,7 +22,29 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+### 3. Dados Climaticos (NASA POWER Climatology API, 2001-2020)
+
+Coordenadas: -25.51°S / -54.61°W. Acesso em 2026-03-20.
+
+**Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 6.52 | 5.97 | 5.45 | 4.50 | 3.33 | 2.93 | 3.24 | 4.04 | 4.60 | 5.28 | 6.33 | 6.55 |
+
+Média anual: 4.89 kWh/m²/dia. Mínimo: Jun (2.93) | Máximo: Dez (6.55).
+
+**Precipitação — PRECTOTCORR (mm/dia → mm/ano ~1.610):**
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 4.73 | 4.56 | 3.78 | 4.14 | 5.26 | 3.59 | 2.75 | 2.26 | 4.02 | 6.80 | 5.29 | 5.76 |
+
+Estação chuvosa Out-Dez; seca Jul-Ago (mínimo em Ago).
+
+**Inclinação solar recomendada:** 26° Norte (anual); 36° no inverno (Jun-Ago); 16° no verão (Nov-Jan). Base: latitude -25.51°S.
+
+### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à cota elevada da cidade em relação ao Rio Paraná. Vulnerabilidade localizada em áreas ribeirinhas baixas e drenagem urbana pluvial em tempestades severas (média 1.700 mm/ano).
 - **Clima:** Subtropical Úmido. Verões extremamente quentes e úmidos com ilhas de calor urbanas.
 - Fontes:
@@ -106,3 +128,70 @@ Indicado exclusivamente como hub logístico ou financeiro de apoio. Não recomen
 - 4) Estatísticas de comércio exterior e logística (MIC/DNA).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Capital departamental
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 0.97 | 7,178 |
+| Gasolina 97 oct (premium) | 1.07 | 7,918 |
+| Diesel | 0.90 | 6,660 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 95% |
+| Cobertura 4G área rural | 88% |
+| Melhor operadora | Tigo/Personal |
+| Qualidade rural | boa |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 85 Mbps |
+| Domicílios com internet (dept.) | 87% |
+| Tecnologia predominante | fibra/cabo |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 14,800 |
+| Imóvel urbano (USD/m²) | 1,609 |
+| Aluguel 2 quartos (USD/mês) | 720 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | sim |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | local |
+
+**Principais estabelecimentos:** Hospital distrital / regional de Ciudad del Este; rede de USF e farmacias locais
+
+**Observação para imigrantes:** Centro de referencia do departamento. Acesso a atendimento primario e, em geral, a maior oferta publica e privada da area. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

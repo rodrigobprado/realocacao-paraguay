@@ -22,14 +22,42 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.14 | 5.62 | 5.08 | 4.19 | 3.33 | 2.97 | 3.57 | 4.51 | 4.88 | 5.46 | 6.00 | 5.97 | **4.81** |
+
+**Inclinação solar recomendada:** 21° N (anual) · 31° N (inverno jun-ago) · 11° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.15 | 4.78 | 3.30 | 2.10 | 0.67 | 0.37 | 0.21 | 0.09 | 0.37 | 1.25 | 2.18 | 4.08 | **717 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 3 — Céu rural |
+| Radiância artificial | 1.5 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** **Risco de Isolamento por Chuvas.** Transbordamento de arroios tributários do Rio Apa e estradas intransitáveis em períodos de chuva intensa são os principais riscos operacionais.
 - **Clima:** Tropical Úmido. Verões quentes e úmidos com tempestades severas.
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (ANDE) instável por ser área remota e final de linha; interrupções frequentes.
 - **Água:** Poços artesianos e arroios locais perenes.
 - **Qualidade do Solo:** Solo com boa aptidão para pastagem e agricultura de subsistência; proximidade com áreas de reserva garante biodiversidade.
@@ -38,7 +66,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** **Zona de Alta Sensibilidade.** Histórico de atuação de grupos insurgentes (EPP/ACA) e rotas de narcotráfico em fronteira seca. Exige alto nível de preparação tática e vigilância. Presença da FTC (Força de Tarefa Conjunta) é uma constante necessária.
 - **Leis Local:** Município relativamente novo (2011) com forte presença de cultura de fronteira. **Restrição de Fronteira (Lei 2532/05):** Proibição de compra de terras rurais por estrangeiros de países limítrofes na faixa de 50km.
 - Fontes:
@@ -107,3 +135,114 @@ Ideal para estabelecimentos que funcionam como postos avançados ou refúgios t�
 - 4) Lei de Segurança Fronteiriça (2532/05).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+
+## 14. Informações Técnicas e Infraestrutura (Leitores Alfa)
+
+# Pesquisa Técnica: Sargento José Félix López (Puentesiño), Concepción
+
+## 1. Clima e Energia Solar
+- **Sol e Chuva Mensal (Candle Format - Médias):**
+    - [Jan-Mar: 145mm | Max 34°C | Min 23°C]
+    - [Abr-Jun: 100mm | Max 29°C | Min 17°C]
+    - [Jul-Set: 45mm | Max 28°C | Min 14°C]
+    - [Out-Dez: 170mm | Max 33°C | Min 22°C]
+- **Ângulo Solar Ideal:** 23° ao Norte.
+- **Radiação Média:** 5.4 kWh/m²/dia.
+
+## 2. Indicadores Sociais (Censo 2022)
+- **População:** 6.153 habitantes.
+- **Idade Média:** 22 anos.
+- **IDH:** 0.628 (estimado).
+- **Escolaridade:** 7.2 anos (média).
+- **Fertilidade:** 3.1 filhos por mulher.
+- **Saúde:** Puesto de Salud Puentesiño. Referência em Bella Vista Norte ou Concepción.
+- **Educação:** Escolas rurais básicas e de nível médio.
+- **Violência:** Zona de vigilância militar ativa devido ao isolamento e presença em zona de fronteira.
+
+## 3. Serviços e Infraestrutura
+- **Serviços Públicos:** Comisaría Puentesiño; Brigadas de combate a incêndios florestais (Apoio ao Parque Paso Bravo).
+- **Água:** Poços artesianos e Juntas de Saneamento. Profundidade: 110-160 metros.
+- **Internet:** 4G (Personal/Claro) limitado ao núcleo urbano; Starlink essencial em áreas remotas.
+- **Energia:** ANDE. Frequentemente atingida por cortes preventivos ou falhas na linha regional.
+
+## 4. Custos e Logística
+- **Residência Urbana:** Gs. 600.000 - 1.100.000 (aluguel).
+- **Residência Rural (Terra):** USD 1.200 - 2.500/hectare (Campos ganadeiros e áreas de floresta).
+- **Postos:** 1 posto de combustível local (Copetrol ou bandeira branca).
+- **Logística:** Acesso terrestre por estradas de terra cascalhadas; Ponto de apoio para o Parque Nacional Paso Bravo.
+
+## 5. Lazer e Comércio
+- **Lazer:** Ecoturismo extremo, observação de vida selvagem no Parque Nacional Paso Bravo, Rio Aquidabán.
+- **Comércio:** Pequenos armazéns de ramos gerais (alimentos, ferramentas, insumos básicos).
+- **Poluição Luminosa:** Zero (Céu pristino em torno da reserva).
+
+---
+*Dados baseados no Censo INE 2022 e levantamentos técnicos regionais.*
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 1.01 | 7,474 |
+| Gasolina 97 oct (premium) | 1.11 | 8,214 |
+| Diesel | 0.94 | 6,956 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 78% |
+| Cobertura 4G área rural | 55% |
+| Melhor operadora | Tigo |
+| Qualidade rural | moderada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 38 Mbps |
+| Domicílios com internet (dept.) | 48% |
+| Tecnologia predominante | rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 3,500 |
+| Imóvel urbano (USD/m²) | 650 |
+| Aluguel 2 quartos (USD/mês) | 260 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | não |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~737 km (Concepcion) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Concepcion
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Concepcion. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

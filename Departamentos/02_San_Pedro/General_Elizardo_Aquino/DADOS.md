@@ -22,14 +22,42 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.73 | 6.14 | 5.58 | 4.61 | 3.40 | 2.96 | 3.24 | 4.04 | 4.62 | 5.38 | 6.37 | 6.67 | **4.98** |
+
+**Inclinação solar recomendada:** 24° N (anual) · 34° N (inverno jun-ago) · 14° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.04 | 5.25 | 3.80 | 4.78 | 4.94 | 2.68 | 1.98 | 1.20 | 2.76 | 5.48 | 6.46 | 5.49 | **1487 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 3 — Céu rural |
+| Radiância artificial | 1.0 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas. Arroios locais podem sofrer transbordamento em chuvas intensas (média anual de 1.500-1.700 mm), afetando pontes de pequeno porte e estradas de terra.
 - **Clima:** Subtropical Quente. Verões com temperaturas >35°C frequentes. Inverno seco (junho/julho).
 - Fontes:
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu); manutenção prioritária por ser sede distrital, mas instável em áreas rurais remotas.
 - **Água:** Poços artesianos comunitários e juntas de saneamento; abundância hídrica superficial para irrigação.
 - **Qualidade do Solo:** Arenoso e franco-arenoso (avermelhado); exigente em correção (calcário) e adubação para alta performance em grãos, mas muito apto para pastagens e cana.
@@ -38,7 +66,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural considerada estável para residentes. Embora o departamento tenha taxas de homicídios elevadas (~27/100k em 2023), os conflitos são concentrados no norte de San Pedro. Perfil comunitário conservador.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira:** Localizado fora da faixa de 50km da Lei 2532/05, permitindo plena propriedade para estrangeiros brasileiros.
 - Fontes:
@@ -106,3 +134,70 @@ Indicado para estabelecimentos rurais que possam investir em infraestrutura de i
 - 4) Lei de Segurança Fronteiriça (2532/05).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 1.00 | 7,400 |
+| Gasolina 97 oct (premium) | 1.10 | 8,140 |
+| Diesel | 0.93 | 6,882 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 80% |
+| Cobertura 4G área rural | 58% |
+| Melhor operadora | Tigo |
+| Qualidade rural | moderada |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 35 Mbps |
+| Domicílios com internet (dept.) | 45% |
+| Tecnologia predominante | rádio |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 4,600 |
+| Imóvel urbano (USD/m²) | 600 |
+| Aluguel 2 quartos (USD/mês) | 250 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | sim |
+| IPS (seguro social) | não |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~56 km (San Pedro de Ycuamandiyu) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em San Pedro de Ycuamandiyu
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para San Pedro de Ycuamandiyu. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.

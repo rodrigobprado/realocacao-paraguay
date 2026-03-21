@@ -20,7 +20,35 @@
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 
-### 3. Riscos naturais
+
+### 3. Dados Climáticos e Ambientais
+
+**Fonte climática:** NASA POWER Climatology API (período 2001-2020)
+**Fonte luminosa:** estimativa_world_atlas
+
+#### Irradiação Solar (kWh/m²/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Média |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-------|
+| 6.76 | 6.20 | 5.42 | 4.44 | 3.36 | 2.83 | 3.21 | 3.93 | 4.61 | 5.49 | 6.42 | 6.78 | **4.95** |
+
+**Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
+
+#### Precipitação (mm/dia)
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
+| 4.01 | 5.16 | 4.08 | 4.81 | 5.02 | 2.63 | 2.06 | 1.22 | 2.64 | 5.54 | 6.51 | 5.62 | **1501 mm** |
+
+#### Poluição Luminosa
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Escala Bortle | 4 — Céu rural-suburbano |
+| Radiância artificial | 3.0 nW/cm²/sr |
+
+
+### 4. Riscos naturais
 - **Hidrologia:** **Risco Crítico de inundação.** A combinação do Rio Manduvirá com os esteros locais torna o distrito vulnerável a cheias prolongadas.
 - **Sismicidade:** Risco muito baixo. Zona intraplaca estável.
 - **Clima:** Subtropical Úmido com alta umidade relativa devido à hidrografia.
@@ -28,7 +56,7 @@
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
-### 4. Recursos e autossuficiencia
+### 5. Recursos e autossuficiencia
 - **Energia:** Rede nacional (Itaipu).
 - **Água:** Abundância de recursos hídricos superficiais (Manduvirá), porém sujeitos a contaminação. Poços artesianos são recomendados.
 - **Solo:** Predomínio de solos Podzólicos (Ultisoles) e Areias Quartzosas. Alta aptidão para cana-de-açúcar orgânica e pecuária.
@@ -37,7 +65,7 @@
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
-### 5. Ambiente sociopolitico
+### 6. Ambiente sociopolitico
 - **Segurança:** Cordillera é um dos departamentos mais seguros. Taxa de homicídios entre 3-5 por 100k hab (abaixo da média nacional de 6.5).
 - **Leis Local:** Município histórico com tradição agrícola.
 - **Fontes:**
@@ -106,3 +134,70 @@ Arroyos y Esteros é um polo de produção orgânica com excelente conectividade
 6. Sismicidade consultada em bases globais de risco geológico.
 7. Conectividade viária validada pelo MOPC.
 8. Dados de inundações baseados no histórico da SEN e topografia local.
+
+### Combustível
+
+**Referência:** PETROPAR / postos locais (2024)
+**Tipo de localidade:** Interior
+
+| Combustível | USD/litro | Gs/litro (aprox.) |
+|-------------|-----------|-------------------|
+| Gasolina 93 oct | 0.96 | 7,104 |
+| Gasolina 97 oct (premium) | 1.06 | 7,844 |
+| Diesel | 0.89 | 6,586 |
+
+> Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
+
+
+### Cobertura Celular
+
+**Fonte:** CONATEL PY / operadoras (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Cobertura 4G população (dept.) | 90% |
+| Cobertura 4G área rural | 78% |
+| Melhor operadora | Tigo |
+| Qualidade rural | boa |
+
+> Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
+
+
+### Internet
+
+**Fonte:** CONATEL / Speedtest Ookla (2024)
+
+| Parâmetro | Valor |
+|-----------|-------|
+| Velocidade média download | 60 Mbps |
+| Domicílios com internet (dept.) | 65% |
+| Tecnologia predominante | rádio/fibra |
+| Opção rural | Starlink disponível (~USD 44/mês) |
+
+
+### Mercado Imobiliário e Terra Rural
+
+**Fonte:** INDERT / Clasificados.com.py (2024)
+
+| Tipo | Referência |
+|------|-----------|
+| Terra agrícola alta prod. (USD/ha) | 5,500 |
+| Imóvel urbano (USD/m²) | 900 |
+| Aluguel 2 quartos (USD/mês) | 380 |
+
+> Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
+### Saúde
+
+**Fonte:** MSPBS / IPS Paraguay (2024-2026), consolidação departamental e proxy local
+
+| Serviço | Disponibilidade |
+|---------|----------------|
+| USF / Posto de Saúde | sim |
+| Hospital Regional | não |
+| IPS (seguro social) | sim |
+| Farmácia | sim |
+| Distância ao hospital de referência | ~46 km (Caacupe) |
+
+**Principais estabelecimentos:** USF local; referencia hospitalar em Caacupe
+
+**Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Caacupe. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.
