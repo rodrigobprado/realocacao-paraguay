@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "https://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="es" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="https://www.datos.gov.py/sites/default/files/favicon.jpg" type="image/jpeg" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <meta name="msapplication-TileImage" content="https://www.mitic.gov.py/application/files/5615/4340/8196/icono.png"/>
+<meta name="msapplication-TileColor" content="rgb(236, 236, 236)"/>
+<meta name="theme-color" content="rgb(0, 28, 84)"/>
+<link rel="shortcut icon" href="https://www.mitic.gov.py/application/files/2115/4340/8356/icono-90x90.ico" type="image/x-icon"/>
+<link rel="icon" href="https://www.mitic.gov.py/application/files/2115/4340/8356/icono-90x90.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="https://www.mitic.gov.py/application/files/5615/4340/8196/icono.png"/>
+
+  <title>Buscar | Datos.gov.py</title>
+  <link type="text/css" rel="stylesheet" href="https://www.datos.gov.py/sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.datos.gov.py/sites/default/files/css/css_of69tlGYaRVBOPMjYRM36hZ_409jmt8uQzacTxiQe4o.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.datos.gov.py/sites/default/files/css/css_ZsYe7GGYLAZ5l2hQFMOuXvIQRAsJ84_8jpikWIlkkMQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.datos.gov.py/sites/default/files/css/css_bYEEErdRCLpVDDb2O4Vkh2a_gaKpadJbAayJ9ex0AXc.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans::400,300,700" media="all" />
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+li.menu-link-agricultura-y-ganadería a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e935';margin-right:6px;vertical-align:middle;}li.menu-link-deportes a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e93b';margin-right:6px;vertical-align:middle;}li.menu-link-desarrollo-social a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e966';margin-right:6px;vertical-align:middle;}li.menu-link-inmuebles a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e929';margin-right:6px;vertical-align:middle;}li.menu-link-pecuaria a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e984';margin-right:6px;vertical-align:middle;}li.menu-link-pobreza a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e924';margin-right:6px;vertical-align:middle;}li.menu-link-vivienda-y-familia a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e92d';margin-right:6px;vertical-align:middle;}li.menu-link-industria-comercio-y-turismo a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e930';margin-right:6px;vertical-align:middle;}li.menu-link-transporte-e-infraestructura a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e977';margin-right:6px;vertical-align:middle;}li.menu-link-trabajo-y-empleo a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e91b';margin-right:6px;vertical-align:middle;}li.menu-link-telecomunicaciones a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e968';margin-right:6px;vertical-align:middle;}li.menu-link-seguridad-pública a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e978';margin-right:6px;vertical-align:middle;}li.menu-link-salud a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e97a';margin-right:6px;vertical-align:middle;}li.menu-link-participación-ciudadana a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e96b';margin-right:6px;vertical-align:middle;}li.menu-link-agua-y-saneamiento a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e938';margin-right:6px;vertical-align:middle;}li.menu-link-marco-legal a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e909';margin-right:6px;vertical-align:middle;}li.menu-link-justicia a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e92a';margin-right:6px;vertical-align:middle;}li.menu-link-identidad-e-identificación a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e910';margin-right:6px;vertical-align:middle;}li.menu-link-gobierno-y-transparencia a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e964';margin-right:6px;vertical-align:middle;}li.menu-link-finanzas-economía-y-negocios a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e921';margin-right:6px;vertical-align:middle;}li.menu-link-relaciones-exteriores a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e967';margin-right:6px;vertical-align:middle;}li.menu-link-energía a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e940';margin-right:6px;vertical-align:middle;}li.menu-link-educación a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e916';margin-right:6px;vertical-align:middle;}li.menu-link-cultura a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e90a';margin-right:6px;vertical-align:middle;}li.menu-link-ciencia-y-tecnología a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e915';margin-right:6px;vertical-align:middle;}li.menu-link-ambiente-y-cambio-climático a:before{font-size:1.25em;font-family:'dkan-topics';content:'\e932';margin-right:6px;vertical-align:middle;}
+
+/*]]>*/-->
+</style>
+<link type="text/css" rel="stylesheet" href="https://www.datos.gov.py/sites/default/files/css/css_6qKcBlZ63uaUdwQZ3nzre1rcFdPmfW-b_MvOncaMoCk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.datos.gov.py/sites/default/files/css/css_jYFiKJvMlBv3ItjMvFNN_oYKx9AYIc7m4Mwxbu8tXMg.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.datos.gov.py/sites/default/files/css/css_E5LxTHvotstXfBsPxcRlLKjEwjXPfi49JcaYB4zerlY.css" media="print" />
+<link type="text/css" rel="stylesheet" href="https://www.datos.gov.py/sites/default/files/colorizer/nuboot_radix-2fdc7121.css" media="all" />
+
+<!--[if lte IE 9]>
+<link type="text/css" rel="stylesheet" href="https://www.datos.gov.py/sites/default/files/css/css_afrXmziPY13Y9oUhiVMbLllpNaAnF9oeeqCoWSAcphU.css" media="all" />
+<![endif]-->
+
+<!--[if IE 9]>
+<link type="text/css" rel="stylesheet" href="https://www.datos.gov.py/sites/default/files/css/css_qpzT6Nla_9qnBw9yFCNlaMSx-mR1C2PUztgmhLWV6Xc.css" media="all" />
+<![endif]-->
+
+<!--[if IE 8]>
+<link type="text/css" rel="stylesheet" href="https://www.datos.gov.py/sites/default/files/css/css_6MXbSPvPzngfaB4wf1zxLcF9h_IysER946hly6FKaI4.css" media="all" />
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="https://www.datos.gov.py/sites/default/files/css/css_PxsPpITToy8ZnO0bJDA1TEC6bbFpGTfSWr2ZP8LuFYo.css" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <link href="/css/ie.css" media="screen" rel="stylesheet" type="text/css" />
+  <![endif]-->
+  <script type="text/javascript" src="https://www.datos.gov.py/sites/default/files/js/js_EebRuRXFlkaf356V0T2K_8cnUVfCKesNTxdvvPSEhCM.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://www.datos.gov.py/sites/default/files/js/js_yEv7Gmhd9xDxEy-vpkTFdRiHgIGkxIw_0t26IFwOI_Q.js"></script>
+<script type="text/javascript" src="https://www.datos.gov.py/sites/default/files/js/js_gyeyE4VPAfRPLGpAfv3sU4l5Mhlsid8vrPzHKLrIIqU.js"></script>
+<script type="text/javascript" src="https://www.datos.gov.py/sites/default/files/js/js_1zseKiOuuULsZym9xSN0yVDwgNt7vcp64s9aGNGGsqw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-170593019-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.datos.gov.py/sites/default/files/js/js_2hd6gNpSRvn9o02PVhkkd632qOb5tpPq3yB_EqftMsY.js"></script>
+<script type="text/javascript" src="https://www.datos.gov.py/sites/default/files/js/js_25bvMzABc643C2RtgT3od2Hhzqq3MLLVzA6KVX1-QAE.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nuboot_radix","theme_token":"hhwl_-DpIQPkwYIRSGYUINCifTyE7S6qXl_N_GFlzO0","js":{"profiles\/dkan\/modules\/contrib\/panopoly_widgets\/panopoly-widgets.js":1,"profiles\/dkan\/modules\/contrib\/panopoly_widgets\/panopoly-widgets-spotlight.js":1,"profiles\/dkan\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/3.4.1\/js\/bootstrap.min.js":1,"profiles\/dkan\/libraries\/chosen\/chosen.jquery.min.js":1,"profiles\/dkan\/modules\/contrib\/panopoly_images\/panopoly-images.js":1,"profiles\/dkan\/modules\/dkan\/dkan_plugins\/js\/colorPicker.behavior.js":1,"profiles\/dkan\/modules\/contrib\/recline\/js\/jsondataview.js":1,"profiles\/dkan\/modules\/contrib\/recline\/js\/restdataview.js":1,"public:\/\/languages\/es_0zgssMEYYHDCI1vnsPYyMEyvW618TqULB63eiOwvrRo.js":1,"profiles\/dkan\/libraries\/jquery.imagesloaded\/jquery.imagesloaded.min.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"profiles\/dkan\/modules\/contrib\/chosen\/chosen.js":1,"profiles\/dkan\/themes\/contrib\/radix\/assets\/js\/radix.script.js":1,"profiles\/dkan\/themes\/nuboot_radix\/assets\/js\/nuboot_radix.script.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/dkan\/libraries\/chosen\/chosen.css":1,"profiles\/dkan\/modules\/contrib\/chosen\/css\/chosen-drupal.css":1,"profiles\/dkan\/modules\/dkan\/dkan_data_story\/css\/dkan_data_story.css":1,"profiles\/dkan\/modules\/dkan\/dkan_harvest\/modules\/dkan_harvest_dashboard\/css\/dkan_harvest_dashboard.css":1,"modules\/field\/theme\/field.css":1,"profiles\/dkan\/modules\/contrib\/field_hidden\/field_hidden.css":1,"modules\/node\/node.css":1,"profiles\/dkan\/modules\/contrib\/panopoly_widgets\/panopoly-widgets.css":1,"profiles\/dkan\/modules\/contrib\/panopoly_widgets\/panopoly-widgets-spotlight.css":1,"profiles\/dkan\/modules\/contrib\/radix_layouts\/radix_layouts.css":1,"modules\/user\/user.css":1,"profiles\/dkan\/modules\/contrib\/views\/css\/views.css":1,"profiles\/dkan\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/dkan\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/tagclouds\/tagclouds.css":1,"profiles\/dkan\/modules\/dkan\/dkan_topics\/theme\/dkan_topics.css":1,"\/\/fonts.googleapis.com\/css?family=Open+Sans::400,300,700":1,"0":1,"public:\/\/font-icon-select-general-generated-1.css":1,"profiles\/dkan\/modules\/dkan\/dkan_dataset\/css\/dkan_dataset.css":1,"profiles\/dkan\/themes\/nuboot_radix\/assets\/css\/nuboot_radix.style.css":1,"profiles\/dkan\/themes\/nuboot_radix\/assets\/css\/dkan-flaticon.css":1,"profiles\/dkan\/themes\/nuboot_radix\/assets\/css\/dkan-topics.css":1,"profiles\/dkan\/themes\/nuboot_radix\/assets\/css\/print.css":1,"https:\/\/www.datos.gov.py\/sites\/default\/files\/colorizer\/nuboot_radix-2fdc7121.css":1,"profiles\/dkan\/themes\/nuboot_radix\/assets\/css\/ie.css":1,"profiles\/dkan\/themes\/nuboot_radix\/assets\/css\/ie9.css":1,"profiles\/dkan\/themes\/nuboot_radix\/assets\/css\/ie8.css":1,"profiles\/dkan\/modules\/contrib\/panopoly_images\/panopoly-images.css":1}},"chosen":{"selector":".page-node select:not([class*=\u0022delta-order\u0022], [name*=\u0022workbench_moderation\u0022], [class*=\u0022filter-list\u0022], [id*=\u0022delimiter\u0022],[name*=\u0022sort_by\u0022],[name*=\u0022sort_order\u0022], [id*=\u0022lines-terminated-by\u0022], [id*=\u0022lang-dropdown-select-language\u0022])","minimum_single":0,"minimum_multiple":0,"minimum_width":0,"options":{"allow_single_deselect":false,"disable_search":false,"disable_search_threshold":0,"search_contains":false,"placeholder_text_multiple":"Choose some options","placeholder_text_single":"Choose an option","no_results_text":"No results match","inherit_select_classes":true}},"urlIsAjaxTrusted":{"\/search":true,"\/search?query=%20sites%20default%20files%20Cuadro%25201.1.%2520Departamento%2520Asunci%25C3%25B3n.%2520Poblaci%25C3%25B3n%2520por%2520sexo%2520y%2520edad%2520mediana%252C%2520seg%25C3%25BAn%2520distrito%252C%25202022.csv":true},"better_exposed_filters":{"views":{"dkan_datasets":{"displays":{"panel_pane_1":{"filters":{"query":{"required":false}}}}}}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-search panel-layout-radix_bryant panel-region-contentmain panel-region-sidebar" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Pasar al contenido principal</a>
+  </div>
+    <header id="header" class="header">
+  <div class="branding container">
+          <a class="logo navbar-btn pull-left" href="/" title="Inicio">
+        <img src="https://www.datos.gov.py/sites/default/files/logoda.png" alt="Inicio" />
+      </a>
+            <!-- views exposed search -->
+    <section id="block-dkan-sitewide-dkan-sitewide-search-bar" class="block block-dkan-sitewide block-- clearfix">
+
+        <div class="content">
+    <form action="/search?query=%20sites%20default%20files%20Cuadro%25201.1.%2520Departamento%2520Asunci%25C3%25B3n.%2520Poblaci%25C3%25B3n%2520por%2520sexo%2520y%2520edad%2520mediana%252C%2520seg%25C3%25BAn%2520distrito%252C%25202022.csv" method="post" id="dkan-sitewide-dataset-search-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-search form-group">
+  <label for="edit-search">Buscar </label>
+ <input placeholder="Buscar" class="form-control form-text" type="text" id="edit-search" name="search" value="" size="30" maxlength="128" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="" class="form-submit btn btn-default btn-primary" /><input type="hidden" name="form_build_id" value="form-8P8j_phr2xN2z_dFj_6tYFtyk3m4cwxOK8x3ThB3xow" />
+<input type="hidden" name="form_id" value="dkan_sitewide_dataset_search_form" />
+</div></form>  </div>
+
+</section>
+  </div>
+  <div class="navigation-wrapper">
+    <div class="container">
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div> <!-- /.navbar-header -->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+                      <ul id="main-menu" class="menu nav navbar-nav">
+              <li class="first leaf menu-link-conjuntos-de-datos"><a href="/search/type/dataset" title="">Conjuntos de datos</a></li>
+<li class="leaf menu-link-organizaciones"><a href="/grupos-de-organizaciones" title="">Organizaciones</a></li>
+<li class="leaf menu-link-novedades"><a href="/stories" title="">Novedades</a></li>
+<li class="expanded dropdown menu-link-temas-"><a href="/topics" class="dropdown-toggle" data-toggle="dropdown" data-target="#">Temas <span class="fa fa-caret-down"></span></a><ul class="dropdown-menu"><li class="first leaf menu-link-agricultura-y-ganadería"><a href="/taxonomy/term/78" title="Agricultura">Agricultura y Ganadería</a></li>
+<li class="leaf menu-link-deportes"><a href="/taxonomy/term/79" title="Deportes">Deportes</a></li>
+<li class="leaf menu-link-desarrollo-social"><a href="/taxonomy/term/488" title="Desarrollo Social">Desarrollo Social</a></li>
+<li class="leaf menu-link-inmuebles"><a href="/taxonomy/term/489" title="Inmuebles">Inmuebles</a></li>
+<li class="leaf menu-link-pecuaria"><a href="/taxonomy/term/480" title="Pecuaria">Pecuaria</a></li>
+<li class="leaf menu-link-pobreza"><a href="/taxonomy/term/83" title="Pobreza">Pobreza</a></li>
+<li class="leaf menu-link-vivienda-y-familia"><a href="/taxonomy/term/39" title="Vivienda y Familia">Vivienda y Familia</a></li>
+<li class="leaf menu-link-industria-comercio-y-turismo"><a href="/taxonomy/term/6" title="City Planning">Industria, Comercio y Turismo</a></li>
+<li class="leaf menu-link-transporte-e-infraestructura"><a href="/taxonomy/term/1" title="Transportation">Transporte e Infraestructura</a></li>
+<li class="leaf menu-link-trabajo-y-empleo"><a href="/taxonomy/term/40" title="Trabajo y Empleo">Trabajo y Empleo</a></li>
+<li class="leaf menu-link-telecomunicaciones"><a href="/taxonomy/term/38" title="Telecomunicaciones">Telecomunicaciones</a></li>
+<li class="leaf menu-link-seguridad-pública"><a href="/taxonomy/term/5" title="Public Safety">Seguridad Pública</a></li>
+<li class="leaf menu-link-salud"><a href="/taxonomy/term/4" title="Health Care">Salud</a></li>
+<li class="leaf menu-link-participación-ciudadana"><a href="/taxonomy/term/37" title="Participación Ciudadana">Participación Ciudadana</a></li>
+<li class="leaf menu-link-agua-y-saneamiento"><a href="/taxonomy/term/84" title="Saneamiento">Agua y Saneamiento</a></li>
+<li class="leaf menu-link-marco-legal"><a href="/taxonomy/term/82" title="Marco Legal">Marco Legal</a></li>
+<li class="leaf menu-link-justicia"><a href="/taxonomy/term/77" title="Justicia">Justicia</a></li>
+<li class="leaf menu-link-identidad-e-identificación"><a href="/taxonomy/term/81" title="Identidad e identificación">Identidad e identificación</a></li>
+<li class="leaf menu-link-gobierno-y-transparencia"><a href="/taxonomy/term/36" title="Gobierno y Transparencia">Gobierno y Transparencia</a></li>
+<li class="leaf menu-link-finanzas-economía-y-negocios"><a href="/taxonomy/term/3" title="Finance and Budgeting">Finanzas, Economía y Negocios</a></li>
+<li class="leaf menu-link-relaciones-exteriores"><a href="/taxonomy/term/80" title="Extranjeros">Relaciones Exteriores</a></li>
+<li class="leaf menu-link-energía"><a href="/taxonomy/term/35" title="Energía">Energía</a></li>
+<li class="leaf menu-link-educación"><a href="/taxonomy/term/2" title="Education">Educación</a></li>
+<li class="leaf menu-link-cultura"><a href="/taxonomy/term/34" title="Cultura">Cultura</a></li>
+<li class="leaf menu-link-ciencia-y-tecnología"><a href="/taxonomy/term/33" title="Ciencia y Tecnología">Ciencia y Tecnología</a></li>
+<li class="last leaf menu-link-ambiente-y-cambio-climático"><a href="/taxonomy/term/402" title="Ambiente y Cambio Climático">Ambiente y Cambio Climático</a></li>
+</ul></li>
+<li class="expanded dropdown menu-link-aplicaciones-"><a href="https://www.datos.gov.py/aplicaciones-e-ideas-utilizando-datos-abiertos" title="" class="dropdown-toggle" data-toggle="dropdown" data-target="#">Aplicaciones <span class="fa fa-caret-down"></span></a><ul class="dropdown-menu"><li class="first leaf menu-link-aplicaciones"><a href="https://www.datos.gov.py/aplicaciones-e-ideas-utilizando-datos-abiertos" title="">Aplicaciones</a></li>
+<li class="last leaf menu-link-portales-de-datos-abiertos-de-oees"><a href="https://www.datos.gov.py/portales-de-datos-abiertos" title="">Portales de Datos Abiertos de OEEs</a></li>
+</ul></li>
+<li class="leaf menu-link-guías"><a href="/vista-guias" title="">Guías</a></li>
+<li class="last leaf menu-link-acerca-de"><a href="/about">Acerca de</a></li>
+            </ul>
+          
+          <!-- user menu -->
+          <section id="block-dkan-sitewide-dkan-sitewide-user-menu" class="block block-dkan-sitewide block-- clearfix">
+
+        <div class="content">
+    <span class="links"><a href="/user/login">Iniciar sesión</a></span>  </div>
+
+</section>
+        </div><!-- /.navbar-collapse -->
+      </nav><!-- /.navbar -->
+    </div><!-- /.container -->
+  </div> <!-- /.navigation -->
+</header>
+
+<div id="main-wrapper">
+  <div id="main" class="main container">
+
+    <ul class="breadcrumb"><li class="home-link"><a href="/"><i class="fa fa fa-home"></i><span> Home</span></a></li><li><a href="/">Inicio</a></li><li class="active-trail">Buscar</li></ul>    <div class="alert alert-success alert-dismissable">
+<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>The page you requested does not exist or has moved. Try searching the site.</div>
+<div class="alert alert-danger alert-dismissable">
+<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>Buscar cannot be longer than <em class="placeholder">128</em> characters but is currently <em class="placeholder">158</em> characters long.</div>
+    
+
+    <div class="main-row">
+
+      <section>
+        <a id="main-content"></a>
+                                                  <div class="region region-content">
+    
+<div class="panel-display bryant clearfix radix-bryant" >
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 radix-layouts-sidebar panel-panel">
+        <div class="panel-panel-inner">
+                  </div>
+      </div>
+      <div class="col-md-9 radix-layouts-content panel-panel">
+        <div class="panel-panel-inner">
+          <div class="panel-pane pane-views-panes pane-dkan-datasets-panel-pane-1"  >
+  
+        <h2 class="pane-title">
+      Conjuntos de datos    </h2>
+    
+  
+  <div class="pane-content">
+    <div class="view view-dkan-datasets view-id-dkan_datasets view-display-id-panel_pane_1 view-dom-id-744730492747f3d0181ddfd204db2dc3">
+        
+      <div class="view-filters">
+      <form action="/search" method="get" id="views-exposed-form-dkan-datasets-panel-pane-1" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-query-wrapper" class="views-exposed-widget views-widget-filter-search_api_views_fulltext">
+                        <div class="views-widget">
+          <div class="form-item form-type-textfield form-item-query has-error form-group">
+  <label for="edit-query">Buscar </label>
+ <input placeholder="Buscar" class="form-control form-text error" type="text" id="edit-query" name="query" value=" sites default files Cuadro%201.1.%20Departamento%20Asunci%C3%B3n.%20Poblaci%C3%B3n%20por%20sexo%20y%20edad%20mediana%2C%20seg%C3%BAn%20distrito%2C%202022.csv" size="60" maxlength="128" />
+</div>
+        </div>
+              </div>
+              <div class="views-exposed-widget views-widget-sort-by">
+        <div class="form-item form-type-select form-item-sort-by form-group">
+  <label for="edit-sort-by">Ordenar por </label>
+ <select class="form-control form-select" id="edit-sort-by" name="sort_by"><option value="changed" selected="selected">Fecha cambiada</option><option value="created">Fecha de creación</option><option value="title">Título</option></select>
+</div>
+      </div>
+      <div class="views-exposed-widget views-widget-sort-order">
+        <div class="form-item form-type-select form-item-sort-order form-group">
+  <label for="edit-sort-order">Ordenar </label>
+ <select class="form-control form-select" id="edit-sort-order" name="sort_order"><option value="ASC">Ascendente</option><option value="DESC" selected="selected">Descendente</option></select>
+</div>
+      </div>
+                <div class="views-exposed-widget views-submit-button">
+      <input type="submit" id="edit-submit-dkan-datasets" name="" value="Aplicar" class="form-submit btn btn-default btn-primary" />    </div>
+          <div class="views-exposed-widget views-reset-button">
+        <input type="submit" id="edit-reset" name="op" value="Restablecer" class="form-submit btn btn-default" />      </div>
+      </div>
+</div>
+</div></form>    </div>
+  
+  
+      <div class="view-empty">
+      <p>No se encontraron resultados. Por favor, intente con otra palabra clave.</p>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+</div><!-- /.bryant -->  </div>
+      </section>
+
+    </div>
+
+  </div> <!-- /#main -->
+</div> <!-- /#main-wrapper -->
+
+<footer id="footer" class="footer">
+  <div class="container">
+          <small class="copyright pull-left"><p>Basado en <a href="https://getdkan.org/">DKAN</a><br /><a href="https://www.mitic.gov.py"><br />
+           <img src="https://cdn.paraguay.gov.py/marca-SENATICs/marca-senatics-desarrollado-por.png" alt="Marca producto/servicio MITIC" height="28" width="230" /></a></p>
+</small>
+        <small class="pull-right"></small>
+  </div>
+</footer>
+  <script type="text/javascript" src="https://www.datos.gov.py/sites/default/files/js/js_29qYXJz8NLGg8Aomg-RZPjJcj9yEdEst1BMZ9gZbs-4.js"></script>
+</body>
+</html>

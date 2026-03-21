@@ -34,8 +34,8 @@
 | Acesso a saneamento (%) | 57,4% | dept. |
 | Taxa de homicídios (est., /100k hab) | ~4–6 (estimativa, próxima à média nacional) | dept. |
 | Índice de segurança | médio | dept. |
-| População (Censo 2022) | N/D | dist. |
-| Idade mediana | N/D | dist. |
+| População (Censo 2022) | 4.728 hab. | dist. |
+| Idade mediana | 32.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
 
