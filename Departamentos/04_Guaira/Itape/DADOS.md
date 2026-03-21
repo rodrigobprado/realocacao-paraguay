@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Itapé, Guairá
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°51′S 56°37′W.
 - **Topografia:** Relevo predominantemente plano, localizado às margens do Rio Tebicuary-mí. Altitude ~130m. Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** **Santuário Natural da Virgen del Paso** (Polo de turismo religioso nacional que atrai grandes fluxos anuais); Travessias fluviais no Rio Tebicuary-mí. Ausência de alvos militares primários, oferecendo boa invisibilidade fora do calendário religioso.
 - **Fallout:** Ventos predominantes do Leste (E) e Sudeste (SE). Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local. Dependência do Hospital Regional de Villarrica (17 km) para atendimentos de alta complexidade. Infraestrutura urbana focada no suporte ao turismo religioso.
 - **Custo de Vida:** Baixo; economia baseada na prestação de serviços, turismo e agricultura de pequena escala.
 - **Preço da Terra:** US$ 4.000-8.000/ha (áreas rurais); lotes próximos ao santuário e rio possuem valorização turística elevada.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.27 | 4.46 | 4.28 | 5.24 | 5.08 | 2.87 | 2.37 | 1.77 | 2.90 | 5.84 | 6.23 | 5.42 | **1544 mm** |
+| 132 | 126 | 133 | 157 | 157 | 86 | 73 | 55 | 87 | 181 | 187 | 168 | **1544 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 2.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco Crítico de Inundação.** A proximidade direta com o Rio Tebicuary-mí torna o distrito altamente vulnerável a cheias severas. Histórico de inundações que isolam bairros e afetam o núcleo urbano baixo.
 - **Clima:** Subtropical Úmido. Precipitação anual de 1.500-1.700 mm. Verões quentes e úmidos.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via Rio Tebicuary-mí e poços artesianos; lençol freático produtivo.
 - **Qualidade do Solo:** Solo franco-argiloso e sedimentar (Alfisoles); muito fértil, excelente para cana-de-açúcar, mandioca e horticultura.
 - **Resources Locais:** Produção de cana-de-açúcar, pesca artesanal e pecuária de subsistência. Elevado potencial para autossuficiência alimentar e hídrica básica em nível familiar.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.35 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.85°, -56.6167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.85°, -56.6167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona extremamente pacífica. Taxa de homicídios no departamento de Guairá entre as menores do Paraguai (~3,6/100k). Coesão social muito alta baseada em tradições culturais e na influência do santuário nacional.
 - **Leis Local:** Município histórico conhecido como a "Capital da Fé". **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira, permitindo plena titularidade para brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca paz social e recursos hídricos, com preparo para riscos de cheias).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 60% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

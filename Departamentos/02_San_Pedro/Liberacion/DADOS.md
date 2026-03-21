@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Liberación, San Pedro
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°21′S 56°30′W.
 - **Topografia:** Relevo predominantemente plano. Localizado em um ponto de convergência logística no centro de San Pedro. Geologicamente estável, risco sísmico muito baixo.
 - **Alvos Estratégicos:** **Cruce Liberación** (Entroncamento vital das Rutas PY03 e PY08); Hub logístico para o transporte de grãos e gado do Norte em direção aos portos do Sul e Leste.
 - **Fallout:** Ventos predominantes do Norte e Nordeste (NE), quentes e úmidos. Baixo risco de fallout direto de alvos continentais primários.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Centro de Saúde "Doroteo Colmán Navarro" (modernizado recentemente). Dependência de San Estanislao (Santaní) ou Santa Rosa del Aguaray para atendimentos de alta complexidade.
 - **Custo de Vida:** Baixo; focado em produtos de agricultura familiar local e serviços rodoviários.
 - **Preço da Terra:** US$ 2.500-5.500/ha (áreas agrícolas mecanizáveis); lotes comerciais urbanos com valorização significativa.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 27.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 24° N (anual) · 34° N (inverno jun-ago) · 14° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.30 | 5.59 | 3.83 | 4.68 | 4.70 | 2.79 | 1.94 | 1.42 | 3.00 | 5.56 | 6.44 | 5.43 | **1512 mm** |
+| 133 | 158 | 119 | 140 | 146 | 84 | 60 | 44 | 90 | 172 | 193 | 168 | **1512 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações fluviais catastróficas. Risco de enxurradas urbanas temporárias e degradação de vias de terra vicinais em eventos de chuva extrema (>100mm).
 - **Clima:** Tropical Úmido. Precipitação anual entre 1.400 e 1.600 mm. Verões com calor intenso (>40°C).
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Poços artesianos e sistemas comunitários; lençol freático produtivo.
 - **Qualidade do Solo:** Predominantemente arenoso (latossolos); exige manejo técnico (calagem, plantio direto) para soja e milho; excelente para abacaxi e cítricos.
 - **Resources Locais:** Produção de soja, chia (San Pedro é líder mundial), milho, abacaxi e petitgrain (essência cítrica). Abundante disponibilidade de alimentos básicos e logística de silos nas proximidades.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.26 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.35°, -56.5°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.35°, -56.5°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona comercial movimentada com exposição social elevada por estar em rota principal. Criminalidade focada em delitos contra o patrimônio e conflitos agrários ocasionais em áreas remotas. Segurança institucional presente através da Polícia Nacional.
 - **Leis Local:** Município de criação recente (2011). **Livre de Restrição de Fronteira:** Localizado no interior, sem impedimentos legais para proprietários estrangeiros brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca base logística e produtividade agrícola diversificada).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MSPBS (saúde local): https://www.mspbs.gov.py/
-- Fonte MOPC logística (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte MOPC logística: https://mopc.gov.py/servicios/estado-de-las-rutas/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** ~19.100 habitantes.
@@ -188,7 +183,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -202,7 +196,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -213,7 +206,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

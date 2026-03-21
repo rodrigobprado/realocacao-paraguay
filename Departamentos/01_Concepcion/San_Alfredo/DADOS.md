@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: San Alfredo, Concepcion
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 23°06′S 57°26′W.
 - **Topografia:** Planície próxima ao Rio Paraguai. Altitude ~75m. Região estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Hub logístico da Ruta PY22 (Conexão Norte-Sul do departamento), proximidade com indústrias de calcário e portos fluviais.
 - **Fallout:** Ventos predominantes do Norte (verão) e Sul (inverno).
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura de saúde e educação básica. Dependência de Concepción (75 km) para serviços complexos.
 - **Custo de Vida:** Baixo; economia baseada em serviços e apoio à pecuária/mineração.
 - **Preço da Terra:** US$ 2.000-6.000/ha (áreas de pecuária/pastagem).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 29.0 anos | dist. |
 | Taxa de fecundidade | 3 | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 23° N (anual) · 33° N (inverno jun-ago) · 13° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 5.29 | 5.35 | 3.90 | 4.49 | 3.49 | 2.24 | 1.40 | 0.92 | 2.25 | 4.55 | 6.96 | 5.33 | **1405 mm** |
+| 164 | 151 | 121 | 135 | 108 | 67 | 43 | 29 | 68 | 141 | 209 | 165 | **1405 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco Moderado a Alto de Inundação.** Áreas próximas a tributários do Rio Paraguai vulneráveis em períodos de chuvas intensas.
 - **Clima:** Tropical Úmido. Verões quentes com precipitação concentrada.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Poços artesianos e proximidade de rios tributários.
 - **Qualidade do Solo:** Solo com boa aptidão para pastagem e silvicultura; potencial agrícola em expansão com correção (presença de calcário na região).
 - **Recursos Locais:** Pecuária de corte, serviços logísticos e extração mineral incipiente.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.31 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -23.1°, -57.4333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -23.1°, -57.4333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona de transição rural. Presença da FTC (Força de Tarefa Conjunta) devido à atuação de grupos armados (EPP) no departamento. Segurança urbana comum considerada estável.
 - **Leis Local:** Município de criação recente (2013). **Restrição de Fronteira (Lei 2532/05):** Proibição de compra de terras rurais por estrangeiros de países limítrofes na faixa de 50km.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Bom potencial para relocação com foco em pecuária ou silvicultura).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 3.016.
@@ -172,7 +167,6 @@ Indicado para estabelecimentos rurais de médio/grande porte (fazendas/silvicult
 - 3) Mapa de sismicidade e riscos ambientais (SEN/DMH).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
-
 
 ## 14. Informações Técnicas e Infraestrutura (Leitores Alfa)
 
@@ -230,7 +224,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -244,7 +237,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -255,7 +247,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 48% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Natalicio Talavera, Guairá
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°38′S 56°19′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado. Localizado no centro-norte de Guairá. Altitude ~150m. Área de ~72 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Áreas de produção intensiva de cana-de-açúcar; Polo de vitivinicultura regional (produção de vinho); Ponto de passagem e serviços na Ruta **PY08**. Proximidade estratégica com a usina de Troche (~15 km).
 - **Fallout:** Ventos predominantes do Leste (E) e Nordeste (NE). Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local. Dependência do Hospital Regional de Villarrica para atendimentos de alta complexidade.
 - **Custo de Vida:** Baixo; economia baseada na agroindústria e pequena agricultura.
 - **Preço da Terra:** US$ 5.000-9.000/ha (áreas mecanizadas de "terra roja"); lotes urbanos/industriais com valorização moderada.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.22 | 4.82 | 4.21 | 5.08 | 5.55 | 3.01 | 2.43 | 1.68 | 3.07 | 6.04 | 6.33 | 5.37 | **1577 mm** |
+| 131 | 136 | 131 | 152 | 172 | 90 | 75 | 52 | 92 | 187 | 190 | 166 | **1577 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 2.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas. Presença de arroios locais que favorecem a irrigação natural. Danos pontuais em estradas de terra durante tempestades sazonais.
 - **Clima:** Subtropical Úmido. Verões quentes e chuvosos (média 1.500 mm anuais).
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundante via poços artesianos e lençol freático de fácil acesso.
 - **Qualidade do Solo:** **Latossolo Vermelho**; profundo e muito fértil, excelente para cana-de-açúcar, videiras e mandioca.
 - **Resources Locais:** Grande produção de cana-de-açúcar, uvas (vinho), mel e gado de pequeno porte. Elevado potencial para autossuficiência alimentar básica em nível de propriedade.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona extremamente pacífica e estável. Taxa de homicídios no departamento entre as menores do país (~3,6/100k). Baixa incidência de crimes violentos.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira:** Localizado no interior, permitindo plena titularidade para investidores brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,8 +117,8 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca integração agroindustrial com segurança social).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.31 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.6333°, -56.3167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.6333°, -56.3167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~3,6 (Regional/Guairá).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 60% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

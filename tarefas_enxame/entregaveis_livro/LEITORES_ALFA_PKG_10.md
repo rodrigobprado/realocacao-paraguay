@@ -57,11 +57,11 @@ Dados climatologicos extraidos da NASA POWER Climatology API, periodo 2001-2020,
 
 Média anual: 4.87 kWh/m²/dia. Mínimo: Jun (2.73) | Máximo: Dez (6.79).
 
-**Precipitação — PRECTOTCORR (mm/dia):**
+**Precipitação — PRECTOTCORR (mm/mês):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 4.38 | 4.23 | 4.28 | 5.47 | 4.61 | 2.95 | 2.32 | 1.99 | 3.09 | 5.84 | 6.14 | 5.43 |
+| 136 | 119 | 133 | 164 | 143 | 88 | 72 | 62 | 93 | 181 | 184 | 168 |
 
 Média anual: ~1.545 mm/ano. Estação chuvosa Out-Nov; seca Jul-Ago (mínimo em Ago).
 

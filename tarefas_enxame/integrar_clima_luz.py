@@ -15,6 +15,9 @@ LOG_FILE  = os.path.join(BASE_DIR, "integrar_clima_luz.log")
 
 MESES_PT = ["Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"]
 
+# Dias por mês para converter mm/dia → mm/mês
+MONTH_DAYS = [31, 28.25, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+
 def log(msg):
     ts = datetime.now().strftime("%H:%M:%S")
     line = f"[{ts}] {msg}"
@@ -33,7 +36,9 @@ def carregar_csv(path):
 
 def clima_section(c, luz):
     sol = c["solar_jan_dez"].split("|")
-    pre = c["precip_jan_dez"].split("|")
+    pre_raw = c["precip_jan_dez"].split("|")
+    # Converter precipitação de mm/dia (NASA POWER) → mm/mês (valores inteiros)
+    pre = [str(int(round(float(v) * MONTH_DAYS[i]))) for i, v in enumerate(pre_raw)]
     sol_str = " | ".join(sol)
     pre_str = " | ".join(pre)
 
@@ -55,7 +60,7 @@ def clima_section(c, luz):
 
 **Inclinação solar recomendada:** {c['inclinacao_anual_graus']}° N (anual) · {c['inclinacao_inverno_graus']}° N (inverno jun-ago) · {c['inclinacao_verao_graus']}° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|

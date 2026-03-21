@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: La Colmena, Paraguarí
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°53′S 56°49′W.
 - **Topografia:** Relevo acidentado com vales férteis e encostas da cordilheira. Altitude variando de 180m a áreas mais elevadas. Geologicamente estável, risco sísmico monitorado (proximidade com epicentros de 2022 em Paraguarí).
 - **Alvos Estratégicos:** Polo nacional de fruticultura de clima temperado (Primeira Colônia Japonesa do Paraguai); Unidades de processamento de frutas e mel; Eixo de conexão entre Paraguarí e o Sul. Ausência de alvos militares diretos, mas alta visibilidade como centro de suprimentos alimentares de elite.
 - **Fallout:** Ventos predominantes do Leste (E) e Nordeste (NE). Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local e forte rede de cooperativas privadas. Dependência de Carapeguá (40 km) ou Paraguarí para saúde de alta complexidade.
 - **Custo de Vida:** Médio-baixo; economia impulsionada pela exportação de frutas e mel.
 - **Preço da Terra:** US$ 10.000-20.000/ha (áreas de fruticultura intensiva com infraestrutura); US$ 5.000-8.000/ha (áreas rurais agrícolas).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 34.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.27 | 4.46 | 4.28 | 5.24 | 5.08 | 2.87 | 2.37 | 1.77 | 2.90 | 5.84 | 6.23 | 5.42 | **1544 mm** |
+| 132 | 126 | 133 | 157 | 157 | 86 | 73 | 55 | 87 | 181 | 187 | 168 | **1544 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Diversos arroios e nascentes perenes. Baixo risco de inundações sistêmicas devido ao relevo acidentado favorável à drenagem. Risco moderado de enxurradas em vales estreitos.
 - **Clima:** Subtropical com microclima de serra. Verões quentes; invernos com geadas que beneficiam as culturas de uva e pêssego.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via nascentes naturais e poços artesianos de alta qualidade.
 - **Qualidade do Solo:** Solo franco-arenoso a argiloso; muito fértil e rico em matéria orgânica nas áreas de colônia.
 - **Resources Locais:** **Capital Nacional das Frutas e do Mel.** Grande produção de uva, pêssego, caqui, mel de abelha e hortifrúti. Elevadíssimo potencial para autossuficiência calórica per capita.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.3 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.8833°, -56.8167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.8833°, -56.8167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona extremamente pacífica e ordeira. Baixíssima criminalidade urbana violenta. Coesão social fortíssima baseada na disciplina e organização da colônia japonesa. Baixa visibilidade para conflitos de massa.
 - **Leis Local:** Município consolidado e modelo de integração produtiva. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,7 +131,7 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca integração com comunidades produtivas de elite e segurança alimentar).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte Cooperativa La Colmena: Registro de produção frutícola nacional.
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 58% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

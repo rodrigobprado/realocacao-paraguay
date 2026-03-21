@@ -27,7 +27,7 @@ cobertas no CSV do pacote.
 departamental)}
 
 Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas
--23.40°S /\allowbreak  -57.43°W (acesso em 2026-03-20).
+-23.40°S /\allowbreak  -57.43°W.
 
 \textbf{Irradiância solar global --- ALLSKY\_SFC\_SW\_DWN (kWh/\allowbreak m²/\allowbreak dia):}
 
@@ -81,7 +81,7 @@ Dez
 Média anual: 4.99 kWh/\allowbreak m²/\allowbreak dia. Inclinação recomendada: 23° Norte (anual);
 33° inverno; 13° verão.
 
-\textbf{Precipitação --- PRECTOTCORR (mm/\allowbreak dia):}
+\textbf{Precipitação --- PRECTOTCORR (mm/\allowbreak mês):}
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
@@ -126,8 +126,7 @@ Dez
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-5.06 & 5.33 & 3.86 & 4.64 & 3.74 & 2.38 & 1.55 & 1.01 & 2.42 & 4.87 &
-6.80 & 5.38 \\
+157 & 151 & 120 & 139 & 116 & 71 & 48 & 31 & 73 & 151 & 204 & 167 \\
 \end{longtable}
 
 Média anual: \textasciitilde1.427 mm/\allowbreak ano. Estação chuvosa Out-Mai; seca
@@ -475,6 +474,129 @@ Mitigação}\label{vuln-Arroyito-vulnerabilidades-e-mitigauxe7uxe3o}
 \item[Segurança]  Risco Crítico. Arroyito é historicamente uma das principais zonas de influência e operações do grupo guerrilheiro EPP\footnote{Ejército del Pueblo Paraguayo (Exército do Povo Paraguaio), grupo insurgente marxista-leninista que atua principalmente no norte do país.} (Exército do Povo Paraguaio). Presença militar massiva da FTC é necessária e constante. Taxa de homicídios regional de \textasciitilde 14/\allowbreak 100k.
 \item[Leis Local: Município de criação recente (2016) originado de assentamento camponês. Restrição de Fronteira (Lei 2532/\allowbreak 05)]  Proibição de compra de terras rurais por estrangeiros de países limítrofes na faixa de 50km.
 \end{description}
+\textbf{Fonte climática:} NASA POWER Climatology API (período 2001-2020)
+\textbf{Fonte luminosa:} estimativa world atlas
+
+\paragraph{Irradiação Solar
+(kWh/\allowbreak m²/\allowbreak dia)}\label{irradiauxe7uxe3o-solar-kwhmuxb2dia}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Média
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+6.60 & 6.02 & 5.62 & 4.65 & 3.48 & 3.07 & 3.35 & 4.15 & 4.72 & 5.46 &
+6.29 & 6.53 & \textbf{4.99} \\
+\end{longtable}
+
+\textbf{Inclinação solar recomendada:} 23° N (anual) · 33° N (inverno
+jun-ago) · 13° N (verão nov-jan)
+
+\paragraph{Precipitação (mm/\allowbreak mês)}\label{precipitauxe7uxe3o-mmmuxeas}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Total/\allowbreak ano
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+165 & 157 & 117 & 134 & 112 & 71 & 46 & 32 & 73 & 146 & 205 & 165 &
+\textbf{1428 mm} \\
+\end{longtable}
+
+\paragraph{Poluição Luminosa}\label{poluiuxe7uxe3o-luminosa}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Parâmetro & Valor \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Escala Bortle & 3 --- Céu rural \\
+Radiância artificial & 1.5 nW/\allowbreak cm²/\allowbreak sr \\
+\end{longtable}
 \paragraph{Solo (SoilGrids 2.0, média ponderada 0--30
 cm)}
 
@@ -494,8 +616,8 @@ Densidade aparente & 1.28 g/\allowbreak cm³ \\
 \textbf{Aptidão agrícola} & \textbf{Média} \\
 \end{longtable}
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords:
--23.3°, -56.75°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -23.3°, -56.75°. Média
+ponderada camadas 0-5, 5-15, 15-30 cm.
 \subsubsection{Indicadores Sociais}
 
 \textbf{Fontes:} PNUD 2020, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} Censo 2022, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} EPHC 2023, Ministerio
@@ -877,6 +999,129 @@ Mitigação}\label{vuln-Azotey-vulnerabilidades-e-mitigauxe7uxe3o}
 \item[Segurança]  Zona de Risco Crítico. Azotey está no epicentro da área de influência do EPP\footnote{Ejército del Pueblo Paraguayo (Exército do Povo Paraguaio), grupo insurgente marxista-leninista que atua principalmente no norte do país.} (Ejército del Pueblo Paraguayo). Presença militar permanente da FTC é a norma de segurança. Taxa de homicídios regional entre as maiores do país (\textasciitilde 15/\allowbreak 100k).
 \item[Leis Local: Município criado em 2009. Restrição de Fronteira]  Zona limítrofe à faixa de 50km da Lei 2532/\allowbreak 05; exige verificação detalhada da localização das glebas.
 \end{description}
+\textbf{Fonte climática:} NASA POWER Climatology API (período 2001-2020)
+\textbf{Fonte luminosa:} estimativa world atlas
+
+\paragraph{Irradiação Solar
+(kWh/\allowbreak m²/\allowbreak dia)}\label{irradiauxe7uxe3o-solar-kwhmuxb2dia}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Média
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+6.60 & 6.02 & 5.62 & 4.65 & 3.48 & 3.07 & 3.35 & 4.15 & 4.72 & 5.46 &
+6.29 & 6.53 & \textbf{4.99} \\
+\end{longtable}
+
+\textbf{Inclinação solar recomendada:} 23° N (anual) · 33° N (inverno
+jun-ago) · 13° N (verão nov-jan)
+
+\paragraph{Precipitação (mm/\allowbreak mês)}\label{precipitauxe7uxe3o-mmmuxeas}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Total/\allowbreak ano
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+156 & 171 & 120 & 138 & 129 & 81 & 54 & 43 & 85 & 166 & 195 & 170 &
+\textbf{1513 mm} \\
+\end{longtable}
+
+\paragraph{Poluição Luminosa}\label{poluiuxe7uxe3o-luminosa}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Parâmetro & Valor \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Escala Bortle & 3 --- Céu rural \\
+Radiância artificial & 1.5 nW/\allowbreak cm²/\allowbreak sr \\
+\end{longtable}
 \paragraph{Solo (SoilGrids 2.0, média ponderada 0--30
 cm)}
 
@@ -896,8 +1141,8 @@ Densidade aparente & 1.33 g/\allowbreak cm³ \\
 \textbf{Aptidão agrícola} & \textbf{Média} \\
 \end{longtable}
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords:
--23.2167°, -56.5°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -23.2167°, -56.5°. Média
+ponderada camadas 0-5, 5-15, 15-30 cm.
 \subsubsection{Indicadores Sociais}
 
 \textbf{Fontes:} PNUD 2020, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} Censo 2022, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} EPHC 2023, Ministerio
@@ -1280,6 +1525,129 @@ Mitigação}\label{vuln-Belen-vulnerabilidades-e-mitigauxe7uxe3o}
 \item[Segurança]  Zona de atuação da FTC (Força de Tarefa Conjunta) devido à proximidade com áreas de insurgência (EPP\footnote{Ejército del Pueblo Paraguayo (Exército do Povo Paraguaio), grupo insurgente marxista-leninista que atua principalmente no norte do país.}) no departamento. Segurança urbana estável, policiamento ostensivo em rotas industriais. Taxa de homicídios regional de \textasciitilde 14/\allowbreak 100k.
 \item[Leis Local: Município histórico (fundado em 1760). Livre de Restrição de Fronteira]  Localizado fora da faixa de 50km da Lei 2532/\allowbreak 05, facilitando a aquisição de terras rurais por estrangeiros brasileiros.
 \end{description}
+\textbf{Fonte climática:} NASA POWER Climatology API (período 2001-2020)
+\textbf{Fonte luminosa:} estimativa world atlas
+
+\paragraph{Irradiação Solar
+(kWh/\allowbreak m²/\allowbreak dia)}\label{irradiauxe7uxe3o-solar-kwhmuxb2dia}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Média
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+6.68 & 6.07 & 5.58 & 4.63 & 3.47 & 3.00 & 3.30 & 4.09 & 4.68 & 5.49 &
+6.34 & 6.61 & \textbf{5.0} \\
+\end{longtable}
+
+\textbf{Inclinação solar recomendada:} 23° N (anual) · 33° N (inverno
+jun-ago) · 13° N (verão nov-jan)
+
+\paragraph{Precipitação (mm/\allowbreak mês)}\label{precipitauxe7uxe3o-mmmuxeas}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Total/\allowbreak ano
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+157 & 151 & 120 & 139 & 116 & 71 & 48 & 31 & 73 & 151 & 204 & 167 &
+\textbf{1432 mm} \\
+\end{longtable}
+
+\paragraph{Poluição Luminosa}\label{poluiuxe7uxe3o-luminosa}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Parâmetro & Valor \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Escala Bortle & 3 --- Céu rural \\
+Radiância artificial & 1.5 nW/\allowbreak cm²/\allowbreak sr \\
+\end{longtable}
 \paragraph{Solo (SoilGrids 2.0, média ponderada 0--30
 cm)}
 
@@ -1299,8 +1667,8 @@ Densidade aparente & 1.32 g/\allowbreak cm³ \\
 \textbf{Aptidão agrícola} & \textbf{Média} \\
 \end{longtable}
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords:
--23.45°, -57.25°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -23.45°, -57.25°. Média
+ponderada camadas 0-5, 5-15, 15-30 cm.
 \subsubsection{Indicadores Sociais}
 
 \textbf{Fontes:} PNUD 2020, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} Censo 2022, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} EPHC 2023, Ministerio
@@ -1661,8 +2029,8 @@ Mitigação}\label{vuln-Concepcion-vulnerabilidades-e-mitigauxe7uxe3o}
 \item[Custo de Vida]  US\$ 800-1.200/\allowbreak mês. Lotes urbanos: US\$ 15-30/\allowbreak m². Terras rurais: US\$ 5.000-8.000/\allowbreak ha.
 \item[Hidrologia]  Risco Crítico de Inundação. Bairros ribeirinhos vulneráveis a cheias do Rio Paraguai e transbordamentos súbitos do Rio Ypané.
 \item[Clima]  Tropical Úmido. Verões com temperaturas extremas. Tempestades intensas frequentes entre outubro e maio.
-\item[Irradiância solar global — ALLSKY\_SFC\_SW\_DWN (kWh/\allowbreak m²/\allowbreak dia)]  Jan 6.68 | Fev 6.07 | Mar 5.58 | Abr 4.63 | Mai 3.47 | Jun 3.00 | Jul 3.30 | Ago 4.09 | Set 4.68 | Out 5.49 | Nov 6.34 | Dez 6.61. Média anual: 4.99 kWh/\allowbreak m²/\allowbreak dia. Mínimo: Jun (3.00) | Máximo: Jan (6.68). Fonte: NASA POWER Climatology API, período 2001-2020 (acesso em 2026-03-20).
-\item[Precipitação — PRECTOTCORR (mm/\allowbreak mês)]  Jan 5.06 | Fev 5.33 | Mar 3.86 | Abr 4.64 | Mai 3.74 | Jun 2.38 | Jul 1.55 | Ago 1.01 | Set 2.42 | Out 4.87 | Nov 6.80 | Dez 5.38. Média anual: \textasciitilde 1.427 mm/\allowbreak ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER (acesso em 2026-03-20).
+\item[Irradiância solar global — ALLSKY\_SFC\_SW\_DWN (kWh/\allowbreak m²/\allowbreak dia)]  Jan 6.68 | Fev 6.07 | Mar 5.58 | Abr 4.63 | Mai 3.47 | Jun 3.00 | Jul 3.30 | Ago 4.09 | Set 4.68 | Out 5.49 | Nov 6.34 | Dez 6.61. Média anual: 4.99 kWh/\allowbreak m²/\allowbreak dia. Mínimo: Jun (3.00) | Máximo: Jan (6.68). Fonte: NASA POWER Climatology API, período 2001-2020.
+\item[Precipitação — PRECTOTCORR (mm/\allowbreak mês)]  Jan 157 | Fev 151 | Mar 120 | Abr 139 | Mai 116 | Jun 71 | Jul 48 | Ago 31 | Set 73 | Out 151 | Nov 204 | Dez 167. Média anual: \textasciitilde 1.427 mm/\allowbreak ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER.
 \item[Inclinação recomendada para placas solares]  23° voltado para o Norte (anual); 33° no inverno (Jun-Ago); 13° no verão (Nov-Jan). Base: latitude local -23.40°S.
 \item[Energia]  Rede nacional (Itaipu), com melhorias recentes mas picos de instabilidade no verão.
 \item[Água]  Abundante (Rio Paraguai).
@@ -1671,6 +2039,129 @@ Mitigação}\label{vuln-Concepcion-vulnerabilidades-e-mitigauxe7uxe3o}
 \item[Segurança]  Zona de conflito contra a insurgência (EPP\footnote{Ejército del Pueblo Paraguayo (Exército do Povo Paraguaio), grupo insurgente marxista-leninista que atua principalmente no norte do país.}) no departamento. Taxa de homicídios elevada (18-20/\allowbreak 100k), mas concentrada em áreas rurais e narcotráfico. A área urbana possui forte presença militar (CODI/\allowbreak FTC).
 \item[Leis Local: Capital departamental. Restrição de Fronteira]  Aplicação da Lei 2532/\allowbreak 05 (faixa de 50km).
 \end{description}
+\textbf{Fonte climática:} NASA POWER Climatology API (período 2001-2020)
+\textbf{Fonte luminosa:} estimativa world atlas
+
+\paragraph{Irradiação Solar
+(kWh/\allowbreak m²/\allowbreak dia)}\label{irradiauxe7uxe3o-solar-kwhmuxb2dia}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Média
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+6.68 & 6.07 & 5.58 & 4.63 & 3.47 & 3.00 & 3.30 & 4.09 & 4.68 & 5.49 &
+6.34 & 6.61 & \textbf{5.0} \\
+\end{longtable}
+
+\textbf{Inclinação solar recomendada:} 23° N (anual) · 33° N (inverno
+jun-ago) · 13° N (verão nov-jan)
+
+\paragraph{Precipitação (mm/\allowbreak mês)}\label{precipitauxe7uxe3o-mmmuxeas}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Total/\allowbreak ano
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+157 & 151 & 120 & 139 & 116 & 71 & 48 & 31 & 73 & 151 & 204 & 167 &
+\textbf{1432 mm} \\
+\end{longtable}
+
+\paragraph{Poluição Luminosa}\label{poluiuxe7uxe3o-luminosa}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Parâmetro & Valor \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Escala Bortle & 4 --- Céu rural-suburbano \\
+Radiância artificial & 3.0 nW/\allowbreak cm²/\allowbreak sr \\
+\end{longtable}
 \paragraph{Solo (SoilGrids 2.0, média ponderada 0--30
 cm)}
 
@@ -1690,8 +2181,8 @@ Densidade aparente & 1.35 g/\allowbreak cm³ \\
 \textbf{Aptidão agrícola} & \textbf{Alta} \\
 \end{longtable}
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords:
--23.4°, -57.4333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -23.4°, -57.4333°. Média
+ponderada camadas 0-5, 5-15, 15-30 cm.
 
 \begin{itemize}
 \tightlist
@@ -2081,6 +2572,129 @@ Mitigação}\label{vuln-Horqueta-vulnerabilidades-e-mitigauxe7uxe3o}
 \item[Segurança]  Zona de segurança tática. Presença ostensiva da FTC devido ao histórico de insurgência (EPP\footnote{Ejército del Pueblo Paraguayo (Exército do Povo Paraguaio), grupo insurgente marxista-leninista que atua principalmente no norte do país.}) na região rural. Taxa de homicídios regional de \textasciitilde 20/\allowbreak 100k, influenciada por conflitos agrários. Perímetro urbano considerado seguro e controlado.
 \item[Leis Local: Município consolidado. Restrição de Fronteira]  Aplicação da Lei 2532/\allowbreak 05 exige verificação de distância da linha de fronteira para estrangeiros limítrofes.
 \end{description}
+\textbf{Fonte climática:} NASA POWER Climatology API (período 2001-2020)
+\textbf{Fonte luminosa:} estimativa world atlas
+
+\paragraph{Irradiação Solar
+(kWh/\allowbreak m²/\allowbreak dia)}\label{irradiauxe7uxe3o-solar-kwhmuxb2dia}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Média
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+6.68 & 6.07 & 5.58 & 4.63 & 3.47 & 3.00 & 3.30 & 4.09 & 4.68 & 5.49 &
+6.34 & 6.61 & \textbf{5.0} \\
+\end{longtable}
+
+\textbf{Inclinação solar recomendada:} 23° N (anual) · 33° N (inverno
+jun-ago) · 13° N (verão nov-jan)
+
+\paragraph{Precipitação (mm/\allowbreak mês)}\label{precipitauxe7uxe3o-mmmuxeas}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Total/\allowbreak ano
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+156 & 151 & 118 & 140 & 118 & 74 & 50 & 32 & 76 & 154 & 205 & 165 &
+\textbf{1446 mm} \\
+\end{longtable}
+
+\paragraph{Poluição Luminosa}\label{poluiuxe7uxe3o-luminosa}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Parâmetro & Valor \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Escala Bortle & 3 --- Céu rural \\
+Radiância artificial & 1.5 nW/\allowbreak cm²/\allowbreak sr \\
+\end{longtable}
 \paragraph{Solo (SoilGrids 2.0, média ponderada 0--30
 cm)}
 
@@ -2100,8 +2714,8 @@ Densidade aparente & 1.27 g/\allowbreak cm³ \\
 \textbf{Aptidão agrícola} & \textbf{Média} \\
 \end{longtable}
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords:
--23.3333°, -57.05°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -23.3333°, -57.05°. Média
+ponderada camadas 0-5, 5-15, 15-30 cm.
 
 \begin{itemize}
 \tightlist
@@ -2796,6 +3410,129 @@ Mitigação}\label{vuln-Itacua-vulnerabilidades-e-mitigauxe7uxe3o}
 \item[Segurança]  Zona remota com baixa criminalidade urbana comum. Presença da FTC (Força de Tarefa Conjunta) na região devido à atividade insurgente (EPP\footnote{Ejército del Pueblo Paraguayo (Exército do Povo Paraguaio), grupo insurgente marxista-leninista que atua principalmente no norte do país.}) no departamento. Taxa de homicídios regional de 14-19/\allowbreak 100k (focada em áreas rurais/\allowbreak narcotráfico).
 \item[Leis Local: Município de criação recente (2021). Restrição de Fronteira (Lei 2532/\allowbreak 05)]  Proibição de compra de terras rurais por estrangeiros de países limítrofes (faixa de 50km).
 \end{description}
+\textbf{Fonte climática:} NASA POWER Climatology API (período 2001-2020)
+\textbf{Fonte luminosa:} estimativa world atlas
+
+\paragraph{Irradiação Solar
+(kWh/\allowbreak m²/\allowbreak dia)}\label{irradiauxe7uxe3o-solar-kwhmuxb2dia}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Média
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+6.55 & 5.94 & 5.63 & 4.73 & 3.58 & 3.17 & 3.41 & 4.19 & 4.70 & 5.44 &
+6.28 & 6.49 & \textbf{5.01} \\
+\end{longtable}
+
+\textbf{Inclinação solar recomendada:} 22° N (anual) · 32° N (inverno
+jun-ago) · 12° N (verão nov-jan)
+
+\paragraph{Precipitação (mm/\allowbreak mês)}\label{precipitauxe7uxe3o-mmmuxeas}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Total/\allowbreak ano
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+152 & 149 & 120 & 118 & 106 & 57 & 38 & 23 & 55 & 130 & 202 & 167 &
+\textbf{1321 mm} \\
+\end{longtable}
+
+\paragraph{Poluição Luminosa}\label{poluiuxe7uxe3o-luminosa}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Parâmetro & Valor \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Escala Bortle & 3 --- Céu rural \\
+Radiância artificial & 1.5 nW/\allowbreak cm²/\allowbreak sr \\
+\end{longtable}
 \paragraph{Solo (SoilGrids 2.0, média ponderada 0--30
 cm)}
 
@@ -2815,8 +3552,8 @@ Densidade aparente & 1.33 g/\allowbreak cm³ \\
 \textbf{Aptidão agrícola} & \textbf{Alta} \\
 \end{longtable}
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords:
--22.9833°, -57.7167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -22.9833°, -57.7167°. Média
+ponderada camadas 0-5, 5-15, 15-30 cm.
 \subsubsection{Indicadores Sociais}
 
 \textbf{Fontes:} PNUD 2020, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} Censo 2022, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} EPHC 2023, Ministerio
@@ -3657,6 +4394,129 @@ de maior complexidade.
 \begin{description}[style=nextline,leftmargin=0.5cm,font=\bfseries]
 \item[Coordenadas]  23°16'S 57°19'W (geocodificado via Nominatim).
 \end{description}
+\textbf{Fonte climática:} NASA POWER Climatology API (período 2001-2020)
+\textbf{Fonte luminosa:} estimativa world atlas
+
+\paragraph{Irradiação Solar
+(kWh/\allowbreak m²/\allowbreak dia)}\label{irradiauxe7uxe3o-solar-kwhmuxb2dia}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Média
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+6.68 & 6.07 & 5.58 & 4.63 & 3.47 & 3.00 & 3.30 & 4.09 & 4.68 & 5.49 &
+6.34 & 6.61 & \textbf{5.0} \\
+\end{longtable}
+
+\textbf{Inclinação solar recomendada:} 23° N (anual) · 33° N (inverno
+jun-ago) · 13° N (verão nov-jan)
+
+\paragraph{Precipitação (mm/\allowbreak mês)}\label{precipitauxe7uxe3o-mmmuxeas}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Total/\allowbreak ano
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+157 & 151 & 120 & 139 & 116 & 71 & 48 & 31 & 73 & 151 & 204 & 167 &
+\textbf{1432 mm} \\
+\end{longtable}
+
+\paragraph{Poluição Luminosa}\label{poluiuxe7uxe3o-luminosa}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Parâmetro & Valor \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Escala Bortle & 3 --- Céu rural \\
+Radiância artificial & 1.5 nW/\allowbreak cm²/\allowbreak sr \\
+\end{longtable}
 \paragraph{Solo (SoilGrids 2.0, média ponderada 0--30
 cm)}
 
@@ -3676,8 +4536,8 @@ Densidade aparente & 1.35 g/\allowbreak cm³ \\
 \textbf{Aptidão agrícola} & \textbf{Média} \\
 \end{longtable}
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords:
--23.2667°, -57.3167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -23.2667°, -57.3167°. Média
+ponderada camadas 0-5, 5-15, 15-30 cm.
 \subsubsection{Indicadores Sociais}
 
 \textbf{Fontes:} PNUD 2020, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} Censo 2022, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} EPHC 2023, Ministerio
@@ -4520,6 +5380,129 @@ de maior complexidade.
 \begin{description}[style=nextline,leftmargin=0.5cm,font=\bfseries]
 \item[Coordenadas]  23°03'S 57°07'W (geocodificado via Nominatim).
 \end{description}
+\textbf{Fonte climática:} NASA POWER Climatology API (período 2001-2020)
+\textbf{Fonte luminosa:} estimativa world atlas
+
+\paragraph{Irradiação Solar
+(kWh/\allowbreak m²/\allowbreak dia)}\label{irradiauxe7uxe3o-solar-kwhmuxb2dia}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Média
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+6.68 & 6.07 & 5.58 & 4.63 & 3.47 & 3.00 & 3.30 & 4.09 & 4.68 & 5.49 &
+6.34 & 6.61 & \textbf{5.0} \\
+\end{longtable}
+
+\textbf{Inclinação solar recomendada:} 23° N (anual) · 33° N (inverno
+jun-ago) · 13° N (verão nov-jan)
+
+\paragraph{Precipitação (mm/\allowbreak mês)}\label{precipitauxe7uxe3o-mmmuxeas}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Total/\allowbreak ano
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+165 & 157 & 117 & 134 & 112 & 71 & 46 & 32 & 73 & 146 & 205 & 165 &
+\textbf{1428 mm} \\
+\end{longtable}
+
+\paragraph{Poluição Luminosa}\label{poluiuxe7uxe3o-luminosa}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Parâmetro & Valor \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Escala Bortle & 3 --- Céu rural \\
+Radiância artificial & 1.5 nW/\allowbreak cm²/\allowbreak sr \\
+\end{longtable}
 \paragraph{Solo (SoilGrids 2.0, média ponderada 0--30
 cm)}
 
@@ -4539,8 +5522,8 @@ Densidade aparente & 1.31 g/\allowbreak cm³ \\
 \textbf{Aptidão agrícola} & \textbf{Alta} \\
 \end{longtable}
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords:
--23.05°, -57.1167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -23.05°, -57.1167°. Média
+ponderada camadas 0-5, 5-15, 15-30 cm.
 \subsubsection{Indicadores Sociais}
 
 \textbf{Fontes:} PNUD 2020, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} Censo 2022, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} EPHC 2023, Ministerio
@@ -5385,6 +6368,129 @@ de maior complexidade.
 \begin{description}[style=nextline,leftmargin=0.5cm,font=\bfseries]
 \item[Coordenadas]  23°05'S 57°23'W (geocodificado via Nominatim).
 \end{description}
+\textbf{Fonte climática:} NASA POWER Climatology API (período 2001-2020)
+\textbf{Fonte luminosa:} estimativa world atlas
+
+\paragraph{Irradiação Solar
+(kWh/\allowbreak m²/\allowbreak dia)}\label{irradiauxe7uxe3o-solar-kwhmuxb2dia}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Média
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+6.68 & 6.07 & 5.58 & 4.63 & 3.47 & 3.00 & 3.30 & 4.09 & 4.68 & 5.49 &
+6.34 & 6.61 & \textbf{5.0} \\
+\end{longtable}
+
+\textbf{Inclinação solar recomendada:} 23° N (anual) · 33° N (inverno
+jun-ago) · 13° N (verão nov-jan)
+
+\paragraph{Precipitação (mm/\allowbreak mês)}\label{precipitauxe7uxe3o-mmmuxeas}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Total/\allowbreak ano
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+164 & 151 & 121 & 135 & 108 & 67 & 43 & 29 & 68 & 141 & 209 & 165 &
+\textbf{1405 mm} \\
+\end{longtable}
+
+\paragraph{Poluição Luminosa}\label{poluiuxe7uxe3o-luminosa}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Parâmetro & Valor \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Escala Bortle & 3 --- Céu rural \\
+Radiância artificial & 1.5 nW/\allowbreak cm²/\allowbreak sr \\
+\end{longtable}
 \paragraph{Solo (SoilGrids 2.0, média ponderada 0--30
 cm)}
 
@@ -5404,8 +6510,8 @@ Densidade aparente & 1.33 g/\allowbreak cm³ \\
 \textbf{Aptidão agrícola} & \textbf{Alta} \\
 \end{longtable}
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords:
--23.0833°, -57.3833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -23.0833°, -57.3833°. Média
+ponderada camadas 0-5, 5-15, 15-30 cm.
 \subsubsection{Indicadores Sociais}
 
 \textbf{Fontes:} PNUD 2020, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} Censo 2022, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} EPHC 2023, Ministerio
@@ -5776,6 +6882,129 @@ Mitigação}\label{vuln-San_Alfredo-vulnerabilidades-e-mitigauxe7uxe3o}
 \item[Segurança]  Zona de transição rural. Presença da FTC (Força de Tarefa Conjunta) devido à atuação de grupos armados (EPP\footnote{Ejército del Pueblo Paraguayo (Exército do Povo Paraguaio), grupo insurgente marxista-leninista que atua principalmente no norte do país.}) no departamento. Segurança urbana comum considerada estável.
 \item[Leis Local: Município de criação recente (2013). Restrição de Fronteira (Lei 2532/\allowbreak 05)]  Proibição de compra de terras rurais por estrangeiros de países limítrofes na faixa de 50km.
 \end{description}
+\textbf{Fonte climática:} NASA POWER Climatology API (período 2001-2020)
+\textbf{Fonte luminosa:} estimativa world atlas
+
+\paragraph{Irradiação Solar
+(kWh/\allowbreak m²/\allowbreak dia)}\label{irradiauxe7uxe3o-solar-kwhmuxb2dia}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Média
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+6.55 & 5.94 & 5.63 & 4.73 & 3.58 & 3.17 & 3.41 & 4.19 & 4.70 & 5.44 &
+6.28 & 6.49 & \textbf{5.01} \\
+\end{longtable}
+
+\textbf{Inclinação solar recomendada:} 23° N (anual) · 33° N (inverno
+jun-ago) · 13° N (verão nov-jan)
+
+\paragraph{Precipitação (mm/\allowbreak mês)}\label{precipitauxe7uxe3o-mmmuxeas}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Total/\allowbreak ano
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+164 & 151 & 121 & 135 & 108 & 67 & 43 & 29 & 68 & 141 & 209 & 165 &
+\textbf{1405 mm} \\
+\end{longtable}
+
+\paragraph{Poluição Luminosa}\label{poluiuxe7uxe3o-luminosa}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Parâmetro & Valor \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Escala Bortle & 3 --- Céu rural \\
+Radiância artificial & 1.5 nW/\allowbreak cm²/\allowbreak sr \\
+\end{longtable}
 \paragraph{Solo (SoilGrids 2.0, média ponderada 0--30
 cm)}
 
@@ -5795,8 +7024,8 @@ Densidade aparente & 1.31 g/\allowbreak cm³ \\
 \textbf{Aptidão agrícola} & \textbf{Alta} \\
 \end{longtable}
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords:
--23.1°, -57.4333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -23.1°, -57.4333°. Média
+ponderada camadas 0-5, 5-15, 15-30 cm.
 \subsubsection{Indicadores Sociais}
 
 \textbf{Fontes:} PNUD 2020, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} Censo 2022, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} EPHC 2023, Ministerio
@@ -6171,6 +7400,129 @@ Mitigação}\label{vuln-San_Carlos_del_Apa-vulnerabilidades-e-mitigauxe7uxe3o}
 \item[Segurança]  Zona de fronteira seca e fluvial remota. Baixa criminalidade urbana comum, mas risco de presença de grupos irregulares e narcotráfico nas matas da região (conhecida área de trânsito). Vigilância militar/\allowbreak nerval necessária.
 \item[Leis Local: Forte identidade de resiliência. Restrição de Fronteira (Lei 2532/\allowbreak 05)]  Proibição de compra de terras rurais por estrangeiros de países limítrofes na faixa de 50km.
 \end{description}
+\textbf{Fonte climática:} NASA POWER Climatology API (período 2001-2020)
+\textbf{Fonte luminosa:} estimativa world atlas
+
+\paragraph{Irradiação Solar
+(kWh/\allowbreak m²/\allowbreak dia)}\label{irradiauxe7uxe3o-solar-kwhmuxb2dia}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Média
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+6.55 & 5.94 & 5.63 & 4.73 & 3.58 & 3.17 & 3.41 & 4.19 & 4.70 & 5.44 &
+6.28 & 6.49 & \textbf{5.01} \\
+\end{longtable}
+
+\textbf{Inclinação solar recomendada:} 22° N (anual) · 32° N (inverno
+jun-ago) · 12° N (verão nov-jan)
+
+\paragraph{Precipitação (mm/\allowbreak mês)}\label{precipitauxe7uxe3o-mmmuxeas}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Total/\allowbreak ano
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+149 & 148 & 105 & 106 & 102 & 58 & 38 & 25 & 58 & 124 & 180 & 151 &
+\textbf{1249 mm} \\
+\end{longtable}
+
+\paragraph{Poluição Luminosa}\label{poluiuxe7uxe3o-luminosa}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Parâmetro & Valor \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Escala Bortle & 3 --- Céu rural \\
+Radiância artificial & 1.5 nW/\allowbreak cm²/\allowbreak sr \\
+\end{longtable}
 \paragraph{Solo (SoilGrids 2.0, média ponderada 0--30
 cm)}
 
@@ -6190,8 +7542,8 @@ Densidade aparente & 1.36 g/\allowbreak cm³ \\
 \textbf{Aptidão agrícola} & \textbf{Média} \\
 \end{longtable}
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords:
--22.2667°, -57.3167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -22.2667°, -57.3167°. Média
+ponderada camadas 0-5, 5-15, 15-30 cm.
 \subsubsection{Indicadores Sociais}
 
 \textbf{Fontes:} PNUD 2020, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} Censo 2022, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} EPHC 2023, Ministerio
@@ -6568,6 +7920,129 @@ Mitigação}\label{vuln-San_Lazaro-vulnerabilidades-e-mitigauxe7uxe3o}
 \item[Segurança]  Cidade industrial com forte presença estatal e corporativa. Zona de fronteira com o Brasil. Presença constante da FTC (Força de Tarefa Conjunta) na região norte do departamento. Taxa de homicídios regional de 14-19/\allowbreak 100k.
 \item[Leis Local: Polo de mineração de importância nacional. Restrição de Fronteira (Lei 2532/\allowbreak 05)]  Proibição de compra de terras rurais por estrangeiros de países limítrofes (faixa de 50km).
 \end{description}
+\textbf{Fonte climática:} NASA POWER Climatology API (período 2001-2020)
+\textbf{Fonte luminosa:} estimativa world atlas
+
+\paragraph{Irradiação Solar
+(kWh/\allowbreak m²/\allowbreak dia)}\label{irradiauxe7uxe3o-solar-kwhmuxb2dia}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Média
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+6.55 & 5.94 & 5.63 & 4.73 & 3.58 & 3.17 & 3.41 & 4.19 & 4.70 & 5.44 &
+6.28 & 6.49 & \textbf{5.01} \\
+\end{longtable}
+
+\textbf{Inclinação solar recomendada:} 22° N (anual) · 32° N (inverno
+jun-ago) · 12° N (verão nov-jan)
+
+\paragraph{Precipitação (mm/\allowbreak mês)}\label{precipitauxe7uxe3o-mmmuxeas}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Total/\allowbreak ano
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+140 & 144 & 111 & 104 & 101 & 54 & 35 & 20 & 50 & 119 & 192 & 152 &
+\textbf{1226 mm} \\
+\end{longtable}
+
+\paragraph{Poluição Luminosa}\label{poluiuxe7uxe3o-luminosa}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Parâmetro & Valor \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Escala Bortle & 3 --- Céu rural \\
+Radiância artificial & 1.5 nW/\allowbreak cm²/\allowbreak sr \\
+\end{longtable}
 \paragraph{Solo (SoilGrids 2.0, média ponderada 0--30
 cm)}
 
@@ -6587,8 +8062,8 @@ Densidade aparente & 1.36 g/\allowbreak cm³ \\
 \textbf{Aptidão agrícola} & \textbf{Alta} \\
 \end{longtable}
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords:
--22.15°, -57.9333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -22.15°, -57.9333°. Média
+ponderada camadas 0-5, 5-15, 15-30 cm.
 \subsubsection{Indicadores Sociais}
 
 \textbf{Fontes:} PNUD 2020, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} Censo 2022, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} EPHC 2023, Ministerio
@@ -6973,6 +8448,129 @@ Mitigação}\label{vuln-Sargento_Jose_Felix_Lopez-vulnerabilidades-e-mitigauxe7u
 \item[Segurança]  Zona de Alta Sensibilidade. Histórico de atuação de grupos insurgentes (EPP\footnote{Ejército del Pueblo Paraguayo (Exército do Povo Paraguaio), grupo insurgente marxista-leninista que atua principalmente no norte do país.}/\allowbreak ACA) e rotas de narcotráfico em fronteira seca. Exige alto nível de preparação tática e vigilância. Presença da FTC (Força de Tarefa Conjunta) é uma constante necessária.
 \item[Leis Local: Município relativamente novo (2011) com forte presença de cultura de fronteira. Restrição de Fronteira (Lei 2532/\allowbreak 05)]  Proibição de compra de terras rurais por estrangeiros de países limítrofes na faixa de 50km.
 \end{description}
+\textbf{Fonte climática:} NASA POWER Climatology API (período 2001-2020)
+\textbf{Fonte luminosa:} estimativa world atlas
+
+\paragraph{Irradiação Solar
+(kWh/\allowbreak m²/\allowbreak dia)}\label{irradiauxe7uxe3o-solar-kwhmuxb2dia}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Média
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+6.14 & 5.62 & 5.08 & 4.19 & 3.33 & 2.97 & 3.57 & 4.51 & 4.88 & 5.46 &
+6.00 & 5.97 & \textbf{4.81} \\
+\end{longtable}
+
+\textbf{Inclinação solar recomendada:} 21° N (anual) · 31° N (inverno
+jun-ago) · 11° N (verão nov-jan)
+
+\paragraph{Precipitação (mm/\allowbreak mês)}\label{precipitauxe7uxe3o-mmmuxeas}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Total/\allowbreak ano
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+129 & 135 & 102 & 63 & 21 & 11 & 7 & 3 & 11 & 39 & 65 & 126 &
+\textbf{717 mm} \\
+\end{longtable}
+
+\paragraph{Poluição Luminosa}\label{poluiuxe7uxe3o-luminosa}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Parâmetro & Valor \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Escala Bortle & 3 --- Céu rural \\
+Radiância artificial & 1.5 nW/\allowbreak cm²/\allowbreak sr \\
+\end{longtable}
 \paragraph{Solo (SoilGrids 2.0, média ponderada 0--30
 cm)}
 
@@ -6992,8 +8590,8 @@ Densidade aparente & 1.31 g/\allowbreak cm³ \\
 \textbf{Aptidão agrícola} & \textbf{Média} \\
 \end{longtable}
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords:
--22.5167°, -56.8667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -22.5167°, -56.8667°. Média
+ponderada camadas 0-5, 5-15, 15-30 cm.
 \subsubsection{Indicadores Sociais}
 
 \textbf{Fontes:} PNUD 2020, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} Censo 2022, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} EPHC 2023, Ministerio
@@ -7378,6 +8976,129 @@ Mitigação}\label{vuln-Yby_Yau-vulnerabilidades-e-mitigauxe7uxe3o}
 \item[Segurança]  Risco Crítico. Zona de "hotspot" para narcotráfico (corredor Bolívia-Amambay-Brasil) e presença histórica do EPP\footnote{Ejército del Pueblo Paraguayo (Exército do Povo Paraguaio), grupo insurgente marxista-leninista que atua principalmente no norte do país.} (Ejército del Pueblo Paraguayo). Taxa de homicídios regional de 15-20/\allowbreak 100k. Exige segurança privada robusta e perfil tático.
 \item[Leis Local]  Município fora da restrição absoluta da Lei de Fronteira (distância > 50km da linha seca), facilitando a titularidade para estrangeiros.
 \end{description}
+\textbf{Fonte climática:} NASA POWER Climatology API (período 2001-2020)
+\textbf{Fonte luminosa:} estimativa world atlas
+
+\paragraph{Irradiação Solar
+(kWh/\allowbreak m²/\allowbreak dia)}\label{irradiauxe7uxe3o-solar-kwhmuxb2dia}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Média
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+6.44 & 5.92 & 5.66 & 4.74 & 3.62 & 3.27 & 3.51 & 4.32 & 4.78 & 5.46 &
+6.22 & 6.37 & \textbf{5.03} \\
+\end{longtable}
+
+\textbf{Inclinação solar recomendada:} 23° N (anual) · 33° N (inverno
+jun-ago) · 13° N (verão nov-jan)
+
+\paragraph{Precipitação (mm/\allowbreak mês)}\label{precipitauxe7uxe3o-mmmuxeas}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Total/\allowbreak ano
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+178 & 183 & 118 & 133 & 121 & 80 & 50 & 43 & 83 & 159 & 190 & 174 &
+\textbf{1517 mm} \\
+\end{longtable}
+
+\paragraph{Poluição Luminosa}\label{poluiuxe7uxe3o-luminosa}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Parâmetro & Valor \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Escala Bortle & 3 --- Céu rural \\
+Radiância artificial & 1.5 nW/\allowbreak cm²/\allowbreak sr \\
+\end{longtable}
 \paragraph{Solo (SoilGrids 2.0, média ponderada 0--30
 cm)}
 
@@ -7397,8 +9118,8 @@ Densidade aparente & 1.25 g/\allowbreak cm³ \\
 \textbf{Aptidão agrícola} & \textbf{Alta} \\
 \end{longtable}
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords:
--23.4333°, -56.4833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -23.4333°, -56.4833°. Média
+ponderada camadas 0-5, 5-15, 15-30 cm.
 \subsubsection{Indicadores Sociais}
 
 \textbf{Fontes:} PNUD 2020, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} Censo 2022, INE\footnote{Instituto Nacional de Estadística (Instituto Nacional de Estatística), órgão oficial de dados demográficos e censitários.} EPHC 2023, Ministerio

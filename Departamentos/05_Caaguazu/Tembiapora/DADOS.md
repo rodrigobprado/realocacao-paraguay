@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Tembiaporá, Caaguazú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°19′S 55°33′W.
 - **Topografia:** Relevo plano a suavemente ondulado, margeado em três quadrantes pelo reservatório de **Yguazú**. Altitude ~220m. Área de ~444 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** **Capital Nacional da Banana** (Maior polo exportador de frutas tropicais do Paraguai); Portos fluviais no Lago Yguazú; Áreas de cultivo intensivo protegidas pela massa de água do reservatório. Ausência de alvos militares diretos, oferecendo boa invisibilidade tática.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. A grande massa de água do lago pode influenciar a dispersão de partículas em baixa altitude.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local. Dependência de J. Eulogio Estigarribia (Campo 9) para saúde de alta complexidade e logística comercial diversificada.
 - **Custo de Vida:** Baixo; economia baseada na exportação frutícola e agricultura de subsistência.
 - **Preço da Terra:** US$ 4.000-7.000/ha (áreas mecanizáveis ou com plantios de banana consolidados); áreas próximas ao lago com valorização turística e residencial.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 23.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.57 | 4.59 | 4.07 | 5.06 | 5.70 | 3.14 | 2.55 | 1.76 | 3.44 | 6.11 | 6.26 | 5.55 | **1607 mm** |
+| 142 | 130 | 126 | 152 | 177 | 94 | 79 | 55 | 103 | 189 | 188 | 172 | **1607 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco Moderado de Isolamento e Cheias.** A oscilação do nível do reservatório de Yguazú pode afetar áreas baixas e acessos internos. O isolamento por terra pode ocorrer em eventos climáticos extremos.
 - **Clima:** Subtropical Úmido com forte influência termorreguladora da massa de água do lago. Verões quentes e chuvosos (média 1.700 mm/ano).
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundância hídrica massiva via reservatório de Yguazú e poços artesianos de alta vazão.
 - **Qualidade do Solo:** Solo franco-arenoso a argiloso; fértil e profundo, ideal para fruticultura (banana, abacaxi), soja e milho.
 - **Resources Locais:** **Maior produtor nacional de bananas.** Elevadíssimo potencial para autossuficiência calórica e hídrica. Potencial para pesca de subsistência e comercial de água doce.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.29 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.3167°, -55.55°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.3167°, -55.55°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural pacífica e estável. Baixíssima criminalidade urbana violenta. Estabilidade social sustentada pelo sucesso do agronegócio familiar de exportação. Geografia peninsular favorece o controle de acessos.
 - **Leis Local:** Município de criação recente (2008), emancipado de Raúl A. Oviedo. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira, permitindo plena titularidade para brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca isolamento demográfico em região de alta produtividade de alimentos).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MAG (produção frutícola): https://www.mag.gov.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 12.877 habitantes.
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 62% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

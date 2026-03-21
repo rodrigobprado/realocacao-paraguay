@@ -1,6 +1,6 @@
 # Avaliacao de Localidade: La Pastora, Caaguazu
 
-## Pesquisa oficial consolidada (acesso em 2026-03-05)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°15′S 56°32′W (geocodificado via Nominatim).
@@ -12,8 +12,6 @@
 - Censo 2022 INE: https://www.ine.gov.py/censo2022/
 - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 - MOPC (estado de rutas): https://mopc.gov.py/servicios/estado-de-las-rutas/
-
-
 
 ### Indicadores Sociais
 
@@ -38,7 +36,6 @@
 | Idade mediana | 35.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -52,11 +49,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.01 | 5.07 | 4.02 | 4.91 | 5.57 | 2.99 | 2.26 | 1.49 | 3.14 | 5.94 | 6.33 | 5.41 | **1557 mm** |
+| 124 | 143 | 125 | 147 | 173 | 90 | 70 | 46 | 94 | 184 | 190 | 168 | **1557 mm** |
 
 #### Poluição Luminosa
 
@@ -64,7 +61,6 @@
 |-----------|-------|
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
-
 
 ### 4. Riscos naturais
 - DMH avisos: https://www.meteorologia.gov.py/avisos/
@@ -75,7 +71,6 @@
 - ANDE: https://www.ande.gov.py
 - MOPC: https://mopc.gov.py/
 - SEN (projetos): https://sen.gov.py/acciones/proyectos/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -89,7 +84,7 @@
 | Densidade aparente | 1.33 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.25°, -56.5333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.25°, -56.5333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - TSJE institucional: https://www.tsje.gov.py
@@ -129,11 +124,11 @@ Classificacao:
 - Seguro (bom potencial com preparacao).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-05): https://www.ine.gov.py/censo2022/
-- Fonte INE indicadores distritais (acesso em 2026-03-05): https://www.ine.gov.py/vt/Indicadores-distritales.php
-- Fonte MOPC infraestrutura (acesso em 2026-03-05): https://mopc.gov.py/servicios/estado-de-las-rutas/
-- Fonte DMH risco/clima (acesso em 2026-03-05): https://www.meteorologia.gov.py/avisos/
-- Fonte SEN eventos/acoes (acesso em 2026-03-05): https://sen.gov.py/acciones/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte INE indicadores distritais: https://www.ine.gov.py/vt/Indicadores-distritales.php
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte DMH risco/clima: https://www.meteorologia.gov.py/avisos/
+- Fonte SEN eventos/acoes: https://sen.gov.py/acciones/
 
 Sintese aplicada:
 - Dados textuais consolidados com base nas fontes oficiais acima; proximos ciclos podem aprofundar indicadores numericos especificos por distrito.
@@ -207,7 +202,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -221,7 +215,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -232,7 +225,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 62% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 
@@ -245,7 +237,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Aluguel 2 quartos (USD/mês) | 350 |
 
 > Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
-
 
 ### Saúde
 

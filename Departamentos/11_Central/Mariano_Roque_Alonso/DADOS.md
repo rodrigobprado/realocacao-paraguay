@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Mariano Roque Alonso, Central
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°12′S 57°32′W.
 - **Topografia:** Relevo predominantemente plano, margeado pelo Rio Paraguai ao oeste. Totalmente integrado à mancha urbana metropolitana. Altitude ~100m. Área de ~40 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** **Ponte Remanso** (Única conexão terrestre vital entre a Região Oriental e o Chaco/Região Ocidental); **Porto Fénix** (Um dos maiores terminais logísticos privados do país); Sede da Expo Mariano Roque Alonso; Frigoríficos de grande porte (exportação de carne). Ponto de estrangulamento geográfico absoluto de importância militar nacional.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Risco de fallout indireto elevado devido à proximidade imediata com Assunção (~15 km).
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Hospital Distrital de Mariano Roque Alonso e rede comercial de grande escala (Shopping Mariano). Polo industrial e portuário de primeiro nível.
 - **Custo de Vida:** Médio-alto; economia impulsionada pela logística, indústria frigorífica e comércio de grande porte.
 - **Preço da Terra:** US$ 60-120/m² (Urbano); US$ 50.000-100.000/ha (Zonas industriais e portuárias valorizadas).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 30.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 3.98 | 5.28 | 4.20 | 4.77 | 4.60 | 2.36 | 1.90 | 1.08 | 2.32 | 5.20 | 6.56 | 5.87 | **1465 mm** |
+| 123 | 149 | 130 | 143 | 143 | 71 | 59 | 33 | 70 | 161 | 197 | 182 | **1465 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 7 — Transição suburbano-urbano |
 | Radiância artificial | 40.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco Moderado a Alto de Inundação.** Bairros ribeirinhas baixos vulneráveis às cheias do Rio Paraguai. Problemas severos de drenagem pluvial urbana (raudales) em eixos comerciais durante tempestades severas (média 1.600 mm/ano).
 - **Clima:** Subtropical Úmido com forte efeito de ilha de calor urbana.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Sistema ESSAP (captação no Rio Paraguai) e poços artesianos privados profundos.
 - **Qualidade do Solo:** Solo urbano e industrial impermeabilizado; aptidão agrícola limitada no distrito.
 - **Resources Locais:** Gigantesco polo de suprimentos comerciais, logística portuária e indústria cárnea. Alta capacidade teórica de recursos, mas totalmente dependente de ordem logística externa para distribuição interna à massa populacional.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.34 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.2°, -57.5333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.2°, -57.5333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona industrial e portuária com índices de criminalidade urbana típicos de polos de trânsito (furtos/assaltos). Em crises, a proximidade com a Ponte Remanso a torna uma zona de alta tensão militar e policial para controle de fluxos nacionais e segurança estratégica da fronteira interna.
 - **Leis Local:** Município consolidado e altamente estratégico para a integração territorial. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Ideal como hub logístico e operacional, requer alto preparo para visibilidade estratégica).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Ponte Remanso e Ruta PY03.
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: Ponte Remanso e Ruta PY03.
 - Fonte Ministério do Interior (segurança metropolitana): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | fibra óptica disponível |
-
 
 ### Mercado Imobiliário e Terra Rural
 

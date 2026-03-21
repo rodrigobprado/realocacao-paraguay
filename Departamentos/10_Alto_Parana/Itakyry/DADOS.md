@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Itakyry, Alto Paraná
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°56′S 54°59′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado, com extensas chapadas mecanizáveis. Altitude ~250m. Área vasta de ~1.964 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Áreas de produção agrícola intensiva de grãos; Terminais de silos de grande porte; Ponto de conexão rodoviária entre Alto Paraná e Canindeyú. Ausência de alvos militares diretos, oferecendo excelente invisibilidade estratégica em território vasto.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Centro de Saúde local. Dependência de Hernandarias (70 km) ou Ciudad del Este para serviços hospitalares de alta complexidade e logística avançada.
 - **Custo de Vida:** Muito baixo; economia estritamente vinculada ao agronegócio e agricultura de subsistência.
 - **Preço da Terra:** US$ 8.000-12.000/ha (terras mecanizadas de elite); US$ 2.500-4.000/ha (áreas de campo natural/pecuária).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 23.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 | **1477 mm** |
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 | **1477 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 6 — Céu suburbano brilhante |
 | Radiância artificial | 15.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas catastróficas devido ao relevo favorável e gestão hídrica agrícola. Presença de arroios tributários da bacia do Rio Paraná.
 - **Clima:** Subtropical Úmido. Verões quentes; invernos com geadas ocasionais.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via poços artesianos profundos e sistemas de captação local; excelente qualidade hídrica subterrânea.
 - **Qualidade do Solo:** **Latossolo Vermelho de Elite**; solo profundo, estruturado e de altíssima fertilidade natural. Excelente aptidão para soja, milho e trigo.
 - **Resources Locais:** Grande produção de soja, milho e gado de corte. Elevadíssimo potencial para autossuficiência alimentar básica em nível de propriedade devido à vasta área produtiva.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.23 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.9333°, -54.9833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.9333°, -54.9833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural pacífica e estável. Baixíssima criminalidade urbana. Presença de comunidades indígenas e histórico de conflitos agrários pontuais em áreas de mata que exigem vigilância tática e respeito territorial. Estabilidade social baseada na cultura produtora.
 - **Leis Local:** Município histórico e consolidado no agronegócio. **Livre de Restrição de Fronteira:** Localizado no interior do país, permitindo plena titularidade para brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca o máximo de isolamento demográfico em terras de altíssima produtividade).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

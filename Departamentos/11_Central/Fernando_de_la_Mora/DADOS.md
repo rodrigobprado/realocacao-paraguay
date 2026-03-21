@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Fernando de la Mora, Central
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°19′S 57°32′W.
 - **Topografia:** Relevo predominantemente plano, totalmente urbanizado e integrado à mancha urbana de Assunção. Altitude ~140m. Área de ~20 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** **Corredor Logístico da Ruta PY02** (Eixo vital de entrada/saída da capital); Importantes centros de distribuição e logística comercial (Zona Norte e Sul); Proximidade crítica com sedes administrativas em Assunção. Ausência de bases militares diretas, mas é um ponto de estrangulamento rodoviário tático.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Risco elevado de fallout indireto e contaminação em caso de incidentes severos na capital.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura de serviços de elite. Sede do Hospital Materno Infantil e proximidade com os melhores hospitais privados do país. Rede bancária e comercial saturada e completa.
 - **Custo de Vida:** Médio-alto; mercado imobiliário extremamente valorizado, sem disponibilidade de terras rurais.
 - **Preço da Terra:** US$ 150-350/m² (Urbano/Comercial).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 33.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 | **1477 mm** |
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 | **1477 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 7 — Transição suburbano-urbano |
 | Radiância artificial | 40.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Enxurradas Urbanas (Raudales).** Problemas crônicos de drenagem pluvial em avenidas principais durante tempestades severas. Baixo risco de inundações fluviais diretas.
 - **Clima:** Subtropical Úmido com forte efeito de ilha de calor urbana. Temperaturas de verão frequentemente superam os 40°C.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Sistema ESSAP e poços artesianos profundos em condomínios e indústrias.
 - **Qualidade do Solo:** Solo urbano totalmente impermeabilizado; aptidão agrícola nula no distrito.
 - **Resources Locais:** Gigantesco polo comercial e de suprimentos. Contudo, a extrema população gera dependência absoluta de logística externa para alimentação. Resiliência individual depende de estocagem prévia.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.36 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.3167°, -57.5333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.3167°, -57.5333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Índices de criminalidade urbana típicos de alta densidade metropolitana (assaltos/furtos). Em crises, é uma das zonas de maior risco para distúrbios civis e saques devido à concentração de depósitos e comércio.
 - **Leis Local:** Município consolidado e altamente regulamentado. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Recomendado como base logística e residencial de apoio, não para sobrevivência isolada).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Reforma do Transporte 2025.
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: Reforma do Transporte 2025.
 - Fonte Ministério do Interior (segurança metropolitana): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | fibra óptica disponível |
-
 
 ### Mercado Imobiliário e Terra Rural
 

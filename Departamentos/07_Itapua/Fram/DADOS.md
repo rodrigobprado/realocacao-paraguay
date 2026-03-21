@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Fram, Itapua
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 27°10′S 55°53′W.
 - **Topografia:** Relevo predominantemente plano, com solos vermelhos (latossolos) de altíssima fertilidade. Área de ~320 km².
 - **Alvos Estratégicos:** Polo agroindustrial de trigo (Capital do Trigo) e soja; Moinhos de grande porte e plantas de processamento de carnes (Trociuk). Posição recuada em relação à fronteira direta e grandes centros urbanos.
 - **Fallout:** Ventos predominantes do Sul/Sudeste. Protegido pela distância de alvos militares primários.
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -17,11 +17,9 @@
 - **Vias de Acesso:** Conectada pela "Ruta Graneros del Sur", uma das melhores rotas pavimentadas para transporte de carga do país.
 - **Serviços:** **Destaque Nacional.** Hospital Distrital com UTI e sistema de seguro social municipal único em solo paraguaio. Infraestrutura de "Primeiro Mundo" em escala local.
 - **Custo de Vida:** US$ 400-1.100/mês. Alta qualidade de vida per capita.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -46,7 +44,6 @@
 | Idade mediana | 30.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -60,11 +57,11 @@
 
 **Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.84 | 4.35 | 4.71 | 6.12 | 4.78 | 3.57 | 2.75 | 2.59 | 3.69 | 6.66 | 6.46 | 5.76 | **1713 mm** |
+| 150 | 123 | 146 | 184 | 148 | 107 | 85 | 80 | 111 | 206 | 194 | 179 | **1713 mm** |
 
 #### Poluição Luminosa
 
@@ -73,12 +70,11 @@
 | Escala Bortle | 5 — Céu suburbano |
 | Radiância artificial | 5.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações; relevo favorável à drenagem natural.
 - **Clima:** Subtropical Úmido. Vulnerável a geadas ocasionais (impacto agrícola) e tempestades severas de vento.
 - **Sismicidade:** Baixa. Estabilidade geológica intraplaca; sem histórico de danos por sismos.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -99,17 +95,17 @@
 | Densidade aparente | 1.22 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -27.1667°, -55.8833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -27.1667°, -55.8833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Autossuficiência:** **Excepcional.** Produção massiva de proteína animal (suínos/aves) e grãos. Autogestão comunitária e cooperativa garante resiliência em colapsos de rede central.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Um dos distritos mais seguros e ordenados do Paraguai. Baixíssima criminalidade comum; forte controle social comunitário e ética de trabalho.
 - **Leis Local:** Modelo de gestão municipal referência em eficiência e autonomia.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +132,8 @@ Classificacao:
 - Seguro com Pequenos Compromissos (Santuário de Nível Superior).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC (acesso em 2026-03-06): https://mopc.gov.py/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC: https://mopc.gov.py/
 - Fonte Municipalidade de Fram (Saúde): https://fram.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -185,7 +181,6 @@ Altamente recomendado como destino de realocação para famílias e indivíduos 
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -199,7 +194,6 @@ Altamente recomendado como destino de realocação para famílias e indivíduos 
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -210,7 +204,6 @@ Altamente recomendado como destino de realocação para famílias e indivíduos 
 | Domicílios com internet (dept.) | 78% |
 | Tecnologia predominante | fibra/rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

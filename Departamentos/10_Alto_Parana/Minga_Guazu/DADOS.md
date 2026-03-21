@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Minga Guazú, Alto Paraná
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°29′S 54°45′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado. Localizado no eixo metropolitano de Ciudad del Este. Altitude ~240m. Área de ~489 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** **Aeroporto Internacional Guaraní** (Segundo maior do país, infraestrutura crítica de aviação); Entroncamento logístico nevrálgico das Rutas **PY02** e **PY06**; Grandes complexos agroindustriais e silos; Subestação ANDE. Alta importância tática e militar nacional.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto de alvos continentais distantes.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura de serviços completa. Centro médico local e proximidade imediata com hospitais de alta complexidade em Ciudad del Este (15-20 km). Polo comercial agroindustrial robusto.
 - **Custo de Vida:** Médio; economia pujante baseada na exportação agrícola e serviços logísticos.
 - **Preço da Terra:** US$ 8.000-15.000/ha (áreas mecanizadas de elite); lotes industriais e residenciais urbanos valorizados.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 27.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.69 | 4.62 | 4.02 | 4.64 | 5.24 | 3.49 | 2.66 | 2.07 | 3.78 | 6.38 | 5.62 | 5.63 | **1608 mm** |
+| 145 | 131 | 125 | 139 | 162 | 105 | 82 | 64 | 113 | 198 | 169 | 175 | **1608 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 6 — Céu suburbano brilhante |
 | Radiância artificial | 15.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Diversos arroios cruzam o distrito (ex: Rio Monday). Baixo risco de inundações sistêmicas catastróficas. Vulnerabilidade localizada em drenagem industrial e urbana durante tempestades severas (média 1.700 mm/ano).
 - **Clima:** Subtropical Úmido. Verões quentes; invernos com geadas ocasionais.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via poços artesianos profundos e sistemas de captação local (Aquífero Guarani).
 - **Qualidade do Solo:** **Latossolo Vermelho de Elite**; profundo e extremamente fértil. Excelente aptidão para soja, milho e trigo.
 - **Resources Locais:** Grande polo produtor de grãos, proteína animal e sementes. Elevado potencial para autossuficiência alimentar regional, mas dependente de ordem logística para distribuição.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.25 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.4833°, -54.75°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.4833°, -54.75°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade dinâmica com criminalidade urbana típica de polos logísticos. Segurança institucional presente, mas sob vigilância tática constante devido ao aeroporto internacional. Estabilidade social baseada na cultura cooperativista e industrial ("Minga" = trabalho comunitário).
 - **Leis Local:** Município consolidado e integrado ao desenvolvimento do Alto Paraná. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Moderadamente Seguro (Ideal como base logística e agroindustrial, requer preparo para visibilidade estratégica).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte DINAC (Aeroportos): https://www.dinac.gov.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 81.072 habitantes.
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

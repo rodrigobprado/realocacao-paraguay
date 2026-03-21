@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Raúl Arsenio Oviedo, Caaguazú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°10′S 55°38′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado. Localizado na bacia do Rio Monday, com proximidade estratégica com o reservatório de **Yguazú**. Altitude ~230m. Área de ~625 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Áreas de produção agrícola mecanizada de larga escala; Terminais de armazenamento de grãos. Ausência de alvos militares ou industriais pesados primários, conferindo excelente invisibilidade tática e discrição.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local. Dependência direta do polo de Campo 9 (Dr. J. Eulogio Estigarribia) a 25 km para saúde de alta complexidade e logística comercial avançada.
 - **Custo de Vida:** Baixo; economia baseada na exportação de grãos e pecuária.
 - **Preço da Terra:** US$ 5.000-8.000/ha (terras mecanizadas de elite); US$ 2.500-4.000/ha (áreas de campo natural/pecuária).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 26.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.32 | 4.90 | 3.91 | 4.93 | 5.62 | 3.09 | 2.36 | 1.64 | 3.45 | 6.00 | 6.16 | 5.55 | **1581 mm** |
+| 134 | 138 | 121 | 148 | 174 | 93 | 73 | 51 | 104 | 186 | 185 | 172 | **1581 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Banhado por arroios tributários do Rio Monday. Baixo risco de inundações sistêmicas. Gestão hídrica favorável à agricultura.
 - **Clima:** Subtropical Úmido. Verões quentes; invernos com geadas ocasionais.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundante via poços artesianos e lençol freático produtivo; proximidade com o reservatório de Yguazú garante segurança hídrica regional.
 - **Qualidade do Solo:** Latossolo Vermelho (Terra Vermelha); profundo, fértil e bem drenado. Excelente aptidão para soja, milho, trigo e pastagens de alta performance.
 - **Resources Locais:** Grande produção de soja, milho, trigo e pecuária de corte. Elevadíssimo potencial para autossuficiência alimentar básica e geração de excedentes.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural extremamente pacífica e estável. Baixíssima criminalidade urbana. Coesão social baseada na cultura produtora brasiguaia e paraguaia tradicional. Baixa visibilidade para agitações sociais de massa.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira, permitindo plena titularidade para brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,8 +117,8 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca isolamento demográfico em terras de altíssima produtividade).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.29 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.1667°, -55.6333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.1667°, -55.6333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~8,5 (Regional/Caaguazú).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 62% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

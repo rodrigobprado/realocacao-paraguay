@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Cerro Corá, Amambay
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 22°39′S 56°01′W.
 - **Topografia:** Relevo ondulado a acidentado, caracterizado por colinas e serras (Cordillera de Amambay) e vales férteis. Altitude ~350m. Área massiva de ~1.442 km². Geologicamente estável.
 - **Alvos Estratégicos:** **Parque Nacional Cerro Corá** (Local de imenso valor histórico e simbólico nacional; reserva ambiental estratégica); Ponto de conexão na Ruta **PY05** (Eixo Concepción-PJC). Ausência de bases militares massivas, mas zona de alta visibilidade histórica e vigilância tática regional.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto; relevo serrano oferece barreiras naturais parciais.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local. Dependência direta de Pedro Juan Caballero para serviços hospitalares de alta complexidade e centros comerciais diversificados.
 - **Custo de Vida:** Muito baixo; economia baseada na pecuária, pequenas plantações e ecoturismo histórico.
 - **Preço da Terra:** US$ 3.000-6.000/ha (áreas desenvolvidas); US$ 1.500-3.000/ha (áreas de monte/pecuária).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 23° N (anual) · 33° N (inverno jun-ago) · 13° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 5.14 | 6.24 | 3.82 | 4.47 | 4.26 | 2.75 | 1.79 | 1.57 | 3.06 | 5.51 | 6.27 | 5.78 | **1542 mm** |
+| 159 | 176 | 118 | 134 | 132 | 82 | 55 | 49 | 92 | 171 | 188 | 179 | **1542 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 2.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido ao relevo favorável à drenagem. Abundância de arroios perenes (ex: Rio Aquidabán) e nascentes de alta qualidade hídrica.
 - **Clima:** Subtropical Úmido. Verões intensos e chuvosos; invernos frescos com geadas ocasionais. Microclima influenciado pela vegetação do parque nacional.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via nascentes naturais e poços artesianos; excelente qualidade hídrica superficial e subterrânea.
 - **Qualidade do Solo:** Solo franco-arenoso a argiloso fértil; aptidão para pastagens naturais, silvicultura e agricultura de subsistência.
 - **Resources Locais:** Grande produção de gado bovino e recursos florestais. Elevadíssimo potencial para autossuficiência calórica familiar baseada em proteína animal e horticultura protegida.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.24 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -22.65°, -56.0167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -22.65°, -56.0167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural pacífica em termos de crime comum. No entanto, exige **atenção tática regional** devido ao contexto de Amambay (narcotráfico e trânsito de ilícitos nas proximidades de PJC). Forte identidade histórica nacionalista. Estabilidade social sustentada pela cultura tradicional.
 - **Leis Local:** Município de criação recente (ex-Chiriguelo). **Livre de Restrição de Fronteira:** Localizado fora da faixa de 50km da fronteira seca internacional (protegido pela linha de PJC).
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Seguro (Localidade de elite para quem busca isolamento tático em ambiente histórico e natural, ciente dos desafios regionais).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MADES (Dados do Parque Nacional Cerro Corá): https://www.mades.gov.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Reabilitação da Ruta PY05.
+- Fonte MOPC infraestrutura: Reabilitação da Ruta PY05.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 10.690 habitantes.
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 62% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

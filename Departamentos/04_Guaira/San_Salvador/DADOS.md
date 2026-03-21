@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: San Salvador, Guairá
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°50′S 56°30′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado. Localizado na zona central do departamento. Altitude ~140m. Área de ~140 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Áreas de produção pecuária; Antiga estação ferroviária (valor histórico/patrimonial). Ausência absoluta de alvos militares ou industriais de grande porte, oferecendo excelente invisibilidade tática e discrição.
 - **Fallout:** Ventos predominantes do Leste (E) e Nordeste (NE). Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local. Dependência crítica de Villarrica (18-20 km) para atendimentos médicos de alta complexidade e serviços financeiros.
 - **Custo de Vida:** Muito baixo; economia baseada na agropecuária de subsistência e pequena escala.
 - **Preço da Terra:** US$ 3.000-5.800/ha (áreas mecanizáveis ou pastagens consolidadas).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.35 | 4.55 | 4.28 | 5.31 | 5.34 | 3.12 | 2.53 | 1.97 | 3.11 | 6.11 | 6.25 | 5.30 | **1590 mm** |
+| 135 | 129 | 133 | 159 | 166 | 94 | 78 | 61 | 93 | 189 | 188 | 164 | **1590 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 2.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas catastróficas. Presença de arroios locais que favorecem a pequena pecuária. Danos pontuais em estradas de terra durante temporais severos (média pluvial 1.600 mm/ano).
 - **Clima:** Subtropical Úmido. Verões quentes; invernos com entradas de ar frio do Sul.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Captação via poços artesianos e juntas de saneamento; boa disponibilidade hídrica subterrânea.
 - **Qualidade do Solo:** Solo franco-arenoso a argiloso; fértil e profundo, ideal para cana-de-açúcar, mandioca e pastagens.
 - **Resources Locais:** Gado de corte e leite, cana-de-açúcar e agricultura familiar diversificada. Elevado potencial para autossuficiência alimentar básica em nível de propriedade.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.34 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.8333°, -56.5°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.8333°, -56.5°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural extremamente pacífica. Taxa de homicídios no departamento de Guairá entre as menores do país (~3,6/100k). Coesão comunitária forte baseada em famílias tradicionais da região.
 - **Leis Local:** Município histórico e consolidado. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira, permitindo plena titularidade para brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca isolamento demográfico em região institucionalmente estável).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 60% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

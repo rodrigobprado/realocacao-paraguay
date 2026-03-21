@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Loma Plata, Boquerón
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 22°23′S 59°50′W.
 - **Topografia:** Relevo plano, característico do Chaco Central paraguaio. Solo predominante Luvisol (mecanicamente difícil e salobro). Altitude ~130m. Área de ~1.787 km². Geologicamente estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** **Sede da Cooperativa Chortitzer** (Motor econômico e logístico vital do Chaco); Polo industrial lácteo e frigorífico de grande porte; Terminal receptor do **Aqueduto do Chaco** (infraestrutura hídrica crítica); Aeródromo de Loma Plata; Nodo de transmissão elétrica de alta tensão. Alvo estratégico de altíssima visibilidade econômica e de suprimentos.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto de alvos continentais; posição isolada e favorável.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura de saúde privada de elite (Hospital Loma Plata). Rede bancária, técnica e administrativa de primeiro nível sustentada pela Cooperativa Chortitzer.
 - **Custo de Vida:** Médio; economia dolarizada pelo agronegócio e produção industrial exportadora.
 - **Preço da Terra:** US$ 1.500-2.000/ha (terras desenvolvidas/mecanizadas); US$ 600-900/ha (campos virgens).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 22° N (anual) · 32° N (inverno jun-ago) · 12° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 3.36 | 4.51 | 3.39 | 2.66 | 2.04 | 0.87 | 0.57 | 0.38 | 0.74 | 2.43 | 3.54 | 3.77 | **860 mm** |
+| 104 | 127 | 105 | 80 | 63 | 26 | 18 | 12 | 22 | 75 | 106 | 117 | **860 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 2 — Céu tipicamente escuro |
 | Radiância artificial | 0.2 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Seca Severa.** Déficit hídrico crônico é o maior desafio existencial. Dependência vital do Aqueduto, tajamares (reservatórios) e sistemas de captação pluvial. Baixo risco de inundações fluviais, mas vulnerabilidade a inundações repentinas em solos Luvisóis compactados.
 - **Clima:** Tropical Semiárido. Verões com calor extremo (>45°C) e radiação solar intensa.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** **Recurso Crítico.** Dependência de infraestrutura externa (Aqueduto de Puerto Casado) e armazenamento local massivo. Água subterrânea é predominantemente salobra, exigindo tratamento técnico.
 - **Qualidade do Solo:** Solo argiloso e salino (Luvisol); exige manejo técnico avançado para agricultura, mas excelente para pastagens cultivadas e produção de sementes.
 - **Resources Locais:** **Altíssima resiliência alimentar proteica.** Gigantesca produção de carne bovina e laticínios (Marca Trébol). Organização cooperativista provê logística, armazenamento e processamento de nível mundial, permitindo independência total em crises de suprimentos alimentares básicos.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.39 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -22.3833°, -59.8333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -22.3833°, -59.8333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Uma das zonas urbanas mais seguras do Paraguai. Baixíssima criminalidade urbana. Coesão social fortíssima baseada na ética de trabalho menonita e na integração das comunidades locais ao sistema cooperativo. Presença institucional de segurança privada e pública funcional.
 - **Leis Local:** Município consolidado e polo de influência geopolítica no Chaco. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,7 +131,7 @@ Classificacao:
 - Moderadamente Seguro (Localidade de elite para suporte logístico e produção, exigindo investimento radical em autonomia hídrica).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte Cooperativa Chortitzer (Produção Industrial): https://www.chortitzer.com.py/
 - Fonte MOPC (Operação do Aqueduto do Chaco Central): https://mopc.gov.py/
 
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 38% |
 | Tecnologia predominante | rádio/satélite |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

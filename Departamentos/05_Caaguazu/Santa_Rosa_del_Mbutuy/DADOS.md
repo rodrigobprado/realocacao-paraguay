@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Santa Rosa del Mbutuy, Caaguazu
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°04′S 56°18′W.
 - **Topografia:** Terreno ondulado com áreas de vale. Área de ~298 km².
 - **Alvos Estrategicos:** Situado na Ruta PY08, importante eixo norte-sul. Ausência de alvos militares.
 - **Fallout:** Ventos predominantes do Norte.
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -16,11 +16,9 @@
 - **Densidade:** ~28,4 hab/km².
 - **Vias de Acesso:** Cruzamento da Ruta PY08 com rotas departamentais. Boa conectividade com San Estanislao e Coronel Oviedo.
 - **Servicos:** Infraestrutura de saúde básica. Dependência de Coronel Oviedo para serviços especializados.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -45,7 +43,6 @@
 | Idade mediana | 30.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -59,11 +56,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.01 | 5.07 | 4.02 | 4.91 | 5.57 | 2.99 | 2.26 | 1.49 | 3.14 | 5.94 | 6.33 | 5.41 | **1557 mm** |
+| 124 | 143 | 125 | 147 | 173 | 90 | 70 | 46 | 94 | 184 | 190 | 168 | **1557 mm** |
 
 #### Poluição Luminosa
 
@@ -72,11 +69,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Presença de arroios tributários do Rio Tebicuary-mí. Risco de isolamento de pontes em chuvas extremas.
 - **Sismicidade:** Baixa.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acoes/
 
@@ -95,19 +91,19 @@
 | Densidade aparente | 1.31 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.0667°, -56.3°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.0667°, -56.3°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Agua:** Poços comunitários e nascentes protegidas.
 - **Energia:** Rede ANDE.
 - **Producao:** Mandioca, milho, gado leiteiro e de corte.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Seguranca:** Baixa taxa de criminalidade, característica de zona rural estável.
 - **Clima Social:** Forte coesão comunitária baseada em pequenas propriedades.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -188,7 +184,6 @@ Recomendado para pequenos grupos ou famílias que buscam autossuficiência agrí
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -202,7 +197,6 @@ Recomendado para pequenos grupos ou famílias que buscam autossuficiência agrí
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -213,7 +207,6 @@ Recomendado para pequenos grupos ou famílias que buscam autossuficiência agrí
 | Domicílios com internet (dept.) | 62% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

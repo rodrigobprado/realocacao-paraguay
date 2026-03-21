@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: San Cristóbal, Alto Paraná
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°55′S 55°27′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado, com solos de altíssima produtividade (Terra Roxa mecanizada). Altitude ~240m. Área vasta de ~1.027 km². Geologicamente muito estável, risco sísmico nulo.
 - **Alvos Estratégicos:** Polo agroindustrial do sudoeste de Alto Paraná; Grande concentração de silos e moinhos da Cooperativa Pindo; Proximidade tática com o Rio Monday. Ausência de alvos militares diretos, oferecendo excelente invisibilidade estratégica, sendo um dos motores alimentares regionais.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto; posição isolada e protegida pela distância dos grandes centros urbanos.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura de serviços de primeiro nível regional sustentada pela Cooperativa Pindo. Sanatórios modernos, suporte técnico de precisão e rede bancária consolidada.
 - **Custo de Vida:** Médio; economia dolarizada pelo agronegócio e alta valorização imobiliária das terras mecanizadas.
 - **Preço da Terra:** US$ 12.000-18.000/ha (terras mecanizadas de elite - "Terra Roxa").
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 27.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.57 | 4.51 | 4.21 | 5.38 | 5.35 | 3.40 | 2.68 | 2.06 | 3.40 | 6.23 | 6.12 | 5.46 | **1625 mm** |
+| 142 | 127 | 131 | 161 | 166 | 102 | 83 | 64 | 102 | 193 | 184 | 169 | **1625 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 6 — Céu suburbano brilhante |
 | Radiância artificial | 15.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia favorável e gestão hídrica de precisão. Presença de arroios perenes de alta qualidade hídrica utilizados para irrigação e pecuária.
 - **Clima:** Subtropical Úmido. Verões quentes; invernos frescos com geadas benéficas ao trigo.
-- Fontes: 
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundante via poços artesianos profundos e lençol freático produtivo; excelente qualidade hídrica subterrânea.
 - **Qualidade do Solo:** **Latossolo Vermelho de Elite**; solo profundo, estruturado e de fertilidade máxima mundial.
 - **Resources Locais:** Grande produção de grãos (soja, milho, trigo) e proteína animal. Elevadíssimo potencial para autossuficiência alimentar básica em nível de propriedade devido à vasta área produtiva e baixa população.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Uma das zonas rurais mais seguras e estáveis do Paraguai. Baixíssima criminalidade urbana. Coesão social fortíssima baseada na cultura cooperativista e produtora. Presença de segurança patrimonial privada de alta performance.
 - **Leis Local:** Município consolidado e polo de influência regional. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,7 +117,7 @@ Classificacao:
 - Seguro (Altamente recomendado para quem busca isolamento tático rural em terras férteis com excelente suporte organizacional).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MAG (Relatórios de produção agrícola departamental).
 - Fonte Cooperativa Pindo (Dados de infraestrutura industrial).
 
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.21 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.9167°, -55.45°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.9167°, -55.45°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~5,0 (Abaixo da média nacional).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

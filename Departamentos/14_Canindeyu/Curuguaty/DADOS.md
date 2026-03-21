@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Curuguaty, Canindeyú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°28′S 55°41′W.
 - **Topografia:** Relevo ondulado com extensas planícies mecanizáveis e colinas suaves. Solo de altíssima produtividade (Latossolo Vermelho). Altitude ~280m. Área massiva de ~3.650 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Polo comercial e de serviços do sul de Canindeyú; **Nó Logístico Vital** (Entroncamento das Rutas PY03 e PY13); Sede de grandes complexos de silos e agroindústrias; Local histórico (Solar de Artigas). Ausência de bases militares massivas, mas zona de alta mobilidade da FTC (Força de Tarefa Conjunta) devido a dinâmicas regionais de segurança.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto de alvos nacionais primários.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Hospital Distrital de Curuguaty (referência regional) e sanatórios privados. Polo educacional, financeiro e comercial consolidado, voltado ao suporte do agronegócio e pecuária.
 - **Custo de Vida:** Baixo; economia baseada na exportação de commodities e serviços de apoio rural.
 - **Preço da Terra:** US$ 8.000-12.000/ha (terras mecanizadas de elite); US$ 3.000-5.000/ha (áreas de pecuária/campo natural).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 25.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 24° N (anual) · 34° N (inverno jun-ago) · 14° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.13 | 5.16 | 3.82 | 4.73 | 5.23 | 2.97 | 2.13 | 1.64 | 3.36 | 5.84 | 6.19 | 5.51 | **1544 mm** |
+| 128 | 146 | 118 | 142 | 162 | 89 | 66 | 51 | 101 | 181 | 186 | 171 | **1544 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia favorável e drenagem natural eficiente. Diversos arroios perenes (ex: Rio Curuguaty) garantem abundância hídrica superficial.
 - **Clima:** Subtropical Úmido. Verões intensos e chuvosos; invernos amenos com geadas ocasionais. Precipitação média 1.700 mm/ano.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundante via poços artesianos profundos e sistemas de captação local; excelente qualidade hídrica subterrânea.
 - **Qualidade do Solo:** **Latossolo Vermelho de Elite**; solo profundo, estruturado e de altíssima fertilidade natural. Excelente aptidão para soja, milho e pastagens mecanizadas.
 - **Resources Locais:** Gigantesco polo produtor de grãos, proteína animal e madeira. **Altíssima resiliência alimentar e produtiva.** Elevado potencial para autossuficiência absoluta em nível de propriedade ou regional.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade dinâmica com criminalidade urbana presente. Exige **vigilância tática elevada** devido ao histórico de conflitos agrários e à localização em departamento de trânsito de narcotráfico. Coesão social baseada na cultura produtora tradicional e movimentos camponeses organizados.
 - **Leis Local:** Município histórico e consolidado no agronegócio. **Livre de Restrição de Fronteira:** Localizado fora da faixa de 50km da fronteira internacional seca.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,8 +117,8 @@ Classificacao:
 - Seguro (Altamente recomendado como polo de recursos e suporte logístico, exigindo precauções táticas regionais).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Inauguração da Circunvalação de Curuguaty.
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: Inauguração da Circunvalação de Curuguaty.
 - Fonte Ministério do Interior (Segurança Regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.28 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.4667°, -55.6833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.4667°, -55.6833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~18,0 (Regional/Canindeyú).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

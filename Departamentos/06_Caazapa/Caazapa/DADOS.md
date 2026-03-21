@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Caazapá (Capital), Caazapá
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 26°11′S 56°22′W.
 - **Topografia:** Relevo plano com suaves ondulações e vales férteis. Altitude ~155m. Geologicamente muito estável, risco sísmico praticamente nulo.
 - **Alvos Estratégicos:** Sede do Governo Departamental; Ponto de conexão da Ruta **PY08** (Eixo Norte-Sul); Centro administrativo e de comando regional. Ausência de alvos militares de grande escala, oferecendo boa segurança institucional.
 - **Fallout:** Ventos predominantes do Norte (quentes) e Leste. Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Melhor infraestrutura hospitalar e de serviços do departamento (Hospital Regional). Centro administrativo, bancário e educacional (UNVES).
 - **Custo de Vida:** Baixo; economia baseada na pecuária, serviços e agricultura familiar.
 - **Preço da Terra:** US$ 4.000-7.000/ha (áreas rurais valorizadas); lotes urbanos com preços estáveis de capital departamental.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 31.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.35 | 4.55 | 4.28 | 5.31 | 5.34 | 3.12 | 2.53 | 1.97 | 3.11 | 6.11 | 6.25 | 5.30 | **1590 mm** |
+| 135 | 129 | 133 | 159 | 166 | 94 | 78 | 61 | 93 | 189 | 188 | 164 | **1590 mm** |
 
 #### Poluição Luminosa
 
@@ -74,14 +71,13 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 1.6 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Abundância de mananciais e arroios. Famosa pela fonte **Ykua Bolaños**. Baixo risco de inundações sistêmicas catastróficas. Drenagem natural favorável.
 - **Clima:** Subtropical Úmido. Verões quentes; invernos secos com geadas ocasionais.
-- **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):** Jan 6.71 | Fev 6.20 | Mar 5.39 | Abr 4.34 | Mai 3.26 | Jun 2.77 | Jul 3.10 | Ago 3.79 | Set 4.42 | Out 5.34 | Nov 6.39 | Dez 6.76. Média anual: 4.87 kWh/m²/dia. Mínimo: Jun (2.77) | Máximo: Dez (6.76). Fonte: NASA POWER Climatology API, período 2001-2020 (acesso em 2026-03-20).
-- **Precipitação — PRECTOTCORR (mm/dia):** Jan 4.35 | Fev 4.55 | Mar 4.28 | Abr 5.31 | Mai 5.34 | Jun 3.12 | Jul 2.53 | Ago 1.97 | Set 3.11 | Out 6.11 | Nov 6.25 | Dez 5.30. Média anual: ~1.587 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER (acesso em 2026-03-20).
+- **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):** Jan 6.71 | Fev 6.20 | Mar 5.39 | Abr 4.34 | Mai 3.26 | Jun 2.77 | Jul 3.10 | Ago 3.79 | Set 4.42 | Out 5.34 | Nov 6.39 | Dez 6.76. Média anual: 4.87 kWh/m²/dia. Mínimo: Jun (2.77) | Máximo: Dez (6.76). Fonte: NASA POWER Climatology API, período 2001-2020.
+- **Precipitação — PRECTOTCORR (mm/mês):** Jan 135 | Fev 129 | Mar 133 | Abr 159 | Mai 166 | Jun 94 | Jul 78 | Ago 61 | Set 93 | Out 189 | Nov 188 | Dez 164. Média anual: ~1.587 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER.
 - **Inclinação recomendada para placas solares:** 26° voltado para o Norte (anual); 36° no inverno (Jun-Ago); 16° no verão (Nov-Jan). Base: latitude local -26.18°S.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -90,10 +86,9 @@
 - **Água:** Abundante via poços artesianos e nascentes históricas (Ykua Bolaños); lençol freático produtivo.
 - **Qualidade do Solo:** Latossolo Vermelho e solos podzólicos; muito férteis e aptos para pecuária de elite, grãos e citros.
 - **Resources Locais:** Grande excedente de proteína animal (gado de corte), mandioca e frutas. Elevado potencial para autossuficiência hídrica e alimentar básica.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -107,12 +102,12 @@
 | Densidade aparente | 1.35 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.1833°, -56.3667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -26.1833°, -56.3667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Uma das capitais mais pacíficas do Paraguai. Taxa de homicídios regional entre as menores do país (~7,0/100k). Forte segurança institucional e controle social comunitário. Ambiente urbano ordenado e cultural.
 - **Leis Local:** Sede de todos os poderes estatais regionais. **Livre de Restrição de Fronteira:** Localizada no interior do país, permitindo plena titularidade para brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -139,8 +134,8 @@ Classificacao:
 - Seguro (Ideal como base administrativa e residencial segura para o projeto).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -192,7 +187,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -206,7 +200,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -217,7 +210,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 42% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Eusebio Ayala, Cordillera
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°23′S 56°58′W.
 - **Topografia:** Relevo ondulado com colinas históricas e áreas de planície fértil. Situado estrategicamente no sopé da Cordillera de los Altos. Altitude ~160m. Área de ~338 km². Geologicamente estável, sem histórico de sismicidade relevante.
 - **Alvos Estratégicos:** Polo histórico nacional (Batalha de Acosta Ñu); Nó logístico secundário na Ruta **PY02** duplicada; Centro produtor de alimentos tradicionais (Chipa); Proximidade tática com o Rio Piribebuy. Localização de alto valor histórico-militar, servindo como ponto de controle geográfico entre a planície central e as serras de Cordillera.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto; posição favorável em relação aos fluxos de ar metropolitanos.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Hospital Distrital de Eusebio Ayala. Infraestrutura urbana consolidada, rede bancária e serviços de apoio ao transporte nacional. Polo comercial diversificado.
 - **Custo de Vida:** Baixo; economia baseada na produção artesanal de alimentos, agricultura e serviços rodoviários.
 - **Preço da Terra:** US$ 8.000-12.000/ha (terras agrícolas mecanizáveis); US$ 30-60/m² (Urbano).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 31.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.09 | 4.96 | 4.29 | 4.95 | 4.91 | 2.61 | 2.14 | 1.32 | 2.58 | 5.53 | 6.42 | 5.66 | **1506 mm** |
+| 127 | 140 | 133 | 148 | 152 | 78 | 66 | 41 | 77 | 171 | 193 | 175 | **1506 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à cota elevada e relevo ondulado. Cruzado pelo Rio Piribebuy, que garante abundância hídrica superficial para pecuária e irrigação.
 - **Clima:** Subtropical Úmido. Verões quentes; invernos amenos com geadas ocasionais benéficas.
-- Fontes: 
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via poços artesianos e lençol freático produtivo; excelente qualidade hídrica subterrânea.
 - **Qualidade do Solo:** Solo franco-argiloso fértil; aptidão para milho, mandioca e pastagens.
 - **Resources Locais:** **Capital Nacional da Chipa.** Excepcional capacidade de processamento de alimentos básicos (milho e mandioca). Grande polo de logística de suprimentos regionais. Elevadíssimo potencial para autossuficiência calórica regional baseado em grãos e proteína animal.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.33 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.3833°, -56.9667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.3833°, -56.9667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Uma das cidades mais pacíficas e seguras da região. Baixíssima criminalidade urbana. Coesão social fortíssima forjada por tradições históricas e orgulho nacionalista. Estabilidade institucional sólida.
 - **Leis Local:** Município histórico consolidado. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Seguro (Altamente recomendado como polo de recursos e residência de resiliência tática próximo à capital).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Duplicação da Ruta PY02.
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: Duplicação da Ruta PY02.
 - Fonte Ministério do Interior (Segurança Regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 65% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

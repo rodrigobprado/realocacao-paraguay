@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: San Lazaro (Vallemi), Concepcion
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 22°09′S 57°56′W.
 - **Topografia:** Localizada na confluência dos rios Paraguai e Apa. Terreno com elevações calcárias e complexos de cavernas (ex: Santa Caverna). Geologicamente estável.
 - **Alvos Estratégicos:** **Industria Nacional del Cemento (INC)** - planta vital e estratégica para a construção civil e infraestrutura nacional; Aeródromo de Vallemí (pista asfaltada); Porto de Vallemí (logística fluvial de carga pesada).
 - **Fallout:** Ventos predominantes do Norte/Nordeste.
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Hospital da INC e centros de saúde básicos. Dependência de Concepción para alta complexidade.
 - **Custo de Vida:** Médio-baixo; influenciado pela atividade industrial e proximidade com o Brasil.
 - **Preço da Terra:** Lotes urbanos em Vallemí entre US$ 15.000 e US$ 40.000; áreas industriais/minerais com valorização elevada.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 26.0 anos | dist. |
 | Taxa de fecundidade | 2 | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 22° N (anual) · 32° N (inverno jun-ago) · 12° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.50 | 5.11 | 3.57 | 3.48 | 3.25 | 1.79 | 1.14 | 0.66 | 1.68 | 3.83 | 6.39 | 4.89 | **1226 mm** |
+| 140 | 144 | 111 | 104 | 101 | 54 | 35 | 20 | 50 | 119 | 192 | 152 | **1226 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Fluvial.** Áreas baixas próximas à confluência dos rios Paraguai e Apa são vulneráveis a cheias cíclicas (eventos significativos em 2019 e 2023).
 - **Clima:** Tropical Úmido/Quente. Verões com temperaturas >40°C e tempestades severas.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante (Rio Paraguai e Rio Apa).
 - **Qualidade do Solo:** Predomínio de formações calcárias; solo rico em minerais para construção e correção de solos, mas exige manejo para agricultura diversificada.
 - **Recursos Locais:** Maior polo produtor de cimento, cal e mármore do país. Pecuária e pesca comercial.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.36 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -22.15°, -57.9333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -22.15°, -57.9333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade industrial com forte presença estatal e corporativa. Zona de fronteira com o Brasil. Presença constante da FTC (Força de Tarefa Conjunta) na região norte do departamento. Taxa de homicídios regional de 14-19/100k.
 - **Leis Local:** Polo de mineração de importância nacional. **Restrição de Fronteira (Lei 2532/05):** Proibição de compra de terras rurais por estrangeiros de países limítrofes (faixa de 50km).
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -137,8 +132,8 @@ Classificacao:
 - Moderadamente Seguro (Indicado para quem busca conexão com a indústria mineral e logística fluvial).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-05): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte INC (Indústria Nacional de Cimento): https://www.inc.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -174,7 +169,6 @@ Indicado para perfis com interesse em logística fluvial, mineração ou apoio i
 - 3) Histórico de cheias e avisos SEN/DMH.
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
-
 
 ## 14. Informações Técnicas e Infraestrutura (Leitores Alfa)
 
@@ -232,7 +226,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -246,7 +239,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -257,7 +249,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 48% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

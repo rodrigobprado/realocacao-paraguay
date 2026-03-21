@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Santa Rosa del Aguaray, San Pedro
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 23°53′S 56°29′W.
 - **Topografia:** Relevo predominantemente plano a ondulado. Localizado no cruzamento estratégico das Rutas PY08 e PY11. Geologicamente estável, risco sísmico praticamente nulo.
 - **Alvos Estratégicos:** **Hospital Geral de Santa Rosa del Aguaray** (Referência regional de alta complexidade); Cruzamento das Rutas PY08 (Norte-Sul) e PY11 (Leste-Oeste); Hub logístico vital para Amambay e Concepción.
 - **Fallout:** Ventos predominantes do Norte (quentes e úmidos) e Sul (frentes frias). Baixo risco de fallout direto de alvos continentais primários.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Melhor infraestrutura hospitalar do interior paraguaio (Hospital Paraguai-Coreia/KOICA). Presença consolidada de bancos, silos e comércio agroindustrial.
 - **Custo de Vida:** Baixo (30-40% inferior a centros urbanos brasileiros similares); economia pujante baseada na exportação agrícola.
 - **Preço da Terra:** US$ 4.000-8.000/ha (terras agrícolas mecanizadas); US$ 1.500-3.500/ha (áreas de pecuária/mistas).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 24.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 24° N (anual) · 34° N (inverno jun-ago) · 14° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.30 | 5.59 | 3.83 | 4.68 | 4.70 | 2.79 | 1.94 | 1.42 | 3.00 | 5.56 | 6.44 | 5.43 | **1512 mm** |
+| 133 | 158 | 119 | 140 | 146 | 84 | 60 | 44 | 90 | 172 | 193 | 168 | **1512 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas catastróficas. Áreas ribeirinhas baixas do Rio Aguaray Guazú vulneráveis em tempestades severas (precipitação média 1.300-1.500 mm).
 - **Clima:** Subtropical Úmido. Verões intensos; invernos com entradas bruscas de ar frio.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundância hídrica excepcional; proximidade com a Reserva **Laguna Blanca** (águas cristalinas sobre areia calcária).
 - **Qualidade do Solo:** Latossolo Vermelho (Terra Vermelha); profundo e muito fértil, excelente para agricultura mecanizada intensiva.
 - **Resources Locais:** **Capital Nacional do Sésamo (Gergelim)**; polo produtor de soja, milho, chia e trigo. Grande excedente de proteína animal e grãos.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.29 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -23.8833°, -56.4833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -23.8833°, -56.4833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** **Zona sob Vigilância.** Historicamente inserida em região com presença de grupos insurgentes (EPP), o que motiva patrulhamento ostensivo da FTC e da Polícia Nacional. O núcleo urbano é um polo comercial vigiado e relativamente seguro.
 - **Leis Local:** Município em rápido desenvolvimento e com forte apoio institucional internacional (Coreia do Sul). **Livre de Restrição de Fronteira:** Fora da faixa de 50km da Lei 2532/05, sem restrições para brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Moderadamente Seguro (Altamente recomendado como base produtiva e de serviços para o Norte paraguaio).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte KOICA/MSPBS (saúde regional): https://www.mspbs.gov.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 39.643 habitantes.
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

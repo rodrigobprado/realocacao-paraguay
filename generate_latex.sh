@@ -377,8 +377,8 @@ for dept_dir in $(ls -d Departamentos/*/ | sort); do
                 dossier_to_desc t_raw_dossier.md >> "$BASE/$tex_file"
             fi
             
-            # Clima (Tabela com mm/mês já processada pelo Python)
-            awk '/### 3\. Dados Climaticos/,/### 4\./ { if($0 !~ /### [0-9]\./) print }' "t_dados_refined.md" | clean_content > t_clima.md
+            # Clima (seção ### 3. Dados Climáticos e Ambientais — valores em mm/mês)
+            awk '/### 3\. Dados Clim/,/### 4\./ { if($0 !~ /### [0-9]\./) print }' "t_dados_refined.md" | clean_content > t_clima.md
             if [ $(wc -c < t_clima.md) -gt 20 ]; then
                 pandoc t_clima.md -f markdown -t latex >> "$BASE/$tex_file"
             fi
@@ -457,4 +457,7 @@ for f in $BASE/dept_*.tex $BASE/metodologia.tex $BASE/panorama_nacional.tex $LEI
     sed -i 's/Encarnacion/Encarnacion/g' "$f"
     # Remove linhas com # solitário (heading vazio em Markdown que vira # inválido no LaTeX)
     sed -i '/^# *$/d' "$f"
+    # Remove referências de data de acesso
+    sed -i 's/ *(acesso em [0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9])//g' "$f"
+    sed -i 's/,\? *acesso em [0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]//g' "$f"
 done

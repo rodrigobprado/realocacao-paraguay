@@ -31,11 +31,11 @@ Na superfície, o Paraguai depende fortemente de grandes rios e da hidrovía. O 
 Somando energia hidrelétrica, água subterrânea monitorada e vocação agroexportadora, o país tem uma base física que pode favorecer autossuficiência parcial ou progressiva, desde que a escolha territorial seja feita com critério.
 
 Fontes-base desta seção:
-- INE, Censo 2022 e resultados finais: https://www.ine.gov.py/censo2022/ e https://www.ine.gov.py/noticias/2101/principales-resultados-finales-del-censo- (acesso em 2026-03-19).
-- ITAIPU, suprimento de energia ao Paraguai em 2025: https://www.itaipu.gov.py/noticias/energia/itaipu-suministro-al-paraguay-18-577-gwh-de-energia-electrica-de-enero-a-noviembre-del-2024 (acesso em 2026-03-19).
-- BCP, comércio exterior e projeções macroeconômicas: https://www.bcp.gov.py/en/web/institucional/w/reporte-de-comercio-exterior-septiembre-2025, https://www.bcp.gov.py/web/institucional/w/el-banco-central-del-paraguay-proyecta-un-crecimiento-del-pib-del-6-en-2025-y-del-4-2-en-2026-con-una-inflaci%C3%B3n-que-converger%C3%ADa-gradualmente-a-la-meta-del-3-5-en-2026-copiar-1 e https://www.bcp.gov.py/en/web/institucional/w/informe-de-inflaci%C3%B3n-diciembre-2025 (acesso em 2026-03-19).
-- MADES, monitoramento do Aquífero Guarani: https://www.mades.gov.py/2024/01/04/mades-inicia-perforacion-de-pozos-para-monitoreo-del-acuifero-guarani/ (acesso em 2026-03-19).
-- INE e Presidência, pobreza monetária 2024: https://www.ine.gov.py/noticias/2343/pobreza-monetaria-bajo-22-puntos-en-el-ano-2024 e https://www.presidencia.gov.py/noticias/paraguay-reduce-nuevamente-su-tasa-de-pobreza/ (acesso em 2026-03-19).
+- INE, Censo 2022 e resultados finais: https://www.ine.gov.py/censo2022/ e https://www.ine.gov.py/noticias/2101/principales-resultados-finales-del-censo-.
+- ITAIPU, suprimento de energia ao Paraguai em 2025: https://www.itaipu.gov.py/noticias/energia/itaipu-suministro-al-paraguay-18-577-gwh-de-energia-electrica-de-enero-a-noviembre-del-2024.
+- BCP, comércio exterior e projeções macroeconômicas: https://www.bcp.gov.py/en/web/institucional/w/reporte-de-comercio-exterior-septiembre-2025, https://www.bcp.gov.py/web/institucional/w/el-banco-central-del-paraguay-proyecta-un-crecimiento-del-pib-del-6-en-2025-y-del-4-2-en-2026-con-una-inflaci%C3%B3n-que-converger%C3%ADa-gradualmente-a-la-meta-del-3-5-en-2026-copiar-1 e https://www.bcp.gov.py/en/web/institucional/w/informe-de-inflaci%C3%B3n-diciembre-2025.
+- MADES, monitoramento do Aquífero Guarani: https://www.mades.gov.py/2024/01/04/mades-inicia-perforacion-de-pozos-para-monitoreo-del-acuifero-guarani/.
+- INE e Presidência, pobreza monetária 2024: https://www.ine.gov.py/noticias/2343/pobreza-monetaria-bajo-22-puntos-en-el-ano-2024 e https://www.presidencia.gov.py/noticias/paraguay-reduce-nuevamente-su-tasa-de-pobreza/.
 
 ### 1.4 Energia solar: o marco federal e o que varia por concessionária
 
@@ -48,11 +48,11 @@ O que varia por concessionária ou departamento é relevante: a rede nacional da
 Em fevereiro de 2025, o Viceministerio anunciou um programa experimental de autoconsumo solar residencial com previsão de licença específica — mas até março de 2026 os requisitos ainda estavam em elaboração, configurando uma lacuna regulatória transitória para o segmento residencial de pequeno porte.
 
 Fontes-base desta seção:
-- Lei N° 6977/2023 (BACN): https://www.bacn.gov.py/leyes-paraguayas/11281/ley-n-6977-regula-el-fomento-generacion-produccion-desarrollo-y-la-utilizacion-de-energia-electrica-a-partir-de-fuentes-de-energias-renovables-no-convencionales-no-hidraulicas (acesso em 2026-03-20).
-- Decreto N° 1168/2024, análise LexLatin: https://lexlatin.com/opinion/energias-renovables-paraguay-ley-6977-2023-decreto-1168-2024 (acesso em 2026-03-20).
-- Reglamento de Baja Tensión ANDE: https://www.ande.gov.py/documentos/Reglamentos_de_la_ande/Reglamento%20de%20Baja%20Tension%20ANDE.pdf (acesso em 2026-03-20).
-- PV Magazine, regulação solar residencial (fev/2025): https://www.pv-magazine-latam.com/2025/02/19/en-paraguay-avanzan-en-la-regulacion-de-paneles-solares-residenciales-para-compra-de-excedentes/ (acesso em 2026-03-20).
-- Viceministerio de Minas y Energía: https://www.ssme.gov.py/vmme/ (acesso em 2026-03-20).
+- Lei N° 6977/2023 (BACN): https://www.bacn.gov.py/leyes-paraguayas/11281/ley-n-6977-regula-el-fomento-generacion-produccion-desarrollo-y-la-utilizacion-de-energia-electrica-a-partir-de-fuentes-de-energias-renovables-no-convencionales-no-hidraulicas.
+- Decreto N° 1168/2024, análise LexLatin: https://lexlatin.com/opinion/energias-renovables-paraguay-ley-6977-2023-decreto-1168-2024.
+- Reglamento de Baja Tensión ANDE: https://www.ande.gov.py/documentos/Reglamentos_de_la_ande/Reglamento%20de%20Baja%20Tension%20ANDE.pdf.
+- PV Magazine, regulação solar residencial (fev/2025): https://www.pv-magazine-latam.com/2025/02/19/en-paraguay-avanzan-en-la-regulacion-de-paneles-solares-residenciales-para-compra-de-excedentes/.
+- Viceministerio de Minas y Energía: https://www.ssme.gov.py/vmme/.
 
 ### 1.5 Infraestrutura de segurança: do federal ao departamental
 
@@ -65,12 +65,12 @@ O **Sistema 911** (Lei N° 4739) opera com um Centro Nacional em Assunção e ce
 A implicação prática para quem planeja se estabelecer no interior é direta: em áreas rurais remotas e no Chaco, a presença real de segurança pública pode se limitar a um posto policial isolado ou à presença eventual das FFAA em patrulhamento de fronteira.
 
 Fontes-base desta seção:
-- Lei N° 4739 — Sistema 911 (BACN): https://www.bacn.gov.py/leyes-paraguayas/3143/crea-el-sistema-911-de-atencion-despacho-y-seguimiento-de-comunicaciones-de-emergencias (acesso em 2026-03-20).
-- Lei N° 7280/2024 — Reforma Polícia Nacional (BACN): https://www.bacn.gov.py/leyes-paraguayas/12364/ley-n-7280-de-reforma-y-modernizacion-de-la-policia-nacional (acesso em 2026-03-20).
-- CONATEL, lançamento AML e App 911: https://www.conatel.gov.py/conatel/lanzamiento-del-avanced-mobile-location-y-de-la-app-911-del-sistema-nacional-de-emergencias/ (acesso em 2026-03-20).
-- SENAD — site oficial: https://senad.gov.py/ (acesso em 2026-03-20).
-- MDN — Ministério da Defesa Nacional: https://mdn.gov.py/ (acesso em 2026-03-20).
-- Zona Militar, FTC Sul na fronteira com Argentina (fev/2025): https://www.zona-militar.com/2025/02/19/paraguay-despliega-a-la-fuerza-de-tarea-conjunta-del-sur-en-la-frontera-con-argentina/ (acesso em 2026-03-20).
+- Lei N° 4739 — Sistema 911 (BACN): https://www.bacn.gov.py/leyes-paraguayas/3143/crea-el-sistema-911-de-atencion-despacho-y-seguimiento-de-comunicaciones-de-emergencias.
+- Lei N° 7280/2024 — Reforma Polícia Nacional (BACN): https://www.bacn.gov.py/leyes-paraguayas/12364/ley-n-7280-de-reforma-y-modernizacion-de-la-policia-nacional.
+- CONATEL, lançamento AML e App 911: https://www.conatel.gov.py/conatel/lanzamiento-del-avanced-mobile-location-y-de-la-app-911-del-sistema-nacional-de-emergencias/.
+- SENAD — site oficial: https://senad.gov.py/.
+- MDN — Ministério da Defesa Nacional: https://mdn.gov.py/.
+- Zona Militar, FTC Sul na fronteira com Argentina (fev/2025): https://www.zona-militar.com/2025/02/19/paraguay-despliega-a-la-fuerza-de-tarea-conjunta-del-sur-en-la-frontera-con-argentina/.
 
 ### 1.6 Terra rural: tamanho mínimo, restrições e faixas de preço
 
@@ -93,11 +93,11 @@ Faixas de valor de terra rural por região (referência de mercado, 2024-2025):
 Importante: esses valores são de mercado (plataformas privadas). O Valor INDERT e o valor cadastral/fiscal são sistematicamente mais baixos — as três referências não coincidem, característica estrutural documentada do mercado fundiário paraguaio.
 
 Fontes-base desta seção:
-- Lei N° 1863/2002 — Estatuto Agrário (BACN): https://www.bacn.gov.py/leyes-paraguayas/3124/establece-el-estatuto-agrario (acesso em 2026-03-20).
-- Estatuto Agrário, texto completo (FAO/FAOLEX): https://faolex.fao.org/docs/pdf/par51924.pdf (acesso em 2026-03-20).
-- INDERT, titulação massiva de terras (mar/2026): https://www.ip.gov.py/ip/2026/03/17/mediante-proceso-basado-en-cuatro-ejes-indert-avanza-en-titulacion-masiva-de-tierras/ (acesso em 2026-03-20).
-- Lei N° 2532/2005 — Zona de Segurança de Fronteira (via Cáceres & Schneider): https://consultoria.com.py/extranjeros-propiedades-frontera-paraguay-guia-legal/ (acesso em 2026-03-20).
-- Valor Agrícola PY (plataforma especializada): https://valoragricola.com.py/ (acesso em 2026-03-20).
+- Lei N° 1863/2002 — Estatuto Agrário (BACN): https://www.bacn.gov.py/leyes-paraguayas/3124/establece-el-estatuto-agrario.
+- Estatuto Agrário, texto completo (FAO/FAOLEX): https://faolex.fao.org/docs/pdf/par51924.pdf.
+- INDERT, titulação massiva de terras (mar/2026): https://www.ip.gov.py/ip/2026/03/17/mediante-proceso-basado-en-cuatro-ejes-indert-avanza-en-titulacion-masiva-de-tierras/.
+- Lei N° 2532/2005 — Zona de Segurança de Fronteira (via Cáceres & Schneider): https://consultoria.com.py/extranjeros-propiedades-frontera-paraguay-guia-legal/.
+- Valor Agrícola PY (plataforma especializada): https://valoragricola.com.py/.
 
 Fontes-base do pacote 01:
 - [LEITORES_ALFA_PKG_01.md](/home/rodrigo/Projetos/IAs/realocação-estrategica-paraguai-pt-br/tarefas_enxame/entregaveis_livro/LEITORES_ALFA_PKG_01.md)
@@ -136,12 +136,12 @@ O pacote 02 consolidou uma leitura em seis eixos:
 Jan 6.76 | Fev 6.20 | Mar 5.42 | Abr 4.44 | Mai 3.36 | Jun 2.83 | Jul 3.21 | Ago 3.93 | Set 4.61 | Out 5.49 | Nov 6.42 | Dez 6.78
 Média anual: 4.95 kWh/m²/dia. Potencial solar superior à média europeia em todos os meses. Mínimo de inverno (2.83 em junho) ainda viável para sistemas off-grid.
 
-**Precipitação — PRECTOTCORR (mm/dia):**
-Jan 4.06 | Fev 4.92 | Mar 4.37 | Abr 4.97 | Mai 4.62 | Jun 2.47 | Jul 2.03 | Ago 1.23 | Set 2.44 | Out 5.27 | Nov 6.35 | Dez 5.78
+**Precipitação — PRECTOTCORR (mm/mês):**
+Jan 126 | Fev 139 | Mar 135 | Abr 149 | Mai 143 | Jun 74 | Jul 63 | Ago 38 | Set 73 | Out 163 | Nov 190 | Dez 179
 Média anual: ~1.471 mm/ano. Estação chuvosa Out–Mai; estação seca Jun–Set. Mínimo em agosto (~38 mm/mês) — janela estratégica para obras e instalações externas.
 
 **Ângulo de inclinação para painéis solares:** 25° ao Norte (anual); 35° no inverno (Jun–Ago); 15° no verão (Nov–Jan).
-Fonte: NASA POWER Climatology API (acesso em 2026-03-20).
+Fonte: NASA POWER Climatology API.
 
 ### 2.4 O que ainda falta consolidar
 - Custo médio formal de moradia e terra por bairro/distrito.
@@ -166,7 +166,7 @@ O pacote 03 fecha a leitura documental de `01_Concepcion`, com o departamento po
 - As lacunas sem serie oficial aberta unica continuam marcadas como `Pendente para outra etapa`.
 
 #### Ficha climática de Concepcion (capital departamental)
-Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -23.40°S / -57.43°W (acesso em 2026-03-20).
+Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -23.40°S / -57.43°W.
 
 **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
 
@@ -176,11 +176,11 @@ Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -23.40°S / -
 
 Média anual: 4.99 kWh/m²/dia. Inclinação recomendada: 23° Norte (anual); 33° inverno; 13° verão.
 
-**Precipitação — PRECTOTCORR (mm/dia):**
+**Precipitação — PRECTOTCORR (mm/mês):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 5.06 | 5.33 | 3.86 | 4.64 | 3.74 | 2.38 | 1.55 | 1.01 | 2.42 | 4.87 | 6.80 | 5.38 |
+| 157 | 151 | 120 | 139 | 116 | 71 | 48 | 31 | 73 | 151 | 204 | 167 |
 
 Média anual: ~1.427 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set.
 
@@ -197,7 +197,7 @@ O pacote 04 fecha a leitura documental de `02_San_Pedro`, com base agropecuária
 - As demais lacunas sem fonte oficial aberta continuam marcadas como `Pendente para outra etapa`.
 
 #### Ficha climática de San Pedro de Ycuamandiyu (capital departamental)
-Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -24.10°S / -57.08°W (acesso em 2026-03-20).
+Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -24.10°S / -57.08°W.
 
 **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
 
@@ -207,11 +207,11 @@ Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -24.10°S / -
 
 Média anual: 4.93 kWh/m²/dia. Inclinação recomendada: 24° Norte (anual); 34° inverno; 14° verão.
 
-**Precipitação — PRECTOTCORR (mm/dia):**
+**Precipitação — PRECTOTCORR (mm/mês):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 4.39 | 5.38 | 3.67 | 4.73 | 4.50 | 2.66 | 1.89 | 1.18 | 2.77 | 5.36 | 6.53 | 5.43 |
+| 136 | 152 | 114 | 142 | 140 | 80 | 59 | 37 | 83 | 166 | 196 | 168 |
 
 Média anual: ~1.471 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set.
 
@@ -228,7 +228,7 @@ O pacote 05 fecha a leitura documental de `03_Cordillera`, com 19 localidades e 
 - As demais lacunas sem serie oficial aberta unica continuam marcadas como `Pendente para outra etapa`.
 
 #### Ficha climática de Caacupe (capital departamental)
-Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.38°S / -57.15°W (acesso em 2026-03-20).
+Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.38°S / -57.15°W.
 
 **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
 
@@ -238,11 +238,11 @@ Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.38°S / -
 
 Média anual: 4.95 kWh/m²/dia. Inclinação recomendada: 25° Norte (anual); 35° inverno; 15° verão.
 
-**Precipitação — PRECTOTCORR (mm/dia):**
+**Precipitação — PRECTOTCORR (mm/mês):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 4.09 | 4.96 | 4.29 | 4.95 | 4.91 | 2.61 | 2.14 | 1.32 | 2.58 | 5.53 | 6.42 | 5.66 |
+| 127 | 140 | 133 | 148 | 152 | 78 | 66 | 41 | 77 | 171 | 193 | 175 |
 
 Média anual: ~1.500 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set.
 
@@ -259,7 +259,7 @@ O pacote 06 fecha a leitura documental de `04_Guaira`, com 18 localidades e fort
 - As demais lacunas sem serie oficial aberta unica continuam marcadas como `Pendente para outra etapa`.
 
 #### Ficha climática de Villarrica (capital departamental)
-Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.75°S / -56.44°W (acesso em 2026-03-20).
+Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.75°S / -56.44°W.
 
 **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
 
@@ -269,11 +269,11 @@ Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.75°S / -
 
 Média anual: 4.96 kWh/m²/dia. Inclinação recomendada: 26° Norte (anual); 36° inverno; 16° verão.
 
-**Precipitação — PRECTOTCORR (mm/dia):**
+**Precipitação — PRECTOTCORR (mm/mês):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 4.22 | 4.82 | 4.21 | 5.08 | 5.55 | 3.01 | 2.43 | 1.68 | 3.07 | 6.04 | 6.33 | 5.37 |
+| 131 | 136 | 131 | 152 | 172 | 90 | 75 | 52 | 92 | 187 | 190 | 166 |
 
 Média anual: ~1.573 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set.
 
@@ -290,7 +290,7 @@ O pacote 07 fecha a leitura documental de `05_Caaguazu`, com 22 localidades e o 
 - As demais lacunas sem serie oficial aberta unica continuam marcadas como `Pendente para outra etapa`.
 
 #### Ficha climática de Coronel Oviedo (capital departamental)
-Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.44°S / -56.44°W (acesso em 2026-03-20).
+Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.44°S / -56.44°W.
 
 **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
 
@@ -300,11 +300,11 @@ Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.44°S / -
 
 Média anual: 4.96 kWh/m²/dia. Inclinação recomendada: 25° Norte (anual); 35° inverno; 15° verão.
 
-**Precipitação — PRECTOTCORR (mm/dia):**
+**Precipitação — PRECTOTCORR (mm/mês):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 4.22 | 4.82 | 4.21 | 5.08 | 5.55 | 3.01 | 2.43 | 1.68 | 3.07 | 6.04 | 6.33 | 5.37 |
+| 131 | 136 | 131 | 152 | 172 | 90 | 75 | 52 | 92 | 187 | 190 | 166 |
 
 Média anual: ~1.573 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set.
 
@@ -321,7 +321,7 @@ O pacote 08 fecha a leitura documental de `06_Caazapa`, com 11 localidades, base
 - As demais lacunas sem serie oficial aberta unica continuam marcadas como `Pendente para outra etapa`.
 
 #### Ficha climática de Caazapa (capital departamental)
-Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -26.18°S / -56.37°W (acesso em 2026-03-20).
+Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -26.18°S / -56.37°W.
 
 **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
 
@@ -331,11 +331,11 @@ Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -26.18°S / -
 
 Média anual: 4.87 kWh/m²/dia. Inclinação recomendada: 26° Norte (anual); 36° inverno; 16° verão.
 
-**Precipitação — PRECTOTCORR (mm/dia):**
+**Precipitação — PRECTOTCORR (mm/mês):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 4.35 | 4.55 | 4.28 | 5.31 | 5.34 | 3.12 | 2.53 | 1.97 | 3.11 | 6.11 | 6.25 | 5.30 |
+| 135 | 129 | 133 | 159 | 166 | 94 | 78 | 61 | 93 | 189 | 188 | 164 |
 
 Média anual: ~1.587 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set.
 
@@ -351,7 +351,7 @@ O pacote 09 cobre o departamento `07_Itapua`, com 30 localidades. Itapua e o mai
 - As demais lacunas sem serie oficial aberta unica continuam marcadas como `Pendente para outra etapa`.
 
 #### Ficha climática de Encarnacion (capital departamental)
-Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -27.33°S / -55.87°W (acesso em 2026-03-20).
+Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -27.33°S / -55.87°W.
 
 **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
 
@@ -361,11 +361,11 @@ Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -27.33°S / -
 
 Média anual: 4.79 kWh/m²/dia. Inclinação recomendada: 27° Norte (anual); 37° inverno; 17° verão.
 
-**Precipitação — PRECTOTCORR (mm/dia):**
+**Precipitação — PRECTOTCORR (mm/mês):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 5.02 | 4.41 | 4.81 | 6.21 | 4.73 | 3.73 | 2.97 | 2.89 | 4.05 | 6.94 | 6.35 | 6.05 |
+| 156 | 125 | 149 | 186 | 147 | 112 | 92 | 90 | 122 | 215 | 190 | 188 |
 
 Média anual: ~1.770 mm/ano. Estação chuvosa Out-Jan; seca Jun-Ago.
 
@@ -381,7 +381,7 @@ O pacote 10 cobre o departamento `08_Misiones`, com 10 localidades. Misiones com
 - As demais lacunas sem serie oficial aberta unica continuam marcadas como `Pendente para outra etapa`.
 
 #### Ficha climática de San Juan Bautista (capital departamental)
-Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -26.67°S / -57.15°W (acesso em 2026-03-20).
+Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -26.67°S / -57.15°W.
 
 **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
 
@@ -391,11 +391,11 @@ Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -26.67°S / -
 
 Média anual: 4.87 kWh/m²/dia. Inclinação recomendada: 27° Norte (anual); 37° inverno; 17° verão.
 
-**Precipitação — PRECTOTCORR (mm/dia):**
+**Precipitação — PRECTOTCORR (mm/mês):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 4.38 | 4.23 | 4.28 | 5.47 | 4.61 | 2.95 | 2.32 | 1.99 | 3.09 | 5.84 | 6.14 | 5.43 |
+| 136 | 119 | 133 | 164 | 143 | 88 | 72 | 62 | 93 | 181 | 184 | 168 |
 
 Média anual: ~1.545 mm/ano. Estação chuvosa Out-Nov; seca Jul-Ago.
 
@@ -411,7 +411,7 @@ O pacote 11 cobre o departamento `09_Paraguari`, com 18 localidades. Paraguari c
 - As demais lacunas sem serie oficial aberta unica continuam marcadas como `Pendente para outra etapa`.
 
 #### Ficha climática de Paraguari (capital departamental)
-Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.62°S / -57.15°W (acesso em 2026-03-20).
+Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.62°S / -57.15°W.
 
 **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
 
@@ -421,11 +421,11 @@ Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.62°S / -
 
 Média anual: 4.95 kWh/m²/dia. Inclinação recomendada: 26° Norte (anual); 36° inverno; 16° verão.
 
-**Precipitação — PRECTOTCORR (mm/dia):**
+**Precipitação — PRECTOTCORR (mm/mês):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 4.09 | 4.96 | 4.29 | 4.95 | 4.91 | 2.61 | 2.14 | 1.32 | 2.58 | 5.53 | 6.42 | 5.66 |
+| 127 | 140 | 133 | 148 | 152 | 78 | 66 | 41 | 77 | 171 | 193 | 175 |
 
 Média anual: ~1.500 mm/ano. Estação chuvosa Out-Nov; seca Jun-Ago.
 
@@ -441,7 +441,7 @@ O pacote 12 cobre o departamento `10_Alto_Parana`, com 22 localidades. Alto Para
 - As demais lacunas sem serie oficial aberta unica continuam marcadas como `Pendente para outra etapa`.
 
 #### Ficha climática de Ciudad del Este (capital departamental)
-Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.51°S / -54.61°W (acesso em 2026-03-20).
+Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.51°S / -54.61°W.
 
 **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
 
@@ -451,11 +451,11 @@ Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.51°S / -
 
 Média anual: 4.89 kWh/m²/dia. Inclinação recomendada: 26° Norte (anual); 36° inverno; 16° verão.
 
-**Precipitação — PRECTOTCORR (mm/dia):**
+**Precipitação — PRECTOTCORR (mm/mês):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 4.73 | 4.56 | 3.78 | 4.14 | 5.26 | 3.59 | 2.75 | 2.26 | 4.02 | 6.80 | 5.29 | 5.76 |
+| 147 | 129 | 117 | 124 | 163 | 108 | 85 | 70 | 121 | 211 | 159 | 179 |
 
 Média anual: ~1.610 mm/ano. Estação chuvosa Out-Dez; seca Jul-Ago.
 
@@ -471,7 +471,7 @@ O pacote 13 cobre o departamento `11_Central`, com 19 localidades. Central e o n
 - As demais lacunas sem serie oficial aberta unica continuam marcadas como `Pendente para outra etapa`.
 
 #### Ficha climática de Luque (maior cidade / referencia departamental)
-Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.27°S / -57.49°W (acesso em 2026-03-20).
+Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.27°S / -57.49°W.
 
 **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
 
@@ -481,11 +481,11 @@ Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.27°S / -
 
 Média anual: 4.95 kWh/m²/dia. Inclinação recomendada: 25° Norte (anual); 35° inverno; 15° verão.
 
-**Precipitação — PRECTOTCORR (mm/dia):**
+**Precipitação — PRECTOTCORR (mm/mês):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 |
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 |
 
 Média anual: ~1.471 mm/ano. Estação chuvosa Out-Nov; seca Jun-Ago.
 
@@ -501,7 +501,7 @@ O pacote 14 cobre o departamento `12_Neembucu`, com 16 localidades. Neembucu e p
 - As demais lacunas sem serie oficial aberta unica continuam marcadas como `Pendente para outra etapa`.
 
 #### Ficha climática de Pilar (capital departamental)
-Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -26.87°S / -58.31°W (acesso em 2026-03-20).
+Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -26.87°S / -58.31°W.
 
 **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
 
@@ -511,11 +511,11 @@ Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -26.87°S / -
 
 Média anual: 4.90 kWh/m²/dia. Inclinação recomendada: 27° Norte (anual); 37° inverno; 17° verão.
 
-**Precipitação — PRECTOTCORR (mm/dia):**
+**Precipitação — PRECTOTCORR (mm/mês):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 4.96 | 4.29 | 4.68 | 5.56 | 3.49 | 2.37 | 1.55 | 1.29 | 2.25 | 5.02 | 5.91 | 5.24 |
+| 154 | 121 | 145 | 167 | 108 | 71 | 48 | 40 | 68 | 156 | 177 | 162 |
 
 Média anual: ~1.416 mm/ano. Estação chuvosa Out-Jan; seca Jul-Ago.
 
@@ -531,7 +531,7 @@ O pacote 15 cobre o departamento `13_Amambay`, com 6 localidades. Amambay e depa
 - As demais lacunas sem serie oficial aberta unica continuam marcadas como `Pendente para outra etapa`.
 
 #### Ficha climática de Pedro Juan Caballero (capital departamental)
-Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -22.55°S / -55.73°W (acesso em 2026-03-20).
+Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -22.55°S / -55.73°W.
 
 **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
 
@@ -541,11 +541,11 @@ Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -22.55°S / -
 
 Média anual: 5.00 kWh/m²/dia. Inclinação recomendada: 23° Norte (anual); 33° inverno; 13° verão.
 
-**Precipitação — PRECTOTCORR (mm/dia):**
+**Precipitação — PRECTOTCORR (mm/mês):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 5.87 | 6.55 | 3.75 | 4.08 | 3.88 | 2.55 | 1.52 | 1.48 | 2.84 | 4.85 | 5.66 | 5.69 |
+| 182 | 185 | 116 | 122 | 120 | 76 | 47 | 46 | 85 | 150 | 170 | 176 |
 
 Média anual: ~1.476 mm/ano. Estação chuvosa Jan-Fev; seca Jul-Ago.
 
@@ -561,7 +561,7 @@ O pacote 16 cobre o departamento `14_Canindeyu`, com 16 localidades. Canindeyu e
 - As demais lacunas sem serie oficial aberta unica continuam marcadas como `Pendente para outra etapa`.
 
 #### Ficha climática de Salto del Guaira (capital departamental)
-Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -24.06°S / -54.33°W (acesso em 2026-03-20).
+Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -24.06°S / -54.33°W.
 
 **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
 
@@ -571,11 +571,11 @@ Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -24.06°S / -
 
 Média anual: 4.94 kWh/m²/dia. Inclinação recomendada: 24° Norte (anual); 34° inverno; 14° verão.
 
-**Precipitação — PRECTOTCORR (mm/dia):**
+**Precipitação — PRECTOTCORR (mm/mês):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 4.42 | 4.71 | 3.28 | 3.68 | 4.50 | 2.74 | 2.08 | 2.26 | 3.10 | 5.70 | 5.63 | 6.07 |
+| 137 | 133 | 102 | 110 | 140 | 82 | 64 | 70 | 93 | 177 | 169 | 188 |
 
 Média anual: ~1.464 mm/ano. Estação chuvosa Out-Dez; seca Jul-Ago.
 
@@ -591,7 +591,7 @@ O pacote 17 cobre o departamento `15_Presidente_Hayes`, com 10 localidades. Pres
 - As demais lacunas sem serie oficial aberta unica continuam marcadas como `Pendente para outra etapa`.
 
 #### Ficha climática de Villa Hayes (capital departamental)
-Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.10°S / -57.57°W (acesso em 2026-03-20).
+Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.10°S / -57.57°W.
 
 **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
 
@@ -601,11 +601,11 @@ Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.10°S / -
 
 Média anual: 4.95 kWh/m²/dia. Inclinação recomendada: 25° Norte (anual); 35° inverno; 15° verão.
 
-**Precipitação — PRECTOTCORR (mm/dia):**
+**Precipitação — PRECTOTCORR (mm/mês):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 3.98 | 5.28 | 4.20 | 4.77 | 4.60 | 2.36 | 1.90 | 1.08 | 2.32 | 5.20 | 6.56 | 5.87 |
+| 123 | 149 | 130 | 143 | 143 | 71 | 59 | 33 | 70 | 161 | 197 | 182 |
 
 Média anual: ~1.460 mm/ano. Estação chuvosa Out-Nov; seca Jul-Ago.
 
@@ -621,7 +621,7 @@ O pacote 18 cobre o departamento `16_Boqueron`, com 4 localidades. Boqueron e o 
 - As demais lacunas sem serie oficial aberta unica continuam marcadas como `Pendente para outra etapa`.
 
 #### Ficha climática de Filadelfia (capital de facto departamental)
-Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -22.35°S / -60.03°W (acesso em 2026-03-20).
+Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -22.35°S / -60.03°W.
 
 **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
 
@@ -631,11 +631,11 @@ Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -22.35°S / -
 
 Média anual: 4.92 kWh/m²/dia. Inclinação recomendada: 22° Norte (anual); 32° inverno; 12° verão.
 
-**Precipitação — PRECTOTCORR (mm/dia):**
+**Precipitação — PRECTOTCORR (mm/mês):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 3.36 | 4.51 | 3.39 | 2.66 | 2.04 | 0.87 | 0.57 | 0.38 | 0.74 | 2.43 | 3.54 | 3.77 |
+| 104 | 127 | 105 | 80 | 63 | 26 | 18 | 12 | 22 | 75 | 106 | 117 |
 
 Média anual: ~854 mm/ano. Regime semiárido Chaco Central. Estação chuvosa Nov-Mar; seca Jun-Set.
 
@@ -651,7 +651,7 @@ O pacote 19 cobre o departamento `17_Alto_Paraguay`, com 4 localidades. Alto Par
 - As demais lacunas sem serie oficial aberta unica continuam marcadas como `Pendente para outra etapa`.
 
 #### Ficha climática de Fuerte Olimpo (capital departamental)
-Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -21.04°S / -57.87°W (acesso em 2026-03-20).
+Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -21.04°S / -57.87°W.
 
 **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
 
@@ -661,11 +661,11 @@ Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -21.04°S / -
 
 Média anual: 5.08 kWh/m²/dia. Inclinação recomendada: 21° Norte (anual); 31° inverno; 11° verão.
 
-**Precipitação — PRECTOTCORR (mm/dia):**
+**Precipitação — PRECTOTCORR (mm/mês):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 3.94 | 4.75 | 3.21 | 2.60 | 2.58 | 1.34 | 0.85 | 0.50 | 1.38 | 3.19 | 4.71 | 4.14 |
+| 122 | 134 | 100 | 78 | 80 | 40 | 26 | 16 | 41 | 99 | 141 | 128 |
 
 Média anual: ~1.005 mm/ano. Regime sub-úmido Chaco Boreal. Estação chuvosa Nov-Fev; seca Jun-Set.
 

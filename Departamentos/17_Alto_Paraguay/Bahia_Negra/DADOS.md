@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Bahía Negra, Alto Paraguay
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 20°13′S 58°10′W.
 - **Topografia:** Relevo plano, zona de transição entre o Chaco Boreal e o Pantanal paraguaio. Altitude ~80m. Área massiva de ~36.513 km². Geologicamente estável, situada em uma depressão crustal que originou os humedales.
 - **Alvos Estratégicos:** Porto fluvial no Rio Paraguai; Base Naval de Bahía Negra (controle de fronteira fluvial); Estação Biológica Los Tres Gigantes (ativo ambiental); Ponto de fronteira tripartite (Paraguai, Bolívia e Brasil). Ausência total de infraestrutura industrial pesada, oferecendo o nível máximo de invisibilidade estratégica e proteção por isolamento geográfico absoluto.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Risco de fallout nulo de alvos nacionais; posição isolada no extremo norte do território.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura institucional e comercial mínima. Dependência de serviços de saúde da Marinha ou deslocamento aéreo/fluvial para centros maiores. A vila urbana é um micro núcleo de subsistência e suporte à fronteira.
 - **Custo de Vida:** Médio-alto devido ao custo do frete logístico; economia baseada na pecuária extensiva e ecoturismo.
 - **Preço da Terra:** US$ 150-450/ha (campos brutos de interior); US$ 500-950/ha (áreas com infraestrutura pecuária básica).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 20° N (anual) · 30° N (inverno jun-ago) · 10° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.37 | 4.74 | 3.30 | 2.15 | 2.12 | 0.82 | 0.65 | 0.45 | 1.26 | 2.75 | 3.44 | 4.49 | **930 mm** |
+| 135 | 134 | 102 | 64 | 66 | 25 | 20 | 14 | 38 | 85 | 103 | 139 | **930 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 1 — Céu verdadeiramente escuro |
 | Radiância artificial | 0.1 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Crítico.** Distrito inserido no complexo do Pantanal. Vulnerabilidade extrema a cheias sazonais do Rio Paraguai e Rio Negro que isolam a localidade por meses. Solo hidromórfico (Solontz) com drenagem lentíssima.
 - **Clima:** Tropical de Savana com influência de humedales. Verões com calor extremo (>42°C) e alta umidade; invernos amenos com invasões de frentes frias austrais.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundância hídrica superficial (Rio Paraguai), exigindo tratamento. Água subterrânea frequentemente salobra ou profunda.
 - **Qualidade do Solo:** Solo arenoso e argiloso; excelente aptidão para pastagens naturais e pecuária de corte. Agricultura mecanizada inviável sem projetos massivos de engenharia hídrica.
 - **Resources Locais:** Grande excedente de gado bovino e recursos pesqueiros. Elevadíssimo potencial para autossuficiência de proteína animal para a ínfima carga populacional.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.33 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -20.2167°, -58.1667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -20.2167°, -58.1667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona de fronteira tripartite pacífica, mas sob vigilância militar permanente (Marinha). Criminalidade urbana comum inexistente. Presença marcante de comunidades indígenas originárias. Ideal para quem busca desaparecimento estratégico absoluto, protegida pela hostilidade da geografia.
 - **Leis Local:** Município consolidado. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira boliviana e brasileira.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,7 +131,7 @@ Classificacao:
 - Moderadamente Seguro (Indicado apenas para projetos de refúgio tático extremo "off-grid" que possuam autonomia logística e hídrica total).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte Guyra Paraguay (Dados da Estação Los Tres Gigantes): https://guyra.org.py/
 - Fonte Armada Paraguaia (Segurança Fluvial e Logística de Fronteira).
 
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 22% |
 | Tecnologia predominante | satélite |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

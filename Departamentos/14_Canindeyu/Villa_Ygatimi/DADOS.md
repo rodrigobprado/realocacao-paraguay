@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Villa Ygatimí, Canindeyú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°08′S 55°30′W.
 - **Topografia:** Relevo ondulado com extensas planícies mecanizáveis e áreas de mata protegida. Situado nas proximidades da Reserva Mbaracayú. Altitude ~230m. Área vasta de ~1.898 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Áreas de produção agrícola e pecuária em expansão; Ponto logístico secundário entre Curuguaty e Ypejhú; Proximidade estratégica com a **Reserva Natural del Bosque Mbaracayú**. Ausência de bases militares massivas, mas zona de vigilância ambiental e tática regional permanente.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto de alvos continentais primários devido ao isolamento geográfico.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura básica funcional. Centro de Saúde local e USF. Dependência direta de Curuguaty para serviços hospitalares de alta complexidade e logística comercial especializada.
 - **Custo de Vida:** Muito baixo; economia baseada na pecuária, grãos e exploração florestal sustentável.
 - **Preço da Terra:** US$ 6.000-9.000/ha (terras desenvolvidas); US$ 2.000-4.000/ha (áreas de uso misto/monte).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 24.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 24° N (anual) · 34° N (inverno jun-ago) · 14° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.32 | 5.58 | 3.84 | 4.49 | 4.64 | 2.82 | 1.90 | 1.71 | 3.24 | 5.67 | 6.27 | 5.62 | **1525 mm** |
+| 134 | 158 | 119 | 135 | 144 | 85 | 59 | 53 | 97 | 176 | 188 | 174 | **1525 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido ao relevo ondulado e preservação florestal. Diversos arroios perenes de alta qualidade hídrica (ex: Rio Jejuí-mí) garantem suprimento hídrico superficial.
 - **Clima:** Subtropical Úmido. Verões intensos e chuvosos; invernos amenos com geadas ocasionais.
-- Fontes: 
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundante via nascentes naturais e poços artesianos; excelente qualidade hídrica subterrânea e superficial.
 - **Qualidade do Solo:** Solo franco-argiloso fértil; aptidão para soja, milho, pastagens e silvicultura.
 - **Resources Locais:** Grande produção de gado bovino e grãos. Elevadíssimo potencial para autossuficiência alimentar básica em nível de propriedade devido à vasta área produtiva e baixa população.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural pacífica em termos de crime comum. No entanto, exige **atenção tática regional** devido ao contexto de Canindeyú (histórico de tensões agrárias e proximidade com rotas de narcotráfico). Estabilidade social baseada na cultura agropecuária tradicional.
 - **Leis Local:** Município histórico e consolidado. **Livre de Restrição de Fronteira:** Localizado fora da faixa de 50km da fronteira seca internacional.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,9 +117,9 @@ Classificacao:
 - Seguro (Altamente recomendado para quem busca isolamento tático e autossuficiência em solo fértil, ciente dos desafios regionais).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MADES (Dados limítrofes à Reserva Mbaracayú): https://www.mades.gov.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Manutenção da Ruta PY13.
+- Fonte MOPC infraestrutura: Manutenção da Ruta PY13.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 13.074 habitantes.
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.25 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.1333°, -55.5°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.1333°, -55.5°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~18,0 (Regional/Canindeyú).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: General Elizardo Aquino, San Pedro
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°26′S 56°53′W.
 - **Topografia:** Relevo predominantemente plano a ondulado. Localizado na porção central-sul do departamento de San Pedro. Geologicamente estável, risco sísmico muito baixo.
 - **Alvos Estratégicos:** Ponto de conexão rodoviária regional ligando a Ruta PY03 e PY08; Polo de produção de arroz irrigado e cana-de-açúcar.
 - **Fallout:** Ventos predominantes de Leste (E) durante a maior parte do ano; ventos do Norte em janeiro/fevereiro. Baixo risco de exposição a fallout de alvos continentais primários.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Hospital Distrital de General Aquino (referência local). Presença de Unidades de Saúde da Família (USF) em comunidades periféricas. Comércio voltado para o setor agropecuário.
 - **Custo de Vida:** Baixo; economia baseada na produção primária e serviços locais.
 - **Preço da Terra:** US$ 1.500-3.500/ha (áreas agrícolas/pecuárias); áreas próximas ao asfalto podem atingir US$ 6.000/ha.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 34.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 24° N (anual) · 34° N (inverno jun-ago) · 14° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.04 | 5.25 | 3.80 | 4.78 | 4.94 | 2.68 | 1.98 | 1.20 | 2.76 | 5.48 | 6.46 | 5.49 | **1487 mm** |
+| 125 | 148 | 118 | 143 | 153 | 80 | 61 | 37 | 83 | 170 | 194 | 170 | **1487 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas. Arroios locais podem sofrer transbordamento em chuvas intensas (média anual de 1.500-1.700 mm), afetando pontes de pequeno porte e estradas de terra.
 - **Clima:** Subtropical Quente. Verões com temperaturas >35°C frequentes. Inverno seco (junho/julho).
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Poços artesianos comunitários e juntas de saneamento; abundância hídrica superficial para irrigação.
 - **Qualidade do Solo:** Arenoso e franco-arenoso (avermelhado); exigente em correção (calcário) e adubação para alta performance em grãos, mas muito apto para pastagens e cana.
 - **Resources Locais:** Grande produção de gado de corte, arroz irrigado e cana-de-açúcar. Elevado potencial para autossuficiência energética (biomassa) e alimentar.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural considerada estável para residentes. Embora o departamento tenha taxas de homicídios elevadas (~27/100k em 2023), os conflitos são concentrados no norte de San Pedro. Perfil comunitário conservador.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira:** Localizado fora da faixa de 50km da Lei 2532/05, permitindo plena propriedade para estrangeiros brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,8 +117,8 @@ Classificacao:
 - Moderadamente Seguro (Recomendado para projetos agroindustriais e autossuficiência baseada em irrigação).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Ministerio del Interior (segurança): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.32 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.4333°, -56.8833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.4333°, -56.8833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~27,0 (Regional/Departamento).
 
@@ -188,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -202,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -213,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

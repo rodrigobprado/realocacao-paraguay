@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Altos, Cordillera
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°12′S 57°15′W.
 - **Topografia:** Relevo de planalto serrano, situado em uma das cotas mais elevadas da Cordillera de los Altos, oferecendo visão panorâmica tática sobre o Lago Ypacaraí e a bacia metropolitana. Altitude ~250m. Área de ~110 km². Geologicamente muito estável, sem riscos sísmicos estruturais (sismo de 4.3 em 2022 sentido sem danos).
 - **Alvos Estratégicos:** Polo de condomínios residenciais de altíssimo padrão (Aqua Village, Altos Nativo); Centro de treinamento e logística privada de elite; Reservas hídricas de nascentes serranas. Localização estratégica "nas alturas", proporcionando defesa natural e isolamento deliberado em relação ao núcleo duro da Grande Assunção (~45 km).
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Posição privilegiada em relação à zona metropolitana; a altitude e o regime de ventos favorecem a dispersão de contaminantes vindos da capital.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura de serviços privados de primeiro mundo. Segurança privada satelital (GSS), telecomunicações de alta velocidade e proximidade com centros médicos de elite em San Bernardino e Assunção.
 - **Custo de Vida:** Alto; economia dolarizada pela valorização imobiliária e turismo residencial de luxo.
 - **Preço da Terra:** US$ 50.000-80.000/ha (áreas de expansão com vista); US$ 100-300/m² (lotes em condomínios de luxo).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 29.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 | **1477 mm** |
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 | **1477 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Zero.** Localidade situada em cota elevada de segurança absoluta. Abundância de nascentes naturais de água pura ("Ycuá") que brotam da serra.
 - **Clima:** Microclima serrano, com temperaturas médias 2-3°C inferiores à planície metropolitana. Verões menos opressivos; invernos frescos e secos.
-- Fontes: 
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundância hídrica excepcional via poços artesianos profundos e nascentes serranas protegidas. Qualidade da água mineral superior.
 - **Qualidade do Solo:** Solo franco-arenoso fértil; aptidão para fruticultura, horticultura hidropônica e silvicultura ornamental.
 - **Resources Locais:** Grande polo de recursos técnicos e segurança. Produção regional de frutas e café de altitude em pequena escala. **Altíssima capacidade de resiliência individual** sustentada pelo capital acumulado e infraestrutura privada.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.26 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.2°, -57.25°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.2°, -57.25°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** **A zona mais segura do Paraguai.** Criminalidade urbana praticamente inexistente em áreas consolidadas. Presença massiva de segurança privada armada, monitoramento por drones e sistemas satelitais (GSS). Coesão social baseada no perfil residencial de elite e vigilância comunitária tecnológica.
 - **Leis Local:** Município consolidado e polo de influência ("O Paraíso do Chaco Oriental"). **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Seguro (A localidade nº 1 do Paraguai para relocação estratégica; oferece o máximo em segurança, recursos e isolamento geográfico defensivo).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte GSS Paraguay (Serviços de Segurança Satelital em Altos).
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Conectividade asfáltica serrana.
+- Fonte MOPC infraestrutura: Conectividade asfáltica serrana.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 14.641 habitantes.
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 65% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Carayaó, Caaguazú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°10′S 56°24′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado. Localizado no centro-oeste do departamento. Altitude ~160m. Área vasta de ~920 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Áreas de produção pecuária extensiva; Ponto de passagem secundário para o norte de Caaguazú. Ausência de alvos militares ou industriais primários, oferecendo excelente invisibilidade tática e discrição estratégica.
 - **Fallout:** Ventos predominantes do Norte (quentes e úmidos) e Leste. Baixo risco de fallout direto de alvos continentais primários.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local. Dependência crítica de Coronel Oviedo (35 km) para serviços hospitalares de alta complexidade e logística avançada.
 - **Custo de Vida:** Muito baixo; economia baseada na pecuária de corte e agricultura de subsistência.
 - **Preço da Terra:** US$ 2.000-4.000/ha (áreas de pecuária ou mata); US$ 5.500/ha (áreas com aptidão agrícola mecanizada).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 31.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.01 | 5.07 | 4.02 | 4.91 | 5.57 | 2.99 | 2.26 | 1.49 | 3.14 | 5.94 | 6.33 | 5.41 | **1557 mm** |
+| 124 | 143 | 125 | 147 | 173 | 90 | 70 | 46 | 94 | 184 | 190 | 168 | **1557 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas catastróficas. Presença de diversos arroios locais (ex: Arroyo Tobatiry) que favorecem a pecuária. Danos pontuais em acessos rurais durante tempestades de verão.
 - **Clima:** Subtropical Úmido. Verões quentes; invernos com entradas bruscas de ar frio do Sul.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via poços artesianos e lençol freático superficial produtivo.
 - **Qualidade do Solo:** Solo franco-arenoso a argiloso; fértil e profundo, ideal para pastagens, mandioca, milho e pequena produção de tabaco.
 - **Resources Locais:** Grande produção de gado de corte, leite e grãos para subsistência. Elevado potencial para autossuficiência alimentar básica em nível de propriedade.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.27 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.1667°, -56.4°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.1667°, -56.4°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural extremamente pacífica e estável. Baixíssima criminalidade urbana. Coesão social baseada em comunidades rurais tradicionais e laboriosas. Baixa visibilidade para conflitos de massa.
 - **Leis Local:** Município histórico (fundado em 1770). **Livre de Restrição de Fronteira:** Localizado no interior do país, permitindo plena titularidade para investidores estrangeiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca o máximo de isolamento demográfico em uma região segura e produtiva).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 62% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 
@@ -227,7 +219,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Aluguel 2 quartos (USD/mês) | 350 |
 
 > Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
-
 
 ### Saúde
 

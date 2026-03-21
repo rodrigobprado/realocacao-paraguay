@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Pilar (Capital), Ñeembucú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 26°51′S 58°17′W.
 - **Topografia:** Relevo predominantemente plano, margeado pelo Rio Paraguai e pelo arroio San Lorenzo. Situada em zona de humedales (terras baixas). Altitude ~55m. Área de ~1.130 km². Geologicamente estável, com histórico de sismos leves (2.0 em 2018) sem danos.
 - **Alvos Estratégicos:** **Porto de Pilar** (Terminal fluvial vital de águas profundas, operável mesmo em secas extremas); **Muro de Defesa Costeira** (Infraestrutura crítica de engenharia contra inundações); Comando da Armada e Polícia de Fronteira; Polo têxtil (Manufactura de Pilar). Localização estratégica para controle do tráfego fluvial na Bacia do Prata.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout de alvos continentais primários devido ao isolamento geográfico e distância de Assunção (~360 km).
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,10 +18,9 @@
 - **Serviços:** Infraestrutura de saúde robusta (Hospital Regional de Pilar, IPS). Polo universitário (UNP), financeiro e administrativo regional. Serviços de comunicação e logística de primeiro nível para o interior do país.
 - **Custo de Vida:** Baixo-médio; economia baseada na indústria têxtil, pecuária e serviços portuários.
 - **Preço da Terra:** US$ 2.000-3.500/ha (áreas com potencial agrícola/pecuário); US$ 40-80/m² (Urbano).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
 
 ### Indicadores Sociais
 
@@ -46,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climaticos (NASA POWER Climatology API, 2001-2020)
 
 Coordenadas: -26.87°S / -58.31°W. Acesso em 2026-03-20.
@@ -59,11 +57,11 @@ Coordenadas: -26.87°S / -58.31°W. Acesso em 2026-03-20.
 
 Média anual: 4.90 kWh/m²/dia. Mínimo: Jun (2.73) | Máximo: Jan/Dez (6.76).
 
-**Precipitação — PRECTOTCORR (mm/dia → mm/ano ~1.416):**
+**Precipitação — PRECTOTCORR (mm/mês → mm/ano ~1.416):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 4.96 | 4.29 | 4.68 | 5.56 | 3.49 | 2.37 | 1.55 | 1.29 | 2.25 | 5.02 | 5.91 | 5.24 |
+| 154 | 121 | 145 | 167 | 108 | 71 | 48 | 40 | 68 | 156 | 177 | 162 |
 
 Estação chuvosa Out-Jan; seca Jul-Ago (mínimo em Ago).
 
@@ -72,7 +70,7 @@ Estação chuvosa Out-Jan; seca Jul-Ago (mínimo em Ago).
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco Crítico de Inundação.** Localidade historicamente vulnerável às cheias do Rio Paraguai. A segurança da capital depende da manutenção permanente do muro de defesa, estações de bombeamento e comportas.
 - **Clima:** Subtropical Úmido. Verões muito quentes e úmidos; invernos suaves com entradas de ar frio que limpam a atmosfera. Precipitação média 1.500 mm/ano.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -81,14 +79,14 @@ Estação chuvosa Out-Jan; seca Jul-Ago (mínimo em Ago).
 - **Água:** Captação fluvial tratada (ESSAP) e abundância de poços artesianos profundos (Aquífero Guarani).
 - **Qualidade do Solo:** Solo argiloso e hidromórfico; excelente aptidão para pecuária de corte e rizicultura (arroz).
 - **Resources Locais:** Grande polo produtor de carne bovina, peixes e tecidos. Elevado potencial para autossuficiência logística e de proteína animal em escala regional.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 5. Ambiente sociopolitico
 - **Segurança:** Uma das capitais mais seguras e pacíficas do Paraguai. Baixíssima criminalidade urbana violenta. Forte coesão social comunitária e orgulho da identidade "Pilarense". Presença institucional sólida das forças armadas e polícia.
 - **Leis Local:** Capital departamental com regime de incentivo industrial. **Livre de Restrição de Fronteira** para propriedades urbanas centrais, mas vigilância em zonas rurais ribeirinhas (Lei 2532/05).
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -115,8 +113,8 @@ Classificacao:
 - Seguro (Localidade de elite para suporte logístico e residência tática, desde que mitigados os riscos hídricos).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Projeto de Defesa Costeira de Pilar (Fase II).
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: Projeto de Defesa Costeira de Pilar (Fase II).
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -168,7 +166,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -182,7 +179,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -193,7 +189,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 40% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 
@@ -222,7 +217,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 **Observação para imigrantes:** Centro de referencia do departamento. Acesso a atendimento primario e, em geral, a maior oferta publica e privada da area. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.
 
-
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
 | Parâmetro | Valor |
@@ -235,4 +229,4 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Densidade aparente | 1.42 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.85°, -58.2833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -26.85°, -58.2833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.

@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Paso Yobái, Guairá
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°43′S 55°59′W.
 - **Topografia:** Relevo ondulado com vales profundos e jazidas minerais em leito rochoso. Altitude ~200m. Geologicamente estável (formações do Gondwana), risco sísmico desprezível.
 - **Alvos Estratégicos:** **Minas de Ouro** (Principal polo de extração do país, recurso mineral crítico); Plantas de processamento de Erva-Mate; Ponto de conexão entre os departamentos de Guairá e Caaguazú. Alta visibilidade econômica.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Centro de Saúde local e serviços privados de apoio à mineração. Dependência do Hospital Regional de Villarrica para alta complexidade.
 - **Custo de Vida:** Médio; inflacionado pela circulação de capital da mineração.
 - **Preço da Terra:** US$ 1.300-2.500/ha (áreas de mata ou relevo acidentado); valores muito superiores em áreas com potencial mineral comprovado.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.22 | 4.82 | 4.21 | 5.08 | 5.55 | 3.01 | 2.43 | 1.68 | 3.07 | 6.04 | 6.33 | 5.37 | **1577 mm** |
+| 131 | 136 | 131 | 152 | 172 | 90 | 75 | 52 | 92 | 187 | 190 | 166 | **1577 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 2.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Contaminação Hídrica Severo.** Uso intensivo de mercúrio e cianeto na mineração irregular afeta o Rio Tebicuary-mí e arroios locais. Risco sanitário elevado para consumo de águas superficiais.
 - **Clima:** Subtropical Úmido. Média pluvial de 1.600 mm/ano. Tempestades severas podem causar deslizamentos em áreas de encosta mineradas.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Dependência crítica de poços artesianos profundos e protegidos contra contaminação química de superfície.
 - **Qualidade do Solo:** Latossolos Vermelhos (férteis); excelente para erva-mate e cana-de-açúcar, mas degradado em zonas de extração mineral.
 - **Resources Locais:** Ouro, erva-mate de exportação e pecuária. Elevadíssimo potencial de riqueza em recursos minerais, que funcionam como moeda de troca em cenários de colapso monetário.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.27 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.7167°, -55.9833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.7167°, -55.9833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** **Zona de Risco Moderado a Alto.** Histórico de conflitos por posse de terras e direitos minerários. Presença de grupos irregulares e aumento de assaltos violentos registrados em 2025/2026. Exige segurança privada robusta e perfil tático defensivo.
 - **Leis Local:** Município consolidado ("Capital do Ouro"). **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,7 +131,7 @@ Classificacao:
 - Moderadamente Seguro (Recomendado apenas para perfis táticos com interesse na extração de recursos minerais).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MADES (monitoramento ambiental): https://www.mades.gov.py/
 - Fonte Ministério do Interior (segurança): https://www.mdi.gov.py/
 
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 60% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

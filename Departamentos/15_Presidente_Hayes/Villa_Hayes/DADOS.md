@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Villa Hayes (Capital), Presidente Hayes
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°05′S 57°34′W.
 - **Topografia:** Relevo predominantemente plano, situado na zona do Bajo Chaco margeada pelo Rio Paraguai. Altitude ~60m. Área distrital remanescente vasta de ~20.002 km² (historicamente um dos maiores distritos, recentemente subdividido). Geologicamente estável, mas com registro de sismo significativo em março de 2022 (magnitude 3.5 a 4.6), sentido em toda a região metropolitana.
 - **Alvos Estratégicos:** **ACEPAR** (Aceros del Paraguay - Indústria siderúrgica vital); **Subestação Villa Hayes** (Ponto nevrálgico do sistema elétrico Itaipu-Chaco); Porto industrial e estaleiros; Sede da Gobernación de Presidente Hayes. Considerada o "Portal do Chaco", é um alvo estratégico de altíssima visibilidade militar e logística nacional.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Risco elevado de fallout indireto devido à proximidade com a capital Assunção (~30 km) e presença de indústrias pesadas.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,10 +18,9 @@
 - **Serviços:** Infraestrutura de saúde regional completa (Hospital Regional de Villa Hayes, IPS). Polo financeiro, administrativo e industrial pesado consolidado.
 - **Custo de Vida:** Baixo-médio; economia baseada na indústria siderúrgica, serviços estatais e logística portuária.
 - **Preço da Terra:** US$ 1.500-3.500/ha (áreas industriais/logísticas); US$ 400-700/ha (campos brutos de interior); US$ 40-100/m² (Urbano).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
 
 ### Indicadores Sociais
 
@@ -46,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climaticos (NASA POWER Climatology API, 2001-2020)
 
 Coordenadas: -25.10°S / -57.57°W. Acesso em 2026-03-20.
@@ -59,11 +57,11 @@ Coordenadas: -25.10°S / -57.57°W. Acesso em 2026-03-20.
 
 Média anual: 4.95 kWh/m²/dia. Mínimo: Jun (2.83) | Máximo: Dez (6.78).
 
-**Precipitação — PRECTOTCORR (mm/dia → mm/ano ~1.460):**
+**Precipitação — PRECTOTCORR (mm/mês → mm/ano ~1.460):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 3.98 | 5.28 | 4.20 | 4.77 | 4.60 | 2.36 | 1.90 | 1.08 | 2.32 | 5.20 | 6.56 | 5.87 |
+| 123 | 149 | 130 | 143 | 143 | 71 | 59 | 33 | 70 | 161 | 197 | 182 |
 
 Estação chuvosa Out-Nov; seca Jul-Ago (mínimo em Ago).
 
@@ -72,7 +70,7 @@ Estação chuvosa Out-Nov; seca Jul-Ago (mínimo em Ago).
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Moderado.** Vulnerável às cheias sazonais do Rio Paraguai e pântanos do Bajo Chaco. Sistemas de drenagem urbana sob pressão em eventos extremos (média 1.500 mm/ano).
 - **Clima:** Tropical Úmido/Seco. Verões com calor extremo (>42°C comuns) e alta radiação solar.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -81,10 +79,9 @@ Estação chuvosa Out-Nov; seca Jul-Ago (mínimo em Ago).
 - **Água:** Captação fluvial tratada (ESSAP) e abundância de poços artesianos profundos.
 - **Qualidade do Solo:** Solo aluvial e argiloso; fértil para pastagens e agricultura de subsistência em áreas drenadas.
 - **Resources Locais:** Grande produção de aço, gado bovino e subprodutos industriais. Elevado potencial para autossuficiência logística e de proteína animal em escala regional, mas dependente de logística externa para manutenção da ordem urbana densa.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -98,12 +95,12 @@ Estação chuvosa Out-Nov; seca Jul-Ago (mínimo em Ago).
 | Densidade aparente | 1.38 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.0833°, -57.5667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.0833°, -57.5667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade industrial e administrativa com índices de criminalidade urbana típicos de zonas de transição metropolitana. Segurança institucional forte através da presença de comandos militares e polícia nacional ostensiva. Coesão social baseada na atividade industrial e tradição regionalista.
 - **Leis Local:** Capital departamental. **Livre de Restrição de Fronteira** em zonas urbanas, mas vigilância em zonas rurais ribeirinhas (Lei 2532/05).
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -130,7 +127,7 @@ Classificacao:
 - Moderadamente Seguro (Indicado como hub logístico e operacional de alta resiliência, requerendo planos de contingência para visibilidade estratégica).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte ACEPAR (Dados industriais): https://www.acepar.com.py/
 - Fonte ANDE (Operação de subestações táticas): https://www.ande.gov.py/
 
@@ -183,7 +180,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -197,7 +193,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -208,7 +203,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 35% |
 | Tecnologia predominante | rádio/satélite |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

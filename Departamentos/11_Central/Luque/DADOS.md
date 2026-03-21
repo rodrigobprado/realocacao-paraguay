@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Luque, Central
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°16′S 57°29′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado. Localizado no núcleo central do departamento Central. Altitude ~120m. Área de ~203 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** **Aeroporto Internacional Silvio Pettirossi** (A principal porta de entrada e saída do país); **Base Aérea de Ñu Guazú** (Comando da Força Aérea Paraguaia); Sede da CONMEBOL; Parque Ñu Guazú (Espaço tático para logística de emergência e heliportos). Alta visibilidade militar e estratégica internacional.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Risco elevado de fallout em caso de ataques a centros de comando metropolitano.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,10 +18,9 @@
 - **Serviços:** Infraestrutura de saúde robusta (Hospital Regional, Hospital de Trauma em proximidade, Clínicas privadas de alta complexidade). Polo comercial, financeiro e industrial consolidado.
 - **Custo de Vida:** Médio; economia impulsionada pela aviação, indústria e serviços especializados.
 - **Preço da Terra:** US$ 50-150/m² (Urbano); US$ 40.000-80.000/ha (Zonas rurais/industriais).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
 
 ### Indicadores Sociais
 
@@ -46,7 +45,6 @@
 | Idade mediana | 29.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climaticos (NASA POWER Climatology API, 2001-2020)
 
 Coordenadas: -25.27°S / -57.49°W. Acesso em 2026-03-20.
@@ -59,11 +57,11 @@ Coordenadas: -25.27°S / -57.49°W. Acesso em 2026-03-20.
 
 Média anual: 4.95 kWh/m²/dia. Mínimo: Jun (2.83) | Máximo: Dez (6.78).
 
-**Precipitação — PRECTOTCORR (mm/dia → mm/ano ~1.471):**
+**Precipitação — PRECTOTCORR (mm/mês → mm/ano ~1.471):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 |
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 |
 
 Estação chuvosa Out-Nov; seca Jun-Ago (mínimo em Ago).
 
@@ -72,7 +70,7 @@ Estação chuvosa Out-Nov; seca Jun-Ago (mínimo em Ago).
 ### 4. Riscos naturais
 - **Hidrologia:** Diversos arroios cruzam o distrito (ex: Arroio Itay). Problemas graves de inundações localizadas e "raudales" perigosos em avenidas durante tempestades severas. Baixo risco de inundações fluviais sistêmicas.
 - **Clima:** Subtropical Úmido. Verões intensos com alta umidade e temperaturas >40°C.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -81,14 +79,14 @@ Estação chuvosa Out-Nov; seca Jun-Ago (mínimo em Ago).
 - **Água:** Captação mista via poços artesianos profundos e sistemas ESSAP. Boa disponibilidade hídrica subterrânea.
 - **Qualidade do Solo:** Solo franco-arenoso a argiloso; fértil, mas área distrital majoritariamente urbanizada ou industrializada.
 - **Resources Locais:** Grande polo industrial e de serviços de aviação. No entanto, a massiva população gera dependência total de cadeias de suprimentos externas para alimentação. Baixíssima capacidade de autossuficiência calórica total no distrito.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 5. Ambiente sociopolitico
 - **Segurança:** Dinâmica urbana complexa com criminalidade presente proporcional ao tamanho da cidade. Presença ostensiva de forças de segurança de elite (Grupo Lince, Polícia Aeroportuária e Militares). Alta estabilidade institucional garantida pela importância dos alvos estratégicos.
 - **Leis Local:** Município consolidado e polo de influência política regional. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -115,7 +113,7 @@ Classificacao:
 - Moderadamente Seguro (Ideal como base logística e operacional de alto padrão, requer preparo para visibilidade estratégica).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte DINAC (Aeroportos): https://www.dinac.gov.py/
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
@@ -168,7 +166,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -182,7 +179,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -193,7 +189,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | fibra óptica disponível |
-
 
 ### Mercado Imobiliário e Terra Rural
 
@@ -222,7 +217,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 **Observação para imigrantes:** Atendimento primario local ou em raio curto; casos de maior complexidade seguem para Aregua. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.
 
-
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
 | Parâmetro | Valor |
@@ -235,4 +229,4 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Densidade aparente | 1.35 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.2667°, -57.4833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.2667°, -57.4833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.

@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Yuty, Caazapa
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 26°36′S 56°15′W.
 - **Topografia:** Relevo de planície com suaves ondulações. Área de ~1.440 km².
 - **Alvos Estrategicos:** Localidade de baixa densidade no sul do departamento. Sem alvos militares ou infraestruturas críticas sensíveis.
 - **Fallout:** Ventos predominantes do Norte.
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -16,11 +16,9 @@
 - **Densidade:** ~10,4 hab/km² (Excelente para isolamento e segurança social).
 - **Vias de Acesso:** Conexão pela Ruta PY08 e rotas departamentais. Presença histórica de linha ferroviária (atualmente inativa).
 - **Servicos:** Saúde básica e serviços municipais consolidados.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -45,7 +43,6 @@
 | Idade mediana | 31.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -59,11 +56,11 @@
 
 **Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.55 | 4.35 | 4.39 | 5.70 | 5.04 | 3.34 | 2.63 | 2.28 | 3.35 | 6.25 | 6.26 | 5.38 | **1629 mm** |
+| 141 | 123 | 136 | 171 | 156 | 100 | 82 | 71 | 100 | 194 | 188 | 167 | **1629 mm** |
 
 #### Poluição Luminosa
 
@@ -72,11 +69,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 0.8 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Banhado pelo Rio Tebicuary e afluentes. Áreas baixas podem sofrer alagamentos, mas a zona urbana é elevada.
 - **Sismicidade:** Nula.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acoes/
 
@@ -95,19 +91,19 @@
 | Densidade aparente | 1.38 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.6°, -56.25°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -26.6°, -56.25°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Agua:** Recursos hídricos superficiais abundantes.
 - **Energia:** Rede ANDE.
 - **Producao:** Arroz, pecuária, e pequena agricultura de subsistência.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Seguranca:** Uma das zonas mais pacíficas da Região Oriental. Baixíssima incidência de crimes violentos.
 - **Clima Social:** Estabilidade social tradicional. Comunidades rurais muito coesas.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -189,7 +185,6 @@ Altamente recomendado para quem busca isolamento com segurança jurídica e soci
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Altamente recomendado para quem busca isolamento com segurança jurídica e soci
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Altamente recomendado para quem busca isolamento com segurança jurídica e soci
 | Domicílios com internet (dept.) | 42% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

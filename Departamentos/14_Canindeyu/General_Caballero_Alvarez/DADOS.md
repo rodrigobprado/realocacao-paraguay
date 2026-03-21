@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: General Caballero Álvarez (Puente Kyjhá), Canindeyú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°14′S 54°53′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado, solo de altíssima fertilidade (Terra Roxa). Altitude ~260m. Área vasta de ~1.043 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Áreas de produção agrícola intensiva (soja, milho); Ponto logístico secundário no leste do departamento; Proximidade tática com a Ruta **PY03**. Ausência de bases militares ou infraestrutura industrial massiva, oferecendo excelente invisibilidade estratégica e anonimato geográfico.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto de alvos continentais primários.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local. Dependência de Katueté ou Salto del Guairá (~65 km) para serviços hospitalares especializados e logística avançada.
 - **Custo de Vida:** Muito baixo; economia estritamente vinculada à exportação de grãos e pecuária.
 - **Preço da Terra:** US$ 8.000-12.000/ha (terras mecanizadas de elite); US$ 3.000-5.000/ha (áreas de uso misto).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 26.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 24° N (anual) · 34° N (inverno jun-ago) · 14° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.42 | 4.71 | 3.28 | 3.68 | 4.50 | 2.74 | 2.08 | 2.26 | 3.10 | 5.70 | 5.63 | 6.07 | **1466 mm** |
+| 137 | 133 | 102 | 110 | 140 | 82 | 64 | 70 | 93 | 177 | 169 | 188 | **1466 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido ao relevo favorável. Diversos arroios cruzam o distrito, garantindo irrigação natural. Risco moderado de isolamento de colônias rurais por danos em estradas em períodos chuvosos (média 1.700 mm/ano).
 - **Clima:** Subtropical Úmido. Verões quentes e chuvosos; invernos amenos com geadas ocasionais benéficas ao trigo.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundante via poços artesianos profundos e lençol freático produtivo; excelente qualidade hídrica subterrânea.
 - **Qualidade do Solo:** **Latossolo Vermelho de Elite**; solo profundo e de altíssima fertilidade natural. Excelente aptidão para soja, milho e pastagens cultivadas.
 - **Resources Locais:** Grande produção de soja e milho. Elevadíssimo potencial para autossuficiência alimentar básica em nível de propriedade devido à vasta área produtiva e baixa população.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural pacífica em termos de criminalidade urbana comum. Exige **atenção tática regional** por estar em departamento de fronteira sensível ao trânsito de ilícitos. Estabilidade social baseada na cultura agropecuária tradicional.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira:** Localizado fora da faixa de 50km da fronteira seca internacional (protegido pela geografia de Katueté/La Paloma).
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,7 +117,7 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca isolamento rural produtivo em solo de alta performance).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MAG (Relatórios de produtividade em Canindeyú): https://www.mag.gov.py/
 - Fonte Ministério do Interior (Segurança Regional): https://www.mdi.gov.py/
 
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.25 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.2333°, -54.8833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.2333°, -54.8833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~18,0 (Regional/Canindeyú).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

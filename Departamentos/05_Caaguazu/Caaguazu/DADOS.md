@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Caaguazú (Cidade), Caaguazú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°27′S 56°01′W.
 - **Topografia:** Relevo predominantemente plano com colinas suaves. Altitude ~200m. Área de ~977 km². Geologicamente estável, com histórico de sismos leves intraplaca sem danos estruturais.
 - **Alvos Estratégicos:** **Nó Logístico Vital da Ruta PY02 Duplicada** (Principal eixo comercial Assunção-CDE); Grandes indústrias de beneficiamento de madeira e moinhos; Subestação regional da ANDE.
 - **Fallout:** Ventos predominantes do Norte (quentes e úmidos) e Leste. Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Hospital Distrital de Caaguazú e forte rede de clínicas privadas. Centro financeiro e comercial robusto com silos e terminais de carga.
 - **Custo de Vida:** Médio-baixo; economia impulsionada pela indústria e comércio transfronteiriço indireto.
 - **Preço da Terra:** US$ 4.000-7.000/ha (áreas rurais agrícolas); lotes industriais e residenciais urbanos com alta valorização (US$ 25.000-50.000/lote).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 29.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.22 | 4.82 | 4.21 | 5.08 | 5.55 | 3.01 | 2.43 | 1.68 | 3.07 | 6.04 | 6.33 | 5.37 | **1577 mm** |
+| 131 | 136 | 131 | 152 | 172 | 90 | 75 | 52 | 92 | 187 | 190 | 166 | **1577 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Diversos arroios cruzam o distrito (ex: Tapiracuái). Baixo risco de inundações catastróficas sistêmicas, mas vulnerabilidade localizada em bairros baixos durante tempestades severas (média pluvial 1.600 mm/ano).
 - **Clima:** Subtropical Úmido. Verões intensos (>38°C) e invernos com geadas ocasionais.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Captação via poços artesianos profundos e sistemas de distribuição urbana (ESSAP/Juntas).
 - **Qualidade do Solo:** **Latossolo Vermelho (Terra Vermelha)**; muito fértil, profundo e mecanizável. Excelente aptidão para soja, milho e reflorestamento industrial.
 - **Resources Locais:** Grande polo madeireiro, produção de gado de corte e soja. Elevado potencial para autossuficiência alimentar regional, embora a cidade dependa de logística interna para distribuição.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.27 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.45°, -56.0167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.45°, -56.0167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade com dinamismo comercial intenso. Criminalidade urbana comum presente (furtos/roubos). Estabilidade social sustentada pelo setor industrial e agropecuário. Patrulhamento policial reforçado por ser um corredor logístico internacional.
 - **Leis Local:** Município consolidado e polo regional ("Capital da Madeira"). **Livre de Restrição de Fronteira:** Localizado no coração do país, permitindo plena titularidade para investidores brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Ideal como base administrativa e de suprimentos para o projeto).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 62% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 
@@ -227,7 +219,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Aluguel 2 quartos (USD/mês) | 350 |
 
 > Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
-
 
 ### Saúde
 

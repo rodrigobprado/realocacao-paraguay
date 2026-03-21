@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Hernandarias, Alto Paraná
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°23′S 54°38′W.
 - **Topografia:** Relevo ondulado a acidentado, com solos de altíssima produtividade (Terra Roxa). Margeado ao leste pelo Rio Paraná e pelo reservatório de Itaipu. Altitude ~240m. Área de ~754 km². Geologicamente estável, risco sísmico nulo.
 - **Alvos Estratégicos:** **Usina Hidrelétrica de Itaipu** (Maior geradora de energia do mundo; infraestrutura estratégica crítica global); **Represa de Acaray**; Parque Industrial de Hernandarias; Sede da Reserva Biológica Itabó (margem sul). Alvo estratégico de altíssima visibilidade militar e geopolítica internacional.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Risco moderado a alto de fallout em caso de sabotagem infraestrutural direta nas barragens.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura de saúde robusta (Hospital Distrital ampliado, IPS). Polo comercial, financeiro e industrial consolidado. Suporte institucional de elite garantido pelos investimentos da Itaipu Binacional.
 - **Custo de Vida:** Médio; economia dolarizada pela indústria e energia, com alta valorização imobiliária residencial.
 - **Preço da Terra:** US$ 10.000-15.000/ha (terras mecanizadas); US$ 80-200/m² (Urbano/Condomínios).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 28.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.73 | 4.56 | 3.78 | 4.14 | 5.26 | 3.59 | 2.75 | 2.26 | 4.02 | 6.80 | 5.29 | 5.76 | **1611 mm** |
+| 147 | 129 | 117 | 124 | 163 | 108 | 85 | 70 | 121 | 211 | 159 | 179 | **1611 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 6 — Céu suburbano brilhante |
 | Radiância artificial | 15.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia elevada e controle hidráulico das barragens. Abundância hídrica superficial absoluta (reservatórios e arroios). Vulnerabilidade tática em caso de ruptura estrutural das barragens (embora improvável geologicamente).
 - **Clima:** Subtropical Úmido. Verões intensos amenizados pela proximidade com grandes massas de água.
-- Fontes: 
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundância hídrica inesgotável via reservatórios e poços artesianos profundos (Aquífero Guarani).
 - **Qualidade do Solo:** **Latossolo Vermelho de Elite**; solo profundo e de fertilidade mundial. Excelente aptidão para policultivos tecnificados.
 - **Resources Locais:** Grande polo industrial de manufatura e tecnologia. Elevadíssimo potencial para autossuficiência logística e energética absoluta.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.24 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.3833°, -54.6333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.3833°, -54.6333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Uma das cidades mais seguras e vigiadas da região metropolitana de CDE. Baixíssima criminalidade urbana comparada à capital vizinha. Forte presença institucional de forças militares e segurança interna de Itaipu. Coesão social baseada na estabilidade econômica provida pela binacional.
 - **Leis Local:** Município consolidado e polo de incentivos industriais. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Seguro (Localidade de elite para suporte tecnológico e residencial, oferecendo o máximo em recursos básicos do continente).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte Itaipu Binacional (Operação e Segurança de Barragens).
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Projeto de expansão industrial norte.
+- Fonte MOPC infraestrutura: Projeto de expansão industrial norte.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 83.285 habitantes.
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

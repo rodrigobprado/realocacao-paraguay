@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Villa Franca, Ñeembucú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 26°17′S 58°12′W.
 - **Topografia:** Relevo plano com predominância absoluta de humedales, esteros e terras baixas inundáveis. Margeado pelo Rio Paraguai ao oeste e pelo Rio Tebicuary ao sul. Altitude ~55m. Área vasta de ~1.540 km². Geologicamente estável, risco sísmico nulo.
 - **Alvos Estratégicos:** Áreas de pecuária extensiva de grande porte; Porto fluvial secundário; Confluência regional dos rios Paraguai e Tebicuary. Ausência total de alvos militares ou infraestrutura industrial, oferecendo o nível máximo de invisibilidade estratégica e anonimato geográfico na Região Oriental.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout de qualquer alvo continental devido ao extremo isolamento geográfico.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura institucional e comercial quase inexistente. Dependência absoluta de Pilar (~75 km) ou Alberdi para serviços de saúde básicos e logística. A vila urbana é um mic núcleo de subsistência.
 - **Custo de Vida:** Muito baixo; economia baseada na pecuária e no autoconsumo rural extremo.
 - **Preço da Terra:** US$ 700-1.000/ha (campos baixos para pecuária extensiva). Um dos menores valores de terra do país.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.56 | 4.29 | 4.70 | 5.51 | 3.72 | 2.26 | 1.74 | 1.23 | 2.30 | 4.92 | 5.82 | 5.47 | **1416 mm** |
+| 141 | 121 | 146 | 165 | 115 | 68 | 54 | 38 | 69 | 153 | 175 | 170 | **1416 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 2 — Céu tipicamente escuro |
 | Radiância artificial | 0.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Crítico.** Distrito situado em zona de baixada extrema e confluência de grandes rios. Altamente vulnerável a cheias extraordinárias que isolam a localidade por terra por meses. O solo hidromórfico retém umidade permanentemente.
 - **Clima:** Subtropical Úmido. Verões muito quentes e úmidos; invernos frescos com alta umidade e nevoeiros densos.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundância hídrica superficial (rios e esteros), exigindo tratamento. Disponibilidade de poços artesianos produtivos.
 - **Qualidade do Solo:** Solo hidromórfico; aptidão exclusiva para pastagens naturais e gado de corte. Agricultura mecanizada inviável sem projetos massivos de engenharia.
 - **Resources Locais:** Grande excedente de gado bovino per capita. Elevadíssimo potencial para autossuficiência calórica familiar baseada em proteína animal para a ínfima população local.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural excepcionalmente pacífica. Criminalidade urbana inexistente. Estabilidade social máxima baseada no isolamento geográfico e na resiliência da população tradicional. Localidade "invisível" para conflitos sociais de massa.
 - **Leis Local:** Município consolidado. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira argentina.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,9 +117,9 @@ Classificacao:
 - Moderadamente Seguro (Indicado exclusivamente para projetos de isolamento tático extremo que busquem o máximo anonimato, aceitando a barreira das águas).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte SEN (Relatórios de isolamento em Ñeembucú Norte): https://sen.gov.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Relatórios de acessibilidade rural.
+- Fonte MOPC infraestrutura: Relatórios de acessibilidade rural.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 1.138 habitantes.
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.37 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.2833°, -58.2°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -26.2833°, -58.2°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~0,0 (Paz total).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 40% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

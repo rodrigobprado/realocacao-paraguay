@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Capitan Meza, Itapua
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 26°40′S 55°14′W.
 - **Topografia:** Relevo ondulado com descidas acentuadas para o Rio Paraná. Área de ~440 km².
 - **Alvos Estrategicos:** Centro de produção agrícola e porto graneleiro secundário. Proximidade com a fronteira argentina. Sem alvos militares.
 - **Fallout:** Ventos predominantes do Norte.
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -16,11 +16,9 @@
 - **Densidade:** ~21,0 hab/km².
 - **Vias de Acesso:** Acesso pela Ruta PY06 (via conexão asfáltica) e pela "Ruta del Río" (Projeto Corredor da Exportação).
 - **Servicos:** Infraestrutura de saúde e educação básicas. Dependência de centros como Obligado ou Encarnación para serviços complexos.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -45,7 +43,6 @@
 | Idade mediana | 29.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -59,11 +56,11 @@
 
 **Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.95 | 4.55 | 4.41 | 6.16 | 4.99 | 4.00 | 3.19 | 2.71 | 3.89 | 6.63 | 6.18 | 5.86 | **1751 mm** |
+| 153 | 129 | 137 | 185 | 155 | 120 | 99 | 84 | 117 | 206 | 185 | 182 | **1751 mm** |
 
 #### Poluição Luminosa
 
@@ -72,11 +69,10 @@
 | Escala Bortle | 5 — Céu suburbano |
 | Radiância artificial | 5.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Diversos arroios. Risco de alagamentos pontuais em áreas ribeirinhas do Rio Paraná.
 - **Sismicidade:** Baixa.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acoes/
 
@@ -95,19 +91,19 @@
 | Densidade aparente | 1.27 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.6667°, -55.2333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -26.6667°, -55.2333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Agua:** Poços artesianos e sistemas locais de distribuição.
 - **Energia:** Rede ANDE.
 - **Producao:** Soja, milho, trigo, girassol e erva-mate.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Seguranca:** Região de baixa criminalidade, característica de zona agrícola produtiva.
 - **Clima Social:** Estabilidade social elevada, presença de descendentes de imigrantes (cultura de trabalho).
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -189,7 +185,6 @@ Recomendado para produtores agrícolas mecanizados e para quem busca uma área r
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Recomendado para produtores agrícolas mecanizados e para quem busca uma área r
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Recomendado para produtores agrícolas mecanizados e para quem busca uma área r
 | Domicílios com internet (dept.) | 78% |
 | Tecnologia predominante | fibra/rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

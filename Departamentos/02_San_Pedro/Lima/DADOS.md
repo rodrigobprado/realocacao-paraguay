@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Lima, San Pedro
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 23°59′S 56°20′W.
 - **Topografia:** Relevo predominantemente plano a ondulado. Localizado na margem norte do Rio Aguaray Guazú. Geologicamente estável, risco sísmico muito baixo.
 - **Alvos Estratégicos:** Áreas de cultivo intensivo de citros (limão/laranja) e soja mecanizada; **Cruce Lima** (Ponto de intersecção estratégico na Ruta PY03); Proximidade com o hub de Santa Rosa del Aguaray.
 - **Fallout:** Ventos predominantes do Norte/Nordeste (quentes) e Leste. Baixo risco de fallout direto de alvos continentais primários.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família local. Referência hospitalar de alta complexidade no Hospital Geral de Santa Rosa del Aguaray (15-20 km).
 - **Custo de Vida:** Baixo (aprox. 40% menor que Assunção); economia baseada na produção primária e comércio de beira de estrada.
 - **Preço da Terra:** US$ 5.500-7.000/ha (terras mecanizadas para soja); US$ 1.900-3.500/ha (áreas mistas/pecuária).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 28.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 24° N (anual) · 34° N (inverno jun-ago) · 14° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.30 | 5.59 | 3.83 | 4.68 | 4.70 | 2.79 | 1.94 | 1.42 | 3.00 | 5.56 | 6.44 | 5.43 | **1512 mm** |
+| 133 | 158 | 119 | 140 | 146 | 84 | 60 | 44 | 90 | 172 | 193 | 168 | **1512 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco Moderado de Inundação.** O Rio Aguaray Guazú pode transbordar em eventos extremos, afetando colônias ribeirinhas baixas e pontes vicinais.
 - **Clima:** Subtropical Úmido. Precipitação anual de 1.400-1.600 mm. Tempestades severas de verão com ventos de até 100 km/h.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundante via Rio Aguaray Guazú, poços artesianos e nascentes locais.
 - **Qualidade do Solo:** Predominantemente arenoso (textura leve); exige calagem e plantio direto para evitar erosão, mas muito produtivo para soja, mandioca e abacaxi.
 - **Resources Locais:** Grande produção de citros, soja, mandioca e gado de corte. Elevado potencial para autossuficiência alimentar e hídrica.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural tradicionalmente pacata, mas inserida em um departamento com taxas de homicídios moderadas (~8,5/100k). Vigilância necessária contra furtos de gado e conflitos agrários pontuais.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da Lei 2532/05, permitindo plena titularidade para brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,8 +117,8 @@ Classificacao:
 - Moderadamente Seguro (Recomendado para perfis que buscam integração agrícola com boa logística).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Hospital Geral Santa Rosa (saúde regional): https://www.mspbs.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.25 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -23.9833°, -56.3333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -23.9833°, -56.3333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~8,5 (Regional).
 
@@ -188,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -202,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -213,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

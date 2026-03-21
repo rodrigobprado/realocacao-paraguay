@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Puerto Adela, Canindeyú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°19′S 54°21′W.
 - **Topografia:** Relevo predominantemente plano a ondulado, situado às margens do reservatório de Itaipu (Rio Paraná). Altitude ~220m. Área de ~481 km². Geologicamente estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Porto fluvial secundário no Rio Paraná; Áreas de produção agrícola e pecuária em expansão; Proximidade tática com a fronteira fluvial brasileira. Ausência total de infraestrutura industrial massiva ou bases militares de grande porte, oferecendo altíssimo nível de invisibilidade estratégica e proteção por isolamento deliberado.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto; posição favorável em relação aos centros de comando nacionais.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura institucional mínima. Unidade de Saúde da Família (USF) local. Dependência absoluta de Salto del Guairá (75 km) ou Katueté para serviços hospitalares especializados e logística comercial avançada.
 - **Custo de Vida:** Muito baixo; economia baseada na produção de grãos, pecuária e pesca comercial.
 - **Preço da Terra:** US$ 5.000-8.000/ha (terras com aptidão agrícola); US$ 2.000-4.000/ha (áreas de campo natural/mata).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 28.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 24° N (anual) · 34° N (inverno jun-ago) · 14° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.62 | 4.70 | 3.42 | 3.93 | 4.83 | 3.04 | 2.33 | 2.32 | 3.37 | 6.07 | 5.67 | 5.60 | **1519 mm** |
+| 143 | 133 | 106 | 118 | 150 | 91 | 72 | 72 | 101 | 188 | 170 | 174 | **1519 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas catastróficas devido à cota elevada do relevo em relação ao reservatório. Presença de diversos arroios tributários da bacia do Rio Paraná. Risco moderado de isolamento temporário por danos em estradas de terra em períodos de chuva intensa (média 1.700 mm/ano).
 - **Clima:** Subtropical Úmido. Verões intensos e chuvosos; invernos amenos.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundância hídrica superficial (reservatório de Itaipu) e poços artesianos profundos de alta qualidade.
 - **Qualidade do Solo:** Solo franco-argiloso e arenoso fértil; aptidão para soja, milho e pastagens naturais.
 - **Resources Locais:** Grande produção de grãos e proteína animal (gado e peixes fluviais). Elevadíssimo potencial para autossuficiência alimentar básica em nível de propriedade devido à vasta área produtiva e baixa população.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.23 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.3167°, -54.35°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.3167°, -54.35°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural excepcionalmente pacífica em termos de crime comum. No entanto, exige **vigilância tática regional** devido à localização em departamento de fronteira e proximidade com o Lago Itaipu (rota de ilícitos). Estabilidade social sustentada por comunidades tradicionais.
 - **Leis Local:** Município de criação recente (2018). **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira brasileira.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,7 +131,7 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca isolamento tático fluvial e anonimato em terras férteis, aceitando a precariedade logística).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MAG (Dados de produção agrícola departamental): https://www.mag.gov.py/
 - Fonte Ministério do Interior (Segurança Regional): https://www.mdi.gov.py/
 
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

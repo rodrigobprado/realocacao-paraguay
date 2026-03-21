@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: San Juan del Paraná, Itapúa
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 27°18′S 55°58′W.
 - **Topografia:** Relevo plano com áreas de colinas suaves, margeado pelo Rio Paraná (reservatório de Yacyretá). Altitude ~100m. Geologicamente estável.
 - **Alvos Estratégicos:** Proximidade imediata com Encarnación (8 km); Polo residencial de expansão metropolitana; Áreas de lazer costeiras. Ausência de alvos militares diretos, mas alta dependência tática da capital departamental.
 - **Fallout:** Ventos predominantes do Norte e Leste. Risco de fallout indireto em caso de ataques a Encarnación.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família local. Dependência total de Encarnación para saúde de alta complexidade, bancos e logística comercial avançada.
 - **Custo de Vida:** Médio; mercado imobiliário em valorização pela proximidade metropolitana.
 - **Preço da Terra:** US$ 15.000-40.000/ha (lotes residenciais/loteamentos); valores elevados pela localização estratégica.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 28.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.88 | 4.41 | 4.91 | 6.20 | 4.64 | 3.63 | 2.78 | 2.72 | 3.91 | 6.99 | 6.39 | 6.02 | **1750 mm** |
+| 151 | 125 | 152 | 186 | 144 | 109 | 86 | 84 | 117 | 217 | 192 | 187 | **1750 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 5 — Céu suburbano |
 | Radiância artificial | 5.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas sistêmicas devido à cota do reservatório controlada. Risco de enxurradas urbanas em novos loteamentos sem drenagem adequada.
 - **Clima:** Subtropical Úmido. Influência da massa de água do Rio Paraná regula microclimas.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Dependência de poços artesianos e sistemas de junta de saneamento em expansão.
 - **Qualidade do Solo:** Solo arenoso a franco-argiloso; moderada aptidão agrícola, focado em horticultura de cinturão verde e lazer rural.
 - **Resources Locais:** Baixa produção de larga escala. Dependência crítica de logística externa para abastecimento de alimentos (Mercado de Encarnación).
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.23 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -27.3°, -55.9667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -27.3°, -55.9667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona residencial considerada segura para padrões urbanos. Baixa criminalidade violenta, mas vulnerável a delitos contra o patrimônio em áreas de condomínios. Forte segurança institucional por proximidade com o comando departamental.
 - **Leis Local:** Município em consolidação administrativa. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira internacional seca.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Indicado como base residencial secundária, ciente da vulnerabilidade logística).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 9.083 habitantes.
@@ -188,7 +183,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -202,7 +196,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -213,7 +206,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 78% |
 | Tecnologia predominante | fibra/rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

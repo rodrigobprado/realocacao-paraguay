@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Concepcion (Capital), Concepcion
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 23°24′S 57°26′W.
 - **Topografia:** Planície próxima ao Rio Paraguai. Altitude ~70m. Região tectonicamente estável, risco sísmico quase nulo.
 - **Alvos Estratégicos:** Porto de Concepción (logística de grãos e cimento), Aeroporto ANC (em modernização), Sede do CODI (Comando de Operações de Defesa Interna), Regimento de Infantaria N° 10 "Sauce". Planta da Paracel (Celulose) em implantação.
 - **Fallout:** Ventos predominantes do Norte/Nordeste (quentes) e Sul (frios no inverno).
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -17,11 +17,9 @@
 - **Vias de Acesso:** Ruta PY05 (Conexão Leste-Oeste), Ponte sobre o Rio Paraguai. Gargalos logísticos devido à dependência de poucas travessias fluviais.
 - **Serviços:** Gran Hospital de Concepción (em construção, referência para o Norte). Sede administrativa regional.
 - **Custo de Vida:** US$ 800-1.200/mês. Lotes urbanos: US$ 15-30/m². Terras rurais: US$ 5.000-8.000/ha.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -46,7 +44,6 @@
 | Idade mediana | 27.0 anos | dist. |
 | Taxa de fecundidade | 2 | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -60,11 +57,11 @@
 
 **Inclinação solar recomendada:** 23° N (anual) · 33° N (inverno jun-ago) · 13° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 5.06 | 5.33 | 3.86 | 4.64 | 3.74 | 2.38 | 1.55 | 1.01 | 2.42 | 4.87 | 6.80 | 5.38 | **1432 mm** |
+| 157 | 151 | 120 | 139 | 116 | 71 | 48 | 31 | 73 | 151 | 204 | 167 | **1432 mm** |
 
 #### Poluição Luminosa
 
@@ -73,14 +70,13 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco Crítico de Inundação.** Bairros ribeirinhos vulneráveis a cheias do Rio Paraguai e transbordamentos súbitos do Rio Ypané.
 - **Clima:** Tropical Úmido. Verões com temperaturas extremas. Tempestades intensas frequentes entre outubro e maio.
-- **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):** Jan 6.68 | Fev 6.07 | Mar 5.58 | Abr 4.63 | Mai 3.47 | Jun 3.00 | Jul 3.30 | Ago 4.09 | Set 4.68 | Out 5.49 | Nov 6.34 | Dez 6.61. Média anual: 4.99 kWh/m²/dia. Mínimo: Jun (3.00) | Máximo: Jan (6.68). Fonte: NASA POWER Climatology API, período 2001-2020 (acesso em 2026-03-20).
-- **Precipitação — PRECTOTCORR (mm/dia):** Jan 5.06 | Fev 5.33 | Mar 3.86 | Abr 4.64 | Mai 3.74 | Jun 2.38 | Jul 1.55 | Ago 1.01 | Set 2.42 | Out 4.87 | Nov 6.80 | Dez 5.38. Média anual: ~1.427 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER (acesso em 2026-03-20).
+- **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):** Jan 6.68 | Fev 6.07 | Mar 5.58 | Abr 4.63 | Mai 3.47 | Jun 3.00 | Jul 3.30 | Ago 4.09 | Set 4.68 | Out 5.49 | Nov 6.34 | Dez 6.61. Média anual: 4.99 kWh/m²/dia. Mínimo: Jun (3.00) | Máximo: Jan (6.68). Fonte: NASA POWER Climatology API, período 2001-2020.
+- **Precipitação — PRECTOTCORR (mm/mês):** Jan 157 | Fev 151 | Mar 120 | Abr 139 | Mai 116 | Jun 71 | Jul 48 | Ago 31 | Set 73 | Out 151 | Nov 204 | Dez 167. Média anual: ~1.427 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER.
 - **Inclinação recomendada para placas solares:** 23° voltado para o Norte (anual); 33° no inverno (Jun-Ago); 13° no verão (Nov-Jan). Base: latitude local -23.40°S.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -101,17 +97,17 @@
 | Densidade aparente | 1.35 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -23.4°, -57.4333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -23.4°, -57.4333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Autossuficiência:** Elevada em proteína animal (indústria cárnea) e potencial agrícola de exportação.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona de conflito contra a insurgência (EPP) no departamento. Taxa de homicídios elevada (18-20/100k), mas concentrada em áreas rurais e narcotráfico. A área urbana possui forte presença militar (CODI/FTC).
 - **Leis Local:** Capital departamental. **Restrição de Fronteira:** Aplicação da Lei 2532/05 (faixa de 50km).
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -138,9 +134,9 @@ Classificacao:
 - Moderadamente Seguro (Exige atenção rigorosa à segurança e riscos hídricos).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-05): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
-- Fonte CODI/FTC segurança (acesso em 2026-03-06): https://www.paraguay.gov.py/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte CODI/FTC segurança: https://www.paraguay.gov.py/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 73.360.
@@ -173,7 +169,6 @@ Indicado para perfis que buscam exploração agroindustrial de alto desempenho, 
 - 3) Mapas de uso do solo e sismicidade (Embrapa/ResearchGate).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
-
 
 ## 14. Informações Técnicas e Infraestrutura (Leitores Alfa)
 
@@ -231,7 +226,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -245,7 +239,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -256,7 +249,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 48% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 
@@ -269,7 +261,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Aluguel 2 quartos (USD/mês) | 312 |
 
 > Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
-
 
 ### Saúde
 

@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Valenzuela, Cordillera
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°35′S 56°52′W.
 - **Topografia:** Relevo ondulado com vales férteis e diversos arroios (ex: Arroyo Yhacá). Altitude ~150m. Geologicamente estável, risco sísmico baixo.
 - **Alvos Estratégicos:** Áreas de produção intensiva de abacaxi (Capital Nacional da Piña); Polo de turismo rural e balneários naturais (Saltos del Paraíso). Ausência de alvos militares ou industriais primários, oferecendo excelente invisibilidade tática.
 - **Fallout:** Ventos predominantes do Norte (N) e Nordeste (NE). Baixo risco de fallout direto de alvos continentais primários.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local "Roque Acuña". Dependência de Eusebio Ayala ou Caacupé para serviços hospitalares de alta complexidade.
 - **Custo de Vida:** Baixo; economia baseada na fruticultura e turismo local.
 - **Preço da Terra:** US$ 12.500-25.000/ha (áreas com arroios e benfeitorias); valores elevados pela proximidade com a capital e apelo turístico.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 34.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.09 | 4.96 | 4.29 | 4.95 | 4.91 | 2.61 | 2.14 | 1.32 | 2.58 | 5.53 | 6.42 | 5.66 | **1506 mm** |
+| 127 | 140 | 133 | 148 | 152 | 78 | 66 | 41 | 77 | 171 | 193 | 175 | **1506 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Presença abundante de arroios e quedas d'água. Risco moderado de inundações em áreas ribeirinhas baixas e danos em acessos rurais durante tempestades severas.
 - **Clima:** Subtropical Úmido. Precipitação anual de 800 a 1.500 mm. Suscetível a temporais com ventos fortes (>100 km/h) vindos do Sul.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via poços artesianos e arroios perenes de águas limpas.
 - **Qualidade do Solo:** Arenoso e franco-arenoso (Quartzipsaments); bem drenado, pH entre 5 e 6. Ideal para abacaxi, cana-de-açúcar, mel e pastagens.
 - **Resources Locais:** Principal produtor nacional de abacaxi. Elevado potencial para autossuficiência calórica e hídrica em nível familiar.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.35 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.5833°, -56.8667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.5833°, -56.8667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Uma das zonas mais pacíficas do Paraguai. Taxa de homicídios regional de ~3,8/100k no departamento de Cordillera. Baixa criminalidade e alta coesão comunitária.
 - **Leis Local:** Município histórico consolidado. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira internacional, facilitando a titularidade para brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Excelente para quem busca um refúgio rural tranquilo com abundância de água).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -188,7 +183,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -202,7 +196,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -213,7 +206,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 65% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Doctor Eulogio Estigarribia (Campo 9), Caaguazú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°21′S 55°46′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado. Localizado em zona de solos de alta fertilidade. Altitude ~250m. Área de ~629 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** **Polo de Segurança Alimentar Nacional** (Maior concentração de moinhos de trigo e indústrias de laticínios do Paraguai); Sede da Cooperativa Lactolanda; Grandes terminais de silos; Eixo logístico da Ruta **PY02**. Infraestrutura crítica absoluta em cenários de escassez de alimentos.
 - **Fallout:** Ventos predominantes do Norte (quentes e úmidos) e Leste. Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura de serviços superior, com foco em logística pesada, bancos e comércio industrial. Unidades de saúde modernas apoiadas por cooperativas privadas.
 - **Custo de Vida:** Médio; economia dolarizada pelo agronegócio, mas com abundância de produtos alimentícios básicos a preços de origem.
 - **Preço da Terra:** US$ 6.000-10.000/ha (áreas de elite mecanizadas); lotes industriais com alta valorização nacional.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 24.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.57 | 4.59 | 4.07 | 5.06 | 5.70 | 3.14 | 2.55 | 1.76 | 3.44 | 6.11 | 6.26 | 5.55 | **1607 mm** |
+| 142 | 130 | 126 | 152 | 177 | 94 | 79 | 55 | 103 | 189 | 188 | 172 | **1607 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Diversos arroios locais integrados a sistemas de irrigação. Baixo risco de inundações sistêmicas catastróficas devido ao relevo favorável à drenagem.
 - **Clima:** Subtropical Úmido. Chuvas abundantes e bem distribuídas (1.600-1.800 mm/ano). Verões com alta incidência solar, favorecendo a produtividade agrícola.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via poços artesianos profundos (Aquífero Guarani).
 - **Qualidade do Solo:** **Latossolo Vermelho de Elite**; solos profundos, estruturados e de altíssima fertilidade natural.
 - **Resources Locais:** **Maior bacia leiteira e farinheira do Paraguai.** Produção massiva de leite, queijo, farinha de trigo, massas, soja e milho. Elevadíssimo potencial para autossuficiência e suporte logístico de longa duração.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.31 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.35°, -55.7667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.35°, -55.7667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona agroindustrial muito estável. Índices de criminalidade violenta baixos. Forte controle comunitário exercido pelas cooperativas menonitas (Sommerfeld e Bergthal). Perfil de segurança tática focado na proteção patrimonial industrial.
 - **Leis Local:** Município com forte influência econômica nacional. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Moderadamente Seguro (Localidade de elite para suporte logístico e produção de recursos de sobrevivência).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MIC/CAPAINLAC (Câmara de Laticínios): https://www.mic.gov.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 38.894 habitantes.
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 62% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 
@@ -227,7 +219,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Aluguel 2 quartos (USD/mês) | 350 |
 
 > Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
-
 
 ### Saúde
 

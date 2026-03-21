@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Paso de Patria, Ñeembucú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 27°16′S 58°34′W.
 - **Topografia:** Relevo predominantemente plano, área de baixada situada na confluência estratégica dos rios Paraguai e Paraná. Altitude ~50m. Área de ~241 km². Geologicamente estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** **Confluência dos Rios Paraguai e Paraná** (Ponto geopolítico e logístico vital da Bacia do Prata); Porto fluvial secundário; Local histórico (Teatro de operações da Guerra da Tríplice Aliança). Ausência de bases militares ativas de grande porte, mas localização de extrema sensibilidade para o controle fluvial e de fronteira.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout de alvos continentais primários devido ao isolamento geográfico extremo.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura básica mínima. Dependência absoluta de Pilar (~60 km) para serviços de saúde especializados, logística comercial e suporte administrativo.
 - **Custo de Vida:** Muito baixo; economia baseada na pesca, pecuária extensiva e serviços de turismo histórico/pesca.
 - **Preço da Terra:** US$ 1.500-2.500/ha (áreas com costa de rio); US$ 800-1.200/ha (campos baixos de interior).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 5.03 | 4.28 | 4.72 | 5.51 | 3.36 | 2.31 | 1.46 | 1.25 | 2.15 | 4.91 | 5.83 | 5.18 | **1400 mm** |
+| 156 | 121 | 146 | 165 | 104 | 69 | 45 | 39 | 64 | 152 | 175 | 161 | **1400 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 2 — Céu tipicamente escuro |
 | Radiância artificial | 0.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Crítico.** Situado no vértice do encontro de dois rios colossais. Vulnerável a cheias extraordinárias que podem inundar vastas áreas do distrito e isolar a localidade por terra por meses.
 - **Clima:** Subtropical Úmido. Verões muito quentes; invernos frescos com alta umidade influenciada pela massa de água dos rios.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundância hídrica ilimitada (Rios Paraguai e Paraná) e poços artesianos profundos. Água superficial exige tratamento para consumo humano.
 - **Qualidade do Solo:** Solo hidromórfico e arenoso; aptidão para pastagens naturais e pecuária. Baixa aptidão para agricultura diversificada de escala sem gestão hídrica.
 - **Resources Locais:** Grande excedente de gado bovino e recursos pesqueiros abundantes. Elevadíssimo potencial para autossuficiência calórica familiar baseada em proteína animal.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.28 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -27.2667°, -58.5667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -27.2667°, -58.5667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Localidade excepcionalmente pacífica e segura. Criminalidade urbana inexistente. Estabilidade social baseada na cultura da pesca e tradição histórica. Presença de destacamentos da Armada Paraguaia para controle fluvial.
 - **Leis Local:** Município consolidado. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira argentina.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca isolamento tático fluvial e abundância de recursos hídricos, aceitando os riscos das cheias).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte Armada Paraguaia (Segurança Fluvial): https://www.armada.mil.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Relatórios de acessibilidade em Ñeembucú Sul.
+- Fonte MOPC infraestrutura: Relatórios de acessibilidade em Ñeembucú Sul.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 1.809 habitantes.
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 40% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

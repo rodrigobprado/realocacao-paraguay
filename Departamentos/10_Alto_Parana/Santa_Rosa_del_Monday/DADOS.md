@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Santa Rosa del Monday, Alto Paraná
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°53′S 54°58′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado, com solos de altíssima produtividade (Terra Roxa mecanizada em 98% da área). Altitude ~240m. Área de ~500 km². Geologicamente muito estável, risco sísmico nulo.
 - **Alvos Estratégicos:** **Capital Nacional da Soja** (Um dos maiores polos produtores de grãos por metro quadrado do país); Grandes silos e plantas de beneficiamento da Cooperativa Lar e Cooperativa Raul Peña; Proximidade tática com o Rio Monday. Ausência de alvos militares diretos, oferecendo excelente invisibilidade estratégica, sendo um centro de gravidade alimentar nacional.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto; posição isolada no sul do departamento, protegida da massa urbana de CDE.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura de serviços privados de primeiro nível. Sanatórios modernos, suporte técnico de precisão e rede bancária consolidada sustentada pelo agronegócio.
 - **Custo de Vida:** Médio-alto; economia dolarizada pelo agronegócio e alta valorização imobiliária das terras mecanizadas.
 - **Preço da Terra:** US$ 15.000-25.000/ha (terras mecanizadas de elite mundial - "Terra Roxa").
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 30.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.70 | 4.56 | 4.19 | 5.14 | 5.15 | 3.70 | 2.82 | 2.22 | 3.78 | 6.53 | 5.72 | 5.76 | **1652 mm** |
+| 146 | 129 | 130 | 154 | 160 | 111 | 87 | 69 | 113 | 202 | 172 | 179 | **1652 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 6 — Céu suburbano brilhante |
 | Radiância artificial | 15.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia favorável e gestão hídrica de precisão nas fazendas. Presença de arroios perenes tributários do Rio Monday.
 - **Clima:** Subtropical Úmido. Verões quentes; invernos frescos com geadas benéficas ao trigo.
-- Fontes: 
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundante via poços artesianos profundos e lençol freático produtivo; excelente qualidade hídrica subterrânea (Aquífero Guarani).
 - **Qualidade do Solo:** **Latossolo Vermelho de Elite**; solo profundo, estruturado e de fertilidade máxima mundial. Base da potência agrícola regional.
 - **Resources Locais:** **Polo de Segurança Alimentar de Elite.** Imensa produção de soja, milho (incluindo variedades GSS de alto rendimento), trigo e proteína animal (suínos/aves). Elevadíssimo potencial para autossuficiência absoluta em nível de propriedade ou regional.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Uma das zonas rurais mais seguras e estáveis do Paraguai. Baixíssima criminalidade urbana. Coesão social fortíssima baseada na cultura cooperativista e produtora. Presença de segurança patrimonial privada de alta performance.
 - **Leis Local:** Município consolidado e polo de referência tecnológica ("Cidade da Soja"). **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,7 +117,7 @@ Classificacao:
 - Seguro (Localidade de elite absoluta para autossuficiência e residência tática, oferecendo o máximo em recursos e segurança social rural).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MAG (Dados de produção agrícola de precisão em Alto Paraná).
 - Fonte Cooperativas Locais (Capacidade de armazenamento e logística - Cooperativa Lar).
 
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.17 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.8833°, -54.9667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.8833°, -54.9667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~4,0 (Recorde de paz rural).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

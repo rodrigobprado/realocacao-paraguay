@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Sargento Jose Felix Lopez (Puentesino), Concepcion
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 22°31′S 56°52′W.
 - **Topografia:** Relevo ondulado com vastas áreas de pastagens e florestas. Proximidade imediata com o **Parque Nacional Paso Bravo** (grande reserva de biodiversidade e isolamento). Geologicamente estável.
 - **Alvos Estratégicos:** Grandes estâncias de pecuária de exportação, postos de fronteira seca com o Brasil (Bella Vista).
 - **Fallout:** Ventos predominantes do Norte/Nordeste.
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura básica de saúde (Puestos de Salud) e educação. Dependência crítica de Concepción para alta complexidade.
 - **Custo de Vida:** Reduzido para produtos locais, mas elevado para insumos industrializados devido ao frete.
 - **Preço da Terra:** US$ 2.000-5.000/ha (áreas de fronteira pecuária e silvicultura).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 24.0 anos | dist. |
 | Taxa de fecundidade | 3 | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 21° N (anual) · 31° N (inverno jun-ago) · 11° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.15 | 4.78 | 3.30 | 2.10 | 0.67 | 0.37 | 0.21 | 0.09 | 0.37 | 1.25 | 2.18 | 4.08 | **717 mm** |
+| 129 | 135 | 102 | 63 | 21 | 11 | 7 | 3 | 11 | 39 | 65 | 126 | **717 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Isolamento por Chuvas.** Transbordamento de arroios tributários do Rio Apa e estradas intransitáveis em períodos de chuva intensa são os principais riscos operacionais.
 - **Clima:** Tropical Úmido. Verões quentes e úmidos com tempestades severas.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Poços artesianos e arroios locais perenes.
 - **Qualidade do Solo:** Solo com boa aptidão para pastagem e agricultura de subsistência; proximidade com áreas de reserva garante biodiversidade.
 - **Recursos Locais:** Pecuária de corte extensiva, exploração florestal sustentável e agricultura familiar. Alto potencial para autossuficiência básica.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.31 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -22.5167°, -56.8667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -22.5167°, -56.8667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** **Zona de Alta Sensibilidade.** Histórico de atuação de grupos insurgentes (EPP/ACA) e rotas de narcotráfico em fronteira seca. Exige alto nível de preparação tática e vigilância. Presença da FTC (Força de Tarefa Conjunta) é uma constante necessária.
 - **Leis Local:** Município relativamente novo (2011) com forte presença de cultura de fronteira. **Restrição de Fronteira (Lei 2532/05):** Proibição de compra de terras rurais por estrangeiros de países limítrofes na faixa de 50km.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -137,9 +132,9 @@ Classificacao:
 - Moderadamente Seguro (Recomendado apenas para perfis com experiência tática e foco em autossuficiência isolada).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-05): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
-- Fonte CODI/FTC segurança (acesso em 2026-03-06): https://www.paraguay.gov.py/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte CODI/FTC segurança: https://www.paraguay.gov.py/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 6.153 habitantes.
@@ -175,7 +170,6 @@ Ideal para estabelecimentos que funcionam como postos avançados ou refúgios t�
 - 4) Lei de Segurança Fronteiriça (2532/05).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
-
 
 ## 14. Informações Técnicas e Infraestrutura (Leitores Alfa)
 
@@ -233,7 +227,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -247,7 +240,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -258,7 +250,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 48% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

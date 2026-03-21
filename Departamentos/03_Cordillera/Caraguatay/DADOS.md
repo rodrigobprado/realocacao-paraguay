@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Caraguatay, Cordillera
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°14′S 56°49′W.
 - **Topografia:** Relevo ondulado a acidentado, com presença de vales protegidos e margens do Rio Yhaguy. Altitude ~155m. Área vasta de ~524 km². Geologicamente estável, risco sísmico nulo.
 - **Alvos Estratégicos:** **Parque Nacional Vapor Cué** (Sítio histórico de imenso valor militar e simbólico; reserva ambiental); Polo de pecuária e agricultura diversificada; Local de isolamento geográfico tático. Ausência total de alvos industriais primários, oferecendo um dos maiores níveis de invisibilidade estratégica e anonimato na região central do país.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout devido à proteção orográfica da Cordillera de los Altos.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local e centros de saúde comunitários. Dependência de Caacupé (~35 km) para serviços hospitalares de alta complexidade. Infraestrutura comercial básica focada no suporte rural.
 - **Custo de Vida:** Muito baixo; economia baseada na pecuária, fruticultura e remessas externas.
 - **Preço da Terra:** US$ 5.000-8.000/ha (terras agrícolas); US$ 3.000-5.000/ha (áreas de campo natural/lazer).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 35.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.01 | 5.16 | 4.08 | 4.81 | 5.02 | 2.63 | 2.06 | 1.22 | 2.64 | 5.54 | 6.51 | 5.62 | **1501 mm** |
+| 124 | 146 | 126 | 144 | 156 | 79 | 64 | 38 | 79 | 172 | 195 | 174 | **1501 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas catastróficas devido ao relevo favorável. O Rio Yhaguy e diversos arroios garantem abundância hídrica superficial perene. Vulnerabilidade localizada em áreas ribeirinhas baixas em eventos extremos.
 - **Clima:** Microclima agradável influenciado pela vegetação e relevo. Verões quentes; invernos frescos.
-- Fontes: 
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via nascentes naturais e poços artesianos; excelente qualidade hídrica superficial e subterrânea.
 - **Qualidade do Solo:** Solo franco-arenoso fértil; aptidão para cítricos, mandioca, milho e pastagens.
 - **Resources Locais:** Grande produção de proteína animal e frutas. Elevadíssimo potencial para autossuficiência alimentar básica em nível de propriedade devido à vasta área produtiva e baixa população.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.33 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.2333°, -56.8167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.2333°, -56.8167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Uma das cidades mais pacíficas e ordeiras do Paraguai. Baixíssima criminalidade urbana. Coesão social fortíssima baseada na cultura tradicional e laços familiares históricos. Estabilidade institucional sólida.
 - **Leis Local:** Município histórico consolidado. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Seguro (Altamente recomendado para quem busca o máximo de isolamento tático e privacidade em solo fértil próximo à capital).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MADES (Dados do Parque Nacional Vapor Cué): https://www.mades.gov.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Relatórios de acessibilidade rural em Cordillera.
+- Fonte MOPC infraestrutura: Relatórios de acessibilidade rural em Cordillera.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 10.143 habitantes.
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 65% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

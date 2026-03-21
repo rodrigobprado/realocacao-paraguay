@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Mayor Otaño, Itapúa
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 26°23′S 54°42′W.
 - **Topografia:** Relevo ondulado com declives em direção ao Rio Paraná. Altitude ~180m. Geologicamente muito estável.
 - **Alvos Estratégicos:** Porto Mayor Otaño (Logística fluvial de grãos); Travessia de balsa para Eldorado (Argentina); Conexão com o Corredor de Exportação (PY07).
 - **Fallout:** Ventos predominantes do Norte e Leste. Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Centro de Saúde local. Dependência de serviços complexos em Ciudad del Este (100 km) ou Encarnación (160 km).
 - **Custo de Vida:** Baixo; economia baseada na exportação de soja e comércio de fronteira.
 - **Preço da Terra:** US$ 5.000-8.500/ha (terras mecanizadas de alta produtividade próximas ao corredor).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 26.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.80 | 4.56 | 4.33 | 5.81 | 5.02 | 3.95 | 3.04 | 2.44 | 3.78 | 6.64 | 6.00 | 5.88 | **1712 mm** |
+| 149 | 129 | 134 | 174 | 156 | 118 | 94 | 76 | 113 | 206 | 180 | 182 | **1712 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 5 — Céu suburbano |
 | Radiância artificial | 5.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido ao relevo alto em relação ao leito do Rio Paraná. Risco moderado de erosão em áreas de encosta.
 - **Clima:** Subtropical Úmido. Média pluvial de 1.700 mm/ano. Verões quentes e chuvosos.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via Rio Paraná e poços artesianos.
 - **Qualidade do Solo:** **Latossolo Vermelho (Terra Vermelha)**; muito fértil e profundo, ideal para soja, milho e trigo.
 - **Resources Locais:** Grande excedente de grãos e proteína animal. Elevado potencial para autossuficiência alimentar.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.17 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.3833°, -54.7°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -26.3833°, -54.7°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona de fronteira ativa. Baixa criminalidade urbana comum, mas vigilância necessária contra atividades ilícitas transfronteiriças. Coesão social baseada no agronegócio.
 - **Leis Local:** Município consolidado. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira argentina. Áreas urbanas liberadas para brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,7 +131,7 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca base produtiva exportadora com conectividade moderna).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MOPC (Corredor de Exportação): https://mopc.gov.py/servicios/estado-de-las-rutas/
 
 ## 9. Indicadores Quantificados
@@ -186,7 +181,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -200,7 +194,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -211,7 +204,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 78% |
 | Tecnologia predominante | fibra/rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

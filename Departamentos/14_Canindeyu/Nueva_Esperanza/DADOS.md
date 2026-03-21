@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Nueva Esperanza, Canindeyú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°26′S 54°51′W.
 - **Topografia:** Relevo predominantemente plano, solo de altíssima produtividade (Terra Roxa mecanizada). Altitude ~240m. Área de ~1.342 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** **Capital do Agronegócio de Canindeyú** (Um dos maiores polos produtores de grãos do Paraguai); Gigantesco complexo de silos e agroindústrias; Eixo logístico da Ruta **PY03**. Ausência de bases militares massivas, mas centro de gravidade econômica e de suprimentos de importância nacional.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto; posição isolada e protegida.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura de serviços de primeiro nível regional. Sanatórios privados modernos, rede bancária completa e o maior suporte técnico agroindustrial do leste paraguaio.
 - **Custo de Vida:** Médio; economia dolarizada pelo agronegócio e alta valorização das áreas mecanizadas.
 - **Preço da Terra:** US$ 12.000-18.000/ha (terras mecanizadas de elite mundial).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 26.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.39 | 4.77 | 3.64 | 4.30 | 4.93 | 2.99 | 2.20 | 2.04 | 3.42 | 6.00 | 5.90 | 5.67 | **1530 mm** |
+| 136 | 135 | 113 | 129 | 153 | 90 | 68 | 63 | 103 | 186 | 177 | 176 | **1530 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia plana favorável e gestão hídrica eficiente. Presença de arroios perenes de alta qualidade.
 - **Clima:** Subtropical Úmido. Verões intensos e invernos com geadas que beneficiam a produtividade de grãos.
-- Fontes: 
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundante via poços artesianos profundos e lençol freático produtivo; excelente qualidade hídrica subterrânea (Aquífero Guarani).
 - **Qualidade do Solo:** **Latossolo Vermelho de Elite**; solo profundo e de fertilidade máxima mundial. Excelente aptidão para soja, milho e trigo.
 - **Resources Locais:** **Polo de Segurança Alimentar Nacional.** Imensa produção de grãos e proteína animal. Elevadíssimo potencial para autossuficiência absoluta em nível de propriedade ou regional.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Uma das cidades mais seguras e prósperas do país. Baixíssima criminalidade urbana comum. Coesão social fortíssima baseada na cultura cooperativista e produtora. Presença de segurança patrimonial privada de alta performance em todas as instalações agroindustriais.
 - **Leis Local:** Município consolidado e polo de influência ("A Cidade do Trabalho"). **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,7 +117,7 @@ Classificacao:
 - Seguro (Localidade de elite absoluta para autossuficiência e residência tática, oferecendo o máximo em recursos e segurança social).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MAG (Dados de produtividade de Canindeyú): https://www.mag.gov.py/
 - Fonte Cooperativas Locais (Capacidade de armazenamento e processamento).
 
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.23 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.4333°, -54.85°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.4333°, -54.85°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~5,0 (Muito baixo/Produtivo).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

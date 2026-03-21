@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Borja, Guairá
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°56′S 56°29′W.
 - **Topografia:** Relevo predominantemente plano com áreas de transição para o Rio Tebicuary-mí. Presença de "esteros" (áreas úmidas) em zonas baixas. Geologicamente estável, risco sísmico muito baixo.
 - **Alvos Estratégicos:** Nova Usina de Açúcar Orgânico (Investimento de US$ 42M); Eixo rodoviário secundário de conexão com a PY08; Proximidade com polos industriais de Villarrica e Iturbe.
 - **Fallout:** Ventos predominantes de Leste (E) durante 9 meses e Norte (NE) no verão. Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Posto de Saúde local para atendimentos básicos. Dependência do Hospital Regional de Villarrica (30 km) para alta complexidade.
 - **Custo de Vida:** Muito baixo; economia baseada na cana-de-açúcar e pecuária de subsistência.
 - **Preço da Terra:** US$ 2.500-6.000/ha (terras mecanizadas/pastagens); US$ 15.000/ha (áreas com infraestrutura ou beira de asfalto).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.35 | 4.55 | 4.28 | 5.31 | 5.34 | 3.12 | 2.53 | 1.97 | 3.11 | 6.11 | 6.25 | 5.30 | **1590 mm** |
+| 135 | 129 | 133 | 159 | 166 | 94 | 78 | 61 | 93 | 189 | 188 | 164 | **1590 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 2.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Localizada.** Áreas ribeirinhas do Rio Tebicuary-mí e arroios tributários vulneráveis a transbordamentos em anos de El Niño intenso.
 - **Clima:** Subtropical Úmido. Média de 1.600 mm/ano. Inverno com quedas bruscas de temperatura (frentes frias do Sul).
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via Rio Tebicuary-mí, arroios e poços artesianos.
 - **Qualidade do Solo:** Solo arenoso (podzólicos) em áreas altas e argiloso em áreas baixas. Muito apto para cana-de-açúcar, mandioca, uva e pastagens.
 - **Resources Locais:** Grande polo produtor de cana-de-açúcar orgânica e gado de corte. Elevado potencial para autossuficiência calórica per capita.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.38 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.9333°, -56.4833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.9333°, -56.4833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural extremamente pacífica. Guairá tem uma das menores taxas de homicídios do país (~3,6/100k). Crime comum focado em abigeato (roubo de gado).
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira:** Localizado no interior, permitindo plena titularidade para investidores estrangeiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,7 +131,7 @@ Classificacao:
 - Seguro (Localidade recomendada para isolamento rural produtivo com segurança superior).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MIC (investimentos industriais): https://www.mic.gov.py/
 - Fonte Ministério do Interior (segurança): https://www.mdi.gov.py/
 
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 60% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

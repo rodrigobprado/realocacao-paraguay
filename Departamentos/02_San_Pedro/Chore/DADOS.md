@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Choré, San Pedro
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°11′S 56°35′W.
 - **Topografia:** Relevo predominantemente plano com suaves ondulações. Solo fértil de cor avermelhada característica ("tierra roja"). Geologicamente estável, risco sísmico muito baixo.
 - **Alvos Estratégicos:** Grandes silos de armazenamento de grãos; Indústrias de processamento de tabaco (um dos maiores produtores nacionais); Cooperativas agrícolas.
 - **Fallout:** Ventos predominantes do Norte (quentes/secos) e Sul (frentes frias).
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Centro de Saúde local para atendimentos básicos. Referência regional de alta complexidade no Hospital Geral de Santa Rosa del Aguaray (Hospital Paraguai-Coreia). Presença de centros de formação agronômica (UNC).
 - **Custo de Vida:** Baixo; economia baseada na agricultura familiar e agronegócio.
 - **Preço da Terra:** US$ 1.400-2.500/ha (terras agrícolas brutas); US$ 3.000-5.000/ha (áreas com infraestrutura e prontas para mecanização).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 28.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 24° N (anual) · 34° N (inverno jun-ago) · 14° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.39 | 5.38 | 3.67 | 4.73 | 4.50 | 2.66 | 1.89 | 1.18 | 2.77 | 5.36 | 6.53 | 5.43 | **1476 mm** |
+| 136 | 152 | 114 | 142 | 140 | 80 | 59 | 37 | 83 | 166 | 196 | 168 | **1476 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações em grande escala. Risco moderado de isolamento de colônias rurais por chuvas intensas (>100mm/dia frequentes no verão).
 - **Clima:** Subtropical Úmido. Precipitação anual de 1.400-1.600 mm. Suscetível a ventos fortes (90-120 km/h) durante temporais.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via poços artesianos e nascentes locais; lençol freático produtivo.
 - **Qualidade do Solo:** Solo arenoso a franco-arenoso (Entisóis); profundo e bem drenado, exige calagem e adubação, mas oferece alta resposta produtiva.
 - **Resources Locais:** Grande produtor de tabaco, soja, mandioca e pecuária de corte. Elevadíssimo potencial para autossuficiência alimentar básica e geração de excedentes comerciais.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.26 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.1833°, -56.5833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.1833°, -56.5833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Região com histórico de movimentos camponeses e reivindicações de terra (risco de invasões em grandes latifúndios). Baixa criminalidade urbana violenta. Zona de trânsito regional vigiada pela Polícia Nacional.
 - **Leis Local:** Município consolidado e polo agrícola. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da Lei 2532/05, sem restrições para proprietários estrangeiros brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Moderadamente Seguro (Recomendado para perfis focados em produção agrícola e integração rural).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MAG/Productiva (uso do solo): https://productivacm.com/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 23.548 habitantes.
@@ -187,7 +182,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -201,7 +195,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -212,7 +205,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

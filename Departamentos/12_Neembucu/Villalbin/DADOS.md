@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Villalbín, Ñeembucú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 27°05′S 58°12′W.
 - **Topografia:** Relevo predominantemente plano, caracterizado por áreas de baixada, humedales e arroios tributários da bacia do Rio Paraguai. Altitude ~55m. Área de ~388 km². Geologicamente estável, risco sísmico nulo.
 - **Alvos Estratégicos:** Áreas de pecuária extensiva; Ponto de conexão tática secundária entre Pilar e o extremo sul do departamento. Ausência total de infraestrutura industrial ou bases militares, oferecendo excelente invisibilidade estratégica e proteção por isolamento geográfico.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto de qualquer alvo continental devido ao isolamento geográfico.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura básica mínima. Dependência absoluta de Pilar (~40 km) para atendimentos de saúde especializados, logística comercial e serviços administrativos.
 - **Custo de Vida:** Muito baixo; economia baseada na pecuária bovina e agricultura de subsistência.
 - **Preço da Terra:** US$ 800-1.200/ha (campos baixos para pecuária).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.96 | 4.29 | 4.68 | 5.56 | 3.49 | 2.37 | 1.55 | 1.29 | 2.25 | 5.02 | 5.91 | 5.24 | **1419 mm** |
+| 154 | 121 | 145 | 167 | 108 | 71 | 48 | 40 | 68 | 156 | 177 | 162 | **1419 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 2 — Céu tipicamente escuro |
 | Radiância artificial | 0.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Crítico.** Localizado em zona de terras baixas, altamente vulnerável a cheias sazonais e extraordinárias que podem comprometer os acessos terrestres por semanas e saturar o solo.
 - **Clima:** Subtropical Úmido. Verões intensos e úmidos; invernos amenos com alta umidade relativa e nevoeiros persistentes.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundância de águas superficiais (esteros) e disponibilidade de poços artesianos produtivos. Águas superficiais exigem tratamento para consumo.
 - **Qualidade do Solo:** Solo hidromórfico e arenoso; aptidão para pastagens naturais e pecuária de corte. Baixa aptidão para agricultura mecanizada diversificada sem drenagem.
 - **Resources Locais:** Grande excedente de gado bovino per capita. Elevado potencial para autossuficiência calórica familiar baseada em proteína animal.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural excepcionalmente pacífica e segura. Criminalidade urbana inexistente. Estabilidade social máxima sustentada pela cultura tradicional e resiliência comunitária. Ausência total de visibilidade para conflitos sociais.
 - **Leis Local:** Município consolidado. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira argentina (limite tático dos esteros).
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,9 +117,9 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca isolamento tático "low profile" extremo, aceitando a precariedade logística).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte SEN (Histórico de isolamento em Ñeembucú): https://sen.gov.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Relatórios de acessibilidade rural.
+- Fonte MOPC infraestrutura: Relatórios de acessibilidade rural.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 1.613 habitantes.
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.4 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -27.0833°, -58.2°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -27.0833°, -58.2°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~0,0 (Paz total).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 40% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

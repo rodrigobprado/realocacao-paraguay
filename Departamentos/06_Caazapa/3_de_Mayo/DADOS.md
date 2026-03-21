@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: 3 de Mayo, Caazapá
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 26°43′S 55°41′W.
 - **Topografia:** Relevo predominantemente plano com algumas ondulações. Localizado no sul do departamento, banhado pelo Rio Pirapó. Altitude ~140m. Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Áreas de produção citrícola (Laranja/Tangerina); Ponto de conexão rodoviária entre Caazapá e Itapúa. Ausência de alvos militares primários, oferecendo boa invisibilidade tática.
 - **Fallout:** Ventos predominantes de Nordeste (NE) e Leste (E). Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local. Dependência de Yuty ou da capital Caazapá para atendimentos médicos de alta complexidade.
 - **Custo de Vida:** Muito baixo; economia baseada na produção primária e pequena agroindústria.
 - **Preço da Terra:** US$ 2.500-4.500/ha (áreas mistas/pecuária); US$ 5.000-7.500/ha (áreas mecanizáveis ou com citricultura).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 28.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.55 | 4.35 | 4.39 | 5.70 | 5.04 | 3.34 | 2.63 | 2.28 | 3.35 | 6.25 | 6.26 | 5.38 | **1629 mm** |
+| 141 | 123 | 136 | 171 | 156 | 100 | 82 | 71 | 100 | 194 | 188 | 167 | **1629 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 0.8 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco Moderado de Inundação.** Proximidade com o Rio Pirapó e diversos arroios. Áreas ribeirinhas baixas vulneráveis a transbordamentos cíclicos em anos de El Niño intenso.
 - **Clima:** Subtropical Úmido. Verões quentes; invernos com frentes frias do Sul.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via Rio Pirapó, arroios e poços artesianos; lençol freático produtivo.
 - **Qualidade do Solo:** Latossolo Vermelho e solos hidromórficos (nas baixadas); muito fértil em áreas altas, excelente para citros, mandioca e pastagens.
 - **Resources Locais:** Grande produtor de laranjas e tangerinas, mandioca e gado de corte. Elevado potencial para autossuficiência alimentar básica em nível familiar e excedente de fruticultura.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.28 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.7167°, -55.6833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -26.7167°, -55.6833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural pacífica. Caazapá mantém índices de segurança estáveis, embora enfrente desafios de microtráfico em núcleos urbanos maiores. Coesão social baseada em comunidades agrícolas tradicionais.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira:** Localizado no interior do país, permitindo plena titularidade para brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Seguro (Localidade recomendada para quem busca qualidade de vida rural com foco em fruticultura e abundância hídrica).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Obras pavimentação trecho Lima-Tatú Kua.
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: Obras pavimentação trecho Lima-Tatú Kua.
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 42% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Naranjal, Alto Paraná
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°58′S 55°11′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado, solo de altíssima produtividade mecanizado em 95% da área. Altitude ~240m. Área de ~802 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** **Cooperativa de Produção Agroindustrial Naranjal (COPRONAR)** - Infraestrutura crítica de armazenamento e processamento de grãos; Grandes plantas de silos; Polo logístico regional do sul de Alto Paraná.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura de serviços de alta qualidade para o porte do distrito. Clínicas modernas, apoio técnico avançado da cooperativa e centros educacionais. Dependência de Santa Rita (35 km) para alta complexidade médica.
 - **Custo de Vida:** Médio; economia dolarizada pelo agronegócio, mas com acesso direto a produtos básicos a preços de origem.
 - **Preço da Terra:** US$ 10.000-15.000/ha (terras mecanizadas de elite - "Terra Roxa").
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 29.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.70 | 4.56 | 4.19 | 5.14 | 5.15 | 3.70 | 2.82 | 2.22 | 3.78 | 6.53 | 5.72 | 5.76 | **1652 mm** |
+| 146 | 129 | 130 | 154 | 160 | 111 | 87 | 69 | 113 | 202 | 172 | 179 | **1652 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 6 — Céu suburbano brilhante |
 | Radiância artificial | 15.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à gestão hídrica agrícola eficiente e topografia favorável. Presença de arroios perenes utilizados para irrigação e pecuária.
 - **Clima:** Subtropical Úmido. Verões quentes e invernos com geadas que favorecem a safra de trigo.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via poços artesianos profundos e lençol freático produtivo (Sistema Aquífero Guarani).
 - **Qualidade do Solo:** **Latossolo Vermelho de Elite**; solo profundo e de altíssima fertilidade natural, mantido por técnicas de agricultura de precisão.
 - **Resources Locais:** Grande produção de soja, milho, trigo, suínos e aves. Elevadíssimo potencial para autossuficiência calórica e hídrica em nível de propriedade ou cooperativa.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.23 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.9667°, -55.1833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.9667°, -55.1833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Uma das zonas mais seguras do Paraguai. Baixíssima criminalidade urbana violenta. Forte coesão social comunitária e segurança patrimonial privada altamente eficiente nas fazendas e indústrias. Baixa visibilidade para conflitos externos.
 - **Leis Local:** Município consolidado e polo de referência tecnológica ("Cidade Cooperativa"). **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Seguro (Localidade altamente recomendada para quem busca isolamento rural produtivo com segurança superior).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte COPRONAR (produção agroindustrial): https://www.copronar.com.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 6.608 habitantes.
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

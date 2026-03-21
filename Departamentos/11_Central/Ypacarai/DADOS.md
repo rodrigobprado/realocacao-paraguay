@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Ypacaraí, Central
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°24′S 57°17′W.
 - **Topografia:** Relevo ondulado com encostas da cordilheira ao leste e margens do Lago Ypacaraí ao norte. Altitude ~150m. Área de ~111 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Ponto de bifurcação nevrálgico na Ruta **PY02** duplicada; Polo industrial farmacêutico em expansão (**Prosalud Farma**); Estação Ferroviária Histórica (ativo logístico); Proximidade estratégica com a cidade de Caacupé (capital espiritual). Ausência de alvos militares diretos, mas nó logístico metropolitano fundamental.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Centro de Saúde de Ypacaraí e proximidade com hospitais de alta complexidade em Itauguá (~10 km) e Caacupé. Infraestrutura urbana consolidada com forte comércio voltado ao turismo e serviços de beira de estrada.
 - **Custo de Vida:** Baixo; economia baseada no turismo, artesanato e setor industrial farmacêutico.
 - **Preço da Terra:** US$ 100.000-140.000/ha (Áreas na Ruta PY02); US$ 40.000-60.000/ha (Zonas rurais com vista); US$ 40-80/m² (Urbano).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 31.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 | **1477 mm** |
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 | **1477 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 7 — Transição suburbano-urbano |
 | Radiância artificial | 40.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Proximidade com o Lago Ypacaraí. Baixo risco de inundações sistêmicas catastróficas. Vulnerabilidade localizada em drenagem pluvial urbana e áreas baixas ribeirinhas durante chuvas intensas (média 1.600 mm/ano).
 - **Clima:** Subtropical Úmido. Verões quentes; invernos frescos influenciados pela proximidade com a cordilheira.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via poços artesianos profundos e sistemas de junta de saneamento comunitários eficientes.
 - **Qualidade do Solo:** Solo franco-argiloso; fértil e profundo, ideal para fruticultura, mandioca e horticultura familiar.
 - **Resources Locais:** Novo polo da indústria farmacêutica nacional. Produção artesanal, serviços turísticos e pequena agropecuária. Elevado potencial para autossuficiência hídrica e alimentar básica em nível regional e comunitário.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.31 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.4°, -57.2833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.4°, -57.2833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade tradicionalmente pacífica, conhecida como a "Cidade do Folklore". Criminalidade urbana menor que nos distritos adjacentes mais densos. Coesão social fortíssima baseada na tradição artística e histórica ferroviária. Segurança institucional estável.
 - **Leis Local:** Município histórico e consolidado. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,7 +131,7 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca integração cultural e serviços industriais em ambiente seguro próximo à capital).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MIC (Dados de investimento industrial farmacêutico): https://www.mic.gov.py/
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | fibra óptica disponível |
-
 
 ### Mercado Imobiliário e Terra Rural
 

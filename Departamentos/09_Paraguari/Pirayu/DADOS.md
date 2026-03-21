@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Pirayú, Paraguarí
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°29′S 57°14′W.
 - **Topografia:** Relevo ondulado ("lomadas"), situado aos pés da Cordilheira de los Altos. Altitude ~150m. Área de ~184 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Estação Ferroviária Histórica (valor patrimonial); Polo de artesanato nacional (Ñandutí); Proximidade estratégica com o Cerro León e com o departamento Central (~50 km de Assunção). Ausência de alvos militares de grande porte, oferecendo boa invisibilidade tática.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Risco de fallout indireto moderado em caso de ataques severos à região metropolitana.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local. Dependência direta de Ypacaraí ou Paraguarí para saúde de alta complexidade e logística comercial avançada.
 - **Custo de Vida:** Baixo; economia baseada no artesanato têxtil, pecuária e pequena agricultura.
 - **Preço da Terra:** US$ 10.000-20.000/ha (áreas de lazer/chácaras residenciais); US$ 5.000-8.000/ha (áreas rurais agrícolas).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 30.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 | **1477 mm** |
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 | **1477 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Diversos arroios cruzam o distrito (ex: Arroyo Pirayú). Baixo risco de inundações sistêmicas catastróficas. Drenagem natural facilitada pela topografia de encosta.
 - **Clima:** Subtropical Úmido. Microclima agradável influenciado pelas serras circundantes.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via poços artesianos e juntas de saneamento local; presença de mananciais de água pura nas encostas.
 - **Qualidade do Solo:** Solo franco-arenoso a argiloso; fértil e profundo, ideal para fruticultura, mandioca e pastagens cultivadas.
 - **Resources Locais:** Grande tradição em artesanato (Ñandutí), produção de gado de pequeno porte e agricultura familiar diversificada. Elevado potencial para autossuficiência alimentar e hídrica em nível de propriedade.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.31 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.4833°, -57.2333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.4833°, -57.2333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona extremamente tranquila e pacífica. Paraguarí mantém baixos índices de criminalidade. Coesão social fortíssima baseada na preservação cultural e hospitalidade.
 - **Leis Local:** Município histórico e consolidado ("Cuna del Ñandutí"). **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Moderadamente Seguro (Excelente opção para residências rurais próximas à capital com alta segurança social).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte IPA (Artesanato): https://www.artesania.gov.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 12.646 habitantes.
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 58% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

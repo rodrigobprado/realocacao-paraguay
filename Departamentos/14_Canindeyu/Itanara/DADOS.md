@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Itanará, Canindeyú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°01′S 55°29′W.
 - **Topographical:** Relevo predominantemente plano a suavemente ondulado, situado no extremo norte do departamento de Canindeyú. Altitude ~220m. Área vasta de ~920 km². Geologicamente estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Áreas de produção pecuária extensiva de grande escala; Local histórico (Teatro de operações da Guerra da Tríplice Aliança nas proximidades). Ausência total de infraestrutura industrial ou bases militares massivas, oferecendo altíssimo nível de invisibilidade estratégica e proteção por isolamento.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto de alvos continentais primários devido ao isolamento profundo.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura básica mínima. Dependência absoluta de Curuguaty ou Salto del Guairá para serviços de saúde especializados, logística comercial e administrativa. A vila urbana é minúscula e focada no essencial.
 - **Custo de Vida:** Muito baixo; economia baseada na pecuária e no autoconsumo rural.
 - **Preço da Terra:** US$ 1.500-3.000/ha (áreas de campo natural para pecuária). Valores de entrada baixos para a região oriental.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 25.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 24° N (anual) · 34° N (inverno jun-ago) · 14° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.32 | 5.58 | 3.84 | 4.49 | 4.64 | 2.82 | 1.90 | 1.71 | 3.24 | 5.67 | 6.27 | 5.62 | **1525 mm** |
+| 134 | 158 | 119 | 135 | 144 | 85 | 59 | 53 | 97 | 176 | 188 | 174 | **1525 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia ondulada. Presença de diversos arroios e nascentes perenes de alta qualidade hídrica. Risco severo de isolamento físico por danos em estradas de terra durante eventos de chuva intensa (média 1.700 mm/ano).
 - **Clima:** Subtropical Úmido. Verões intensos; invernos amenos com alta umidade relativa.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundante via poços artesianos e nascentes naturais; excelente qualidade hídrica subterrânea.
 - **Qualidade do Solo:** Solo franco-argiloso e arenoso; excelente aptidão para pastagens naturais e pecuária de corte. Potencial agrícola limitado pela infraestrutura logística de escoamento.
 - **Resources Locais:** Grande excedente de gado bovino per capita. Elevadíssimo potencial para autossuficiência calórica familiar baseada em proteína animal para a ínfima carga populacional.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural excepcionalmente pacífica em termos de crime comum. No entanto, exige **extrema cautela tática regional** devido à proximidade com zonas de fronteira sensíveis e histórico de trânsito de ilícitos no departamento. Estabilidade social baseada no isolamento geográfico.
 - **Leis Local:** Município consolidado ("Cidade da Ganaderia"). **Livre de Restrição de Fronteira:** Localizado fora da faixa de 50km da fronteira seca internacional.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,8 +117,8 @@ Classificacao:
 - Moderadamente Seguro (Indicado apenas para projetos de isolamento tático extremo que busquem o máximo anonimato na Região Oriental).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Relatórios de acessibilidade no Norte de Canindeyú.
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: Relatórios de acessibilidade no Norte de Canindeyú.
 - Fonte Ministério do Interior (Segurança Regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.25 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.0167°, -55.4833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.0167°, -55.4833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~18,0 (Regional/Canindeyú - Baixo nível local).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

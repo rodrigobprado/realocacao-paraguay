@@ -1,6 +1,6 @@
 # Avaliacao de Localidade: San Pedro de Ycuamandiyu, San Pedro
 
-## Pesquisa oficial consolidada (acesso em 2026-03-05)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°06′S 57°05′W (geocodificado via Nominatim).
@@ -12,8 +12,6 @@
 - Censo 2022 INE: https://www.ine.gov.py/censo2022/
 - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 - MOPC (estado de rutas): https://mopc.gov.py/servicios/estado-de-las-rutas/
-
-
 
 ### Indicadores Sociais
 
@@ -38,7 +36,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -52,11 +49,11 @@
 
 **Inclinação solar recomendada:** 24° N (anual) · 34° N (inverno jun-ago) · 14° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.39 | 5.38 | 3.67 | 4.73 | 4.50 | 2.66 | 1.89 | 1.18 | 2.77 | 5.36 | 6.53 | 5.43 | **1476 mm** |
+| 136 | 152 | 114 | 142 | 140 | 80 | 59 | 37 | 83 | 166 | 196 | 168 | **1476 mm** |
 
 #### Poluição Luminosa
 
@@ -65,10 +62,9 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 2.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
-- **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):** Jan 6.64 | Fev 6.13 | Mar 5.48 | Abr 4.54 | Mai 3.38 | Jun 2.87 | Jul 3.21 | Ago 3.93 | Set 4.62 | Out 5.45 | Nov 6.37 | Dez 6.67. Média anual: 4.93 kWh/m²/dia. Mínimo: Jun (2.87) | Máximo: Dez (6.67). Fonte: NASA POWER Climatology API, período 2001-2020 (acesso em 2026-03-20).
-- **Precipitação — PRECTOTCORR (mm/dia):** Jan 4.39 | Fev 5.38 | Mar 3.67 | Abr 4.73 | Mai 4.50 | Jun 2.66 | Jul 1.89 | Ago 1.18 | Set 2.77 | Out 5.36 | Nov 6.53 | Dez 5.43. Média anual: ~1.471 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER (acesso em 2026-03-20).
+- **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):** Jan 6.64 | Fev 6.13 | Mar 5.48 | Abr 4.54 | Mai 3.38 | Jun 2.87 | Jul 3.21 | Ago 3.93 | Set 4.62 | Out 5.45 | Nov 6.37 | Dez 6.67. Média anual: 4.93 kWh/m²/dia. Mínimo: Jun (2.87) | Máximo: Dez (6.67). Fonte: NASA POWER Climatology API, período 2001-2020.
+- **Precipitação — PRECTOTCORR (mm/mês):** Jan 136 | Fev 152 | Mar 114 | Abr 142 | Mai 140 | Jun 80 | Jul 59 | Ago 37 | Set 83 | Out 166 | Nov 196 | Dez 168. Média anual: ~1.471 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER.
 - **Inclinação recomendada para placas solares:** 24° voltado para o Norte (anual); 34° no inverno (Jun-Ago); 14° no verão (Nov-Jan). Base: latitude local -24.10°S.
 - DMH avisos: https://www.meteorologia.gov.py/avisos/
 - DMH publicacoes: https://www.meteorologia.gov.py/publicaciones/
@@ -78,7 +74,6 @@
 - ANDE: https://www.ande.gov.py
 - MOPC: https://mopc.gov.py/
 - SEN (projetos): https://sen.gov.py/acciones/proyectos/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -92,7 +87,7 @@
 | Densidade aparente | 1.31 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.1°, -57.0833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.1°, -57.0833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - TSJE institucional: https://www.tsje.gov.py
@@ -129,11 +124,11 @@ Classificacao:
 - Plano de energia resiliente com autonomia minima de 72h (geracao/backup), revisao semestral.
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-05): https://www.ine.gov.py/censo2022/
-- Fonte INE indicadores distritais (acesso em 2026-03-05): https://www.ine.gov.py/vt/Indicadores-distritales.php
-- Fonte MOPC infraestrutura (acesso em 2026-03-05): https://mopc.gov.py/servicios/estado-de-las-rutas/
-- Fonte DMH risco/clima (acesso em 2026-03-05): https://www.meteorologia.gov.py/avisos/
-- Fonte SEN eventos/acoes (acesso em 2026-03-05): https://sen.gov.py/acciones/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte INE indicadores distritais: https://www.ine.gov.py/vt/Indicadores-distritales.php
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte DMH risco/clima: https://www.meteorologia.gov.py/avisos/
+- Fonte SEN eventos/acoes: https://sen.gov.py/acciones/
 
 Sintese aplicada:
 - Dados textuais consolidados com base nas fontes oficiais acima; proximos ciclos podem aprofundar indicadores numericos especificos por distrito.
@@ -207,7 +202,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -221,7 +215,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -232,7 +225,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

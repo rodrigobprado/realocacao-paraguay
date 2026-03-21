@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Capitán Bado, Amambay
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 23°15′S 55°32′W.
 - **Topografia:** Relevo ondulado com presença de serras (Cordillera de Amambay) e solos de elite (Terra Roxa). Altitude ~480m. Área vasta de ~3.205 km². Geologicamente estável.
 - **Alvos Estratégicos:** Polo de produção agrícola e ervateira; Ponto de fronteira seca internacional com Coronel Sapucaia (Brasil). Localização estratégica para o controle do nordeste paraguaio, mas situada em zona de alta complexidade tática regional.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto de alvos continentais primários devido à altitude e isolamento.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Centro de Saúde local e IPS. Dependência de Pedro Juan Caballero (~110 km) para atendimentos de alta complexidade. Infraestrutura comercial focada em suprimentos agrícolas.
 - **Custo de Vida:** Baixo; economia baseada na pecuária, grãos e comércio de fronteira.
 - **Preço da Terra:** US$ 6.000-10.000/ha (terras mecanizadas); US$ 2.000-4.000/ha (áreas de pecuária).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 | **1477 mm** |
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 | **1477 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 2.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido ao relevo serrano e drenagem natural eficiente. Diversas nascentes e arroios de alta qualidade hídrica.
 - **Clima:** Subtropical Úmido. Verões quentes e chuvosos; invernos frescos com geadas frequentes que favorecem o controle de pragas agrícolas.
-- Fontes: 
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundância hídrica via poços artesianos e nascentes na serra; excelente qualidade subterrânea.
 - **Qualidade do Solo:** **Latossolo Vermelho de Elite**; solo profundo e extremamente fértil. Excelente aptidão para soja, milho e erva-mate.
 - **Resources Locais:** Grande produção de grãos e gado bovino. Elevadíssimo potencial para autossuficiência alimentar básica em nível de propriedade devido à vasta área produtiva e baixa população.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona de fronteira com **vigilância tática elevada**. Historicamente sensível a atividades do crime organizado transfronteiriço. Coesão social baseada na cultura produtora tradicional. Segurança institucional presente, mas desafiada pela extensão territorial.
 - **Leis Local:** Município consolidado. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira brasileira.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,7 +117,7 @@ Classificacao:
 - Seguro (Altamente recomendado para quem busca autossuficiência em solo de elite e isolamento tático, ciente dos desafios de segurança regional).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte SENAD (Segurança Regional): https://www.senad.gov.py/
 - Fonte MAG (Aptidão de Solos em Amambay): https://www.mag.gov.py/
 
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.25 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -23.25°, -55.5333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -23.25°, -55.5333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~25,0 (Regional/Fronteira).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 62% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Karapaí, Amambay
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 23°45′S 56°15′W.
 - **Topografia:** Relevo ondulado com mesetas mecanizáveis e remanescentes de floresta subtropical. Solo de altíssima produtividade (Terra Roxa). Altitude ~250m. Área de ~1.274 km². Geologicamente estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Áreas de produção agrícola intensiva (soja, milho); Eixo logístico da Ruta **PY11** (Conexão Amambay-San Pedro); Reservas florestais. Ausência de alvos militares diretos, oferecendo boa invisibilidade estratégica, embora situada em departamento de vigilância tática permanente.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto de alvos continentais primários.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura institucional básica. Unidade de Saúde da Família (USF) local. Dependência de Capitán Bado (50 km) ou Pedro Juan Caballero para serviços hospitalares de alta complexidade.
 - **Custo de Vida:** Baixo; economia baseada na exportação de grãos e pecuária.
 - **Preço da Terra:** US$ 6.000-10.000/ha (terras mecanizadas de elite); US$ 2.000-4.000/ha (áreas de pecuária/reserva).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 23° N (anual) · 33° N (inverno jun-ago) · 13° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 5.02 | 6.05 | 3.88 | 4.59 | 4.15 | 2.69 | 1.75 | 1.40 | 2.84 | 5.35 | 6.49 | 5.50 | **1513 mm** |
+| 156 | 171 | 120 | 138 | 129 | 81 | 54 | 43 | 85 | 166 | 195 | 170 | **1513 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 2.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido ao relevo ondulado e boa drenagem natural. Diversos arroios perenes de alta qualidade hídrica cruzam o distrito.
 - **Clima:** Tropical Úmido. Verões intensos e chuvosos (média 1.700 mm/ano); invernos amenos com geadas ocasionais.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundante via nascentes naturais e poços artesianos profundos; excelente qualidade hídrica subterrânea.
 - **Qualidade do Solo:** **Latossolo Vermelho de Elite (Terra Roxa)**; solo profundo, estruturado e de altíssima fertilidade natural. Excelente aptidão para soja, milho e yerba mate.
 - **Resources Locais:** Grande produção de grãos e gado de corte. Elevadíssimo potencial para autossuficiência alimentar básica em nível de propriedade devido à vasta área produtiva e baixa população.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural pacífica em termos de crime comum urbano. No entanto, o departamento de Amambay exige **vigilância tática elevada** devido à presença de narcotráfico e grupos insurgentes em zonas de mata. Coesão social baseada na cultura produtora e comunidades indígenas locais.
 - **Leis Local:** Município de criação recente (2013). **Livre de Restrição de Fronteira:** Localizado fora da faixa de 50km da fronteira seca internacional.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,7 +117,7 @@ Classificacao:
 - Moderadamente Seguro (Indicado para projetos de autossuficiência em solo de elite, exigindo preparo tático para o contexto regional).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte SENAD (Relatórios de segurança regional): https://www.senad.gov.py/
 - Fonte MAG (Produção agrícola departamental): https://www.mag.gov.py/
 
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.34 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -23.75°, -56.25°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -23.75°, -56.25°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~25,0 (Regional/Amambay - Concentrado em áreas de fronteira).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 62% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

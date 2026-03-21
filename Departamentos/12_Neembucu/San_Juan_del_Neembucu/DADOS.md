@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: San Juan Bautista del Ñeembucú, Ñeembucú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 26°39′S 57°56′W.
 - **Topografia:** Relevo predominantemente plano, situado no coração geográfico do departamento, cercado por vastos esteros (pantanais) e arroios. Altitude ~60m. Área massiva de ~1.329 km². Geologicamente estável.
 - **Alvos Estratégicos:** Áreas de produção pecuária extensiva de grande porte; Local de isolamento tático no centro do sistema de humedales. Ausência total de alvos militares ou infraestrutura industrial massiva, oferecendo um dos maiores níveis de invisibilidade estratégica e proteção por anonimato na Região Oriental.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto; posição isolada e protegida pela dinâmica atmosférica regional.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura básica mínima. Dependência absoluta de Pilar (~50 km) para atendimentos de saúde especializados, logística comercial e administrativa. A vila urbana é um mic núcleo de apoio à pecuária.
 - **Custo de Vida:** Muito baixo; economia baseada na pecuária bovina e subsistência rural.
 - **Preço da Terra:** US$ 800-1.200/ha (campos baixos para pecuária extensiva).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.96 | 4.29 | 4.68 | 5.56 | 3.49 | 2.37 | 1.55 | 1.29 | 2.25 | 5.02 | 5.91 | 5.24 | **1419 mm** |
+| 154 | 121 | 145 | 167 | 108 | 71 | 48 | 40 | 68 | 156 | 177 | 162 | **1419 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 2 — Céu tipicamente escuro |
 | Radiância artificial | 0.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Crítico.** Distrito situado no centro da bacia de drenagem dos esteros de Ñeembucú. O solo hidromórfico retém água por longos períodos, tornando as vias de terra intransitáveis em eventos de "El Niño". Abundância hídrica superficial permanente.
 - **Clima:** Subtropical Úmido. Verões intensos e chuvosos; invernos amenos com alta umidade e nevoeiros persistentes.
-- Fontes: 
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundante via poços artesianos e águas superficiais (esteros). Qualidade da água superficial exige tratamento para consumo humano.
 - **Qualidade do Solo:** Solo hidromórfico e arenoso; excelente para pastagens naturais e gado de corte. Agricultura mecanizada inviável sem projetos massivos de drenagem.
 - **Resources Locais:** Grande produção de gado bovino per capita. Elevadíssimo potencial para autossuficiência de proteína animal para a pequena população local.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Localidade excepcionalmente pacífica e segura. Criminalidade urbana inexistente. Estabilidade social máxima baseada na resiliência da população tradicional aos desafios hídricos. Localidade "invisível" para qualquer conflito sociopolítico nacional.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,9 +117,9 @@ Classificacao:
 - Seguro (Altamente recomendado para quem busca isolamento tático radical e autossuficiência proteica, aceitando os desafios do isolamento hídrico).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte SEN (Histórico de isolamento em Ñeembucú Central): https://sen.gov.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Relatórios de acessibilidade rural.
+- Fonte MOPC infraestrutura: Relatórios de acessibilidade rural.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 3.803 habitantes.
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.41 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.65°, -57.9333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -26.65°, -57.9333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~0,0 (Histórico de paz absoluta).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 40% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Nueva Italia, Central
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°37′S 57°30′W.
 - **Topografia:** Relevo predominantemente plano com presença de humedais e arroios (ex: Capiibary). Altitude ~110m. Área vasta de ~371 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Áreas de expansão agroindustrial e logística; Conexão viária secundária estratégica para o Sul (Carapeguá) e para os portos de Villeta. Ausência absoluta de alvos militares ou industriais primários, oferecendo excelente invisibilidade tática e discrição.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local. Dependência crítica de Villeta (15 km) ou Guarambaré para saúde de média complexidade e logística comercial diversificada.
 - **Custo de Vida:** Muito baixo; economia baseada na pecuária, agricultura familiar e pequena agroindústria.
 - **Preço da Terra:** US$ 15.000-30.000/ha (Rurais/Agrícolas); US$ 20-40/m² (Urbano). Valores competitivos para o padrão de Central.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 29.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 | **1477 mm** |
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 | **1477 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 7 — Transição suburbano-urbano |
 | Radiância artificial | 40.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco Moderado de Inundação.** Proximidade com zonas baixas do Rio Paraguai a oeste e presença de arroios tributários. Áreas ribeirinhas vulneráveis em eventos de precipitação extrema (média 1.600 mm/ano).
 - **Clima:** Subtropical Úmido. Verões intensos; invernos amenos com entradas ocasionais de ar polar.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via poços artesianos e lençol freático produtivo; excelente qualidade hídrica subterrânea.
 - **Qualidade do Solo:** Solo franco-arenoso a argiloso; fértil e profundo, ideal para pastagens, abacaxi, mandioca e fruticultura diversificada.
 - **Resources Locais:** Grande produção de abacaxi, gado de corte, leite e produtos de horticultura familiar. Elevadíssimo potencial para autossuficiência alimentar e hídrica básica em nível de propriedade devido à vasta área produtiva e baixa população.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.36 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.6167°, -57.5°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.6167°, -57.5°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona extremamente pacífica. Baixíssima criminalidade urbana violenta. Estabilidade social sustentada pela cultura agrícola tradicional e coesão comunitária. Ideal para quem busca um perfil de segurança "low profile" próximo à capital.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca o máximo de isolamento demográfico ainda dentro do Departamento Central).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Conectividade Villeta-Alberdi e Acceso Sur.
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: Conectividade Villeta-Alberdi e Acceso Sur.
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | fibra óptica disponível |
-
 
 ### Mercado Imobiliário e Terra Rural
 

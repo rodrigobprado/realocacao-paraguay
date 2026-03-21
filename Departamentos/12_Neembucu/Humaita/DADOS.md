@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Humaitá, Ñeembucú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 27°04′S 58°30′W.
 - **Topografia:** Relevo predominantemente plano, situado em uma curva estratégica ("Recodo de Humaitá") do Rio Paraguai. Altitude ~55m. Área de ~321 km². Geologicamente estável.
 - **Alvos Estratégicos:** **Ruínas de San Carlos de Borromeo** (Local histórico de imenso valor militar e simbólico; ponto de observação fluvial); Porto fluvial histórico; Proximidade tática com a confluência dos rios Paraguai e Paraná. Conhecida como a "Sebastopol das Américas", oferece isolamento geográfico e defesa natural provida pelos esteros e pelo rio.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout de alvos continentais primários devido ao isolamento geográfico profundo.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura básica funcional (USF e Centro de Saúde). Dependência de Pilar (~40 km) para atendimentos de alta complexidade. Centro comercial pequeno focado no turismo histórico e pesca.
 - **Custo de Vida:** Muito baixo; economia baseada na pecuária, pesca e turismo.
 - **Preço da Terra:** US$ 1.500-3.000/ha (áreas com costa de rio); US$ 800-1.200/ha (campos baixos).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 | **1477 mm** |
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 | **1477 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 2 — Céu tipicamente escuro |
 | Radiância artificial | 0.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Moderado.** Vulnerável às cheias sazonais do Rio Paraguai. A vila histórica possui sistema de proteção, mas áreas rurais baixas podem ser isoladas. Abundância hídrica superficial inesgotável.
 - **Clima:** Subtropical Úmido. Verões intensos e chuvosos; invernos amenos com alta umidade influenciada pelo rio.
-- Fontes: 
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundância hídrica absoluta via Rio Paraguai e poços artesianos profundos. Água superficial exige tratamento.
 - **Qualidade do Solo:** Solo aluvial e argiloso; excelente para pastagens naturais e pecuária de corte.
 - **Resources Locais:** Grande excedente de gado bovino e recursos pesqueiros. Elevadíssimo potencial para autossuficiência de proteína animal para a pequena população local.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.36 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -27.0667°, -58.5°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -27.0667°, -58.5°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Localidade excepcionalmente pacífica e segura. Criminalidade urbana inexistente. Estabilidade institucional sólida baseada na presença de destacamentos navais e na importância histórica nacional. Coesão social fortíssima.
 - **Leis Local:** Município consolidado. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira argentina (limite fluvial).
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Seguro (Altamente recomendado para quem busca isolamento tático fluvial e anonimato em ambiente histórico seguro).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte Armada Paraguaia (Segurança Fluvial e Presença Institucional).
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Manutenção de caminhos em Ñeembucú.
+- Fonte MOPC infraestrutura: Manutenção de caminhos em Ñeembucú.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 2.391 habitantes.
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 40% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

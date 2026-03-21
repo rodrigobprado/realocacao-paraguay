@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Mariscal José Félix Estigarribia, Boquerón
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 22°01′S 60°36′W.
 - **Topografia:** Relevo predominantemente plano, característico da planície árida e vasta do Chaco Boreal. Altitude ~180m. O maior distrito em extensão territorial do Paraguai (~48.172 km²). Geologicamente estável, mas com fenômenos de acomodamento de solo (fendas) em períodos de seca extrema.
 - **Alvos Estratégicos:** **Base Aérea Dr. Luis María Argaña** (Infraestrutura estratégica crítica com pista de 3.800m, capaz de operar aeronaves de carga pesada Galaxy C-5); Hub central do **Corredor Bioceânico** (PY15); Comando de unidades de fronteira do Exército Paraguaio; Reservas estratégicas do **Aquífero Yrenda**. Localização estratégica absoluta para o controle militar, aéreo e logístico do Cono Sur.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout de alvos nacionais; posição isolada no coração do continente.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura institucional básica a média. Possui Hospital Militar e serviços voltados à logística de transporte pesado e segurança de fronteira. Dependência de Filadélfia (~80 km) para serviços comerciais complexos.
 - **Custo de Vida:** Baixo; economia baseada na pecuária extensiva, serviços rodoviários e remuneração estatal/militar.
 - **Preço da Terra:** US$ 400-800/ha (terras desenvolvidas); US$ 250-400/ha (campos virgens).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 22° N (anual) · 32° N (inverno jun-ago) · 12° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 3.05 | 4.09 | 2.98 | 2.10 | 1.20 | 0.47 | 0.25 | 0.20 | 0.40 | 1.69 | 2.28 | 2.95 | **659 mm** |
+| 95 | 116 | 92 | 63 | 37 | 14 | 8 | 6 | 12 | 52 | 68 | 91 | **659 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 2 — Céu tipicamente escuro |
 | Radiância artificial | 0.2 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Seca Crítica.** Escassez hídrica é o maior desafio regional. Dependência de sistemas de captação pluvial (aljibes), poços profundos e do Aquífero Yrenda. Baixíssimo risco de inundações fluviais, mas vulnerabilidade a inundações repentinas em solos Luvisóis impermeabilizados.
 - **Clima:** Semiárido/Árido (Chaco Boreal). Verões com calor extremo (>45°C) e invernos com noites muito frias e secas. Radiação solar entre as mais altas da América do Sul.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** **Recurso Estratégico.** Dependência do Aquífero Yrenda (água de boa qualidade em bolsões específicos) e infraestrutura de transporte de água. Captação pluvial é obrigatória para subsistência.
 - **Qualidade do Solo:** Solo argiloso-arenoso fértil, mas limitado pela aridez extrema. Potencial para agricultura mecanizada via irrigação técnica ou pecuária de alto rendimento.
 - **Resources Locais:** Grande produção de gado bovino de corte. Potencial presença de reservas de gás natural e hidrocarbonetos na região. **Resiliência alimentar imediata baixa** para grupos densos; dependência de estoques logísticos.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.38 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -22.0167°, -60.6°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -22.0167°, -60.6°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona de alta segurança militarizada e ordem estrita. Criminalidade urbana comum praticamente inexistente. Presença marcante de comunidades indígenas e do Exército. Ideal para quem busca isolamento total sob proteção estatal, ciente da vigilância constante e importância militar do alvo.
 - **Leis Local:** Município consolidado com dinâmica social pautada pela segurança nacional e pelo Corredor Bioceânico. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,7 +131,7 @@ Classificacao:
 - Moderadamente Seguro (Ideal como hub logístico militarizado e isolamento tático extremo para perfis que possuam autonomia hídrica total).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte Ministerio de Defensa Nacional (Operação da Base Aérea): https://mdn.gov.py/
 - Fonte MOPC (Obras do Corredor Bioceânico): https://mopc.gov.py/
 
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 38% |
 | Tecnologia predominante | rádio/satélite |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

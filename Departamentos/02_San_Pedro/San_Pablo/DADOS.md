@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: San Pablo (Cocueré), San Pedro
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°14′S 56°41′W.
 - **Topografia:** Relevo predominantemente plano com áreas ribeirinhas às margens do Rio Jejuí Guazú. Geologicamente estável, risco sísmico muito baixo.
 - **Alvos Estratégicos:** Ponto turístico do Rio Jejuí Guazú (Balneário KM 330); Ausência de alvos militares ou industriais primários, conferindo alta invisibilidade tática.
 - **Fallout:** Ventos predominantes do Leste (E). Baixo risco de fallout de alvos continentais distantes.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local para atenção básica. Dependência total de San Pedro de Ycuamandiyú (capital) para saúde de alta complexidade e serviços bancários.
 - **Custo de Vida:** Muito baixo; economia baseada em agricultura de subsistência e pequena pecuária.
 - **Preço da Terra:** US$ 2.500-6.000/ha (terras desenvolvidas para grãos); US$ 1.000-2.000/ha (áreas de pastagem natural).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 30.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 24° N (anual) · 34° N (inverno jun-ago) · 14° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.39 | 5.38 | 3.67 | 4.73 | 4.50 | 2.66 | 1.89 | 1.18 | 2.77 | 5.36 | 6.53 | 5.43 | **1476 mm** |
+| 136 | 152 | 114 | 142 | 140 | 80 | 59 | 37 | 83 | 166 | 196 | 168 | **1476 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Localizada.** Margens do Rio Jejuí Guazú podem sofrer transbordamentos; estradas de terra tornam-se intransitáveis com chuvas >100mm. O Rio Jejuí Guazú é um dos ativos mais puros do país.
 - **Clima:** Subtropical Úmido. Precipitação anual de 1.500-1.800 mm. Verões com temperaturas médias de 23°C (máximas de 38°C).
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via Rio Jejuí Guazú (considerado pouco poluído) e poços artesianos.
 - **Qualidade do Solo:** Argissolos e Latossolos (vermelhos/amarelos); férteis, profundos e bem drenados. Alta aptidão para soja, milho, algodão e pastagens.
 - **Resources Locais:** Soja, milho, pecuária de corte e pesca de subsistência. Elevadíssimo potencial para autossuficiência individual em pequena escala.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.28 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.2333°, -56.6833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.2333°, -56.6833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Perfil rural pacato. Comunidade pequena e organizada. Embora o departamento tenha histórico de conflitos, San Pablo encontra-se em zona de menor tensão. Taxa de homicídios regional de ~8,0/100k.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da Lei 2532/05, sem impedimentos para brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca isolamento total e autossuficiência básica).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte EMBRAPA/MAG (pedologia): https://www.embrapa.br/
 
 ## 9. Indicadores Quantificados
@@ -188,7 +183,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -202,7 +196,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -213,7 +206,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

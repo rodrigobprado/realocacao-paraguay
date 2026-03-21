@@ -56,11 +56,11 @@ Dados climatologicos extraidos da NASA POWER Climatology API, periodo 2001-2020,
 
 Média anual: 5.08 kWh/m²/dia. Mínimo: Jun (3.33) | Máximo: Jan (6.43).
 
-**Precipitação — PRECTOTCORR (mm/dia):**
+**Precipitação — PRECTOTCORR (mm/mês):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 3.94 | 4.75 | 3.21 | 2.60 | 2.58 | 1.34 | 0.85 | 0.50 | 1.38 | 3.19 | 4.71 | 4.14 |
+| 122 | 134 | 100 | 78 | 80 | 40 | 26 | 16 | 41 | 99 | 141 | 128 |
 
 Média anual: ~1.005 mm/ano. Regime sub-úmido do Chaco Boreal. Estação chuvosa Nov-Fev; seca Jun-Set (mínimo absoluto em Ago).
 

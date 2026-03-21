@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Teniente Irala Fernández (25 Leguas), Presidente Hayes
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 22°58′S 59°31′W.
 - **Topografia:** Relevo predominantemente plano, característico da savana árida do Chaco Central. Altitude ~120m. Área massiva de ~13.278 km² (um dos maiores distritos do Paraguai em extensão). Geologicamente estável.
 - **Alvos Estratégicos:** **Eixo Logístico da Ruta PY09** (Transchaco - parte integrante do Corredor Bioceânico); Polo de produção pecuária e láctea intensiva; Ponto de passagem do Aqueduto do Chaco. Ausência de bases militares massivas, mas localização nevrálgica para o controle de tráfego e suprimentos no coração da Região Ocidental.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto de alvos continentais primários devido ao isolamento geográfico.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura básica a média (Centro de Saúde local). Polo de apoio ao caminhoneiro e ao agronegócio. Dependência de Filadélfia (120 km) ou Villa Hayes para serviços hospitalares de alta complexidade.
 - **Custo de Vida:** Baixo; economia baseada na pecuária extensiva e serviços de beira de estrada.
 - **Preço da Terra:** US$ 400-800/ha (terras desenvolvidas para pastagem); US$ 250-400/ha (campos brutos).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 23° N (anual) · 33° N (inverno jun-ago) · 13° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 3.34 | 4.32 | 3.54 | 2.64 | 1.88 | 0.70 | 0.51 | 0.36 | 0.63 | 2.24 | 3.24 | 3.69 | **825 mm** |
+| 104 | 122 | 110 | 79 | 58 | 21 | 16 | 11 | 19 | 69 | 97 | 114 | **825 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 2 — Céu tipicamente escuro |
 | Radiância artificial | 0.3 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Seca Severa.** Escassez hídrica crônica é o maior desafio. Vulnerabilidade a inundações repentinas por falta de drenagem natural em eventos de chuva torrencial. Solo com alta concentração de sais em certas áreas.
 - **Clima:** Tropical Semiárido (Chaco). Verões com calor extremo (>45°C recordes) e radiação UV altíssima.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** **Recurso Crítico.** Dependência vital de tajamares (reservatórios a céu aberto), aljibes (captação de chuva) e do Aqueduto do Chaco. Poços artesianos frequentemente entregam água salobra.
 - **Qualidade do Solo:** Solo argiloso e aluvial; excelente aptidão para pastagens e pecuária de corte/leite em grande escala.
 - **Resources Locais:** Gigantesca produção de carne bovina e leite (zona de influência das cooperativas menonitas). Elevadíssimo potencial para autossuficiência de proteína animal para a população local.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.34 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -22.9667°, -59.5167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -22.9667°, -59.5167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona de baixa criminalidade urbana comum, mas sensível a rotas de tráfico transnacional devido à imensidão do território. Forte resiliência das comunidades indígenas e produtores locais. Presença institucional policial focada no controle rodoviário.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,7 +131,7 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca isolamento pecuário em larga escala, exigindo alta autonomia hídrica e logística).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MOPC (Dados do Aqueduto do Chaco): https://mopc.gov.py/
 - Fonte Cooperativas Chaco (Produção láctea regional): https://www.chortitzer.com.py/
 
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 35% |
 | Tecnologia predominante | rádio/satélite |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

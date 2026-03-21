@@ -244,7 +244,7 @@ def build_solo_block(soil, lat, lon):
         f"| Densidade aparente | {fmt(bdod, 'g/cm³')} |",
         f"| **Aptidão agrícola** | **{aptidao}** |",
         "",
-        f"Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). "
+        f"Fonte: ISRIC SoilGrids 2.0 via WCS. "
         f"Coords: {lat}°, {lon}°. Média ponderada camadas 0-5, 5-15, 15-30 cm.",
     ]
     return "\n".join(lines)

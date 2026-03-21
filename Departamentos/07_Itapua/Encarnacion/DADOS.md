@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Encarnacion (Capital), Itapua
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 27°20′S 55°54′W.
 - **Topografia:** Relevo predominantemente plano, margeado pelo Rio Paraná. Cidade remodelada após a subida do nível do reservatório de Yacyretá. Área de ~274 km².
 - **Alvos Estratégicos:** Ponte Internacional San Roque González de Santa Cruz (conexão vital com Posadas, Argentina); Sede do Governo Departamental; Porto de Encarnación; Subestações da ANDE; Polo universitário e comercial regional. Proximidade estratégica com a Usina Hidrelétrica de Yacyretá (~80km a jusante).
 - **Fallout:** Ventos predominantes do Sul/Sudeste (Pampero). Baixo risco de fallout de centros globais, mas vulnerável a instabilidades regionais na fronteira.
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -17,10 +17,9 @@
 - **Vias de Acesso:** Ponto central das Rutas PY01 e PY06. Conexão ferroviária de carga com a Argentina. O "Corredor de Exportação" e melhorias na PY18 reforçam o hub logístico.
 - **Serviços:** Melhor infraestrutura de saúde do sul do país (Hospital Regional, IPS, centros privados). Polo educacional com a UNAE e UNI.
 - **Custo de Vida:** US$ 500-1.400/mês. Terrenos urbanos valorizados pela infraestrutura de lazer (Costanera).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
 
 ### Indicadores Sociais
 
@@ -45,7 +44,6 @@
 | Idade mediana | 29.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climaticos (NASA POWER Climatology API, 2001-2020)
 
 Coordenadas: -27.33°S / -55.87°W. Acesso em 2026-03-20.
@@ -58,11 +56,11 @@ Coordenadas: -27.33°S / -55.87°W. Acesso em 2026-03-20.
 
 Média anual: 4.79 kWh/m²/dia. Mínimo: Jun (2.69) | Máximo: Dez (6.73).
 
-**Precipitação — PRECTOTCORR (mm/dia → mm/ano ~1.770):**
+**Precipitação — PRECTOTCORR (mm/mês → mm/ano ~1.770):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 5.02 | 4.41 | 4.81 | 6.21 | 4.73 | 3.73 | 2.97 | 2.89 | 4.05 | 6.94 | 6.35 | 6.05 |
+| 156 | 125 | 149 | 186 | 147 | 112 | 92 | 90 | 122 | 215 | 190 | 188 |
 
 Estação chuvosa Out-Jan; seca Jun-Ago (mínimo em Ago).
 
@@ -72,7 +70,7 @@ Estação chuvosa Out-Jan; seca Jun-Ago (mínimo em Ago).
 - **Hidrologia:** Protegida por tratamento costeiro (Yacyretá), mas vulnerável a tempestades severas e inundações pontuais em sistemas de drenagem pluvial saturados.
 - **Clima:** Subtropical Úmido. Verões intensos (>40°C) e tempestades com ventos fortes.
 - **Sismicidade:** Baixa. Histórico de eventos menores (intraplaca), sem danos estruturais registrados.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
     - Geologia del Paraguay: https://www.geologiadelparaguay.com.py/
@@ -94,17 +92,17 @@ Estação chuvosa Out-Jan; seca Jun-Ago (mínimo em Ago).
 | Densidade aparente | 1.1 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -27.3333°, -55.9°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -27.3333°, -55.9°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Autossuficiência:** Moderada. Embora dependente de logística urbana, está no coração da produção de alimentos do Paraguai.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 5. Ambiente sociopolitico
 - **Segurança:** Taxa de homicídios acompanhando a média nacional descendente (6/100k). Criminalidad focada em delitos patrimoniais e contrabando fronteiriço.
 - **Leis Local:** Capital departamental, forte presença institucional e segurança jurídica para investimentos.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -131,8 +129,8 @@ Classificacao:
 - Moderadamente Seguro (Ideal para hub de serviços com redundância rural).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC (acesso em 2026-03-06): https://mopc.gov.py/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC: https://mopc.gov.py/
 - Fonte Geologia PY: https://www.geologiadelparaguay.com.py/Sismicidad.htm
 
 ## 9. Indicadores Quantificados
@@ -180,7 +178,6 @@ Recomendada como residência principal para quem busca serviços urbanos, desde 
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -194,7 +191,6 @@ Recomendada como residência principal para quem busca serviços urbanos, desde 
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -205,7 +201,6 @@ Recomendada como residência principal para quem busca serviços urbanos, desde 
 | Domicílios com internet (dept.) | 78% |
 | Tecnologia predominante | fibra/rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

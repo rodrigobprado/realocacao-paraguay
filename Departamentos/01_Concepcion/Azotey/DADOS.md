@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Azotey, Concepcion
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 23°13′S 56°30′W.
 - **Topografia:** Relevo predominantemente plano com leves ondulações. Altitude ~180m. Geologicamente estável, risco sísmico muito baixo.
 - **Alvos Estratégicos:** **Cruce Azotey** (Entroncamento tático na Ruta PY08); Base de operações da **FTC (Força de Tarefa Conjunta)**; Proximidade com grandes estâncias pecuárias (ex: Paso Itá).
 - **Fallout:** Ventos predominantes do Norte/Nordeste.
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) para atenção básica. Casos graves dependem de Santa Rosa del Aguaray (San Pedro) ou Concepción (140 km).
 - **Custo de Vida:** Baixo; economia estritamente vinculada ao agronegócio e pequena agricultura.
 - **Preço da Terra:** US$ 3.500-5.000/ha (áreas mecanizáveis ou pastagens de alta produtividade).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 22 anos | dist. |
 | Taxa de fecundidade | 3 | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 23° N (anual) · 33° N (inverno jun-ago) · 13° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 5.02 | 6.05 | 3.88 | 4.59 | 4.15 | 2.69 | 1.75 | 1.40 | 2.84 | 5.35 | 6.49 | 5.50 | **1513 mm** |
+| 156 | 171 | 120 | 138 | 129 | 81 | 54 | 43 | 85 | 166 | 195 | 170 | **1513 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Risco de isolamento logístico por transbordamento de pequenos tributários e degradação das vias de terra.
 - **Clima:** Tropical Úmido. Média de 1.300 a 1.600 mm de chuva anuais. Verões intensos com tempestades súbitas.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Poços artesianos; lençol freático acessível.
 - **Qualidade do Solo:** Alfisois e Ultisois; fertilidade média, exige calagem e adubação para agricultura intensiva (soja/milho).
 - **Resources Locais:** Forte produção de gado de corte e grãos. Elevado potencial para autossuficiência alimentar básica em nível de estância ou comunidade protegida.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.33 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -23.2167°, -56.5°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -23.2167°, -56.5°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** **Zona de Risco Crítico.** Azotey está no epicentro da área de influência do **EPP (Ejército del Pueblo Paraguayo)**. Presença militar permanente da FTC é a norma de segurança. Taxa de homicídios regional entre as maiores do país (~15/100k).
 - **Leis Local:** Município criado em 2009. **Restrição de Fronteira:** Zona limítrofe à faixa de 50km da Lei 2532/05; exige verificação detalhada da localização das glebas.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Sensivel (Recomendado apenas para perfis táticos de alta resiliência e interesse específico em agronegócio protegido).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
-- Fonte CODI/FTC segurança (acesso em 2026-03-06): Relatórios oficiais de área de conflito.
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte CODI/FTC segurança: Relatórios oficiais de área de conflito.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** ~9.100.
@@ -174,7 +169,6 @@ Não recomendado para residência civil passiva. Indicado apenas como ativo de i
 - 4) Delimitação de faixa de segurança de fronteira.
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
-
 
 ## 14. Informações Técnicas e Infraestrutura (Leitores Alfa)
 
@@ -232,7 +226,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -246,7 +239,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -257,7 +249,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 48% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

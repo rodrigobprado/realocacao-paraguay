@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Limpio, Central
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°11′S 57°29′W.
 - **Topografia:** Relevo de planície com áreas de pântanos e baixadas, margeado pelo Rio Paraguai e Rio Salado. Altitude ~100m. Área de ~106 km². Geologicamente estável, risco sísmico muito baixo.
 - **Alvos Estratégicos:** **Portal de Entrada para o Norte** (Início da Ruta PY03); Polo logístico industrial e de distribuição; Humedais do Rio Paraguai (ativo ambiental); Proximidade com o Rio Salado. Ausência de alvos militares de grande escala, mas ponto de controle tático logístico na Grande Assunção.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Hospital Distrital de Limpio e rede comercial em rápida expansão. Polo de centros de distribuição (logística de varejo). Infraestrutura de saúde pressionada pelo crescimento populacional.
 - **Custo de Vida:** Baixo; economia baseada no comércio, logística e serviços metropolitanos.
 - **Preço da Terra:** US$ 30-80/m² (Urbano); US$ 40.000-60.000/ha (Zonas rurais/loteamentos).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 27.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 3.98 | 5.28 | 4.20 | 4.77 | 4.60 | 2.36 | 1.90 | 1.08 | 2.32 | 5.20 | 6.56 | 5.87 | **1465 mm** |
+| 123 | 149 | 130 | 143 | 143 | 71 | 59 | 33 | 70 | 161 | 197 | 182 | **1465 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 7 — Transição suburbano-urbano |
 | Radiância artificial | 40.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco Crítico de Inundação.** Grandes áreas do distrito são baixadas ou pântanos vulneráveis às cheias do Rio Paraguai e Rio Salado. Problemas recorrentes de drenagem pluvial urbana (raudales) em tempestades severas.
 - **Clima:** Subtropical Úmido. Verões intensos (>38°C frequentes) com alta umidade.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Sistema ESSAP e poços artesianos profundos. Água superficial altamente vulnerável a contaminação em áreas baixas.
 - **Qualidade do Solo:** Solo arenoso e hidromórfico; fértil para horticultura, mas com limitações de drenagem que dificultam a agricultura mecanizada intensiva.
 - **Resources Locais:** Grande polo de logística e suprimentos comerciais. Produção hortícola remanescente, mas insuficiente para a massa populacional urbana. Baixa capacidade de autossuficiência calórica total no distrito.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.38 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.1833°, -57.4833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.1833°, -57.4833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade dinâmica com índices de criminalidade urbana típicos de áreas de crescimento rápido e desordenado. Vulnerabilidade a delitos contra o patrimônio e insegurança em áreas periféricas. Segurança institucional presente, mas sob pressão demográfica.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Ideal como base logística de apoio, ciente dos riscos hidrológicos e demográficos).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Projetos de saneamento e pavimentação.
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: Projetos de saneamento e pavimentação.
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | fibra óptica disponível |
-
 
 ### Mercado Imobiliário e Terra Rural
 

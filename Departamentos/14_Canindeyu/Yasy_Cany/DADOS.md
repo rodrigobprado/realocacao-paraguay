@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Yasy Cañy, Canindeyú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°20′S 55°25′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado, com solos de elite (Latossolo Vermelho). Altitude ~240m. Área de ~850 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Polo de produção agrícola intensiva; Gigantesco complexo de silos e armazenamento de grãos; Ponto logístico sobre a Ruta **PY03**. Ausência de bases militares massivas, mas centro de gravidade econômica regional e ponto de passagem para o centro-oeste do departamento.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto; posição isolada e protegida.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura institucional média. Unidade de Saúde da Família (USF) local. Dependência de Curuguaty (approx. 25 km) para serviços hospitalares de alta complexidade e logística comercial especializada.
 - **Custo de Vida:** Baixo; economia baseada na exportação de grãos e pecuária mecanizada.
 - **Preço da Terra:** US$ 8.000-12.000/ha (terras mecanizadas de elite - "Terra Roxa").
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 27.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.13 | 5.16 | 3.82 | 4.73 | 5.23 | 2.97 | 2.13 | 1.64 | 3.36 | 5.84 | 6.19 | 5.51 | **1544 mm** |
+| 128 | 146 | 118 | 142 | 162 | 89 | 66 | 51 | 101 | 181 | 186 | 171 | **1544 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia favorável e drenagem natural eficiente. Presença de diversos arroios perenes de alta qualidade hídrica (ex: Rio Jejuí Guazú ao norte).
 - **Clima:** Subtropical Úmido. Verões quentes e chuvosos; invernos amenos com geadas ocasionais.
-- Fontes: 
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundante via poços artesianos profundos e sistemas de captação local; excelente qualidade hídrica subterrânea.
 - **Qualidade do Solo:** **Latossolo Vermelho de Elite**; solo profundo, estruturado e de altíssima fertilidade natural. Excelente aptidão para soja, milho e pastagens mecanizadas.
 - **Resources Locais:** Grande polo produtor de grãos e proteína animal. Elevadíssimo potencial para autossuficiência alimentar básica em nível de propriedade devido à vasta área produtiva e baixa densidade populacional total.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural pacífica em termos de crime comum urbano. No entanto, exige **atenção tática regional** devido ao contexto de Canindeyú (histórico de tensões agrárias e trânsito de ilícitos). Estabilidade social baseada na cultura produtora tradicional e pequenos/médios fazendeiros.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,9 +117,9 @@ Classificacao:
 - Seguro (Altamente recomendado para quem busca autossuficiência em solo de elite e suporte institucional regional próximo).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MAG (Relatórios de produção agrícola departamental): https://www.mag.gov.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Manutenção da Ruta PY03.
+- Fonte MOPC infraestrutura: Manutenção da Ruta PY03.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 20.399 habitantes.
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.28 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.3333°, -55.4167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.3333°, -55.4167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~18,0 (Regional/Canindeyú).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

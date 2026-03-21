@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Doctor Raúl Peña, Alto Paraná
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°55′S 55°11′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado, com solos altamente férteis e mecanizáveis. Altitude ~240m. Área de ~225 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Áreas de produção agrícola mecanizada de alta performance; Silos de armazenamento de grãos. Localização estratégica no sul do departamento, servindo como ponto de conexão secundário entre Alto Paraná e Itapúa. Ausência de alvos militares diretos, oferecendo excelente invisibilidade tática.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local. Dependência crítica de Naranjal (20 km) ou Santa Rita (45 km) para serviços de saúde de alta complexidade e logística comercial avançada.
 - **Custo de Vida:** Baixo; economia estritamente vinculada ao agronegócio exportador.
 - **Preço da Terra:** US$ 10.000-15.000/ha (terras mecanizadas de elite - "Terra Roxa"); um dos valores mais altos do país devido à produtividade.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 28.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.73 | 4.56 | 3.78 | 4.14 | 5.26 | 3.59 | 2.75 | 2.26 | 4.02 | 6.80 | 5.29 | 5.76 | **1611 mm** |
+| 147 | 129 | 117 | 124 | 163 | 108 | 85 | 70 | 121 | 211 | 159 | 179 | **1611 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 6 — Céu suburbano brilhante |
 | Radiância artificial | 15.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas catastróficas. Presença de arroios locais que favorecem a irrigação natural. Solo com alta capacidade de absorção, mas que exige terraceamento rigoroso contra erosão.
 - **Clima:** Subtropical Úmido. Verões quentes; invernos frescos com geadas ocasionais que beneficiam a cultura do trigo.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundante via poços artesianos profundos e lençol freático produtivo (Sistema Aquífero Guarani).
 - **Qualidade do Solo:** **Latossolo Vermelho de Elite**; solo profundo, estruturado e de altíssima fertilidade natural. Excelente aptidão para soja, milho e trigo.
 - **Resources Locais:** Grande produção de soja, milho e trigo. Elevado potencial para autossuficiência calórica per capita, mas dependente de tecnologia e insumos externos para manutenção da produtividade.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural extremamente pacífica e ordeira. Baixíssima criminalidade urbana. Coesão social baseada na cultura do trabalho agrícola e em laços comunitários de imigrantes produtores. Baixa visibilidade para conflitos sociais de massa.
 - **Leis Local:** Município de criação recente (2012), emancipado de San Cristóbal. **Livre de Restrição de Fronteira:** Localizado fora da faixa de 50km da fronteira internacional seca.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,9 +117,9 @@ Classificacao:
 - Moderadamente Seguro (Ideal para perfis agrícolas que planejem viver com autonomia total de suprimentos).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MAG (produção agrícola departamental): https://www.mag.gov.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 10.048 habitantes.
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.24 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.9167°, -55.1833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.9167°, -55.1833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~8,0 (Regional/Alto Paraná).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

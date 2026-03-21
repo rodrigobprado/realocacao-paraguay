@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Arroyito, Concepcion
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 23°18′S 56°45′W.
 - **Topografia:** Relevo ondulado, área de transição entre planícies e elevações do Norte. Altitude ~150m. Geologicamente estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Bases da **FTC (Força de Tarefa Conjunta)** presentes na região para combate à insurgência. Proximidade com a Ruta PY05 (importante eixo Leste-Oeste).
 - **Fallout:** Ventos predominantes do Norte (médias de 8 km/h).
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local para atendimentos básicos. Dependência de Horqueta ou Concepción (78 km) para serviços complexos. Presença do Colégio Técnico Agropecuário no Núcleo 3.
 - **Custo de Vida:** Baixo; economia baseada em agricultura familiar e subsistência.
 - **Preço da Terra:** US$ 3.000-5.000/ha (áreas mecanizáveis/agricultura familiar).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 28.0 anos | dist. |
 | Taxa de fecundidade | 2 | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 23° N (anual) · 33° N (inverno jun-ago) · 13° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 5.33 | 5.55 | 3.79 | 4.45 | 3.61 | 2.37 | 1.49 | 1.02 | 2.43 | 4.71 | 6.83 | 5.32 | **1428 mm** |
+| 165 | 157 | 117 | 134 | 112 | 71 | 46 | 32 | 73 | 146 | 205 | 165 | **1428 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Risco de isolamento por transbordamento de arroios e lamaçais nas vias vicinais. Histórico de falta de água potável em alguns núcleos (ex: Núcleo 2).
 - **Clima:** Tropical Úmido. Precipitação anual entre 1.300 e 1.500 mm. Suscetibilidade a temporais de verão com ventos fortes.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Poços artesianos e arroios locais; sistemas de distribuição comunitária nos núcleos de assentamento.
 - **Qualidade do Solo:** Predomínio de latossolos vermelhos; férteis com correção, ideais para agricultura familiar, grãos e silvicultura.
 - **Resources Locais:** Agricultura familiar (tomate, mandioca, grãos) e pecuária de pequeno/médio porte. Elevado potencial para autossuficiência alimentar básica em nível comunitário.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.28 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -23.3°, -56.75°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -23.3°, -56.75°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** **Risco Crítico.** Arroyito é historicamente uma das principais zonas de influência e operações do grupo guerrilheiro **EPP (Exército do Povo Paraguaio)**. Presença militar massiva da FTC é necessária e constante. Taxa de homicídios regional de ~14/100k.
 - **Leis Local:** Município de criação recente (2016) originado de assentamento camponês. **Restrição de Fronteira (Lei 2532/05):** Proibição de compra de terras rurais por estrangeiros de países limítrofes na faixa de 50km.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Moderadamente Seguro (Recomendado apenas para perfis resilientes com foco em agricultura familiar e segurança tática).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC/Prefeitura (acesso em 2026-03-06): Manutenção de caminhos vicinais e núcleos.
-- Fonte CODI/FTC (acesso em 2026-03-06): Relatórios de segurança regional.
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC/Prefeitura: Manutenção de caminhos vicinais e núcleos.
+- Fonte CODI/FTC: Relatórios de segurança regional.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 8.282 habitantes.
@@ -174,7 +169,6 @@ Indicado para projetos de autossuficiência alimentar que possam ser integrados 
 - 4) Lei de Segurança Fronteiriça (2532/05).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
-
 
 ## 14. Informações Técnicas e Infraestrutura (Leitores Alfa)
 
@@ -232,7 +226,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -246,7 +239,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -257,7 +249,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 48% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 
@@ -270,7 +261,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Aluguel 2 quartos (USD/mês) | 260 |
 
 > Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
-
 
 ### Saúde
 

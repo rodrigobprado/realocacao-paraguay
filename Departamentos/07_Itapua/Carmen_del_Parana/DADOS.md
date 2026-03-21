@@ -1,6 +1,6 @@
 # Avaliacao de Localidade: Carmen del Parana, Itapua
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 27°10′S 56°04′W (geocodificado via Nominatim).
@@ -12,8 +12,6 @@
 - Populacao Censo 2022: 6.417 habitantes.
 - Densidade: ~32 hab/km2.
 - Conectividade: Excelente via PY01 e Costanera moderna. Ponto de inicio do Corredor Graneros del Sur.
-
-
 
 ### Indicadores Sociais
 
@@ -38,7 +36,6 @@
 | Idade mediana | 31.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -52,11 +49,11 @@
 
 **Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.84 | 4.35 | 4.71 | 6.12 | 4.78 | 3.57 | 2.75 | 2.59 | 3.69 | 6.66 | 6.46 | 5.76 | **1713 mm** |
+| 150 | 123 | 146 | 184 | 148 | 107 | 85 | 80 | 111 | 206 | 194 | 179 | **1713 mm** |
 
 #### Poluição Luminosa
 
@@ -64,7 +61,6 @@
 |-----------|-------|
 | Escala Bortle | 5 — Céu suburbano |
 | Radiância artificial | 5.0 nW/cm²/sr |
-
 
 ### 4. Riscos naturais
 - Sismicidade: Muito baixa (regiao intraplaca estavel).
@@ -74,7 +70,6 @@
 - Solo: Fertil, ideal para arroz (Capital do Arroz), soja e trigo.
 - Producao: Grande capacidade de producao de graos.
 - Agua: Abundante (Rio Parana e aquiferos).
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -88,7 +83,7 @@
 | Densidade aparente | 1.24 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -27.1667°, -56.0667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -27.1667°, -56.0667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - Segurança: Geralmente tranquila, mas com alertas recentes (2025) de assaltos a residencias de estrangeiros e operacoes contra o narcotrafico no Rio Parana.
@@ -174,7 +169,6 @@ Altamente recomendado para realocacao residencial e investimentos em agro-turism
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -188,7 +182,6 @@ Altamente recomendado para realocacao residencial e investimentos em agro-turism
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -199,7 +192,6 @@ Altamente recomendado para realocacao residencial e investimentos em agro-turism
 | Domicílios com internet (dept.) | 78% |
 | Tecnologia predominante | fibra/rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

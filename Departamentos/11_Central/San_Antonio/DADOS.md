@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: San Antonio, Central
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°25′S 57°33′W.
 - **Topografia:** Relevo predominantemente plano, margeado pelo Rio Paraguai ao oeste. Totalmente urbanizado e integrado à mancha industrial metropolitana. Altitude ~100m. Área de ~23 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** **Polo Portuário e Logístico** (Portos Sarcom, Terport, especializados em grãos e containers); Terminais de armazenamento de combustíveis; Grandes frigoríficos exportadores de proteína animal. Ponto estratégico para o abastecimento energético e alimentar da capital.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Risco de fallout indireto elevado devido à proximidade com Assunção (~20 km).
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Hospital Distrital de San Antonio e rede de postos de saúde. Infraestrutura comercial focada em suprimentos industriais e varejo popular. Proximidade com hospitais de alta complexidade em Villa Elisa e Assunção.
 - **Custo de Vida:** Baixo; economia impulsionada pela atividade portuária, frigorífica e logística.
 - **Preço da Terra:** US$ 40-80/m² (Urbano); US$ 50.000-100.000/ha (Zonas industriais e portuárias valorizadas).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 29.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 | **1477 mm** |
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 | **1477 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 7 — Transição suburbano-urbano |
 | Radiância artificial | 40.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco Moderado a Alto de Inundação.** Bairros ribeirinhas baixos vulneráveis às cheias do Rio Paraguai. Problemas recorrentes de drenagem pluvial urbana (raudales) em eixos industriais durante tempestades severas (média 1.600 mm/ano).
 - **Clima:** Subtropical Úmido com forte efeito de ilha de calor urbana.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Captação mista via poços artesianos profundos e sistemas ESSAP (fluvial).
 - **Qualidade do Solo:** Solo urbano e industrial majoritariamente impermeabilizado; aptidão agrícola limitada no distrito.
 - **Resources Locais:** Gigantesco polo de proteína animal (carne bovina) e hub de containers. Alta capacidade teórica de suprimentos, mas totalmente dependente de ordem logística para distribuição interna. Resiliência de autossuficiência alimentar interna nula devido à densidade populacional.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.32 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.4167°, -57.55°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.4167°, -57.55°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona industrial com índices de criminalidade urbana típicos de áreas de trânsito de carga (furtos/assaltos). Em crises, a concentração de combustíveis e alimentos a torna uma zona de alta prioridade para intervenção governamental ou alvo de saques. Estabilidade institucional presente, mas sob pressão social.
 - **Leis Local:** Município consolidado e estratégico para o comércio exterior. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Indicado exclusivamente como hub logístico portuário, não recomendado para refúgio tático isolado).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Corredor industrial de San Antonio.
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: Corredor industrial de San Antonio.
 - Fonte Ministério do Interior (segurança metropolitana): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | fibra óptica disponível |
-
 
 ### Mercado Imobiliário e Terra Rural
 

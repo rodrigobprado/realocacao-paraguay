@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Pirapó, Itapúa
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 26°51′S 55°15′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado. Localizado no centro-leste de Itapúa. Altitude ~200m. Geologicamente muito estável.
 - **Alvos Estratégicos:** Áreas de produção agrícola mecanizada de alta tecnologia (Colônia Japonesa); Cooperativa Pirapó (polo logístico de grãos). Ausência de alvos militares primários, oferecendo boa invisibilidade.
 - **Fallout:** Ventos predominantes do Norte e Leste. Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Centro de Saúde local e suporte técnico/comercial robusto da Cooperativa Pirapó. Dependência de centros maiores para alta complexidade médica.
 - **Custo de Vida:** Baixo; economia baseada na exportação de grãos e agricultura familiar de alta produtividade.
 - **Preço da Terra:** US$ 6.000-9.500/ha (terras mecanizadas de elite com tradição de cultivo).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 28.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.96 | 4.31 | 4.72 | 6.14 | 4.85 | 3.67 | 2.91 | 2.65 | 3.76 | 6.66 | 6.44 | 5.82 | **1732 mm** |
+| 154 | 122 | 146 | 184 | 150 | 110 | 90 | 82 | 113 | 206 | 193 | 180 | **1732 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 5 — Céu suburbano |
 | Radiância artificial | 5.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia favorável. Presença de pequenos arroios integrados à agricultura.
 - **Clima:** Subtropical Úmido. Verões quentes; invernos com geadas que beneficiam a cultura do trigo.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundante via poços artesianos profundos e sistemas de junta de saneamento eficientes.
 - **Qualidade do Solo:** **Latossolo Vermelho de Alta Performance**; solo profundo, fértil e rico em matéria orgânica devido ao manejo de plantio direto secular.
 - **Resources Locais:** Grande produção de soja, trigo, girassol e milho. Elevadíssimo potencial para autossuficiência alimentar e hídrica básica.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural extremamente pacífica e ordeira. Baixíssima criminalidade urbana. Coesão social fortíssima baseada na disciplina e organização da colônia japonesa. Baixa visibilidade para conflitos externos.
 - **Leis Local:** Município consolidado e modelo de integração. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira internacional.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,7 +117,7 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca integração com comunidades organizadas e produtividade agrícola).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte Cooperativa Pirapó: https://www.pirapo.com.py/
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.28 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.85°, -55.25°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -26.85°, -55.25°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~5,0 (Regional/Baixo).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 78% |
 | Tecnologia predominante | fibra/rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Capitan Carmelo Peralta, Alto Paraguay
 
-## Pesquisa oficial consolidada (acesso em 2026-03-05)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 21°41′S 57°54′W.
 - **Topografia:** Relevo plano (geologicamente estável, baixo risco sísmico), margeado pelo Rio Paraguai (fronteira com Brasil). Área de ~4.798 km².
 - **Alvos Estratégicos:** Ponte Bioceânica (em fase final de construção - conexão vital Paraguai-Brasil); Eixo da Ruta PY15 (Corredor Bioceânico); Porto fluvial; Proximidade com o Pantanal paraguaio. Localização estratégica absoluta como hub logístico internacional de carga (celulose, grãos e proteína).
 - **Fallout:** Ventos predominantes do Norte/Nordeste.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura urbana e de serviços em fase de expansão acelerada. Dependência residual de centros maiores para saúde de alta complexidade.
 - **Custo de Vida:** Em ascensão devido à valorização imobiliária; energia elétrica barata (ANDE ~US$ 0,05/kWh).
 - **Preço da Terra:** US$ 300-600/ha (bruta) a US$ 1.200/ha (desenvolvida). Forte especulação em áreas logísticas.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.22 | 4.82 | 4.21 | 5.08 | 5.55 | 3.01 | 2.43 | 1.68 | 3.07 | 6.04 | 6.33 | 5.37 | **1577 mm** |
+| 131 | 136 | 131 | 152 | 172 | 90 | 75 | 52 | 92 | 187 | 190 | 166 | **1577 mm** |
 
 #### Poluição Luminosa
 
@@ -74,12 +71,11 @@
 | Escala Bortle | 1 — Céu verdadeiramente escuro |
 | Radiância artificial | 0.1 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Sazonal.** Localidade margeada pelo Rio Paraguai, vulnerável a cheias extraordinárias. Obras de defesa costeira em andamento. Risco de incêndios florestais em períodos de seca no Chaco.
 - **Clima:** Tropical Úmido/Seco. Verões com calor extremo. Déficit hídrico é o principal desafio agrícola.
 - **Sismicidade:** Risco baixo; região estável com eventos intraplaca raros e de baixa magnitude (<4.0 Richter).
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -88,10 +84,9 @@
 - **Água:** Rio Paraguai e sistemas de tratamento local.
 - **Qualidade do Solo:** Solos aluviais ricos em fósforo; desafios de drenagem e salinidade. Potencial agrícola em expansão (soja, milho, algodão) com manejo adequado.
 - **Resources Locais:** Pecuária de corte intensiva e pesca. Elevadíssimo potencial para autossuficiência a nível de proteína animal devido à baixa densidade e vastidão territorial. Localidade estratégica para suprimento de longo prazo se a logística bioceânica estiver operacional.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -105,12 +100,12 @@
 | Densidade aparente | 1.31 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -21.6833°, -57.9°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -21.6833°, -57.9°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona de fronteira em transformação. Baixa criminalidade urbana violenta tradicional, mas com desafios crescentes ligados ao fluxo internacional de carga. Coesão social desafiada pelo rápido crescimento populacional e migratório.
 - **Leis Local:** Município consolidado e foco prioritário de investimentos nacionais. **Restrição de Fronteira (Lei 2532/05):** Estrangeiros de países limítrofes não podem possuir terras em faixa de 50km da fronteira sem decreto de interesse público.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -138,11 +133,11 @@ Classificacao:
 - Moderadamente Seguro (Exige preparação e infraestrutura dedicada).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-05): https://www.ine.gov.py/censo2022/
-- Fonte INE indicadores distritais (acesso em 2026-03-05): https://www.ine.gov.py/vt/Indicadores-distritales.php
-- Fonte MOPC infraestrutura (acesso em 2026-03-05): https://mopc.gov.py/servicios/estado-de-las-rutas/
-- Fonte DMH risco/clima (acesso em 2026-03-05): https://www.meteorologia.gov.py/avisos/
-- Fonte SEN eventos/acoes (acesso em 2026-03-05): https://sen.gov.py/acciones/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte INE indicadores distritais: https://www.ine.gov.py/vt/Indicadores-distritales.php
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte DMH risco/clima: https://www.meteorologia.gov.py/avisos/
+- Fonte SEN eventos/acoes: https://sen.gov.py/acciones/
 
 Sintese aplicada:
 - Dados textuais consolidados com base nas fontes oficiais acima; integração de novas infraestruturas logísticas na análise estratégica.
@@ -210,7 +205,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -224,7 +218,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -235,7 +228,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 22% |
 | Tecnologia predominante | satélite |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Doctor Moisés Bertoni, Caazapá
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 26°28′S 56°20′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado, localizado nas proximidades da bacia do Rio Tebicuary. Altitude ~140m. Área de ~637 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Áreas de produção pecuária extensiva; Pequenas colônias de agricultura tradicional. Ausência absoluta de alvos militares ou industriais primários, oferecendo altíssima invisibilidade tática e discrição estratégica.
 - **Fallout:** Ventos predominantes do Norte (Viento Norte, quente/seco no verão) e Leste. Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local para atendimentos básicos. Dependência crítica da capital Caazapá (25 km) para serviços médicos de alta complexidade e logística comercial diversificada.
 - **Custo de Vida:** Muito baixo; economia baseada na pecuária de subsistência e pequena agricultura.
 - **Preço da Terra:** US$ 2.500-4.000/ha (áreas de pecuária extensiva); US$ 5.000/ha (áreas mecanizáveis ou próximas ao asfalto).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 29.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.55 | 4.35 | 4.39 | 5.70 | 5.04 | 3.34 | 2.63 | 2.28 | 3.35 | 6.25 | 6.26 | 5.38 | **1629 mm** |
+| 141 | 123 | 136 | 171 | 156 | 100 | 82 | 71 | 100 | 194 | 188 | 167 | **1629 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 0.8 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas catastróficas. Presença de arroios locais tributários do Rio Tebicuary que favorecem a pecuária. Risco de erosão em caminhos vicinais em eventos climáticos extremos.
 - **Clima:** Subtropical Úmido. Verões quentes; invernos secos com entradas bruscas de ar frio do Sul.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via poços artesianos e lençol freático superficial; excelente qualidade hídrica subterrânea.
 - **Qualidade do Solo:** Solo franco-arenoso a argiloso (Podzólicos); fértil e profundo, ideal para pastagens, mandioca e milho.
 - **Resources Locais:** Produção de gado de corte, leite e alimentos básicos de subsistência. Elevadíssimo potencial para autossuficiência alimentar básica per capita devido à baixíssima carga demográfica.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.37 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.4667°, -56.3333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -26.4667°, -56.3333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural extremamente pacífica e segura. Taxa de homicídios no departamento de Caazapá entre as menores do Paraguai (~7,0/100k). Coesão social forte baseada em comunidades tradicionais. Baixíssima visibilidade para conflitos externos.
 - **Leis Local:** Município histórico e consolidado. **Livre de Restrição de Fronteira:** Localizado no interior do país, permitindo plena titularidade para investidores brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca o máximo de isolamento demográfico em uma região segura e produtiva).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Acesso asfáltico PY08-Bertoni (13 km).
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: Acesso asfáltico PY08-Bertoni (13 km).
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 42% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

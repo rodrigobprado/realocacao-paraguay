@@ -40,10 +40,14 @@ def refine_content(text):
     # Remove sub-bullets que ficaram vazios após remoção de URLs (ex: "    - ANDE: ")
     text = re.sub(r'(?m)^[ \t]*-[ \t]+[A-Za-z][^:\n]*:[ \t]*\n', '\n', text)
 
-    # 3b. Limpeza de URLs soltas
-    text = re.sub(r'https?://[^\s\)\],]+', '', text)
+    # 3b. Limpeza de URLs soltas (remove URL mas mantém o resto da linha)
+    text = re.sub(r'https?://[^\s\)\],<]+', '', text)
     # Remove bullets que ficaram apenas com label e sem conteúdo após remoção de URL
     text = re.sub(r'(?m)^([ \t]*-[ \t]+[^*\n]{1,60}):[ \t]*$', '', text)
+
+    # 3c. Remoção de referências de data de acesso (ex: "acesso em 2026-03-20")
+    text = re.sub(r'\s*\(acesso em \d{4}-\d{2}-\d{2}\)', '', text)
+    text = re.sub(r',?\s*acesso em \d{4}-\d{2}-\d{2}', '', text)
     
     # 4. Conversão de Precipitação mm/dia -> mm/mês
     # Abordagem mais robusta: iterar pelas linhas

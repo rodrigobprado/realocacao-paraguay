@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Teniente Esteban Martínez, Presidente Hayes
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°05′S 59°45′W.
 - **Topografia:** Relevo plano, característico do Chaco Húmedo, com presença de extensos humedales, savanas e matas espinhosas. Situado às margens do Rio Pilcomayo. Altitude ~80m. Área massiva de ~8.142 km². Geologicamente estável.
 - **Alvos Estratégicos:** **Parque Nacional Tinfunqué** (Reserva ambiental e hídrica vital do Bajo Chaco); Eixo da Ruta **PY12** (Corredor de integração regional); Grandes estâncias de pecuária extensiva. Ausência total de infraestrutura industrial ou bases militares massivas, oferecendo o nível máximo de invisibilidade estratégica e anonimato tático.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto de alvos continentais devido ao extremo isolamento geográfico.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura institucional e comercial quase inexistente. Dependência absoluta de Villa Hayes (~250 km) ou Clorinda (Argentina) para serviços de saúde especializados, suprimentos técnicos e logística avançada. A vila urbana é um mic núcleo de apoio às estâncias.
 - **Custo de Vida:** Muito baixo; economia baseada na pecuária bovina e subsistência rural.
 - **Preço da Terra:** US$ 250-450/ha (terras virgens/campo natural). Um dos menores valores de terra da Região Oriental/Bajo Chaco.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 24° N (anual) · 34° N (inverno jun-ago) · 14° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.06 | 4.56 | 4.19 | 3.31 | 2.31 | 0.82 | 0.75 | 0.48 | 0.94 | 2.57 | 3.89 | 4.30 | **980 mm** |
+| 126 | 129 | 130 | 99 | 72 | 25 | 23 | 15 | 28 | 80 | 117 | 133 | **980 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 2 — Céu tipicamente escuro |
 | Radiância artificial | 0.3 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação e Seca Severa.** Vulnerabilidade extrema às oscilações do Rio Pilcomayo. Possibilidade de isolamento terrestre total por meses em cheias extraordinárias. Déficit hídrico crítico em períodos de seca prolongada, exigindo gestão de reservatórios (tajamares).
 - **Clima:** Tropical de Savana (Chaco). Verões com calor extremo (>42°C comuns) e radiação solar altíssima.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Dependência de poços artesianos (frequentemente salobros), tajamares e captação de águas pluviais (aljibes). Água potável é um recurso escasso que exige investimento em dessalinização ou filtragem massiva.
 - **Qualidade do Solo:** Solo aluvial e argiloso; aptidão para pastagens naturais e gado de corte. Baixa aptidão para agricultura mecanizada sem vultosos investimentos em correção e irrigação.
 - **Resources Locais:** Grande excedente de gado bovino per capita. Elevadíssimo potencial para autossuficiência de proteína animal para a ínfima população local.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.33 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.0833°, -59.75°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.0833°, -59.75°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural excepcionalmente pacífica e segura. Criminalidade urbana inexistente. Estabilidade social máxima sustentada pela cultura da estância e pelo isolamento total. Localidade "invisível" para qualquer conflito sociopolítico nacional.
 - **Leis Local:** Município consolidado. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira argentina (limite tático do Pilcomayo).
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Moderadamente Seguro (Indicado apenas para projetos de isolamento tático extremo "off-grid" que possuam autonomia total de recursos e meios de transporte aéreo/pesado).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MADES (Dados do Parque Nacional Tinfunqué): https://www.mades.gov.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Relatórios de acessibilidade na Ruta PY12.
+- Fonte MOPC infraestrutura: Relatórios de acessibilidade na Ruta PY12.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 2.743 habitantes.
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 35% |
 | Tecnologia predominante | rádio/satélite |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

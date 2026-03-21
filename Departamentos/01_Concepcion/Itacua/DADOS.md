@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Itacua, Concepcion
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 22°59′S 57°43′W.
 - **Topografia:** Margem esquerda do Rio Paraguai. Relevo predominantemente plano com formações calcárias. Geologicamente estável, risco sísmico muito baixo.
 - **Alvos Estratégicos:** Indústrias de calcário (Calerías), Porto de Itacuá (escoamento de cimento e minerais), proximidade com a fronteira brasileira via rio.
 - **Fallout:** Ventos predominantemente do Norte/Nordeste (quentes/úmidos) e Sul (frentes frias).
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura básica local. Dependência de Concepción (190 km) ou Pedro Juan Caballero para saúde de alta complexidade.
 - **Custo de Vida:** ~30-40% mais baixo que centros urbanos brasileiros; energia e água baratas.
 - **Preço da Terra:** US$ 1.500-5.000/ha (rural/pastagem); lotes urbanos em San Lázaro por US$ 15.000-30.000.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 25.0 anos | dist. |
 | Taxa de fecundidade | 3 | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 22° N (anual) · 32° N (inverno jun-ago) · 12° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.90 | 5.26 | 3.87 | 3.95 | 3.42 | 1.89 | 1.23 | 0.73 | 1.82 | 4.20 | 6.73 | 5.40 | **1321 mm** |
+| 152 | 149 | 120 | 118 | 106 | 57 | 38 | 23 | 55 | 130 | 202 | 167 | **1321 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco Crítico de Inundação.** Proximidade direta com o Rio Paraguai; histórico de cheias severas (2019, 2023) que podem isolar a localidade por terra.
 - **Clima:** Tropical Úmido. Precipitação anual de 1.300-1.500 mm. Verões quentes com tempestades severas.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante (Rio Paraguai).
 - **Qualidade do Solo:** Solo calcário (carbonato de cálcio/magnésio); ideal para correção de solos ácidos, exige manejo para agricultura intensiva diversificada.
 - **Recursos Locais:** Extração mineral (calcário/cimento), pesca, agricultura de subsistência e pecuária.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.33 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -22.9833°, -57.7167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -22.9833°, -57.7167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona remota com baixa criminalidade urbana comum. Presença da FTC (Força de Tarefa Conjunta) na região devido à atividade insurgente (EPP) no departamento. Taxa de homicídios regional de 14-19/100k (focada em áreas rurais/narcotráfico).
 - **Leis Local:** Município de criação recente (2021). **Restrição de Fronteira (Lei 2532/05):** Proibição de compra de terras rurais por estrangeiros de países limítrofes (faixa de 50km).
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -137,9 +132,9 @@ Classificacao:
 - Moderadamente Seguro (Recomendado apenas para perfis com foco em mineração ou isolamento fluvial).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-05): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
-- Fonte SEN/DMH (acesso em 2026-03-06): https://www.meteorologia.gov.py/avisos/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte SEN/DMH: https://www.meteorologia.gov.py/avisos/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 2.377.
@@ -174,7 +169,6 @@ Indicado como local de apoio ou exploração mineral específica. Para moradia p
 - 4) Lei de Segurança Fronteiriça (2532/05).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
-
 
 ## 14. Informações Técnicas e Infraestrutura (Leitores Alfa)
 
@@ -232,7 +226,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -246,7 +239,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -257,7 +249,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 48% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

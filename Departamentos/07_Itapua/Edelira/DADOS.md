@@ -1,6 +1,6 @@
 # Avaliacao de Localidade: Edelira, Itapua
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 27°19′S 55°51′W (geocodificado via Nominatim).
@@ -12,8 +12,6 @@
 - Populacao Censo 2022: 19.468 habitantes (concentrados em Edelira Km 21 e Km 28).
 - Densidade: ~21 hab/km2.
 - Conectividade: Transformacao recente com a pavimentacao Edelira Km 28 - Km 65.2 (44 km), conectando a PY06 aos portos do Rio Parana.
-
-
 
 ### Indicadores Sociais
 
@@ -38,7 +36,6 @@
 | Idade mediana | 30.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -52,11 +49,11 @@
 
 **Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 5.02 | 4.41 | 4.81 | 6.21 | 4.73 | 3.73 | 2.97 | 2.89 | 4.05 | 6.94 | 6.35 | 6.05 | **1770 mm** |
+| 156 | 125 | 149 | 186 | 147 | 112 | 92 | 90 | 122 | 215 | 190 | 188 | **1770 mm** |
 
 #### Poluição Luminosa
 
@@ -64,7 +61,6 @@
 |-----------|-------|
 | Escala Bortle | 5 — Céu suburbano |
 | Radiância artificial | 5.0 nW/cm²/sr |
-
 
 ### 4. Riscos naturais
 - Sismicidade: Muito baixa (regiao intraplaca estavel).
@@ -74,7 +70,6 @@
 - Solo: Alta fertilidade, ideal para soja, trigo, milho e yerba mate.
 - Producao: Grande polo de producao mecanizada e cooperativista.
 - Agua: Abundante em aquiferos locais.
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -88,7 +83,7 @@
 | Densidade aparente | 1.25 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -27.3167°, -55.85°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -27.3167°, -55.85°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - Segurança: Alerta para incidentes de assaltos a mao armada em comercios e areas rurais. Conflitos historicos por tenencia de terra em areas isoladas.
@@ -173,7 +168,6 @@ Recomendado para operacoes logisticas e agronegocio de grande escala. GSS 6.6.
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -187,7 +181,6 @@ Recomendado para operacoes logisticas e agronegocio de grande escala. GSS 6.6.
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -198,7 +191,6 @@ Recomendado para operacoes logisticas e agronegocio de grande escala. GSS 6.6.
 | Domicílios com internet (dept.) | 78% |
 | Tecnologia predominante | fibra/rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: La Paloma (del Espíritu Santo), Canindeyú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°08′S 54°37′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado, com solos de altíssima produtividade (Terra Roxa). Altitude ~250m. Área de ~728 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** **Polo Agroindustrial Regional** (Sede da Cooperativa La Paloma e grandes silos); Nó logístico sobre a Ruta **PY03**; Proximidade tática com o entroncamento para Katueté e Salto del Guairá. Ausência de alvos militares diretos, mas estratégico para o fluxo de commodities nacionais.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto; posição isolada e protegida.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura básica a média funcional. USF local e centros de apoio técnico agroindustrial. Dependência de Katueté ou Salto del Guairá para serviços de saúde de alta complexidade.
 - **Custo de Vida:** Baixo; economia impulsionada pelo agronegócio e produção de grãos.
 - **Preço da Terra:** US$ 10.000-14.000/ha (terras mecanizadas de elite - "Terra Roxa").
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 28.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 24° N (anual) · 34° N (inverno jun-ago) · 14° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.42 | 4.71 | 3.28 | 3.68 | 4.50 | 2.74 | 2.08 | 2.26 | 3.10 | 5.70 | 5.63 | 6.07 | **1466 mm** |
+| 137 | 133 | 102 | 110 | 140 | 82 | 64 | 70 | 93 | 177 | 169 | 188 | **1466 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia favorável e drenagem natural eficiente. Presença de arroios perenes de alta qualidade hídrica utilizados para pecuária e irrigação.
 - **Clima:** Subtropical Úmido. Verões intensos e invernos amenos com geadas ocasionais benéficas ao trigo.
-- Fontes: 
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundante via poços artesianos profundos e nascentes naturais; excelente qualidade hídrica subterrânea.
 - **Qualidade do Solo:** **Latossolo Vermelho de Elite**; solo profundo e de altíssima fertilidade. Excelente aptidão para soja, milho e sementes selecionadas.
 - **Resources Locais:** Grande produção de grãos e proteína animal. Elevadíssimo potencial para autossuficiência alimentar básica em nível de propriedade devido à vasta área produtiva e baixa população rural.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade próspera e pacífica. Baixíssima criminalidade urbana comum. Forte coesão comunitária baseada na cultura produtora. Presença de segurança patrimonial privada eficiente nas zonas industriais.
 - **Leis Local:** Município consolidado e polo de sementes regionais. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,9 +117,9 @@ Classificacao:
 - Seguro (Altamente recomendado para quem busca isolamento tático rural em terras férteis com suporte industrial próximo).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MAG (Relatórios de produção de sementes em Canindeyú): https://www.mag.gov.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Manutenção da Ruta PY03.
+- Fonte MOPC infraestrutura: Manutenção da Ruta PY03.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 7.284 habitantes.
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.28 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.1333°, -54.6167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.1333°, -54.6167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~12,0 (Regional/Abaixo da média de fronteira).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Itacurubí de la Cordillera, Cordillera
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°27′S 56°51′W.
 - **Topografia:** Relevo ondulado com vales e arroios perenes. Altitude ~150m. Geologicamente muito estável, risco sísmico praticamente nulo. Banhada pelo Rio Yhaguy.
 - **Alvos Estratégicos:** Ponto de parada logístico nevrálgico na **Ruta PY02** (Eixo vital Assunção-CDE); Hub de serviços turísticos e gastronômicos regionais. Ausência de alvos militares de grande porte, mas vulnerável pela exposição rodoviária direta.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste (E). Baixo risco de fallout primário direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local e centros médicos básicos. Dependência de Caacupé ou Coronel Oviedo para serviços hospitalares de alta complexidade. Conhecida como o "Jardim da Cordillera".
 - **Custo de Vida:** Baixo a Moderado; economia impulsionada pelo turismo interno e agronegócio regional.
 - **Preço da Terra:** US$ 6.000-12.000/ha (áreas rurais valorizadas ou com arroios); lotes residenciais em condomínios com valorização crescente.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 33.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.09 | 4.96 | 4.29 | 4.95 | 4.91 | 2.61 | 2.14 | 1.32 | 2.58 | 5.53 | 6.42 | 5.66 | **1506 mm** |
+| 127 | 140 | 133 | 148 | 152 | 78 | 66 | 41 | 77 | 171 | 193 | 175 | **1506 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Presença do Rio Yhaguy e diversos arroios (ex: Y'Aku). Risco moderado de inundações em áreas de lazer ribeirinhas baixas durante tempestades severas (precipitação média 1.500-1.600 mm).
 - **Clima:** Subtropical Úmido. Verões quentes; suscetível a temporais com ventos fortes típicos da região serrana.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundância de águas superficiais (Rio Yhaguy) e subterrâneas de alta qualidade.
 - **Qualidade do Solo:** Solo franco-arenoso a argiloso; fértil e bem drenado, ideal para pastagens, mel de abelha, erva-mate e fruticultura.
 - **Resources Locais:** Grande produção de mel, gado de corte/leite e hortifrúti. Elevado potencial para autossuficiência alimentar básica em nível de propriedade.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.28 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.45°, -56.85°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.45°, -56.85°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade tradicionalmente pacífica. Taxa de homicídios no departamento de Cordillera entre as menores do país (~3,8/100k). Alta coesão social e hospitalidade.
 - **Leis Local:** Município consolidado e bem administrado. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira, sem impedimentos legais para proprietários brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca base logística com alta qualidade de vida rural).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 65% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

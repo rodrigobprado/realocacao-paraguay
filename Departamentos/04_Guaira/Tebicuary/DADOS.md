@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Tebicuary, Guairá
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°40′S 56°38′W.
 - **Topografia:** Relevo predominantemente plano com áreas ribeirinhas margeando o Rio Tebicuary-mí. Altitude ~130m. Área de ~79 km². Geologicamente estável, risco sísmico muito baixo.
 - **Alvos Estratégicos:** **Azucarera Paraguaya S.A. (AZPA)** - complexo industrial histórico e vital para a economia do açúcar e álcool; Silos de armazenamento; Travessia rodoviária e ferroviária histórica.
 - **Fallout:** Ventos predominantes do Leste (E) e Nordeste (NE). Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura urbana superior à média rural, com suporte corporativo da AZPA. Possui unidade de saúde local; casos complexos são atendidos em Villarrica (20 km).
 - **Custo de Vida:** Baixo; economia impulsionada pelo emprego formal na indústria açucareira.
 - **Preço da Terra:** US$ 6.000-10.000/ha (terras mecanizadas para cana); lotes urbanos/industriais valorizados pela estabilidade econômica local.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.27 | 4.46 | 4.28 | 5.24 | 5.08 | 2.87 | 2.37 | 1.77 | 2.90 | 5.84 | 6.23 | 5.42 | **1544 mm** |
+| 132 | 126 | 133 | 157 | 157 | 86 | 73 | 55 | 87 | 181 | 187 | 168 | **1544 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 2.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco Moderado de Inundação.** Áreas próximas ao Rio Tebicuary-mí vulneráveis a transbordamentos em eventos climáticos extremos. Sistema de drenagem industrial robusto mitiga riscos no perímetro urbano.
 - **Clima:** Subtropical Úmido. Precipitação anual ~1.600 mm. Verões quentes e chuvosos.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via Rio Tebicuary-mí e poços artesianos profundos de alta vazão.
 - **Qualidade do Solo:** Solo franco-argiloso e sedimentar (Alfisoles); altamente fértil e apto para cana-de-açúcar, grãos e pastagens.
 - **Resources Locais:** Grande polo produtor de açúcar, álcool, melaço e gado. Elevadíssimo potencial para autossuficiência energética (biomassa) e alimentar em nível regional.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.38 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.6667°, -56.6333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.6667°, -56.6333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona industrial extremamente estável e segura. Taxa de homicídios no departamento de Guairá entre as menores do país (~3,6/100k). Forte coesão social em torno da cultura do trabalho industrial e tradição da AZPA.
 - **Leis Local:** Município de criação recente (2008), emancipado de Coronel Martínez. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira, permitindo plena titularidade para brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Seguro (Localidade altamente recomendada para quem busca estabilidade econômica e segurança institucional).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte AZPA (dados industriais): https://www.azpa.com.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 2.639 habitantes.
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 60% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

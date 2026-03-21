@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: 25 de Diciembre, San Pedro
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°40′S 56°52′W.
 - **Topografia:** Relevo plano a levemente ondulado. Localizado no sul do departamento de San Pedro, em posição de transição. Geologicamente estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Ponto de passagem e fiscalização na Ruta PY03 (Eixo Norte-Sul vital para o país); Posto de pedágio (Peaje) e entroncamentos locais.
 - **Fallout:** Ventos predominantes do Norte/Nordeste (verão) e Sul (inverno). Baixo risco de fallout global direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local para atendimentos básicos. Dependência de San Estanislao (Santaní) a 25 km para saúde de alta complexidade e serviços financeiros avançados.
 - **Custo de Vida:** Baixo (20-40% inferior a Assunção); economia baseada em serviços rodoviários e agropecuária.
 - **Preço da Terra:** US$ 1.500-2.500/ha (campos mecanizáveis); US$ 1.000-1.300/ha (áreas de pastagem natural).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 32.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.01 | 5.16 | 4.08 | 4.81 | 5.02 | 2.63 | 2.06 | 1.22 | 2.64 | 5.54 | 6.51 | 5.62 | **1501 mm** |
+| 124 | 146 | 126 | 144 | 156 | 79 | 64 | 38 | 79 | 172 | 195 | 174 | **1501 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações catastróficas. Presença de arroios locais que podem causar interrupções pontuais em caminhos vicinais de terra.
 - **Clima:** Subtropical Úmido. Precipitação anual de 1.400-1.600 mm, bem distribuída.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Poços artesianos e lençol freático de fácil acesso; Juntas de Saneamento operais.
 - **Qualidade do Solo:** Alfisois e Ultisois (textura franco-arenosa); boa aptidão para pastagens e silvicultura (eucalipto); exige correção para grãos.
 - **Resources Locais:** Produção de gado de corte, milho e mandioca. Elevado potencial para autossuficiência alimentar básica em nível de propriedade.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.33 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.6667°, -56.8667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.6667°, -56.8667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural com baixos índices de criminalidade urbana violenta. Patrulhamento da FTC/Polícia Nacional na Ruta PY03 garante presença estatal.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da Lei 2532/05, permitindo plena titularidade para estrangeiros brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Recomendado para residências rurais com fácil acesso à capital).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte ANDE (energia): https://www.ande.gov.py
 
 ## 9. Indicadores Quantificados
@@ -186,7 +181,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -200,7 +194,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -211,7 +204,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

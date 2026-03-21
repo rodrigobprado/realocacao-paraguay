@@ -88,7 +88,7 @@ https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC
 - Minimo: Jun (2.83 kWh/m2/dia) | Maximo: Dez (6.78 kWh/m2/dia) | Media anual: 4.95 kWh/m2/dia
 - Asuncion apresenta potencial solar superior a media europeia e comparavel a regioes de alto desempenho fotovoltaico. O piso de inverno (junho: 2.83) permanece viavel para geracao fotovoltaica residencial e sistemas off-grid com armazenamento.
 
-**Precipitacao — PRECTOTCORR (mm/dia)**
+**Precipitacao — PRECTOTCORR (mm/mês)**
 
 | Mes | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|

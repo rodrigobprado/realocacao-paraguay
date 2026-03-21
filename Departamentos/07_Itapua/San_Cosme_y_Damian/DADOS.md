@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: San Cosme y Damián, Itapúa
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 27°19′S 56°20′W.
 - **Topografia:** Relevo plano com áreas de dunas e biodiversidade única às margens do reservatório de Yacyretá. Altitude ~80m. Geologicamente estável.
 - **Alvos Estratégicos:** Proximidade com a **Usina Hidrelétrica de Yacyretá** (Infraestrutura crítica binacional); Centro de Astronomia Buenaventura Suárez (valor científico); Missão Jesuítica UNESCO.
 - **Fallout:** Ventos predominantes do Norte e Leste. Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local. Dependência de Coronel Bogado (30 km) ou Encarnación para atendimentos de alta complexidade.
 - **Custo de Vida:** Baixo; economia baseada no turismo histórico/astronômico e agricultura de subsistência.
 - **Preço da Terra:** US$ 3.000-6.000/ha (áreas rurais); valorização turística em áreas de dunas e margem do lago.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 29.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.88 | 4.41 | 4.91 | 6.20 | 4.64 | 3.63 | 2.78 | 2.72 | 3.91 | 6.99 | 6.39 | 6.02 | **1750 mm** |
+| 151 | 125 | 152 | 186 | 144 | 109 | 86 | 84 | 117 | 217 | 192 | 187 | **1750 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 5 — Céu suburbano |
 | Radiância artificial | 5.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco Controlado de Inundação.** Situado na zona de influência direta da represa de Yacyretá. Embora o nível seja monitorado, áreas ribeirinhas baixas exigem atenção. Presença das Dunas de San Cosme (ativo turístico em erosão).
 - **Clima:** Subtropical Úmido com forte influência termorreguladora da massa de água do reservatório.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundância hídrica massiva via reservatório e poços artesianos de alta qualidade.
 - **Qualidade do Solo:** Solo arenoso e sedimentar; exige manejo de cobertura e fertilidade, mas muito apto para fruticultura e pastagens.
 - **Resources Locais:** Turismo internacional, gado de pequeno porte, pesca e agricultura familiar. Elevado potencial para autossuficiência energética e hídrica.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.33 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -27.3167°, -56.3333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -27.3167°, -56.3333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona extremamente pacífica e segura. Baixa criminalidade urbana. Coesão social baseada na hospitalidade turística e tradições jesuíticas preservadas.
 - **Leis Local:** Município histórico UNESCO. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira internacional seca (limite fluvial no reservatório).
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,7 +131,7 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca isolamento tático massivo com estabilidade energética).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte EBY (Entidade Binacional Yacyretá): https://www.eby.gov.py/
 - Fonte SENATUR (Turismo): https://www.senatur.gov.py/
 
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 78% |
 | Tecnologia predominante | fibra/rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

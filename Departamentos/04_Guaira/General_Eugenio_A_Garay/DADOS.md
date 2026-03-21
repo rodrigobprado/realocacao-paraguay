@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: General Eugenio A. Garay, Guairá
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°53′S 56°17′W.
 - **Topografia:** Relevo acidentado, localizado no sopé e encostas da **Cordilheira do Ybytyruzú**. Altitude variando de 180m a áreas mais elevadas. Geologicamente muito estável (rochas ígneas e sedimentares), risco sísmico desprezível.
 - **Alvos Estratégicos:** Acessos ao **Cerro Tres Kandú** (ponto mais alto do país, 842m), servindo como ponto de observação e refúgio natural massivo. Ausência de alvos industriais ou militares primários, oferecendo excelente invisibilidade estratégica.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. A barreira natural da cordilheira pode oferecer proteção parcial contra ventos de superfície carregados de partículas em cenários específicos.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local. Dependência crítica do Hospital Regional de Villarrica (35-40 km) para serviços médicos de alta complexidade.
 - **Custo de Vida:** Baixo; economia baseada no ecoturismo e agropecuária de subsistência/pequena escala.
 - **Preço da Terra:** US$ 1.000-2.500/ha (campos e áreas de mata); US$ 5.000-10.000/ha (áreas com potencial turístico ou infraestrutura residencial).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.35 | 4.55 | 4.28 | 5.31 | 5.34 | 3.12 | 2.53 | 1.97 | 3.11 | 6.11 | 6.25 | 5.30 | **1590 mm** |
+| 135 | 129 | 133 | 159 | 166 | 94 | 78 | 61 | 93 | 189 | 188 | 164 | **1590 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 2.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Diversos arroios e nascentes descem da cordilheira. Risco moderado de enxurradas rápidas em vales estreitos durante tempestades severas. Águas de excelente pureza na origem.
 - **Clima:** Subtropical subúmido com forte influência orográfica. Temperaturas ligeiramente inferiores à média nacional devido à altitude e cobertura vegetal.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundância hídrica excepcional via nascentes naturais e arroios perenes. Potencial para sistemas de gravidade (dispensando bombas elétricas).
 - **Qualidade do Solo:** Predomínio de Litosolos (rasos) nas encostas e solos férteis nos vales; excelente para fruticultura, erva-mate e pecuária de pequeno porte.
 - **Resources Locais:** Gado de corte, mel de abelha, cana-de-açúcar e ecoturismo. Elevadíssimo potencial para autossuficiência hídrica e alimentar básica.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.21 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.8833°, -56.2833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.8833°, -56.2833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Uma das zonas mais seguras do Paraguai. Taxa de homicídios no departamento de Guairá entre as menores do país (~3,6/100k). Comunidade rural coesa e avessa a agitações externas.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira:** Localizado no interior, sem impedimentos legais para proprietários brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca isolamento natural massivo e autonomia hídrica).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 60% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

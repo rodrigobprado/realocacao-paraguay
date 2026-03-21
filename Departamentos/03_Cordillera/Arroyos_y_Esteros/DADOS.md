@@ -1,6 +1,6 @@
 # Avaliacao de Localidade: Arroyos y Esteros, Cordillera
 
-## Pesquisa oficial consolidada (acesso em 2026-03-05)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°04′S 57°06′W.
@@ -19,8 +19,6 @@
 - **Fontes:**
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -45,7 +43,6 @@
 | Idade mediana | 30.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -59,11 +56,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.01 | 5.16 | 4.08 | 4.81 | 5.02 | 2.63 | 2.06 | 1.22 | 2.64 | 5.54 | 6.51 | 5.62 | **1501 mm** |
+| 124 | 146 | 126 | 144 | 156 | 79 | 64 | 38 | 79 | 172 | 195 | 174 | **1501 mm** |
 
 #### Poluição Luminosa
 
@@ -71,7 +68,6 @@
 |-----------|-------|
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
-
 
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco Crítico de inundação.** A combinação do Rio Manduvirá com os esteros locais torna o distrito vulnerável a cheias prolongadas.
@@ -98,7 +94,7 @@
 | Densidade aparente | 1.32 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.0667°, -57.1°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.0667°, -57.1°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Preço da Terra:** Gs. 40-60 milhões/ha (USD 5.200 - 8.000). Propriedades premium até USD 11.000/ha.
 - **Fontes:**
@@ -188,7 +184,6 @@ Arroyos y Esteros é um polo de produção orgânica com excelente conectividade
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -202,7 +197,6 @@ Arroyos y Esteros é um polo de produção orgânica com excelente conectividade
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -213,7 +207,6 @@ Arroyos y Esteros é um polo de produção orgânica com excelente conectividade
 | Domicílios com internet (dept.) | 65% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

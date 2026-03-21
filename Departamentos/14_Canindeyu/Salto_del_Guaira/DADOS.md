@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Salto del Guairá (Capital), Canindeyú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°03′S 54°18′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado, margeado pelo Rio Paraná e pelo reservatório de Itaipu ao leste. Altitude ~230m. Área de ~1.283 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** **Polo de Comércio Internacional** (Hub comercial de fronteira seca e fluvial com o Brasil - Mundo Novo e Guaíra); **Porto de Salto del Guairá** (Logística fluvial); Proximidade estratégica com a Usina Hidrelétrica de Itaipu (~100 km ao sul). Localização de altíssima sensibilidade geopolítica e vigilância permanente das forças de segurança nacional.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto de alvos continentais primários; vulnerabilidade tática em caso de sabotagem infraestrutural regional.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,10 +18,9 @@
 - **Serviços:** Hospital Regional de Salto del Guairá e rede de sanatórios privados modernos. Polo universitário, financeiro e hoteleiro de primeiro nível regional. Infraestrutura urbana de serviços completa.
 - **Custo de Vida:** Médio-alto; economia dolarizada e real-dependente pelo comércio fronteiriço, com alta valorização imobiliária comercial.
 - **Preço da Terra:** US$ 5.000-8.000/ha (áreas rurais agrícolas); US$ 100-250/m² (Urbano/Comercial).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
 
 ### Indicadores Sociais
 
@@ -46,7 +45,6 @@
 | Idade mediana | 27.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climaticos (NASA POWER Climatology API, 2001-2020)
 
 Coordenadas: -24.06°S / -54.33°W. Acesso em 2026-03-20.
@@ -59,11 +57,11 @@ Coordenadas: -24.06°S / -54.33°W. Acesso em 2026-03-20.
 
 Média anual: 4.94 kWh/m²/dia. Mínimo: Jun (3.02) | Máximo: Jan (6.48).
 
-**Precipitação — PRECTOTCORR (mm/dia → mm/ano ~1.464):**
+**Precipitação — PRECTOTCORR (mm/mês → mm/ano ~1.464):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 4.42 | 4.71 | 3.28 | 3.68 | 4.50 | 2.74 | 2.08 | 2.26 | 3.10 | 5.70 | 5.63 | 6.07 |
+| 137 | 133 | 102 | 110 | 140 | 82 | 64 | 70 | 93 | 177 | 169 | 188 |
 
 Estação chuvosa Out-Dez; seca Jul-Ago (mínimo em Jul).
 
@@ -72,7 +70,7 @@ Estação chuvosa Out-Dez; seca Jul-Ago (mínimo em Jul).
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia elevada em relação ao reservatório. Vulnerabilidade localizada em drenagem urbana pluvial e áreas ribeirinhas baixas durante tempestades severas (média 1.700 mm/ano).
 - **Clima:** Subtropical Úmido. Verões intensos com ondas de calor significativas.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -81,10 +79,9 @@ Estação chuvosa Out-Dez; seca Jul-Ago (mínimo em Jul).
 - **Água:** Captação mista via Rio Paraná e poços artesianos profundos (Aquífero Guarani).
 - **Qualidade do Solo:** Solo franco-argiloso fértil; aptidão para agricultura mecanizada e pastagens nas zonas rurais do distrito.
 - **Resources Locais:** Gigantesco hub de suprimentos comerciais, tecnologia e mercadorias importadas. Produção regional de proteína animal e grãos. Elevado potencial para autossuficiência logística regional, mas dependente de logística externa para alimentação massiva da população urbana.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -98,12 +95,12 @@ Estação chuvosa Out-Dez; seca Jul-Ago (mínimo em Jul).
 | Densidade aparente | 1.25 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.05°, -54.3°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.05°, -54.3°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade dinâmica com criminalidade urbana presente (furtos/contrabando). Centro de gravidade para operações de segurança nacional e inteligência de fronteira. Estabilidade institucional alta por ser capital departamental e polo econômico vital.
 - **Leis Local:** Regime administrativo de fronteira. **Livre de Restrição de Fronteira** para propriedades urbanas centrais, mas restrições vigentes em áreas rurais limítrofes (Lei 2532/05).
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -130,7 +127,7 @@ Classificacao:
 - Moderadamente Seguro (Indicado como hub comercial e logístico, não recomendado para isolamento tático de baixo perfil).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MIC (Dados de comércio exterior e investimentos): https://www.mic.gov.py/
 - Fonte Ministério do Interior (Segurança de Fronteira): https://www.mdi.gov.py/
 
@@ -183,7 +180,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -197,7 +193,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -208,7 +203,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Nanawa (Puerto Elsa), Presidente Hayes
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°14′S 57°40′W.
 - **Topografia:** Relevo plano, zona de baixada situada na confluência dos rios Paraguai e Pilcomayo. Altitude ~55m. Área reduzida de ~20 km². Geologicamente estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** **Ponto de Fronteira Internacional** (Conexão direta com Clorinda, Argentina); Hub de comércio transfronteiriço vicinal; Proximidade tática com o novo **Ponte Héroes del Chaco** (conexão vital com Assunção). Ausência de bases militares massivas, mas zona de alto controle policial, aduaneiro e de inteligência de fronteira.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Risco elevado de fallout indireto devido à proximidade imediata com a capital Assunção (~15 km).
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura básica voltada ao suporte comercial. Dependência total de serviços de saúde de alta complexidade em Assunção ou Clorinda (Arg). Rede comercial densa, mas dependente de fluxos externos.
 - **Custo de Vida:** Médio; economia sensível à paridade cambial Peso/Guarani, com acesso facilitado a suprimentos argentinos básicos.
 - **Preço da Terra:** US$ 100-250/m² (Urbano/Comercial).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 | **1477 mm** |
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 | **1477 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 2 — Céu tipicamente escuro |
 | Radiância artificial | 0.3 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco Crítico de Inundação.** Localidade historicamente vulnerável às cheias extraordinárias dos rios Paraguai e Pilcomayo. A integridade urbana depende vitalmente de sistemas de defesa costeira e bombas de drenagem ativa.
 - **Clima:** Tropical Semi-Úmido (Bajo Chaco). Verões extremamente quentes (>40°C comuns) com alta umidade influenciada pelos rios.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Captação fluvial tratada e poços artesianos. Vulnerabilidade alta em contaminação hídrica em grandes cheias sazonais.
 - **Qualidade do Solo:** Solo aluvial e hidromórfico; aptidão agrícola interna quase nula devido à urbanização e risco de inundação.
 - **Resources Locais:** Gigantesco hub comercial de suprimentos básicos e tecnologia. Contudo, a **resiliência de autossuficiência alimentar interna é zero**; dependência absoluta de logística externa para abastecimento de víveres.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.37 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.2333°, -57.6667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.2333°, -57.6667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade comercial de fronteira com índices de criminalidade urbana metropolitana. Sensibilidade extrema a tensões geopolíticas regionais. Coesão social baseada na atividade mercantil transfronteiriça. Presença institucional permanente de forças de segurança de fronteira.
 - **Leis Local:** Município consolidado com regime aduaneiro especial tático. **Livre de Restrição de Fronteira** para propriedades urbanas centrais.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Indicado exclusivamente como hub comercial e logístico de apoio, não recomendado para refúgio tático isolado).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Impacto da Ponte Héroes del Chaco.
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: Impacto da Ponte Héroes del Chaco.
 - Fonte Ministério do Interior (Segurança de Fronteira): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -188,7 +183,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -202,7 +196,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -213,7 +206,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 35% |
 | Tecnologia predominante | rádio/satélite |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

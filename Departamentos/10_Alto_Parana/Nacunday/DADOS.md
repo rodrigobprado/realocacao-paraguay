@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Ñacunday, Alto Paraná
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 26°03′S 54°42′W.
 - **Topografia:** Relevo ondulado a acidentado, com presença de matas nativas preservadas e o imponente **Salto Ñacunday**. Margeado pelo Rio Paraná (fronteira fluvial com Argentina). Altitude ~180m. Área vasta de ~865 km². Geologicamente estável.
 - **Alvos Estratégicos:** **Parque Nacional Ñacunday** (Recurso ambiental e hídrico estratégico); Áreas de produção agrícola mecanizada; Proximidade tática com o Rio Paraná. Ausência de alvos militares de grande porte, oferecendo excelente invisibilidade estratégica.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local. Dependência total de Santa Rita ou Ciudad del Este para saúde de alta complexidade e logística comercial avançada.
 - **Custo de Vida:** Muito baixo; economia baseada na produção primária e agricultura familiar.
 - **Preço da Terra:** US$ 5.000-8.500/ha (áreas rurais agrícolas); US$ 2.000-3.500/ha (áreas de campo natural/mata).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 24.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.73 | 4.55 | 4.13 | 4.73 | 5.14 | 3.88 | 2.94 | 2.43 | 4.11 | 6.96 | 5.47 | 5.92 | **1674 mm** |
+| 147 | 129 | 128 | 142 | 159 | 116 | 91 | 75 | 123 | 216 | 164 | 184 | **1674 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 6 — Céu suburbano brilhante |
 | Radiância artificial | 15.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia elevada em relação ao Rio Paraná. Presença de arroios perenes de alta qualidade hídrica (ex: Rio Ñacunday). Risco de erosão em áreas de encosta mecanizadas sem cobertura.
 - **Clima:** Subtropical Úmido com influência da mata atlântica interiorana. Verões intensos e invernos com geadas ocasionais.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via Rio Paraná, nascentes protegidas e poços artesianos; excelente qualidade hídrica subterrânea.
 - **Qualidade do Solo:** **Latossolo Vermelho de Alta Performance**; solo profundo e muito fértil nas áreas de transição florestal. Excelente para soja, milho e reflorestamento.
 - **Resources Locais:** Grande produção de grãos, gado de corte e agricultura de subsistência. Elevadíssimo potencial para autossuficiência alimentar básica em nível de propriedade devido à vasta área produtiva.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.23 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.05°, -54.7°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -26.05°, -54.7°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural pacífica e estável. Baixíssima criminalidade urbana. Vigilância necessária contra atividades ilícitas em fronteira fluvial. Coesão social baseada na cultura produtora tradicional. Baixa visibilidade para conflitos de massa.
 - **Leis Local:** Município consolidado e polo de agronegócio e ecoturismo. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira argentina.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca o máximo de isolamento demográfico em território cercado pela natureza).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MADES (Parque Nacional Ñacunday): https://www.mades.gov.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 6.468 habitantes.
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

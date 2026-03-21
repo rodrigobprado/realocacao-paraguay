@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: San Pedro del Paraná, Itapúa
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 26°50′S 56°12′W.
 - **Topografia:** Relevo predominantemente plano a ondulado, localizado no noroeste de Itapúa. Altitude ~150m. Área vasta de ~1.474 km². Geologicamente estável.
 - **Alvos Estratégicos:** Áreas de produção agropecuária extensiva; Ponto de conexão entre Itapúa, Caazapá e Misiones. Ausência de alvos militares de grande porte, oferecendo boa invisibilidade.
 - **Fallout:** Ventos predominantes do Norte e Leste. Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Hospital Distrital de San Pedro del Paraná (referência local). Presença de serviços bancários e comerciais básicos.
 - **Custo de Vida:** Muito baixo; economia baseada na agricultura familiar e pecuária.
 - **Preço da Terra:** US$ 2.500-5.500/ha (áreas rurais agrícolas); US$ 1.500-2.500/ha (áreas de pastagem natural).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 32.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.84 | 4.35 | 4.71 | 6.12 | 4.78 | 3.57 | 2.75 | 2.59 | 3.69 | 6.66 | 6.46 | 5.76 | **1713 mm** |
+| 150 | 123 | 146 | 184 | 148 | 107 | 85 | 80 | 111 | 206 | 194 | 179 | **1713 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 5 — Céu suburbano |
 | Radiância artificial | 5.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Diversos arroios locais. Baixo risco de inundações sistêmicas catastróficas. Risco moderado de isolamento temporário de colônias por danos em acessos vicinais.
 - **Clima:** Subtropical Úmido. Verões quentes; invernos com entradas ocasionais de ar polar.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via poços artesianos e lençol freático produtivo; juntas de saneamento em núcleos povoados.
 - **Qualidade do Solo:** Solo franco-arenoso a argiloso; fértil e profundo, ideal para mandioca, milho, soja e gado.
 - **Resources Locais:** Grande produção de gado de corte, mandioca, soja e algodão. Elevadíssimo potencial para autossuficiência alimentar básica em nível de propriedade.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.34 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.8333°, -56.2°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -26.8333°, -56.2°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural tradicionalmente estável, mas inserida em região com histórico de tensões agrárias ocasionais. Baixa criminalidade urbana violenta. Coesão social baseada em comunidades rurais tradicionais.
 - **Leis Local:** Município histórico e consolidado. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira internacional.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca isolamento rural em território vasto e produtivo).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 78% |
 | Tecnologia predominante | fibra/rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

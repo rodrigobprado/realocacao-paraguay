@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Caacupé (Capital), Cordillera
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°23′S 57°08′W.
 - **Topografia:** Relevo ondulado a serrano, situado no vale da Cordillera de los Altos. Altitude ~170m. Área de ~145 km². Geologicamente estável, sem histórico de sismicidade destrutiva.
 - **Alvos Estratégicos:** **Basílica da Virgem de Caacupé** (O maior centro de gravidade espiritual e de massas do Paraguai); Sede da Gobernación de Cordillera; Nó logístico vital na Ruta **PY02** duplicada; Planta asfáltica municipal estratégica. Considerada a "Capital Espiritual da República", possui altíssima visibilidade social e tática nacional.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto devido à proteção orográfica e distância relativa de Assunção (~54 km).
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura de saúde robusta (Hospital Regional de Caacupé). Polo administrativo, financeiro e hoteleiro de primeiro nível regional. Serviços básicos completos e eficientes.
 - **Custo de Vida:** Baixo-médio; economia impulsionada pelo turismo religioso, serviços estatais e agronegócio de cinturão verde.
 - **Preço da Terra:** US$ 15.000-30.000/ha (áreas rurais de lazer); US$ 60-120/m² (Urbano).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 30.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.09 | 4.96 | 4.29 | 4.95 | 4.91 | 2.61 | 2.14 | 1.32 | 2.58 | 5.53 | 6.42 | 5.66 | **1506 mm** |
+| 127 | 140 | 133 | 148 | 152 | 78 | 66 | 41 | 77 | 171 | 193 | 175 | **1506 mm** |
 
 #### Poluição Luminosa
 
@@ -74,14 +71,13 @@
 | Escala Bortle | 5 — Céu suburbano |
 | Radiância artificial | 6.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia elevada. Abundância de arroios perenes e nascentes. Vulnerabilidade localizada em drenagem urbana pluvial durante tempestades severas.
 - **Clima:** Microclima agradável influenciado pela cordilheira. Verões quentes; invernos frescos.
-- **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):** Jan 6.76 | Fev 6.20 | Mar 5.42 | Abr 4.44 | Mai 3.36 | Jun 2.83 | Jul 3.21 | Ago 3.93 | Set 4.61 | Out 5.49 | Nov 6.42 | Dez 6.78. Média anual: 4.95 kWh/m²/dia. Mínimo: Jun (2.83) | Máximo: Dez (6.78). Fonte: NASA POWER Climatology API, período 2001-2020 (acesso em 2026-03-20).
-- **Precipitação — PRECTOTCORR (mm/dia):** Jan 4.09 | Fev 4.96 | Mar 4.29 | Abr 4.95 | Mai 4.91 | Jun 2.61 | Jul 2.14 | Ago 1.32 | Set 2.58 | Out 5.53 | Nov 6.42 | Dez 5.66. Média anual: ~1.500 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER (acesso em 2026-03-20).
+- **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):** Jan 6.76 | Fev 6.20 | Mar 5.42 | Abr 4.44 | Mai 3.36 | Jun 2.83 | Jul 3.21 | Ago 3.93 | Set 4.61 | Out 5.49 | Nov 6.42 | Dez 6.78. Média anual: 4.95 kWh/m²/dia. Mínimo: Jun (2.83) | Máximo: Dez (6.78). Fonte: NASA POWER Climatology API, período 2001-2020.
+- **Precipitação — PRECTOTCORR (mm/mês):** Jan 127 | Fev 140 | Mar 133 | Abr 148 | Mai 152 | Jun 78 | Jul 66 | Ago 41 | Set 77 | Out 171 | Nov 193 | Dez 175. Média anual: ~1.500 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER.
 - **Inclinação recomendada para placas solares:** 25° voltado para o Norte (anual); 35° no inverno (Jun-Ago); 15° no verão (Nov-Jan). Base: latitude local -25.38°S.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -90,10 +86,9 @@
 - **Água:** Abundância hídrica via poços artesianos profundos e sistemas de junta de saneamento bem estruturados. Qualidade da água subterrânea é excelente.
 - **Qualidade do Solo:** Solo franco-arenoso a argiloso; fértil e profundo, ideal para fruticultura, horticultura e viveiros de plantas.
 - **Resources Locais:** Grande polo produtor de mudas, flores e ervas medicinais. Produção diversificada de agricultura familiar. Elevadíssimo potencial para autossuficiência hídrica e alimentar regional.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -107,12 +102,12 @@
 | Densidade aparente | 1.29 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.3833°, -57.1333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.3833°, -57.1333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Uma das capitais mais seguras do Paraguai. Baixíssima criminalidade urbana violenta. Segurança institucional forte através da presença da sede policial departamental e vigilância tática permanente. Coesão social baseada na identidade religiosa e comunitária.
 - **Leis Local:** Capital departamental com regime administrativo consolidado. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -139,7 +134,7 @@ Classificacao:
 - Seguro (Altamente recomendado como base administrativa e de suporte próximo à capital nacional, ciente da visibilidade tática).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte Municipalidade de Caacupé (Operação da Planta Asfáltica e Obras).
 - Fonte Ministério do Interior (Segurança Regional): https://www.mdi.gov.py/
 
@@ -192,7 +187,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -206,7 +200,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -217,7 +210,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 65% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

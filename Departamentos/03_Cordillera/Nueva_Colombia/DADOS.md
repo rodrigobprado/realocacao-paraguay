@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Nueva Colombia, Cordillera
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°11′S 57°18′W.
 - **Topografia:** Relevo plano a suavemente ondulado. Localizado na zona de transição entre o departamento Central e as elevações de Cordillera. Geologicamente estável, risco sísmico muito baixo.
 - **Alvos Estratégicos:** Canteras de extração de Pedra Loza (recurso mineral importante); Proximidade estratégica com a capital Assunção (~50 km) e Limpio. Ausência de alvos militares de grande escala, mas vulnerável como rota secundária de trânsito.
 - **Fallout:** Ventos predominantes do Norte (quentes) e Sul (frios). Risco de fallout indireto em caso de ataques severos à infraestrutura de comando na capital.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Centro de Saúde local (atendimento básico). Dependência do Hospital Regional de Caacupé (25 km) ou Hospital Nacional de Itauguá (35 km) para casos complexos.
 - **Custo de Vida:** Médio-baixo; economia baseada na produção de hortifrúti e mineração de pedras.
 - **Preço da Terra:** US$ 5.000-8.000/ha (áreas rurais brutas); US$ 15.000-18.000/ha (chácaras estruturadas ou residenciais de alto padrão).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 31.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 3.98 | 5.28 | 4.20 | 4.77 | 4.60 | 2.36 | 1.90 | 1.08 | 2.32 | 5.20 | 6.56 | 5.87 | **1465 mm** |
+| 123 | 149 | 130 | 143 | 143 | 71 | 59 | 33 | 70 | 161 | 197 | 182 | **1465 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações catastróficas. Áreas de pântanos e biodiversidade ligadas ao Rio Salado (6 km ao sul). Risco de erosão em áreas de pedreiras em eventos de chuva extrema (>1.500 mm/ano).
 - **Clima:** Subtropical subúmido. Verões intensos; suscetibilidade a rajadas de vento (100-120 km/h) em tempestades sazonais.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Poços artesianos e lençol freático produtivo; proximidade com o sistema hídrico do Rio Salado.
 - **Qualidade do Solo:** Solo muito fértil de origem sedimentar e vulcânica (basalto); excelente para hortifrúti, cítricos, vinhedos e agricultura familiar intensiva.
 - **Resources Locais:** Grande fornecedor de hortaliças para Assunção; produção de petitgrain (óleo essencial) e pedra loza. Elevado potencial para autossuficiência hídrica e alimentar básica.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Considerada uma das zonas mais seguras do país ("zona branca"). Baixíssima criminalidade violenta. Perfil comunitário pacífico e trabalhador. Vigilância privada comum em condomínios de chácaras.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira, permitindo plena titularidade para brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,9 +117,9 @@ Classificacao:
 - Moderadamente Seguro (Excelente opção para residências rurais próximas à capital com foco em autossuficiência alimentar).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte Banco Mundial (perfil de desenvolvimento): https://www.bancomundial.org/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 4.602 habitantes.
@@ -143,8 +139,7 @@ Classificacao:
 | Densidade aparente | 1.28 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.1833°, -57.3°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
-
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.1833°, -57.3°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ## 10. Analise de Riscos
 - **Cenario curto prazo:** Manutenção da segurança e valorização das terras para uso residencial de médio padrão.
@@ -188,7 +183,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -202,7 +196,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -213,7 +206,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 65% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

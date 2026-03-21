@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Cambreta, Itapua
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 27°20′S 55°50′W.
 - **Topografia:** Relevo ondulado com áreas de várzea nas proximidades de arroios tributários do Rio Paraná. Área de ~190 km².
 - **Alvos Estrategicos:** Distrito limítrofe com Encarnación. Ponto de expansão urbana e logística. Sem alvos militares.
 - **Fallout:** Ventos predominantes do Norte/Nordeste.
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -16,11 +16,9 @@
 - **Densidade:** ~251,1 hab/km².
 - **Vias de Acesso:** Excelente conectividade viária, integrado à malha urbana de Encarnación.
 - **Servicos:** Acesso direto a todos os serviços da capital regional (Encarnación).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -45,7 +43,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -59,11 +56,11 @@
 
 **Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 5.02 | 4.41 | 4.81 | 6.21 | 4.73 | 3.73 | 2.97 | 2.89 | 4.05 | 6.94 | 6.35 | 6.05 | **1770 mm** |
+| 156 | 125 | 149 | 186 | 147 | 112 | 92 | 90 | 122 | 215 | 190 | 188 | **1770 mm** |
 
 #### Poluição Luminosa
 
@@ -72,11 +69,10 @@
 | Escala Bortle | 5 — Céu suburbano |
 | Radiância artificial | 5.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Diversos arroios. Risco localizado de alagamentos em áreas de ocupação irregular ou baixadas em chuvas intensas.
 - **Sismicidade:** Baixa.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acoes/
 
@@ -95,19 +91,19 @@
 | Densidade aparente | 1.24 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -27.3333°, -55.8333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -27.3333°, -55.8333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Agua:** Cobertura de rede de água e poços comunitários.
 - **Energia:** Rede ANDE estável.
 - **Producao:** Olericultura, pequenas granjas e serviços urbanos.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Seguranca:** Perfil urbano-suburbano. Segurança estável, mas requer atenção a índices de criminalidade urbana típicos de áreas metropolitanas.
 - **Clima Social:** Sociedade diversa, integração total com Encarnación.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -189,7 +185,6 @@ Ideal para quem busca as conveniências da vida urbana em uma região segura, de
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Ideal para quem busca as conveniências da vida urbana em uma região segura, de
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Ideal para quem busca as conveniências da vida urbana em uma região segura, de
 | Domicílios com internet (dept.) | 78% |
 | Tecnologia predominante | fibra/rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

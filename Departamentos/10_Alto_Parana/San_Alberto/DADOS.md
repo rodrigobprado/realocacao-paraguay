@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: San Alberto, Alto Paraná
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°58′S 54°54′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado, com solos de altíssima fertilidade (Terra Roxa mecanizada). Altitude ~250m. Área de ~332 km². Geologicamente muito estável, risco sísmico nulo.
 - **Alvos Estratégicos:** Polo agroindustrial do norte de Alto Paraná; Grande concentração de silos e moinhos de grãos; Ponto logístico na Ruta **PY07**. Ausência de bases militares massivas, oferecendo excelente invisibilidade estratégica e proteção por anonimato rural produtivo.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto; posição favorável em relação aos centros metropolitanos.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura de serviços privados de alta qualidade. Sanatórios modernos, rede bancária completa e suporte técnico agroindustrial avançado.
 - **Custo de Vida:** Médio; economia dolarizada pelo agronegócio e alta valorização das áreas mecanizadas.
 - **Preço da Terra:** US$ 12.000-18.000/ha (terras mecanizadas de elite mundial).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 29.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.62 | 4.69 | 3.84 | 4.42 | 5.24 | 3.29 | 2.50 | 2.00 | 3.66 | 6.24 | 5.69 | 5.50 | **1573 mm** |
+| 143 | 132 | 119 | 133 | 162 | 99 | 78 | 62 | 110 | 193 | 171 | 170 | **1573 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 6 — Céu suburbano brilhante |
 | Radiância artificial | 15.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia favorável e gestão hídrica eficiente. Presença de arroios perenes de alta qualidade.
 - **Clima:** Subtropical Úmido. Verões quentes; invernos frescos com geadas ocasionais benéficas.
-- Fontes: 
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundante via poços artesianos profundos e lençol freático produtivo; excelente qualidade hídrica subterrânea.
 - **Qualidade do Solo:** **Latossolo Vermelho de Elite**; solo profundo, estruturado e de fertilidade máxima mundial. Excelente aptidão para soja, milho e trigo.
 - **Resources Locais:** Grande polo produtor de grãos e proteína animal. Elevadíssimo potencial para autossuficiência alimentar básica em nível de propriedade devido à vasta área produtiva e baixa população rural.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Uma das cidades rurais mais seguras e prósperas do país. Baixíssima criminalidade urbana. Coesão social fortíssima baseada na cultura produtora. Presença de segurança patrimonial privada de alta performance em todas as instalações agroindustriais.
 - **Leis Local:** Município consolidado e polo de influência no norte do departamento ("Capital do Trabalho"). **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,7 +117,7 @@ Classificacao:
 - Seguro (Altamente recomendado para autossuficiência e residência tática em ambiente de alta produtividade).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MAG (Dados de produtividade em Canindeyú/Alto Paraná).
 - Fonte Cooperativas Locais (Capacidade de armazenamento e logística).
 
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.25 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.9667°, -54.9°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.9667°, -54.9°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~5,0 (Muito baixo/Produtivo).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

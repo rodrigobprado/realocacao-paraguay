@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Isla Umbú, Ñeembucú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 26°54′S 58°12′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado, situado em uma zona de "terra firme" cercada por vastos humedales. Altitude ~60m. Área de ~485 km². Geologicamente estável, risco sísmico nulo.
 - **Alvos Estratégicos:** Igreja de San Atanasio (Patrimônio histórico e ponto de observação tático); Polo de produção pecuária leiteira; Local de isolamento estratégico adjacente à capital departamental (Pilar). Ausência total de alvos militares ou industriais pesados, oferecendo altíssimo nível de invisibilidade e proteção por anonimato rural.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout de alvos continentais primários devido ao isolamento geográfico profundo no sudoeste do país.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local. Proximidade imediata com os hospitais de alta complexidade em Pilar. Serviços comerciais básicos funcionais.
 - **Custo de Vida:** Muito baixo; economia baseada na pecuária leiteira e remessas.
 - **Preço da Terra:** US$ 1.500-2.500/ha (campos pecuários); US$ 30-50/m² (Urbano).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.96 | 4.29 | 4.68 | 5.56 | 3.49 | 2.37 | 1.55 | 1.29 | 2.25 | 5.02 | 5.91 | 5.24 | **1419 mm** |
+| 154 | 121 | 145 | 167 | 108 | 71 | 48 | 40 | 68 | 156 | 177 | 162 | **1419 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 2 — Céu tipicamente escuro |
 | Radiância artificial | 0.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas na zona urbana e áreas de invernada alta. Situada em uma "ilha" de solo firme que a protege das cheias cíclicas do Rio Paraguai. Abundância de arroios perenes.
 - **Clima:** Subtropical Úmido. Verões quentes; invernos suaves com entradas de ar frio que limpam a atmosfera.
-- Fontes: 
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via poços artesianos e nascentes naturais; excelente qualidade hídrica subterrânea.
 - **Qualidade do Solo:** Solo argiloso e aluvial fértil; aptidão para pastagens naturais, milho e horticultura familiar.
 - **Resources Locais:** Grande polo produtor de leite e queijo para a região sul. Elevadíssimo potencial para autossuficiência de proteína animal em nível de propriedade devido à vasta área produtiva e baixíssima população.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.42 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.9°, -58.2°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -26.9°, -58.2°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** **Uma das localidades mais seguras do Paraguai.** Criminalidade urbana comum praticamente inexistente. Estabilidade social forjada pela cultura tradicional e vigilância comunitária orgânica. Presença institucional de suporte via Pilar.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Seguro (A localidade nº 2 do Paraguai para relocação estratégica; oferece o máximo em privacidade, recursos básicos e proximidade com infraestrutura capital).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Manutenção da Ruta PY04.
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: Manutenção da Ruta PY04.
 - Fonte Ministério do Interior (Segurança Regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 40% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

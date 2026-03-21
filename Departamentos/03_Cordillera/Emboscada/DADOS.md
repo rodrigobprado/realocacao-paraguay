@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Emboscada, Cordillera
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°07′S 57°21′W.
 - **Topografia:** Terreno com afloramentos rochosos significativos (arenito e basalto). Elevações moderadas que oferecem vantagem tática de observação. Proximidade estratégica com o Rio Paraguai (Puerto Arecutacuá). Geologicamente muito estável, risco sísmico baixo (sentido apenas eventos reflexos).
 - **Alvos Estratégicos:** **Penitenciária Nacional de Emboscada** (Segurança Máxima); Grandes pedreiras de extração mineral (insumo crítico para a defesa e construção nacional); Eixo rodoviário vital da Ruta **PY03**.
 - **Fallout:** Ventos predominantes de Leste (E) e Sudeste (SE). Baixo risco de fallout primário de alvos continentais distantes.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Centro de Saúde de Emboscada (serviços básicos); Dependência de Caacupé ou Assunção para alta complexidade. Infraestrutura urbana em rápida expansão.
 - **Custo de Vida:** Baixo (inferior à capital); economia baseada na mineração de pedras e agricultura familiar.
 - **Preço da Terra:** US$ 5.500/ha (grandes glebas rurais); US$ 15.000-35.000/ha (áreas menores ou com potencial de extração mineral).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 28.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 3.98 | 5.28 | 4.20 | 4.77 | 4.60 | 2.36 | 1.90 | 1.08 | 2.32 | 5.20 | 6.56 | 5.87 | **1465 mm** |
+| 123 | 149 | 130 | 143 | 143 | 71 | 59 | 33 | 70 | 161 | 197 | 182 | **1465 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Risco de inundação restrito às áreas baixas ribeirinhas do Rio Paraguai. O terreno rochoso favorece a drenagem natural rápida, mas dificulta a infraestrutura de saneamento convencional.
 - **Clima:** Subtropical Úmido. Média de 1.500 mm/ano. Tempestades de verão podem ser intensas.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Captação via poços artesianos em rocha (água de alta qualidade) e proximidade com o Rio Paraguai.
 - **Qualidade do Solo:** Predominantemente rochoso; limita a agricultura mecanizada de grande escala, mas é excelente para mineração e construção de estruturas subterrâneas/abrigos de alta resistência.
 - **Resources Locais:** Líder nacional em extração de pedras brutas e lajas. Produção de gado de engorde e agricultura de subsistência.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.31 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.1167°, -57.35°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.1167°, -57.35°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** **Zona de Atenção Tática.** A presença do complexo penitenciário exige monitoramento contra fugas ou instabilidades internas. Contudo, a taxa de homicídios no departamento de Cordillera é uma das mais baixas do país (~3,6/100k).
 - **Leis Local:** Município histórico com regulamentações específicas para exploração mineral (MADES). **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira internacional.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Recomendado para perfis que buscam segurança institucional e recursos de construção).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Ministério do Interior (estatísticas de homicídios): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -188,7 +183,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -202,7 +196,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -213,7 +206,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 65% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

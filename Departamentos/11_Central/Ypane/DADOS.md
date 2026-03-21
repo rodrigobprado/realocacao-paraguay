@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Ypané, Central
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°27′S 57°31′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado. Localizado no centro-sul do departamento Central. Altitude ~110m. Área de ~53 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Eixo logístico nevrálgico do **Acceso Sur (PY01)**; **Centro de Alto Rendimento AlbiRoga** (Sede da Seleção Paraguaia de Futebol - infraestrutura de prestígio nacional); Grandes complexos industriais (Cervepar, Luminotecnia, Fábrica Paraguaya de Vidrio). Ponto de passagem vital entre a capital e o sul de Central.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Risco de fallout indireto elevado devido à proximidade com Assunção (~25 km).
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Hospital Distrital de Ypané em expansão. Infraestrutura urbana consolidada com forte rede comercial popular e serviços técnicos industriais. Proximidade com centros hospitalares de referência em Ñemby e San Lorenzo.
 - **Custo de Vida:** Baixo; economia impulsionada pela indústria de bebidas, metalurgia e construção civil.
 - **Preço da Terra:** US$ 80.000-150.000/ha (Zonas logísticas próximas ao Acceso Sur); US$ 30-60/m² (Urbano).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 27.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 | **1477 mm** |
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 | **1477 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 7 — Transição suburbano-urbano |
 | Radiância artificial | 40.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Diversos arroios cruzam o distrito. Risco moderado de inundações em bairros ribeirinhos baixos e problemas de drenagem pluvial urbana (raudales) em períodos de chuva torrencial (média 1.600 mm/ano).
 - **Clima:** Subtropical Úmido com forte efeito de ilha de calor urbana em áreas consolidadas.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via poços artesianos profundos e sistemas de junta de saneamento comunitários eficientes.
 - **Qualidade do Solo:** Solo franco-argiloso; fértil mas área distrital em rápido processo de impermeabilização urbana.
 - **Resources Locais:** Grande polo da indústria de bebidas (Cervepar), vidro e materiais elétricos. Alta capacidade de suprimentos industriais específicos, mas totalmente dependente de logística externa para alimentação básica. Resiliência de autossuficiência alimentar interna zero.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.32 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.45°, -57.5167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.45°, -57.5167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade dinâmica com índices de criminalidade urbana típicos de áreas periféricas em expansão acelerada. Presença ostensiva da Polícia Nacional em eixos industriais. Estabilidade social média, desafiada pela pressão migratória interna da Grande Assunção.
 - **Leis Local:** Município consolidado e polo de referência em centros de treinamento esportivo. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,7 +131,7 @@ Classificacao:
 - Moderadamente Seguro (Indicado como base industrial e logística, não recomendado para refúgio tático isolado).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MIC (Dados de infraestrutura industrial): https://www.mic.gov.py/
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | fibra óptica disponível |
-
 
 ### Mercado Imobiliário e Terra Rural
 

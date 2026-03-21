@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Yataity del Norte, San Pedro
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°49′S 56°20′W.
 - **Topografia:** Relevo predominantemente plano a levemente ondulado ("lomadas"). Localizado no extremo sul do departamento de San Pedro, fazendo divisa com Caaguazú pelo arroio Tapiracuái. Geologicamente estável, risco sísmico muito baixo.
 - **Alvos Estratégicos:** Ponto de trânsito e logística sobre a Ruta **PY08** (Dr. Blas Garay); Proximidade com o entroncamento da PY03 (20-30 km).
 - **Fallout:** Ventos predominantes do Norte (quentes e úmidos) e Sul (frios e secos). Baixo risco de fallout direto de alvos continentais primários.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Centro de Saúde local para atendimentos primários. Referência hospitalar em San Estanislao (Santaní) ou Coronel Oviedo para serviços de alta complexidade.
 - **Custo de Vida:** Baixo; economia baseada em agricultura familiar diversificada e pecuária.
 - **Preço da Terra:** US$ 4.000-7.000/ha (terras mecanizadas para soja); US$ 1.500-3.000/ha (áreas de pastagem ou mata).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 32.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.01 | 5.07 | 4.02 | 4.91 | 5.57 | 2.99 | 2.26 | 1.49 | 3.14 | 5.94 | 6.33 | 5.41 | **1557 mm** |
+| 124 | 143 | 125 | 147 | 173 | 90 | 70 | 46 | 94 | 184 | 190 | 168 | **1557 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Presença de arroios locais (ex: Tapiracuái). Baixo risco de inundações graves, mas risco de isolamento de colônias rurais por danos em pontes vicinais e lamaçais em caminhos de terra.
 - **Clima:** Subtropical Úmido. Precipitação anual entre 1.500 e 1.800 mm. Suscetível a temporais de verão com vento e granizo.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Poços artesianos e nascentes locais; boa disponibilidade subterrânea.
 - **Qualidade do Solo:** Franco-arenoso a argiloso; muito fértil e excelente para mecanização.
 - **Resources Locais:** Produção de mandioca, abacaxi, milho, gergelim, banana e pecuária de corte. Em expansão a cultura da soja mecanizada. Elevado potencial para autossuficiência alimentar.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural pacata e estável com baixos índices de criminalidade urbana violenta. Exposição a fluxos de trânsito rodoviário nacional. Risco de abigeato em áreas rurais isoladas.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da Lei 2532/05, sem impedimentos legais para proprietários brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,8 +117,8 @@ Classificacao:
 - Moderadamente Seguro (Excelente opção para refúgios rurais produtivos no Sul de San Pedro).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte MAG (produção agrícola): https://www.mag.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.27 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.8167°, -56.3333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.8167°, -56.3333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Preço Terra Rural:** US$ 1.500-7.000/ha.
 
@@ -188,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -202,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -213,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Yrybucuá, San Pedro
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°29′S 56°11′W.
 - **Topografia:** Relevo predominantemente plano a ondulado. Localizado em um ponto estratégico de transição entre San Pedro, Caaguazú e Canindeyú. Geologicamente estável, risco sísmico praticamente nulo.
 - **Alvos Estratégicos:** Hub de transição rodoviária próximo ao entroncamento das Rutas **PY03** e **PY08**; Áreas de expansão acelerada de soja mecanizada.
 - **Fallout:** Ventos predominantes do Norte/Nordeste (quentes e úmidos) e Sul (frentes frias). Baixo risco de fallout direto de alvos continentais primários.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidades de Saúde Familiar (USF) para atenção primária. Dependência de San Estanislao (Santaní) a 30-40 km para serviços de saúde especializados e alta complexidade.
 - **Custo de Vida:** Baixo (US$ 550-800/mês para padrão médio); alimentos básicos produzidos localmente favorecem a economia doméstica.
 - **Preço da Terra:** US$ 4.500-6.500/ha (terras mecanizadas para soja); US$ 1.200-2.500/ha (áreas de pecuária ou mistas).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 25.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 24° N (anual) · 34° N (inverno jun-ago) · 14° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 3.87 | 5.26 | 3.84 | 4.83 | 5.36 | 2.93 | 2.09 | 1.42 | 3.16 | 5.77 | 6.31 | 5.40 | **1529 mm** |
+| 120 | 149 | 119 | 145 | 166 | 88 | 65 | 44 | 95 | 179 | 189 | 167 | **1529 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas. Arroios locais podem transbordar e isolar colônias rurais temporariamente durante eventos de chuva extrema (precipitação média 1.500-1.600 mm).
 - **Clima:** Subtropical Úmido. Chuvas bem distribuídas; verões quentes com tempestades súbitas.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Boa disponibilidade subterrânea via poços artesianos e nascentes perenes.
 - **Qualidade do Solo:** Predomínio de solos arenosos; em áreas mecanizadas, transição para Latossolos (Terra Vermelha) de alta fertilidade. Exige plantio direto rigoroso.
 - **Resources Locais:** Grande produção de soja, milho, sésamo, mandioca e pecuária de corte (Brachiaria). Elevado potencial para autossuficiência alimentar.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.23 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.4833°, -56.1833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.4833°, -56.1833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural considerada estável e mais tranquila que o norte do departamento. Riscos focados em conflitos de terra esporádicos e crimes contra o patrimônio em fazendas (abigeato). Taxa de homicídios regional de ~7,9/100k.
 - **Leis Local:** Município consolidado pela Lei Orgânica 3966/10. **Livre de Restrição de Fronteira:** Fora da faixa de 50km da Lei 2532/05, permitindo plena titularidade para investidores brasileiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Excelente para perfis focados em agronegócio e autossuficiência produtiva).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC logística (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC logística: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Ministério do Interior (segurança): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -188,7 +183,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -202,7 +196,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -213,7 +206,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

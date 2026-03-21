@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Jesus (Jesus de Tavarangue), Itapua
 
-## Pesquisa oficial consolidada (acesso em 2026-03-05)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 27°03′S 55°45′W.
 - **Topografia:** Relevo ondulado com colinas suaves. Área de ~144 km².
 - **Alvos Estratégicos:** Missão Jesuítica de Jesús de Tavarangüé (Patrimônio da Humanidade UNESCO); Polo de turismo histórico-cultural. Ausência de alvos militares de grande porte.
 - **Fallout:** Ventos predominantes do Sul/Sudeste.
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -16,11 +16,9 @@
 - **Densidade:** ~36,09 hab/km² (Baixa densidade, favorável para segurança tática).
 - **Vias de Acesso:** Acesso via ramais pavimentados a partir da Ruta PY06.
 - **Serviços:** Infraestrutura básica. Dependência de Hohenau, Obligado ou Encarnación para serviços complexos.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -45,7 +43,6 @@
 | Idade mediana | 30.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -59,11 +56,11 @@
 
 **Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.96 | 4.31 | 4.72 | 6.14 | 4.85 | 3.67 | 2.91 | 2.65 | 3.76 | 6.66 | 6.44 | 5.82 | **1732 mm** |
+| 154 | 122 | 146 | 184 | 150 | 110 | 90 | 82 | 113 | 206 | 193 | 180 | **1732 mm** |
 
 #### Poluição Luminosa
 
@@ -72,11 +69,10 @@
 | Escala Bortle | 5 — Céu suburbano |
 | Radiância artificial | 5.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Diversos arroios locais. Baixo risco de inundações graves. Áreas de encosta exigem atenção.
 - **Clima:** Subtropical Úmido.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -84,10 +80,9 @@
 - **Energia:** Rede nacional (Itaipu/Yacyretá).
 - **Água:** Poços artesianos e sistemas de junta de saneamento.
 - **Recursos Locais:** Agricultura de pequena e média escala (soja, trigo, milho), gado e turismo.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -101,12 +96,12 @@
 | Densidade aparente | 1.28 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -27.05°, -55.75°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -27.05°, -55.75°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona muito pacata e estável. Baixíssima criminalidade urbana.
 - **Estrutura:** Coesão social baseada na identidade histórica e na atividade agrícola.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -138,7 +133,7 @@ Classificacao:
 - Mitigacao: Estabelecer autonomia de energia e agua (poços ja existentes sao ponto forte). Estoque de suprimentos para 30 dias recomendado.
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-05): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte INE indicadores distritais: https://www.ine.gov.py/vt/Indicadores-distritales.php
 - Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte DMH risco/clima: https://www.meteorologia.gov.py/avisos/
@@ -199,7 +194,6 @@ Recomendado para realocacao focada em seguranca e isolamento tatico, desde que a
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -213,7 +207,6 @@ Recomendado para realocacao focada em seguranca e isolamento tatico, desde que a
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -224,7 +217,6 @@ Recomendado para realocacao focada em seguranca e isolamento tatico, desde que a
 | Domicílios com internet (dept.) | 78% |
 | Tecnologia predominante | fibra/rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

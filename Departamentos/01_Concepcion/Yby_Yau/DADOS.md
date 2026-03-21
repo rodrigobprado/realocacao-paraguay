@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Yby Yaú, Concepcion
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 23°26′S 56°29′W.
 - **Topografia:** Relevo ondulado, zona de transição para a Cordilheira de Amambay. Altitude ~200m. Geologicamente estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Entroncamento das Rutas **PY05** (Leste-Oeste) e **PY08** (Norte-Sul) e proximidade com a **PY03**. Ponto vital absoluto para a logística do Norte do Paraguai. Hub comercial e de trânsito de gado e grãos.
 - **Fallout:** Ventos predominantes do Norte/Nordeste (quentes) e Sul (inverno).
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Comércio altamente desenvolvido, bancos e centros de saúde básicos. Dependência de Concepción ou Pedro Juan Caballero (ambos a ~100 km) para alta complexidade.
 - **Custo de Vida:** Baixo; produção local de carne e hortifrúti favorece a cesta básica.
 - **Preço da Terra:** US$ 1.200-2.000/ha (terras agrícolas e pastagens).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 26.0 anos | dist. |
 | Taxa de fecundidade | 2 | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 23° N (anual) · 33° N (inverno jun-ago) · 13° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 5.73 | 6.48 | 3.81 | 4.42 | 3.90 | 2.65 | 1.61 | 1.40 | 2.78 | 5.13 | 6.33 | 5.60 | **1517 mm** |
+| 178 | 183 | 118 | 133 | 121 | 80 | 50 | 43 | 83 | 159 | 190 | 174 | **1517 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Diversos arroios cruzam o distrito. Baixo risco de inundações em comparação com distritos ribeirinhos. Saneamento básico em fase de expansão.
 - **Clima:** Subtropical Úmido. Precipitação anual de 1.400-1.600 mm.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Poços artesianos e arroios locais perenes.
 - **Qualidade do Solo:** Latossolos vermelhos e solos arenosos; profundos e mecanizáveis, exigem correção para alta produtividade.
 - **Resources Locais:** Polo pecuário intensivo e produção de grãos (soja/milho). Elevadíssimo potencial para autossuficiência proteica e energética (se houver autonomia solar).
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.25 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -23.4333°, -56.4833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -23.4333°, -56.4833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** **Risco Crítico.** Zona de "hotspot" para narcotráfico (corredor Bolívia-Amambay-Brasil) e presença histórica do EPP (Ejército del Pueblo Paraguayo). Taxa de homicídios regional de 15-20/100k. Exige segurança privada robusta e perfil tático.
 - **Leis Local:** Município fora da restrição absoluta da Lei de Fronteira (distância > 50km da linha seca), facilitando a titularidade para estrangeiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Moderadamente Seguro (Recomendado apenas para perfis táticos com interesse comercial/agroindustrial).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-05): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
-- Fonte CODI/FTC segurança (acesso em 2026-03-06): https://www.paraguay.gov.py/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte CODI/FTC segurança: https://www.paraguay.gov.py/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 19.468 habitantes.
@@ -174,7 +169,6 @@ Ideal para operações agroindustriais de larga escala que possam arcar com cust
 - 4) Jurisprudência sobre a Lei de Fronteira (2532/05).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
-
 
 ## 14. Informações Técnicas e Infraestrutura (Leitores Alfa)
 
@@ -232,7 +226,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -246,7 +239,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -257,7 +249,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 48% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

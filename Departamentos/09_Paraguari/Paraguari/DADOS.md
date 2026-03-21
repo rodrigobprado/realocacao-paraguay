@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Paraguarí (Capital), Paraguarí
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°37′S 57°08′W.
 - **Topografia:** Localizada em um vale estratégico rodeado por serras (Cerro Perö, Cerro Hu, Cerro Mbatoví). Altitude ~175m. Área de ~396 km². Geologicamente muito estável, risco sísmico monitorado (proximidade com epicentros de 2022 em Colônia César Barrientos).
 - **Alvos Estratégicos:** **Comando da Artilharia do Exército Paraguaio** (Principal base de artilharia do país); Sede do Governo Departamental; Subestação da ANDE; Hub logístico da Ruta **PY01** (Eixo Assunção-Sul). Alta importância estratégica tática e militar.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Risco de fallout indireto em caso de ataques severos à região metropolitana de Assunção (~65 km).
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,10 +18,9 @@
 - **Serviços:** Melhor infraestrutura hospitalar do departamento (Hospital Regional de Paraguarí). Centro administrativo, bancário e educacional (Unidade da UNA).
 - **Custo de Vida:** Médio-baixo; economia baseada na prestação de serviços, setor público e agropecuária.
 - **Preço da Terra:** US$ 5.000-10.000/ha (áreas rurais); lotes residenciais valorizados nas encostas das serras pela proximidade com Assunção.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
 
 ### Indicadores Sociais
 
@@ -46,7 +45,6 @@
 | Idade mediana | 32.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climaticos (NASA POWER Climatology API, 2001-2020)
 
 Coordenadas: -25.62°S / -57.15°W. Acesso em 2026-03-20.
@@ -59,11 +57,11 @@ Coordenadas: -25.62°S / -57.15°W. Acesso em 2026-03-20.
 
 Média anual: 4.95 kWh/m²/dia. Mínimo: Jun (2.83) | Máximo: Dez (6.78).
 
-**Precipitação — PRECTOTCORR (mm/dia → mm/ano ~1.500):**
+**Precipitação — PRECTOTCORR (mm/mês → mm/ano ~1.500):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 4.09 | 4.96 | 4.29 | 4.95 | 4.91 | 2.61 | 2.14 | 1.32 | 2.58 | 5.53 | 6.42 | 5.66 |
+| 127 | 140 | 133 | 148 | 152 | 78 | 66 | 41 | 77 | 171 | 193 | 175 |
 
 Estação chuvosa Out-Nov; seca Jun-Ago (mínimo em Ago).
 
@@ -72,7 +70,7 @@ Estação chuvosa Out-Nov; seca Jun-Ago (mínimo em Ago).
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia de vale e drenagem natural serrana. Presença de mananciais de água pura nas serras circundantes.
 - **Clima:** Subtropical Úmido. Verões quentes; invernos frescos. Influência orográfica regula o microclima local.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -81,14 +79,14 @@ Estação chuvosa Out-Nov; seca Jun-Ago (mínimo em Ago).
 - **Água:** Sistema ESSAP e abundância de poços artesianos e nascentes de alta qualidade nas serras (ex: Reserva Mbatoví).
 - **Qualidade do Solo:** Solo franco-arenoso a rochoso; moderada aptidão para agricultura de grande escala, mas excelente para pecuária e horticultura de cinturão verde.
 - **Resources Locais:** Produção pecuária, serviços logísticos e forte suporte institucional. Potencial médio para autossuficiência calórica total, dependente de logística externa para grãos industriais.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 5. Ambiente sociopolitico
 - **Segurança:** Cidade com perfil institucional e militarizado, conferindo ordem e segurança superior à média nacional. Criminalidade urbana comum baixa. Presença ostensiva da Polícia Nacional e Exército.
 - **Leis Local:** Sede de todos os poderes estatais regionais. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -115,9 +113,9 @@ Classificacao:
 - Moderadamente Seguro (Ideal como base administrativa e operacional segura para o projeto).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MDN (Comando de Artilharia): https://mdn.gov.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 20.678 habitantes.
@@ -168,7 +166,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -182,7 +179,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -193,7 +189,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 58% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 
@@ -222,7 +217,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 **Observação para imigrantes:** Centro de referencia do departamento. Acesso a atendimento primario e, em geral, a maior oferta publica e privada da area. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.
 
-
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
 | Parâmetro | Valor |
@@ -235,4 +229,4 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Densidade aparente | 1.31 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.6167°, -57.1333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.6167°, -57.1333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.

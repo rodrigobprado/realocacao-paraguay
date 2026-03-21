@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Lambaré, Central
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°20′S 57°37′W.
 - **Topografia:** Relevo ondulado com colinas que oferecem vista panorâmica para o Rio Paraná e Assunção. Altitude ~150m. Área de ~27 km². Geologicamente estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Polo residencial de alto padrão da Grande Assunção; Sede do **Yacht y Golf Club Paraguayo** (infraestrutura social de elite); Proximidade crítica com o Cerro Lambaré (valor simbólico e tático). Ausência de alvos militares diretos, mas alta visibilidade social por abrigar parte da elite econômica nacional.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Risco de fallout indireto elevado em caso de incidentes severos na capital Assunção (continuidade urbana total).
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura de serviços de elite. Hospital Distrital de Lambaré e proximidade imediata com os melhores sanatórios privados de Assunção. Rede bancária, escolar e comercial saturada e completa.
 - **Custo de Vida:** Alto; mercado imobiliário extremamente valorizado em zonas residenciais consolidadas.
 - **Preço da Terra:** US$ 100-250/m² (Urbano/Residencial).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 33.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 | **1477 mm** |
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 | **1477 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 7 — Transição suburbano-urbano |
 | Radiância artificial | 40.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Enxurradas Urbanas (Raudales).** Problemas crônicos de drenagem pluvial em avenidas durante tempestades severas. Baixo risco de inundações fluviais diretas na maior parte do território, exceto em áreas muito baixas próximas à orla do rio.
 - **Clima:** Subtropical Úmido. Verões intensos com forte efeito de ilha de calor urbana.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Sistema ESSAP e poços artesianos profundos em condomínios residenciais.
 - **Qualidade do Solo:** Solo urbano impermeabilizado; aptidão agrícola nula no distrito.
 - **Resources Locais:** Cidade focada em serviços e residência. **Resiliência e autossuficiência nulas** a nível distrital. Dependência absoluta de logística externa (Mercado de Abasto) para alimentação.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -103,12 +98,12 @@
 | Densidade aparente | N/D |
 | **Aptidão agrícola** | **Restritiva** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.3333°, -57.6167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.3333°, -57.6167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona residencial consolidada com forte presença de segurança privada. Criminalidade urbana comum presente (furtos/assaltos), mas com policiamento ostensivo. Estabilidade social alta em bairros residenciais, desafiada por focos de vulnerabilidade periférica.
 - **Leis Local:** Município consolidado e altamente regulamentado. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -135,8 +130,8 @@ Classificacao:
 - Seguro (Indicado como base residencial de elite próxima à capital, ciente da vulnerabilidade demográfica).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Projetos de saneamento metropolitano.
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: Projetos de saneamento metropolitano.
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -188,7 +183,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -202,7 +196,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -213,7 +206,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | fibra óptica disponível |
-
 
 ### Mercado Imobiliário e Terra Rural
 

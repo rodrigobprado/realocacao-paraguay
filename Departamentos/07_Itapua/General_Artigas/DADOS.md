@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: General Artigas, Itapua
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 26°56′S 56°12′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado, solo fértil (latossolos e solos hidromórficos em baixadas). Área extensa de ~1.343 km².
 - **Alvos Estratégicos:** Áreas de produção agropecuária de grande escala. Ausência total de alvos militares ou infraestruturas críticas nacionais que atraiam ataques diretos.
 - **Fallout:** Ventos predominantes do Sul/Sudeste. Localização "upwind" em relação a centros industriais de Ciudad del Este.
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -17,11 +17,9 @@
 - **Vias de Acesso:** Conectado pela **Ruta PY08**, facilitando o escoamento para Coronel Bogado (sul) e para o centro do país.
 - **Serviços:** Infraestrutura básica. Dependência de Coronel Bogado ou Encarnación (82 km) para saúde de alta complexidade. Cobertura de internet satelital e energia trifásica em expansão.
 - **Custo de Vida:** Baixo (US$ 300-900/mês). Estilo de vida rural e pacato.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -46,7 +44,6 @@
 | Idade mediana | 35.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -60,11 +57,11 @@
 
 **Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.84 | 4.35 | 4.71 | 6.12 | 4.78 | 3.57 | 2.75 | 2.59 | 3.69 | 6.66 | 6.46 | 5.76 | **1713 mm** |
+| 150 | 123 | 146 | 184 | 148 | 107 | 85 | 80 | 111 | 206 | 194 | 179 | **1713 mm** |
 
 #### Poluição Luminosa
 
@@ -73,12 +70,11 @@
 | Escala Bortle | 5 — Céu suburbano |
 | Radiância artificial | 5.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Cruzado por arroios; risco de inundações em áreas de cota baixa, mas zona urbana é segura.
 - **Clima:** Subtropical Úmido. Vulnerável a tempestades severas ocasionais.
 - **Sismicidade:** Praticamente nula. Sem histórico de sismos perceptíveis.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -99,17 +95,17 @@
 | Densidade aparente | 1.3 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.9333°, -56.2°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -26.9333°, -56.2°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Autossuficiência:** **Muito Alta.** Vasta disponibilidade de terras por habitante. Elevado potencial para produção integrada familiar e pecuária.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural extremamente pacata. Baixos índices de criminalidade violenta. Forte tradição de respeito à propriedade privada.
 - **Leis Local:** Município histórico e tradicionalista, com forte coesão comunitária.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +132,8 @@ Classificacao:
 - Seguro com Pequenos Compromissos (Excelente para Isolamento Tático).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC (acesso em 2026-03-06): https://mopc.gov.py/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC: https://mopc.gov.py/
 - Fonte Sismicidade: https://www.geologiadelparaguay.com.py/
 
 ## 9. Indicadores Quantificados
@@ -185,7 +181,6 @@ Altamente recomendado para projetos de autossuficiência de longo prazo e isolam
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -199,7 +194,6 @@ Altamente recomendado para projetos de autossuficiência de longo prazo e isolam
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -210,7 +204,6 @@ Altamente recomendado para projetos de autossuficiência de longo prazo e isolam
 | Domicílios com internet (dept.) | 78% |
 | Tecnologia predominante | fibra/rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

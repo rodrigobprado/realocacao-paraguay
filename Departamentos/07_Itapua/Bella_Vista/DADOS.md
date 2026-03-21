@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Bella Vista, Itapua
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 27°02′S 55°34′W.
 - **Topografia:** Relevo ondulado, margens do Rio Paraná. Área de ~285 km².
 - **Alvos Estrategicos:** Centro de produção de erva-mate e agroindústria. Proximidade com a fronteira argentina. Sem alvos militares diretos.
 - **Fallout:** Ventos predominantes do Norte.
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -16,11 +16,9 @@
 - **Densidade:** ~36,7 hab/km².
 - **Vias de Acesso:** Localizado na Ruta PY06, principal eixo Itapúa-Alto Paraná.
 - **Servicos:** Excelente infraestrutura de serviços privados e cooperativismo forte (Colonias Unidas).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -45,7 +43,6 @@
 | Idade mediana | 29.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -59,11 +56,11 @@
 
 **Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.96 | 4.31 | 4.72 | 6.14 | 4.85 | 3.67 | 2.91 | 2.65 | 3.76 | 6.66 | 6.44 | 5.82 | **1732 mm** |
+| 154 | 122 | 146 | 184 | 150 | 110 | 90 | 82 | 113 | 206 | 193 | 180 | **1732 mm** |
 
 #### Poluição Luminosa
 
@@ -72,11 +69,10 @@
 | Escala Bortle | 5 — Céu suburbano |
 | Radiância artificial | 5.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Proximidade com o Rio Paraná exige atenção a áreas ribeirinhas, mas a zona urbana é elevada.
 - **Sismicidade:** Baixa.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acoes/
 
@@ -95,19 +91,19 @@
 | Densidade aparente | 1.3 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -27.0333°, -55.5667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -27.0333°, -55.5667°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Agua:** Sistemas de cooperativas eficientes.
 - **Energia:** Rede ANDE estável.
 - **Producao:** Erva-mate, soja, trigo e agroindústria de alimentos.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Seguranca:** Região das Colonias Unidas, conhecida por altos níveis de segurança e ordem social.
 - **Clima Social:** Forte influência de imigrantes europeus, cultura de trabalho e cooperativismo.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -189,7 +185,6 @@ Altamente recomendado para quem busca integração comunitária e produção agr
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Altamente recomendado para quem busca integração comunitária e produção agr
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Altamente recomendado para quem busca integração comunitária e produção agr
 | Domicílios com internet (dept.) | 78% |
 | Tecnologia predominante | fibra/rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

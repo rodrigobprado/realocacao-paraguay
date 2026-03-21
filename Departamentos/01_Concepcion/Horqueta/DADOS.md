@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Horqueta, Concepcion
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 23°20′S 57°03′W.
 - **Topografia:** Relevo ondulado ("lomadas"), solo profundo e bem drenado. Altitude ~170m. Geologicamente estável, risco sísmico muito baixo.
 - **Alvos Estratégicos:** Cruzamento das Rutas PY05 e rodovias locais; Polo de processamento de Estévia (Ka’a He’e) e óleos vegetais; Sede tática da **FTC (Força de Tarefa Conjunta)** e base de operações do CODI.
 - **Fallout:** Ventos predominantes do Norte (quentes) e Sul/Sudeste (frios).
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Hospital Distrital de Horqueta, Unidade do IPS e clínicas privadas (CEDIMEC, San Antonio). Boa oferta de comércio e serviços financeiros.
 - **Custo de Vida:** Baixo a Médio; economia baseada no agronegócio exportador e agricultura familiar.
 - **Preço da Terra:** US$ 4.000-5.500/ha (terras mecanizáveis de "tierra roja").
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 28.0 anos | dist. |
 | Taxa de fecundidade | 2 | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 23° N (anual) · 33° N (inverno jun-ago) · 13° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 5.04 | 5.34 | 3.81 | 4.67 | 3.81 | 2.48 | 1.61 | 1.04 | 2.55 | 4.97 | 6.84 | 5.33 | **1446 mm** |
+| 156 | 151 | 118 | 140 | 118 | 74 | 50 | 32 | 76 | 154 | 205 | 165 | **1446 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações em comparação com o litoral do Rio Paraguai. Drenagem natural eficiente pelo relevo ondulado.
 - **Clima:** Tropical. Temperaturas extremas no verão (>40°C). Chuvas bem distribuídas, com pico entre novembro e janeiro.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundante via poços artesianos e arroios locais.
 - **Qualidade do Solo:** **Latossolo Vermelho ("Tierra Roja")**; alta fertilidade e excelente aptidão para agricultura mecanizada (soja, milho, stevia).
 - **Resources Locais:** Capital nacional da Estévia; grande produção de proteína animal (vizinhança com frigoríficos de Concepción) e grãos. Elevadíssimo potencial de autossuficiência.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona de segurança tática. Presença ostensiva da FTC devido ao histórico de insurgência (EPP) na região rural. Taxa de homicídios regional de ~20/100k, influenciada por conflitos agrários. Perímetro urbano considerado seguro e controlado.
 - **Leis Local:** Município consolidado. **Restrição de Fronteira:** Aplicação da Lei 2532/05 exige verificação de distância da linha de fronteira para estrangeiros limítrofes.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,9 +117,9 @@ Classificacao:
 - Moderadamente Seguro (Ideal para perfis agroindustriais com foco em produtividade e autonomia).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
-- Fonte CODI/FTC segurança (acesso em 2026-03-06): Relatórios de comando regional.
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte CODI/FTC segurança: Relatórios de comando regional.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 39.548 habitantes.
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.27 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -23.3333°, -57.05°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -23.3333°, -57.05°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~20.0 (Regional/Rural).
 
@@ -174,7 +170,6 @@ Altamente indicado para investimentos em agronegócio e projetos de autossufici�
 - 4) Lei de Segurança Fronteiriça (2532/05).
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
-
 
 ## 14. Informações Técnicas e Infraestrutura (Leitores Alfa)
 
@@ -232,7 +227,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -246,7 +240,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -257,7 +250,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 48% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

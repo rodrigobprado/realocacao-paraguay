@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Bella Vista Norte, Amambay
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 22°08′S 56°31′W.
 - **Topografia:** Relevo ondulado com extensas planícies de pastagem e áreas de mata nativa. Margeado ao norte pelo Rio Apa (fronteira natural com o Brasil). Altitude ~210m. Área vasta de ~3.901 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** **Ponte Internacional sobre o Rio Apa** (Conexão direta com Bela Vista, Brasil); Porto fluvial secundário; Locais históricos da Guerra da Tríplice Aliança nas proximidades. Ausência de bases militares massivas, mas zona de alta vigilância da Armada e Polícia de Fronteira devido à dinâmica transfronteiriça.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto de alvos nacionais primários.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Centro de Saúde local e USF. Dependência de Pedro Juan Caballero (aprox. 100 km) para serviços hospitalares de alta complexidade. Infraestrutura comercial básica focada no intercâmbio fronteiriço.
 - **Custo de Vida:** Baixo; economia baseada na pecuária extensiva, erva-mate e comércio vicinal.
 - **Preço da Terra:** US$ 2.500-5.000/ha (áreas desenvolvidas para pecuária); US$ 1.500-2.500/ha (campos brutos/monte).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 29.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 22° N (anual) · 32° N (inverno jun-ago) · 12° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 5.35 | 5.70 | 3.40 | 3.60 | 3.52 | 2.15 | 1.30 | 1.16 | 2.46 | 4.28 | 5.31 | 4.98 | **1315 mm** |
+| 166 | 161 | 105 | 108 | 109 | 64 | 40 | 36 | 74 | 133 | 159 | 154 | **1315 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 2.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia ondulada. O Rio Apa possui praias fluviais e regime de cheias previsível. Presença de diversos arroios tributários de alta qualidade hídrica.
 - **Clima:** Tropical Úmido. Verões intensos e chuvosos; invernos amenos.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via Rio Apa, nascentes naturais e poços artesianos produtivos. Excelente disponibilidade hídrica subterrânea.
 - **Qualidade do Solo:** Solo franco-arenoso fértil; aptidão para pastagens naturais, silvicultura e cultivo de erva-mate. Áreas mecanizadas em expansão.
 - **Resources Locais:** Grande produção de gado bovino e erva-mate. Elevadíssimo potencial para autossuficiência de proteína animal em nível de propriedade devido à vasta área produtiva e baixa população.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.32 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -22.1333°, -56.5167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -22.1333°, -56.5167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona de fronteira com **vigilância tática permanente**. Criminalidade urbana comum moderada, mas sensível a atividades ilícitas transfronteiriças (narcotráfico/contrabando) típicas do departamento de Amambay. Coesão social baseada na cultura agropecuária tradicional.
 - **Leis Local:** Município consolidado com forte intercâmbio cultural com o Brasil. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira brasileira.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca isolamento rural produtivo com acesso fluvial, ciente dos desafios de segurança regional).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Reabilitação da Ruta PY08.
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: Reabilitação da Ruta PY08.
 - Fonte Ministério do Interior (Segurança de Fronteira): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 62% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

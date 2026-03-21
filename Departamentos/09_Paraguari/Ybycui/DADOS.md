@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Ybycuí, Paraguarí
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 26°01′S 57°03′W.
 - **Topografia:** Relevo acidentado com presença marcante de serras, vales profundos e matas preservadas. Altitude ~160m. Área vasta de ~827 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** **Parque Nacional Ybycuí** (Um dos principais reservatórios de biodiversidade e água pura do país); La Rosada (Antiga fundição de ferro - monumento histórico nacional); Polo de ecoturismo internacional. Ausência de alvos militares diretos, oferecendo excelente invisibilidade estratégica e proteção natural pela topografia.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) e centro médico local. Dependência de Paraguarí (capital) ou Carapeguá para serviços de alta complexidade. Infraestrutura urbana voltada ao ecoturismo sustentável.
 - **Custo de Vida:** Baixo; economia baseada na agropecuária de pequena escala, turismo e serviços locais.
 - **Preço da Terra:** US$ 5.000-10.000/ha (áreas rurais com recursos hídricos/nascentes); US$ 15.000-25.000/ha (áreas com potencial turístico ou infraestrutura residencial).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 33.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.27 | 4.46 | 4.28 | 5.24 | 5.08 | 2.87 | 2.37 | 1.77 | 2.90 | 5.84 | 6.23 | 5.42 | **1544 mm** |
+| 132 | 126 | 133 | 157 | 157 | 86 | 73 | 55 | 87 | 181 | 187 | 168 | **1544 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Abundância extrema de águas superficiais (saltos e arroios). Baixo risco de inundações sistêmicas devido ao relevo acidentado favorável à drenagem rápida. Risco de enxurradas em vales estreitos durante tempestades severas (média 1.600 mm/ano).
 - **Clima:** Subtropical Úmido com microclima serrano agradável. Verões quentes; invernos frescos com geadas ocasionais.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** **Recurso de Elite.** Abundância de nascentes naturais de água pura e poços artesianos. Qualidade hídrica superior garantida pela proteção do Parque Nacional.
 - **Qualidade do Solo:** Solo franco-arenoso nos vales e rochoso nas encostas; fértil para policultivos familiares, mandioca e pastagens cultivadas.
 - **Resources Locais:** Gado de corte e leite, madeira sustentável, mel e produtos de agricultura familiar. Elevadíssimo potencial para autossuficiência hídrica e alimentar básica.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.36 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.0167°, -57.05°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -26.0167°, -57.05°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona extremamente pacífica e segura. Taxa de homicídios regional entre as menores do país (~3,6/100k). Coesão social fortíssima baseada na tradição histórica e no compromisso com a preservação ambiental. Baixa visibilidade para conflitos externos.
 - **Leis Local:** Município histórico e polo de preservação (MADES). **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca isolamento natural e autonomia hídrica absoluta).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MADES (Parque Nacional Ybycuí): https://www.mades.gov.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 17.419 habitantes.
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 58% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

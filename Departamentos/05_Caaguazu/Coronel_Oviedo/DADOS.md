@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Coronel Oviedo (Capital), Caaguazú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°26′S 56°26′W.
 - **Topografia:** Relevo predominantemente plano com colinas suaves e vales abertos. Altitude ~170m. Área de ~878 km². Geologicamente muito estável, risco sísmico desprezível (zona intraplaca).
 - **Alvos Estratégicos:** **Coração Logístico do Paraguai** (Cruzamento vital das Rutas PY02 e PY08); Sede do Governo Departamental; Grande Subestação de Transmissão da ANDE; Novo Hospital Geral de Coronel Oviedo (referência regional).
 - **Fallout:** Ventos predominantes do Norte (quentes e úmidos) e Leste. Risco de fallout indireto em caso de ataques severos a Assunção (~130 km).
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Melhor infraestrutura hospitalar do interior do país (Novo Hospital Geral). Polo universitário, comercial e financeiro consolidado.
 - **Custo de Vida:** Médio; economia pujante baseada na prestação de serviços, transporte e agroindústria.
 - **Preço da Terra:** US$ 5.000-10.000/ha (áreas rurais valorizadas); lotes urbanos e industriais com preços de mercado metropolitano.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 30.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.22 | 4.82 | 4.21 | 5.08 | 5.55 | 3.01 | 2.43 | 1.68 | 3.07 | 6.04 | 6.33 | 5.37 | **1577 mm** |
+| 131 | 136 | 131 | 152 | 172 | 90 | 75 | 52 | 92 | 187 | 190 | 166 | **1577 mm** |
 
 #### Poluição Luminosa
 
@@ -74,14 +71,13 @@
 | Escala Bortle | 5 — Céu suburbano |
 | Radiância artificial | 6.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Diversos arroios na zona urbana (ex: Arroyo Pasito). Baixo risco de inundações catastróficas sistêmicas. Vulnerabilidade localizada em drenagem urbana pluvial durante tempestades de verão.
 - **Clima:** Subtropical Úmido. Verões intensos (>40°C frequentes).
-- **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):** Jan 6.74 | Fev 6.20 | Mar 5.50 | Abr 4.48 | Mai 3.35 | Jun 2.88 | Jul 3.21 | Ago 3.96 | Set 4.59 | Out 5.43 | Nov 6.43 | Dez 6.81. Média anual: 4.96 kWh/m²/dia. Mínimo: Jun (2.88) | Máximo: Dez (6.81). Fonte: NASA POWER Climatology API, período 2001-2020 (acesso em 2026-03-20).
-- **Precipitação — PRECTOTCORR (mm/dia):** Jan 4.22 | Fev 4.82 | Mar 4.21 | Abr 5.08 | Mai 5.55 | Jun 3.01 | Jul 2.43 | Ago 1.68 | Set 3.07 | Out 6.04 | Nov 6.33 | Dez 5.37. Média anual: ~1.573 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER (acesso em 2026-03-20).
+- **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):** Jan 6.74 | Fev 6.20 | Mar 5.50 | Abr 4.48 | Mai 3.35 | Jun 2.88 | Jul 3.21 | Ago 3.96 | Set 4.59 | Out 5.43 | Nov 6.43 | Dez 6.81. Média anual: 4.96 kWh/m²/dia. Mínimo: Jun (2.88) | Máximo: Dez (6.81). Fonte: NASA POWER Climatology API, período 2001-2020.
+- **Precipitação — PRECTOTCORR (mm/mês):** Jan 131 | Fev 136 | Mar 131 | Abr 152 | Mai 172 | Jun 90 | Jul 75 | Ago 52 | Set 92 | Out 187 | Nov 190 | Dez 166. Média anual: ~1.573 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER.
 - **Inclinação recomendada para placas solares:** 25° voltado para o Norte (anual); 35° no inverno (Jun-Ago); 15° no verão (Nov-Jan). Base: latitude local -25.44°S.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -90,10 +86,9 @@
 - **Água:** Sistema ESSAP e abundância de poços artesianos profundos (Aquífero Guarani).
 - **Qualidade do Solo:** Latossolo Vermelho de alta fertilidade; excelente para grãos, cana-de-açúcar e silvicultura nas áreas periféricas.
 - **Resources Locais:** Grande hub de suprimentos regionais, silos de grãos e usinas de etanol. Elevada capacidade de autossuficiência regional, mas dependente de ordem pública para distribuição.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -107,12 +102,12 @@
 | Densidade aparente | 1.3 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.4333°, -56.4333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.4333°, -56.4333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Centro urbano dinâmico com criminalidade urbana típica (furtos/roubos). Segurança institucional forte através da Direção de Polícia Departamental. Sensível a bloqueios rodoviários e manifestações sociais devido ao papel estratégico do cruzamento rodoviário.
 - **Leis Local:** Sede de todos os poderes estatais regionais. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -139,7 +134,7 @@ Classificacao:
 - Moderadamente Seguro (Ideal como centro de operações administrativas e de saúde para o projeto).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MOPC (duplicação PY02): https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Ministério do Interior (segurança): https://www.mdi.gov.py/
 
@@ -192,7 +187,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -206,7 +200,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -217,7 +210,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 62% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 
@@ -230,7 +222,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Aluguel 2 quartos (USD/mês) | 420 |
 
 > Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
-
 
 ### Saúde
 

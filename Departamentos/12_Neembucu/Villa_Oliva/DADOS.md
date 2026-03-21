@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Villa Oliva, Ñeembucú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 26°01′S 57°51′W.
 - **Topografia:** Relevo predominantemente plano, área de baixada margeada pelo Rio Paraguai ao oeste. Presença de vastos humedales, esteros e campos de pastagem natural. Altitude ~60m. Área vasta de ~1.586 km². Geologicamente estável, risco sísmico nulo.
 - **Alvos Estratégicos:** Áreas de produção pecuária extensiva de grande porte; Porto fluvial secundário; Conexão logística via Ruta **PY19** (Corredor Villeta-Alberdi). Ausência total de alvos militares ou infraestrutura industrial pesada, oferecendo excelente invisibilidade estratégica e proteção por isolamento geográfico.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto; posição favorável em relação aos ventos dominantes vindos da zona metropolitana de Assunção (~100 km).
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local. Dependência de Villeta ou Pilar para atendimentos médicos de alta complexidade e logística avançada. A vila urbana oferece serviços comerciais básicos.
 - **Custo de Vida:** Muito baixo; economia baseada na pecuária bovina e pesca comercial/esportiva.
 - **Preço da Terra:** US$ 1.500-2.500/ha (áreas com costa de rio ou aptidão para arroz); US$ 800-1.200/ha (campos baixos para gado).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.34 | 4.50 | 4.76 | 5.32 | 3.74 | 2.17 | 1.76 | 1.12 | 2.18 | 4.61 | 5.82 | 5.73 | **1402 mm** |
+| 135 | 127 | 148 | 160 | 116 | 65 | 55 | 35 | 65 | 143 | 175 | 178 | **1402 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 2 — Céu tipicamente escuro |
 | Radiância artificial | 0.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Moderado a Alto.** Vulnerável a cheias extraordinárias do Rio Paraguai e transbordamento de esteros internos. A nova rodovia PY19 possui cota elevada, o que garante acessibilidade mesmo em eventos hídricos moderados.
 - **Clima:** Subtropical Úmido. Verões intensos e úmidos; invernos suaves com entradas ocasionais de massas de ar polar que favorecem o controle de pragas.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundância hídrica superficial (Rio Paraguai e esteros) e poços artesianos produtivos. Excelente disponibilidade para pecuária.
 - **Qualidade do Solo:** Solo hidromórfico e arenoso; excelente para pastagens naturais e pecuária de corte. Potencial para rizicultura (arroz) em áreas baixas com gestão de água.
 - **Resources Locais:** Grande excedente de gado bovino e recursos pesqueiros. Elevado potencial para autossuficiência calórica familiar baseada em proteína animal para a pequena carga demográfica.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural e urbana de pequeno porte excepcionalmente pacífica e segura. Baixíssima criminalidade urbana. Estabilidade social máxima sustentada pela tradição pecuária e pelo isolamento relativo. Ausência de visibilidade para conflitos sociais de massa.
 - **Leis Local:** Município consolidado. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira argentina (limite fluvial).
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,8 +117,8 @@ Classificacao:
 - Seguro (Altamente recomendado para quem busca isolamento rural produtivo com boa conectividade logística moderna).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Pavimentação da Ruta PY19.
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: Pavimentação da Ruta PY19.
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.37 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.0167°, -57.85°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -26.0167°, -57.85°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~4,0 (Muito abaixo da média nacional).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 40% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

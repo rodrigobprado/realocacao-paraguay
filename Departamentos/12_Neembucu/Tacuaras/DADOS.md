@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Tacuaras, Ñeembucú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 26°51′S 58°08′W.
 - **Topografia:** Relevo plano com vasta predominância de esteros (pantanais) e terras úmidas de baixada. Altitude ~55m. Área extensa de ~1.000 km². Geologicamente muito estável, sem histórico de sismicidade.
 - **Alvos Estratégicos:** Áreas de produção pecuária extensiva; Ponto de passagem e fiscalização na Ruta **PY04** (corredor vital Pilar-San Ignacio). Ausência total de alvos militares ou infraestrutura industrial, oferecendo excelente invisibilidade estratégica e anonimato geográfico.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto devido à ausência de alvos estratégicos na região.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Unidade de Saúde da Família (USF) local. Dependência de Pilar (~30 km) para atendimentos médicos de alta complexidade e logística comercial diversificada.
 - **Custo de Vida:** Muito baixo; economia baseada na pecuária e agricultura de subsistência.
 - **Preço da Terra:** US$ 1.000-1.500/ha (campos baixos para pecuária e arroz).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.96 | 4.29 | 4.68 | 5.56 | 3.49 | 2.37 | 1.55 | 1.29 | 2.25 | 5.02 | 5.91 | 5.24 | **1419 mm** |
+| 154 | 121 | 145 | 167 | 108 | 71 | 48 | 40 | 68 | 156 | 177 | 162 | **1419 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 2 — Céu tipicamente escuro |
 | Radiância artificial | 0.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação e Isolamento Rural.** Distrito cortado por canais e esteros que transbordam sazonalmente. Vulnerabilidade moderada a alta em acessos rurais fora da Ruta PY04 durante eventos de "El Niño".
 - **Clima:** Subtropical Úmido. Verões intensos; invernos amenos com alta umidade relativa (média 1.500 mm/ano).
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundância de águas superficiais e poços artesianos produtivos. Lençol freático superficial em grande parte do território.
 - **Qualidade do Solo:** Solo hidromórfico; excelente aptidão para pastagens naturais e pecuária de corte. Potencial emergente para rizicultura (arroz) tecnificada.
 - **Resources Locais:** Grande excedente de gado bovino e proteína animal. Elevado potencial para autossuficiência alimentar básica para a população local.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.42 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.85°, -58.1333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -26.85°, -58.1333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural excepcionalmente pacífica. Baixíssima criminalidade urbana. Estabilidade social sustentada pela cultura pecuária tradicional e coesão das comunidades rurais. Ausência de visibilidade para conflitos sociais de massa.
 - **Leis Local:** Município consolidado. **Livre de Restrição de Fronteira:** Localizado fora da faixa de 50km da fronteira internacional seca (protegido pelos humedales).
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca isolamento rural com facilidade de acesso logístico via rodovia pavimentada).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MAG (Relatórios de pecuária em Ñeembucú): https://www.mag.gov.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Manutenção da Ruta PY04.
+- Fonte MOPC infraestrutura: Manutenção da Ruta PY04.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 2.717 habitantes.
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 40% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

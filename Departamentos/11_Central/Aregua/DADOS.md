@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Areguá (Capital), Central
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°18′S 57°23′W.
 - **Topografia:** Relevo que alterna entre áreas baixas às margens do Lago Ypacaraí e colinas suaves. Altitude ~160m. Área de ~105 km². Geologicamente estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Sede da **Gobernación de Central** (Poder administrativo regional); Hub de conexão entre Luque, Itauguá e Capiatá; Polo de turismo nacional e artesanal. Alta visibilidade administrativa por ser a capital do departamento mais populoso.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Risco de fallout indireto em caso de ataques severos a alvos de comando em Assunção (~30 km).
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Hospital Distrital de Areguá (ampliado recentemente). Infraestrutura urbana completa, com forte rede bancária e administrativa.
 - **Custo de Vida:** Médio; influenciado pelo turismo e proximidade com a zona metropolitana.
 - **Preço da Terra:** US$ 60-120/m² (lotes urbanos); chácaras rurais residenciais a partir de US$ 40.000/ha.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 28.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 | **1477 mm** |
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 | **1477 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 7 — Transição suburbano-urbano |
 | Radiância artificial | 40.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco Sanitário Crítico.** Poluição severa do Lago Ypacaraí torna a água superficial imprópria para consumo. Áreas ribeirinhas baixas vulneráveis a inundações localizadas durante chuvas intensas (média 1.600 mm/ano).
 - **Clima:** Subtropical Úmido. Verões intensos com ilhas de calor.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Sistemas de poços artesianos profundos e juntas de saneamento. Dependência de energia elétrica para bombeamento.
 - **Qualidade do Solo:** Solo argiloso e arenoso; excelente para olaria/cerâmica e cultivos específicos como morango.
 - **Resources Locais:** Principal polo produtor de morangos e cerâmica artesanal do país. Produção de hortifrúti de cinturão verde. Baixa capacidade de autossuficiência calórica total devido à alta densidade populacional.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.29 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.3°, -57.3833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.3°, -57.3833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade com perfil turístico e residencial. Criminalidade urbana comum presente (furtos/assaltos). Segurança institucional presente através da sede da polícia departamental e patrulhamento turístico.
 - **Leis Local:** Capital departamental com forte presença de agências estatais. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Indicado como base administrativa próxima à capital, requer preparo para autonomia total).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Plano Central III de pavimentação.
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: Plano Central III de pavimentação.
 - Fonte MADES (monitoramento ambiental do lago): https://www.mades.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | fibra óptica disponível |
-
 
 ### Mercado Imobiliário e Terra Rural
 
@@ -227,7 +219,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Aluguel 2 quartos (USD/mês) | 660 |
 
 > Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
-
 
 ### Saúde
 

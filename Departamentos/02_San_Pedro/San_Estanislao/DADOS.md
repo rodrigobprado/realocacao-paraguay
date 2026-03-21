@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: San Estanislao (Santaní), San Pedro
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°39′S 56°26′W.
 - **Topografia:** Relevo ondulado ("lomadas"). Altitude ~150m. Área vasta de ~2.625 km². Geologicamente estável, risco sísmico muito baixo.
 - **Alvos Estratégicos:** **Cruzamento das Rutas PY03 e PY08** (Nó logístico nevrálgico do Paraguai); Subestação regional da ANDE; Hub comercial e financeiro do departamento de San Pedro.
 - **Fallout:** Ventos predominantes do Nordeste (NE) no verão e Sul/Sudeste (S/SE) no inverno. Baixo risco de fallout direto de alvos internacionais primários.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Hospital Distrital e projeto avançado do novo Hospital Geral de San Estanislao (referência regional de US$ 60M). Polo universitário e de serviços financeiros.
 - **Custo de Vida:** Médio-baixo (US$ 600-700/mês para casal); infraestrutura urbana desenvolvida com serviços de utilidade pública acessíveis.
 - **Preço da Terra:** US$ 5.000-6.500/ha (áreas mecanizadas e produtivas para soja/milho).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 29.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 3.87 | 5.26 | 3.84 | 4.83 | 5.36 | 2.93 | 2.09 | 1.42 | 3.16 | 5.77 | 6.31 | 5.40 | **1529 mm** |
+| 120 | 149 | 119 | 145 | 166 | 88 | 65 | 44 | 95 | 179 | 189 | 167 | **1529 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Diversos arroios cruzam o distrito (ex: Tapiracuái). Risco de inundações localizadas em bairros baixos e danos em infraestrutura urbana durante tempestades severas.
 - **Clima:** Subtropical Úmido. Precipitação anual média de 1.620 mm. Verões quentes e invernos com geadas ocasionais.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via poços artesianos e sistemas de captação local (Tapiracuái).
 - **Qualidade do Solo:** Oxissolos e Ultissolos (terras vermelhas); profundos e bem drenados, exigem correção (calagem) para alta produtividade, mas são altamente aptos para soja, milho e erva-mate.
 - **Resources Locais:** Forte polo comercial, agricultura mecanizada em larga escala e pecuária de engorda. Alta disponibilidade de alimentos e insumos industriais.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.25 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.65°, -56.4333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.65°, -56.4333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade dinâmica com criminalidade urbana comum (furtos) e abigeato em áreas rurais. Considerada estável para os padrões regionais, mas sob vigilância tática por ser um "funil" logístico nacional.
 - **Leis Local:** Município histórico e consolidado. **Livre de Restrição de Fronteira:** Localizado no interior, sem impedimentos para aquisição por estrangeiros brasileiros (fora da faixa de 50km).
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,7 +131,7 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca base de serviços e produção agropecuária consolidada).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte Banco Mundial (infraestrutura de saúde): https://www.worldbank.org/
 - Fonte MOPC (projetos rodoviários): https://mopc.gov.py/servicios/estado-de-las-rutas/
 
@@ -188,7 +183,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -202,7 +196,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -213,7 +206,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

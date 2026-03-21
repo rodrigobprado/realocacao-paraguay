@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Yhu, Caaguazu
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°57′S 55°56′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado. Área de ~678 km².
 - **Alvos Estrategicos:** Centro de serviços regional em expansão na Ruta PY13. Áreas de produção florestal e agrícola.
 - **Fallout:** Ventos predominantes do Norte/Nordeste.
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -16,11 +16,9 @@
 - **Densidade:** ~33,2 hab/km².
 - **Vias de Acesso:** Cruzamento de rotas importantes conectando o departamento de Caaguazú ao norte do país.
 - **Servicos:** Rede de saúde em estruturação e comércio regional consolidado.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -45,7 +43,6 @@
 | Idade mediana | 26.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -59,11 +56,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.32 | 4.90 | 3.91 | 4.93 | 5.62 | 3.09 | 2.36 | 1.64 | 3.45 | 6.00 | 6.16 | 5.55 | **1581 mm** |
+| 134 | 138 | 121 | 148 | 174 | 93 | 73 | 51 | 104 | 186 | 185 | 172 | **1581 mm** |
 
 #### Poluição Luminosa
 
@@ -72,11 +69,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Rio Yhú e seus afluentes. Risco moderado de inundações em áreas ribeirinhas baixas.
 - **Sismicidade:** Nula.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acoes/
 
@@ -95,19 +91,19 @@
 | Densidade aparente | 1.29 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.95°, -55.9333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.95°, -55.9333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Agua:** Recursos hídricos superficiais e subterrâneos abundantes.
 - **Energia:** Rede ANDE.
 - **Producao:** Madeira, soja, milho e mandioca.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Seguranca:** Zoneamento urbano e rural seguro. Taxa de homicídios acompanhando a média departamental baixa (3,5/100k).
 - **Clima Social:** Sociedade tradicional em transição para o agronegócio mecanizado.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -188,7 +184,6 @@ Ideal para investimentos em silvicultura e agroindústria em ambiente seguro.
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -202,7 +197,6 @@ Ideal para investimentos em silvicultura e agroindústria em ambiente seguro.
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -213,7 +207,6 @@ Ideal para investimentos em silvicultura e agroindústria em ambiente seguro.
 | Domicílios com internet (dept.) | 62% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

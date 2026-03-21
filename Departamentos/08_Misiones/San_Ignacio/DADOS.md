@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: San Ignacio (Guazú), Misiones
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 26°53′S 57°01′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado, solo de alta fertilidade. Altitude ~135m. Área vasta de ~2.026 km². Geologicamente muito estável, risco sísmico desprezível (zona intraplaca).
 - **Alvos Estratégicos:** **Nó Logístico Vital do Sul** (Cruzamento das Rutas PY01 e PY04); Polo comercial e financeiro do departamento; Terminais de carga e silos; Patrimônio histórico jesuítico massivo. Ausência de bases militares de grande porte, mas centro de gravidade populacional e de suprimentos.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Melhor infraestrutura comercial e bancária do departamento. Hospital Distrital e forte rede de clínicas privadas. Polo educacional universitário.
 - **Custo de Vida:** Médio-baixo; economia movimentada pelo agronegócio e serviços.
 - **Preço da Terra:** US$ 4.000-6.500/ha (áreas agrícolas mecanizadas); US$ 1.500-2.500/ha (áreas de pecuária extensiva em campos baixos).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.58 | 4.19 | 4.41 | 5.73 | 4.34 | 3.07 | 2.31 | 2.13 | 3.26 | 6.05 | 6.18 | 5.57 | **1577 mm** |
+| 142 | 118 | 137 | 172 | 135 | 92 | 72 | 66 | 98 | 188 | 185 | 173 | **1577 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 0.8 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Diversos arroios locais tributários do Rio Tebicuary. Baixo risco de inundações sistêmicas catastróficas no núcleo urbano (cota segura). Risco de isolamento de acessos rurais em chuvas extremas (>1.600 mm/ano).
 - **Clima:** Subtropical Úmido. Verões quentes; invernos secos com geadas ocasionais.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via poços artesianos profundos e sistemas de junta de saneamento consolidados.
 - **Qualidade do Solo:** Solo franco-argiloso (vermelho) e solos hidromórficos nas baixadas; muito fértil e profundo, excelente para soja, arroz, milho e pastagens.
 - **Resources Locais:** **Coração da pecuária de elite e rizicultura.** Produção massiva de gado de corte, arroz, soja e mel. Elevadíssimo potencial para autossuficiência e suprimento regional de longa duração.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.38 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.8833°, -57.0167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -26.8833°, -57.0167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade dinâmica com criminalidade urbana comum (furtos/roubos) em ascensão. Segurança institucional forte através da Polícia Nacional e tradição comunitária conservadora. Vigilância necessária contra abigeato em áreas rurais.
 - **Leis Local:** Município histórico ("Capital do Barroco Hispano-Guarani"). **Livre de Restrição de Fronteira:** Fora da faixa de 50km da fronteira argentina.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Ideal como base administrativa e de suprimentos para o Sul do país).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 50% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

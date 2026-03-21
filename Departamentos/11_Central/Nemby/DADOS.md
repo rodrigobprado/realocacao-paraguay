@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Ñemby, Central
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°23′S 57°32′W.
 - **Topografia:** Relevo ondulado com a presença do **Cerro Ñemby** (elevação de 169m de basalto). Altitude ~125m. Área de ~40 km². Geologicamente estável, risco sísmico desprezível (evento de 3.9 em 2022 sentido sem danos).
 - **Alvos Estratégicos:** Polo industrial e de centros de distribuição na Grande Assunção; **Cerro Ñemby** (Antiga cantera de basalto, hoje ativo ecológico e ponto de observação tático); Eixo logístico do **Acceso Sur**. Ausência de alvos militares diretos, mas centro de gravidade populacional e industrial.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Risco de fallout indireto moderado em caso de ataques severos à capital Assunção (~15 km).
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Hospital Distrital de Ñemby e proximidade com centros médicos em Villa Elisa e San Lorenzo. Infraestrutura urbana consolidada com bancos, supermercados e suporte industrial.
 - **Custo de Vida:** Médio; economia impulsionada pela indústria e comércio metropolitano.
 - **Preço da Terra:** US$ 50-120/m² (Urbano); US$ 30.000-60.000/ha (Zonas industriais residuais).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 29.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 | **1477 mm** |
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 | **1477 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 7 — Transição suburbano-urbano |
 | Radiância artificial | 40.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia ondulada favorável à drenagem. Vulnerabilidade localizada em drenagem pluvial urbana (raudales) em tempestades severas (média 1.600 mm/ano).
 - **Clima:** Subtropical Úmido. Verões intensos com alta incidência de calor urbano.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Sistemas de poços artesianos profundos e juntas de saneamento. Presença de reservatórios industriais privados.
 - **Qualidade do Solo:** Solo franco-arenoso a argiloso (avermelhado); fértil, mas área distrital majoritariamente impermeabilizada ou industrializada.
 - **Resources Locais:** Grande polo de logística e indústrias de manufatura. Baixa capacidade de autossuficiência calórica interna; dependência absoluta de logística externa (Mercado de Abasto) para alimentação da massa.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.34 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.3833°, -57.5333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.3833°, -57.5333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade com índices de criminalidade urbana típicos de polos industriais metropolitanos. Presença ostensiva da Polícia Nacional e Grupo Lince. Forte coesão social em torno do patrimônio do Cerro Ñemby.
 - **Leis Local:** Município consolidado e altamente regulamentado. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Seguro (Ideal como base logística e operacional próxima à capital, ciente da vulnerabilidade demográfica).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Projeto de melhoria do Acceso Sur.
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: Projeto de melhoria do Acceso Sur.
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | fibra óptica disponível |
-
 
 ### Mercado Imobiliário e Terra Rural
 

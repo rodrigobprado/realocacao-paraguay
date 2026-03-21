@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: General Delgado, Itapua
 
-## Pesquisa oficial consolidada (acesso em 2026-03-05)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 27°10′S 56°31′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado. Área de ~464 km².
 - **Alvos Estratégicos:** Áreas de produção agropecuária; Ponto de passagem e serviços na Ruta PY01. Ausência de alvos militares de alta prioridade.
 - **Fallout:** Ventos predominantes do Sul/Sudeste.
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -16,11 +16,9 @@
 - **Densidade:** ~12,3 hab/km² (Baixa densidade, excelente para segurança social e isolamento relativo).
 - **Vias de Acesso:** Localização estratégica sobre a Ruta PY01 (Eixo principal Assunção - Encarnación).
 - **Serviços:** Infraestrutura básica. Centros de saúde primários (USF San Dionisio) e rede de educação básica e média.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -45,7 +43,6 @@
 | Idade mediana | 34.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -59,11 +56,11 @@
 
 **Inclinação solar recomendada:** 27° N (anual) · 37° N (inverno jun-ago) · 17° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.84 | 4.35 | 4.71 | 6.12 | 4.78 | 3.57 | 2.75 | 2.59 | 3.69 | 6.66 | 6.46 | 5.76 | **1713 mm** |
+| 150 | 123 | 146 | 184 | 148 | 107 | 85 | 80 | 111 | 206 | 194 | 179 | **1713 mm** |
 
 #### Poluição Luminosa
 
@@ -72,11 +69,10 @@
 | Escala Bortle | 5 — Céu suburbano |
 | Radiância artificial | 5.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações graves na zona urbana. Solo franco-arcilloso com boa drenagem.
 - **Clima:** Subtropical Úmido. Vulnerabilidade a tempestades severas e granizo, comum na região sul.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -84,10 +80,9 @@
 - **Energia:** Rede nacional (Itaipu/Yacyretá).
 - **Água:** Poços artesianos e juntas de saneamento local.
 - **Recursos Locais:** Solo fértil (Ultisoles/Alfisoles), apto para soja, arroz, trigo e pecuária. Preço da terra entre USD 4.000 e 7.000/ha.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MAG: https://www.mag.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -101,12 +96,12 @@
 | Densidade aparente | 1.37 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -27.1667°, -56.5167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -27.1667°, -56.5167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural pacata. Eventos isolados de crime organizado (asalto a banco em 2023) e abigeato.
 - **Estabilidade:** Comunidade agrícola tradicional com forte coesão social.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -182,7 +177,6 @@ General Delgado é uma das joias ocultas de Itapúa para quem busca segurança f
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -196,7 +190,6 @@ General Delgado é uma das joias ocultas de Itapúa para quem busca segurança f
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -207,7 +200,6 @@ General Delgado é uma das joias ocultas de Itapúa para quem busca segurança f
 | Domicílios com internet (dept.) | 78% |
 | Tecnologia predominante | fibra/rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

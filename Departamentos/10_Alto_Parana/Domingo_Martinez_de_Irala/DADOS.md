@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Domingo Martínez de Irala, Alto Paraná
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°53′S 54°37′W.
 - **Topografia:** Relevo ondulado a acidentado, margeado pelo Rio Paraná ao leste (fronteira com Argentina). Altitude ~180m. Área de ~334 km². Geologicamente estável, risco sísmico nulo.
 - **Alvos Estratégicos:** Porto fluvial secundário; Áreas de pecuária e agricultura extensiva; Localização estratégica para o controle do tráfego fluvial no Alto Paraná. Ausência total de alvos militares ou infraestrutura industrial massiva, oferecendo um dos maiores níveis de invisibilidade estratégica e proteção por isolamento geográfico deliberado no sul do departamento.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout de alvos continentais primários devido ao isolamento tático profundo.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura básica funcional (USF local). Dependência de Santa Rosa del Monday ou Ciudad del Este para atendimentos de saúde de alta complexidade e logística comercial especializada.
 - **Custo de Vida:** Muito baixo; economia baseada na pecuária bovina e pesca comercial.
 - **Preço da Terra:** US$ 5.000-8.000/ha (áreas ribeirinhas/pecuária); US$ 3.000-5.000/ha (campos brutos).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 27.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.73 | 4.55 | 4.13 | 4.73 | 5.14 | 3.88 | 2.94 | 2.43 | 4.11 | 6.96 | 5.47 | 5.92 | **1674 mm** |
+| 147 | 129 | 128 | 142 | 159 | 116 | 91 | 75 | 123 | 216 | 164 | 184 | **1674 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 6 — Céu suburbano brilhante |
 | Radiância artificial | 15.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia elevada em relação ao Rio Paraná. Abundância hídrica superficial absoluta. Diversos arroios perenes de alta qualidade hídrica cruzam o distrito.
 - **Clima:** Subtropical Úmido. Verões quentes e chuvosos; invernos amenos com geadas ocasionais.
-- Fontes: 
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundância hídrica absoluta via Rio Paraná e poços artesianos profundos. Água superficial exige tratamento para consumo humano.
 - **Qualidade do Solo:** **Latossolo Vermelho de Alta Performance**; solo profundo e fértil, ideal para pastagens naturais, silvicultura e agricultura de subsistência.
 - **Resources Locais:** Grande produção de gado bovino e recursos pesqueiros fluviais. Elevadíssimo potencial para autossuficiência alimentar básica em nível de propriedade devido à vasta área produtiva e baixíssima população.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Localidade excepcionalmente pacífica e segura. Criminalidade urbana praticamente inexistente. Estabilidade institucional básica baseada na presença de postos de controle fluvial e coesão comunitária tradicional. Localidade "invisível" para qualquer conflito sociopolítico nacional.
 - **Leis Local:** Município consolidado. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira argentina (limite fluvial).
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,9 +117,9 @@ Classificacao:
 - Seguro (Altamente recomendado para quem busca isolamento tático rural com abundância de recursos básicos e solo de alta performance).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte Armada Paraguaia (Segurança Fluvial regional).
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Relatórios de acessibilidade no sul de Alto Paraná.
+- Fonte MOPC infraestrutura: Relatórios de acessibilidade no sul de Alto Paraná.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 5.035 habitantes.
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.17 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.8833°, -54.6167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.8833°, -54.6167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~0,0 (Histórico de paz absoluta).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

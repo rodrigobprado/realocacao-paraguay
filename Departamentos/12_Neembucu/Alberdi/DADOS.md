@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Alberdi, Ñeembucú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 26°10′S 58°08′W.
 - **Topografia:** Relevo predominantemente plano, área de baixada (humedales) margeada pelo Rio Paraguai, situada estrategicamente em frente à cidade de Formosa (Argentina). Altitude ~60m. Área de ~222 km². Geologicamente estável, sem histórico de sismicidade relevante.
 - **Alvos Estratégicos:** **Muro de Defesa Costeira** (Infraestrutura crítica vital contra inundações); Porto fluvial de comércio transfronteiriço; Conexão logística via balsa com a Argentina. Localização estratégica como entreposto comercial, mas isolada dos eixos militares primários do Paraguai.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout de alvos nacionais; risco residual de incidentes industriais na vizinha Formosa (Arg).
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Hospital Distrital de Alberdi. Infraestrutura comercial focada em eletrônicos e vestuário (polo de compras para argentinos). Serviços básicos funcionais, mas com dependência de centros maiores para alta complexidade.
 - **Custo de Vida:** Baixo; economia dolarizada pelo comércio fronteiriço, com acesso a produtos importados a preços competitivos.
 - **Preço da Terra:** US$ 1.500-2.500/ha (campos para pecuária/arroz); US$ 35-55/m² (Urbano).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.34 | 4.50 | 4.76 | 5.32 | 3.74 | 2.17 | 1.76 | 1.12 | 2.18 | 4.61 | 5.82 | 5.73 | **1402 mm** |
+| 135 | 127 | 148 | 160 | 116 | 65 | 55 | 35 | 65 | 143 | 175 | 178 | **1402 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 2 — Céu tipicamente escuro |
 | Radiância artificial | 0.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco Crítico de Inundação.** Localidade historicamente vulnerável às cheias extraordinárias do Rio Paraguai. A segurança urbana depende 100% da integridade do muro de defesa e do sistema de bombas de drenagem pluvial.
 - **Clima:** Subtropical Úmido. Verões intensos e úmidos; invernos suaves. Média de precipitação de 1.500 mm/ano.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Captação fluvial tratada e poços artesianos. Abundância hídrica superficial, mas com risco de contaminação em grandes cheias.
 - **Qualidade do Solo:** Solo argiloso e hidromórfico (campos baixos); excelente aptidão para pecuária de corte e rizicultura (arroz).
 - **Resources Locais:** Grande excedente de gado bovino e peixes fluviais. O hub comercial garante acesso a estoques de mercadorias importadas. Elevado potencial para autossuficiência de proteína animal.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.34 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.1667°, -58.1333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -26.1667°, -58.1333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade comercial muito pacífica e segura. Baixíssima criminalidade urbana violenta. Estabilidade social forjada pela cooperação comunitária em emergências hídricas. Forte presença da Armada Paraguaia e Polícia de Fronteira.
 - **Leis Local:** Município consolidado com regime de comércio de fronteira. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira argentina.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Recomendado para quem busca isolamento tático, desde que mitigados os riscos hídricos).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Conclusão da pavimentação Ruta PY19.
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: Conclusão da pavimentação Ruta PY19.
 - Fonte Ministério do Interior (Segurança de Fronteira): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 40% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

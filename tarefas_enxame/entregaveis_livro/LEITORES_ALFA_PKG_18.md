@@ -53,11 +53,11 @@ Dados climatologicos extraidos da NASA POWER Climatology API, periodo 2001-2020,
 
 Média anual: 4.92 kWh/m²/dia. Mínimo: Jun (2.88) | Máximo: Jan (6.59).
 
-**Precipitação — PRECTOTCORR (mm/dia):**
+**Precipitação — PRECTOTCORR (mm/mês):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 3.36 | 4.51 | 3.39 | 2.66 | 2.04 | 0.87 | 0.57 | 0.38 | 0.74 | 2.43 | 3.54 | 3.77 |
+| 104 | 127 | 105 | 80 | 63 | 26 | 18 | 12 | 22 | 75 | 106 | 117 |
 
 Média anual: ~854 mm/ano. Regime semiárido do Chaco Central. Estação chuvosa Nov-Mar; seca Jun-Set (mínimo absoluto em Ago).
 

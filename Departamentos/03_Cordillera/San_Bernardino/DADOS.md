@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: San Bernardino, Cordillera
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°18′S 57°17′W.
 - **Topografia:** Localizado às margens do Lago Ypacaraí, com relevo que alterna entre áreas baixas ribeirinhas e as encostas da Cordillera de los Altos. Altitude ~130m. Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Infraestrutura turística de alto padrão; Residências de elite política e econômica nacional; Conexão Luque-San Bernardino (rota alternativa estratégica para a capital). Ausência de alvos militares diretos, mas altíssima visibilidade social e simbólica.
 - **Fallout:** Ventos predominantes do Norte (quentes e úmidos) e Leste. Risco de fallout indireto em caso de ataques severos a centros de comando em Assunção.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura de serviços de primeiro nível, hospitais privados e comércio de luxo. Proximidade com o Hospital Regional de Caacupé.
 - **Custo de Vida:** Elevado (o mais alto de Cordillera); mercado imobiliário extremamente valorizado.
 - **Preço da Terra:** Lotes urbanos entre US$ 15.000 e US$ 100.000; áreas em condomínios de montanha com altíssima valorização.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 32.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 | **1477 mm** |
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 | **1477 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco Sanitário e Hídrico.** Poluição crônica do Lago Ypacaraí limita o uso da água superficial. Risco de inundações em áreas baixas da orla durante eventos de chuva torrencial.
 - **Clima:** Subtropical Úmido. Microclima influenciado pelo lago e pelas elevações da cordilheira.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Dependência de poços artesianos profundos (Aquífero Patiño/Guarani) e sistemas de tratamento.
 - **Qualidade do Solo:** Arenoso nas áreas baixas e rochoso nas encostas; limitada aptidão para agricultura de grande escala.
 - **Resources Locais:** Baixa produção agrícola local. Dependência crítica de logística externa para abastecimento de longo prazo (Mercado de Abasto de Assunção). Ponto crítico negativo para autossuficiência isolada.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.25 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.3°, -57.2833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.3°, -57.2833°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** **Zona sob Vigilância Especial.** Por ser o refúgio da elite nacional, possui forte presença policial (Operativo Verano) e segurança privada ostensiva. Criminalidade urbana comum baixa, mas vulnerabilidade tática alta para saques ou conflitos em cenários de ruptura sistêmica urbana.
 - **Leis Local:** Município histórico e principal polo turístico nacional. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,8 +131,8 @@ Classificacao:
 - Moderadamente Seguro (Recomendado para perfis que buscam infraestrutura de elite, cientes da necessidade de autonomia de suprimentos).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Ministério do Interior (Operativo Verano): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 65% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

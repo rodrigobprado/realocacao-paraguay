@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Piribebuy, Cordillera
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°28′S 57°02′W.
 - **Topografia:** Relevo acidentado com presença de vales, arroios cristalinos e serras. Altitude ~220m. Área de ~209 km². Geologicamente estável, sem histórico sísmico estrutural relevante.
 - **Alvos Estratégicos:** Polo histórico nacional (Terceira Capital da República durante a Guerra da Tríplice Aliança); Centro de turismo de natureza e arroios; Ponto de conexão tática entre a Ruta PY02 e o sul de Cordillera. Localização defensiva natural, protegida por relevo que dificulta grandes manobras militares de massa.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto devido à topografia serrana e distância relativa de Assunção (~75 km).
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Hospital Distrital de Piribebuy. Infraestrutura urbana consolidada, forte setor hoteleiro e comercial. Serviços básicos funcionais para o suporte de uma população regional estável.
 - **Custo de Vida:** Baixo-médio; economia baseada no turismo, pequenas indústrias (cana-de-açúcar/caña) e agricultura.
 - **Preço da Terra:** US$ 15.000-30.000/ha (áreas turísticas/lazer); US$ 5.000-8.000/ha (áreas rurais de produção).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 32.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.09 | 4.96 | 4.29 | 4.95 | 4.91 | 2.61 | 2.14 | 1.32 | 2.58 | 5.53 | 6.42 | 5.66 | **1506 mm** |
+| 127 | 140 | 133 | 148 | 152 | 78 | 66 | 41 | 77 | 171 | 193 | 175 | **1506 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à cota elevada e drenagem natural serrana eficiente. Abundância excepcional de arroios cristalinos perenes que garantem suprimento hídrico superficial de alta qualidade.
 - **Clima:** Microclima serrano agradável. Verões menos opressivos; invernos frescos.
-- Fontes: 
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundância hídrica de elite via arroios e poços artesianos profundos. Qualidade da água superficial é uma das melhores do país.
 - **Qualidade do Solo:** Solo franco-arenoso e pedregoso em áreas de encosta; fértil para cana-de-açúcar, fruticultura e agricultura familiar.
 - **Resources Locais:** Grande polo produtor de aguardente orgânica (Caña Paraguaya) e derivados de cana. Produção diversificada de hortifrúti. Elevado potencial para autossuficiência hídrica e alimentar básica em nível regional e comunitário.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.3 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.4667°, -57.0333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.4667°, -57.0333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade tradicionalmente pacífica e muito segura. Baixíssima criminalidade urbana. Coesão social fortíssima baseada no orgulho histórico ("Cidade Heroica"). Estabilidade institucional sólida.
 - **Leis Local:** Município histórico consolidado. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Seguro (Altamente recomendado como residência tática e refúgio histórico próximo à infraestrutura da capital).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte SENATUR (Dados de turismo e infraestrutura histórica).
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Conectividade PY02-PY01.
+- Fonte MOPC infraestrutura: Conectividade PY02-PY01.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 25.758 habitantes.
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 65% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

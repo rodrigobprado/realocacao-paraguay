@@ -1,6 +1,6 @@
 # Avaliacao de Localidade: Carlos Antonio Lopez, Itapua
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 26°24′S 54°45′W (geocodificado via Nominatim).
@@ -12,8 +12,6 @@
 - Populacao Censo 2022: 13.792 habitantes (89,5% rural).
 - Densidade: 14,82 hab/km2.
 - Conectividade: Rota PY07 asfaltada; acesso aos portos Puerto Dos Fronteras e Puerto 7 de Agosto.
-
-
 
 ### Indicadores Sociais
 
@@ -38,7 +36,6 @@
 | Idade mediana | 27.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -52,11 +49,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.80 | 4.56 | 4.33 | 5.81 | 5.02 | 3.95 | 3.04 | 2.44 | 3.78 | 6.64 | 6.00 | 5.88 | **1712 mm** |
+| 149 | 129 | 134 | 174 | 156 | 118 | 94 | 76 | 113 | 206 | 180 | 182 | **1712 mm** |
 
 #### Poluição Luminosa
 
@@ -64,7 +61,6 @@
 |-----------|-------|
 | Escala Bortle | 5 — Céu suburbano |
 | Radiância artificial | 5.0 nW/cm²/sr |
-
 
 ### 4. Riscos naturais
 - Sismicidade: Muito baixa (regiao intraplaca estavel).
@@ -74,7 +70,6 @@
 - Solo: Terra Colorada Premium (Ultisol), altamente fertil.
 - Producao: Soja, milho, trigo (mecanizado).
 - Agua: Abundante via aquiferos e Rio Parana.
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -88,7 +83,7 @@
 | Densidade aparente | 1.23 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -26.4°, -54.75°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -26.4°, -54.75°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - Segurança: Alerta elevado. Incidentes recentes de assaltos armados (jan/2026) e explosao de agencias bancarias (2022).
@@ -174,7 +169,6 @@ Ideal para investimentos agricolas mecanizados, mas exige alto investimento priv
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -188,7 +182,6 @@ Ideal para investimentos agricolas mecanizados, mas exige alto investimento priv
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -199,7 +192,6 @@ Ideal para investimentos agricolas mecanizados, mas exige alto investimento priv
 | Domicílios com internet (dept.) | 78% |
 | Tecnologia predominante | fibra/rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

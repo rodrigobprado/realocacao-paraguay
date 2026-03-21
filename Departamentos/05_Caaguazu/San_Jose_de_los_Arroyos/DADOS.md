@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: San Jose de los Arroyos, Caaguazu
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°23′S 56°44′W.
 - **Topografia:** Relevo predominantemente plano a suavemente ondulado. Área de ~887 km².
 - **Alvos Estrategicos:** Ponto de transito e logistica na Ruta PY02. Areas de producao intensiva de cana-de-acucar. Ausencia de alvos militares diretos.
 - **Fallout:** Ventos predominantes do Norte/Nordeste.
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -16,12 +16,10 @@
 - **Densidade:** ~15,70 hab/km² (Baixa densidade, excelente para segurança social e isolamento relativo).
 - **Vias de Acesso:** Localização estratégica sobre a Ruta PY02 (Eixo principal Assunção - Ciudad del Este). Conexão direta com o departamento de Cordillera.
 - **Servicos:** Infraestrutura básica de saúde e educação. Dependência de Coronel Oviedo ou da zona metropolitana de Assunção (~100 km) para serviços complexos.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
     - MOPC: https://mopc.gov.py/servicios/estado-de-las-rutas/
-
-
 
 ### Indicadores Sociais
 
@@ -46,7 +44,6 @@
 | Idade mediana | 33.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -60,11 +57,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.09 | 4.96 | 4.29 | 4.95 | 4.91 | 2.61 | 2.14 | 1.32 | 2.58 | 5.53 | 6.42 | 5.66 | **1506 mm** |
+| 127 | 140 | 133 | 148 | 152 | 78 | 66 | 41 | 77 | 171 | 193 | 175 | **1506 mm** |
 
 #### Poluição Luminosa
 
@@ -73,11 +70,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Cruzado por diversos arroios. Baixo risco de inundações graves na zona urbana. Risco moderado de danos em acessos rurais em eventos de chuva extrema.
 - **Sismicidade:** Baixa sismicidade (intraplaca), sem registros significativos locais.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acoes/
 
@@ -96,19 +92,19 @@
 | Densidade aparente | 1.35 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.3833°, -56.7333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.3833°, -56.7333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Agua:** Poços artesianos e sistemas de distribuição local (Juntas de Saneamiento).
 - **Energia:** Rede nacional (ANDE - Itaipu).
 - **Producao:** Cana-de-açúcar, gado e agricultura de subsistência.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Seguranca:** Taxa de homicídios departamental de 3,5/100k hab (2022). Baixa criminalidade urbana.
 - **Clima Social:** Comunidade agrícola tradicional, estabilidade social elevada.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -192,7 +188,6 @@ Candidato viável para quem prioriza logística e acesso fácil, desde que possu
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -206,7 +201,6 @@ Candidato viável para quem prioriza logística e acesso fácil, desde que possu
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -217,7 +211,6 @@ Candidato viável para quem prioriza logística e acesso fácil, desde que possu
 | Domicílios com internet (dept.) | 62% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

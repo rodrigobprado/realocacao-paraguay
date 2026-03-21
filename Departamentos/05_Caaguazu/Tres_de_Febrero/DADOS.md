@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Tres de Febrero, Caaguazu
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°18′S 55°50′W.
 - **Topografia:** Relevo predominantemente plano. Área de ~214 km².
 - **Alvos Estrategicos:** Pequena área de produção agrícola sem alvos militares. Distante de rotas internacionais.
 - **Fallout:** Ventos predominantes do Norte/Nordeste.
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -16,11 +16,9 @@
 - **Densidade:** ~35,0 hab/km².
 - **Vias de Acesso:** Acesso por rotas secundárias ligando à Ruta PY02 e PY13.
 - **Servicos:** Saúde básica local. Dependência de Caaguazú ou Coronel Oviedo para complexidade.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -45,7 +43,6 @@
 | Idade mediana | 32.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -59,11 +56,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.32 | 4.90 | 3.91 | 4.93 | 5.62 | 3.09 | 2.36 | 1.64 | 3.45 | 6.00 | 6.16 | 5.55 | **1581 mm** |
+| 134 | 138 | 121 | 148 | 174 | 93 | 73 | 51 | 104 | 186 | 185 | 172 | **1581 mm** |
 
 #### Poluição Luminosa
 
@@ -72,11 +69,10 @@
 | Escala Bortle | 4 — Céu rural-suburbano |
 | Radiância artificial | 3.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundação urbana. Áreas rurais com drenagem natural eficiente.
 - **Sismicidade:** Nula/Baixa.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acoes/
 
@@ -95,19 +91,19 @@
 | Densidade aparente | 1.29 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.3°, -55.8333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.3°, -55.8333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Agua:** Poços artesianos privados e comunitários.
 - **Energia:** Rede ANDE.
 - **Producao:** Soja, milho e pequena pecuária.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Seguranca:** Ambiente rural pacato, baixo índice de criminalidade.
 - **Clima Social:** Estabilidade social elevada, população predominantemente rural.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -188,7 +184,6 @@ Indicado para projetos de autossuficiência agrícola intensiva e retiro estrat�
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -202,7 +197,6 @@ Indicado para projetos de autossuficiência agrícola intensiva e retiro estrat�
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -213,7 +207,6 @@ Indicado para projetos de autossuficiência agrícola intensiva e retiro estrat�
 | Domicílios com internet (dept.) | 62% |
 | Tecnologia predominante | rádio/fibra |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

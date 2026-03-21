@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Itauguá, Central
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°23′S 57°20′W.
 - **Topografia:** Relevo predominantemente plano com suaves ondulações. Localizado estrategicamente no centro-leste do departamento Central. Altitude ~170m. Área de ~122 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** **Hospital Nacional de Itauguá** (O maior centro de referência médica do país, infraestrutura crítica de saúde); Polo industrial têxtil e de confecções (Ñandutí); Importante nó logístico na Ruta **PY02** duplicada. Alta visibilidade institucional e de serviços.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Risco de fallout indireto moderado em caso de ataques severos à capital Assunção (~35 km).
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Melhor infraestrutura de saúde pública do interior (Hospital Nacional). Rede bancária, comercial e educacional (Polo Universitário) robusta e consolidada.
 - **Custo de Vida:** Médio; economia impulsionada pela indústria, artesanato e comércio de trânsito.
 - **Preço da Terra:** US$ 40-90/m² (Urbano); US$ 30.000-60.000/ha (Zonas industriais mecanizadas).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 29.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 | **1477 mm** |
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 | **1477 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 7 — Transição suburbano-urbano |
 | Radiância artificial | 40.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Diversos arroios cruzam o distrito. Baixo risco de inundações sistêmicas catastróficas devido ao relevo favorável. Vulnerabilidade localizada em drenagem pluvial urbana durante tempestades severas (média 1.600 mm/ano).
 - **Clima:** Subtropical Úmido. Verões intensos e úmidos.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundante via poços artesianos profundos e sistemas de junta de saneamento comunitários eficientes.
 - **Qualidade do Solo:** Solo franco-argiloso (avermelhado); muito fértil e profundo, ideal para fruticultura, mandioca e pastagens cultivadas.
 - **Resources Locais:** Grande polo produtor de artesanato têxtil (Ñandutí), hortifrúti e indústria de confecções. Elevado potencial para autossuficiência alimentar básica regional, embora dependente de logística interna.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.31 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.3833°, -57.3333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.3833°, -57.3333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Cidade próspera com segurança social estável para o padrão metropolitano. Criminalidade urbana comum presente (furtos), mas sob vigilância tática devido à importância do Hospital Nacional e polos industriais. Coesão social baseada na identidade cultural do Ñandutí.
 - **Leis Local:** Município consolidado e polo de referência em saúde. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Seguro (Localidade altamente recomendada como base de suporte médico e logístico para o projeto).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MSPBS (Hospital Nacional de Itauguá): https://www.mspbs.gov.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Duplicação Ruta PY02.
+- Fonte MOPC infraestrutura: Duplicação Ruta PY02.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 111.203 habitantes.
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | fibra óptica disponível |
-
 
 ### Mercado Imobiliário e Terra Rural
 

@@ -1,6 +1,6 @@
 # Avaliacao de Localidade: Asuncion, Distrito Capital
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°16′S 57°38′W.
@@ -8,7 +8,7 @@
 - **Alvos Estratégicos:** Palácio de los López (Governo), Porto Sajonia (Marinha), Base Ñu Guasu (Aeronáutica/Exército), Aeroporto Silvio Pettirossi (Luque), Hub elétrico de transmissão de Itaipu.
 - **Fallout:** Ventos predominantes: Nordeste (verão - Sirocco, quente) e Sul (inverno - Pampero, frio). Baixo risco de fallout global, mas vulnerável se houver ataques a centros de comando nacionais.
 - **Mapa e media local:** conjunto visual de apoio disponível em `MEDIA.md`, com midia institucional local para uso offline e verificação territorial.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -25,13 +25,11 @@
 - **Fecundidade:** 1,64 filho por mulher em 2022 e 1,68 em 2025 nas projeções do INE.
 - **Escolaridade:** 11,7 anos de estudo em homens e 11,4 em mulheres na faixa de 15+ anos; a cidade concentra o maior capital educacional do país.
 - **Assistência escolar:** os indicadores nacionais da EPHC 2025 mostram 39,4% de frequência geral e 97,7% de assistência entre 5 e 9 anos.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
     - INE, Asunción 2025, projeções de população e indicadores demográficos: https://www.ine.gov.py/noticias/2523/488-anos-de-asuncion-464000-habitantes-festejan-la-fundacion-de-la-capital
     - INE, promedio de años de estudio (Atlas de Género): https://geoportal.ine.gov.py/detalle-indicador.php?id=39
-
-
 
 ### Indicadores Sociais
 
@@ -56,7 +54,6 @@
 | Idade mediana | 33 anos | dist. |
 | Taxa de fecundidade | 1,64 filhos/mulher | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -70,11 +67,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 | **1477 mm** |
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 | **1477 mm** |
 
 #### Poluição Luminosa
 
@@ -83,15 +80,14 @@
 | Escala Bortle | 8 — Céu urbano |
 | Radiância artificial | 100.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Recorrente.** Áreas ribeirinhas (Bañados) sofrem cheias periódicas ligadas ao El Niño.
 - **Clima:** Tropical/Subtropical. Verões com temperaturas >40°C. Tempestades severas com rajadas de vento de até 160 km/h.
 - **Sismicidade:** Muito baixa. Região tectonicamente estável.
-- **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):** Jan 6.76 | Fev 6.20 | Mar 5.42 | Abr 4.44 | Mai 3.36 | Jun 2.83 | Jul 3.21 | Ago 3.93 | Set 4.61 | Out 5.49 | Nov 6.42 | Dez 6.78. Média anual: 4.95 kWh/m²/dia. Mínimo: Jun (2.83) | Máximo: Dez (6.78). Fonte: NASA POWER Climatology API, período 2001-2020 (acesso em 2026-03-20).
-- **Precipitação — PRECTOTCORR (mm/dia):** Jan 4.06 | Fev 4.92 | Mar 4.37 | Abr 4.97 | Mai 4.62 | Jun 2.47 | Jul 2.03 | Ago 1.23 | Set 2.44 | Out 5.27 | Nov 6.35 | Dez 5.78. Média anual: ~1.471 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER (acesso em 2026-03-20).
+- **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):** Jan 6.76 | Fev 6.20 | Mar 5.42 | Abr 4.44 | Mai 3.36 | Jun 2.83 | Jul 3.21 | Ago 3.93 | Set 4.61 | Out 5.49 | Nov 6.42 | Dez 6.78. Média anual: 4.95 kWh/m²/dia. Mínimo: Jun (2.83) | Máximo: Dez (6.78). Fonte: NASA POWER Climatology API, período 2001-2020.
+- **Precipitação — PRECTOTCORR (mm/mês):** Jan 126 | Fev 139 | Mar 135 | Abr 149 | Mai 143 | Jun 74 | Jul 63 | Ago 38 | Set 73 | Out 163 | Nov 190 | Dez 179. Média anual: ~1.471 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER.
 - **Inclinação recomendada para placas solares:** 25° voltado para o Norte (anual); 35° no inverno (Jun-Ago); 15° no verão (Nov-Jan). Base: latitude local -25.28°S.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -112,7 +108,7 @@
 | Densidade aparente | 1.21 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.2667°, -57.6333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.2667°, -57.6333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Autossuficiência:** Baixa no núcleo urbano; alta dependência de suprimentos logísticos nacionais e internacionais.
 - **Internet de alta velocidade:** 110 pontos de WiFi libre foram habilitados em Asunción pelo MITIC; 320 novos pontos chegaram ao país em 2023, com cobertura nacional ampliada.
@@ -120,7 +116,7 @@ Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.2667°, -
 - **Poços e águas subterrâneas:** não há profundidade média oficial consolidada para poços artesianos em Asunción; a regulação permanece com MADES e Lei 3239/07.
 - **Combustível e gás:** não foi identificado inventário oficial único por distrito para postos, eletropostos e distribuição de gás encanado.
 - **Serviço público digital:** a municipalidade de Asunción iniciou processo de transformação digital com apoio do MITIC em 2025.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
     - MITIC WiFi libre: https://mitic.gov.py/wifi-libre/
@@ -137,7 +133,7 @@ Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.2667°, -
 - **Escolaridade e ensino superior:** INE e CONES são as bases centrais para alfabetização, escolaridade e oferta universitária; a extração fina por recorte territorial permanece parcial.
 - **Demografia social:** idade mediana de 33 anos e fecundidade de 1,68 filho por mulher em 2025; o item já saiu da zona de lacuna aberta.
 - **Poluição luminosa:** Bortle 8 (céu urbano), radiância artificial estimada em 100 nW/cm²/sr. Fonte: World Atlas of Artificial Night Sky Brightness.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
     - Policía Nacional, Dirección de Policía de Asunción: https://policianacional.gov.py/direccion-de-policia-de-asuncion/
@@ -168,9 +164,9 @@ Classificacao:
 - Moderadamente Seguro (Recomendado para centros de operação com apoio rural).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-05): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
-- Fonte DMH risco/clima (acesso em 2026-03-06): https://www.meteorologia.gov.py/avisos/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte DMH risco/clima: https://www.meteorologia.gov.py/avisos/
 
 ## 9. Indicadores Quantificados
 - **Populacao metropolitana:** ~2,2 milhões.
@@ -220,7 +216,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -234,7 +229,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -245,7 +239,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 89% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | fibra óptica disponível |
-
 
 ### Mercado Imobiliário e Terra Rural
 
@@ -258,7 +251,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Aluguel 2 quartos (USD/mês) | 840 |
 
 > Valores de referência departamental. Localidades menores podem ter preços 20–40% abaixo da capital departamental.
-
 
 ### Saúde
 

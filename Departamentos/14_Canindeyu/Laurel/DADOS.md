@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Laurel, Canindeyú
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 24°31′S 54°45′W.
 - **Topographical:** Relevo predominantemente plano a suavemente ondulado, situado em zona de expansão da fronteira agrícola no leste de Canindeyú. Altitude ~240m. Área de ~408 km². Geologicamente estável, risco sísmico nulo.
 - **Alvos Estratégicos:** Áreas de produção agrícola intensiva mecanizada; Silos de armazenamento de grãos em consolidação. Ausência total de alvos militares ou infraestrutura industrial pesada, oferecendo excelente invisibilidade estratégica e proteção por anonimato.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixo risco de fallout direto; localização remota em relação aos centros metropolitanos.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura institucional básica em desenvolvimento. Unidade de Saúde da Família (USF) local. Dependência de Nueva Esperanza (40 km) ou Curuguaty para serviços hospitalares de alta complexidade e logística comercial avançada.
 - **Custo de Vida:** Muito baixo; economia baseada na produção de grãos e pecuária.
 - **Preço da Terra:** US$ 6.000-9.000/ha (terras mecanizadas); US$ 2.500-4.000/ha (áreas de uso misto).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 25.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.39 | 4.77 | 3.64 | 4.30 | 4.93 | 2.99 | 2.20 | 2.04 | 3.42 | 6.00 | 5.90 | 5.67 | **1530 mm** |
+| 136 | 135 | 113 | 129 | 153 | 90 | 68 | 63 | 103 | 186 | 177 | 176 | **1530 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à topografia favorável. Presença de arroios perenes de boa qualidade hídrica. Risco moderado de isolamento rural temporário por danos em estradas de terra em períodos chuvosos (média 1.700 mm/ano).
 - **Clima:** Subtropical Úmido. Verões quentes e chuvosos; invernos amenos com geadas ocasionais.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,14 +83,14 @@
 - **Água:** Abundante via poços artesianos e lençol freático produtivo; excelente qualidade hídrica subterrânea.
 - **Qualidade do Solo:** **Latossolo Vermelho**; solo profundo e fértil, ideal para soja, milho e pastagens mecanizadas.
 - **Resources Locais:** Grande produção de grãos e proteína animal. Elevadíssimo potencial para autossuficiência alimentar básica em nível de propriedade devido à vasta área produtiva e baixíssima população.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona rural excepcionalmente pacífica em termos de crime comum. No entanto, exige **atenção tática regional** por estar em departamento de fronteira sensível ao trânsito de ilícitos e conflitos agrários latentes. Estabilidade social baseada na cultura de trabalho do agronegócio.
 - **Leis Local:** Município de criação muito recente (2020). **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -121,7 +117,7 @@ Classificacao:
 - Moderadamente Seguro (Ideal para quem busca isolamento rural em solo de alta produtividade, aceitando a precariedade institucional local).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MAG (Dados de produção agrícola departamental): https://www.mag.gov.py/
 - Fonte Ministério do Interior (Segurança Regional): https://www.mdi.gov.py/
 
@@ -142,7 +138,7 @@ Classificacao:
 | Densidade aparente | 1.19 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -24.5167°, -54.75°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -24.5167°, -54.75°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 - **Homicidios/100k:** ~18,0 (Regional/Canindeyú).
 
@@ -189,7 +185,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +198,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +208,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 45% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

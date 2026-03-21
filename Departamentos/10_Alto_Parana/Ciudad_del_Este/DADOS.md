@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Ciudad del Este (Capital), Alto Paraná
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°31′S 54°37′W.
 - **Topografia:** Relevo ondulado margeado pelo Rio Paraná (fronteira com Brasil) e Rio Monday. Altitude ~180m. Área de ~149 km². Geologicamente muito estável, risco sísmico praticamente nulo.
 - **Alvos Estratégicos:** **Ponte Internacional da Amizade** (Principal conexão logística Paraguai-Brasil); Proximidade crítica com a **Usina Hidrelétrica de Itaipu** (~15 km); Aeroporto Internacional Guarani (Minga Guazú); Comando da Armada e Polícia de Fronteira. Alta visibilidade geopolítica global.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Risco de fallout tático em caso de sabotagem ou conflitos nas usinas hidrelétricas vizinhas.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,10 +18,9 @@
 - **Serviços:** Infraestrutura de saúde de alta complexidade (Hospital Regional, Sanatórios privados de ponta). Polo universitário e financeiro internacional.
 - **Custo de Vida:** Médio-alto; economia dolarizada pelo comércio, com alta valorização imobiliária urbana.
 - **Preço da Terra:** US$ 15.000-50.000/ha (áreas urbanas/comerciais); lotes residenciais em condomínios de luxo com preços de mercado metropolitano internacional.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
 
 ### Indicadores Sociais
 
@@ -46,7 +45,6 @@
 | Idade mediana | 28.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climaticos (NASA POWER Climatology API, 2001-2020)
 
 Coordenadas: -25.51°S / -54.61°W. Acesso em 2026-03-20.
@@ -59,11 +57,11 @@ Coordenadas: -25.51°S / -54.61°W. Acesso em 2026-03-20.
 
 Média anual: 4.89 kWh/m²/dia. Mínimo: Jun (2.93) | Máximo: Dez (6.55).
 
-**Precipitação — PRECTOTCORR (mm/dia → mm/ano ~1.610):**
+**Precipitação — PRECTOTCORR (mm/mês → mm/ano ~1.610):**
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 4.73 | 4.56 | 3.78 | 4.14 | 5.26 | 3.59 | 2.75 | 2.26 | 4.02 | 6.80 | 5.29 | 5.76 |
+| 147 | 129 | 117 | 124 | 163 | 108 | 85 | 70 | 121 | 211 | 159 | 179 |
 
 Estação chuvosa Out-Dez; seca Jul-Ago (mínimo em Ago).
 
@@ -72,7 +70,7 @@ Estação chuvosa Out-Dez; seca Jul-Ago (mínimo em Ago).
 ### 4. Riscos naturais
 - **Hidrologia:** Baixo risco de inundações sistêmicas devido à cota elevada da cidade em relação ao Rio Paraná. Vulnerabilidade localizada em áreas ribeirinhas baixas e drenagem urbana pluvial em tempestades severas (média 1.700 mm/ano).
 - **Clima:** Subtropical Úmido. Verões extremamente quentes e úmidos com ilhas de calor urbanas.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -81,14 +79,14 @@ Estação chuvosa Out-Dez; seca Jul-Ago (mínimo em Ago).
 - **Água:** Captação fluvial (Rio Paraná) via ESSAP e poços artesianos profundos (Aquífero Guarani).
 - **Qualidade do Solo:** Latossolo Vermelho (Terra Vermelha) altamente fértil, porém área distrital majoritariamente urbanizada, limitando a agricultura local.
 - **Resources Locais:** Gigantesco hub comercial e de suprimentos importados. Dependência total de logística externa para alimentação básica devido à carga demográfica massiva.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
 
 ### 5. Ambiente sociopolitico
 - **Segurança:** **Risco Crítico.** Zona de fronteira com alta complexidade social e criminalidade urbana significativa (furtos/assaltos). Centro de gravidade para operações de segurança nacional (Grupo Lince). Alta sensibilidade a tensões institucionais e diplomáticas.
 - **Leis Local:** Capital departamental com regime tributário especial. **Livre de Restrição de Fronteira** para propriedades urbanas, mas vigilância em zonas rurais limítrofes.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -115,8 +113,8 @@ Classificacao:
 - Moderadamente Seguro (Indicado como hub comercial e logístico, não recomendado para isolamento tático).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Ministério do Interior (segurança fronteiriça): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -167,7 +165,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -181,7 +178,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -192,7 +188,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 
@@ -221,7 +216,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 **Observação para imigrantes:** Centro de referencia do departamento. Acesso a atendimento primario e, em geral, a maior oferta publica e privada da area. Cobertura privada continua recomendada para especialidades e urgências de maior complexidade.
 
-
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
 | Parâmetro | Valor |
@@ -234,4 +228,4 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Densidade aparente | 1.24 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.5167°, -54.6167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.5167°, -54.6167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.

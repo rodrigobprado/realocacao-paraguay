@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Puerto Casado, Alto Paraguay
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 22°17′S 57°56′W.
 - **Topografia:** Relevo predominantemente plano, margeado pelo Rio Paraguai ao leste. Altitude ~75m. Área de ~5.000 km² (estimada em zona de humedales e campos). Geologicamente estável.
 - **Alvos Estratégicos:** **Porto de águas profundas** (Histórico ponto de partida do Aqueduto do Chaco); Base Naval de Puerto Casado; Polo de pecuária extensiva; Patrimônio histórico industrial (Antiga fábrica de tanino Carlos Casado). Localização estratégica para o controle do tráfego fluvial e abastecimento hídrico do Chaco Central.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto; posição favorável em relação aos centros de comando nacionais.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Centro de Saúde local e IPS. Dependência de Concepción ou Vallemí (do outro lado do rio) para serviços hospitalares de maior complexidade. Infraestrutura comercial básica.
 - **Custo de Vida:** Baixo-médio; economia baseada na pecuária e serviços logísticos fluviais.
 - **Preço da Terra:** US$ 400-800/ha (campos baixos para pecuária); US$ 30-60/m² (Urbano).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 22° N (anual) · 32° N (inverno jun-ago) · 12° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.90 | 5.26 | 3.87 | 3.95 | 3.42 | 1.89 | 1.23 | 0.73 | 1.82 | 4.20 | 6.73 | 5.40 | **1321 mm** |
+| 152 | 149 | 120 | 118 | 106 | 57 | 38 | 23 | 55 | 130 | 202 | 167 | **1321 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 1 — Céu verdadeiramente escuro |
 | Radiância artificial | 0.1 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Moderado a Alto.** Vulnerabilidade às cheias extraordinárias do Rio Paraguai. Áreas de baixada e humedales no interior do distrito retêm água por longos períodos.
 - **Clima:** Tropical de Savana. Verões com calor extremo (>42°C); invernos amenos.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Abundância hídrica superficial (Rio Paraguai). Captação para o Aqueduto do Chaco Central inicia nesta localidade, garantindo infraestrutura técnica de bombeamento presente.
 - **Qualidade do Solo:** Solo aluvial e argiloso; excelente para pastagens naturais e pecuária. Agricultura mecanizada limitada pela escala.
 - **Resources Locais:** Grande produção de gado bovino per capita. Elevadíssimo potencial para autossuficiência de proteína animal para a pequena carga demográfica.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.33 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -22.2833°, -57.9333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -22.2833°, -57.9333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona de fronteira fluvial pacífica. Criminalidade urbana comum baixíssima. Histórico de tensões sociais ligadas à posse de terra (Caso Victoria S.A.), exigindo sensibilidade diplomática local. Presença da Marinha para controle tático fluvial.
 - **Leis Local:** Município consolidado. **Restrição de Fronteira (Lei 2532/05):** Aplicável a terras rurais na faixa de 50km da fronteira brasileira (limite fluvial).
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,7 +131,7 @@ Classificacao:
 - Seguro (Ideal para quem busca isolamento tático fluvial com abundância de recursos básicos e segurança institucional regional).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte MOPC (Operação da Captação do Aqueduto): https://mopc.gov.py/
 - Fonte Ministério do Interior (Segurança Regional): https://www.mdi.gov.py/
 
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 22% |
 | Tecnologia predominante | satélite |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

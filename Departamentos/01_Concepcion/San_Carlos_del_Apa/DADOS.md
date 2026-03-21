@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: San Carlos del Apa, Concepcion
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 22°16′S 57°19′W.
 - **Topografia:** Relevo plano, margem do Rio Apa (fronteira com Brasil). Área de ~2.036 km². Geologicamente estável.
 - **Alvos Estratégicos:** Fuerte San Carlos del Apa (Patrimônio Histórico e ponto de observação de fronteira), posto de controle fluvial e terrestre.
 - **Fallout:** Ventos predominantes do Norte/Nordeste.
-- Fontes:
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura local quase inexistente. Dependência total de serviços externos para saúde e abastecimento de alta complexidade.
 - **Custo de Vida:** Reduzido, mas influenciado pelo alto custo de frete/transporte de insumos externos.
 - **Preço da Terra:** US$ 1.500-4.000/ha (áreas de pecuária extensiva no Chaco/Norte).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 28.0 anos | dist. |
 | Taxa de fecundidade | 3 | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 22° N (anual) · 32° N (inverno jun-ago) · 12° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.81 | 5.23 | 3.40 | 3.53 | 3.29 | 1.93 | 1.22 | 0.82 | 1.95 | 3.99 | 5.99 | 4.86 | **1249 mm** |
+| 149 | 148 | 105 | 106 | 102 | 58 | 38 | 25 | 58 | 124 | 180 | 151 | **1249 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 3 — Céu rural |
 | Radiância artificial | 1.5 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco de Inundação Sazonal.** As cheias do Rio Apa podem isolar completamente a localidade por terra, tornando o acesso exclusivamente fluvial ou aéreo.
 - **Clima:** Tropical Úmido/Seco. Verões com temperaturas extremas e períodos de seca severa.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Rio Apa e poços artesianos.
 - **Qualidade do Solo:** Solo apto para pastagens e pecuária extensiva; agricultura de subsistência viável com irrigação.
 - **Recursos Locais:** Pecuária de corte (principal atividade econômica) e pesca. Elevado potencial para autossuficiência proteica individual se houver infraestrutura de conservação.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.36 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -22.2667°, -57.3167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -22.2667°, -57.3167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Zona de fronteira seca e fluvial remota. Baixa criminalidade urbana comum, mas risco de presença de grupos irregulares e narcotráfico nas matas da região (conhecida área de trânsito). Vigilância militar/nerval necessária.
 - **Leis Local:** Forte identidade de resiliência. **Restrição de Fronteira (Lei 2532/05):** Proibição de compra de terras rurais por estrangeiros de países limítrofes na faixa de 50km.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -137,9 +132,9 @@ Classificacao:
 - Moderadamente Seguro (Recomendado apenas para perfis de alta resiliência e foco em isolamento absoluto).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-05): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
-- Fonte SEN/DMH (acesso em 2026-03-06): https://www.meteorologia.gov.py/avisos/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte SEN/DMH: https://www.meteorologia.gov.py/avisos/
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 856 habitantes.
@@ -173,7 +168,6 @@ Apenas para projetos de "prepping" de longo prazo com autonomia total (energia, 
 - 3) Informações sobre a Lei de Fronteira 2532/05.
 
 Regra aplicada: quando serie oficial distrital granular nao esta disponivel publicamente, a lacuna e registrada no dossie sem interromper a cadeia analitica.
-
 
 ## 14. Informações Técnicas e Infraestrutura (Leitores Alfa)
 
@@ -231,7 +225,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -245,7 +238,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -256,7 +248,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 48% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

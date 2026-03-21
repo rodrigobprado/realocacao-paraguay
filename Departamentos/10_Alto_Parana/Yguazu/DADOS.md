@@ -1,6 +1,6 @@
 # Avaliacao de Localidade: Yguazu, Alto Parana
 
-## Pesquisa oficial consolidada (acesso em 2026-03-05)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°28′S 55°00′W (geocodificado via Nominatim).
@@ -12,8 +12,6 @@
 - Censo 2022 INE: https://www.ine.gov.py/censo2022/
 - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
 - MOPC (estado de rutas): https://mopc.gov.py/servicios/estado-de-las-rutas/
-
-
 
 ### Indicadores Sociais
 
@@ -38,7 +36,6 @@
 | Idade mediana | 29.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -52,11 +49,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.69 | 4.62 | 4.02 | 4.64 | 5.24 | 3.49 | 2.66 | 2.07 | 3.78 | 6.38 | 5.62 | 5.63 | **1608 mm** |
+| 145 | 131 | 125 | 139 | 162 | 105 | 82 | 64 | 113 | 198 | 169 | 175 | **1608 mm** |
 
 #### Poluição Luminosa
 
@@ -64,7 +61,6 @@
 |-----------|-------|
 | Escala Bortle | 6 — Céu suburbano brilhante |
 | Radiância artificial | 15.0 nW/cm²/sr |
-
 
 ### 4. Riscos naturais
 - DMH avisos: https://www.meteorologia.gov.py/avisos/
@@ -75,7 +71,6 @@
 - ANDE: https://www.ande.gov.py
 - MOPC: https://mopc.gov.py/
 - SEN (projetos): https://sen.gov.py/acciones/proyectos/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -89,7 +84,7 @@
 | Densidade aparente | 1.27 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.4667°, -55.0°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.4667°, -55.0°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - TSJE institucional: https://www.tsje.gov.py
@@ -129,11 +124,11 @@ Classificacao:
 - Sensivel (requer mitigacao robusta).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-05): https://www.ine.gov.py/censo2022/
-- Fonte INE indicadores distritais (acesso em 2026-03-05): https://www.ine.gov.py/vt/Indicadores-distritales.php
-- Fonte MOPC infraestrutura (acesso em 2026-03-05): https://mopc.gov.py/servicios/estado-de-las-rutas/
-- Fonte DMH risco/clima (acesso em 2026-03-05): https://www.meteorologia.gov.py/avisos/
-- Fonte SEN eventos/acoes (acesso em 2026-03-05): https://sen.gov.py/acciones/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte INE indicadores distritais: https://www.ine.gov.py/vt/Indicadores-distritales.php
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte DMH risco/clima: https://www.meteorologia.gov.py/avisos/
+- Fonte SEN eventos/acoes: https://sen.gov.py/acciones/
 
 Sintese aplicada:
 - Dados textuais consolidados com base nas fontes oficiais acima; proximos ciclos podem aprofundar indicadores numericos especificos por distrito.
@@ -207,7 +202,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -221,7 +215,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -232,7 +225,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

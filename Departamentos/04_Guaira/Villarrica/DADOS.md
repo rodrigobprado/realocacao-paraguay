@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: Villarrica (Capital), Guairá
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°45′S 56°26′W.
 - **Topografia:** Relevo predominantemente plano com colinas suaves. Altitude ~180m. Localizada nas proximidades da **Cordilheira do Ybytyruzú**. Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** Sede da **Gobernación de Guairá** (poder político regional); Hospital Regional de Villarrica; Subestação da ANDE; Hub logístico da Ruta **PY08**.
 - **Fallout:** Ventos predominantes do Leste (E) e Nordeste (NE). Baixo risco de fallout direto.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Referência absoluta em saúde (Hospital Regional, IPS e sanatórios privados) e educação (UNVES, UC). Infraestrutura bancária e comercial de primeiro nível.
 - **Custo de Vida:** Médio-baixo (superior ao interior remoto, mas inferior a Assunção).
 - **Preço da Terra:** US$ 3.000-8.000/ha (terras rurais produtivas); lotes residenciais valorizados em condomínios de montanha (US$ 40.000-50.000/lote).
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | N/D | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 26° N (anual) · 36° N (inverno jun-ago) · 16° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.35 | 4.55 | 4.28 | 5.31 | 5.34 | 3.12 | 2.53 | 1.97 | 3.11 | 6.11 | 6.25 | 5.30 | **1590 mm** |
+| 135 | 129 | 133 | 159 | 166 | 94 | 78 | 61 | 93 | 189 | 188 | 164 | **1590 mm** |
 
 #### Poluição Luminosa
 
@@ -74,14 +71,13 @@
 | Escala Bortle | 5 — Céu suburbano |
 | Radiância artificial | 5.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** Diversos arroios na periferia urbana. Baixo risco de inundações catastróficas, mas vulnerabilidade localizada em drenagem urbana durante chuvas torrenciais.
 - **Clima:** Subtropical subúmido. Influência da Cordilheira do Ybytyruzú regula microclimas locais. Suscetível a temporais de verão com ventos moderados.
-- **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):** Jan 6.74 | Fev 6.20 | Mar 5.50 | Abr 4.48 | Mai 3.35 | Jun 2.88 | Jul 3.21 | Ago 3.96 | Set 4.59 | Out 5.43 | Nov 6.43 | Dez 6.81. Média anual: 4.96 kWh/m²/dia. Mínimo: Jun (2.88) | Máximo: Dez (6.81). Fonte: NASA POWER Climatology API, período 2001-2020 (acesso em 2026-03-20).
-- **Precipitação — PRECTOTCORR (mm/dia):** Jan 4.22 | Fev 4.82 | Mar 4.21 | Abr 5.08 | Mai 5.55 | Jun 3.01 | Jul 2.43 | Ago 1.68 | Set 3.07 | Out 6.04 | Nov 6.33 | Dez 5.37. Média anual: ~1.573 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER (acesso em 2026-03-20).
+- **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):** Jan 6.74 | Fev 6.20 | Mar 5.50 | Abr 4.48 | Mai 3.35 | Jun 2.88 | Jul 3.21 | Ago 3.96 | Set 4.59 | Out 5.43 | Nov 6.43 | Dez 6.81. Média anual: 4.96 kWh/m²/dia. Mínimo: Jun (2.88) | Máximo: Dez (6.81). Fonte: NASA POWER Climatology API, período 2001-2020.
+- **Precipitação — PRECTOTCORR (mm/mês):** Jan 131 | Fev 136 | Mar 131 | Abr 152 | Mai 172 | Jun 90 | Jul 75 | Ago 52 | Set 92 | Out 187 | Nov 190 | Dez 166. Média anual: ~1.573 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER.
 - **Inclinação recomendada para placas solares:** 26° voltado para o Norte (anual); 36° no inverno (Jun-Ago); 16° no verão (Nov-Jan). Base: latitude local -25.75°S.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -90,10 +86,9 @@
 - **Água:** Sistema centralizado (ESSAP) e abundância de poços artesianos de alta vazão.
 - **Qualidade do Solo:** **Latossolo Vermelho (Terra Vermelha)** de alta fertilidade; excelente para cana-de-açúcar, grãos e erva-mate.
 - **Resources Locais:** Grande polo agroindustrial (açúcar, álcool e têxtil). Forte excedente de proteína animal e alimentos básicos. Elevada capacidade de autossuficiência a nível regional.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -107,12 +102,12 @@
 | Densidade aparente | 1.3 g/cm³ |
 | **Aptidão agrícola** | **Média** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.75°, -56.4333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.75°, -56.4333°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Um dos departamentos mais seguros do país. Taxa de homicídios regional entre 6,6 e 7,8/100k. Ambiente urbano com perfil cultural e universitário elevado, reduzindo a incidência de crimes violentos graves.
 - **Leis Local:** Capital departamental com forte governança. **Livre de Restrição de Fronteira:** Localizada no coração do país, permitindo plena titularidade para investidores estrangeiros.
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -139,8 +134,8 @@ Classificacao:
 - Moderadamente Seguro (Ideal como base administrativa e de serviços para o projeto).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): https://mopc.gov.py/servicios/estado-de-las-rutas/
+- Fonte INE: https://www.ine.gov.py/censo2022/
+- Fonte MOPC infraestrutura: https://mopc.gov.py/servicios/estado-de-las-rutas/
 - Fonte Ministério do Interior (segurança regional): https://www.mdi.gov.py/
 
 ## 9. Indicadores Quantificados
@@ -192,7 +187,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -206,7 +200,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -217,7 +210,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 60% |
 | Tecnologia predominante | rádio |
 | Opção rural | Starlink disponível (~USD 44/mês) |
-
 
 ### Mercado Imobiliário e Terra Rural
 

@@ -1,13 +1,13 @@
 # Avaliacao de Localidade: San Lorenzo, Central
 
-## Pesquisa oficial consolidada (acesso em 2026-03-06)
+## Pesquisa oficial consolidada
 
 ### 1. Geografia e contexto estrategico/militar
 - **Coordenadas:** 25°20′S 57°31′W.
 - **Topografia:** Relevo predominantemente plano, totalmente urbanizado e integrado ao núcleo duro da Grande Assunção. Altitude ~130m. Área de ~56 km². Geologicamente muito estável, risco sísmico desprezível.
 - **Alvos Estratégicos:** **Campus da Universidade Nacional de Assunção (UNA)** (O maior polo educacional e científico do país); **Hospital de Clínicas** (O maior hospital escola e referência médica nacional); **Nó Rodoviário Central** (Entroncamento nevrálgico das Rutas PY01 e PY02); Sedes industriais farmacêuticas e alimentícias. Ponto de estrangulamento tático vital para o controle metropolitano.
 - **Fallout:** Ventos predominantes do Norte (NE) e Leste. Risco elevado de fallout indireto devido à proximidade imediata com Assunção (~10 km) e densidade demográfica.
-- Fontes: 
+
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/
 
@@ -18,11 +18,9 @@
 - **Serviços:** Infraestrutura de serviços de elite. Hospital de Clínicas, centros de diagnóstico avançado, rede bancária massiva e polo comercial de alta intensidade (Shoppings e mercados). Sede de importantes centros de pesquisa científica.
 - **Custo de Vida:** Médio-alto; economia baseada no comércio, educação superior e serviços. Mercado imobiliário saturado.
 - **Preço da Terra:** US$ 100-250/m² (Urbano/Residencial); sem disponibilidade de terras rurais extensas.
-- Fontes:
+
     - Censo 2022 INE: https://www.ine.gov.py/censo2022/
     - Indicadores distritais INE: https://www.ine.gov.py/vt/Indicadores-distritales.php
-
-
 
 ### Indicadores Sociais
 
@@ -47,7 +45,6 @@
 | Idade mediana | 31.0 anos | dist. |
 | Taxa de fecundidade | N/D | dist. |
 
-
 ### 3. Dados Climáticos e Ambientais
 
 **Fonte climática:** NASA POWER Climatology API (período 2001-2020)
@@ -61,11 +58,11 @@
 
 **Inclinação solar recomendada:** 25° N (anual) · 35° N (inverno jun-ago) · 15° N (verão nov-jan)
 
-#### Precipitação (mm/dia)
+#### Precipitação (mm/mês)
 
 | Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez | Total/ano |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----------|
-| 4.06 | 4.92 | 4.37 | 4.97 | 4.62 | 2.47 | 2.03 | 1.23 | 2.44 | 5.27 | 6.35 | 5.78 | **1477 mm** |
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 | **1477 mm** |
 
 #### Poluição Luminosa
 
@@ -74,11 +71,10 @@
 | Escala Bortle | 7 — Transição suburbano-urbano |
 | Radiância artificial | 40.0 nW/cm²/sr |
 
-
 ### 4. Riscos naturais
 - **Hidrologia:** **Risco Hidrológico Urbano Crítico.** Problemas graves e recorrentes de drenagem pluvial (raudales perigosos) em avenidas principais (ex: Mariscal López, Julia M. Cueto) durante tempestades severas. Baixo risco de inundações fluviais sistêmicas.
 - **Clima:** Subtropical Úmido com efeito severo de ilha de calor urbana.
-- Fontes:
+
     - DMH avisos: https://www.meteorologia.gov.py/avisos/
     - SEN: https://sen.gov.py/acciones/
 
@@ -87,10 +83,9 @@
 - **Água:** Sistema ESSAP e poços artesianos privados em larga escala.
 - **Qualidade do Solo:** Solo urbano impermeabilizado; aptidão agrícola inexistente no distrito.
 - **Resources Locais:** Gigantesco polo de comércio, serviços farmacêuticos e suprimentos. No entanto, a massiva população gera dependência total de logística externa para alimentação. Resiliência de autossuficiência alimentar interna zero.
-- Fontes:
+
     - ANDE: https://www.ande.gov.py
     - MOPC: https://mopc.gov.py/
-
 
 #### Solo (SoilGrids 2.0, média ponderada 0–30 cm)
 
@@ -104,12 +99,12 @@
 | Densidade aparente | 1.35 g/cm³ |
 | **Aptidão agrícola** | **Alta** |
 
-Fonte: ISRIC SoilGrids 2.0 via WCS (acesso em 2026-03-21). Coords: -25.3333°, -57.5167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
+Fonte: ISRIC SoilGrids 2.0 via WCS. Coords: -25.3333°, -57.5167°. Média ponderada camadas 0-5, 5-15, 15-30 cm.
 
 ### 6. Ambiente sociopolitico
 - **Segurança:** Índices de criminalidade urbana elevados (assaltos/furtos/microtráfico). Presença permanente de grandes efetivos da Polícia Nacional e Grupo Lince. Componente social jovem e politizado (UNA) que pode gerar focos de agitação civil e manifestações de massa em cenários de instabilidade.
 - **Leis Local:** Município consolidado e altamente institucionalizado. **Livre de Restrição de Fronteira.**
-- Fontes:
+
     - TSJE: https://www.tsje.gov.py
     - Dados abertos: https://www.datos.gov.py/
 
@@ -136,9 +131,9 @@ Classificacao:
 - Moderadamente Seguro (Indicado exclusivamente como centro de serviços e saúde, não recomendado para sobrevivência tática isolada).
 
 ## 8. Dados Consolidados de Fontes Oficiais
-- Fonte INE (acesso em 2026-03-06): https://www.ine.gov.py/censo2022/
+- Fonte INE: https://www.ine.gov.py/censo2022/
 - Fonte UNA (Campus e Centros de Pesquisa): https://www.una.py/
-- Fonte MOPC infraestrutura (acesso em 2026-03-06): Obras de viadutos e drenagem.
+- Fonte MOPC infraestrutura: Obras de viadutos e drenagem.
 
 ## 9. Indicadores Quantificados
 - **Populacao:** 225.395 habitantes.
@@ -189,7 +184,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Preços podem variar ±5% conforme posto e sazonalidade. Chaco e interior remoto apresentam maior variação.
 
-
 ### Cobertura Celular
 
 **Fonte:** CONATEL PY / operadoras (2024)
@@ -203,7 +197,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 
 > Para áreas rurais fora do núcleo urbano, recomenda-se chip Tigo como principal e Personal como backup.
 
-
 ### Internet
 
 **Fonte:** CONATEL / Speedtest Ookla (2024)
@@ -214,7 +207,6 @@ Regra aplicada: quando serie oficial distrital granular nao esta disponivel publ
 | Domicílios com internet (dept.) | 87% |
 | Tecnologia predominante | fibra/cabo |
 | Opção rural | fibra óptica disponível |
-
 
 ### Mercado Imobiliário e Terra Rural
 
