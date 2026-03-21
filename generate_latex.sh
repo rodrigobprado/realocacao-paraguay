@@ -74,9 +74,15 @@ dossier_to_desc() {
     echo "\end{description}"
 }
 
+# Função para limpar e refinar conteúdo usando script Python
+refine_content_py() {
+    local input_file=$1
+    local output_file=$2
+    python3 scripts/refine_book_content.py "$input_file" "$output_file" "$RAW_SOURCES"
+}
+
 clean_content() {
-    grep -vE "http|Fontes:|Regra aplicada|Onda [0-9]|Fase POP|NOTA:|Matriz de Evidencias|Evidencias" | \
-    grep -vE "^[[:space:]•*-]*[0-9]\)" | \
+    # Mantido para compatibilidade simples ou limpezas rápidas de strings específicas do LaTeX
     sed -E 's/^###? [0-9]+\.? (.*)/### \1/' | \
     sed -E 's/([0-9]{2})_//g' | \
     sed 's/_/ /g' | \
@@ -111,23 +117,28 @@ apply_links() {
 
 
 # 1. Metodologia
-clean_content < METODOLOGIA_RELOCACAO.md > t_metod.md
+refine_content_py METODOLOGIA_RELOCACAO.md t_metod_refined.md
+clean_content < t_metod_refined.md > t_metod.md
 pandoc t_metod.md -f markdown -t latex -o "$BASE/metodologia.tex"
+rm -f t_metod_refined.md
 
 # 2. Panorama Nacional
-grep -vE "Data:|GSS medio|Mediana|http" tarefas_enxame/entregaveis_livro/CAPITULOS_LIVRO.md | clean_content > t_pan.md
+refine_content_py tarefas_enxame/entregaveis_livro/CAPITULOS_LIVRO.md t_pan_refined.md
+grep -vE "Data:|GSS medio|Mediana" t_pan_refined.md | clean_content > t_pan.md
 echo -e "\n## Ranking Nacional\n" >> t_pan.md
 # Limpeza do Ranking preservando a estrutura
 cat tarefas_enxame/entregaveis_livro/RANK_NACIONAL.md | sed -E 's/[0-9]{2}_//g' | sed 's/Distrito_Capital/Distrito Capital/g' | tr '_' ' ' >> t_raw_rank.md
 clean_content < t_raw_rank.md >> t_pan.md
 pandoc t_pan.md -f markdown -t latex -o "$BASE/panorama_nacional.tex"
-rm -f t_raw_rank.md
+rm -f t_raw_rank.md t_pan_refined.md
 apply_glossary "$BASE/panorama_nacional.tex"
 apply_links "$BASE/panorama_nacional.tex"
 
 # 3. Expansão Editorial - Leituras Alfa
 if [ -f "$LEITORES_ALFA_MD" ]; then
-    pandoc "$LEITORES_ALFA_MD" -f markdown -t latex --top-level-division=chapter -o "$LEITORES_ALFA_TEX"
+    refine_content_py "$LEITORES_ALFA_MD" t_alfa_refined.md
+    pandoc t_alfa_refined.md -f markdown -t latex --top-level-division=chapter -o "$LEITORES_ALFA_TEX"
+    rm -f t_alfa_refined.md
 else
     cat > "$LEITORES_ALFA_TEX" <<'EOF'
 \chapter{Expansão Editorial: Leituras Alfa}
@@ -156,40 +167,41 @@ for dept_dir in $(ls -d Departamentos/*/ | sort); do
         if [ -f "$dados_file" ]; then
             raw_dist_name=$(basename "$dist_dir")
             dist_name=$(clean_geo "$raw_dist_name")
-            grep -E "http" "$dados_file" | sed 's/^[[:space:]*•-]*//' >> "$RAW_SOURCES"
 
-            # Extração de coordenadas para o Mini-Mapa
-            raw_coords=$(grep "**Coordenadas:**" "$dados_file" | head -1)
+            # 1. Pré-processamento e Refino (Fontes, Precipitação, Referências Internas)
+            refine_content_py "$dados_file" "t_dados_refined.md"
+
+            # 2. Extração de coordenadas para o Mini-Mapa
+            raw_coords=$(grep "**Coordenadas:**" "t_dados_refined.md" | head -1)
             lat_long=$(convert_coords "$raw_coords")
             lat=$(echo "$lat_long" | awk '{print $1}')
             long=$(echo "$lat_long" | awk '{print $2}')
 
-            # Parsing GSS
-            nA=$(grep "\- A:" "$dados_file" | sed -E 's/.*A: ([0-9]\.[0-9]).*/\1/')
-            jA=$(grep "\- A:" "$dados_file" | grep "(" | sed -E 's/.*\((.*)\).*/\1/')
+            # 3. Parsing GSS (Notas e Justificativas)
+            nA=$(grep "\- A:" "t_dados_refined.md" | sed -E 's/.*A: ([0-9]\.[0-9]).*/\1/')
+            jA=$(grep "\- A:" "t_dados_refined.md" | grep "(" | sed -E 's/.*\((.*)\).*/\1/')
             [ -z "$jA" ] && jA="-"
-            nB=$(grep "\- B:" "$dados_file" | sed -E 's/.*B: ([0-9]\.[0-9]).*/\1/')
-            jB=$(grep "\- B:" "$dados_file" | grep "(" | sed -E 's/.*\((.*)\).*/\1/')
+            nB=$(grep "\- B:" "t_dados_refined.md" | sed -E 's/.*B: ([0-9]\.[0-9]).*/\1/')
+            jB=$(grep "\- B:" "t_dados_refined.md" | grep "(" | sed -E 's/.*\((.*)\).*/\1/')
             [ -z "$jB" ] && jB="-"
-            nC=$(grep "\- C:" "$dados_file" | sed -E 's/.*C: ([0-9]\.[0-9]).*/\1/')
-            jC=$(grep "\- C:" "$dados_file" | grep "(" | sed -E 's/.*\((.*)\).*/\1/')
+            nC=$(grep "\- C:" "t_dados_refined.md" | sed -E 's/.*C: ([0-9]\.[0-9]).*/\1/')
+            jC=$(grep "\- C:" "t_dados_refined.md" | grep "(" | sed -E 's/.*\((.*)\).*/\1/')
             [ -z "$jC" ] && jC="-"
-            nD=$(grep "\- D:" "$dados_file" | sed -E 's/.*D: ([0-9]\.[0-9]).*/\1/')
-            jD=$(grep "\- D:" "$dados_file" | grep "(" | sed -E 's/.*\((.*)\).*/\1/')
+            nD=$(grep "\- D:" "t_dados_refined.md" | sed -E 's/.*D: ([0-9]\.[0-9]).*/\1/')
+            jD=$(grep "\- D:" "t_dados_refined.md" | grep "(" | sed -E 's/.*\((.*)\).*/\1/')
             [ -z "$nD" ] && nD="0.0"
             [ -z "$jD" ] && jD="-"
-            nE=$(grep "\- E:" "$dados_file" | sed -E 's/.*E: ([0-9]\.[0-9]).*/\1/')
-            jE=$(grep "\- E:" "$dados_file" | grep "(" | sed -E 's/.*\((.*)\).*/\1/')
+            nE=$(grep "\- E:" "t_dados_refined.md" | sed -E 's/.*E: ([0-9]\.[0-9]).*/\1/')
+            jE=$(grep "\- E:" "t_dados_refined.md" | grep "(" | sed -E 's/.*\((.*)\).*/\1/')
             [ -z "$jE" ] && jE="-"
-            valGSS=$(grep "GSS:" "$dados_file" | tail -n 1 | grep -oE "[0-9]\.[0-9]")
-            classif=$(grep -A 1 "Classificacao:" "$dados_file" | tail -n 1 | sed 's/- //')
+            valGSS=$(grep "GSS:" "t_dados_refined.md" | tail -n 1 | grep -oE "[0-9]\.[0-9]")
+            classif=$(grep -A 1 "Classificacao:" "t_dados_refined.md" | tail -n 1 | sed 's/- //')
 
             echo "\newpage" >> "$BASE/$tex_file"
             
-            # EXTRAÇÃO DO BLOCO COMPLETO (DIAGNÓSTICO + PRÓS/CONTRAS)
-            # Captura de "Diagnostico Integrado" até antes da "Pontuacao GSS" (Seção 6 ou 7 conforme DADOS.md)
-            awk '/### Diagnostico Integrado/,/## [67]\./ { if($0 !~ /## [67]\./ && $0 !~ /### Diagnostico/) print }' "$dados_file" | clean_content > t_full_content.md
-            # Converte para LaTeX e remove labels automáticos que quebram o comando
+            # 4. EXTRAÇÃO DO BLOCO DE RESUMO (DIAGNÓSTICO + PORQUE SIM/NÃO)
+            # Captura de "Diagnostico Integrado" até antes de "### Combustível" ou Seção 13
+            awk '/### Diagnostico Integrado/,/### Combustível/ { if($0 !~ /### Combustível/ && $0 !~ /### Diagnostico/) print }' "t_dados_refined.md" | clean_content > t_full_content.md
             full_text=$(pandoc t_full_content.md -f markdown -t latex | sed 's/\\label{[^}]*}//g')
             
             # MAPA COM TIKZ
@@ -202,6 +214,7 @@ for dept_dir in $(ls -d Departamentos/*/ | sort); do
             # CHAMADA DO COMANDO PADRONIZADO (CONTEÚDO COMPLETO SURFANDO NO WRAPFIG)
             echo "\secaoDiagnostico{${dist_name}}{${map_cmd}}{${full_text}}" >> "$BASE/$tex_file"
             
+            # 5. TABELA DE NOTAS GSS
             echo "\begin{table}[ht!]" >> "$BASE/$tex_file"
             echo "\small \begin{tabular}{p{3.0cm}p{0.8cm}p{6.0cm}} \toprule" >> "$BASE/$tex_file"
             echo "\textbf{Critério} & \textbf{Nota} & \textbf{Justificativa} \\\\ \midrule" >> "$BASE/$tex_file"
@@ -213,27 +226,36 @@ for dept_dir in $(ls -d Departamentos/*/ | sort); do
             echo "\midrule \textbf{GSS FINAL} & \textbf{$valGSS} & \textbf{$(echo "$classif" | escape_latex | sed 's/brasileiros/estrangeiros/g')} \\\\ \bottomrule \end{tabular}" >> "$BASE/$tex_file"
             echo "\end{table}" >> "$BASE/$tex_file"
 
-            awk '/## 7\./,/## [68]\./ { if($0 !~ /## [0-9]+\./) print }' "$dados_file" | clean_content > t_content.md
+            # 6. VULNERABILIDADES E DOSSIÊ TÉCNICO
+            awk '/## 7\./,/## 6\./ { if($0 !~ /## [0-9]+\./) print }' "t_dados_refined.md" | clean_content > t_content.md
             if [ $(wc -c < t_content.md) -gt 5 ]; then
                 echo -e "\n### Vulnerabilidades e Mitigação\n" > t_dist.md
                 cat t_content.md >> t_dist.md
                 pandoc t_dist.md -f markdown -t latex | sed "s/\\\\label{/\\\\label{vuln-${raw_dist_name}-/g" >> "$BASE/$tex_file"
             fi
 
-            (awk '/### 1\./,/### 2\./ { if($0 !~ /### [0-9]+\./) print }' "$dados_file"; echo ""; \
-             awk '/### 2\./,/### 3\./ { if($0 !~ /### [0-9]+\./) print }' "$dados_file"; echo ""; \
-             awk '/### 3\./,/### 4\./ { if($0 !~ /### [0-9]+\./) print }' "$dados_file"; echo ""; \
-             awk '/### 4\./,/### 5\./ { if($0 !~ /### [0-9]+\./) print }' "$dados_file"; echo ""; \
-             awk '/### 5\./,/## 7\./ { if($0 !~ /## [67]\./ && $0 !~ /### [0-9]\./) print }' "$dados_file") > t_raw_dossier.md
+            # Extração de Clima e Recursos (Dossiê)
+            (awk '/### 1\./,/### 2\./ { if($0 !~ /### [0-9]+\./) print }' "t_dados_refined.md"; echo ""; \
+             awk '/### 2\./,/### 3\./ { if($0 !~ /### [0-9]+\./) print }' "t_dados_refined.md"; echo ""; \
+             awk '/### 3\./,/### 4\./ { if($0 !~ /### [0-9]+\./) print }' "t_dados_refined.md"; echo ""; \
+             awk '/### 4\./,/### 5\./ { if($0 !~ /### [0-9]+\./) print }' "t_dados_refined.md"; echo ""; \
+             awk '/### 5\./,/## 7\./ { if($0 !~ /## [67]\./ && $0 !~ /### [0-9]\./) print }' "t_dados_refined.md") > t_raw_dossier.md
             
             if [ $(wc -c < t_raw_dossier.md) -gt 20 ]; then
                 echo -e "### Dossiê de Campo\n" > t_title.md
-                    pandoc t_title.md -f markdown -t latex | sed "s/\\\\label{/\\\\label{dossie-${raw_dist_name}-/g" >> "$BASE/$tex_file"
-                    dossier_to_desc t_raw_dossier.md >> "$BASE/$tex_file"
-                fi
-                rm -f t_dist.md t_content.md t_raw_dossier.md t_title.md t_diag.md t_rest.md
-                fi
-                done
+                pandoc t_title.md -f markdown -t latex | sed "s/\\\\label{/\\\\label{dossie-${raw_dist_name}-/g" >> "$BASE/$tex_file"
+                dossier_to_desc t_raw_dossier.md >> "$BASE/$tex_file"
+            fi
+            
+            # Clima (Tabela com mm/mês já processada pelo Python)
+            awk '/### 3\. Dados Climaticos/,/### 4\./ { if($0 !~ /### [0-9]\./) print }' "t_dados_refined.md" | clean_content > t_clima.md
+            if [ $(wc -c < t_clima.md) -gt 20 ]; then
+                pandoc t_clima.md -f markdown -t latex >> "$BASE/$tex_file"
+            fi
+
+            rm -f t_dados_refined.md t_dist.md t_content.md t_raw_dossier.md t_title.md t_clima.md t_full_content.md
+        fi
+    done
                 apply_glossary "$BASE/$tex_file"
                 apply_links "$BASE/$tex_file"
                 echo "\include{capitulos/dept_${dept_id_raw}}" >> "$LISTA_DEP"

@@ -6,10 +6,27 @@
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage[raggedright]{titlesec}
+
+% --- CORES ---
+\usepackage{xcolor}
+\definecolor{navyblue}{HTML}{1A2D5A}
+\definecolor{goldcolor}{HTML}{C5A03C}
+\definecolor{darkgray}{HTML}{444444}
+
+% --- HYPERREF (sem caixas vermelhas) ---
 \usepackage{hyperref}
+\hypersetup{
+  hidelinks,
+  pdftitle={Guia Estratégico: Relocação e Sobrevivência no Paraguai},
+  pdfauthor={Rodrigo Braga Prado},
+  pdfsubject={Análise estratégica de 262 distritos do Paraguai},
+  pdfkeywords={Paraguai, relocação, estratégia, sobrevivência, Skousen, Censo 2022}
+}
+
 \usepackage{array}
 \usepackage{longtable}
 \usepackage{booktabs}
+\usepackage{tabularx}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
 \usepackage{etoolbox}
@@ -17,6 +34,7 @@
 \usepackage{enumitem}
 \usepackage{hyphenat}
 \usepackage{tikz}
+\usetikzlibrary{calc}
 \usepackage{wrapfig}
 \usepackage{calc}
 \usepackage{xfp}
@@ -28,8 +46,124 @@
 \renewcommand{\chaptername}{Capítulo}
 \renewcommand{\bibname}{Referências Bibliográficas}
 
+% =====================================================================
+% --- CAPA DO LIVRO ---
+% =====================================================================
+\newcommand{\capabolivro}{%
+  \thispagestyle{empty}%
+  \begin{tikzpicture}[remember picture, overlay]
+    %% Fundo navy
+    \fill[navyblue] (current page.south west) rectangle (current page.north east);
+    %% Faixa dourada superior
+    \fill[goldcolor]
+      (current page.north west)
+      rectangle ([yshift=-0.85cm]current page.north east);
+    %% Faixa dourada inferior
+    \fill[goldcolor]
+      ([yshift=0.85cm]current page.south west)
+      rectangle (current page.south east);
+    %% Linhas finas abaixo da faixa superior e acima da inferior
+    \draw[goldcolor!40!navyblue, line width=0.25pt]
+      ([yshift=-1.05cm]current page.north west) --
+      ([yshift=-1.05cm]current page.north east);
+    \draw[goldcolor!40!navyblue, line width=0.25pt]
+      ([yshift=1.05cm]current page.south west) --
+      ([yshift=1.05cm]current page.south east);
+    %% Mapa do Paraguai (marca d'água, canto inferior direito)
+    \node[anchor=south east, opacity=0.09, inner sep=0pt]
+      at ([xshift=0.5cm, yshift=0.9cm]current page.south east)
+      {\includegraphics[width=10cm]{mapas/paraguai_base.pdf}};
+    %% Barra vertical dourada (acento gráfico lateral)
+    \fill[goldcolor]
+      ([xshift=1.15cm, yshift=-1.6cm]current page.north west)
+      rectangle ([xshift=1.42cm, yshift=-10.2cm]current page.north west);
+    %% Label dentro da faixa dourada superior
+    \node[anchor=west, color=navyblue,
+          font=\fontsize{6.5}{8}\selectfont\sffamily\bfseries,
+          inner sep=0pt]
+      at ([xshift=1.4cm, yshift=-0.44cm]current page.north west)
+      {GUIA ESTRAT\'EGICO\enspace$\cdot$\enspace EDI\c{C}\~AO T\'ECNICA 2026};
+    %% Título principal
+    \node[anchor=north west, text width=10.8cm, align=left,
+          color=white,
+          font=\fontsize{25}{30}\selectfont\sffamily\bfseries,
+          inner sep=0pt]
+      at ([xshift=1.8cm, yshift=-1.9cm]current page.north west)
+      {RELOCA\c{C}\~AO\\E SOBRE-\\VIV\^ENCIA\\NO PARAGUAI};
+    %% Linha separadora
+    \draw[goldcolor, line width=0.5pt]
+      ([xshift=1.8cm, yshift=-9.2cm]current page.north west) --
+      ([xshift=12.6cm, yshift=-9.2cm]current page.north west);
+    %% Subtítulo
+    \node[anchor=north west, text width=10.5cm, align=left,
+          color=goldcolor!85!white,
+          font=\fontsize{9.5}{14}\selectfont\sffamily,
+          inner sep=0pt]
+      at ([xshift=1.8cm, yshift=-9.55cm]current page.north west)
+      {An\'alise estrat\'egica dos 262 distritos do Paraguai};
+    %% Tags de metodologia/dados
+    \node[anchor=north west, text width=10.5cm, align=left,
+          color=white!45!navyblue,
+          font=\fontsize{7}{11}\selectfont\sffamily,
+          inner sep=0pt]
+      at ([xshift=1.8cm, yshift=-10.85cm]current page.north west)
+      {Metodologia Skousen Adaptada $\cdot$ Censo 2022\\
+       NASA POWER $\cdot$ CONATEL $\cdot$ INDERT $\cdot$ DGEEC};
+    %% Nome do autor (dentro da faixa inferior dourada)
+    \node[anchor=south west, color=navyblue,
+          font=\fontsize{10}{12}\selectfont\sffamily\bfseries,
+          inner sep=0pt]
+      at ([xshift=1.4cm, yshift=0.18cm]current page.south west)
+      {Rodrigo Braga Prado};
+    %% Ano na faixa inferior direita
+    \node[anchor=south east, color=navyblue,
+          font=\fontsize{8}{10}\selectfont\sffamily,
+          inner sep=0pt]
+      at ([xshift=-1.0cm, yshift=0.22cm]current page.south east)
+      {2026};
+  \end{tikzpicture}%
+  \clearpage
+}
+
+% =====================================================================
+% --- FOLHA DE ROSTO ---
+% =====================================================================
+\newcommand{\folhaderosto}{%
+  \thispagestyle{empty}%
+  \vspace*{3.5cm}
+  \begin{center}
+    {\small\sffamily\bfseries\color{darkgray} GUIA ESTRAT\'EGICO}\\[1em]
+    {\LARGE\sffamily\bfseries
+      Reloca\c{c}\~ao e Sobreviv\^encia\\[0.3em]
+      no Paraguai}\\[2.5em]
+    {\color{goldcolor}\rule{5cm}{0.7pt}}\\[2.2em]
+    {\normalsize\sffamily Rodrigo Braga Prado}\\[3.5em]
+    {\small\sffamily\itshape\color{darkgray}
+      An\'alise estrat\'egica de 262 distritos\\[0.2em]
+      Metodologia Skousen Adaptada\\[0.2em]
+      Dados do Censo Paraguaio 2022}\\[4.5em]
+    {\color{goldcolor}\rule{3cm}{0.4pt}}\\[1.8em]
+    {\small\sffamily Edi\c{c}\~ao T\'ecnica\quad 2026}
+  \end{center}
+  \vspace*{\fill}
+  \begin{flushleft}
+    {\footnotesize\sffamily\color{darkgray}
+      \textbf{\copyright\ 2026 Rodrigo Braga Prado}\\[0.5em]
+      Todos os dados s\~ao de fontes p\'ublicas ou estimativas baseadas em
+      fontes oficiais. Este guia n\~ao constitui assessoria jur\'idica ou
+      financeira. Uso pessoal e educativo.\\[0.5em]
+      \textbf{Fontes:} DGEEC/Censo 2022 $\cdot$ NASA POWER $\cdot$
+      CONATEL $\cdot$ INDERT $\cdot$ PETROPAR $\cdot$ OpenStreetMap\\[0.3em]
+      Produzido integralmente com \LaTeX
+    }
+  \end{flushleft}
+  \clearpage
+}
+
+% =====================================================================
 % --- MAPA GRANDE DO DEPARTAMENTO ---
-\newcommand{\mapaparaguai}[2]{ 
+% =====================================================================
+\newcommand{\mapaparaguai}[2]{
   \begin{center}
   \begin{tikzpicture}
     \node[anchor=south west, inner sep=0] (image) at (0,0) {\includegraphics[width=0.65\textwidth]{mapas/paraguai_base.pdf}};
@@ -95,10 +229,12 @@
   \par\vspace{1em}
 }
 
+% =====================================================================
 % --- AJUSTE DE SUMÁRIO ---
+% =====================================================================
 \usepackage{tocloft}
 \advance\cftsecnumwidth 0.5em
-\setcounter{tocdepth}{2}
+\setcounter{tocdepth}{1}   % apenas capítulos e seções de 1º nível no sumário
 
 % Títulos
 \setcounter{secnumdepth}{-1}
@@ -111,33 +247,105 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
+% =====================================================================
+% --- CABEÇALHOS ---
+% =====================================================================
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\small Guia Estratégico Paraguai 2026}
-\fancyhead[R]{\small \thepage}
+\fancyhead[L]{\small\itshape Guia Estratégico Paraguai 2026}
+\fancyhead[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
 
-\title{\textbf{GUIA ESTRATÉGICO:\\RELOCAÇÃO E SOBREVIVÊNCIA NO PARAGUAI}}
-\author{Rodrigo Braga Prado}
-\date{Edição Técnica - 2026}
+% Páginas de capítulo e sumário: apenas número centralizado no rodapé
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyfoot[C]{\small\thepage}%
+  \renewcommand{\headrulewidth}{0pt}%
+}
 
+% =====================================================================
 \begin{document}
 
-\maketitle
+% --- CAPA ---
+\capabolivro
+
+% --- FOLHA DE ROSTO ---
+\folhaderosto
+
+% --- SUMÁRIO ---
 \tableofcontents
+\clearpage
 
+% =====================================================================
+% --- INTRODUÇÃO ---
+% =====================================================================
 \chapter*{Introdução}
-Este guia consolida a análise tática de todos os 262 distritos do Paraguai, aplicando a metodologia Skousen adaptada e dados demográficos do Censo 2022.
+\addcontentsline{toc}{chapter}{Introdução}
 
+\textbf{Por que este guia existe}
+
+O Paraguai raramente aparece em análises de relocação estratégica. É ignorado pelos grandes guias internacionais, subestimado por quem conhece apenas Assunção e Ciudad del Este, e mal compreendido por brasileiros que enxergam no país apenas uma extensão da fronteira agrícola. Este guia existe para corrigir esse ponto cego.
+
+\medskip
+Com 7,4 milhões de habitantes distribuídos por 406 mil km², energia elétrica entre as mais baratas do mundo (USD 0,06--0,09/kWh gerada por Itaipu e Yacyretá), o maior aquífero do planeta (Guarani) no subsolo do território oriental, e terra fértil disponível por uma fração do valor praticado no Brasil ou na Argentina, o Paraguai reúne condições raras no contexto sul-americano para quem busca autonomia, estabilidade e qualidade de vida real.
+
+\medskip
+\textbf{O que você vai encontrar aqui}
+
+Este guia consolida a análise de todos os \textbf{262 distritos} do Paraguai, organizados nos 18 departamentos, com dados de segurança pública, aptidão do solo, recursos hídricos, irradiação solar, cobertura de telecomunicações, mercado imobiliário e infraestrutura. Cada distrito recebe uma pontuação GSS (\textit{Global Safety Score}) que permite comparações diretas entre localidades.
+
+\medskip
+\textbf{A metodologia}
+
+O GSS é uma média ponderada de cinco dimensões: ameaças estratégicas e militares (25\%), densidade populacional e risco social (20\%), exposição a desastres naturais e clima (15\%), capacidade de autossuficiência e recursos (20\%) e ambiente político-jurídico (20\%). A base é a metodologia \textit{Strategic Relocation} de Joel Skousen, adaptada para o contexto sul-americano e calibrada com dados do Censo DGEEC 2022.
+
+\medskip
+\textbf{Para quem é este guia}
+
+Para brasileiros e sul-americanos que estudam relocação para o Paraguai. Para famílias que avaliam autossuficiência agrícola ou energética. Para investidores que buscam terra rural ou imóvel urbano com boa relação custo-benefício. E para qualquer pessoa que quer entender o Paraguai além dos clichês — com dados reais, por district, com coordenadas e fontes verificáveis.
+
+\medskip
+\textbf{Como usar}
+
+A \textbf{Parte I} oferece contexto estratégico aprofundado sobre o Paraguai, incluindo análise de energia, economia e perspectivas de mercado. A \textbf{Parte II} apresenta cada departamento com seus distritos, pontuações e diagnóstico integrado. Os \textbf{Anexos} reúnem todos os dados brutos departamentais, referências e glossário de termos técnicos.
+
+\medskip
+Os dados climáticos são do NASA POWER (período 2001--2020). Dados de solo e recursos hídricos são do INDERT e Aquífero Guarani/ORSAS. Dados de telecomunicações são da CONATEL 2024. Preços de terra e imóvel são do INDERT e Clasificados.com.py 2024.
+
+\clearpage
+
+% =====================================================================
 \include{capitulos/metodologia}
 \include{capitulos/panorama_nacional}
 
-\part{Expansão Editorial}
+% =====================================================================
+\part{Perspectivas Estrat\'egicas}
+% =====================================================================
 \include{capitulos/leitores_alfa}
 
-\part{Análise por Departamento}
-\input{capitulos/lista_departamentos}
+% =====================================================================
+\part{An\'alise por Departamento}
+% =====================================================================
 
+% Mostra apenas capítulos (departamentos) no sumário para Part II
+% (evita centenas de entradas de distritos)
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+\input{capitulos/lista_departamentos}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{1}}
+
+% =====================================================================
 \part{Anexos}
+% =====================================================================
+
+% Reduz profundidade do sumário nos apêndices (evita sumário com 13 páginas)
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+
+\include{capitulos/apendice_dados_departamentais}
+
+% Restaura profundidade para referências e glossário
+\addtocontents{toc}{\protect\setcounter{tocdepth}{1}}
+
 \include{capitulos/apendice_referencias}
+\include{capitulos/glossario}
 
 \end{document}

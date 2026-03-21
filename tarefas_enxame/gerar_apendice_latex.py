@@ -74,6 +74,9 @@ def md_table_to_latex(md_table_lines):
         for c in row:
             c = c.replace("&","\\&").replace("%","\\%").replace("_","\\_")
             c = c.replace("↑","$\\uparrow$").replace("↓","$\\downarrow$").replace("→","$\\rightarrow$")
+            c = c.replace("≈","$\\approx$").replace("°","$^\\circ$").replace("×","$\\times$")
+            c = c.replace("≥","$\\geq$").replace("≤","$\\leq$").replace("±","$\\pm$")
+            c = c.replace("²","$^2$").replace("³","$^3$").replace("–","--").replace("—","---")
             c = c.replace("**","").replace("*","")
             cells.append(c)
         tex.append(" & ".join(cells) + " \\\\")
@@ -119,6 +122,9 @@ def md_to_latex_snippet(md_content, max_chars=3000):
         # Escapa especiais
         line = line.replace("&","\\&").replace("%","\\%").replace("↑","$\\uparrow$")
         line = line.replace("↓","$\\downarrow$").replace("→","$\\rightarrow$")
+        line = line.replace("≈","$\\approx$").replace("°","$^\\circ$").replace("×","$\\times$")
+        line = line.replace("≥","$\\geq$").replace("≤","$\\leq$").replace("±","$\\pm$")
+        line = line.replace("²","$^2$").replace("³","$^3$").replace("–","--").replace("—","---")
         line = line.replace("_","\\_")
         # Linha em branco
         if line.strip() == "":
@@ -149,7 +155,8 @@ def main():
 
     for dept_dir, dept_nome in DEPTS:
         dept_path = os.path.join(PROJ_DIR, "Departamentos", dept_dir)
-        tex_parts.append(f"\n\\section{{{dept_nome}}}")
+        tex_parts.append(f"\n\\clearpage")
+        tex_parts.append(f"\\section{{{dept_nome}}}")
         tex_parts.append(f"\\label{{sec:dept_{dept_dir}}}")
         tex_parts.append("")
 
