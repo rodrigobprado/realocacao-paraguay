@@ -207,139 +207,82 @@ def extrair_gss_subscores():
     return dados
 
 
-def painel_mapa(ax, gdf_dept_sel, gdf_outros_dept, gdf_distritos, coluna, norm, cmap,
-                titulo_painel, unidade='', label_fn=None, pad_frac=0.15):
-    """Desenha um painel temático para um departamento."""
-    # Fundo: outros departamentos em cinza muito claro
-    gdf_outros_dept.plot(ax=ax, color='#EBEBEB', edgecolor='#CCCCCC', linewidth=0.3, zorder=1)
+def desenhar_mapa_unico(ax, gdf_dept_sel, gdf_outros_dept, gdf_distritos,
+                        coluna, norm, cmap, titulo, pad_frac=0.12):
+    """Desenha um mapa individual (largura total) para um departamento."""
+    # Outros departamentos em cinza muito claro
+    gdf_outros_dept.plot(ax=ax, color='#EBEBEB', edgecolor='#CCCCCC',
+                         linewidth=0.3, zorder=1)
 
-    # Departamento selecionado: distritos coloridos
     sem = gdf_distritos[gdf_distritos[coluna].isna()]
     com = gdf_distritos[gdf_distritos[coluna].notna()]
 
     if not sem.empty:
-        sem.plot(ax=ax, color='#D0D0D0', edgecolor='white', linewidth=0.4, zorder=2)
+        sem.plot(ax=ax, color='#C8C8C8', edgecolor='white', linewidth=0.6, zorder=2)
     if not com.empty:
         com.plot(ax=ax, column=coluna, cmap=cmap, norm=norm,
-                 edgecolor='white', linewidth=0.5, zorder=3)
+                 edgecolor='white', linewidth=0.8, zorder=3)
 
-    # Contorno do departamento
-    gdf_dept_sel.plot(ax=ax, facecolor='none', edgecolor=NAVY, linewidth=1.2, zorder=4)
+    # Contorno espesso do departamento
+    gdf_dept_sel.plot(ax=ax, facecolor='none', edgecolor=NAVY, linewidth=1.8, zorder=4)
 
-    # Rótulos nos distritos
+    # Rótulos — tamanhos maiores pois o mapa é maior
     for _, row in gdf_distritos.iterrows():
         centroid = row['geometry'].centroid
-        val = row.get(coluna)
+        val = row[coluna]
         nome = abrev_nome(row['DIST_DESC_'])
 
-        if pd.notna(val):
-            val_str = f"{val:.1f}" if label_fn is None else label_fn(val)
-        else:
-            val_str = '?'
+        val_str = f"{val:.1f}" if pd.notna(val) else '?'
 
-        # Texto: nome do distrito (pequeno) + valor (maior)
-        txt_val = ax.text(centroid.x, centroid.y + 0.0,
-                          val_str, ha='center', va='center',
-                          fontsize=5.5, fontweight='bold', color='white',
-                          fontfamily='DejaVu Sans', zorder=5)
-        txt_val.set_path_effects([pe.withStroke(linewidth=1.2, foreground='black')])
+        # Valor em destaque
+        txt_v = ax.text(centroid.x, centroid.y,
+                        val_str, ha='center', va='bottom',
+                        fontsize=7.5, fontweight='bold', color='white',
+                        fontfamily='DejaVu Sans', zorder=5)
+        txt_v.set_path_effects([pe.withStroke(linewidth=2.0, foreground='#1A1A1A')])
 
-        txt_nome = ax.text(centroid.x, centroid.y - 0.0,
-                           nome, ha='center', va='top',
-                           fontsize=3.8, color='#222222',
-                           fontfamily='DejaVu Sans', zorder=5)
+        # Nome do distrito
+        txt_n = ax.text(centroid.x, centroid.y,
+                        nome, ha='center', va='top',
+                        fontsize=5.5, color='#111111',
+                        fontfamily='DejaVu Sans', zorder=5)
+        txt_n.set_path_effects([pe.withStroke(linewidth=1.5, foreground='white')])
 
     # Zoom no departamento
-    bx = gdf_distritos.total_bounds  # [xmin, ymin, xmax, ymax]
+    bx = gdf_distritos.total_bounds
     span = max(bx[2]-bx[0], bx[3]-bx[1])
     pad = span * pad_frac
     ax.set_xlim(bx[0]-pad, bx[2]+pad)
     ax.set_ylim(bx[1]-pad, bx[3]+pad)
     ax.set_aspect('equal')
     ax.set_axis_off()
-    ax.set_title(titulo_painel, fontsize=7, fontweight='bold', color=NAVY,
-                 fontfamily='DejaVu Sans', pad=3)
+    ax.set_title(titulo, fontsize=10, fontweight='bold', color=NAVY,
+                 fontfamily='DejaVu Sans', pad=5)
 
 
-def gerar_mapa_departamento(dpto_code, dpto_nome, gdf_dist_all, gdf_dept_all, dados_dict):
-    """Gera figura 3-painel para um departamento."""
-    gdf_dept_sel  = gdf_dept_all[gdf_dept_all['DPTO'] == dpto_code]
-    gdf_outros    = gdf_dept_all[gdf_dept_all['DPTO'] != dpto_code]
-    gdf_dist_dept = gdf_dist_all[gdf_dist_all['DPTO'] == dpto_code].copy()
-
-    if gdf_dist_dept.empty:
-        print(f"  [{dpto_code}] sem distritos — pulando")
-        return None
-
-    # Adicionar colunas de dados
-    gdf_dist_dept['GSS']    = gdf_dist_dept['CLAVE'].map(
-        lambda c: dados_dict[c]['GSS'] if c in dados_dict and 'GSS' in dados_dict[c] else None)
-    gdf_dist_dept['RISCO_B'] = gdf_dist_dept['CLAVE'].map(
-        lambda c: 10.0 - dados_dict[c]['B'] if c in dados_dict and 'B' in dados_dict[c] else None)
-    gdf_dist_dept['AUTOSUF'] = gdf_dist_dept['CLAVE'].map(
-        lambda c: dados_dict[c]['D'] if c in dados_dict and 'D' in dados_dict[c] else None)
-
-    n_distritos = len(gdf_dist_dept)
-    tem_dados = gdf_dist_dept['GSS'].notna().sum()
-
-    # Layout: 1 linha × 3 colunas
-    fig, axes = plt.subplots(1, 3, figsize=(12, 5.5), dpi=180)
+def gerar_mapa_unico(dpto_code, dpto_nome, gdf_dist_dept, gdf_dept_sel,
+                     gdf_outros, coluna, norm, cmap, titulo, sufixo):
+    """Gera e salva um único mapa temático (largura A5)."""
+    fig, ax = plt.subplots(figsize=(7, 6.5), dpi=180)
     fig.patch.set_facecolor('none')
+    ax.set_facecolor('none')
 
-    # ── Painel 1: GSS ──────────────────────────────────────────────────────────
-    norm_gss = mcolors.Normalize(vmin=3.5, vmax=9.0)
-    painel_mapa(axes[0], gdf_dept_sel, gdf_outros, gdf_dist_dept, 'GSS',
-                norm_gss, 'RdYlGn',
-                f'GSS por Distrito\n(Global Safety Score)')
+    desenhar_mapa_unico(ax, gdf_dept_sel, gdf_outros,
+                        gdf_dist_dept, coluna, norm, cmap, titulo)
 
-    sm1 = plt.cm.ScalarMappable(cmap='RdYlGn', norm=norm_gss)
-    sm1.set_array([])
-    cb1 = fig.colorbar(sm1, ax=axes[0], orientation='horizontal',
-                       fraction=0.05, pad=0.02, shrink=0.85, aspect=20)
-    cb1.ax.tick_params(labelsize=5.5, colors=NAVY)
-    cb1.set_label('GSS (3.5–9.0)', fontsize=5.5, color=NAVY)
-    cb1.outline.set_edgecolor(NAVY)
+    # Barra de cor lateral
+    sm = plt.cm.ScalarMappable(cmap=cmap, norm=norm)
+    sm.set_array([])
+    cbar = fig.colorbar(sm, ax=ax, orientation='vertical',
+                        fraction=0.035, pad=0.02, shrink=0.75, aspect=22)
+    cbar.ax.tick_params(labelsize=7, colors=NAVY)
+    cbar.outline.set_edgecolor(NAVY)
+    for lbl in cbar.ax.get_yticklabels():
+        lbl.set_color(NAVY)
+        lbl.set_fontfamily('DejaVu Sans')
 
-    # ── Painel 2: Risco Social (B invertido) ───────────────────────────────────
-    norm_b = mcolors.Normalize(vmin=0, vmax=7)
-    painel_mapa(axes[1], gdf_dept_sel, gdf_outros, gdf_dist_dept, 'RISCO_B',
-                norm_b, 'YlOrRd',
-                f'Risco Social\n(0=baixo · 7=alto)')
-
-    sm2 = plt.cm.ScalarMappable(cmap='YlOrRd', norm=norm_b)
-    sm2.set_array([])
-    cb2 = fig.colorbar(sm2, ax=axes[1], orientation='horizontal',
-                       fraction=0.05, pad=0.02, shrink=0.85, aspect=20)
-    cb2.ax.tick_params(labelsize=5.5, colors=NAVY)
-    cb2.set_label('Risco (0–7)', fontsize=5.5, color=NAVY)
-    cb2.outline.set_edgecolor(NAVY)
-
-    # ── Painel 3: Autossuficiência (D) ─────────────────────────────────────────
-    norm_d = mcolors.Normalize(vmin=3.5, vmax=9.5)
-    painel_mapa(axes[2], gdf_dept_sel, gdf_outros, gdf_dist_dept, 'AUTOSUF',
-                norm_d, 'YlGn',
-                f'Autossuficiência\n(Solo · Água · Energia)')
-
-    sm3 = plt.cm.ScalarMappable(cmap='YlGn', norm=norm_d)
-    sm3.set_array([])
-    cb3 = fig.colorbar(sm3, ax=axes[2], orientation='horizontal',
-                       fraction=0.05, pad=0.02, shrink=0.85, aspect=20)
-    cb3.ax.tick_params(labelsize=5.5, colors=NAVY)
-    cb3.set_label('Score D (3.5–9.5)', fontsize=5.5, color=NAVY)
-    cb3.outline.set_edgecolor(NAVY)
-
-    # Título geral
-    distritos_com = gdf_dist_dept['GSS'].notna().sum()
-    fig.suptitle(
-        f'{dpto_nome.title()} — Análise Temática por Distrito  '
-        f'({distritos_com}/{n_distritos} distritos com dados)',
-        fontsize=9, fontweight='bold', color=NAVY,
-        fontfamily='DejaVu Sans', y=1.01
-    )
-
-    plt.tight_layout(rect=[0, 0, 1, 1])
-
-    fname = f"mapas_tematicos_dept_{dpto_code}.pdf"
+    plt.tight_layout()
+    fname = f"mapas_tematicos_dept_{dpto_code}_{sufixo}.pdf"
     out_path = os.path.join(OUT, fname)
     fig.savefig(out_path, format='pdf', bbox_inches='tight',
                 facecolor='none', transparent=True, dpi=180)
@@ -347,9 +290,68 @@ def gerar_mapa_departamento(dpto_code, dpto_nome, gdf_dist_all, gdf_dept_all, da
     return fname
 
 
-def inserir_mapa_no_tex(dpto_code, dpto_nome_tex, fname_mapa):
-    """Insere o mapa temático no arquivo tex do departamento."""
-    # Encontrar o arquivo tex
+def gerar_mapa_departamento(dpto_code, dpto_nome, gdf_dist_all, gdf_dept_all, dados_dict):
+    """Gera 3 PDFs separados (GSS, risco social, autossuficiência) por departamento."""
+    gdf_dept_sel  = gdf_dept_all[gdf_dept_all['DPTO'] == dpto_code]
+    gdf_outros    = gdf_dept_all[gdf_dept_all['DPTO'] != dpto_code]
+    gdf_dist_dept = gdf_dist_all[gdf_dist_all['DPTO'] == dpto_code].copy()
+
+    if gdf_dist_dept.empty:
+        print(f"  [{dpto_code}] sem distritos — pulando")
+        return None, None, None
+
+    gdf_dist_dept['GSS']     = gdf_dist_dept['CLAVE'].map(
+        lambda c: dados_dict[c]['GSS'] if c in dados_dict and 'GSS' in dados_dict[c] else None)
+    gdf_dist_dept['RISCO_B'] = gdf_dist_dept['CLAVE'].map(
+        lambda c: 10.0 - dados_dict[c]['B'] if c in dados_dict and 'B' in dados_dict[c] else None)
+    gdf_dist_dept['AUTOSUF'] = gdf_dist_dept['CLAVE'].map(
+        lambda c: dados_dict[c]['D'] if c in dados_dict and 'D' in dados_dict[c] else None)
+
+    n  = len(gdf_dist_dept)
+    nc = int(gdf_dist_dept['GSS'].notna().sum())
+
+    # ── Mapa 1: GSS ────────────────────────────────────────────────────────────
+    f1 = gerar_mapa_unico(
+        dpto_code, dpto_nome, gdf_dist_dept, gdf_dept_sel, gdf_outros,
+        'GSS', mcolors.Normalize(3.5, 9.0), 'RdYlGn',
+        f'{dpto_nome.title()} — GSS por Distrito  ({nc}/{n} com dados)',
+        'gss'
+    )
+
+    # ── Mapa 2: Risco Social ───────────────────────────────────────────────────
+    f2 = gerar_mapa_unico(
+        dpto_code, dpto_nome, gdf_dist_dept, gdf_dept_sel, gdf_outros,
+        'RISCO_B', mcolors.Normalize(0, 7), 'YlOrRd',
+        f'{dpto_nome.title()} — Risco Social por Distrito  (0 = baixo · 7 = alto)',
+        'risco'
+    )
+
+    # ── Mapa 3: Autossuficiência ───────────────────────────────────────────────
+    f3 = gerar_mapa_unico(
+        dpto_code, dpto_nome, gdf_dist_dept, gdf_dept_sel, gdf_outros,
+        'AUTOSUF', mcolors.Normalize(3.5, 9.5), 'YlGn',
+        f'{dpto_nome.title()} — Autossuficiência por Distrito  (Solo · Água · Energia)',
+        'autosuf'
+    )
+
+    return f1, f2, f3
+
+
+def remover_bloco_antigo(conteudo, dpto_code):
+    """Remove o bloco de mapa temático combinado inserido anteriormente."""
+    # Padrão do bloco antigo (figura única combinada)
+    padrao = re.compile(
+        r'\n\\clearpage\n'
+        r'\\subsection\*\{Análise Temática por Distrito\}.*?'
+        r'\\clearpage\n',
+        re.DOTALL
+    )
+    novo = padrao.sub('\n', conteudo, count=1)
+    return novo
+
+
+def inserir_mapa_no_tex(dpto_code, dpto_nome_tex, f_gss, f_risco, f_autosuf):
+    """Insere os 3 mapas sequenciais no arquivo tex do departamento."""
     arquivos = [f for f in os.listdir(CAPS)
                 if f.startswith(f'dept_{dpto_code}_') and f.endswith('.tex')]
     if not arquivos:
@@ -360,38 +362,69 @@ def inserir_mapa_no_tex(dpto_code, dpto_nome_tex, fname_mapa):
     with open(fpath, encoding='utf-8') as f:
         conteudo = f.read()
 
-    # Verificar se já foi inserido
-    if fname_mapa in conteudo:
-        print(f"  [{dpto_code}] mapa já presente no tex")
+    # Remove bloco antigo (versão combinada 3-em-1) se existir
+    conteudo = remover_bloco_antigo(conteudo, dpto_code)
+
+    # Verificar se já está atualizado
+    if f_gss in conteudo:
+        print(f"  [{dpto_code}] mapas já presentes")
         return
 
-    # Inserir após \vfill\clearpage (que vem depois do \mapaparaguai)
     marcador = r'\vfill\clearpage'
-    bloco_mapa = (
-        f'\n\\clearpage\n'
+
+    bloco = (
+        f'\n'
+        f'\\clearpage\n'
         f'\\subsection*{{Análise Temática por Distrito}}\n'
         f'\\addcontentsline{{toc}}{{subsection}}{{Análise Temática por Distrito}}\n'
         f'\n'
-        f'Os mapas abaixo detalham, para cada distrito de {dpto_nome_tex}, '
-        f'o GSS final, o nível de risco social e o potencial de autossuficiência. '
-        f'Os valores são os calculados na metodologia GSS deste guia.\n'
+        f'Os mapas a seguir mostram, para cada distrito de {dpto_nome_tex}, '
+        f'o GSS final (pontuação geral), o risco social (criminalidade e instabilidade) '
+        f'e o potencial de autossuficiência (solo, água e energia). '
+        f'Cada valor é o calculado na metodologia GSS deste guia.\n'
         f'\n'
+        # Mapa 1 — GSS
         f'\\begin{{figure}}[h!]\n'
         f'\\centering\n'
-        f'\\includegraphics[width=\\textwidth]{{mapas/{fname_mapa}}}\n'
-        f'\\caption{{Análise temática dos distritos de {dpto_nome_tex}: '
-        f'GSS, risco social e autossuficiência. Fonte: análise deste guia (2024).}}\n'
-        f'\\label{{fig:tematico-{dpto_code}}}\n'
+        f'\\includegraphics[width=\\textwidth, height=0.55\\textheight, keepaspectratio]'
+        f'{{mapas/{f_gss}}}\n'
+        f'\\caption{{GSS (Global Safety Score) por distrito de {dpto_nome_tex}. '
+        f'Verde = alta viabilidade · Vermelho = baixa viabilidade.}}\n'
+        f'\\label{{fig:gss-{dpto_code}}}\n'
+        f'\\end{{figure}}\n'
+        f'\n'
+        f'\\vspace{{0.5em}}\n'
+        f'\n'
+        # Mapa 2 — Risco Social
+        f'\\begin{{figure}}[h!]\n'
+        f'\\centering\n'
+        f'\\includegraphics[width=\\textwidth, height=0.55\\textheight, keepaspectratio]'
+        f'{{mapas/{f_risco}}}\n'
+        f'\\caption{{Risco social por distrito de {dpto_nome_tex}. '
+        f'Amarelo = baixo risco · Vermelho = alto risco.}}\n'
+        f'\\label{{fig:risco-{dpto_code}}}\n'
+        f'\\end{{figure}}\n'
+        f'\n'
+        f'\\clearpage\n'
+        f'\n'
+        # Mapa 3 — Autossuficiência
+        f'\\begin{{figure}}[h!]\n'
+        f'\\centering\n'
+        f'\\includegraphics[width=\\textwidth, height=0.55\\textheight, keepaspectratio]'
+        f'{{mapas/{f_autosuf}}}\n'
+        f'\\caption{{Autossuficiência por distrito de {dpto_nome_tex}: '
+        f'solo, recursos hídricos e potencial energético. '
+        f'Branco = baixo · Verde escuro = alto.}}\n'
+        f'\\label{{fig:autosuf-{dpto_code}}}\n'
         f'\\end{{figure}}\n'
         f'\n'
         f'\\clearpage\n'
     )
 
-    # Substituir a primeira ocorrência de \vfill\clearpage
-    novo_conteudo = conteudo.replace(marcador, marcador + bloco_mapa, 1)
+    novo_conteudo = conteudo.replace(marcador, marcador + bloco, 1)
 
     if novo_conteudo == conteudo:
-        print(f"  [{dpto_code}] AVISO: marcador não encontrado em {arquivos[0]}")
+        print(f"  [{dpto_code}] AVISO: marcador não encontrado")
         return
 
     with open(fpath, 'w', encoding='utf-8') as f:
@@ -419,10 +452,10 @@ def main():
 
         print(f"  [{dpto_code}] {dpto_nome} ({n_dist} distritos)...")
 
-        fname = gerar_mapa_departamento(dpto_code, dpto_nome, gdf_dist_all, gdf_dept_all, dados)
-        if fname:
-            inserir_mapa_no_tex(dpto_code, dpto_nome.title(), fname)
-            print(f"        → {fname}")
+        f1, f2, f3 = gerar_mapa_departamento(dpto_code, dpto_nome, gdf_dist_all, gdf_dept_all, dados)
+        if f1:
+            inserir_mapa_no_tex(dpto_code, dpto_nome.title(), f1, f2, f3)
+            print(f"        → {f1} | {f2} | {f3}")
 
     print(f"\nConcluído! PDFs em {OUT}")
     print("Execute pdflatex para recompilar.")
