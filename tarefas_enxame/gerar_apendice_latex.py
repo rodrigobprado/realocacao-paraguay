@@ -86,6 +86,14 @@ def md_table_to_latex(md_table_lines):
     tex.append("\\end{tabularx}")
     return "\n".join(tex)
 
+_SKIP_PATTERNS = re.compile(
+    r'^\*{0,2}(Ano de refer[eê]ncia:|Atualizado em:|Fontes?:|Fontes?-base)'
+    r'|^[-*]\s*https?://'
+    r'|^https?://'
+    r'|^[-*]\s*\[.*?\]\(https?://',
+    re.IGNORECASE
+)
+
 def md_to_latex_snippet(md_content, max_chars=3000):
     """Converte snippet de markdown para LaTeX simplificado."""
     lines = md_content[:max_chars].split("\n")
@@ -94,8 +102,16 @@ def md_to_latex_snippet(md_content, max_chars=3000):
     table_buf = []
 
     for line in lines:
-        # Pula cabeçalhos H1/H2 (já temos no \subsection)
-        if line.startswith("# ") or line.startswith("## "):
+        # Pula metadados editoriais e URLs
+        if _SKIP_PATTERNS.match(line.strip()):
+            continue
+        # Remove data de acesso inline
+        line = re.sub(r'\s*\(acesso em \d{4}-\d{2}-\d{2}\)', '', line)
+        line = re.sub(r',?\s*acesso em \d{4}-\d{2}-\d{2}', '', line)
+        # Remove URLs inline (mantém o texto ao redor)
+        line = re.sub(r'https?://\S+', '', line)
+        # Pula cabeçalhos H1/H2 e headings vazios (já temos no \subsection)
+        if re.match(r'^#{1,2}(\s|$)', line):
             continue
         # H3 → \subsubsection*
         if line.startswith("### "):

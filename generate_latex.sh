@@ -251,8 +251,8 @@ apply_links "$BASE/panorama_nacional.tex"
 
 # 3. Expansão Editorial - Leituras Alfa (sem seção 2 — vai para cada capítulo de departamento)
 if [ -f "$LEITORES_ALFA_MD" ]; then
-    # Remove seção 2 (análises por departamento — inseridas após mapa de cada dept)
-    awk 'BEGIN{skip=0} /^## 2\./ {skip=1} /^## 3\./ {skip=0} !skip {print}' \
+    # Mantém apenas seção 1 (seções 2-5 são editoriais/operacionais, não vão ao livro)
+    awk '/^## [2-9]\./{exit} {print}' \
         "$LEITORES_ALFA_MD" > t_alfa_no_sec2.md
     refine_content_py t_alfa_no_sec2.md t_alfa_refined.md
     pandoc t_alfa_refined.md -f markdown -t latex --top-level-division=chapter -o "$LEITORES_ALFA_TEX"
@@ -471,3 +471,12 @@ for f in $BASE/dept_*.tex $BASE/metodologia.tex $BASE/panorama_nacional.tex $LEI
     sed -i 's/Concepcion/Concepción/g' "$f"
     sed -i 's/Encarnacion/Encarnación/g' "$f"
 done
+
+# COMPILAÇÃO DO PDF (2 passadas para sumário e referências cruzadas corretos)
+echo "Compilando PDF..."
+cd livro_latex && \
+    pdflatex -interaction=nonstopmode main.tex > /tmp/pdflatex_pass1.log 2>&1 && \
+    pdflatex -interaction=nonstopmode main.tex > /tmp/pdflatex_pass2.log 2>&1 && \
+    echo "PDF gerado: $(pdfinfo main.pdf | grep Pages)" || \
+    echo "ERRO na compilação — ver /tmp/pdflatex_pass1.log"
+cd ..

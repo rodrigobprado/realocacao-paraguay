@@ -85,25 +85,111 @@ O pacote 02 consolidou uma leitura em seis eixos:
 \subsection{Ficha climática de Assunção (NASA POWER,
 2001--2020)}
 
-\textbf{Irradiância solar global --- (kWh/\allowbreak m²/\allowbreak dia):} Jan 6.76 \textbar{}
-Fev 6.20 \textbar{} Mar 5.42 \textbar{} Abr 4.44 \textbar{} Mai 3.36
-\textbar{} Jun 2.83 \textbar{} Jul 3.21 \textbar{} Ago 3.93 \textbar{}
-Set 4.61 \textbar{} Out 5.49 \textbar{} Nov 6.42 \textbar{} Dez 6.78
-Média anual: 4.95 kWh/\allowbreak m²/\allowbreak dia. Potencial solar superior à média europeia
-em todos os meses. Mínimo de inverno (2.83 em junho) ainda viável para
-sistemas off-grid.
+\textbf{Irradiância solar global --- (kWh/\allowbreak m²/\allowbreak dia):}
 
-\textbf{Precipitação --- (mm/\allowbreak mês):} Jan 126 \textbar{} Fev 139
-\textbar{} Mar 135 \textbar{} Abr 149 \textbar{} Mai 143 \textbar{} Jun
-74 \textbar{} Jul 63 \textbar{} Ago 38 \textbar{} Set 73 \textbar{} Out
-163 \textbar{} Nov 190 \textbar{} Dez 179 Média anual:
-\textasciitilde1.471 mm/\allowbreak ano. Estação chuvosa Out--Mai; estação seca
-Jun--Set. Mínimo em agosto (\textasciitilde38 mm/\allowbreak mês) --- janela
-estratégica para obras e instalações externas.
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+6.76 & 6.20 & 5.42 & 4.44 & 3.36 & 2.83 & 3.21 & 3.93 & 4.61 & 5.49 &
+6.42 & 6.78 \\
+\end{longtable}
 
-\textbf{Ângulo de inclinação para painéis solares:} 25° ao Norte
-(anual); 35° no inverno (Jun--Ago); 15° no verão (Nov--Jan). Fonte: NASA
-POWER Climatology API.
+Média anual: 4.95 kWh/\allowbreak m²/\allowbreak dia. Inclinação recomendada: 25° Norte (anual);
+35° inverno; 15° verão.
+
+\textbf{Precipitação --- (mm/\allowbreak mês):}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mar
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Abr
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mai
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jun
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Jul
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ago
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dez
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+126 & 139 & 135 & 149 & 143 & 74 & 63 & 38 & 73 & 163 & 190 & 179 \\
+\end{longtable}
+
+Média anual: \textasciitilde1.471 mm/\allowbreak ano. Estação chuvosa Out-Mai; seca
+Jun-Set.
+
+Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas
+-25.29°S /\allowbreak  -57.65°W.
 
 \subsection{O que ainda falta
 consolidar}
@@ -379,8 +465,6 @@ operação com apoio rural).
 \item[Hidrologia]  Risco de Inundação Recorrente. Áreas ribeirinhas (Bañados) sofrem cheias periódicas ligadas ao El Niño.
 \item[Clima]  Tropical/\allowbreak Subtropical. Verões com temperaturas >40°C. Tempestades severas com rajadas de vento de até 160 km/\allowbreak h.
 \item[Sismicidade]  Muito baixa. Região tectonicamente estável.
-\item[Irradiância solar global (kWh/\allowbreak m²/\allowbreak dia)]  Jan 6.76 | Fev 6.20 | Mar 5.42 | Abr 4.44 | Mai 3.36 | Jun 2.83 | Jul 3.21 | Ago 3.93 | Set 4.61 | Out 5.49 | Nov 6.42 | Dez 6.78. Média anual: 4.95 kWh/\allowbreak m²/\allowbreak dia. Mínimo: Jun (2.83) | Máximo: Dez (6.78). Fonte: NASA POWER Climatology API, período 2001-2020.
-\item[Precipitação (mm/\allowbreak mês)]  Jan 126 | Fev 139 | Mar 135 | Abr 149 | Mai 143 | Jun 74 | Jul 63 | Ago 38 | Set 73 | Out 163 | Nov 190 | Dez 179. Média anual: \textasciitilde 1.471 mm/\allowbreak ano. Estação chuvosa Out-Mai; seca Jun-Set (mínimo em Ago). Fonte: NASA POWER.
 \item[Inclinação recomendada para placas solares]  25° voltado para o Norte (anual); 35° no inverno (Jun-Ago); 15° no verão (Nov-Jan). Base: latitude local -25.28°S.
 \item[Energia]  Dependência total da rede nacional (Itaipu), mas com a energia mais barata da região (\textasciitilde US\$ 0,05/\allowbreak kWh).
 \item[Água]  Abundante (Rio Paraguai), tratamento centralizado pela ESSAP\footnote{Empresa de Servicios Sanitarios del Paraguay (Empresa de Serviços Sanitários do Paraguai), responsável pelo saneamento e água urbana.}.

@@ -9,6 +9,15 @@ def refine_content(text):
     # 1. Coleta de fontes
     sources = set(re.findall(r'https?://[^\s\)\],]+', text))
     
+    # 2a. Remove blocos completos "Fontes-base" (cabeçalho + todos os bullets seguintes)
+    # Cobre: "Fontes-base desta seção:", "Fontes-base do pacote N:", "Fontes-base:"
+    text = re.sub(
+        r'(?m)^Fontes-base[^\n]*\n(?:[ \t]*-[ \t]+[^\n]*\n)*',
+        '',
+        text,
+        flags=re.IGNORECASE
+    )
+
     # 2. Remoção de referências internas
     internal_patterns = [
         r'(?i)Fontes-base desta seção:.*',
@@ -43,7 +52,7 @@ def refine_content(text):
     # 3b. Limpeza de URLs soltas (remove URL mas mantém o resto da linha)
     text = re.sub(r'https?://[^\s\)\],<]+', '', text)
     # Remove bullets que ficaram apenas com label e sem conteúdo após remoção de URL
-    text = re.sub(r'(?m)^([ \t]*-[ \t]+[^*\n]{1,60}):[ \t]*$', '', text)
+    text = re.sub(r'(?m)^([ \t]*-[ \t]+[^*\n]{1,200}):[ \t]*$', '', text)
 
     # 3c. Remoção de referências de data de acesso (ex: "acesso em 2026-03-20")
     text = re.sub(r'\s*\(acesso em \d{4}-\d{2}-\d{2}\)', '', text)
@@ -55,6 +64,16 @@ def refine_content(text):
     # 3e. Remove nomes técnicos de variáveis NASA POWER dos labels de bullet
     text = text.replace(' — ALLSKY_SFC_SW_DWN', '')
     text = text.replace(' — PRECTOTCORR', '')
+
+    # 3e2. Remove bullets inline de clima da seção 4 (Riscos naturais) que duplicam
+    # os dados da tabela da seção 3 e renderizam mal no Dossiê de Campo.
+    # Formato a remover: "- **Irradiância solar global...:** Jan X | Fev X | ..."
+    # e a linha de análise imediatamente seguinte que começa com "Média anual:"
+    text = re.sub(
+        r'(?m)^- \*\*(?:Irradiância solar global|Precipitação)[^\n]+\|[^\n]*\n(?:Média anual:[^\n]*\n)?',
+        '',
+        text
+    )
 
     # 3f. Corrige "Resources Locais" (inglês) para "Recursos Locais"
     text = text.replace('Resources Locais', 'Recursos Locais')

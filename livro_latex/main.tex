@@ -1,8 +1,8 @@
-\documentclass[10pt,a5paper,oneside]{book}
+\documentclass[10pt,a5paper,twoside]{book}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{geometry}
-\geometry{a5paper, margin=1.5cm, bottom=2cm}
+\geometry{a5paper, inner=1.8cm, outer=1.2cm, top=1.5cm, bottom=2cm}
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage[raggedright]{titlesec}
@@ -235,6 +235,7 @@
 \usepackage{tocloft}
 \advance\cftsecnumwidth 0.5em
 \setcounter{tocdepth}{1}   % apenas capítulos e seções de 1º nível no sumário
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}  % pontos nos capítulos do sumário
 
 % Títulos
 \setcounter{secnumdepth}{-1}
@@ -252,24 +253,36 @@
 % =====================================================================
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\small\itshape Guia Estratégico Paraguai 2026}
-\fancyhead[R]{\small\thepage}
+% Número de página na borda externa do cabeçalho; título na borda interna
+\fancyhead[RE]{\small\thepage}          % par: número à direita (externo)
+\fancyhead[LE]{\small\itshape Guia Estratégico Paraguai 2026}  % par: título à esquerda (interno)
+\fancyhead[RO]{\small\itshape Guia Estratégico Paraguai 2026}  % ímpar: título à direita (interno)
+\fancyhead[LO]{\small\thepage}          % ímpar: número à esquerda (externo)
 \renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
 
-% Páginas de capítulo e sumário: apenas número centralizado no rodapé
+% Páginas de capítulo e sumário: número na borda externa do rodapé
 \fancypagestyle{plain}{%
   \fancyhf{}%
-  \fancyfoot[C]{\small\thepage}%
+  \fancyfoot[RE,LO]{\small\thepage}%
   \renewcommand{\headrulewidth}{0pt}%
 }
 
 % =====================================================================
 \begin{document}
 
-% --- CAPA ---
+% --- CAPA (fora da contagem de páginas) ---
+\pagenumbering{gobble}
 \capabolivro
 
-% --- FOLHA DE ROSTO ---
+% --- FOLHA EM BRANCO (fora da contagem) ---
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+
+% --- FOLHA DE ROSTO (inicia contagem arábica a partir de 1) ---
+\pagenumbering{arabic}
 \folhaderosto
 
 % --- SUMÁRIO ---

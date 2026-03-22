@@ -1,6 +1,4 @@
-# Expansão Editorial: Leituras Alfa
-
-Este capítulo prepara a próxima etapa editorial do livro a partir das leituras feitas com o público-alvo. O objetivo não é repetir o acervo factual já existente, mas abrir uma camada nova de conteúdo, mais explicativa e mais útil para decisão prática.
+# Conhecendo o Paraguai
 
 ## 1. Paraguai em perspectiva
 
@@ -81,14 +79,17 @@ Tamanho mínimo na prática: o Estatuto fixou que, nos primeiros três anos de v
 Acesso de estrangeiros: em geral, estrangeiros têm os mesmos direitos de propriedade que cidadãos paraguaios. A exceção é a **zona de segurança de fronteira** (Lei N° 2532/2005) — faixa de **50 km a partir de todas as fronteiras terrestres e fluviais** com Argentina, Brasil e Bolívia. Nessa faixa, estrangeiros dos países vizinhos (argentinos, brasileiros e bolivianos) não podem ser proprietários de imóveis rurais sem autorização do Poder Executivo. Imóveis urbanos dentro da zona de fronteira não estão sujeitos a essa restrição.
 
 Faixas de valor de terra rural por região (referência de mercado, 2024-2025):
-- Alto Paraná (agricultura premium, fronteira Brasil): USD 12.000 a 15.000/ha
-- Caaguazú: USD 8.857/ha
-- Itapúa (fronteira Argentina): USD 6.945/ha
-- San Pedro (norte da Região Oriental): USD 4.608/ha
-- Concepción (norte): USD 2.000 a 2.500/ha
-- Região Oriental sul/centro (cerealeiro geral): USD 3.400 a 10.000/ha
-- Chaco central: USD 450 (terra virgem) a USD 900/ha (estabelecimentos formados)
-- Chaco geral: USD 500 a 1.500/ha
+
+| Região | Faixa de Valor (USD/ha) |
+|--------|------------------------|
+| Alto Paraná (fronteira Brasil, premium) | 12.000 – 15.000 |
+| Caaguazú | 8.857 |
+| Itapúa (fronteira Argentina) | 6.945 |
+| San Pedro (norte da Região Oriental) | 4.608 |
+| Concepción (norte) | 2.000 – 2.500 |
+| Região Oriental sul/centro (cerealeiro) | 3.400 – 10.000 |
+| Chaco central | 450 (virgem) – 900 (formado) |
+| Chaco geral | 500 – 1.500 |
 
 Importante: esses valores são de mercado (plataformas privadas). O Valor INDERT e o valor cadastral/fiscal são sistematicamente mais baixos — as três referências não coincidem, característica estrutural documentada do mercado fundiário paraguaio.
 
@@ -133,15 +134,22 @@ O pacote 02 consolidou uma leitura em seis eixos:
 ### 2.3 Ficha climática de Assunção (NASA POWER, 2001–2020)
 
 **Irradiância solar global — ALLSKY_SFC_SW_DWN (kWh/m²/dia):**
-Jan 6.76 | Fev 6.20 | Mar 5.42 | Abr 4.44 | Mai 3.36 | Jun 2.83 | Jul 3.21 | Ago 3.93 | Set 4.61 | Out 5.49 | Nov 6.42 | Dez 6.78
-Média anual: 4.95 kWh/m²/dia. Potencial solar superior à média europeia em todos os meses. Mínimo de inverno (2.83 em junho) ainda viável para sistemas off-grid.
+
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 6.76 | 6.20 | 5.42 | 4.44 | 3.36 | 2.83 | 3.21 | 3.93 | 4.61 | 5.49 | 6.42 | 6.78 |
+
+Média anual: 4.95 kWh/m²/dia. Inclinação recomendada: 25° Norte (anual); 35° inverno; 15° verão.
 
 **Precipitação — PRECTOTCORR (mm/mês):**
-Jan 126 | Fev 139 | Mar 135 | Abr 149 | Mai 143 | Jun 74 | Jul 63 | Ago 38 | Set 73 | Out 163 | Nov 190 | Dez 179
-Média anual: ~1.471 mm/ano. Estação chuvosa Out–Mai; estação seca Jun–Set. Mínimo em agosto (~38 mm/mês) — janela estratégica para obras e instalações externas.
 
-**Ângulo de inclinação para painéis solares:** 25° ao Norte (anual); 35° no inverno (Jun–Ago); 15° no verão (Nov–Jan).
-Fonte: NASA POWER Climatology API.
+| Jan | Fev | Mar | Abr | Mai | Jun | Jul | Ago | Set | Out | Nov | Dez |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 126 | 139 | 135 | 149 | 143 | 74 | 63 | 38 | 73 | 163 | 190 | 179 |
+
+Média anual: ~1.471 mm/ano. Estação chuvosa Out-Mai; seca Jun-Set.
+
+Fonte: NASA POWER Climatology API, período 2001-2020, coordenadas -25.29°S / -57.65°W.
 
 ### 2.4 O que ainda falta consolidar
 - Custo médio formal de moradia e terra por bairro/distrito.
