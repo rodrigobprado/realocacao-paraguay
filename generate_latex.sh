@@ -485,6 +485,10 @@ done
 echo "Removendo artefatos editoriais (Notas/Cálculo/Fontes)..."
 python3 scripts/fix_tex_artifacts.py livro_latex/capitulos/dept_*.tex
 
+# Correções de formatação: subsubsection{} vazio, footnotes repetidas, listas técnicas
+echo "Corrigindo formatação (headings, footnotes, listas)..."
+python3 scripts/fix_tex_formatting.py
+
 # Integração dos dados departamentais detalhados nos capítulos (antes dos distritos)
 echo "Integrando dados departamentais detalhados nos capítulos..."
 python3 tarefas_enxame/gerar_apendice_latex.py
