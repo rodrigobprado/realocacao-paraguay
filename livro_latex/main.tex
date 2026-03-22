@@ -23,6 +23,7 @@
   pdfkeywords={Paraguai, relocação estratégica, zonas seguras, América do Sul, Joel Skousen, Strategic Relocation, Censo 2022}
 }
 
+\usepackage{amssymb}
 \usepackage{array}
 \usepackage{longtable}
 \usepackage{booktabs}
@@ -87,7 +88,7 @@
     %% Mapa do Paraguai (marca d'água, canto inferior direito)
     \node[anchor=south east, opacity=0.09, inner sep=0pt]
       at ([xshift=0.5cm, yshift=0.9cm]current page.south east)
-      {\includegraphics[width=10cm]{mapas/paraguai_base.pdf}};
+      {\includegraphics[width=10cm]{mapas/mapa_dept_1.pdf}};
     %% Barra vertical dourada (acento gráfico lateral)
     \fill[goldcolor]
       ([xshift=1.15cm, yshift=-1.6cm]current page.north west)
@@ -184,57 +185,20 @@
 
 % =====================================================================
 % --- MAPA GRANDE DO DEPARTAMENTO ---
+% Usa mapas pré-gerados pelo script gerar_mapas.py (geopandas/matplotlib)
+% Parâmetro #1: número do departamento (00–17)
+% Parâmetro #2: nome do departamento (não usado na imagem, mantido p/ compatibilidade)
 % =====================================================================
-\newcommand{\mapaparaguai}[2]{
+\newcommand{\mapaparaguai}[2]{%
+  \vspace{-0.5em}%
   \begin{center}
-  \begin{tikzpicture}
-    \node[anchor=south west, inner sep=0] (image) at (0,0) {\includegraphics[width=0.65\textwidth]{mapas/paraguai_base.pdf}};
-    \begin{scope}[x={(image.south east)}, y={(image.north west)}]
-        \ifcase#1
-            \def\px{0.56}\def\py{0.40} % 0: Asuncion
-        \or \def\px{0.65}\def\py{0.65} % 1: Concepcion
-        \or \def\px{0.68}\def\py{0.52} % 2: San Pedro
-        \or \def\px{0.62}\def\py{0.40} % 3: Cordillera
-        \or \def\px{0.72}\def\py{0.35} % 4: Guaira
-        \or \def\px{0.75}\def\py{0.42} % 5: Caaguazu
-        \or \def\px{0.75}\def\py{0.28} % 6: Caazapa
-        \or \def\px{0.78}\def\py{0.18} % 7: Itapua
-        \or \def\px{0.65}\def\py{0.18} % 8: Misiones
-        \or \def\px{0.63}\def\py{0.32} % 9: Paraguari
-        \or \def\px{0.88}\def\py{0.40} % 10: Alto Parana
-        \or \def\px{0.58}\def\py{0.38} % 11: Central
-        \or \def\px{0.52}\def\py{0.22} % 12: Neembucu
-        \or \def\px{0.82}\def\py{0.72} % 13: Amambay
-        \or \def\px{0.85}\def\py{0.55} % 14: Canindeyu
-        \or \def\px{0.45}\def\py{0.50} % 15: Pres. Hayes
-        \or \def\px{0.25}\def\py{0.75} % 16: Boqueron
-        \or \def\px{0.55}\def\py{0.85} % 17: Alto Paraguay
-        \fi
-        \ifdefined\px
-            \draw[red, very thick] (\px,\py) circle (10pt);
-            \draw[red, very thick] (\px,\py) circle (2pt);
-            \draw[red, thick] (\px-0.05,\py) -- (\px-0.015,\py);
-            \draw[red, thick] (\px+0.015,\py) -- (\px+0.05,\py);
-            \draw[red, thick] (\px,\py-0.05) -- (\px,\py-0.015);
-            \draw[red, thick] (\px,\py+0.015) -- (\px,\py+0.05);
-            \node[anchor=west, fill=white, fill opacity=0.7, text opacity=1, inner sep=2pt, rounded corners=2pt] at (\px+0.03, \py) {\tiny\bfseries #2};
-        \fi
-    \end{scope}
-  \end{tikzpicture}
-  \end{center}
+    \includegraphics[width=0.88\textwidth, height=0.82\textheight, keepaspectratio]{mapas/mapa_dept_#1.pdf}%
+  \end{center}%
 }
 
-% --- MINI MAPA DO DISTRITO (Refinado) ---
-\newcommand{\mapaConteudo}[2]{
-    \begin{tikzpicture}
-        \node[anchor=south west, inner sep=0] (image) at (0,0) {\includegraphics[width=0.33\textwidth]{mapas/paraguai_base.pdf}};
-        \begin{scope}[x={(image.south east)}, y={(image.north west)}]
-            \pgfmathsetmacro{\xpos}{(#2 + 62.7) / 8.5}
-            \pgfmathsetmacro{\ypos}{(#1 + 27.6) / 8.4}
-            \fill[red] (\xpos, \ypos) circle (2.5pt);
-            \draw[red, thick] (\xpos, \ypos) circle (5pt);
-        \end{scope}
-    \end{tikzpicture}
+% --- MAPA DO DISTRITO (estilo CNPV2022) ---
+\newcommand{\mapaDistrito}[1]{%
+    \includegraphics[width=0.33\textwidth]{mapas/dist_#1.pdf}%
 }
 
 \newcommand{\secaoDiagnostico}[3]{%
@@ -312,6 +276,11 @@
 \clearpage
 
 % =====================================================================
+% --- PREFÁCIO ---
+% =====================================================================
+\include{capitulos/prefacio}
+
+% =====================================================================
 % --- INTRODUÇÃO ---
 % =====================================================================
 \chapter*{Introdução}
@@ -319,7 +288,7 @@
 
 \textbf{Por que este guia existe}
 
-O Paraguai raramente aparece em análises de relocação estratégica. É ignorado pelos grandes guias internacionais, subestimado por quem conhece apenas Assunção e Ciudad del Este, e mal compreendido por brasileiros que enxergam no país apenas uma extensão da fronteira agrícola. Este guia existe para corrigir esse ponto cego.
+O Paraguai raramente aparece em análises de relocação estratégica. É ignorado pelos grandes guias internacionais, subestimado por quem conhece apenas Assunção e Ciudad del Este, e mal compreendido por vizinhos sul-americanos que enxergam no país apenas uma extensão da fronteira agrícola. Este guia existe para corrigir esse ponto cego.
 
 \medskip
 Com 7,4 milhões de habitantes distribuídos por 406 mil km², energia elétrica entre as mais baratas do mundo (USD 0,06--0,09/kWh gerada por Itaipu e Yacyretá), o maior aquífero do planeta (Guarani) no subsolo do território oriental, e terra fértil disponível por uma fração do valor praticado no Brasil ou na Argentina, o Paraguai reúne condições raras no contexto sul-americano para quem busca autonomia, estabilidade e qualidade de vida real.
@@ -337,7 +306,15 @@ O GSS é uma média ponderada de cinco dimensões: ameaças estratégicas e mili
 \medskip
 \textbf{Para quem é este guia}
 
-Para brasileiros e sul-americanos que estudam relocação para o Paraguai. Para famílias que avaliam autossuficiência agrícola ou energética. Para investidores que buscam terra rural ou imóvel urbano com boa relação custo-benefício. E para qualquer pessoa que quer entender o Paraguai além dos clichês — com dados reais, por district, com coordenadas e fontes verificáveis.
+Para estrangeiros de qualquer origem que estudam relocação para o Paraguai. Para famílias que avaliam autossuficiência agrícola ou energética. Para investidores que buscam terra rural ou imóvel urbano com boa relação custo-benefício. E para qualquer pessoa que quer entender o Paraguai além dos clichês — com dados reais, por district, com coordenadas e fontes verificáveis.
+
+\medskip
+\textbf{Para quem este guia \emph{não} é indicado}
+
+Este guia \textit{não} é adequado para quem busca: (a) vida urbana cosmopolita com oferta cultural e gastronômica equivalente a Buenos Aires, Santiago ou São Paulo; (b) acesso imediato a universidades de classe mundial; (c) infraestrutura de saúde pública comparável à de países europeus; (d) mercado de trabalho formal robusto em áreas como tecnologia de ponta ou finanças. Nesses casos, Uruguai, Chile ou grandes centros sul-americanos podem ser escolhas mais adequadas ao perfil.
+
+\medskip
+\input{capitulos/comparativo_paises}
 
 \medskip
 \textbf{Como usar}
@@ -357,6 +334,8 @@ Os dados climáticos são do NASA POWER (período 2001--2020). Dados de solo e r
 \part{Perspectivas Estrat\'egicas}
 % =====================================================================
 \include{capitulos/leitores_alfa}
+\include{capitulos/migracao_legal}
+\include{capitulos/mapa_decisao}
 
 % =====================================================================
 \part{An\'alise por Departamento}

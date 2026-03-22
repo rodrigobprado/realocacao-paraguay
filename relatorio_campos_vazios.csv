@@ -1,0 +1,143 @@
+arquivo,linha,distrito,tipo,prioridade
+dept_00_Distrito_Capital.tex,360,[Dept] Distrito Capital,Áreas recomendadas: sem conteúdo,alta
+dept_00_Distrito_Capital.tex,362,[Dept] Distrito Capital,Armadilhas comuns: sem conteúdo,alta
+dept_00_Distrito_Capital.tex,433,[Dept] Distrito Capital,Placeholder explícito: Satélite (Starlink) & Disponível em todo o país & 50--200 Mbps \\,alta
+dept_00_Distrito_Capital.tex,446,[Dept] Distrito Capital,Placeholder explícito: Starlink & Satélite LEO & Todo o Paraguai & ~44 + equip. ~370 \\,alta
+dept_01_Concepcion.tex,282,[Dept] Concepción,Áreas recomendadas: sem conteúdo,alta
+dept_01_Concepcion.tex,284,[Dept] Concepción,Armadilhas comuns: sem conteúdo,alta
+dept_01_Concepcion.tex,351,[Dept] Concepción,Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\,alta
+dept_01_Concepcion.tex,362,[Dept] Concepción,Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\,alta
+dept_01_Concepcion.tex,1541,Concepción,"Placeholder explícito: (referência para todo o Norte), IPS Concepción, clínicas privadas",alta
+dept_02_San_Pedro.tex,283,[Dept] San Pedro,Áreas recomendadas: sem conteúdo,alta
+dept_02_San_Pedro.tex,285,[Dept] San Pedro,Armadilhas comuns: sem conteúdo,alta
+dept_02_San_Pedro.tex,350,[Dept] San Pedro,Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\,alta
+dept_02_San_Pedro.tex,362,[Dept] San Pedro,Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\,alta
+dept_02_San_Pedro.tex,4882,Santa Rosa del Aguaray,"Placeholder explícito: \item[Vias de Acesso]  Ponto de conexão vital entre Pedro Juan Caballero, Concep",alta
+dept_03_Cordillera.tex,283,[Dept] Cordillera,Áreas recomendadas: sem conteúdo,alta
+dept_03_Cordillera.tex,285,[Dept] Cordillera,Armadilhas comuns: sem conteúdo,alta
+dept_03_Cordillera.tex,348,[Dept] Cordillera,Placeholder explícito: Rádio/Wireless & Amplo em todo o departamento & 5--50 Mbps \\,alta
+dept_03_Cordillera.tex,350,[Dept] Cordillera,Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\,alta
+dept_03_Cordillera.tex,361,[Dept] Cordillera,Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\,alta
+dept_03_Cordillera.tex,728,Arroyos y Esteros,Dossiê campo vazio: [Fontes],alta
+dept_03_Cordillera.tex,733,Arroyos y Esteros,Dossiê campo vazio: [Fontes],alta
+dept_03_Cordillera.tex,737,Arroyos y Esteros,Dossiê campo vazio: [Fontes],alta
+dept_03_Cordillera.tex,742,Arroyos y Esteros,Dossiê campo vazio: [Fontes],alta
+dept_03_Cordillera.tex,745,Arroyos y Esteros,Dossiê campo vazio: [Fontes],alta
+dept_04_Guaira.tex,280,[Dept] Guairá,Áreas recomendadas: sem conteúdo,alta
+dept_04_Guaira.tex,282,[Dept] Guairá,Armadilhas comuns: sem conteúdo,alta
+dept_04_Guaira.tex,345,[Dept] Guairá,Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\,alta
+dept_04_Guaira.tex,355,[Dept] Guairá,Placeholder explícito: Copaco & ADSL/Rádio & Todo o departamento (rede legada) & 10--28 \\,alta
+dept_04_Guaira.tex,356,[Dept] Guairá,Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\,alta
+dept_05_Caaguazu.tex,283,[Dept] Caaguazú,Áreas recomendadas: sem conteúdo,alta
+dept_05_Caaguazu.tex,285,[Dept] Caaguazú,Armadilhas comuns: sem conteúdo,alta
+dept_05_Caaguazu.tex,350,[Dept] Caaguazú,Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\,alta
+dept_05_Caaguazu.tex,362,[Dept] Caaguazú,Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\,alta
+dept_05_Caaguazu.tex,959,Coronel Oviedo,Placeholder explícito: infraestrutura de saúde e serviços mais robusta de todo o interior do,alta
+dept_06_Caazapa.tex,279,[Dept] Caazapá,Áreas recomendadas: sem conteúdo,alta
+dept_06_Caazapa.tex,281,[Dept] Caazapá,Armadilhas comuns: sem conteúdo,alta
+dept_06_Caazapa.tex,346,[Dept] Caazapá,Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\,alta
+dept_06_Caazapa.tex,358,[Dept] Caazapá,Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\,alta
+dept_07_Itapua.tex,285,[Dept] Itapúa,Áreas recomendadas: sem conteúdo,alta
+dept_07_Itapua.tex,287,[Dept] Itapúa,Armadilhas comuns: sem conteúdo,alta
+dept_07_Itapua.tex,352,[Dept] Itapúa,Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\,alta
+dept_07_Itapua.tex,364,[Dept] Itapúa,Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\,alta
+dept_08_Misiones.tex,279,[Dept] Misiones,Áreas recomendadas: sem conteúdo,alta
+dept_08_Misiones.tex,281,[Dept] Misiones,Armadilhas comuns: sem conteúdo,alta
+dept_08_Misiones.tex,344,[Dept] Misiones,Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\,alta
+dept_08_Misiones.tex,355,[Dept] Misiones,Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\,alta
+dept_09_Paraguari.tex,284,[Dept] Paraguarí,Áreas recomendadas: sem conteúdo,alta
+dept_09_Paraguari.tex,286,[Dept] Paraguarí,Armadilhas comuns: sem conteúdo,alta
+dept_09_Paraguari.tex,351,[Dept] Paraguarí,Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\,alta
+dept_09_Paraguari.tex,362,[Dept] Paraguarí,Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\,alta
+dept_10_Alto_Parana.tex,292,[Dept] Alto Paraná,Áreas recomendadas: sem conteúdo,alta
+dept_10_Alto_Parana.tex,294,[Dept] Alto Paraná,Armadilhas comuns: sem conteúdo,alta
+dept_10_Alto_Parana.tex,360,[Dept] Alto Paraná,Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\,alta
+dept_10_Alto_Parana.tex,373,[Dept] Alto Paraná,Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\,alta
+dept_11_Central.tex,294,[Dept] Central,Áreas recomendadas: sem conteúdo,alta
+dept_11_Central.tex,296,[Dept] Central,Armadilhas comuns: sem conteúdo,alta
+dept_11_Central.tex,339,[Dept] Central,Placeholder explícito: > Câmbio de referência: 1 USD $\approx$ 7.500 PYG (2024). Chips disponíveis em t,alta
+dept_11_Central.tex,360,[Dept] Central,Placeholder explícito: Fibra ótica (FTTH) & Todo o departamento & 100--1000 Mbps \\,alta
+dept_11_Central.tex,372,[Dept] Central,Placeholder explícito: Tigo & Fibra/HFC/Rádio & Todo o departamento & 18--65 \\,alta
+dept_11_Central.tex,373,[Dept] Central,Placeholder explícito: Claro/Personal & Fibra/HFC/Rádio & Todo o departamento & 15--60 \\,alta
+dept_11_Central.tex,374,[Dept] Central,Placeholder explícito: Copaco & Fibra/ADSL & Todo o departamento & 10--40 \\,alta
+dept_11_Central.tex,377,[Dept] Central,Placeholder explícito: Starlink & Satélite LEO & Todo & ~44 + equip. ~370 \\,alta
+dept_11_Central.tex,3424,Mariano Roque Alonso,Placeholder explícito: \item[Vias de Acesso]  Localização nevrálgica sobre a Ruta PY03 (Transchaco). Po,alta
+dept_12_Neembucu.tex,68,[Dept] Ñeembucú,"Placeholder explícito: Ñeembucú possui a \textbf{taxa de homicídios mais baixa de todo o Paraguai}, com",alta
+dept_12_Neembucu.tex,280,[Dept] Ñeembucú,Áreas recomendadas: sem conteúdo,alta
+dept_12_Neembucu.tex,282,[Dept] Ñeembucú,Armadilhas comuns: sem conteúdo,alta
+dept_12_Neembucu.tex,347,[Dept] Ñeembucú,Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\,alta
+dept_12_Neembucu.tex,358,[Dept] Ñeembucú,Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\,alta
+dept_12_Neembucu.tex,4334,Villa Franca,Placeholder explícito: \item[População]  1.138 habitantes (Censo 2022 Final). O segundo município menos,alta
+dept_13_Amambay.tex,287,[Dept] Amambay,Áreas recomendadas: sem conteúdo,alta
+dept_13_Amambay.tex,289,[Dept] Amambay,Armadilhas comuns: sem conteúdo,alta
+dept_13_Amambay.tex,354,[Dept] Amambay,Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\,alta
+dept_13_Amambay.tex,366,[Dept] Amambay,Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\,alta
+dept_14_Canindeyu.tex,286,[Dept] Canindeyú,Áreas recomendadas: sem conteúdo,alta
+dept_14_Canindeyu.tex,288,[Dept] Canindeyú,Armadilhas comuns: sem conteúdo,alta
+dept_14_Canindeyu.tex,351,[Dept] Canindeyú,Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\,alta
+dept_14_Canindeyu.tex,364,[Dept] Canindeyú,Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\,alta
+dept_15_Presidente_Hayes.tex,289,[Dept] Presidente Hayes,Áreas recomendadas: sem conteúdo,alta
+dept_15_Presidente_Hayes.tex,291,[Dept] Presidente Hayes,Armadilhas comuns: sem conteúdo,alta
+dept_15_Presidente_Hayes.tex,357,[Dept] Presidente Hayes,Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\,alta
+dept_15_Presidente_Hayes.tex,369,[Dept] Presidente Hayes,Placeholder explícito: Starlink & Satélite LEO & TODO o departamento & ~44 + equip. ~370 \\,alta
+dept_16_Boqueron.tex,183,[Dept] Boquerón,Placeholder explícito: Boquerón é o maior departamento do Paraguai e o coração do Chaco Central. O Sist,alta
+dept_16_Boqueron.tex,290,[Dept] Boquerón,Áreas recomendadas: sem conteúdo,alta
+dept_16_Boqueron.tex,292,[Dept] Boquerón,Armadilhas comuns: sem conteúdo,alta
+dept_16_Boqueron.tex,357,[Dept] Boquerón,Placeholder explícito: Satélite (Starlink) & TODO o departamento & 50--200 Mbps \\,alta
+dept_16_Boqueron.tex,370,[Dept] Boquerón,Placeholder explícito: Starlink & Satélite LEO & TODO o departamento & ~44 + equip. ~370 \\,alta
+dept_17_Alto_Paraguay.tex,224,[Dept] Alto Paraguay,Placeholder explícito: Alto Paraguay é o departamento mais isolado e com menor aptidão agrícola de todo,alta
+dept_17_Alto_Paraguay.tex,293,[Dept] Alto Paraguay,Armadilhas comuns: sem conteúdo,alta
+dept_17_Alto_Paraguay.tex,359,[Dept] Alto Paraguay,Placeholder explícito: Satélite (Starlink) & TODO o departamento & 50--200 Mbps \\,alta
+dept_17_Alto_Paraguay.tex,370,[Dept] Alto Paraguay,Placeholder explícito: Starlink & Satélite LEO & TODO o departamento & ~44 + equip. ~370 \\,alta
+dept_17_Alto_Paraguay.tex,371,[Dept] Alto Paraguay,Placeholder explícito: VSAT (outros) & Satélite geoestacionário & Todo (com instalação técnica) & 80--2,alta
+dept_00_Distrito_Capital.tex,377,[Dept] Distrito Capital,Célula tabela com --- (dado ausente),baixa
+dept_01_Concepcion.tex,294,[Dept] Concepción,Célula tabela com --- (dado ausente),baixa
+dept_01_Concepcion.tex,295,[Dept] Concepción,Célula tabela com --- (dado ausente),baixa
+dept_01_Concepcion.tex,296,[Dept] Concepción,Célula tabela com --- (dado ausente),baixa
+dept_02_San_Pedro.tex,295,[Dept] San Pedro,Célula tabela com --- (dado ausente),baixa
+dept_02_San_Pedro.tex,296,[Dept] San Pedro,Célula tabela com --- (dado ausente),baixa
+dept_02_San_Pedro.tex,297,[Dept] San Pedro,Célula tabela com --- (dado ausente),baixa
+dept_03_Cordillera.tex,295,[Dept] Cordillera,Célula tabela com --- (dado ausente),baixa
+dept_03_Cordillera.tex,296,[Dept] Cordillera,Célula tabela com --- (dado ausente),baixa
+dept_03_Cordillera.tex,297,[Dept] Cordillera,Célula tabela com --- (dado ausente),baixa
+dept_04_Guaira.tex,292,[Dept] Guairá,Célula tabela com --- (dado ausente),baixa
+dept_04_Guaira.tex,293,[Dept] Guairá,Célula tabela com --- (dado ausente),baixa
+dept_04_Guaira.tex,294,[Dept] Guairá,Célula tabela com --- (dado ausente),baixa
+dept_05_Caaguazu.tex,295,[Dept] Caaguazú,Célula tabela com --- (dado ausente),baixa
+dept_05_Caaguazu.tex,296,[Dept] Caaguazú,Célula tabela com --- (dado ausente),baixa
+dept_05_Caaguazu.tex,297,[Dept] Caaguazú,Célula tabela com --- (dado ausente),baixa
+dept_06_Caazapa.tex,291,[Dept] Caazapá,Célula tabela com --- (dado ausente),baixa
+dept_06_Caazapa.tex,292,[Dept] Caazapá,Célula tabela com --- (dado ausente),baixa
+dept_06_Caazapa.tex,293,[Dept] Caazapá,Célula tabela com --- (dado ausente),baixa
+dept_06_Caazapa.tex,343,[Dept] Caazapá,Célula tabela com --- (dado ausente),baixa
+dept_07_Itapua.tex,297,[Dept] Itapúa,Célula tabela com --- (dado ausente),baixa
+dept_07_Itapua.tex,298,[Dept] Itapúa,Célula tabela com --- (dado ausente),baixa
+dept_07_Itapua.tex,299,[Dept] Itapúa,Célula tabela com --- (dado ausente),baixa
+dept_08_Misiones.tex,291,[Dept] Misiones,Célula tabela com --- (dado ausente),baixa
+dept_08_Misiones.tex,292,[Dept] Misiones,Célula tabela com --- (dado ausente),baixa
+dept_08_Misiones.tex,293,[Dept] Misiones,Célula tabela com --- (dado ausente),baixa
+dept_09_Paraguari.tex,296,[Dept] Paraguarí,Célula tabela com --- (dado ausente),baixa
+dept_09_Paraguari.tex,297,[Dept] Paraguarí,Célula tabela com --- (dado ausente),baixa
+dept_09_Paraguari.tex,298,[Dept] Paraguarí,Célula tabela com --- (dado ausente),baixa
+dept_10_Alto_Parana.tex,306,[Dept] Alto Paraná,Célula tabela com --- (dado ausente),baixa
+dept_11_Central.tex,308,[Dept] Central,Célula tabela com --- (dado ausente),baixa
+dept_12_Neembucu.tex,292,[Dept] Ñeembucú,Célula tabela com --- (dado ausente),baixa
+dept_12_Neembucu.tex,293,[Dept] Ñeembucú,Célula tabela com --- (dado ausente),baixa
+dept_12_Neembucu.tex,294,[Dept] Ñeembucú,Célula tabela com --- (dado ausente),baixa
+dept_13_Amambay.tex,299,[Dept] Amambay,Célula tabela com --- (dado ausente),baixa
+dept_13_Amambay.tex,300,[Dept] Amambay,Célula tabela com --- (dado ausente),baixa
+dept_13_Amambay.tex,301,[Dept] Amambay,Célula tabela com --- (dado ausente),baixa
+dept_14_Canindeyu.tex,298,[Dept] Canindeyú,Célula tabela com --- (dado ausente),baixa
+dept_14_Canindeyu.tex,299,[Dept] Canindeyú,Célula tabela com --- (dado ausente),baixa
+dept_14_Canindeyu.tex,300,[Dept] Canindeyú,Célula tabela com --- (dado ausente),baixa
+dept_15_Presidente_Hayes.tex,301,[Dept] Presidente Hayes,Célula tabela com --- (dado ausente),baixa
+dept_15_Presidente_Hayes.tex,302,[Dept] Presidente Hayes,Célula tabela com --- (dado ausente),baixa
+dept_15_Presidente_Hayes.tex,303,[Dept] Presidente Hayes,Célula tabela com --- (dado ausente),baixa
+dept_16_Boqueron.tex,302,[Dept] Boquerón,Célula tabela com --- (dado ausente),baixa
+dept_16_Boqueron.tex,303,[Dept] Boquerón,Célula tabela com --- (dado ausente),baixa
+dept_16_Boqueron.tex,304,[Dept] Boquerón,Célula tabela com --- (dado ausente),baixa
+dept_17_Alto_Paraguay.tex,303,[Dept] Alto Paraguay,Célula tabela com --- (dado ausente),baixa
+dept_17_Alto_Paraguay.tex,304,[Dept] Alto Paraguay,Célula tabela com --- (dado ausente),baixa
+dept_17_Alto_Paraguay.tex,305,[Dept] Alto Paraguay,Célula tabela com --- (dado ausente),baixa
+dept_17_Alto_Paraguay.tex,354,[Dept] Alto Paraguay,Célula tabela com --- (dado ausente),baixa
+dept_17_Alto_Paraguay.tex,355,[Dept] Alto Paraguay,Célula tabela com --- (dado ausente),baixa
