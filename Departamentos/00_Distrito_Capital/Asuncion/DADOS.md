@@ -7,7 +7,7 @@
 - **Topografia:** Colinas suaves (geologicamente estável, risco sísmico desprezível). Margeada pelo Rio Paraguai.
 - **Alvos Estratégicos:** Palácio de los López (Governo), Porto Sajonia (Marinha), Base Ñu Guasu (Aeronáutica/Exército), Aeroporto Silvio Pettirossi (Luque), Hub elétrico de transmissão de Itaipu.
 - **Fallout:** Ventos predominantes: Nordeste (verão - Sirocco, quente) e Sul (inverno - Pampero, frio). Baixo risco de fallout global, mas vulnerável se houver ataques a centros de comando nacionais.
-- **Mapa e media local:** conjunto visual de apoio disponível em `MEDIA.md`, com midia institucional local para uso offline e verificação territorial.
+- **Mídia local:** Principais meios incluem ABC Color, Última Hora, NPY, SNT e rádios AM/FM locais. Cobertura 4G ampla na área urbana.
 
     - Ministerio de Defensa Nacional: https://mdn.gov.py/
     - Portal Geoestadistico INE: https://www.ine.gov.py/portalgeoestad/

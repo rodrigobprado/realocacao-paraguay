@@ -157,7 +157,7 @@ Fontes-base do pacote 02:
 - [LEITORES_ALFA_PKG_02.md](/home/rodrigo/Projetos/IAs/realocação-estrategica-paraguai-pt-br/tarefas_enxame/entregaveis_livro/LEITORES_ALFA_PKG_02.md)
 
 ### 2.6 Concepcion / pacote 03
-O pacote 03 fecha a leitura documental de `01_Concepcion`, com o departamento posicionado como eixo logistico-militar do norte e com 14 localidades cobertas no CSV do pacote.
+O pacote 03 fecha a leitura documental de Concepción, com o departamento posicionado como eixo logistico-militar do norte e com 14 localidades cobertas no CSV do pacote.
 
 - Concepcion concentra porto, aeroporto, CODI e o Regimento de Infantaria N° 10, mantendo relevancia estrategica e institucional.
 - O ranking departamental ja consolidado aponta Horqueta, Paso_Horqueta e Loreto como os melhores perfis de continuidade operacional.
@@ -188,7 +188,7 @@ Fontes-base do pacote 03:
 - [LEITORES_ALFA_PKG_03.md](/home/rodrigo/Projetos/IAs/realocação-estrategica-paraguai-pt-br/tarefas_enxame/entregaveis_livro/LEITORES_ALFA_PKG_03.md)
 
 ### 2.7 San Pedro / pacote 04
-O pacote 04 fecha a leitura documental de `02_San_Pedro`, com base agropecuária e logística rodoviária, cobrindo 22 localidades.
+O pacote 04 fecha a leitura documental de San Pedro, com base agropecuária e logística rodoviária, cobrindo 22 localidades.
 
 - San Pedro de Ycuamandiyu é a capital departamental e polo de serviços do norte-centro.
 - San Estanislao (Santaní) é o segundo polo urbano, com melhor conectividade e serviços.
@@ -219,7 +219,7 @@ Fontes-base do pacote 04:
 - [LEITORES_ALFA_PKG_04.md](/home/rodrigo/Projetos/IAs/realocação-estrategica-paraguai-pt-br/tarefas_enxame/entregaveis_livro/LEITORES_ALFA_PKG_04.md)
 
 ### 2.8 Cordillera / pacote 05
-O pacote 05 fecha a leitura documental de `03_Cordillera`, com 19 localidades e uma malha territorial de transicao entre a area metropolitana e o interior produtivo.
+O pacote 05 fecha a leitura documental de Cordillera, com 19 localidades e uma malha territorial de transicao entre a area metropolitana e o interior produtivo.
 
 - Cordillera combina turismo, servicos, conectividade regional e polos residenciais fortes em Altos, San Bernardino e Caacupe.
 - O ranking consolidado ja existente aponta Altos, San_Jose_de_los_Arroyos, Eusebio_Ayala e Caraguatay na faixa superior.
@@ -250,7 +250,7 @@ Fontes-base do pacote 05:
 - [LEITORES_ALFA_PKG_05.md](/home/rodrigo/Projetos/IAs/realocação-estrategica-paraguai-pt-br/tarefas_enxame/entregaveis_livro/LEITORES_ALFA_PKG_05.md)
 
 ### 2.9 Guaira / pacote 06
-O pacote 06 fecha a leitura documental de `04_Guaira`, com 18 localidades e forte combinacao de turismo, servicos e agricultura.
+O pacote 06 fecha a leitura documental de Guairá, com 18 localidades e forte combinacao de turismo, servicos e agricultura.
 
 - Guaira combina polos urbanos e perfil rural diversificado, com Villarrica como centro regional de referencia.
 - O ranking consolidado ja existente destaca Mbocayaty_del_Guaira, Independencia, Numi e Borja na faixa superior.
@@ -281,7 +281,7 @@ Fontes-base do pacote 06:
 - [LEITORES_ALFA_PKG_06.md](/home/rodrigo/Projetos/IAs/realocação-estrategica-paraguai-pt-br/tarefas_enxame/entregaveis_livro/LEITORES_ALFA_PKG_06.md)
 
 ### 2.10 Caaguazu / pacote 07
-O pacote 07 fecha a leitura documental de `05_Caaguazu`, com 22 localidades e o departamento mais logisticamente central do interior paraguaio.
+O pacote 07 fecha a leitura documental de Caaguazú, com 22 localidades e o departamento mais logisticamente central do interior paraguaio.
 
 - Coronel Oviedo é o nó rodoviário nacional (cruzamento PY02/PY08) e polo de serviços do interior.
 - A base agropecuária e agroindustrial (soja, milho, cana) sustenta alta resiliência produtiva regional.
@@ -312,7 +312,7 @@ Fontes-base do pacote 07:
 - [LEITORES_ALFA_PKG_07.md](/home/rodrigo/Projetos/IAs/realocação-estrategica-paraguai-pt-br/tarefas_enxame/entregaveis_livro/LEITORES_ALFA_PKG_07.md)
 
 ### 2.11 Caazapa / pacote 08
-O pacote 08 fecha a leitura documental de `06_Caazapa`, com 11 localidades, base agropecuária de baixa densidade e serviços concentrados em Caazapa e San Juan Nepomuceno.
+O pacote 08 fecha a leitura documental de Caazapá, com 11 localidades, base agropecuária de baixa densidade e serviços concentrados em Caazapa e San Juan Nepomuceno.
 
 - Caazapa é a capital departamental, polo histórico-cultural com Hospital Regional e UNVES.
 - San Juan Nepomuceno é o segundo polo, com perfil agroindustrial e logístico.

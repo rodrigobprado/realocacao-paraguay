@@ -61,9 +61,14 @@ extract_pacote_tex() {
             | sed 's/^### [0-9.]* /# /; s/^#### /## /' > t_pacote_raw.md
     fi
 
-    # Remove linhas de fontes internas e limpa
-    grep -v "LEITORES_ALFA_PKG\|Fontes-base do pacote\|Pendente para outra etapa\|\.md)" t_pacote_raw.md \
-        | sed 's/`[0-9]*_[A-Za-z_]*`//' > t_pacote_clean.md
+    # Remove linhas de fontes internas e referências de arquivos internos
+    grep -v "LEITORES_ALFA_PKG\|Fontes-base do pacote\|Pendente para outra etapa\|\.md)\|leitura local esta ancorada\|leitura local está ancorada\|dept_[0-9]*_" t_pacote_raw.md \
+        | sed 's/`[0-9]*_[A-Za-z_]*`//' \
+        | sed 's/`dept_[^`]*`//g' \
+        | sed 's/ ALLSKY_SFC_SW_DWN//g' \
+        | sed 's/ PRECTOTCORR//g' \
+        | sed 's/ \/ pacote [0-9]*//' \
+        | sed 's/_/ /g' > t_pacote_clean.md
 
     if [ $(wc -c < t_pacote_clean.md) -gt 50 ]; then
         pandoc t_pacote_clean.md -f markdown -t latex --top-level-division=section 2>/dev/null \
@@ -330,8 +335,8 @@ for dept_dir in $(ls -d Departamentos/*/ | sort); do
             echo "\newpage" >> "$BASE/$tex_file"
             
             # 4. EXTRAÇÃO DO BLOCO DE RESUMO (DIAGNÓSTICO + PORQUE SIM/NÃO)
-            # Captura de "Diagnostico Integrado" até antes de "### Combustível" ou Seção 13
-            awk '/### Diagnostico Integrado/,/### Combustível/ { if($0 !~ /### Combustível/ && $0 !~ /### Diagnostico/) print }' "t_dados_refined.md" | clean_content > t_full_content.md
+            # Captura de "Diagnostico Integrado" até antes de "### Combustível" ou Seção 14 (Pesquisa Técnica)
+            awk '/### Diagnostico Integrado/,/### Combustível|## 14\./ { if($0 !~ /### Combustível/ && $0 !~ /### Diagnostico/ && $0 !~ /## 14\./) print }' "t_dados_refined.md" | clean_content > t_full_content.md
             full_text=$(pandoc t_full_content.md -f markdown -t latex | sed 's/\\label{[^}]*}//g')
             
             # MAPA COM TIKZ
@@ -357,7 +362,7 @@ for dept_dir in $(ls -d Departamentos/*/ | sort); do
             echo "\end{table}" >> "$BASE/$tex_file"
 
             # 6. VULNERABILIDADES E DOSSIÊ TÉCNICO
-            awk '/## 7\./,/## 6\./ { if($0 !~ /## [0-9]+\./) print }' "t_dados_refined.md" | clean_content > t_content.md
+            awk '/## 7\./,/## 9\.|## 14\./ { if($0 !~ /## [0-9]+\./) print }' "t_dados_refined.md" | clean_content > t_content.md
             if [ $(wc -c < t_content.md) -gt 5 ]; then
                 echo -e "\n### Vulnerabilidades e Mitigação\n" > t_dist.md
                 cat t_content.md >> t_dist.md
@@ -383,8 +388,8 @@ for dept_dir in $(ls -d Departamentos/*/ | sort); do
                 pandoc t_clima.md -f markdown -t latex >> "$BASE/$tex_file"
             fi
 
-            # Solo (SoilGrids 2.0 — extrai bloco #### Solo com a tabela)
-            awk '/#### Solo/,/^### [0-9]/ { if($0 !~ /^### [0-9]/) print }' "t_dados_refined.md" > t_solo.md
+            # Solo (SoilGrids 2.0 — extrai bloco #### Solo com a tabela, para na próxima seção ###/##)
+            awk 'found && (/^### / || /^## / || /^# [^#]/) {exit} /^#### Solo/{found=1} found' "t_dados_refined.md" > t_solo.md
             if [ $(wc -c < t_solo.md) -gt 20 ]; then
                 pandoc t_solo.md -f markdown -t latex | sed 's/\\label{[^}]*}//g' >> "$BASE/$tex_file"
             fi
@@ -396,7 +401,7 @@ for dept_dir in $(ls -d Departamentos/*/ | sort); do
             fi
 
             # 4.3 Serviços e Custo de Vida (Combustível, Celular, Internet, Imóvel, Saúde)
-            awk '/^### Combustível$/{p=1} p' "t_dados_refined.md" > t_servicos.md
+            awk '/^### Combustível$/{p=1} p{if(/^## 14\./) exit; print}' "t_dados_refined.md" > t_servicos.md
             if [ $(wc -c < t_servicos.md) -gt 20 ]; then
                 pandoc t_servicos.md -f markdown -t latex \
                     | sed 's/\\label{[^}]*}//g' \
@@ -451,13 +456,18 @@ for f in $BASE/dept_*.tex $BASE/metodologia.tex $BASE/panorama_nacional.tex $LEI
     sed -i "s/–/--/g" "$f"
     # Subscripts Unicode → LaTeX math mode
     sed -i 's/₂/\$_2\$/g; s/₃/\$_3\$/g; s/₄/\$_4\$/g; s/₅/\$_5\$/g' "$f"
-    # Protege caminhos de arquivos e nomes próprios
-    sed -i 's/Asuncion/Asuncion/g' "$f"
-    sed -i 's/Concepcion/Concepcion/g' "$f"
-    sed -i 's/Encarnacion/Encarnacion/g' "$f"
+    # (acento de nomes de cidades aplicado após remoção de datas, no bloco abaixo)
     # Remove linhas com # solitário (heading vazio em Markdown que vira # inválido no LaTeX)
     sed -i '/^# *$/d' "$f"
     # Remove referências de data de acesso
     sed -i 's/ *(acesso em [0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9])//g' "$f"
     sed -i 's/,\? *acesso em [0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]//g' "$f"
+    # Remove data de referência do score GSS (ex: "GSS 6.5 em 2026-03-05" → "GSS 6.5")
+    sed -i 's/\(GSS [0-9]\.[0-9]\) em [0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]/\1/g' "$f"
+    # Adiciona acento em palavras comuns que ficam sem acento após processamento
+    sed -i '/^\\[a-zA-Z]/ ! s/Referencia/Referência/g' "$f"
+    # Nomes de cidades com acento (eram no-op antes)
+    sed -i 's/Asuncion/Asunción/g' "$f"
+    sed -i 's/Concepcion/Concepción/g' "$f"
+    sed -i 's/Encarnacion/Encarnación/g' "$f"
 done

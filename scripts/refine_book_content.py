@@ -48,7 +48,31 @@ def refine_content(text):
     # 3c. Remoção de referências de data de acesso (ex: "acesso em 2026-03-20")
     text = re.sub(r'\s*\(acesso em \d{4}-\d{2}-\d{2}\)', '', text)
     text = re.sub(r',?\s*acesso em \d{4}-\d{2}-\d{2}', '', text)
-    
+
+    # 3d. Remove data de referência de score GSS (mantém o score, remove a data)
+    text = re.sub(r'(GSS \d+\.\d+) em \d{4}-\d{2}-\d{2}', r'\1', text)
+
+    # 3e. Remove nomes técnicos de variáveis NASA POWER dos labels de bullet
+    text = text.replace(' — ALLSKY_SFC_SW_DWN', '')
+    text = text.replace(' — PRECTOTCORR', '')
+
+    # 3f. Corrige "Resources Locais" (inglês) para "Recursos Locais"
+    text = text.replace('Resources Locais', 'Recursos Locais')
+
+    # 3g. Remove referência interna a MEDIA.md em Mapa e media local
+    text = re.sub(
+        r'- \*\*Mapa e media local:\*\*[^\n]*MEDIA\.md[^\n]*\n',
+        '',
+        text
+    )
+
+    # 3h. Separa linhas adjacentes **Fonte climática/luminosa:** com linha em branco
+    text = re.sub(
+        r'(\*\*Fonte (?:clim[aá]tica|luminosa):\*\*[^\n]+)\n(\*\*Fonte)',
+        r'\1\n\n\2',
+        text
+    )
+
     # 4. Conversão de Precipitação mm/dia -> mm/mês
     # Abordagem mais robusta: iterar pelas linhas
     lines = text.split('\n')
