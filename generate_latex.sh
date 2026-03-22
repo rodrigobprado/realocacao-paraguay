@@ -68,6 +68,15 @@ extract_pacote_tex() {
         | sed 's/ ALLSKY_SFC_SW_DWN//g' \
         | sed 's/ PRECTOTCORR//g' \
         | sed 's/ \/ pacote [0-9]*//' \
+        | sed 's/^# Pacote [0-9]*: /# /' \
+        | sed 's/^## Pacote [0-9]*: /## /' \
+        | sed '/^O pacote [0-9]* fecha a leitura/d' \
+        | sed '/^O pacote [0-9]* cobre o departamento/d' \
+        | sed 's/O pacote [0-9]* consolidou/A análise consolidou/' \
+        | sed 's/O que o pacote confirma/Dados confirmados/' \
+        | sed 's/cobertas no CSV do pacote/cobertas nesta análise/' \
+        | sed 's/ consolidada no pacote/ consolidada/' \
+        | sed 's/A leitura do pacote/A análise/' \
         | sed 's/_/ /g' > t_pacote_clean.md
 
     if [ $(wc -c < t_pacote_clean.md) -gt 50 ]; then
