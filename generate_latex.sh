@@ -481,6 +481,15 @@ for f in $BASE/dept_*.tex $BASE/metodologia.tex $BASE/panorama_nacional.tex $LEI
     sed -i 's/Encarnacion/Encarnación/g' "$f"
 done
 
+# Remoção de artefatos editoriais nos capítulos gerados
+echo "Removendo artefatos editoriais (Notas/Cálculo/Fontes)..."
+python3 scripts/fix_tex_artifacts.py livro_latex/capitulos/dept_*.tex
+
+# Integração dos dados departamentais detalhados nos capítulos (antes dos distritos)
+echo "Integrando dados departamentais detalhados nos capítulos..."
+python3 tarefas_enxame/gerar_apendice_latex.py
+python3 scripts/integrate_apendice.py
+
 # COMPILAÇÃO DO PDF (2 passadas para sumário e referências cruzadas corretos)
 echo "Compilando PDF..."
 cd livro_latex && \
