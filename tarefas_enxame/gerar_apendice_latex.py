@@ -94,9 +94,11 @@ _SKIP_PATTERNS = re.compile(
     re.IGNORECASE
 )
 
-def md_to_latex_snippet(md_content, max_chars=3000):
-    """Converte snippet de markdown para LaTeX simplificado."""
-    lines = md_content[:max_chars].split("\n")
+def md_to_latex_snippet(md_content, max_chars=0):
+    """Converte markdown para LaTeX. max_chars=0 = sem limite (evita tabelas truncadas)."""
+    if max_chars and max_chars > 0:
+        md_content = md_content[:max_chars]
+    lines = md_content.split("\n")
     out = []
     in_table = False
     table_buf = []
@@ -187,7 +189,7 @@ def main():
                 continue
 
             tex_parts.append(f"\\subsection{{{title}}}")
-            snippet = md_to_latex_snippet(content, max_chars=2500)
+            snippet = md_to_latex_snippet(content)
             tex_parts.append(snippet)
             tex_parts.append("")
             found_any = True

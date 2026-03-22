@@ -39,6 +39,7 @@
 \usepackage{calc}
 \usepackage{xfp}
 \newcommand{\real}[1]{#1}
+\usepackage{needspace}
 
 % Tradução manual de termos do LaTeX
 \renewcommand{\contentsname}{Sumário}
@@ -246,9 +247,9 @@
 
 % Títulos
 \setcounter{secnumdepth}{-1}
-\titleformat{\section}{\Large\bfseries\raggedright}{}{0em}{}
-\titleformat{\subsection}{\large\bfseries\raggedright}{}{0em}{}
-\titleformat{\subsubsection}{\normalsize\bfseries\raggedright}{}{0em}{}
+\titleformat{\section}{\needspace{5\baselineskip}\Large\bfseries\raggedright}{}{0em}{}
+\titleformat{\subsection}{\needspace{4\baselineskip}\large\bfseries\raggedright}{}{0em}{}
+\titleformat{\subsubsection}{\needspace{3\baselineskip}\normalsize\bfseries\raggedright}{}{0em}{}
 
 \sloppy
 
