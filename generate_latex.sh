@@ -494,6 +494,10 @@ echo "Integrando dados departamentais detalhados nos capítulos..."
 python3 tarefas_enxame/gerar_apendice_latex.py
 python3 scripts/integrate_apendice.py
 
+# Correção de tabelas largas (longtable 8+ colunas → resizebox+tabular)
+echo "Corrigindo tabelas largas para papel A5..."
+python3 scripts/fix_wide_tables.py
+
 # COMPILAÇÃO DO PDF (2 passadas para sumário e referências cruzadas corretos)
 echo "Compilando PDF..."
 cd livro_latex && \
