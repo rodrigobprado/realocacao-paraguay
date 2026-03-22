@@ -35,15 +35,9 @@ def fix_wide_longtables(text):
         if ncols < 8:
             return m.group(0)
 
-        # Extrai especificações de coluna simplificadas
-        # O pandoc gera: >{\raggedright\arraybackslash}p{...}
-        # Simplificamos para: c (centered)
-        col_types = re.findall(r'>.*?p\{[^}]+\}', col_spec_inner)
-        if len(col_types) == ncols:
-            # Mantém as specs originais mas usa \linewidth / ncols
-            tabular_spec = '@{\\hspace{1pt}}' + '@{\\hspace{1pt}}'.join(['c'] * ncols) + '@{\\hspace{1pt}}'
-        else:
-            tabular_spec = '@{}' + 'c' * ncols + '@{}'
+        # Cria spec com separadores verticais entre colunas para legibilidade
+        # Usa @{} nas extremidades para remover padding extra e | entre colunas
+        tabular_spec = '@{}' + '|'.join(['c'] * ncols) + '@{}'
 
         # Remove comandos longtable-specific do corpo
         # Longtable: \toprule...\endhead é o cabeçalho, \bottomrule...\endlastfoot é o rodapé
@@ -73,10 +67,11 @@ def fix_wide_longtables(text):
         new_block = (
             '\n\\begin{center}\n'
             '\\resizebox{\\linewidth}{!}{%\n'
+            '{\\renewcommand{\\arraystretch}{1.2}%\n'
             '\\begin{tabular}{' + tabular_spec + '}\n' +
             body_clean.strip() + '\n'
             '\\bottomrule\n'
-            '\\end{tabular}%\n'
+            '\\end{tabular}}%\n'
             '}\n'
             '\\end{center}\n'
         )
