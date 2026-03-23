@@ -2,26 +2,24 @@
 RELATÓRIO DE CAMPOS VAZIOS — LIVRO PARAGUAI
 ======================================================================
 
-TOTAL: 142 ocorrências
-  Alta prioridade  : 91
+TOTAL: 104 ocorrências
+  Alta prioridade  : 53
   Média prioridade : 0
   Baixa prioridade : 51
 
 POR TIPO:
     51x  Célula tabela com --- (dado ausente)
-    18x  Armadilhas comuns: sem conteúdo
-    17x  Áreas recomendadas: sem conteúdo
     14x  Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
     13x  Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
-     5x  Dossiê campo vazio: [Fontes]
-     3x  Placeholder explícito: Starlink & Satélite LEO & TODO o departamento & ~44 + equip. ~370 \\
-     2x  Placeholder explícito: Satélite (Starlink) & TODO o departamento & 50--200 Mbps \\
+     3x  Placeholder explícito: Starlink & Satélite LEO & todo o departamento & ~44 + equip. ~370 \\
+     2x  Placeholder explícito: Satélite (Starlink) & todo o departamento & 50--200 Mbps \\
      1x  Placeholder explícito: Satélite (Starlink) & Disponível em todo o país & 50--200 Mbps \\
      1x  Placeholder explícito: Starlink & Satélite LEO & Todo o Paraguai & ~44 + equip. ~370 \\
      1x  Placeholder explícito: (referência para todo o Norte), IPS Concepción, clínicas privadas
      1x  Placeholder explícito: \item[Vias de Acesso]  Ponto de conexão vital entre Pedro Juan Caballero, Concep
      1x  Placeholder explícito: Rádio/Wireless & Amplo em todo o departamento & 5--50 Mbps \\
      1x  Placeholder explícito: Copaco & ADSL/Rádio & Todo o departamento (rede legada) & 10--28 \\
+     1x  Placeholder explícito: \secaoDiagnostico{Villarrica}{\mapaDistrito{0401}}{\textit{Nota: ``Villarrica'' 
      1x  Placeholder explícito: infraestrutura de saúde e serviços mais robusta de todo o interior do
      1x  Placeholder explícito: > Câmbio de referência: 1 USD $\approx$ 7.500 PYG (2024). Chips disponíveis em t
      1x  Placeholder explícito: Fibra ótica (FTTH) & Todo o departamento & 100--1000 Mbps \\
@@ -34,185 +32,148 @@ POR TIPO:
      1x  Placeholder explícito: \item[População]  1.138 habitantes (Censo 2022 Final). O segundo município menos
      1x  Placeholder explícito: Boquerón é o maior departamento do Paraguai e o coração do Chaco Central. O Sist
      1x  Placeholder explícito: Alto Paraguay é o departamento mais isolado e com menor aptidão agrícola de todo
+     1x  Placeholder explícito: O mercado imobiliário é praticamente inexistente para estrangeiros, com títulos 
      1x  Placeholder explícito: VSAT (outros) & Satélite geoestacionário & Todo (com instalação técnica) & 80--2
 
 DETALHADO POR ARQUIVO:
 ----------------------------------------------------------------------
 
-dept_00_Distrito_Capital.tex (5 ocorrências):
-  !!! L  360 | [Dept] Distrito Capital   | Áreas recomendadas: sem conteúdo
-  !!! L  362 | [Dept] Distrito Capital   | Armadilhas comuns: sem conteúdo
-      L  377 | [Dept] Distrito Capital   | Célula tabela com --- (dado ausente)
-  !!! L  433 | [Dept] Distrito Capital   | Placeholder explícito: Satélite (Starlink) & Disponível em todo o país & 50--200 Mbps \\
-  !!! L  446 | [Dept] Distrito Capital   | Placeholder explícito: Starlink & Satélite LEO & Todo o Paraguai & ~44 + equip. ~370 \\
+dept_00_Distrito_Capital.tex (3 ocorrências):
+      L  412 | [Dept] Distrito Capital   | Célula tabela com --- (dado ausente)
+  !!! L  468 | [Dept] Distrito Capital   | Placeholder explícito: Satélite (Starlink) & Disponível em todo o país & 50--200 Mbps \\
+  !!! L  481 | [Dept] Distrito Capital   | Placeholder explícito: Starlink & Satélite LEO & Todo o Paraguai & ~44 + equip. ~370 \\
 
-dept_01_Concepcion.tex (8 ocorrências):
-  !!! L  282 | [Dept] Concepción         | Áreas recomendadas: sem conteúdo
-  !!! L  284 | [Dept] Concepción         | Armadilhas comuns: sem conteúdo
-      L  294 | [Dept] Concepción         | Célula tabela com --- (dado ausente)
-      L  295 | [Dept] Concepción         | Célula tabela com --- (dado ausente)
-      L  296 | [Dept] Concepción         | Célula tabela com --- (dado ausente)
-  !!! L  351 | [Dept] Concepción         | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
-  !!! L  362 | [Dept] Concepción         | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
-  !!! L 1541 | Concepción                | Placeholder explícito: (referência para todo o Norte), IPS Concepción, clínicas privadas
+dept_01_Concepcion.tex (6 ocorrências):
+      L  329 | [Dept] Concepción         | Célula tabela com --- (dado ausente)
+      L  330 | [Dept] Concepción         | Célula tabela com --- (dado ausente)
+      L  331 | [Dept] Concepción         | Célula tabela com --- (dado ausente)
+  !!! L  386 | [Dept] Concepción         | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
+  !!! L  397 | [Dept] Concepción         | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
+  !!! L 1576 | Concepción                | Placeholder explícito: (referência para todo o Norte), IPS Concepción, clínicas privadas
 
-dept_02_San_Pedro.tex (8 ocorrências):
-  !!! L  283 | [Dept] San Pedro          | Áreas recomendadas: sem conteúdo
-  !!! L  285 | [Dept] San Pedro          | Armadilhas comuns: sem conteúdo
-      L  295 | [Dept] San Pedro          | Célula tabela com --- (dado ausente)
-      L  296 | [Dept] San Pedro          | Célula tabela com --- (dado ausente)
-      L  297 | [Dept] San Pedro          | Célula tabela com --- (dado ausente)
-  !!! L  350 | [Dept] San Pedro          | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
-  !!! L  362 | [Dept] San Pedro          | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
-  !!! L 4882 | Santa Rosa del Aguaray    | Placeholder explícito: \item[Vias de Acesso]  Ponto de conexão vital entre Pedro Juan Caballero, Concep
+dept_02_San_Pedro.tex (6 ocorrências):
+      L  330 | [Dept] San Pedro          | Célula tabela com --- (dado ausente)
+      L  331 | [Dept] San Pedro          | Célula tabela com --- (dado ausente)
+      L  332 | [Dept] San Pedro          | Célula tabela com --- (dado ausente)
+  !!! L  385 | [Dept] San Pedro          | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
+  !!! L  397 | [Dept] San Pedro          | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
+  !!! L 4917 | Santa Rosa del Aguaray    | Placeholder explícito: \item[Vias de Acesso]  Ponto de conexão vital entre Pedro Juan Caballero, Concep
 
-dept_03_Cordillera.tex (13 ocorrências):
-  !!! L  283 | [Dept] Cordillera         | Áreas recomendadas: sem conteúdo
-  !!! L  285 | [Dept] Cordillera         | Armadilhas comuns: sem conteúdo
-      L  295 | [Dept] Cordillera         | Célula tabela com --- (dado ausente)
-      L  296 | [Dept] Cordillera         | Célula tabela com --- (dado ausente)
-      L  297 | [Dept] Cordillera         | Célula tabela com --- (dado ausente)
-  !!! L  348 | [Dept] Cordillera         | Placeholder explícito: Rádio/Wireless & Amplo em todo o departamento & 5--50 Mbps \\
-  !!! L  350 | [Dept] Cordillera         | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
-  !!! L  361 | [Dept] Cordillera         | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
-  !!! L  728 | Arroyos y Esteros         | Dossiê campo vazio: [Fontes]
-  !!! L  733 | Arroyos y Esteros         | Dossiê campo vazio: [Fontes]
-  !!! L  737 | Arroyos y Esteros         | Dossiê campo vazio: [Fontes]
-  !!! L  742 | Arroyos y Esteros         | Dossiê campo vazio: [Fontes]
-  !!! L  745 | Arroyos y Esteros         | Dossiê campo vazio: [Fontes]
+dept_03_Cordillera.tex (6 ocorrências):
+      L  330 | [Dept] Cordillera         | Célula tabela com --- (dado ausente)
+      L  331 | [Dept] Cordillera         | Célula tabela com --- (dado ausente)
+      L  332 | [Dept] Cordillera         | Célula tabela com --- (dado ausente)
+  !!! L  383 | [Dept] Cordillera         | Placeholder explícito: Rádio/Wireless & Amplo em todo o departamento & 5--50 Mbps \\
+  !!! L  385 | [Dept] Cordillera         | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
+  !!! L  396 | [Dept] Cordillera         | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
 
-dept_04_Guaira.tex (8 ocorrências):
-  !!! L  280 | [Dept] Guairá             | Áreas recomendadas: sem conteúdo
-  !!! L  282 | [Dept] Guairá             | Armadilhas comuns: sem conteúdo
-      L  292 | [Dept] Guairá             | Célula tabela com --- (dado ausente)
-      L  293 | [Dept] Guairá             | Célula tabela com --- (dado ausente)
-      L  294 | [Dept] Guairá             | Célula tabela com --- (dado ausente)
-  !!! L  345 | [Dept] Guairá             | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
-  !!! L  355 | [Dept] Guairá             | Placeholder explícito: Copaco & ADSL/Rádio & Todo o departamento (rede legada) & 10--28 \\
-  !!! L  356 | [Dept] Guairá             | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
+dept_04_Guaira.tex (7 ocorrências):
+      L  327 | [Dept] Guairá             | Célula tabela com --- (dado ausente)
+      L  328 | [Dept] Guairá             | Célula tabela com --- (dado ausente)
+      L  329 | [Dept] Guairá             | Célula tabela com --- (dado ausente)
+  !!! L  380 | [Dept] Guairá             | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
+  !!! L  390 | [Dept] Guairá             | Placeholder explícito: Copaco & ADSL/Rádio & Todo o departamento (rede legada) & 10--28 \\
+  !!! L  391 | [Dept] Guairá             | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
+  !!! L 5078 | Villarrica                | Placeholder explícito: \secaoDiagnostico{Villarrica}{\mapaDistrito{0401}}{\textit{Nota: ``Villarrica'' 
 
-dept_05_Caaguazu.tex (8 ocorrências):
-  !!! L  283 | [Dept] Caaguazú           | Áreas recomendadas: sem conteúdo
-  !!! L  285 | [Dept] Caaguazú           | Armadilhas comuns: sem conteúdo
-      L  295 | [Dept] Caaguazú           | Célula tabela com --- (dado ausente)
-      L  296 | [Dept] Caaguazú           | Célula tabela com --- (dado ausente)
-      L  297 | [Dept] Caaguazú           | Célula tabela com --- (dado ausente)
-  !!! L  350 | [Dept] Caaguazú           | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
-  !!! L  362 | [Dept] Caaguazú           | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
-  !!! L  959 | Coronel Oviedo            | Placeholder explícito: infraestrutura de saúde e serviços mais robusta de todo o interior do
+dept_05_Caaguazu.tex (6 ocorrências):
+      L  330 | [Dept] Caaguazú           | Célula tabela com --- (dado ausente)
+      L  331 | [Dept] Caaguazú           | Célula tabela com --- (dado ausente)
+      L  332 | [Dept] Caaguazú           | Célula tabela com --- (dado ausente)
+  !!! L  385 | [Dept] Caaguazú           | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
+  !!! L  397 | [Dept] Caaguazú           | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
+  !!! L  994 | Coronel Oviedo            | Placeholder explícito: infraestrutura de saúde e serviços mais robusta de todo o interior do
 
-dept_06_Caazapa.tex (8 ocorrências):
-  !!! L  279 | [Dept] Caazapá            | Áreas recomendadas: sem conteúdo
-  !!! L  281 | [Dept] Caazapá            | Armadilhas comuns: sem conteúdo
-      L  291 | [Dept] Caazapá            | Célula tabela com --- (dado ausente)
-      L  292 | [Dept] Caazapá            | Célula tabela com --- (dado ausente)
-      L  293 | [Dept] Caazapá            | Célula tabela com --- (dado ausente)
-      L  343 | [Dept] Caazapá            | Célula tabela com --- (dado ausente)
-  !!! L  346 | [Dept] Caazapá            | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
-  !!! L  358 | [Dept] Caazapá            | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
+dept_06_Caazapa.tex (6 ocorrências):
+      L  326 | [Dept] Caazapá            | Célula tabela com --- (dado ausente)
+      L  327 | [Dept] Caazapá            | Célula tabela com --- (dado ausente)
+      L  328 | [Dept] Caazapá            | Célula tabela com --- (dado ausente)
+      L  378 | [Dept] Caazapá            | Célula tabela com --- (dado ausente)
+  !!! L  381 | [Dept] Caazapá            | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
+  !!! L  393 | [Dept] Caazapá            | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
 
-dept_07_Itapua.tex (7 ocorrências):
-  !!! L  285 | [Dept] Itapúa             | Áreas recomendadas: sem conteúdo
-  !!! L  287 | [Dept] Itapúa             | Armadilhas comuns: sem conteúdo
-      L  297 | [Dept] Itapúa             | Célula tabela com --- (dado ausente)
-      L  298 | [Dept] Itapúa             | Célula tabela com --- (dado ausente)
-      L  299 | [Dept] Itapúa             | Célula tabela com --- (dado ausente)
-  !!! L  352 | [Dept] Itapúa             | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
-  !!! L  364 | [Dept] Itapúa             | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
+dept_07_Itapua.tex (5 ocorrências):
+      L  332 | [Dept] Itapúa             | Célula tabela com --- (dado ausente)
+      L  333 | [Dept] Itapúa             | Célula tabela com --- (dado ausente)
+      L  334 | [Dept] Itapúa             | Célula tabela com --- (dado ausente)
+  !!! L  387 | [Dept] Itapúa             | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
+  !!! L  399 | [Dept] Itapúa             | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
 
-dept_08_Misiones.tex (7 ocorrências):
-  !!! L  279 | [Dept] Misiones           | Áreas recomendadas: sem conteúdo
-  !!! L  281 | [Dept] Misiones           | Armadilhas comuns: sem conteúdo
-      L  291 | [Dept] Misiones           | Célula tabela com --- (dado ausente)
-      L  292 | [Dept] Misiones           | Célula tabela com --- (dado ausente)
-      L  293 | [Dept] Misiones           | Célula tabela com --- (dado ausente)
-  !!! L  344 | [Dept] Misiones           | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
-  !!! L  355 | [Dept] Misiones           | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
+dept_08_Misiones.tex (5 ocorrências):
+      L  326 | [Dept] Misiones           | Célula tabela com --- (dado ausente)
+      L  327 | [Dept] Misiones           | Célula tabela com --- (dado ausente)
+      L  328 | [Dept] Misiones           | Célula tabela com --- (dado ausente)
+  !!! L  379 | [Dept] Misiones           | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
+  !!! L  390 | [Dept] Misiones           | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
 
-dept_09_Paraguari.tex (7 ocorrências):
-  !!! L  284 | [Dept] Paraguarí          | Áreas recomendadas: sem conteúdo
-  !!! L  286 | [Dept] Paraguarí          | Armadilhas comuns: sem conteúdo
-      L  296 | [Dept] Paraguarí          | Célula tabela com --- (dado ausente)
-      L  297 | [Dept] Paraguarí          | Célula tabela com --- (dado ausente)
-      L  298 | [Dept] Paraguarí          | Célula tabela com --- (dado ausente)
-  !!! L  351 | [Dept] Paraguarí          | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
-  !!! L  362 | [Dept] Paraguarí          | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
+dept_09_Paraguari.tex (5 ocorrências):
+      L  331 | [Dept] Paraguarí          | Célula tabela com --- (dado ausente)
+      L  332 | [Dept] Paraguarí          | Célula tabela com --- (dado ausente)
+      L  333 | [Dept] Paraguarí          | Célula tabela com --- (dado ausente)
+  !!! L  386 | [Dept] Paraguarí          | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
+  !!! L  397 | [Dept] Paraguarí          | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
 
-dept_10_Alto_Parana.tex (5 ocorrências):
-  !!! L  292 | [Dept] Alto Paraná        | Áreas recomendadas: sem conteúdo
-  !!! L  294 | [Dept] Alto Paraná        | Armadilhas comuns: sem conteúdo
-      L  306 | [Dept] Alto Paraná        | Célula tabela com --- (dado ausente)
-  !!! L  360 | [Dept] Alto Paraná        | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
-  !!! L  373 | [Dept] Alto Paraná        | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
+dept_10_Alto_Parana.tex (3 ocorrências):
+      L  341 | [Dept] Alto Paraná        | Célula tabela com --- (dado ausente)
+  !!! L  395 | [Dept] Alto Paraná        | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
+  !!! L  408 | [Dept] Alto Paraná        | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
 
-dept_11_Central.tex (10 ocorrências):
-  !!! L  294 | [Dept] Central            | Áreas recomendadas: sem conteúdo
-  !!! L  296 | [Dept] Central            | Armadilhas comuns: sem conteúdo
-      L  308 | [Dept] Central            | Célula tabela com --- (dado ausente)
-  !!! L  339 | [Dept] Central            | Placeholder explícito: > Câmbio de referência: 1 USD $\approx$ 7.500 PYG (2024). Chips disponíveis em t
-  !!! L  360 | [Dept] Central            | Placeholder explícito: Fibra ótica (FTTH) & Todo o departamento & 100--1000 Mbps \\
-  !!! L  372 | [Dept] Central            | Placeholder explícito: Tigo & Fibra/HFC/Rádio & Todo o departamento & 18--65 \\
-  !!! L  373 | [Dept] Central            | Placeholder explícito: Claro/Personal & Fibra/HFC/Rádio & Todo o departamento & 15--60 \\
-  !!! L  374 | [Dept] Central            | Placeholder explícito: Copaco & Fibra/ADSL & Todo o departamento & 10--40 \\
-  !!! L  377 | [Dept] Central            | Placeholder explícito: Starlink & Satélite LEO & Todo & ~44 + equip. ~370 \\
-  !!! L 3424 | Mariano Roque Alonso      | Placeholder explícito: \item[Vias de Acesso]  Localização nevrálgica sobre a Ruta PY03 (Transchaco). Po
+dept_11_Central.tex (8 ocorrências):
+      L  343 | [Dept] Central            | Célula tabela com --- (dado ausente)
+  !!! L  374 | [Dept] Central            | Placeholder explícito: > Câmbio de referência: 1 USD $\approx$ 7.500 PYG (2024). Chips disponíveis em t
+  !!! L  395 | [Dept] Central            | Placeholder explícito: Fibra ótica (FTTH) & Todo o departamento & 100--1000 Mbps \\
+  !!! L  407 | [Dept] Central            | Placeholder explícito: Tigo & Fibra/HFC/Rádio & Todo o departamento & 18--65 \\
+  !!! L  408 | [Dept] Central            | Placeholder explícito: Claro/Personal & Fibra/HFC/Rádio & Todo o departamento & 15--60 \\
+  !!! L  409 | [Dept] Central            | Placeholder explícito: Copaco & Fibra/ADSL & Todo o departamento & 10--40 \\
+  !!! L  412 | [Dept] Central            | Placeholder explícito: Starlink & Satélite LEO & Todo & ~44 + equip. ~370 \\
+  !!! L 3459 | Mariano Roque Alonso      | Placeholder explícito: \item[Vias de Acesso]  Localização nevrálgica sobre a Ruta PY03 (Transchaco). Po
 
-dept_12_Neembucu.tex (9 ocorrências):
-  !!! L   68 | [Dept] Ñeembucú           | Placeholder explícito: Ñeembucú possui a \textbf{taxa de homicídios mais baixa de todo o Paraguai}, com
-  !!! L  280 | [Dept] Ñeembucú           | Áreas recomendadas: sem conteúdo
-  !!! L  282 | [Dept] Ñeembucú           | Armadilhas comuns: sem conteúdo
-      L  292 | [Dept] Ñeembucú           | Célula tabela com --- (dado ausente)
-      L  293 | [Dept] Ñeembucú           | Célula tabela com --- (dado ausente)
-      L  294 | [Dept] Ñeembucú           | Célula tabela com --- (dado ausente)
-  !!! L  347 | [Dept] Ñeembucú           | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
-  !!! L  358 | [Dept] Ñeembucú           | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
-  !!! L 4334 | Villa Franca              | Placeholder explícito: \item[População]  1.138 habitantes (Censo 2022 Final). O segundo município menos
+dept_12_Neembucu.tex (7 ocorrências):
+  !!! L  101 | [Dept] Ñeembucú           | Placeholder explícito: Ñeembucú possui a \textbf{taxa de homicídios mais baixa de todo o Paraguai}, com
+      L  327 | [Dept] Ñeembucú           | Célula tabela com --- (dado ausente)
+      L  328 | [Dept] Ñeembucú           | Célula tabela com --- (dado ausente)
+      L  329 | [Dept] Ñeembucú           | Célula tabela com --- (dado ausente)
+  !!! L  382 | [Dept] Ñeembucú           | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
+  !!! L  393 | [Dept] Ñeembucú           | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
+  !!! L 4369 | Villa Franca              | Placeholder explícito: \item[População]  1.138 habitantes (Censo 2022 Final). O segundo município menos
 
-dept_13_Amambay.tex (7 ocorrências):
-  !!! L  287 | [Dept] Amambay            | Áreas recomendadas: sem conteúdo
-  !!! L  289 | [Dept] Amambay            | Armadilhas comuns: sem conteúdo
-      L  299 | [Dept] Amambay            | Célula tabela com --- (dado ausente)
-      L  300 | [Dept] Amambay            | Célula tabela com --- (dado ausente)
-      L  301 | [Dept] Amambay            | Célula tabela com --- (dado ausente)
-  !!! L  354 | [Dept] Amambay            | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
-  !!! L  366 | [Dept] Amambay            | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
+dept_13_Amambay.tex (5 ocorrências):
+      L  334 | [Dept] Amambay            | Célula tabela com --- (dado ausente)
+      L  335 | [Dept] Amambay            | Célula tabela com --- (dado ausente)
+      L  336 | [Dept] Amambay            | Célula tabela com --- (dado ausente)
+  !!! L  389 | [Dept] Amambay            | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
+  !!! L  401 | [Dept] Amambay            | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
 
-dept_14_Canindeyu.tex (7 ocorrências):
-  !!! L  286 | [Dept] Canindeyú          | Áreas recomendadas: sem conteúdo
-  !!! L  288 | [Dept] Canindeyú          | Armadilhas comuns: sem conteúdo
-      L  298 | [Dept] Canindeyú          | Célula tabela com --- (dado ausente)
-      L  299 | [Dept] Canindeyú          | Célula tabela com --- (dado ausente)
-      L  300 | [Dept] Canindeyú          | Célula tabela com --- (dado ausente)
-  !!! L  351 | [Dept] Canindeyú          | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
-  !!! L  364 | [Dept] Canindeyú          | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
+dept_14_Canindeyu.tex (5 ocorrências):
+      L  333 | [Dept] Canindeyú          | Célula tabela com --- (dado ausente)
+      L  334 | [Dept] Canindeyú          | Célula tabela com --- (dado ausente)
+      L  335 | [Dept] Canindeyú          | Célula tabela com --- (dado ausente)
+  !!! L  386 | [Dept] Canindeyú          | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
+  !!! L  399 | [Dept] Canindeyú          | Placeholder explícito: Starlink & Satélite LEO & Todo o departamento & ~44 + equip. ~370 \\
 
-dept_15_Presidente_Hayes.tex (7 ocorrências):
-  !!! L  289 | [Dept] Presidente Hayes   | Áreas recomendadas: sem conteúdo
-  !!! L  291 | [Dept] Presidente Hayes   | Armadilhas comuns: sem conteúdo
-      L  301 | [Dept] Presidente Hayes   | Célula tabela com --- (dado ausente)
-      L  302 | [Dept] Presidente Hayes   | Célula tabela com --- (dado ausente)
-      L  303 | [Dept] Presidente Hayes   | Célula tabela com --- (dado ausente)
-  !!! L  357 | [Dept] Presidente Hayes   | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
-  !!! L  369 | [Dept] Presidente Hayes   | Placeholder explícito: Starlink & Satélite LEO & TODO o departamento & ~44 + equip. ~370 \\
+dept_15_Presidente_Hayes.tex (5 ocorrências):
+      L  336 | [Dept] Presidente Hayes   | Célula tabela com --- (dado ausente)
+      L  337 | [Dept] Presidente Hayes   | Célula tabela com --- (dado ausente)
+      L  338 | [Dept] Presidente Hayes   | Célula tabela com --- (dado ausente)
+  !!! L  392 | [Dept] Presidente Hayes   | Placeholder explícito: Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
+  !!! L  404 | [Dept] Presidente Hayes   | Placeholder explícito: Starlink & Satélite LEO & todo o departamento & ~44 + equip. ~370 \\
 
-dept_16_Boqueron.tex (8 ocorrências):
-  !!! L  183 | [Dept] Boquerón           | Placeholder explícito: Boquerón é o maior departamento do Paraguai e o coração do Chaco Central. O Sist
-  !!! L  290 | [Dept] Boquerón           | Áreas recomendadas: sem conteúdo
-  !!! L  292 | [Dept] Boquerón           | Armadilhas comuns: sem conteúdo
-      L  302 | [Dept] Boquerón           | Célula tabela com --- (dado ausente)
-      L  303 | [Dept] Boquerón           | Célula tabela com --- (dado ausente)
-      L  304 | [Dept] Boquerón           | Célula tabela com --- (dado ausente)
-  !!! L  357 | [Dept] Boquerón           | Placeholder explícito: Satélite (Starlink) & TODO o departamento & 50--200 Mbps \\
-  !!! L  370 | [Dept] Boquerón           | Placeholder explícito: Starlink & Satélite LEO & TODO o departamento & ~44 + equip. ~370 \\
+dept_16_Boqueron.tex (6 ocorrências):
+  !!! L  216 | [Dept] Boquerón           | Placeholder explícito: Boquerón é o maior departamento do Paraguai e o coração do Chaco Central. O Sist
+      L  337 | [Dept] Boquerón           | Célula tabela com --- (dado ausente)
+      L  338 | [Dept] Boquerón           | Célula tabela com --- (dado ausente)
+      L  339 | [Dept] Boquerón           | Célula tabela com --- (dado ausente)
+  !!! L  392 | [Dept] Boquerón           | Placeholder explícito: Satélite (Starlink) & todo o departamento & 50--200 Mbps \\
+  !!! L  405 | [Dept] Boquerón           | Placeholder explícito: Starlink & Satélite LEO & todo o departamento & ~44 + equip. ~370 \\
 
 dept_17_Alto_Paraguay.tex (10 ocorrências):
-  !!! L  224 | [Dept] Alto Paraguay      | Placeholder explícito: Alto Paraguay é o departamento mais isolado e com menor aptidão agrícola de todo
-  !!! L  293 | [Dept] Alto Paraguay      | Armadilhas comuns: sem conteúdo
-      L  303 | [Dept] Alto Paraguay      | Célula tabela com --- (dado ausente)
-      L  304 | [Dept] Alto Paraguay      | Célula tabela com --- (dado ausente)
-      L  305 | [Dept] Alto Paraguay      | Célula tabela com --- (dado ausente)
-      L  354 | [Dept] Alto Paraguay      | Célula tabela com --- (dado ausente)
-      L  355 | [Dept] Alto Paraguay      | Célula tabela com --- (dado ausente)
-  !!! L  359 | [Dept] Alto Paraguay      | Placeholder explícito: Satélite (Starlink) & TODO o departamento & 50--200 Mbps \\
-  !!! L  370 | [Dept] Alto Paraguay      | Placeholder explícito: Starlink & Satélite LEO & TODO o departamento & ~44 + equip. ~370 \\
-  !!! L  371 | [Dept] Alto Paraguay      | Placeholder explícito: VSAT (outros) & Satélite geoestacionário & Todo (com instalação técnica) & 80--2
+  !!! L  257 | [Dept] Alto Paraguay      | Placeholder explícito: Alto Paraguay é o departamento mais isolado e com menor aptidão agrícola de todo
+  !!! L  328 | [Dept] Alto Paraguay      | Placeholder explícito: O mercado imobiliário é praticamente inexistente para estrangeiros, com títulos 
+      L  338 | [Dept] Alto Paraguay      | Célula tabela com --- (dado ausente)
+      L  339 | [Dept] Alto Paraguay      | Célula tabela com --- (dado ausente)
+      L  340 | [Dept] Alto Paraguay      | Célula tabela com --- (dado ausente)
+      L  389 | [Dept] Alto Paraguay      | Célula tabela com --- (dado ausente)
+      L  390 | [Dept] Alto Paraguay      | Célula tabela com --- (dado ausente)
+  !!! L  394 | [Dept] Alto Paraguay      | Placeholder explícito: Satélite (Starlink) & todo o departamento & 50--200 Mbps \\
+  !!! L  405 | [Dept] Alto Paraguay      | Placeholder explícito: Starlink & Satélite LEO & todo o departamento & ~44 + equip. ~370 \\
+  !!! L  406 | [Dept] Alto Paraguay      | Placeholder explícito: VSAT (outros) & Satélite geoestacionário & Todo (com instalação técnica) & 80--2

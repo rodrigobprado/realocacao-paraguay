@@ -1,0 +1,343 @@
+% AC-04 — Framework de Análise Qualitativa dos Dossiês de Distritos
+% Artefato Central: campos, padrão de evidências e escala de avaliação
+
+\chapter*{Apêndice C: Framework de Análise Qualitativa}
+\addcontentsline{toc}{chapter}{Apêndice C: Framework de Análise Qualitativa}
+\label{apendice:qualitativo}
+
+% =====================================================================
+\section*{1. Objetivo}
+% =====================================================================
+
+Este framework estabelece os critérios, fontes e escala narrativa que \textbf{todos os dossiês de distritos} devem seguir, independentemente do autor ou da ordem de produção. Sem um padrão explícito, análises qualitativas tendem a refletir impressões pessoais do momento da pesquisa, variações no acesso a fontes e diferenças de ênfase difíceis de detectar na leitura. O resultado seria uma obra internamente inconsistente: um distrito avaliado com fontes primárias robustas ao lado de outro avaliado com notícias avulsas, sem que o leitor pudesse distinguir a diferença de qualidade.
+
+O framework serve a três propósitos simultâneos:
+
+\begin{enumerate}
+  \item \textbf{Consistência metodológica:} garante que os mesmos blocos sejam analisados com os mesmos critérios em todos os 262 distritos cobertos.
+  \item \textbf{Rastreabilidade:} define quais fontes são aceitas e quais não são, criando uma cadeia de custódia verificável para cada dado publicado.
+  \item \textbf{Escalabilidade:} permite que novos colaboradores, revisores ou atualizadores compreendam exatamente o que é esperado sem precisar inferir convenções implícitas.
+\end{enumerate}
+
+Qualquer desvio deste framework deve ser documentado em nota de rodapé ou nota ao leitor, indicando o motivo da exceção e o impacto na confiabilidade do dado.
+
+% =====================================================================
+\section*{2. Os 12 Blocos do Dossiê de Distrito}
+% =====================================================================
+
+Cada dossiê de distrito deve conter exatamente os 12 blocos listados abaixo, na ordem indicada. Blocos ausentes devem ser representados com a marcação \texttt{[BLOCO PENDENTE]} acompanhada de justificativa. Nenhum bloco pode ser omitido sem registro explícito.
+
+\bigskip
+
+\begin{tabularx}{\linewidth}{|c|X|l|c|}
+\hline
+\textbf{\#} & \textbf{Bloco} & \textbf{Tipo} & \textbf{Obrigatório} \\
+\hline
+1  & Leitura Executiva                                & Qualitativo                   & Sim \\
+\hline
+2  & Ficha Climática (Irradiação + Precipitação)      & Quantitativo                  & Sim \\
+\hline
+3  & Segurança Pública                                & Quantitativo + Qualitativo    & Sim \\
+\hline
+4  & IDH e Desenvolvimento Humano                     & Quantitativo                  & Sim \\
+\hline
+5  & Sistema Prisional                                & Quantitativo + Qualitativo    & Sim \\
+\hline
+6  & Recursos Hídricos Subterrâneos                   & Quantitativo + Qualitativo    & Sim \\
+\hline
+7  & Aptidão do Solo                                  & Quantitativo + Qualitativo    & Sim \\
+\hline
+8  & Terra Rural (preços e mercado)                   & Quantitativo + Qualitativo    & Sim \\
+\hline
+9  & Mercado Imobiliário                              & Quantitativo + Qualitativo    & Sim \\
+\hline
+10 & Cobertura Celular                                & Quantitativo                  & Sim \\
+\hline
+11 & Internet e Conectividade                         & Quantitativo                  & Sim \\
+\hline
+12 & Scorecard GSS (tabela A-B-C-D-E)                 & Quantitativo                  & Sim \\
+\hline
+\end{tabularx}
+
+% =====================================================================
+\section*{3. Padrão de Evidências por Bloco}
+% =====================================================================
+
+Para cada bloco, são definidas três categorias de fontes: \textbf{primárias} (aceitas sem ressalva), \textbf{secundárias} (aceitas com referência explícita à limitação) e \textbf{não aceitas} (proibidas como base de dado publicado). Fontes secundárias devem sempre indicar a fonte primária que tentam aproximar.
+
+\subsection*{Bloco 2 — Ficha Climática}
+
+\begin{tabularx}{\linewidth}{lX}
+\toprule
+\textbf{Categoria} & \textbf{Fontes} \\
+\midrule
+Primárias    & NASA POWER Data Access Viewer (irradiação e precipitação por coordenada); DMH — Dirección de Meteorología e Hidrología do Paraguai (séries históricas). \\
+Secundárias  & WorldClim v2; Climate-Data.org com série de ao menos 20 anos. \\
+Não aceitas  & Estimativas verbais de moradores; dados de estações sem identificação de código; tabelas climáticas sem indicação de período de referência. \\
+\bottomrule
+\end{tabularx}
+
+\subsection*{Bloco 3 — Segurança Pública}
+
+\begin{tabularx}{\linewidth}{lX}
+\toprule
+\textbf{Categoria} & \textbf{Fontes} \\
+\midrule
+Primárias    & Ministerio Público do Paraguai — Anuário Estadístico Anual (série histórica de causas de homicídio doloso por distrito); DGEEC — dados criminais desagregados por distrito. \\
+Secundárias  & InSight Crime (relatórios por país e região); relatórios UNODC Paraguay; Global Organized Crime Index (OCINDEX). \\
+Não aceitas  & Notícias avulsas sem série histórica; percepção local não documentada; rankings de segurança sem metodologia publicada; postagens em redes sociais ou fóruns de expatriados. \\
+\bottomrule
+\end{tabularx}
+
+\subsection*{Bloco 4 — IDH e Desenvolvimento Humano}
+
+\begin{tabularx}{\linewidth}{lX}
+\toprule
+\textbf{Categoria} & \textbf{Fontes} \\
+\midrule
+Primárias    & PNUD Paraguai — Relatório "Desarrollo Humano en el Paraguay 2001--2020"; Global Data Lab (subnational HDI); DGEEC / INE — EPHC (Encuesta Permanente de Hogares Continua). \\
+Secundárias  & Interpolação via dados INE EPHC por domínio geográfico, com nota de limitação metodológica. \\
+Não aceitas  & IDH autoatribuído por prefeituras ou câmaras de comércio; rankings sem metodologia; estimativas sem fonte identificada. \\
+\bottomrule
+\end{tabularx}
+
+\subsection*{Bloco 5 — Sistema Prisional}
+
+\begin{tabularx}{\linewidth}{lX}
+\toprule
+\textbf{Categoria} & \textbf{Fontes} \\
+\midrule
+Primárias    & Ministerio de Justicia do Paraguai — dados de estabelecimentos penais; DGEEC — localização e capacidade das penitenciárias. \\
+Secundárias  & Relatórios do Prison Policy Initiative; Human Rights Watch (capítulos PY); CODEHUPY. \\
+Não aceitas  & Menção de presídio sem confirmação de localização oficial; estimativas de população carcerária sem fonte institucional. \\
+\bottomrule
+\end{tabularx}
+
+\subsection*{Bloco 6 — Recursos Hídricos Subterrâneos}
+
+\begin{tabularx}{\linewidth}{lX}
+\toprule
+\textbf{Categoria} & \textbf{Fontes} \\
+\midrule
+Primárias    & SENASA (Servicio Nacional de Saneamiento Ambiental) — mapas de cobertura de água potável; MADES (Ministerio del Ambiente y Desarrollo Sostenible) — mapas hidrogeológicos e de qualidade da água subterrânea. \\
+Secundárias  & ISARM/OEA — dados do Sistema Aquífero Guarani (SAG); estudos acadêmicos publicados em periódicos indexados com DOI verificável. \\
+Não aceitas  & Estimativas sem fonte; afirmações de "boa água" sem referência a teste ou mapa oficial; dados de poços individuais sem validação institucional. \\
+\bottomrule
+\end{tabularx}
+
+\subsection*{Bloco 7 — Aptidão do Solo}
+
+\begin{tabularx}{\linewidth}{lX}
+\toprule
+\textbf{Categoria} & \textbf{Fontes} \\
+\midrule
+Primárias    & MAG (Ministerio de Agricultura y Ganadería) — mapas de uso e aptidão do solo; CAPECO (dados de produção agrícola por distrito); Proyecto NATAIMA / SEAM mapas de degradação. \\
+Secundárias  & FAO GeoNetwork (mapas de aptidão agrícola global, resolução 1 km); SoilGrids (ISRIC World Soil Information). \\
+Não aceitas  & Descrição qualitativa de solo sem referência a classificação pedológica ou mapa oficial; estimativa de fertilidade sem análise ou fonte técnica. \\
+\bottomrule
+\end{tabularx}
+
+\subsection*{Bloco 8 — Terra Rural}
+
+\begin{tabularx}{\linewidth}{lX}
+\toprule
+\textbf{Categoria} & \textbf{Fontes} \\
+\midrule
+Primárias    & INDERT (Instituto Nacional de Desarrollo Rural y de la Tierra) — preços de referência e transações registradas; Escritura pública registrada em Registros Públicos do Paraguai. \\
+Secundárias  & Portais imobiliários com data de publicação (InfoCasas, Clasificados Paraguay) — usados apenas como proxy de mercado com nota de limitação; pesquisa de campo documentada com data e localização. \\
+Não aceitas  & Preços informados por corretores sem documento escrito; estimativas "de boca a boca"; valores de anúncios expirados sem data. \\
+\bottomrule
+\end{tabularx}
+
+\subsection*{Bloco 9 — Mercado Imobiliário}
+
+\begin{tabularx}{\linewidth}{lX}
+\toprule
+\textbf{Categoria} & \textbf{Fontes} \\
+\midrule
+Primárias    & Registros Públicos do Paraguai (transações lavradas); DGEEC — censo de domicílios 2022. \\
+Secundárias  & InfoCasas, Clasificados Paraguay (anúncios com data de publicação, usados como indicador de tendência); relatórios de imobiliárias com metodologia declarada. \\
+Não aceitas  & Preços informados verbalmente; estimativas sem referência temporal; comparações com mercados de outros países sem ajuste de paridade. \\
+\bottomrule
+\end{tabularx}
+
+\subsection*{Blocos 10 e 11 — Conectividade}
+
+\begin{tabularx}{\linewidth}{lX}
+\toprule
+\textbf{Categoria} & \textbf{Fontes} \\
+\midrule
+Primárias    & CONATEL (Comisión Nacional de Telecomunicaciones) — relatórios anuais de cobertura e penetração; mapas de cobertura oficiais das operadoras (Tigo, Personal, Claro). \\
+Secundárias  & OOKLA Speedtest Intelligence (dados agregados por região); Opensignal (relatórios por país, quando desagregados regionalmente). \\
+Não aceitas  & Relatos de usuários em fóruns; testes individuais de velocidade sem contexto amostral; afirmações de cobertura sem mapa ou relatório de suporte. \\
+\bottomrule
+\end{tabularx}
+
+\subsection*{Bloco 12 — Scorecard GSS}
+
+\begin{tabularx}{\linewidth}{lX}
+\toprule
+\textbf{Categoria} & \textbf{Fontes} \\
+\midrule
+Primárias    & Combinação das fontes primárias dos Blocos 2 a 11, conforme metodologia GSS descrita no Apêndice~A. \\
+Secundárias  & Aceitas apenas para sub-scores com nota de confiança C (estimativa). \\
+Não aceitas  & Score atribuído sem decomposição em sub-scores A, B, C, D e E com fontes individuais. \\
+\bottomrule
+\end{tabularx}
+
+% =====================================================================
+\section*{4. Escala de Avaliação Qualitativa}
+% =====================================================================
+
+Todos os textos narrativos dos dossiês — tanto no Bloco 1 (Leitura Executiva) quanto nos comentários interpretativos dos demais blocos — devem referenciar implícita ou explicitamente a escala abaixo. O código de nível (\texttt{++}, \texttt{+}, \texttt{=}, \texttt{-}, \texttt{-{}-}, \texttt{SD}) pode ser usado em tabelas de síntese ou no Scorecard GSS estendido.
+
+\bigskip
+
+\renewcommand{\arraystretch}{1.4}
+\begin{tabularx}{\linewidth}{|c|c|X|X|}
+\hline
+\textbf{Nível} & \textbf{Código} & \textbf{Significado} & \textbf{Exemplo de uso} \\
+\hline
+Muito Favorável   & \texttt{++} & Vantagem comparativa clara e documentada em relação à média nacional ou regional & Solo Terra Roxa com pH 6,5, aptidão lavoura intensa confirmada por MAG \\
+\hline
+Favorável         & \texttt{+}  & Condição positiva acima da média nacional, sem risco identificado               & Cobertura 4G Tigo $>$70\% da população do distrito (CONATEL 2023) \\
+\hline
+Neutro            & \texttt{=}  & Condição mediana; sem vantagem nem desvantagem comparativa relevante             & Precipitação próxima à média nacional (1.400 mm/ano; NASA POWER) \\
+\hline
+Desfavorável      & \texttt{-}  & Condição abaixo da média nacional ou com risco identificado e documentado        & Taxa de homicídios 2$\times$ a média nacional (Ministerio Público 2023) \\
+\hline
+Muito Desfavorável & \texttt{-{}-} & Risco estrutural ou barreira severa que desaconselha o perfil geral de relocação & Presença documentada de crime organizado transnacional (InSight Crime/UNODC) \\
+\hline
+Sem Dado          & \texttt{SD} & Variável relevante sem fonte verificável; impede avaliação                        & IDH distrital não calculado oficialmente; interpolação não aplicável \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\bigskip
+
+\textbf{Regras de uso da escala:}
+
+\begin{itemize}
+  \item \texttt{SD} nunca pode ser convertido em \texttt{=} por omissão. A ausência de dado não significa condição mediana.
+  \item A escala é relativa ao contexto paraguaio, salvo indicação expressa de comparação regional sul-americana.
+  \item Um nível \texttt{-{}-} em qualquer bloco de segurança (Bloco 3 ou 5) é considerado \textbf{fator de veto} e deve ser destacado na Leitura Executiva com linguagem inequívoca.
+  \item Níveis \texttt{++} só podem ser atribuídos com ao menos uma fonte primária verificável; nunca com base exclusiva em fonte secundária.
+\end{itemize}
+
+% =====================================================================
+\section*{5. Template da Leitura Executiva (Bloco 1)}
+% =====================================================================
+
+A Leitura Executiva de cada distrito deve seguir \textbf{exatamente} o template de quatro parágrafos abaixo. Variações de estilo são permitidas; a estrutura lógica é obrigatória. O template não pode ser condensado em menos de quatro parágrafos nem expandido além de dois parágrafos adicionais sem justificativa editorial.
+
+\bigskip
+\noindent\rule{\linewidth}{0.4pt}
+\medskip
+
+\noindent\textbf{Parágrafo 1 — Identidade e posicionamento} \textit{(2–3 frases)}
+
+\begin{quote}
+\textit{[Nome do Distrito]} é \textit{[características físicas principais: localização geográfica, bioma dominante, atividade econômica principal]}. O distrito se posiciona como \textit{[papel regional: polo agrícola, passagem logística, área remota, núcleo urbano secundário, etc.]} \textit{[e, opcionalmente, uma frase sobre tendência recente de crescimento ou estagnação]}.
+\end{quote}
+
+\noindent\textbf{Parágrafo 2 — Pontos fortes para relocação} \textit{(3–5 bullets)}
+
+Listar os 3 a 5 maiores atrativos com dado de suporte. Cada bullet deve seguir o formato:
+
+\begin{quote}
+\textit{[Atributo]}:\quad\textit{[dado quantitativo ou referência à fonte]}
+\end{quote}
+
+Exemplos válidos: "Solo de alta fertilidade: Terra Roxa confirmada por MAG em 68\% da área agrícola." — "Segurança: taxa de homicídios de 2,1/100k hab (Ministerio Público 2023), abaixo da média nacional de 5,3."
+
+\noindent\textbf{Parágrafo 3 — Riscos e limitações} \textit{(2–4 bullets)}
+
+Listar riscos reais documentados. Não omitir riscos por razões estéticas ou para favorecer a avaliação do distrito. Cada bullet deve seguir o formato:
+
+\begin{quote}
+\textit{[Risco]}:\quad\textit{[evidência ou proxy documentado]}
+\end{quote}
+
+Exemplos válidos: "Presença de EPP: Ministerio del Interior confirma área de influência no norte do departamento." — "Cobertura celular limitada: apenas 2G em 40\% do território (CONATEL 2022)."
+
+\noindent\textbf{Parágrafo 4 — Veredicto por perfil} \textit{(tabela inline)}
+
+Tabela de três colunas apresentando a recomendação diferenciada por tipo de relocando:
+
+\medskip
+\begin{tabularx}{\linewidth}{|l|c|X|}
+\hline
+\textbf{Perfil} & \textbf{Recomendação} & \textbf{Razão Principal} \\
+\hline
+Família com filhos pequenos      & \textit{[Sim / Com ressalvas / Não]} & \textit{[razão objetiva]} \\
+\hline
+Produtor rural / agronegócio     & \textit{[Sim / Com ressalvas / Não]} & \textit{[razão objetiva]} \\
+\hline
+Nômade digital / profissional liberal & \textit{[Sim / Com ressalvas / Não]} & \textit{[razão objetiva]} \\
+\hline
+\end{tabularx}
+
+\medskip
+\noindent\rule{\linewidth}{0.4pt}
+\bigskip
+
+O campo "Recomendação" deve usar exclusivamente uma das três opções: \textbf{Sim}, \textbf{Com ressalvas} ou \textbf{Não}. "Com ressalvas" requer que a razão principal especifique a condição que, se superada, converteria a recomendação em "Sim".
+
+% =====================================================================
+\section*{6. Critérios de Completude do Dossiê}
+% =====================================================================
+
+Um dossiê está \textbf{completo para publicação} quando atende \textit{simultaneamente} todos os critérios abaixo. Dossiês que não atendam algum critério devem ser marcados como \texttt{[RASCUNHO]} no cabeçalho do arquivo-fonte até que a pendência seja resolvida.
+
+\begin{enumerate}
+  \item Todos os 12 blocos estão presentes com ao menos um dado verificado por fonte primária ou secundária aceita.
+  \item Nenhum campo contém apenas "\texttt{---}" sem nota explicativa do motivo da ausência e da data em que a busca foi realizada.
+  \item A Leitura Executiva (Bloco 1) contém os quatro parágrafos preenchidos conforme o template da Seção~5 deste framework.
+  \item O Scorecard GSS (Bloco 12) apresenta todos os cinco sub-scores (A, B, C, D, E) com as fontes individuais de cada sub-score identificadas.
+  \item Nenhum dado com nível de confiança \textbf{C} (estimativa) é publicado sem nota ao leitor indicando a natureza estimada do dado e o método de aproximação utilizado.
+  \item A Leitura Executiva menciona explicitamente qualquer fator de veto identificado (nível \texttt{-{}-} em blocos de segurança).
+\end{enumerate}
+
+% =====================================================================
+\section*{7. Protocolo de Atualização}
+% =====================================================================
+
+As fontes primárias que sustentam os dossiês têm ciclos de publicação distintos. O protocolo abaixo define a frequência mínima de revisão de cada bloco e o evento que deve disparar uma revisão extraordinária fora do ciclo regular.
+
+\bigskip
+
+\renewcommand{\arraystretch}{1.4}
+\begin{tabularx}{\linewidth}{|l|c|X|}
+\hline
+\textbf{Bloco} & \textbf{Frequência} & \textbf{Gatilho de Revisão Extraordinária} \\
+\hline
+Ficha Climática (Bloco 2)     & Quinquenal   & Novo ciclo de dados NASA POWER ou revisão metodológica do DMH \\
+\hline
+Segurança Pública (Bloco 3)   & Anual        & Publicação do novo anuário do Ministerio Público do Paraguai \\
+\hline
+IDH (Bloco 4)                 & Quinquenal   & Novo relatório PNUD Paraguai ou atualização Global Data Lab \\
+\hline
+Sistema Prisional (Bloco 5)   & Bienal       & Abertura ou fechamento de estabelecimento penal no distrito \\
+\hline
+Recursos Hídricos (Bloco 6)   & Quinquenal   & Novo mapa SENASA/MADES ou alteração de classificação do SAG \\
+\hline
+Aptidão do Solo (Bloco 7)     & Quinquenal   & Novo mapeamento MAG ou evento de degradação documentado \\
+\hline
+Terra Rural (Bloco 8)         & Anual        & Pesquisa de preços INDERT ou variação $>$20\% no mercado local \\
+\hline
+Mercado Imobiliário (Bloco 9) & Anual        & Variação $>$15\% nos preços médios registrados \\
+\hline
+Cobertura Celular (Bloco 10)  & Bienal       & Novo relatório CONATEL ou lançamento de nova tecnologia (5G) \\
+\hline
+Internet (Bloco 11)           & Bienal       & Novo relatório CONATEL ou implantação de fibra óptica no distrito \\
+\hline
+GSS sub-scores B e D          & Anual        & Mudança de variável componente $>$15\% em relação ao ciclo anterior \\
+\hline
+GSS sub-scores A, C e E       & Quinquenal   & Mudança de variável componente $>$15\% ou revisão da metodologia GSS \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\bigskip
+
+\noindent\textbf{Responsabilidade de atualização:} O mantenedor do projeto deve registrar em controle de versão (arquivo \texttt{CHANGELOG}) a data, o bloco revisado, a fonte utilizada e o delta de pontuação GSS resultante de cada ciclo de atualização. Atualizações que alterem o nível de recomendação de um distrito (de "Sim" para "Com ressalvas" ou vice-versa) devem gerar nova revisão completa da Leitura Executiva do Bloco 1.

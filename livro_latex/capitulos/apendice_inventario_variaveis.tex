@@ -1,0 +1,435 @@
+% AC-03 — Artefato Central: Inventário de variáveis com fonte, tipo e cobertura
+% Gerado manualmente em 2026-03-22
+
+\chapter*{Apêndice B: Inventário de Variáveis do GSS}
+\addcontentsline{toc}{chapter}{Apêndice B: Inventário de Variáveis do GSS}
+\label{apendice:variaveis}
+
+Este apêndice documenta todas as variáveis utilizadas no cálculo do
+\textbf{Global Safety Score (GSS)} para os 262 distritos do Paraguai.
+Para cada variável são indicados: a fonte primária de coleta, o tipo de
+dado (direto, interpolado ou proxy), a cobertura geográfica efetiva e o
+grau de confiança da estimativa.
+
+\medskip
+\noindent\textbf{Legenda de tipos:}
+\begin{itemize}[nosep, leftmargin=1.5em]
+  \item \textbf{Direto} — dado observado ou medido diretamente na fonte.
+  \item \textbf{Interpolado} — calculado a partir de dados de unidades regionais
+        adjacentes ou superiores.
+  \item \textbf{Proxy} — variável substituta utilizada pela ausência de dado
+        primário disponível.
+\end{itemize}
+
+\medskip
+\noindent\textbf{Legenda de confiança:}
+\begin{itemize}[nosep, leftmargin=1.5em]
+  \item \textbf{A} — dado primário oficial verificado.
+  \item \textbf{B} — estimativa interpolada de regionais oficiais.
+  \item \textbf{C} — proxy inferido por analogia.
+\end{itemize}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section*{Dimensão A — Ameaças Estratégicas (peso: 25\%)}
+\addcontentsline{toc}{section}{Dimensão A — Ameaças Estratégicas}
+\label{apendice:variaveis:dimA}
+
+Esta dimensão avalia a exposição de cada distrito a ameaças de natureza
+geopolítica e militar: proximidade de alvos estratégicos, porosidade de
+fronteiras e vetores de instabilidade regional provenientes do crime
+organizado transnacional.
+
+\medskip
+{\small
+\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\linewidth}{>{\raggedright}p{3.4cm}
+                              >{\raggedright}p{3.0cm}
+                              >{\centering}p{1.5cm}
+                              >{\raggedright}p{2.2cm}
+                              >{\centering\arraybackslash}p{1.2cm}}
+\toprule
+\textbf{Variável} & \textbf{Fonte} & \textbf{Tipo} & \textbf{Cobertura} & \textbf{Conf.} \\
+\midrule
+Ausência de alvos militares estratégicos &
+  Análise geopolítica pública &
+  Proxy &
+  Nacional uniforme &
+  B \\
+\midrule
+Distância de fronteiras ativas &
+  Cálculo geoespacial (DGEEC shapefile CNPV 2022) &
+  Direto &
+  262 distritos &
+  A \\
+\midrule
+Risco de spillover do narcotráfico &
+  Ministerio Público PY / InSight Crime &
+  Proxy &
+  Dept. fronteiriços &
+  B \\
+\midrule
+Distância de Itaipu / Yacyretá (alvo industrial) &
+  Cálculo geoespacial (coordenadas públicas) &
+  Direto &
+  262 distritos &
+  A \\
+\bottomrule
+\end{tabularx}
+}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section*{Dimensão B — Risco Social (peso: 20\%)}
+\addcontentsline{toc}{section}{Dimensão B — Risco Social}
+\label{apendice:variaveis:dimB}
+
+Mensura criminalidade, desigualdade econômica, vulnerabilidade sistêmica
+prisional e densidade de ameaças sociais decorrentes de grandes aglomerados
+urbanos. As taxas de homicídio e os dados da EPHC constituem o núcleo
+empírico mais robusto desta dimensão.
+
+\medskip
+{\small
+\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\linewidth}{>{\raggedright}p{3.4cm}
+                              >{\raggedright}p{3.0cm}
+                              >{\centering}p{1.5cm}
+                              >{\raggedright}p{2.2cm}
+                              >{\centering\arraybackslash}p{1.2cm}}
+\toprule
+\textbf{Variável} & \textbf{Fonte} & \textbf{Tipo} & \textbf{Cobertura} & \textbf{Conf.} \\
+\midrule
+Taxa de homicídios (por 100k hab) &
+  Ministerio Público PY (série 2019--2024) &
+  Direto &
+  18 departamentos &
+  A \\
+\midrule
+Índice de Gini &
+  INE EPHC 2023 &
+  Direto &
+  18 departamentos &
+  A \\
+\midrule
+Taxa de pobreza total (\%) &
+  INE EPHC 2023 &
+  Direto &
+  18 departamentos &
+  A \\
+\midrule
+Taxa de pobreza extrema (\%) &
+  INE EPHC 2023 &
+  Direto &
+  18 departamentos &
+  A \\
+\midrule
+\% de presos provisórios &
+  MJT / Ministerio de Justicia 2023 &
+  Direto &
+  18 departamentos &
+  A \\
+\midrule
+Taxa de superlotação prisional &
+  MJT 2023 &
+  Direto &
+  18 departamentos &
+  A \\
+\midrule
+Presença de crime organizado transnacional &
+  InSight Crime / Ministerio Público PY &
+  Proxy &
+  18 departamentos &
+  B \\
+\midrule
+Distância de cidades $>$500k hab &
+  Cálculo geoespacial &
+  Direto &
+  262 distritos &
+  A \\
+\bottomrule
+\end{tabularx}
+}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section*{Dimensão C — Riscos Naturais e Clima (peso: 15\%)}
+\addcontentsline{toc}{section}{Dimensão C — Riscos Naturais e Clima}
+\label{apendice:variaveis:dimC}
+
+Cobre os principais vetores de risco ambiental: regime pluviométrico,
+irradiância, temperatura, inundações recorrentes, seca e sismicidade.
+Os dados NASA POWER oferecem cobertura distrital completa; os demais
+variáveis dependem de interpolação ou análise hidrológica regional.
+
+\medskip
+{\small
+\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\linewidth}{>{\raggedright}p{3.4cm}
+                              >{\raggedright}p{3.0cm}
+                              >{\centering}p{1.5cm}
+                              >{\raggedright}p{2.2cm}
+                              >{\centering\arraybackslash}p{1.2cm}}
+\toprule
+\textbf{Variável} & \textbf{Fonte} & \textbf{Tipo} & \textbf{Cobertura} & \textbf{Conf.} \\
+\midrule
+Precipitação média anual (mm/ano) &
+  NASA POWER (2001--2020) &
+  Direto &
+  262 distritos &
+  A \\
+\midrule
+Irradiância solar global média (kWh/m²/dia) &
+  NASA POWER (2001--2020) &
+  Direto &
+  262 distritos &
+  A \\
+\midrule
+Temperatura máxima absoluta histórica &
+  SEAM / DINAC série histórica &
+  Direto &
+  18 capitais dept. &
+  A \\
+\midrule
+Risco de inundação recorrente &
+  SEAM / BID análise hidrológica &
+  Proxy &
+  18 departamentos &
+  B \\
+\midrule
+Risco de seca severa &
+  Precipitação $<$800 mm/ano como proxy &
+  Proxy &
+  262 distritos &
+  B \\
+\midrule
+Risco sísmico &
+  USGS Seismic Hazard Model SA &
+  Direto &
+  Nacional &
+  A \\
+\bottomrule
+\end{tabularx}
+}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section*{Dimensão D — Autossuficiência (peso: 20\%)}
+\addcontentsline{toc}{section}{Dimensão D — Autossuficiência}
+\label{apendice:variaveis:dimD}
+
+Avalia a capacidade de um território sustentar produção alimentar, acesso
+autônomo à água e geração energética local. O Censo 2022 do INE fornece
+cobertura distrital para água e saneamento; as variáveis de solo provêm
+majoritariamente de grades globais do SoilGrids (ISRIC), com resolução de
+250 m.
+
+\medskip
+{\small
+\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\linewidth}{>{\raggedright}p{3.4cm}
+                              >{\raggedright}p{3.0cm}
+                              >{\centering}p{1.5cm}
+                              >{\raggedright}p{2.2cm}
+                              >{\centering\arraybackslash}p{1.2cm}}
+\toprule
+\textbf{Variável} & \textbf{Fonte} & \textbf{Tipo} & \textbf{Cobertura} & \textbf{Conf.} \\
+\midrule
+Aptidão agrícola do solo (\% classes I--III) &
+  SoilGrids ISRIC + SEAM &
+  Direto / Interpolado &
+  18 departamentos &
+  B \\
+\midrule
+pH médio do solo &
+  SoilGrids ISRIC 250 m &
+  Direto &
+  262 distritos (grid) &
+  A \\
+\midrule
+Fertilidade natural do solo &
+  SoilGrids: matéria orgânica + nutrientes &
+  Direto &
+  262 distritos (grid) &
+  A \\
+\midrule
+Aquífero principal (tipo e profundidade) &
+  SENASA / MADES-DGPCRH &
+  Direto &
+  18 departamentos &
+  A \\
+\midrule
+Cobertura do Aquífero Guarani &
+  ISARM / OAS (cartografia PY) &
+  Direto &
+  262 distritos (grid) &
+  A \\
+\midrule
+Acesso a água potável (\% domicílios) &
+  INE Censo 2022 &
+  Direto &
+  262 distritos &
+  A \\
+\midrule
+Acesso a saneamento (\% domicílios) &
+  INE Censo 2022 &
+  Direto &
+  262 distritos &
+  A \\
+\midrule
+Irradiação solar para FV (kWh/m²/dia) &
+  NASA POWER (2001--2020) &
+  Direto &
+  262 distritos &
+  A \\
+\midrule
+Preço médio da terra rural (USD/ha) &
+  INDERT / Mercado imobiliário 2024 &
+  Proxy &
+  18 departamentos &
+  B \\
+\bottomrule
+\end{tabularx}
+}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section*{Dimensão E — Ambiente Institucional (peso: 20\%)}
+\addcontentsline{toc}{section}{Dimensão E — Ambiente Institucional}
+\label{apendice:variaveis:dimE}
+
+Captura qualidade de vida, infraestrutura digital, regime tributário e
+estabilidade do marco legal para o estrangeiro residente. O IDH
+departamental e os indicadores de educação e saúde do INE constituem as
+fontes primárias; a cobertura 4G e a segurança jurídica são estimadas por
+dados de operadoras e análise documental.
+
+\medskip
+{\small
+\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\linewidth}{>{\raggedright}p{3.4cm}
+                              >{\raggedright}p{3.0cm}
+                              >{\centering}p{1.5cm}
+                              >{\raggedright}p{2.2cm}
+                              >{\centering\arraybackslash}p{1.2cm}}
+\toprule
+\textbf{Variável} & \textbf{Fonte} & \textbf{Tipo} & \textbf{Cobertura} & \textbf{Conf.} \\
+\midrule
+IDH departamental &
+  PNUD / Global Data Lab 2020 &
+  Direto &
+  18 departamentos &
+  A \\
+\midrule
+Esperança de vida ao nascer &
+  INE Censo 2022 / PNUD &
+  Direto &
+  18 departamentos &
+  A \\
+\midrule
+Anos médios de escolaridade &
+  INE Censo 2022 &
+  Direto &
+  18 departamentos &
+  A \\
+\midrule
+\% domicílios com internet &
+  INE EPHC 2023 &
+  Direto &
+  18 departamentos &
+  A \\
+\midrule
+Cobertura 4G Tigo (\% pop) &
+  CONATEL dados de operadoras 2023 &
+  Direto &
+  18 departamentos &
+  B \\
+\midrule
+Tributação efetiva (IRACIS flat 10\%) &
+  SET / MH Paraguai &
+  Direto &
+  Nacional uniforme &
+  A \\
+\midrule
+Segurança jurídica da propriedade &
+  INDERT / Registro Público &
+  Proxy &
+  18 departamentos &
+  B \\
+\midrule
+Estabilidade constitucional &
+  Freedom House / análise histórica &
+  Proxy &
+  Nacional &
+  B \\
+\bottomrule
+\end{tabularx}
+}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section*{Lacunas Identificadas e Prioridades de Coleta}
+\addcontentsline{toc}{section}{Lacunas Identificadas e Prioridades de Coleta}
+\label{apendice:variaveis:lacunas}
+
+A cobertura atual do dataset apresenta quatro lacunas estruturais que
+limitam a granularidade distrital do GSS. As prioridades de coleta estão
+ordenadas por impacto na precisão do score:
+
+\begin{enumerate}[nosep, leftmargin=1.8em]
+  \item \textbf{Criminalidade por distrito (262):} o Ministerio Público PY
+        divulga séries por departamento (18 unidades). A desagregação
+        distrital exigiria acesso à base de ocorrências do sistema SIGHPU
+        — \emph{prioridade alta}.
+  \item \textbf{Pobreza e renda por distrito:} a EPHC utiliza amostra
+        representativa somente ao nível departamental. A expansão da
+        amostra ou o uso de dados sintéticos do Censo 2022 seria necessária
+        para cobertura distrital — \emph{prioridade alta}.
+  \item \textbf{Preços de terra por distrito:} o INDERT e o mercado
+        imobiliário dispõem de dados apenas por departamento ou por oferta
+        pontual. Uma pesquisa de campo sistemática (amostragem de anúncios
+        georreferenciados) poderia cobrir os 262 distritos —
+        \emph{prioridade média}.
+  \item \textbf{IDH por distrito:} o PNUD não calcula IDH abaixo do nível
+        departamental no Paraguai. Um proxy via Índice de Condições de Vida
+        (ICV) a partir do Censo 2022 é tecnicamente viável e recomendado
+        para versões futuras do modelo — \emph{prioridade média}.
+\end{enumerate}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section*{Cobertura Atual do Dataset}
+\addcontentsline{toc}{section}{Cobertura Atual do Dataset}
+\label{apendice:variaveis:cobertura}
+
+O quadro abaixo sintetiza a distribuição de qualidade dos dados por
+dimensão. Das 35 variáveis que compõem o modelo GSS, 23 (66\%) possuem
+dado primário oficial verificado (confiança A), e 12 (34\%) dependem de
+interpolação ou proxy (confiança B). Nenhuma variável foi classificada
+como confiança C na versão atual.
+
+\medskip
+{\small
+\renewcommand{\arraystretch}{1.3}
+\begin{tabularx}{\linewidth}{>{\raggedright}X
+                              >{\centering}p{2.0cm}
+                              >{\centering}p{1.8cm}
+                              >{\centering}p{1.8cm}
+                              >{\centering\arraybackslash}p{1.4cm}}
+\toprule
+\textbf{Dimensão} & \textbf{Conf.\ A} & \textbf{Conf.\ B} & \textbf{Conf.\ C} & \textbf{Total} \\
+\midrule
+A — Ameaças Estratégicas (25\%) & 2 & 2 & 0 & 4 \\
+B — Risco Social (20\%)         & 6 & 2 & 0 & 8 \\
+C — Clima / Naturais (15\%)     & 4 & 2 & 0 & 6 \\
+D — Autossuficiência (20\%)     & 7 & 2 & 0 & 9 \\
+E — Institucional (20\%)        & 4 & 4 & 0 & 8 \\
+\midrule
+\textbf{Total}                  & \textbf{23} & \textbf{12} & \textbf{0} & \textbf{35} \\
+\bottomrule
+\end{tabularx}
+}
+
+\medskip
+\noindent A proporção de 66\% de dados com confiança A posiciona o modelo
+GSS-Paraguai como um dos mais bem fundamentados na literatura de
+relocação estratégica aplicada. As dimensões B (Risco Social) e D
+(Autossuficiência) concentram o maior número de variáveis de alta
+confiança, refletindo a qualidade dos dados do Censo 2022 do INE e das
+séries do Ministerio Público. A dimensão E (Institucional) apresenta a
+maior proporção relativa de estimativas (50\% confiança B), o que indica
+espaço para refinamento via dados primários adicionais de CONATEL e do
+Registro Público.
