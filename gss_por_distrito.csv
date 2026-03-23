@@ -3,38 +3,38 @@ CLAVE,NOME,GSS
 0101,Concepción,5.7
 0102,Belen,6.4
 0103,Horqueta,6.2
-0104,Loreto,7.9
+0104,Loreto,7.1
 0105,San Carlos del Apa,6.0
 0106,San Lazaro,5.8
 0107,Yby Yau,5.4
 0108,Azotey,5.3
 0109,Sargento Jose Felix Lopez,5.6
 0110,San Alfredo,6.4
-0111,Paso Barreto,7.0
+0111,Paso Barreto,7.1
 0112,Arroyito,5.5
-0113,Paso Horqueta,8.0
+0113,Paso Horqueta,7.0
 0114,Itacua,5.8
-0201,San Pedro de Ycuamandiyu,7.7
+0201,San Pedro de Ycuamandiyu,6.4
 0202,Antequera,6.9
 0203,Chore,6.0
 0204,General Elizardo Aquino,6.3
-0205,Itacurubi del Rosario,8.0
+0205,Itacurubi del Rosario,7.0
 0206,Lima,5.7
-0207,Nueva Germania,7.5
+0207,Nueva Germania,7.2
 0208,San Estanislao,6.3
 0209,San Pablo,6.1
-0210,Tacuati,7.8
+0210,Tacuati,7.1
 0211,Union,7.0
 0212,de Diciembre,6.9
-0213,Villa del Rosario,8.0
-0214,General Resquin,8.0
+0213,Villa del Rosario,7.0
+0214,General Resquin,7.0
 0215,Yataity del Norte,6.9
-0216,Guayaibi,7.2
-0217,Capiibary,7.9
+0216,Guayaibi,7.0
+0217,Capiibary,6.8
 0218,Santa Rosa del Aguaray,6.6
 0219,Yrybucua,6.8
 0220,Liberacion,6.3
-0221,San Vicente Pancholo,8.3
+0221,San Vicente Pancholo,7.0
 0222,San Jose del Rosario,6.9
 0301,Caacupe,7.2
 0302,Altos,7.0
@@ -52,21 +52,21 @@ CLAVE,NOME,GSS
 0314,Piribebuy,7.3
 0315,Primero de Marzo,7.3
 0316,San Bernardino,6.7
-0317,San Jose de los Arroyos (Caaguazú),6.3
-0318,Tobati,7.2
+0317,Santa Elena,7.1
+0318,Tobati,6.8
 0319,Valenzuela,6.4
 0320,Primero de Marzo,6.4
 0401,Villarrica,6.5
 0402,Borja,6.8
 0403,Capitan Mauricio Jose Troche,7.3
 0404,Coronel Martinez,5.2
-0405,Felix Perez Cardozo,7.4
+0405,Felix Perez Cardozo,6.9
 0406,General Eugenio A Garay,6.3
-0407,Independencia,7.7
+0407,Independencia,6.8
 0408,Itape,6.6
-0409,Tavarai,8.3
+0409,Iturbe,7.0
 0410,Jose Fassardi,7.0
-0411,Yataity del Guaira,7.3
+0411,Mbocayaty del Guaira,6.8
 0412,Natalicio Talavera,6.3
 0413,Numi,7.6
 0414,San Salvador,5.8
@@ -77,50 +77,50 @@ CLAVE,NOME,GSS
 0501,Coronel Oviedo,6.3
 0502,Caaguazu,6.8
 0503,Carayao,6.7
-0504,Doctor Cecilio Baez,7.3
-0505,San Joaquin,6.2
-0506,Doctor Juan Manuel Frutos,7.7
+0504,Doctor Cecilio Baez,7.0
+0505,Santa Rosa del Mbutuy,5.8
+0506,Doctor Juan Manuel Frutos,7.0
 0507,Repatriacion,6.7
-0508,Nueva Londres,7.2
+0508,Nueva Londres,7.0
 0509,San Joaquin (Norte),7.1
-0510,San Jose de los Arroyos,8.6
+0510,San Jose de los Arroyos (Caaguazú),6.3
 0511,Yhu,6.1
 0512,Doctor Eulogio Estigarribia,6.9
-0513,RI Tres Corrales,7.1
+0513,RI Tres Corrales,7.3
 0514,Raul Arsenio Oviedo,6.5
 0515,Jose Domingo Ocampos,6.4
-0516,Mariscal Francisco Solano Lopez,7.7
+0516,Mariscal Francisco Solano Lopez,7.1
 0517,La Pastora,7.0
 0518,Tres de Febrero,5.9
-0519,Simon Bolivar,7.3
+0519,Simon Bolivar,7.0
 0520,Vaqueria,5.9
 0521,Tembiapora,6.5
-0522,Zanja Pyta,7.2
+0522,Nueva Toledo,6.1
 0601,Caazapa,7.0
 0602,Abai,7.4
 0603,Buena Vista,7.1
 0604,Dr Moises S Bertoni,7.6
-0605,General Higinio Morinigo,7.1
-0606,Maciel,7.4
+0605,General Higinio Morinigo,7.0
+0606,Maciel,7.0
 0607,San Juan Nepomuceno,5.7
 0608,Tavai,7.4
-0609,Fulgencio Yegros,7.7
+0609,Fulgencio Yegros,7.0
 0610,Yuty,6.9
 0611,3 de Mayo,7.2
 0701,Encarnación,6.2
 0702,Bella Vista,5.9
 0703,Cambreta,5.9
 0704,Capitan Meza,5.8
-0705,Capitan Miranda,5.2
-0706,Nueva Alborada,7.4
+0705,Capitan Miranda,7.0
+0706,Nueva Alborada,6.9
 0707,Carmen del Parana,6.6
-0708,Coronel Bogado,7.0
+0708,Coronel Bogado,7.4
 0709,Carlos Antonio Lopez,6.2
-0710,Natalio,7.7
+0710,Natalio,6.9
 0711,Fram,8.9
 0712,General Artigas,8.8
 0713,General Delgado,7.4
-0714,Hohenau,7.1
+0714,Hohenau,7.7
 0715,Jesus,6.3
 0716,Jose Leandro Oviedo,6.6
 0717,Obligado,6.8
@@ -130,50 +130,50 @@ CLAVE,NOME,GSS
 0721,San Rafael del Parana,7.0
 0722,Trinidad,6.9
 0723,Edelira,6.6
-0724,Tomas Romero Pereira,7.3
-0725,Alto Vera,8.0
-0726,La Paz,5.4
-0727,Yatytay,7.5
+0724,Tomas Romero Pereira,7.2
+0725,Alto Vera,6.8
+0726,La Paz,7.1
+0727,Yatytay,7.0
 0728,San Juan del Parana,5.7
 0729,Pirapo,5.5
-0730,Itapua Poty,8.1
+0730,Itapua Poty,7.1
 0801,San Juan Bautista,7.4
-0802,Ayolas,7.3
+0802,Ayolas,6.9
 0803,San Ignacio,6.7
-0804,San Miguel,7.2
-0805,San Patricio,7.7
+0804,San Miguel,7.0
+0805,San Patricio,7.0
 0806,Santa Maria,6.1
-0807,Santa Rosa,7.1
+0807,Santa Rosa,6.9
 0808,Santiago,6.2
 0809,Villa Florida,7.3
 0810,Yabebyry,7.3
 0901,Paraguari,6.7
-0902,Acahay,8.1
+0902,Acahay,6.8
 0903,Caapucu,6.5
-0904,General Bernardino Caballero,5.9
-0905,Carapegua,7.0
-0906,Escobar,7.6
+0904,Caballero,6.4
+0905,Carapegua,6.5
+0906,Escobar,6.9
 0907,La Colmena,5.8
 0908,Mbuyapey,7.1
 0909,Pirayu,6.2
-0910,Yaguarun,8.5
-0911,Quyquyho,7.3
-0912,San Roque Gonzalez,7.9
-0913,Sapucai,7.4
+0910,Quiindy,7.0
+0911,Quyquyho,7.2
+0912,San Roque Gonzalez,7.0
+0913,Sapucai,7.1
 0914,Tebicuary-Mi,7.2
 0915,Yaguarón,7.1
 0916,Ybycui,6.0
 0917,Ybytymi,7.6
 0918,Maria Antonia,7.5
 1001,Ciudad del Este,5.8
-1002,Presidente Franco,7.7
+1002,Presidente Franco,5.5
 1003,Domingo Martinez de Irala,7.9
 1004,Juan Leon Mallorquin,6.3
 1005,Hernandarias,8.0
 1006,Itakyry,7.2
 1007,Juan Emilio OLeary,6.5
 1008,Nacunday,6.4
-1009,Yguazu,5.4
+1009,Yguazu,7.1
 1010,Los Cedrales,7.0
 1011,Minga Guazu,6.0
 1012,San Cristobal,7.5
@@ -184,11 +184,11 @@ CLAVE,NOME,GSS
 1017,Mbaracayu,6.6
 1018,San Alberto,8.0
 1019,Iruna,7.1
-1020,Santa Fe del Parana,7.0
-1021,Tavapy,7.3
+1020,Santa Fe del Parana,7.2
+1021,Tavapy,7.0
 1022,Doctor Raul Pena,7.1
 1101,Aregua,5.9
-1102,Capiata,7.1
+1102,Capiata,5.5
 1103,Fernando de la Mora,6.9
 1104,Guarambare,6.4
 1105,Ita,6.0
@@ -222,17 +222,17 @@ CLAVE,NOME,GSS
 1214,Villa Franca,6.7
 1215,Villa Oliva,6.8
 1216,Villalbin,6.0
-1301,Pedro Juan Caballero,7.8
+1301,Pedro Juan Caballero,5.3
 1302,Bella Vista Norte,6.2
 1303,Capitan Bado,7.1
 1304,Zanja Pyta,7.1
 1305,Karapai,6.9
 1306,Cerro Cora,7.6
 1401,Salto del Guaira,6.3
-1402,General Caballero Alvarez,6.3
+1402,Corpus Christi,7.0
 1403,Curuguaty,6.8
 1404,Villa Ygatimi,7.0
-1405,Itanara (Dist. 1405),7.3
+1405,Itanara,6.6
 1406,Ypejhu,7.5
 1407,Francisco Caballero Alvarez,7.2
 1408,Katuete,7.5
@@ -243,13 +243,13 @@ CLAVE,NOME,GSS
 1413,Yby Pyta,6.5
 1414,Maracana,7.6
 1415,Puerto Adela,6.7
-1416,Laurel (Dist. 1416),7.3
-1502,Benjamin Aceval,8.2
+1416,Laurel,6.5
+1502,Benjamin Aceval,7.5
 1503,Puerto Pinasco,7.4
 1504,Villa Hayes,6.7
 1505,Nanawa,7.2
-1506,Jose Falcon,7.2
-1507,Boqueron,7.7
+1506,Jose Falcon,7.5
+1507,Teniente Irala Fernandez,6.7
 1508,Teniente Esteban Martinez,6.3
 1509,General Jose Maria Bruguez,7.4
 1510,Campo Aceval,7.7
