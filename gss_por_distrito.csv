@@ -47,6 +47,7 @@ CLAVE,NOME,GSS
 0319,Valenzuela,6.4
 0320,Primero de Marzo,6.4
 0401,Villarrica,6.5
+0402,Borja,6.8
 0404,Coronel Martinez,5.2
 0405,Felix Perez Cardozo,7.4
 0407,Independencia,7.7
@@ -56,9 +57,7 @@ CLAVE,NOME,GSS
 0411,Yataity del Guaira,7.3
 0412,Natalicio Talavera,6.3
 0413,Numi,7.6
-0414,Borja,7.6
 0417,Paso Yobai,6.0
-0418,Tebicuary mi,7.4
 0501,Coronel Oviedo,6.3
 0502,Mariscal Francisco Solano Lopez,7.7
 0503,RI Tres Corrales,7.1
@@ -76,6 +75,7 @@ CLAVE,NOME,GSS
 0520,Ybyrarovana,5.7
 0601,Caazapa,7.0
 0602,Abai,7.4
+0603,Buena Vista,7.1
 0605,General Higinio Morinigo,7.1
 0606,Maciel,7.4
 0607,San Juan Nepomuceno,5.7
@@ -110,7 +110,7 @@ CLAVE,NOME,GSS
 0728,San Juan del Parana,5.7
 0730,Itapua Poty,8.1
 0801,San Juan Bautista,7.4
-0802,Yabebyry,7.2
+0802,Ayolas,7.3
 0803,San Ignacio,6.7
 0804,San Miguel,7.2
 0805,San Patricio,7.7
@@ -118,6 +118,7 @@ CLAVE,NOME,GSS
 0807,Santa Rosa,7.1
 0808,Santiago,6.2
 0809,Villa Florida,7.3
+0810,Yabebyry,7.3
 0901,Paraguari,6.7
 0902,Acahay,8.1
 0903,Caapucu,6.5
@@ -131,6 +132,7 @@ CLAVE,NOME,GSS
 0911,Quyquyho,7.3
 0912,San Roque Gonzalez,7.9
 0913,Sapucai,7.4
+0914,Tebicuary-Mi,7.2
 0915,Yaguarón,7.1
 0916,Ybycui,6.0
 1001,Ciudad del Este,5.8
@@ -151,6 +153,7 @@ CLAVE,NOME,GSS
 1016,Minga Pora,7.2
 1017,Mbaracayu,6.6
 1018,San Alberto,8.0
+1019,Iruna,7.1
 1020,Santa Fe del Parana,7.0
 1021,Tavapy,7.3
 1101,Aregua,5.9
@@ -180,7 +183,7 @@ CLAVE,NOME,GSS
 1206,Tacuaras,6.3
 1207,Humaita,7.9
 1208,Mayor Martinez,7.3
-1210,Laureles,5.5
+1209,Laureles,7.3
 1211,Pedro Juan Caballero,7.8
 1212,San Juan del Neembucu,7.7
 1214,Villa Franca,6.7
