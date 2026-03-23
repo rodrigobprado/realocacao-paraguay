@@ -26,21 +26,22 @@ CLAVE,NOME,GSS
 0215,Yataity del Norte,6.9
 0216,Liberacion,6.3
 0217,Capiibary,7.9
-0218,Karapai,6.8
 0219,Yrybucua,6.8
 0301,Caacupe,7.2
 0302,Altos,7.0
 0303,Arroyos y Esteros,6.6
 0304,Atyra,7.0
-0305,Mbocayaty del Yhaguy,6.0
+0305,Caraguatay,8.0
 0306,Emboscada,6.8
 0307,Eusebio Ayala,8.0
 0308,Isla Pucu,6.1
 0309,Itacurubi de la Cordillera,6.5
 0310,Juan de Mena,6.4
 0311,Loma Grande,6.7
+0312,Mbocayaty del Yhaguy,7.1
 0313,Nueva Colombia,6.4
 0314,Piribebuy,7.3
+0315,Primero de Marzo,7.3
 0316,San Bernardino,6.7
 0317,San Jose de los Arroyos (Caaguazú),6.3
 0318,Tobati,7.2
@@ -48,6 +49,7 @@ CLAVE,NOME,GSS
 0320,Primero de Marzo,6.4
 0401,Villarrica,6.5
 0402,Borja,6.8
+0403,Capitan Mauricio Jose Troche,7.3
 0404,Coronel Martinez,5.2
 0405,Felix Perez Cardozo,7.4
 0407,Independencia,7.7
@@ -57,6 +59,7 @@ CLAVE,NOME,GSS
 0411,Yataity del Guaira,7.3
 0412,Natalicio Talavera,6.3
 0413,Numi,7.6
+0415,Yataity,7.4
 0417,Paso Yobai,6.0
 0501,Coronel Oviedo,6.3
 0502,Mariscal Francisco Solano Lopez,7.7
@@ -66,6 +69,7 @@ CLAVE,NOME,GSS
 0506,Tres de Febrero,5.9
 0507,Repatriacion,6.7
 0508,Nueva Londres,7.2
+0509,San Joaquin (Norte),7.1
 0510,San Jose de los Arroyos,8.6
 0511,Yhu,6.1
 0512,Tembiapora,6.5
@@ -73,24 +77,28 @@ CLAVE,NOME,GSS
 0517,La Pastora,7.0
 0519,Simon Bolivar,7.3
 0520,Ybyrarovana,5.7
+0522,Zanja Pyta,7.2
 0601,Caazapa,7.0
 0602,Abai,7.4
 0603,Buena Vista,7.1
+0604,Dr Moises S Bertoni,7.6
 0605,General Higinio Morinigo,7.1
 0606,Maciel,7.4
 0607,San Juan Nepomuceno,5.7
+0608,Tavai,7.4
 0609,Fulgencio Yegros,7.7
 0610,Yuty,6.9
 0701,Encarnación,6.2
 0702,Bella Vista,5.9
 0703,Cambreta,5.9
 0704,Pirapo,5.5
-0705,Fram,8.9
+0705,Capitan Miranda,5.2
 0706,Nueva Alborada,7.4
 0707,Carmen del Parana,6.6
 0708,Coronel Bogado,7.0
 0709,Carlos Antonio Lopez,6.2
 0710,Natalio,7.7
+0711,Fram,8.9
 0712,General Artigas,8.8
 0713,General Delgado,7.4
 0714,Hohenau,7.1
@@ -136,6 +144,7 @@ CLAVE,NOME,GSS
 0915,Yaguarón,7.1
 0916,Ybycui,6.0
 0917,Ybytymi,7.6
+0918,Maria Antonia,7.5
 1001,Ciudad del Este,5.8
 1002,Presidente Franco,7.7
 1003,Domingo Martinez de Irala,7.9
@@ -157,6 +166,7 @@ CLAVE,NOME,GSS
 1019,Iruna,7.1
 1020,Santa Fe del Parana,7.0
 1021,Tavapy,7.3
+1022,Doctor Raul Pena,7.1
 1101,Aregua,5.9
 1102,Capiata,7.1
 1103,Fernando de la Mora,6.9
@@ -181,22 +191,24 @@ CLAVE,NOME,GSS
 1203,Cerrito,7.1
 1204,Villalbin,6.0
 1205,General Diaz,6.5
-1206,Tacuaras,6.3
 1207,Humaita,7.9
 1208,Mayor Martinez,7.3
 1209,Laureles,7.3
 1211,Pedro Juan Caballero,7.8
 1212,San Juan del Neembucu,7.7
+1213,Tacuaras,7.1
 1214,Villa Franca,6.7
 1215,Villa Oliva,6.8
 1301,Zanja Pyta,7.7
 1302,Bella Vista Norte,6.2
 1303,Capitan Bado,7.1
+1305,Karapai,6.9
 1306,Cerro Cora,7.6
 1401,Salto del Guaira,6.3
 1402,General Caballero Alvarez,6.3
 1403,Curuguaty,6.8
 1404,Villa Ygatimi,7.0
+1405,Itanara (Dist. 1405),7.3
 1406,Ypejhu,7.5
 1407,Francisco Caballero Alvarez,7.2
 1408,Nueva Esperanza,8.1
@@ -207,14 +219,17 @@ CLAVE,NOME,GSS
 1502,Benjamin Aceval,8.2
 1503,Puerto Pinasco,7.4
 1504,Villa Hayes,6.7
+1505,Nanawa,7.2
 1506,Jose Falcon,7.2
 1507,Boqueron,7.7
 1508,Teniente Esteban Martinez,6.3
+1509,General Jose Maria Bruguez,7.4
 1510,Campo Aceval,7.7
 1511,Nueva Asunción,6.1
 1602,Mariscal Estigarribia,6.7
 1604,Filadelfia,7.3
 1605,Loma Plata,6.1
+1606,Boqueron (Distrito),7.4
 1701,Fuerte Olimpo,8.1
 1702,Puerto Casado,7.4
 1704,Bahia Negra,6.5
