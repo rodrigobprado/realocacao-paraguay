@@ -68,82 +68,156 @@
 \newcommand{\capabolivro}{%
   \thispagestyle{empty}%
   \begin{tikzpicture}[remember picture, overlay]
-    %% Fundo navy
+    %% === FUNDO NAVY ===
     \fill[navyblue] (current page.south west) rectangle (current page.north east);
-    %% Faixa dourada superior
+
+    %% === HEATMAP GSS — elemento visual principal (lado direito, semi-transparente) ===
+    \node[anchor=east, opacity=0.40, inner sep=0pt]
+      at ([xshift=1.0cm, yshift=-8.5cm]current page.north east)
+      {\includegraphics[width=10.5cm]{mapas/heatmap_gss_distrito.png}};
+
+    %% === FAIXAS DOURADAS SUPERIOR E INFERIOR ===
     \fill[goldcolor]
       (current page.north west)
       rectangle ([yshift=-0.85cm]current page.north east);
-    %% Faixa dourada inferior
     \fill[goldcolor]
       ([yshift=0.85cm]current page.south west)
       rectangle (current page.south east);
-    %% Linhas finas abaixo da faixa superior e acima da inferior
+
+    %% Linhas finas de acento
     \draw[goldcolor!40!navyblue, line width=0.25pt]
       ([yshift=-1.05cm]current page.north west) --
       ([yshift=-1.05cm]current page.north east);
     \draw[goldcolor!40!navyblue, line width=0.25pt]
       ([yshift=1.05cm]current page.south west) --
       ([yshift=1.05cm]current page.south east);
-    %% Mapa do Paraguai (marca d'água, canto inferior direito)
-    \node[anchor=south east, opacity=0.09, inner sep=0pt]
-      at ([xshift=0.5cm, yshift=0.9cm]current page.south east)
-      {\includegraphics[width=10cm]{mapas/mapa_dept_1.pdf}};
-    %% Barra vertical dourada (acento gráfico lateral)
+
+    %% === BARRA VERTICAL DOURADA (acento lateral, altura estendida) ===
     \fill[goldcolor]
       ([xshift=1.15cm, yshift=-1.6cm]current page.north west)
-      rectangle ([xshift=1.42cm, yshift=-10.2cm]current page.north west);
-    %% Label dentro da faixa dourada superior — nome da série
+      rectangle ([xshift=1.42cm, yshift=-14.0cm]current page.north west);
+
+    %% === NOME DA SÉRIE (faixa superior) ===
     \node[anchor=west, color=navyblue,
           font=\fontsize{6}{7.5}\selectfont\sffamily\bfseries,
           inner sep=0pt]
       at ([xshift=1.4cm, yshift=-0.44cm]current page.north west)
-      {RELOCA\c{C}\~AO ESTRAT\'EGICA NA AM\'ERICA DO SUL\enspace$\cdot$\enspace VOLUME I};
-    %% Título principal — nome do país
+      {RELOCA\c{C}\~AO ESTRAT\'EGICA NA AM\'ERICA DO SUL: VOLUME PARAGUAI};
+
+    %% === TÍTULO PRINCIPAL ===
     \node[anchor=north west, text width=10.8cm, align=left,
           color=white,
-          font=\fontsize{38}{42}\selectfont\sffamily\bfseries,
+          font=\fontsize{42}{46}\selectfont\sffamily\bfseries,
           inner sep=0pt]
       at ([xshift=1.8cm, yshift=-1.9cm]current page.north west)
       {PARAGUAI};
-    %% Subtítulo imediato — tipo do guia
-    \node[anchor=north west, text width=10.8cm, align=left,
+
+    %% === SUBTÍTULO ===
+    \node[anchor=north west, text width=9.5cm, align=left,
           color=goldcolor,
-          font=\fontsize{14}{18}\selectfont\sffamily,
+          font=\fontsize{13.5}{17}\selectfont\sffamily\bfseries,
           inner sep=0pt]
-      at ([xshift=1.8cm, yshift=-5.2cm]current page.north west)
+      at ([xshift=1.8cm, yshift=-4.5cm]current page.north west)
       {Guia de Zonas Seguras};
-    %% Linha separadora
-    \draw[goldcolor, line width=0.5pt]
-      ([xshift=1.8cm, yshift=-7.0cm]current page.north west) --
-      ([xshift=12.6cm, yshift=-7.0cm]current page.north west);
-    %% Descrição do conteúdo
-    \node[anchor=north west, text width=10.5cm, align=left,
-          color=goldcolor!85!white,
-          font=\fontsize{9.5}{14}\selectfont\sffamily,
+
+    %% === TAGLINE ===
+    \node[anchor=north west, text width=9.0cm, align=left,
+          color=white!75!navyblue,
+          font=\fontsize{8.5}{13}\selectfont\sffamily\itshape,
           inner sep=0pt]
-      at ([xshift=1.8cm, yshift=-7.35cm]current page.north west)
-      {An\'alise estrat\'egica dos 262 distritos do Paraguai};
-    %% Tags de metodologia/dados
-    \node[anchor=north west, text width=10.5cm, align=left,
-          color=white!45!navyblue,
-          font=\fontsize{7}{11}\selectfont\sffamily,
+      at ([xshift=1.8cm, yshift=-5.6cm]current page.north west)
+      {Onde viver, investir e prosperar\\no cora\c{c}\~ao da Am\'erica do Sul};
+
+    %% === LINHA SEPARADORA ===
+    \draw[goldcolor!55!white, line width=0.45pt]
+      ([xshift=1.8cm, yshift=-7.3cm]current page.north west) --
+      ([xshift=7.8cm, yshift=-7.3cm]current page.north west);
+
+    %% === BADGES ESTATÍSTICOS ===
+    %% Badge 1 — 262 DISTRITOS
+    \node[
+      fill=white!8!navyblue,
+      draw=goldcolor!35!navyblue, line width=0.3pt,
+      rounded corners=3.5pt,
+      minimum width=2.55cm, minimum height=1.6cm,
+      anchor=north west, inner sep=0pt
+    ] (b1) at ([xshift=1.8cm, yshift=-7.7cm]current page.north west) {};
+    \node[color=goldcolor,
+          font=\fontsize{20}{22}\selectfont\sffamily\bfseries,
+          anchor=north, inner sep=0pt]
+      at ([yshift=-0.24cm]b1.north) {262};
+    \node[color=white!60!navyblue,
+          font=\fontsize{5.5}{7}\selectfont\sffamily\bfseries,
+          anchor=south, inner sep=0pt]
+      at ([yshift=0.22cm]b1.south) {DISTRITOS};
+
+    %% Badge 2 — 18 DEPARTAMENTOS
+    \node[
+      fill=white!8!navyblue,
+      draw=goldcolor!35!navyblue, line width=0.3pt,
+      rounded corners=3.5pt,
+      minimum width=2.55cm, minimum height=1.6cm,
+      anchor=north west, inner sep=0pt
+    ] (b2) at ([xshift=4.55cm, yshift=-7.7cm]current page.north west) {};
+    \node[color=goldcolor,
+          font=\fontsize{20}{22}\selectfont\sffamily\bfseries,
+          anchor=north, inner sep=0pt]
+      at ([yshift=-0.24cm]b2.north) {18};
+    \node[color=white!60!navyblue,
+          font=\fontsize{5.5}{7}\selectfont\sffamily\bfseries,
+          anchor=south, inner sep=0pt]
+      at ([yshift=0.22cm]b2.south) {DEPARTAMENTOS};
+
+    %% Badge 3 — 7 MAPAS TEMÁTICOS
+    \node[
+      fill=white!8!navyblue,
+      draw=goldcolor!35!navyblue, line width=0.3pt,
+      rounded corners=3.5pt,
+      minimum width=2.55cm, minimum height=1.6cm,
+      anchor=north west, inner sep=0pt
+    ] (b3) at ([xshift=7.3cm, yshift=-7.7cm]current page.north west) {};
+    \node[color=goldcolor,
+          font=\fontsize{20}{22}\selectfont\sffamily\bfseries,
+          anchor=north, inner sep=0pt]
+      at ([yshift=-0.24cm]b3.north) {7};
+    \node[color=white!60!navyblue,
+          font=\fontsize{5.5}{7}\selectfont\sffamily\bfseries,
+          anchor=south, inner sep=0pt]
+      at ([yshift=0.22cm]b3.south) {MAPAS TEM\'ATICOS};
+
+    %% === DESCRIÇÃO DO CONTEÚDO ===
+    \node[anchor=north west, text width=9.5cm, align=left,
+          color=goldcolor!80!white,
+          font=\fontsize{9}{13}\selectfont\sffamily,
           inner sep=0pt]
-      at ([xshift=1.8cm, yshift=-8.65cm]current page.north west)
-      {Baseado em \textit{Strategic Relocation} de Joel Skousen $\cdot$ Censo 2022\\
-       NASA POWER $\cdot$ CONATEL $\cdot$ INDERT $\cdot$ DGEEC};
-    %% Nome do autor (dentro da faixa inferior dourada)
+      at ([xshift=1.8cm, yshift=-9.6cm]current page.north west)
+      {An\'alise de cada distrito: qualidade de vida,\\
+       risco social, autossufici\^encia e potencial\\
+       de investimento.};
+
+    %% === FONTES E METODOLOGIA ===
+    \node[anchor=north west, text width=9.5cm, align=left,
+          color=white!38!navyblue,
+          font=\fontsize{6.5}{10}\selectfont\sffamily,
+          inner sep=0pt]
+      at ([xshift=1.8cm, yshift=-11.5cm]current page.north west)
+      {Metodologia GSS (Skousen) $\cdot$ Censo DGEEC 2022\\
+       NASA POWER $\cdot$ CONATEL $\cdot$ INDERT $\cdot$ DGM};
+
+    %% === AUTOR (faixa inferior) ===
     \node[anchor=south west, color=navyblue,
           font=\fontsize{10}{12}\selectfont\sffamily\bfseries,
           inner sep=0pt]
       at ([xshift=1.4cm, yshift=0.18cm]current page.south west)
       {Rodrigo Braga Prado};
-    %% Edição na faixa inferior direita
+
+    %% === EDIÇÃO (faixa inferior direita) ===
     \node[anchor=south east, color=navyblue,
           font=\fontsize{7}{9}\selectfont\sffamily,
           inner sep=0pt]
       at ([xshift=-1.0cm, yshift=0.22cm]current page.south east)
       {1\textordfeminine\ Edi\c{c}\~ao\enspace$\cdot$\enspace Revis\~ao 2026};
+
   \end{tikzpicture}%
   \clearpage
 }
@@ -156,7 +230,7 @@
   \vspace*{3.5cm}
   \begin{center}
     {\small\sffamily\bfseries\color{darkgray}
-      RELOCA\c{C}\~AO ESTRAT\'EGICA NA AM\'ERICA DO SUL\enspace$\cdot$\enspace VOLUME I}\\[1.2em]
+      RELOCA\c{C}\~AO ESTRAT\'EGICA NA AM\'ERICA DO SUL: VOLUME PARAGUAI}\\[1.2em]
     {\fontsize{28}{32}\selectfont\sffamily\bfseries Paraguai}\\[0.4em]
     {\large\sffamily\color{goldcolor} Guia de Zonas Seguras}\\[2em]
     {\color{goldcolor}\rule{5cm}{0.7pt}}\\[2em]
@@ -192,13 +266,13 @@
 \newcommand{\mapaparaguai}[2]{%
   \vspace{-0.5em}%
   \begin{center}
-    \includegraphics[width=0.88\textwidth, height=0.82\textheight, keepaspectratio]{mapas/mapa_dept_#1.pdf}%
+    \includegraphics[width=0.88\textwidth, height=0.82\textheight, keepaspectratio]{mapas/mapa_dept_#1.png}%
   \end{center}%
 }
 
 % --- MAPA DO DISTRITO (estilo CNPV2022) ---
 \newcommand{\mapaDistrito}[1]{%
-    \includegraphics[width=0.33\textwidth]{mapas/dist_#1.pdf}%
+    \includegraphics[width=0.33\textwidth]{mapas/dist_#1.png}%
 }
 
 \newcommand{\secaoDiagnostico}[3]{%

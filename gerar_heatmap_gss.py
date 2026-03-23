@@ -136,7 +136,7 @@ def extrair_idh_tex():
 
 # ── Gerar mapa heatmap GSS por distrito ──────────────────────────────────────
 def gerar_heatmap_distrito(gdf_dist, gdf_dept, gss_dict, titulo, fname):
-    fig, ax = plt.subplots(figsize=(9, 10), dpi=180)
+    fig, ax = plt.subplots(figsize=(9, 10), dpi=150)
     fig.patch.set_facecolor('none')
     ax.set_facecolor('none')
 
@@ -177,17 +177,11 @@ def gerar_heatmap_distrito(gdf_dist, gdf_dept, gss_dict, titulo, fname):
     cbar.ax.tick_params(labelsize=7, colors=NAVY)
     cbar.outline.set_edgecolor(NAVY)
 
-    # Legenda de referência
-    ax.text(0.01, 0.03,
-            f"Distritos com GSS: {com_gss.shape[0]}/{gdf.shape[0]}\n"
-            f"Média: {com_gss['GSS'].mean():.2f}  |  Mín: {com_gss['GSS'].min():.1f}  |  Máx: {com_gss['GSS'].max():.1f}",
-            transform=ax.transAxes, fontsize=6, color=NAVY,
-            fontfamily='DejaVu Sans', va='bottom',
-            bbox=dict(boxstyle='round,pad=0.3', facecolor='white', alpha=0.7, edgecolor=NAVY))
+    # Estatísticas movidas para legenda LaTeX; não embutir no gráfico
 
     out_path = os.path.join(OUT, fname)
-    fig.savefig(out_path, format='pdf', bbox_inches='tight',
-                facecolor='none', transparent=True, dpi=180)
+    fig.savefig(out_path, format='png', bbox_inches='tight',
+                dpi=150)
     plt.close(fig)
     print(f"  [OK] {out_path}")
     return com_gss.shape[0]
@@ -203,7 +197,7 @@ def gerar_heatmap_departamento(gdf_dist, gdf_dept, gss_dict, titulo, fname):
 
     gdf_d = gdf_dept.merge(dept_gss, on='DPTO', how='left')
 
-    fig, ax = plt.subplots(figsize=(9, 10), dpi=180)
+    fig, ax = plt.subplots(figsize=(9, 10), dpi=150)
     fig.patch.set_facecolor('none')
     ax.set_facecolor('none')
 
@@ -242,8 +236,8 @@ def gerar_heatmap_departamento(gdf_dist, gdf_dept, gss_dict, titulo, fname):
     cbar.outline.set_edgecolor(NAVY)
 
     out_path = os.path.join(OUT, fname)
-    fig.savefig(out_path, format='pdf', bbox_inches='tight',
-                facecolor='none', transparent=True, dpi=180)
+    fig.savefig(out_path, format='png', bbox_inches='tight',
+                dpi=150)
     plt.close(fig)
     print(f"  [OK] {out_path}")
 
@@ -252,7 +246,7 @@ def gerar_mapa_idh(gdf_dept, idh_dict, fname):
     gdf = gdf_dept.copy()
     gdf['IDH'] = gdf['DPTO'].map(idh_dict)
 
-    fig, ax = plt.subplots(figsize=(9, 10), dpi=180)
+    fig, ax = plt.subplots(figsize=(9, 10), dpi=150)
     fig.patch.set_facecolor('none')
     ax.set_facecolor('none')
 
@@ -291,8 +285,8 @@ def gerar_mapa_idh(gdf_dept, idh_dict, fname):
     cbar.outline.set_edgecolor(NAVY)
 
     out_path = os.path.join(OUT, fname)
-    fig.savefig(out_path, format='pdf', bbox_inches='tight',
-                facecolor='none', transparent=True, dpi=180)
+    fig.savefig(out_path, format='png', bbox_inches='tight',
+                dpi=150)
     plt.close(fig)
     print(f"  [OK] {out_path}")
 
@@ -306,7 +300,7 @@ def gerar_mapa_risco_social(gdf_dist, gdf_dept, subscores_dict, fname):
         lambda c: 10.0 - subscores_dict[c]['B'] if c in subscores_dict else None
     )
 
-    fig, ax = plt.subplots(figsize=(9, 10), dpi=180)
+    fig, ax = plt.subplots(figsize=(9, 10), dpi=150)
     fig.patch.set_facecolor('none')
     ax.set_facecolor('none')
 
@@ -339,8 +333,8 @@ def gerar_mapa_risco_social(gdf_dist, gdf_dept, subscores_dict, fname):
     cbar.outline.set_edgecolor(NAVY)
 
     out_path = os.path.join(OUT, fname)
-    fig.savefig(out_path, format='pdf', bbox_inches='tight',
-                facecolor='none', transparent=True, dpi=180)
+    fig.savefig(out_path, format='png', bbox_inches='tight',
+                dpi=150)
     plt.close(fig)
     print(f"  [OK] {out_path}")
 
@@ -352,7 +346,7 @@ def gerar_mapa_autossuficiencia(gdf_dist, gdf_dept, subscores_dict, fname):
         lambda c: subscores_dict[c]['D'] if c in subscores_dict else None
     )
 
-    fig, ax = plt.subplots(figsize=(9, 10), dpi=180)
+    fig, ax = plt.subplots(figsize=(9, 10), dpi=150)
     fig.patch.set_facecolor('none')
     ax.set_facecolor('none')
 
@@ -385,8 +379,8 @@ def gerar_mapa_autossuficiencia(gdf_dist, gdf_dept, subscores_dict, fname):
     cbar.outline.set_edgecolor(NAVY)
 
     out_path = os.path.join(OUT, fname)
-    fig.savefig(out_path, format='pdf', bbox_inches='tight',
-                facecolor='none', transparent=True, dpi=180)
+    fig.savefig(out_path, format='png', bbox_inches='tight',
+                dpi=150)
     plt.close(fig)
     print(f"  [OK] {out_path}")
 
@@ -413,24 +407,24 @@ def main():
     n1 = gerar_heatmap_distrito(
         gdf_dist, gdf_dept, gss_dict,
         'Heatmap GSS por Distrito --- Paraguai',
-        'heatmap_gss_distrito.pdf'
+        'heatmap_gss_distrito.png'
     )
     print(f"  → {n1} distritos com dados")
 
     gerar_heatmap_departamento(
         gdf_dist, gdf_dept, gss_dict,
         'Heatmap GSS Médio por Departamento --- Paraguai',
-        'heatmap_gss_departamento.pdf'
+        'heatmap_gss_departamento.png'
     )
 
-    gerar_mapa_idh(gdf_dept, idh_dict, 'mapa_idh_departamento.pdf')
+    gerar_mapa_idh(gdf_dept, idh_dict, 'mapa_idh_departamento.png')
 
     if subscores:
         gerar_mapa_risco_social(
-            gdf_dist, gdf_dept, subscores, 'mapa_risco_social.pdf'
+            gdf_dist, gdf_dept, subscores, 'mapa_risco_social.png'
         )
         gerar_mapa_autossuficiencia(
-            gdf_dist, gdf_dept, subscores, 'mapa_autossuficiencia.pdf'
+            gdf_dist, gdf_dept, subscores, 'mapa_autossuficiencia.png'
         )
 
     print(f"\nConcluído! Mapas em {OUT}")

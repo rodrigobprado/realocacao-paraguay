@@ -184,10 +184,10 @@ def gerar_mapa(dpto_code, nome_display, gdf_dept, gdf_dist,
 
     # Salva sem e com zero-padding para compatibilidade
     num = int(dpto_code)
-    path_no_pad = os.path.join(OUT, f"mapa_dept_{num}.pdf")
-    path_padded = os.path.join(OUT, f"mapa_dept_{num:02d}.pdf")
-    fig.savefig(path_no_pad, format='pdf', bbox_inches='tight',
-                facecolor='none', transparent=True, dpi=200)
+    path_no_pad = os.path.join(OUT, f"mapa_dept_{num}.png")
+    path_padded = os.path.join(OUT, f"mapa_dept_{num:02d}.png")
+    fig.savefig(path_no_pad, format='png', bbox_inches='tight',
+                dpi=200)
     if path_no_pad != path_padded:
         shutil.copy2(path_no_pad, path_padded)
     plt.close(fig)

@@ -263,7 +263,7 @@ def desenhar_mapa_unico(ax, gdf_dept_sel, gdf_outros_dept, gdf_distritos,
 def gerar_mapa_unico(dpto_code, dpto_nome, gdf_dist_dept, gdf_dept_sel,
                      gdf_outros, coluna, norm, cmap, titulo, sufixo):
     """Gera e salva um único mapa temático (largura A5)."""
-    fig, ax = plt.subplots(figsize=(7, 6.5), dpi=180)
+    fig, ax = plt.subplots(figsize=(7, 6.5), dpi=150)
     fig.patch.set_facecolor('none')
     ax.set_facecolor('none')
 
@@ -282,10 +282,10 @@ def gerar_mapa_unico(dpto_code, dpto_nome, gdf_dist_dept, gdf_dept_sel,
         lbl.set_fontfamily('DejaVu Sans')
 
     plt.tight_layout()
-    fname = f"mapas_tematicos_dept_{dpto_code}_{sufixo}.pdf"
+    fname = f"mapas_tematicos_dept_{dpto_code}_{sufixo}.png"
     out_path = os.path.join(OUT, fname)
-    fig.savefig(out_path, format='pdf', bbox_inches='tight',
-                facecolor='none', transparent=True, dpi=180)
+    fig.savefig(out_path, format='png', bbox_inches='tight',
+                dpi=150)
     plt.close(fig)
     return fname
 
@@ -457,7 +457,7 @@ def main():
             inserir_mapa_no_tex(dpto_code, dpto_nome.title(), f1, f2, f3)
             print(f"        → {f1} | {f2} | {f3}")
 
-    print(f"\nConcluído! PDFs em {OUT}")
+    print(f"\nConcluído! PNGs em {OUT}")
     print("Execute pdflatex para recompilar.")
 
 

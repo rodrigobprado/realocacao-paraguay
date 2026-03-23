@@ -87,7 +87,7 @@ def gerar_mapa_distrito(clave, dist_name, dept_code,
     outros_dist = gdf_dist[(gdf_dist['DPTO'] == dept_code) & (gdf_dist['CLAVE'] != clave)]
     pais = gdf_dept.dissolve()
 
-    fig, ax = plt.subplots(figsize=(4, 4.6), dpi=180)
+    fig, ax = plt.subplots(figsize=(4, 4.6), dpi=150)
     fig.patch.set_facecolor('none')
     ax.set_facecolor('none')
 
@@ -134,9 +134,9 @@ def gerar_mapa_distrito(clave, dist_name, dept_code,
 
     ax.set_axis_off()
 
-    out_path = os.path.join(OUT, f"dist_{clave}.pdf")
-    fig.savefig(out_path, format='pdf', bbox_inches='tight',
-                facecolor='none', transparent=True, dpi=180)
+    out_path = os.path.join(OUT, f"dist_{clave}.png")
+    fig.savefig(out_path, format="png", bbox_inches='tight',
+                dpi=150)
     plt.close(fig)
     return out_path
 

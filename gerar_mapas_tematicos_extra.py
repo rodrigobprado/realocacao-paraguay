@@ -78,7 +78,7 @@ def gerar_mapa_solar(gdf_dept, fname):
     gdf = gdf_dept.copy()
     gdf['SOLAR'] = gdf['DPTO'].map(SOLAR_DEPT)
 
-    fig, ax = plt.subplots(figsize=(9, 10), dpi=180)
+    fig, ax = plt.subplots(figsize=(9, 10), dpi=150)
     fig.patch.set_facecolor('none')
     ax.set_facecolor('none')
 
@@ -124,8 +124,8 @@ def gerar_mapa_solar(gdf_dept, fname):
             bbox=dict(boxstyle='round,pad=0.3', facecolor='white', alpha=0.7, edgecolor=NAVY))
 
     out_path = os.path.join(OUT, fname)
-    fig.savefig(out_path, format='pdf', bbox_inches='tight',
-                facecolor='none', transparent=True, dpi=180)
+    fig.savefig(out_path, format='png', bbox_inches='tight',
+                dpi=150)
     plt.close(fig)
     print(f"  [OK] {out_path}")
 
@@ -134,7 +134,7 @@ def gerar_mapa_inundacao(gdf_dept, fname):
     gdf['FLOOD'] = gdf['DPTO'].map(FLOOD_DEPT)
     gdf['FLOOD_COLOR'] = gdf['FLOOD'].map(FLOOD_COLORS)
 
-    fig, ax = plt.subplots(figsize=(9, 10), dpi=180)
+    fig, ax = plt.subplots(figsize=(9, 10), dpi=150)
     fig.patch.set_facecolor('none')
     ax.set_facecolor('none')
 
@@ -169,8 +169,8 @@ def gerar_mapa_inundacao(gdf_dept, fname):
     legend.get_title().set_color(NAVY)
 
     out_path = os.path.join(OUT, fname)
-    fig.savefig(out_path, format='pdf', bbox_inches='tight',
-                facecolor='none', transparent=True, dpi=180)
+    fig.savefig(out_path, format='png', bbox_inches='tight',
+                dpi=150)
     plt.close(fig)
     print(f"  [OK] {out_path}")
 
@@ -180,10 +180,10 @@ def main():
     gdf_dept = gpd.read_file(DEPT_GEO)
 
     print("\nGerando mapa solar...")
-    gerar_mapa_solar(gdf_dept, 'mapa_solar_departamento.pdf')
+    gerar_mapa_solar(gdf_dept, 'mapa_solar_departamento.png')
 
     print("Gerando mapa de risco de inundação...")
-    gerar_mapa_inundacao(gdf_dept, 'mapa_risco_inundacao.pdf')
+    gerar_mapa_inundacao(gdf_dept, 'mapa_risco_inundacao.png')
 
     print(f"\nConcluído! Mapas em {OUT}")
 
