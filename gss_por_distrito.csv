@@ -1,202 +1,215 @@
-CLAVE,GSS
-0000,7.7
-0101,5.7
-0102,6.4
-0103,6.2
-0104,7.9
-0105,6.0
-0106,5.8
-0107,5.3
-0109,8.3
-0110,5.8
-0111,7.0
-0113,6.4
-0201,7.7
-0203,6.1
-0204,6.3
-0205,8.0
-0206,6.6
-0207,7.5
-0208,6.3
-0210,7.8
-0211,7.0
-0212,6.9
-0213,8.0
-0214,5.7
-0215,6.9
-0216,6.3
-0217,7.9
-0218,6.8
-0219,6.8
-0301,7.2
-0303,6.6
-0305,6.0
-0306,6.8
-0307,8.0
-0308,6.1
-0309,6.5
-0310,6.4
-0311,6.7
-0313,6.4
-0314,7.3
-0316,6.7
-0317,6.3
-0318,7.2
-0319,6.4
-0320,6.4
-0401,6.5
-0404,5.2
-0405,7.4
-0407,7.7
-0408,6.6
-0409,8.3
-0410,7.0
-0411,7.3
-0412,6.3
-0413,7.6
-0414,7.6
-0417,6.0
-0418,7.4
-0501,6.3
-0502,7.7
-0503,7.1
-0504,7.3
-0505,6.2
-0506,5.9
-0507,6.7
-0508,7.2
-0510,8.6
-0511,6.1
-0512,6.5
-0514,6.5
-0517,7.0
-0519,7.3
-0520,5.7
-0601,7.0
-0602,7.4
-0605,7.1
-0606,7.4
-0607,5.7
-0609,7.7
-0610,6.9
-0701,6.2
-0702,5.9
-0703,5.9
-0704,5.5
-0705,8.9
-0706,7.4
-0707,6.6
-0708,7.0
-0709,6.2
-0710,7.7
-0712,8.8
-0713,7.4
-0714,7.1
-0715,6.3
-0716,6.6
-0717,6.8
-0718,6.5
-0719,6.8
-0720,6.2
-0721,7.0
-0722,6.9
-0723,5.8
-0724,7.3
-0725,8.0
-0726,5.4
-0727,7.5
-0728,5.7
-0730,8.1
-0802,7.2
-0803,6.7
-0804,7.2
-0805,7.7
-0806,6.1
-0807,7.1
-0808,6.2
-0901,6.7
-0902,8.1
-0903,6.5
-0904,5.9
-0905,7.0
-0906,7.6
-0907,5.8
-0908,7.1
-0909,6.2
-0910,8.5
-0911,7.3
-0912,7.9
-0913,7.4
-0916,6.0
-1001,5.8
-1002,7.7
-1003,7.9
-1004,6.3
-1005,8.0
-1007,6.5
-1008,6.4
-1009,5.4
-1010,7.0
-1011,6.0
-1012,7.5
-1013,6.7
-1014,7.0
-1015,8.2
-1017,6.6
-1018,8.0
-1020,7.2
-1021,7.3
-1101,5.9
-1102,7.1
-1103,6.9
-1104,6.4
-1105,6.0
-1106,7.2
-1110,6.0
-1111,6.5
-1113,5.7
-1114,6.1
-1117,6.4
-1118,5.9
-1119,6.6
-1201,7.7
-1202,6.9
-1203,7.1
-1204,6.0
-1205,6.5
-1206,6.3
-1207,7.9
-1208,7.3
-1210,5.5
-1211,7.8
-1212,7.7
-1214,6.7
-1215,6.8
-1301,7.7
-1302,6.2
-1303,7.1
-1306,7.6
-1401,6.3
-1402,6.3
-1403,6.8
-1404,7.0
-1406,7.5
-1408,8.1
-1409,7.2
-1410,6.5
-1413,6.5
-1414,7.6
-1502,8.2
-1503,7.4
-1504,6.7
-1506,7.2
-1507,7.7
-1508,6.3
-1510,7.7
-1511,6.1
-1602,6.7
-1605,6.1
-1701,8.1
-1702,7.4
-1704,6.5
-1705,6.8
+CLAVE,NOME,GSS
+0000,Ybytimi,7.7
+0101,Concepción,5.7
+0102,Belen,6.4
+0103,Horqueta,6.2
+0104,Loreto,7.9
+0105,San Carlos del Apa,6.0
+0106,San Lazaro,5.8
+0107,Azotey,5.3
+0109,San Vicente Pancholo,8.3
+0110,Itacua,5.8
+0111,Paso Barreto,7.0
+0113,San Alfredo,6.4
+0201,San Pedro de Ycuamandiyu,7.7
+0203,San Pablo,6.1
+0204,General Elizardo Aquino,6.3
+0205,Itacurubi del Rosario,8.0
+0206,Santa Rosa del Aguaray,6.6
+0207,Nueva Germania,7.5
+0208,San Estanislao,6.3
+0210,Tacuati,7.8
+0211,Union,7.0
+0212,de Diciembre,6.9
+0213,Villa del Rosario,8.0
+0214,Lima,5.7
+0215,Yataity del Norte,6.9
+0216,Liberacion,6.3
+0217,Capiibary,7.9
+0218,Karapai,6.8
+0219,Yrybucua,6.8
+0301,Caacupe,7.2
+0302,Altos,7.0
+0303,Arroyos y Esteros,6.6
+0305,Mbocayaty del Yhaguy,6.0
+0306,Emboscada,6.8
+0307,Eusebio Ayala,8.0
+0308,Isla Pucu,6.1
+0309,Itacurubi de la Cordillera,6.5
+0310,Juan de Mena,6.4
+0311,Loma Grande,6.7
+0313,Nueva Colombia,6.4
+0314,Piribebuy,7.3
+0316,San Bernardino,6.7
+0317,San Jose de los Arroyos (Caaguazú),6.3
+0318,Tobati,7.2
+0319,Valenzuela,6.4
+0320,Primero de Marzo,6.4
+0401,Villarrica,6.5
+0404,Coronel Martinez,5.2
+0405,Felix Perez Cardozo,7.4
+0407,Independencia,7.7
+0408,Itape,6.6
+0409,Tavarai,8.3
+0410,Jose Fassardi,7.0
+0411,Yataity del Guaira,7.3
+0412,Natalicio Talavera,6.3
+0413,Numi,7.6
+0414,Borja,7.6
+0417,Paso Yobai,6.0
+0418,Tebicuary mi,7.4
+0501,Coronel Oviedo,6.3
+0502,Mariscal Francisco Solano Lopez,7.7
+0503,RI Tres Corrales,7.1
+0504,Doctor Cecilio Baez,7.3
+0505,San Joaquin,6.2
+0506,Tres de Febrero,5.9
+0507,Repatriacion,6.7
+0508,Nueva Londres,7.2
+0510,San Jose de los Arroyos,8.6
+0511,Yhu,6.1
+0512,Tembiapora,6.5
+0514,Raul Arsenio Oviedo,6.5
+0517,La Pastora,7.0
+0519,Simon Bolivar,7.3
+0520,Ybyrarovana,5.7
+0601,Caazapa,7.0
+0602,Abai,7.4
+0605,General Higinio Morinigo,7.1
+0606,Maciel,7.4
+0607,San Juan Nepomuceno,5.7
+0609,Fulgencio Yegros,7.7
+0610,Yuty,6.9
+0701,Encarnación,6.2
+0702,Bella Vista,5.9
+0703,Cambreta,5.9
+0704,Pirapo,5.5
+0705,Fram,8.9
+0706,Nueva Alborada,7.4
+0707,Carmen del Parana,6.6
+0708,Coronel Bogado,7.0
+0709,Carlos Antonio Lopez,6.2
+0710,Natalio,7.7
+0712,General Artigas,8.8
+0713,General Delgado,7.4
+0714,Hohenau,7.1
+0715,Jesus,6.3
+0716,Jose Leandro Oviedo,6.6
+0717,Obligado,6.8
+0718,Mayor Otano,6.5
+0719,San Cosme y Damian,6.8
+0720,San Pedro del Parana,6.2
+0721,San Rafael del Parana,7.0
+0722,Trinidad,6.9
+0723,Capitan Meza,5.8
+0724,Tomas Romero Pereira,7.3
+0725,Alto Vera,8.0
+0726,La Paz,5.4
+0727,Yatytay,7.5
+0728,San Juan del Parana,5.7
+0730,Itapua Poty,8.1
+0801,San Juan Bautista,7.4
+0802,Yabebyry,7.2
+0803,San Ignacio,6.7
+0804,San Miguel,7.2
+0805,San Patricio,7.7
+0806,Santa Maria,6.1
+0807,Santa Rosa,7.1
+0808,Santiago,6.2
+0809,Villa Florida,7.3
+0901,Paraguari,6.7
+0902,Acahay,8.1
+0903,Caapucu,6.5
+0904,General Bernardino Caballero,5.9
+0905,Carapegua,7.0
+0906,Escobar,7.6
+0907,La Colmena,5.8
+0908,Mbuyapey,7.1
+0909,Pirayu,6.2
+0910,Yaguarun,8.5
+0911,Quyquyho,7.3
+0912,San Roque Gonzalez,7.9
+0913,Sapucai,7.4
+0915,Yaguarón,7.1
+0916,Ybycui,6.0
+1001,Ciudad del Este,5.8
+1002,Presidente Franco,7.7
+1003,Domingo Martinez de Irala,7.9
+1004,Juan Leon Mallorquin,6.3
+1005,Hernandarias,8.0
+1007,Juan Emilio OLeary,6.5
+1008,Nacunday,6.4
+1009,Yguazu,5.4
+1010,Los Cedrales,7.0
+1011,Minga Guazu,6.0
+1012,San Cristobal,7.5
+1013,Santa Rita,6.7
+1014,Naranjal,7.0
+1015,Santa Rosa del Monday,8.2
+1016,Minga Pora,7.2
+1017,Mbaracayu,6.6
+1018,San Alberto,8.0
+1020,Santa Fe del Parana,7.0
+1021,Tavapy,7.3
+1101,Aregua,5.9
+1102,Capiata,7.1
+1103,Fernando de la Mora,6.9
+1104,Guarambare,6.4
+1105,Ita,6.0
+1106,Itaugua,7.2
+1107,Lambare,6.9
+1108,Limpio,6.0
+1109,Luque,6.2
+1110,Mariano Roque Alonso,6.0
+1111,Nueva Italia,6.5
+1112,Nemby,6.9
+1113,San Antonio,5.7
+1114,San Lorenzo,6.1
+1115,Villa Elisa,6.7
+1116,Villeta,7.5
+1117,Ypacarai,6.4
+1118,Ypane,5.9
+1119,J Augusto Saldivar,6.6
+1201,Pilar,7.7
+1202,Alberdi,6.9
+1203,Cerrito,7.1
+1204,Villalbin,6.0
+1205,General Diaz,6.5
+1206,Tacuaras,6.3
+1207,Humaita,7.9
+1208,Mayor Martinez,7.3
+1210,Laureles,5.5
+1211,Pedro Juan Caballero,7.8
+1212,San Juan del Neembucu,7.7
+1214,Villa Franca,6.7
+1215,Villa Oliva,6.8
+1301,Zanja Pyta,7.7
+1302,Bella Vista Norte,6.2
+1303,Capitan Bado,7.1
+1306,Cerro Cora,7.6
+1401,Salto del Guaira,6.3
+1402,General Caballero Alvarez,6.3
+1403,Curuguaty,6.8
+1404,Villa Ygatimi,7.0
+1406,Ypejhu,7.5
+1407,Francisco Caballero Alvarez,7.2
+1408,Nueva Esperanza,8.1
+1409,La Paloma,7.2
+1410,Laurel,6.5
+1413,Yby Pyta,6.5
+1414,Maracana,7.6
+1502,Benjamin Aceval,8.2
+1503,Puerto Pinasco,7.4
+1504,Villa Hayes,6.7
+1506,Jose Falcon,7.2
+1507,Boqueron,7.7
+1508,Teniente Esteban Martinez,6.3
+1510,Campo Aceval,7.7
+1511,Nueva Asunción,6.1
+1602,Mariscal Estigarribia,6.7
+1604,Filadelfia,7.3
+1605,Loma Plata,6.1
+1701,Fuerte Olimpo,8.1
+1702,Puerto Casado,7.4
+1704,Bahia Negra,6.5
+1705,Capitan Carmelo Peralta,6.8
