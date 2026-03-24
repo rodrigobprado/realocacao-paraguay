@@ -35,7 +35,8 @@ PADROES = [
 
     # Valores explicitamente ausentes
     (r'dados não disponíveis|não disponível|N/D|nd\b|n\.d\.', 'Dado explicitamente ausente', 'media'),
-    (r'a preencher|preencher|PREENCHER|TODO|FIXME|\?\?\?', 'Placeholder explícito', 'alta'),
+    (r'a preencher|preencher|PREENCHER|FIXME|\?\?\?', 'Placeholder explícito', 'alta'),
+    (r'\bTODO\b', 'Placeholder TODO (tarefa)', 'alta'),
 
     # Seções de texto com apenas heading, sem parágrafo
     (r'\\subsection\*\{[^}]+\}\s*\n\s*\n\s*\\subsection', 'Subseção vazia (sem conteúdo)', 'media'),
@@ -134,14 +135,15 @@ def analisar_arquivo(fpath):
                 resultados.append((i+1, 'Por que não: sem conteúdo', dist, 'alta'))
 
         # Placeholders explícitos
-        if re.search(r'\bTODO\b|\bFIXME\b|\?\?\?|a preencher|PREENCHER', linha, re.IGNORECASE):
+        if re.search(r'\bFIXME\b|\?\?\?|a preencher|PREENCHER', linha, re.IGNORECASE) or re.search(r'\bTODO\b', linha):
             dist = extrair_distrito_atual(linhas, i)
             resultados.append((i+1, f'Placeholder explícito: {linha[:80]}', dist, 'alta'))
 
         # Células de tabela com --- (exceto 5G que é normal)
         if re.search(r'& ---\s*(\\\\|&)', linha):
             # Ignora se for coluna 5G (esperado ser ---)
-            if '5G' not in linhas[max(0,i-5):i+1]:
+            contexto = "".join(linhas[max(0,i-5):i+1])
+            if '5G' not in contexto:
                 dist = extrair_distrito_atual(linhas, i)
                 resultados.append((i+1, f'Célula tabela com --- (dado ausente)', dist, 'baixa'))
 
