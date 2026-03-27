@@ -275,6 +275,13 @@
     \includegraphics[width=0.33\textwidth]{mapas/dist_#1.png}%
 }
 
+\newcommand{\mapaConteudo}[2]{%
+  \begin{tikzpicture}[baseline=(current bounding box.north)]
+    \fill[navyblue] (0,0) rectangle (3.2,2.2);
+    \node[white, font=\tiny] at (1.6,1.1) {Mapa #1, #2};
+  \end{tikzpicture}%
+}
+
 \newcommand{\secaoDiagnostico}[3]{%
   \section*{#1} % Título da Cidade
   \addcontentsline{toc}{section}{#1}
