@@ -1,473 +1,139 @@
-% =====================================================================
-% METODOLOGIA GSS — Versão 2.0 (Artefato Central AC-01)
-% Global Safety Score aplicado ao Paraguai
-% =====================================================================
-\chapter*{Metodologia}
-\addcontentsline{toc}{chapter}{Metodologia}
+\section{Metodologia de Avaliação para Relocação Estratégica
+Mundial}\label{metodologia-de-avaliauxe7uxe3o-para-relocauxe7uxe3o-estratuxe9gica-mundial}
 
-\section{Origem e Adaptação do Método}
+Este documento define os critérios e a fórmula de cálculo para avaliar a
+segurança e a viabilidade de sobrevivência/\allowbreak autossuficiência de qualquer
+localidade geográfica, baseado nos princípios de Joel Skousen (Strategic
+Relocation) adaptados para um contexto global.
 
-A metodologia que sustenta este guia deriva do trabalho pioneiro de Joel Skousen, arquiteto e analista geopolítico norte-americano, cujo livro \textit{Strategic Relocation: North American Guide to Safe Places} (1997, com revisões em 2011 e 2020) estabeleceu pela primeira vez um framework sistemático para avaliar a segurança de localidades sob múltiplas dimensões simultâneas. Skousen priorizou, em seu modelo original, as ameaças estratégicas e militares — reflexo do contexto da Guerra Fria e da preocupação com alvos nucleares nos Estados Unidos — e as combinou com análise de densidade populacional, recursos naturais e estabilidade política.
+\subsubsection{Categorias de Avaliação
+(Critérios)}\label{categorias-de-avaliauxe7uxe3o-crituxe9rios}
 
-A presente versão, denominada \textbf{Global Safety Score (GSS)}, expande e recalibra esse framework para o contexto sul-americano do século XXI, com as seguintes adaptações fundamentais:
+Cada critério deve ser avaliado em uma escala de \textbf{0 a 10}, onde
+\textbf{10 é o estado ideal (mais seguro)} e \textbf{0 é o estado
+crítico (perigoso/\allowbreak inviável)}.
 
-\begin{itemize}
-  \item \textbf{Tropicalização dos critérios climáticos}: o modelo original foi concebido para zonas temperadas do hemisfério norte. O Paraguai possui dinâmicas de seca, inundação sazonal e calor extremo que exigem variáveis específicas.
-  \item \textbf{Operacionalização com dados abertos}: cada variável do GSS é ligada a uma fonte verificável — Censo DGEEC 2022, NASA POWER, Ministerio Público do Paraguai, INE/EPHC, SoilGrids, Global Data Lab — eliminando avaliações puramente subjetivas.
-  \item \textbf{Perfis de leitor}: o modelo padrão de Skousen assume um único perfil de relocado. O GSS introduz seis perfis distintos com pesos ajustados, reconhecendo que um agricultor colono, um investidor imobiliário e uma família preparacionista possuem hierarquias de risco completamente diferentes.
-  \item \textbf{Escala de confiança por variável}: cada pontuação carrega um nível de confiança (A, B ou C) que reflete a qualidade do dado subjacente, permitindo ao leitor avaliar a robustez da estimativa.
-\end{itemize}
-
-O GSS é, portanto, uma ferramenta de inteligência geográfica aplicada — não uma garantia de segurança, mas um mapa de probabilidades que orienta decisões de alto impacto com a melhor informação disponível.
-
-\section{Estrutura Geral da Pontuação}
-
-Cada localidade recebe uma pontuação em cinco dimensões independentes, todas avaliadas em uma escala de \textbf{0 a 10}, onde \textbf{10 representa o estado ideal} (menor risco, maior aptidão) e \textbf{0 representa o estado crítico} (risco máximo ou inviabilidade).
-
-A pontuação final GSS é uma média ponderada dessas cinco dimensões:
-
-\begin{equation}
-\mathrm{GSS} = \frac{(A \times w_A) + (B \times w_B) + (C \times w_C) + (D \times w_D) + (E \times w_E)}{10}
-\end{equation}
-
-Na configuração padrão (perfil neutro), os pesos são:
-
-\begin{equation}
-\mathrm{GSS}_{\mathrm{padr\tilde{a}o}} = \frac{(A \times 2{,}5) + (B \times 2{,}0) + (C \times 1{,}5) + (D \times 2{,}0) + (E \times 2{,}0)}{10}
-\end{equation}
-
-A restrição de consistência exige que a soma dos pesos seja sempre igual à unidade:
-
-\begin{equation}
-w_A + w_B + w_C + w_D + w_E = 1{,}00
-\end{equation}
-
-As cinco dimensões são:
+\subsubsection{A. Ameaças Estratégicas e Militares (Peso:
+25\%)}\label{a.-ameauxe7as-estratuxe9gicas-e-militares-peso-25}
 
 \begin{itemize}
-  \item \textbf{A — Ameaças Estratégicas e Militares} (peso padrão: 25\%)
-  \item \textbf{B — Risco Social} (peso padrão: 20\%)
-  \item \textbf{C — Riscos Naturais e Clima} (peso padrão: 15\%)
-  \item \textbf{D — Autossuficiência e Recursos} (peso padrão: 20\%)
-  \item \textbf{E — Ambiente Institucional} (peso padrão: 20\%)
+\tightlist
+\item
+  \textbf{Proximidade de Alvos:} Bases militares, silos de mísseis,
+  centros de comando governamental e usinas nucleares.
+\item
+  \textbf{Rotas de Invasão:} Localização em corredores geográficos
+  historicamente usados em conflitos.
+\item
+  \textbf{Risco de Fallout:} Direção predominante do vento em relação a
+  grandes centros urbanos ou alvos nucleares.
 \end{itemize}
 
-As seções seguintes detalham cada dimensão: as variáveis que a compõem, os critérios de pontuação, as fontes de dados e o contexto específico do Paraguai.
-
-% =====================================================================
-\section{Dimensão A — Ameaças Estratégicas e Militares}
-% =====================================================================
-
-\subsection{Fundamento e Relevância para o Paraguai}
-
-A dimensão A avalia o risco de uma localidade ser diretamente impactada por conflitos armados de escala regional ou global — seja como alvo primário de ataque, seja por efeitos colaterais (fallout, disrupção logística, fluxo de refugiados). No modelo de Skousen, esta é a dimensão mais crítica porque seus efeitos são irreversíveis e de rápido desenvolvimento.
-
-Para o Paraguai, o contexto é estruturalmente favorável: o país é \textit{landlocked} (sem litoral), não possui armas nucleares, não integra nenhuma aliança militar ofensiva (como OTAN ou equivalente regional), e sua posição geopolítica central na América do Sul o coloca fora das rotas de projeção de poder das grandes potências. A pontuação da dimensão A para a maioria dos distritos paraguaios situa-se entre \textbf{7,0 e 9,0}, tornando-o um dos territórios mais favoráveis da América Latina sob este critério.
-
-\subsection{Variáveis Operacionalizadas}
-
-\subsubsection{A1 — Proximidade de Alvos Estratégicos}
-
-Bases militares ativas, usinas hidrelétricas de grande porte, centros de comando governamental e infraestrutura crítica de energia e comunicações constituem alvos prioritários em cenários de conflito. A penalização é proporcional à distância:
+\subsubsection{B. Densidade Populacional e Risco Social (Peso:
+20\%)}\label{b.-densidade-populacional-e-risco-social-peso-20}
 
 \begin{itemize}
-  \item \textbf{$< 20$ km de alvo crítico}: penalização severa (escore A1 $\leq$ 4,0)
-  \item \textbf{20–50 km}: penalização moderada (A1 entre 4,0 e 6,5)
-  \item \textbf{50–150 km}: penalização leve (A1 entre 6,5 e 8,0)
-  \item \textbf{$> 150$ km}: sem penalização (A1 entre 8,0 e 10,0)
+\tightlist
+\item
+  \textbf{Distância de Grandes Centros:} O ideal é estar a mais de
+  150-200km de cidades com \textgreater1 milhão de habitantes.
+\item
+  \textbf{Estabilidade Social:} Histórico de agitação civil,
+  criminalidade e coesão cultural local.
+\item
+  \textbf{Risco de Refugiados:} Localização em rotas de fuga óbvias de
+  grandes massas populacionais em caso de colapso.
 \end{itemize}
 
-No contexto paraguaio, os alvos estratégicos relevantes são: \textbf{Itaipu Binacional} (Alto Paraná — maior usina hidrelétrica do mundo em geração acumulada), \textbf{Yacyretá} (Misiones/Neembucú — fronteira com Argentina), e o \textbf{Comando de las Fuerzas Militares} em Assunção. Distritos a menos de 30 km de Itaipu recebem penalização explícita nesta variável.
-
-\subsubsection{A2 — Rotas de Invasão e Corredores Geopolíticos}
-
-O Paraguai perdeu a Guerra da Tríplice Aliança (1864–1870) em parte por estar encravado entre Argentina, Brasil e Bolívia, com fronteiras terrestres permeáveis. Historicamente, as rotas de acesso militar privilegiam: o corredor leste (da Tríplice Fronteira ao interior via Alto Paraná), o eixo sul via Misiones/Neembucú (fronteira argentina) e o norte via Concepción (fronteira com Brasil pelo Mato Grosso do Sul).
-
-Localidades afastadas dessas rotas, no interior dos departamentos centrais (Paraguarí, Guairá, Caazapá) ou no Chaco central (Presidente Hayes, Boquerón), recebem bonificação por isolamento estratégico.
-
-\subsubsection{A3 — Risco de Fallout e Contaminação Regional}
-
-Em cenários de conflito com uso de armas químicas, radiológicas ou biológicas no Brasil, Argentina ou Bolívia, a direção predominante dos ventos determina a dispersão. Os ventos predominantes no Paraguai são de nordeste (regime de ventos alisios) e de sul (frentes polares). Localidades no quadrante sudoeste do país, favorecidas pela direção de evacuação de ar, recebem pontuação levemente superior nesta variável.
-
-O risco de contaminação química por acidentes industriais — e não por conflito intencional — é também considerado: o corredor sojicultor do leste (Alto Paraná, Itapúa, Canindeyú) apresenta alta carga de agrotóxicos, o que não é penalizado nesta dimensão A (esse impacto é capturado na dimensão C).
-
-\subsubsection{A4 — Presença de Narcotráfico com Dimensão Militar}
-
-Grupos como o PCC (Primeiro Comando da Capital, oriundo do Brasil) e o Clan Rotela operam no Paraguai com estrutura logística que inclui armamento pesado e capacidade de enfrentamento com forças estatais. A faixa de fronteira com o Brasil — especialmente Amambay (Pedro Juan Caballero), Canindeyú e norte de Alto Paraná — é classificada como zona de atenção sob a perspectiva de ameaças organizadas com capacidade militar informal.
-
-\subsection{Pontuação Final da Dimensão A}
-
-A pontuação da dimensão A é a média ponderada de A1 (50\%), A2 (25\%), A3 (15\%) e A4 (10\%). Para a maioria dos distritos paraguaios fora das zonas de fronteira e das imediações das usinas, o escore A situa-se entre 7,5 e 9,0 — refletindo a posição estruturalmente vantajosa do país.
-
-% =====================================================================
-\section{Dimensão B — Risco Social}
-% =====================================================================
-
-\subsection{Fundamento e Relevância para o Paraguai}
-
-O risco social avalia a probabilidade de que a vida cotidiana seja perturbada por criminalidade, violência organizada, instabilidade civil ou colapso da coesão comunitária. Para imigrantes e investidores, esta é frequentemente a dimensão de maior impacto imediato sobre a qualidade de vida.
-
-O Paraguai apresenta grande heterogeneidade regional: Assunção e a região metropolitana do Departamento Central concentram a maior parte da criminalidade urbana, enquanto distritos rurais nos departamentos de Misiones, Paraguarí e Caazapá registram taxas de homicídio comparáveis às de países europeus. A análise por distrito é, portanto, indispensável — médias nacionais são enganosas.
-
-\subsection{Variáveis Operacionalizadas}
-
-\subsubsection{B1 — Taxa de Homicídios (por 100 mil habitantes)}
-
-Fonte primária: Ministerio Público del Paraguay — Dirección de Estadísticas (dados anuais por departamento, com série desde 2010). Para distritos, utiliza-se interpolação proporcional à população quando dados desagregados não estão disponíveis.
-
-Critérios de pontuação:
+\subsubsection{C. Desastres Naturais e Clima (Peso:
+15\%)}\label{c.-desastres-naturais-e-clima-peso-15}
 
 \begin{itemize}
-  \item \textbf{$< 3{,}0$/100k}: 9,0–10,0 (equivalente à taxa europeia)
-  \item \textbf{3,0–8,0/100k}: 7,0–8,9 (baixo risco)
-  \item \textbf{8,0–15,0/100k}: 5,0–6,9 (risco moderado)
-  \item \textbf{15,0–25,0/100k}: 3,0–4,9 (risco elevado)
-  \item \textbf{$> 25{,}0$/100k}: $< 3{,}0$ (risco crítico — nível de zona de guerra regional)
+\tightlist
+\item
+  \textbf{Geologia:} Risco de terremotos, vulcões e tsunamis.
+\item
+  \textbf{Hidrologia:} Risco de inundações, secas severas ou elevação do
+  nível do mar.
+\item
+  \textbf{Clima:} Viabilidade de agricultura durante todo o ano ou
+  necessidade de aquecimento/\allowbreak resfriamento extremo.
 \end{itemize}
 
-\subsubsection{B2 — Distância de Grandes Centros Populacionais}
-
-Cidades com mais de 500 mil habitantes geram externalidades negativas de segurança: mercados criminais mais desenvolvidos, rotas de tráfico, pressão de refugiados em crises, e saturação de serviços públicos em emergências. No Paraguai, apenas a Área Metropolitana de Assunção (AMA) ultrapassa esse limiar.
+\subsubsection{D. Autossuficiência e Recursos (Peso:
+20\%)}\label{d.-autossuficiuxeancia-e-recursos-peso-20}
 
 \begin{itemize}
-  \item \textbf{$> 150$ km da AMA}: bonificação máxima (B2 = 9,0–10,0)
-  \item \textbf{80–150 km}: bonificação moderada (B2 = 7,0–8,9)
-  \item \textbf{30–80 km}: neutro (B2 = 5,0–6,9)
-  \item \textbf{$< 30$ km}: penalização (B2 $\leq$ 4,9)
+\tightlist
+\item
+  \textbf{Água:} Acesso a poços artesianos, nascentes ou rios não
+  poluídos.
+\item
+  \textbf{Solo:} Fertilidade da terra e viabilidade de produção de
+  alimentos local.
+\item
+  \textbf{Energia:} Potencial para solar, eólica ou hidrelétrica de
+  pequena escala.
 \end{itemize}
 
-\subsubsection{B3 — Presença de Crime Organizado Transnacional}
-
-O mapeamento considera a documentação pública de operações do \textbf{PCC}, \textbf{Comando Vermelho (CV)}, \textbf{MS-13} e do \textbf{Clan Rotela} no território paraguaio. Fontes: relatórios do InSight Crime (2022–2024), do Ministerio del Interior e da SENAD (Secretaría Nacional Antidrogas).
-
-A presença confirmada de estrutura operacional (não apenas trânsito eventual) de grupos transnacionais resulta em penalização de até 2,0 pontos na variável B3.
-
-\subsubsection{B4 — Índice de Gini e Desigualdade como Proxy de Instabilidade}
-
-Sociedades com alta desigualdade de renda são estruturalmente mais propensas a agitação social e criminalidade predatória. Fonte: INE — EPHC (Encuesta Permanente de Hogares Continua) 2023, desagregada por departamento.
-
-\subsubsection{B5 — Percentual de Pobreza Extrema}
-
-Complementar ao Gini, a pobreza extrema ($< 1$ dólar/dia ajustado) indica vulnerabilidade estrutural da população local. Fonte: INE/EPHC 2023.
-
-\subsubsection{B6 — Superlotação Prisional como Proxy de Saturação Sistêmica}
-
-A taxa de superlotação do sistema prisional regional indica o grau de saturação das instituições de segurança pública — um preditor de recidiva, gangues prisionais e ineficácia policial. Fonte: Ministerio de Justicia del Paraguay.
-
-% =====================================================================
-\section{Dimensão C — Riscos Naturais e Clima}
-% =====================================================================
-
-\subsection{Fundamento e Relevância para o Paraguai}
-
-O Paraguai não está localizado em zona sísmica ativa, não possui vulcões e não enfrenta risco de tsunami — o que confere ao país uma vantagem estrutural significativa na dimensão C em comparação com países do Pacífico sul-americano (Peru, Chile, Equador, Colômbia). O principal risco natural paraguaio é a variabilidade hídrica extrema: secas prolongadas no Chaco e inundações sazonais severas nas planícies do rio Paraguai e rio Paraná.
-
-\subsection{Variáveis Operacionalizadas}
-
-\subsubsection{C1 — Risco de Inundações}
-
-Fonte: SEAM (Secretaría del Ambiente) e dados hidrológicos do Sistema Nacional de Alerta Hidrometeorológica. Áreas de planície ripária dos rios Paraguai e Paraná, e dos rios Tebicuary, Ypané e Jejuí, são classificadas por frequência de inundação histórica (período de retorno de 5, 10, 25 e 50 anos).
-
-Distritos com mais de 20\% do território em zona de inundação com período de retorno $\leq 10$ anos recebem penalização severa (C1 $\leq$ 4,0). Exemplos: Ñeembucú (Pilar), Concepción (Bella Vista Norte), região do Pantanal no Alto Paraguai.
-
-\subsubsection{C2 — Suscetibilidade a Seca Severa}
-
-Precipitação anual abaixo de 800 mm é o limiar crítico para agricultura de sequeiro e recarga de aquíferos rasos. O Chaco paraguaio registra médias de 400–700 mm anuais com alta variabilidade interanual (coeficiente de variação $> 35\%$). Fonte: NASA POWER (série 2001–2020, parâmetro PRECTOTCORR).
+\subsubsection{E. Ambiente Político e Liberdade (Peso:
+20\%)}\label{e.-ambiente-poluxedtico-e-liberdade-peso-20}
 
 \begin{itemize}
-  \item \textbf{$> 1.400$ mm/ano}: 9,0–10,0
-  \item \textbf{1.100–1.400 mm/ano}: 7,5–8,9
-  \item \textbf{800–1.100 mm/ano}: 5,5–7,4
-  \item \textbf{500–800 mm/ano}: 3,0–5,4
-  \item \textbf{$< 500$ mm/ano}: $< 3{,}0$
+\tightlist
+\item
+  \textbf{Segurança Jurídica:} Proteção à propriedade privada e direitos
+  individuais.
+\item
+  \textbf{Autonomia Local:} Leis sobre armamento, impostos e
+  regulamentações agrícolas.
+\item
+  \textbf{Histórico Governamental:} Estabilidade do governo central e
+  tendência a autoritarismo em crises.
 \end{itemize}
 
-\subsubsection{C3 — Risco Sísmico}
+\subsubsection{Fórmula de Cálculo (Global Safety Score -
+GSS)}\label{fuxf3rmula-de-cuxe1lculo-global-safety-score---gss}
 
-O Paraguai está sobre o Cráton do Rio de la Plata, uma das formações geológicas mais estáveis do planeta. O risco sísmico é classificado como mínimo (PGA $< 0{,}04g$ para período de retorno de 475 anos, conforme USGS Hazard Map). Todos os distritos paraguaios recebem bônus fixo de C3 = 9,5 nesta variável, contribuindo positivamente para a dimensão C.
+A pontuação final é uma média ponderada.
 
-\subsubsection{C4 — Temperatura Extrema e Estresse Térmico}
+\[GSS = \frac{(A    imes 2.5) + (B  imes 2.0) + (C  imes 1.5) + (D  imes 2.0) + (E  imes 2.0)}{10}\]
 
-O Chaco paraguaio registra temperaturas de pico de 42–46°C no verão (novembro–fevereiro), com sensação térmica agravada pela umidade nos meses de chuva. Esses extremos comprometem a produtividade humana, aumentam consumo energético e afetam a pecuária e a agricultura. Fonte: NASA POWER (parâmetro T2M\_MAX, média dos máximos mensais, série 2001–2020).
-
-Distritos com temperatura máxima média anual superior a 38°C recebem penalização de C4 $\leq$ 5,0. A Região Oriental (leste do rio Paraguai) apresenta condições mais moderadas, com máximas médias de 28–34°C.
-
-\subsubsection{C5 — Irradiação Solar Média Anual}
-
-A irradiação solar (GHI — Global Horizontal Irradiance) determina o potencial de geração fotovoltaica e influencia a produtividade agrícola. O Paraguai apresenta excelente irradiação em todo o território: 5,0–6,2 kWh/m²/dia. Fonte: NASA POWER (parâmetro ALLSKY\_SFC\_SW\_DWN).
-
-Esta variável é considerada positiva na dimensão C (maior irradiação = maior potencial energético autônomo) e também é utilizada como componente da dimensão D (autossuficiência energética).
-
-% =====================================================================
-\section{Dimensão D — Autossuficiência e Recursos}
-% =====================================================================
-
-\subsection{Fundamento e Relevância para o Paraguai}
-
-A dimensão D avalia a capacidade de uma localidade sustentar vida humana com alta qualidade e baixa dependência de cadeias de abastecimento externas. Para relocados que buscam autonomia agrícola, energética e hídrica, esta é frequentemente a dimensão decisiva. O Paraguai destaca-se positivamente aqui: solo fértil em boa parte da Região Oriental, Aquífero Guaraní no subsolo da região leste, irradiação solar excepcional e energia elétrica estatal entre as mais baratas do mundo.
-
-\subsection{Variáveis Operacionalizadas}
-
-\subsubsection{D1 — Qualidade do Solo}
-
-Fonte: SoilGrids (ISRIC — World Soil Information), resolução de 250m, parâmetros: pH (horizonte 0–30 cm), teor de matéria orgânica, textura (percentual de argila, silte e areia) e capacidade de troca catiônica (CEC). Para o Paraguai, os solos mais produtivos concentram-se nos departamentos de Itapúa (terra roxa, análoga ao Paraná brasileiro), Caaguazú e Alto Paraná.
-
-Escala de pontuação D1 baseada em aptidão agrícola (classes FAO):
+\subsubsection{Tabela de
+Classificação:}\label{tabela-de-classificauxe7uxe3o}
 
 \begin{itemize}
-  \item \textbf{Solo Classe I–II} (muito apto, sem restrições ou restrições leves): D1 = 8,5–10,0
-  \item \textbf{Solo Classe III} (apto com restrições moderadas): D1 = 6,5–8,4
-  \item \textbf{Solo Classe IV} (apto com restrições severas): D1 = 4,5–6,4
-  \item \textbf{Solo Classe V–VI} (marginalmente apto): D1 = 2,5–4,4
-  \item \textbf{Solo Classe VII–VIII} (inapto para lavoura): D1 $\leq$ 2,4
+\tightlist
+\item
+  \textbf{9.0 - 10.0:} Santuário de Nível Superior (Ex: Zonas remotas
+  dos Andes, partes do Canadá/\allowbreak EUA rural).
+\item
+  \textbf{7.0 - 8.9:} Local Seguro com Pequenos Compromissos.
+\item
+  \textbf{5.0 - 6.9:} Moderadamente Seguro (Exige preparação intensiva).
+\item
+  \textbf{\textless{} 5.0:} Zona de Risco (Evitar para relocação de
+  longo prazo).
 \end{itemize}
 
-\subsubsection{D2 — Aquífero e Acesso à Água Subterrânea}
-
-O Aquífero Guaraní, o maior reservatório de água doce subterrânea do planeta, cobre aproximadamente 70\% do território da Região Oriental paraguaia. Distritos sobre o Guaraní recebem bônus de D2 = 9,0–10,0. Fora de sua área de ocorrência (Chaco e extremo norte), a profundidade de poço é a variável determinante: poços rasos ($< 30$ m) são vulneráveis a contaminação e seca; poços artesianos profundos ($> 100$ m) conferem autonomia. Fonte: ORSAS (Organismo Regulador de Saneamiento y Agua, PY) e SENASA.
-
-\subsubsection{D3 — Irradiação Solar para Geração Fotovoltaica}
-
-A disponibilidade de energia solar autônoma é crítica para propriedades rurais fora da rede elétrica ou como redundância em crises de fornecimento. Fonte: NASA POWER (GHI, série 2001–2020). O Paraguai apresenta condições uniformemente boas em todo o território (5,0–6,2 kWh/m²/dia), com destaque para o Chaco central (6,0–6,2 kWh/m²/dia) — ironicamente compensando parcialmente as desvantagens climáticas dessa região.
-
-\subsubsection{D4 — Acesso a Água Potável}
-
-Percentual de domicílios com acesso a água potável canalizada (rede pública ou poço protegido). Fonte: DGEEC — Censo Nacional de Población y Viviendas 2022 (tabelas por distrito). Distritos com cobertura $> 90\%$ recebem D4 = 8,5–10,0; cobertura $< 50\%$ recebe D4 $\leq$ 4,0.
-
-\subsubsection{D5 — Aptidão Agrícola do Território}
-
-Percentual do território distrital em classes de aptidão I–III (aptas para lavoura anual ou permanente), derivado do cruzamento de dados INDERT (Instituto Nacional de Desarrollo Rural y de la Tierra) e classificação SEAM. Distritos com $> 60\%$ do território em classes I–III recebem bonificação de D5 $\geq$ 8,0.
-
-% =====================================================================
-\section{Dimensão E — Ambiente Institucional}
-% =====================================================================
-
-\subsection{Fundamento e Relevância para o Paraguai}
-
-A dimensão E avalia a qualidade do ambiente institucional — o conjunto de regras formais e informais que determinam a segurança jurídica da propriedade, o acesso a serviços essenciais (saúde, educação, internet) e a estabilidade do sistema político-fiscal. Para imigrantes e investidores estrangeiros, esta dimensão é frequentemente a mais relevante no médio e longo prazo.
-
-O Paraguai apresenta vantagens institucionais estruturais que o distinguem favoravelmente na região: sistema fiscal competitivo (IR pessoal máximo de 10\%, IR corporativo de 10\%, IR agropecuário reduzido), Constituição vigente desde 1992 sem rupturas, e reconhecimento internacional da propriedade privada estrangeira. As desvantagens incluem corrupção persistente no nível municipal e estadual, judiciário lento e IDH entre os mais baixos da América do Sul.
-
-\subsection{Variáveis Operacionalizadas}
-
-\subsubsection{E1 — Índice de Desenvolvimento Humano (IDH) Departamental}
-
-Fonte: Global Data Lab (GDL) — Subnational Human Development Index, série 2022. O IDH integra longevidade, educação e renda em um único indicador. No Paraguai, o IDH departamental varia de aproximadamente 0,620 (Alto Paraguai) a 0,780 (Central/Assunção), com média nacional de 0,717 (PNUD 2023).
-
-\begin{itemize}
-  \item \textbf{IDH $\geq$ 0,750}: E1 = 8,5–10,0
-  \item \textbf{IDH 0,700–0,749}: E1 = 6,5–8,4
-  \item \textbf{IDH 0,650–0,699}: E1 = 4,5–6,4
-  \item \textbf{IDH $< 0{,}650$}: E1 $\leq$ 4,4
-\end{itemize}
-
-\subsubsection{E2 — Cobertura de Internet Banda Larga}
-
-Percentual de domicílios com acesso a internet (qualquer tecnologia). Fonte: INE — EPHC (Encuesta Permanente de Hogares Continua) 2023, por departamento. Para nômades digitais, profissionais remotos e qualquer pessoa dependente de conectividade, esta variável é decisiva. A cobertura de fibra ótica no Paraguai concentra-se na Área Metropolitana de Assunção e nos principais centros departamentais; o interior rural ainda depende de 4G com cobertura variável. Fonte complementar: CONATEL (Comisión Nacional de Telecomunicaciones) — mapas de cobertura 2024.
-
-\subsubsection{E3 — Segurança Jurídica e Proteção à Propriedade}
-
-O Paraguai permite que estrangeiros possuam propriedade rural e urbana nos mesmos termos que cidadãos nacionais, com registro em cartório (Registros Públicos) de eficácia jurídica reconhecida. A legislação de propriedade intelectual e contratos é baseada no Código Civil Paraguaio de 1987, com reformas em 2012 e 2020. O sistema de registro imobiliário apresenta vulnerabilidades em áreas rurais remotas, onde títulos sobrepostos e disputas com comunidades indígenas são documentados.
-
-Penalização específica para distritos com histórico documentado de conflitos fundiários (fonte: INDERT e organizações de direitos humanos: Tierraviva, CODEHUPY).
-
-\subsubsection{E4 — Sistema Tributário: Comparativo com o Brasil}
-
-O regime fiscal paraguaio é um dos diferenciais mais citados por imigrantes brasileiros. Os principais tributos relevantes para relocados são:
-
-\begin{itemize}
-  \item \textbf{IRACIS} (Imposto sobre a Renda das Atividades Comerciais, Industriais e de Serviços): alíquota de 10\% sobre lucro líquido.
-  \item \textbf{IRAGRO/IMAGRO} (Imposto sobre a Renda das Atividades Agropecuárias): alíquota de 10\% sobre 30\% da renda bruta (efetiva: $\approx$ 3\% da receita bruta) para propriedades $> 300$ ha. Propriedades menores enquadram-se no regime simplificado.
-  \item \textbf{IRP} (Imposto sobre a Renda das Pessoas Físicas): alíquota progressiva até 10\%, com mínimo não tributável elevado (aproximadamente 10 salários mínimos/mês).
-  \item \textbf{IVA}: alíquota padrão de 10\% (5\% para produtos básicos e medicamentos).
-\end{itemize}
-
-Comparativamente ao Brasil, onde a carga tributária efetiva sobre pessoa física pode superar 35\% e o IR empresarial (IRPJ + CSLL) alcança 34\%, o Paraguai representa uma diferença significativa para pessoas físicas com renda moderada a alta e para empreendedores rurais.
-
-\subsubsection{E5 — Estabilidade Política e Institucional}
-
-O Paraguai mantém sua Constituição desde 1992, com eleições presidenciais regulares e transferência pacífica de poder. O país não integra blocos políticos de alto risco geopolítico e possui relações diplomáticas estáveis com os principais parceiros comerciais (Brasil, Argentina, União Europeia, Estados Unidos, Taiwan). A instabilidade política é um risco de médio prazo, concentrado em disputas eleitorais internas ao Partido Colorado (dominante desde 1947), mas sem histórico recente de golpes ou ruptura constitucional.
-
-% =====================================================================
-\section{Tabela de Pesos por Perfil de Leitor}
-% =====================================================================
-
-O coração operacional do GSS é a possibilidade de ajustar os pesos das dimensões conforme o perfil de quem toma a decisão de relocação. Um agricultor que busca autossuficiência alimentar e um empresário que avalia carga tributária possuem hierarquias de prioridade fundamentalmente distintas — e o GSS deve refletir essas diferenças.
-
-Os seis perfis a seguir foram derivados de entrevistas com imigrantes brasileiros no Paraguai (2023–2024) e de análise das motivações declaradas em fóruns de relocação (Paraguai para Todos, Expats Paraguay, comunidades no Telegram). Cada perfil mantém a restrição $\sum w_i = 1{,}00$.
-
-\medskip
-
-\noindent\textbf{Descrição dos Perfis:}
-
-\begin{description}
-  \item[P1 — Colono/Agricultor] Busca terra produtiva, água abundante, clima favorável à produção de alimentos e autonomia energética. Prioriza as dimensões D (solo, aquífero, aptidão agrícola) e C (clima, seca, inundações). Ameaças estratégicas e ambiente institucional têm menor peso relativo.
-
-  \item[P2 — Investidor Imobiliário] Busca retorno financeiro, segurança jurídica do investimento, tributação favorável e valorização patrimonial. Prioriza as dimensões E (segurança jurídica, tributação, IDH) e D (aptidão, infraestrutura, valorização). Risco de conflito armado tem peso mínimo.
-
-  \item[P3 — Profissional Liberal Urbano] Busca qualidade de vida urbana, baixa criminalidade, acesso a serviços e conectividade. Prioriza as dimensões B (segurança, densidade, crime organizado) e E (internet, IDH, serviços). Riscos naturais têm peso intermediário; ameaças estratégicas são secundárias.
-
-  \item[P4 — Família Preparacionista] Busca máxima resiliência em cenários de colapso sistêmico: prioriza A (distância de alvos, rotas de invasão) e D (autossuficiência total — água, solo, energia). Ambiente institucional é secundário; mobilidade e discrição são prioritárias.
-
-  \item[P5 — Nômade Digital / Aposentado] Busca clima agradável, segurança pessoal, custo de vida razoável e conectividade para trabalho remoto ou lazer. Prioriza C (clima), B (segurança) e E (internet). Ameaças estratégicas têm peso mínimo.
-
-  \item[P6 — Empresário / Empreendedor] Busca ambiente fiscal competitivo, segurança jurídica para negócios, acesso a mercado e estabilidade regulatória. Prioriza E (tributação, IDH, institucional) e B (estabilidade, mercado). Clima e ameaças estratégicas têm peso reduzido.
-\end{description}
-
-\medskip
-
-\noindent A tabela a seguir consolida os pesos por dimensão para cada perfil:
-
-\medskip
-
-\renewcommand{\arraystretch}{1.4}
-\begin{longtable}{@{} l c c c c c c c @{}}
-\toprule
-\textbf{Dimensão} &
-\textbf{Padrão} &
-\textbf{P1} &
-\textbf{P2} &
-\textbf{P3} &
-\textbf{P4} &
-\textbf{P5} &
-\textbf{P6} \\
-& & \small{Colono} & \small{Investidor} & \small{Profissional} & \small{Prepper} & \small{Nômade} & \small{Empresário} \\
-\midrule
-\endfirsthead
-\multicolumn{8}{c}{\textit{(continuação)}} \\
-\toprule
-\textbf{Dimensão} &
-\textbf{Padrão} &
-\textbf{P1} &
-\textbf{P2} &
-\textbf{P3} &
-\textbf{P4} &
-\textbf{P5} &
-\textbf{P6} \\
-\midrule
-\endhead
-\bottomrule
-\endfoot
-\bottomrule
-\endlastfoot
-A — Ameaças Estratégicas & 25\% & 10\% & 5\% & 10\% & 35\% & 10\% & 5\% \\
-B — Risco Social          & 20\% & 20\% & 15\% & 35\% & 15\% & 25\% & 20\% \\
-C — Riscos Naturais       & 15\% & 20\% & 15\% & 20\% & 15\% & 25\% & 15\% \\
-D — Autossuficiência      & 20\% & 35\% & 25\% & 10\% & 30\% & 15\% & 20\% \\
-E — Institucional         & 20\% & 15\% & 40\% & 25\% &  5\% & 25\% & 40\% \\
-\midrule
-\textbf{Total}            & \textbf{100\%} & \textbf{100\%} & \textbf{100\%} & \textbf{100\%} & \textbf{100\%} & \textbf{100\%} & \textbf{100\%} \\
-\end{longtable}
-
-\medskip
-
-Para calcular o GSS personalizado com o perfil P1 (Colono), por exemplo:
-
-\begin{equation}
-\mathrm{GSS}_{\mathrm{P1}} = \frac{(A \times 1{,}0) + (B \times 2{,}0) + (C \times 2{,}0) + (D \times 3{,}5) + (E \times 1{,}5)}{10}
-\end{equation}
-
-Os multiplicadores (denominados $m_i$) são obtidos multiplicando os pesos percentuais por 10. A restrição é $\sum m_i = 10$ para todos os perfis.
-
-% =====================================================================
-\section{Tabela de Classificação GSS}
-% =====================================================================
-
-A pontuação GSS final (em qualquer configuração de perfil) é interpretada conforme a seguinte escala de classificação:
-
-\medskip
-
-\renewcommand{\arraystretch}{1.35}
-\begin{tabularx}{\textwidth}{@{} c X X @{}}
-\toprule
-\textbf{Faixa GSS} & \textbf{Classificação} & \textbf{Interpretação Prática} \\
-\midrule
-9,0 – 10,0 &
-\textbf{Santuário de Nível Superior} &
-Localidade com vantagens excepcionais em todas as dimensões relevantes. Raro no contexto sul-americano. Recomendação máxima para qualquer perfil de relocado. \\[0.3em]
-7,5 – 8,9 &
-\textbf{Destino Recomendado com Vantagens Excepcionais} &
-Forte desempenho nas dimensões principais. Pode haver limitações em uma ou duas variáveis secundárias. Excelente escolha para a maioria dos perfis. \\[0.3em]
-6,5 – 7,4 &
-\textbf{Destino Viável com Monitoramento} &
-Bom desempenho geral com ressalvas pontuais. Requer planejamento específico para compensar as dimensões abaixo da média. Viável com preparação adequada. \\[0.3em]
-5,0 – 6,4 &
-\textbf{Moderadamente Seguro — Preparação Intensiva Necessária} &
-Desvantagens relevantes em uma ou mais dimensões críticas. Pode ser adequado para perfis específicos (ex.: P2 em área com alta valorização imobiliária e GSS 5,5 na dimensão B). Exige plano de mitigação detalhado. \\[0.3em]
-$<$ 5,0 &
-\textbf{Zona de Risco — Evitar para Relocação Definitiva} &
-Combinação de fatores negativos que torna a relocação permanente inadequada sob a metodologia GSS. Pode ser considerada apenas para operações temporárias com estrutura de saída clara. \\
-\bottomrule
-\end{tabularx}
-
-\medskip
-
-\noindent\textbf{Nota sobre distribuição no Paraguai:} dos 262 distritos avaliados, nenhum atinge a faixa 9,0–10,0 no perfil padrão — refletindo a ausência de regiões com simultaneidade de excelência em todas as cinco dimensões. A faixa 7,5–8,9 concentra os melhores distritos da Região Oriental (especialmente Misiones, Paraguarí interior e Itapúa sul). A faixa $< 5{,}0$ é predominante no Chaco e em distritos da faixa de fronteira norte com histórico de conflito organizado.
-
-% =====================================================================
-\section{Protocolo de Incerteza e Bandas de Confiança}
-% =====================================================================
-
-Nenhum sistema de pontuação geográfica opera sem incerteza. A qualidade dos dados varia substancialmente entre variáveis e entre distritos — e essa variação precisa ser comunicada ao leitor de forma transparente. O GSS adota um sistema de três níveis de confiança:
-
-\subsection{Níveis de Confiança}
-
-\textbf{Nível A — Dado Primário Oficial Verificado}
-
-O score deriva de dados coletados diretamente de fontes primárias com metodologia auditável. Exemplos: taxa de homicídios do Ministerio Público PY, precipitação do NASA POWER (série 2001–2020), percentual de acesso à água do Censo DGEEC 2022, IDH do Global Data Lab, irradiação solar do NASA POWER. A margem de erro estimada é $\pm 0{,}3$ pontos no score final da dimensão.
-
-\textbf{Nível B — Estimativa Interpolada de Dados Regionais Oficiais}
-
-O score deriva de dados oficiais disponíveis no nível departamental, interpolados para o nível distrital por modelos de distribuição proporcional (à população, à área ou à densidade). Exemplos: cobertura de internet por distrito (derivada de dados EPHC por departamento), pobreza extrema por distrito (derivada de EPHC departamental + dados Censo 2022). A margem de erro estimada é $\pm 0{,}5$ pontos no score da dimensão.
-
-\textbf{Nível C — Proxy Inferido por Analogia ou Modelo}
-
-O score deriva de variáveis proxy ou de modelos indiretos quando o dado direto não está disponível. Exemplos: qualidade do solo em distritos sem cobertura SoilGrids de alta resolução (inferida por analogia com distritos adjacentes de fisiografia semelhante), profundidade de poço estimada por modelo hidrogeológico simplificado, presença de crime organizado inferida por proximidade a rotas documentadas. A margem de erro estimada é $\pm 1{,}0$ ponto no score da dimensão.
-
-\subsection{Notação de Incerteza nos Scores}
-
-Quando a maioria das variáveis de uma dimensão é classificada como Nível C, ou quando há variáveis de Nível C em dimensões de alto peso no perfil do leitor, o score é apresentado com banda de incerteza explícita:
-
-\begin{itemize}
-  \item Score com predominância de Nível A: apresentado como valor simples (ex.: GSS = 7,8)
-  \item Score com presença significativa de Nível B: apresentado como valor com nota (ex.: GSS = 7,2$^{\dagger}$)
-  \item Score com maioria de variáveis Nível C: apresentado como intervalo (ex.: GSS = 6,4 $\pm$ 0,8)
-\end{itemize}
-
-% =====================================================================
-\section{Limitações, Transparência e Escopo do GSS}
-% =====================================================================
-
-\subsection{O que o GSS NÃO mede}
-
-A honestidade metodológica exige declarar explicitamente o que este sistema \textit{não} avalia:
-
-\begin{itemize}
-  \item \textbf{Preço de imóveis e custo de vida}: o GSS não é um índice de custo-benefício imobiliário. Um distrito com GSS 8,5 pode ter terra cara; outro com GSS 6,8 pode oferecer oportunidades excepcionais de preço. O capítulo de cada departamento inclui dados de mercado separadamente.
-  \item \textbf{Acesso a educação superior}: universidades e institutos técnicos não são variáveis do GSS. O IDH (E1) captura parcialmente a educação básica, mas não o acesso a formação superior.
-  \item \textbf{Burocracia de visto e residência}: o processo migratório legal paraguaio é descrito no capítulo de Migração Legal. O GSS não penaliza ou bonifica localidades por facilidade de regularização migratória.
-  \item \textbf{Mercado de trabalho formal}: o GSS é orientado para quem traz renda própria (investimento, aposentadoria, renda passiva, trabalho remoto). Não avalia oportunidades de emprego formal local.
-  \item \textbf{Qualidade de serviços de saúde}: serviços de saúde pública paraguaios apresentam qualidade heterogênea. O IDH captura parcialmente a longevidade, mas o GSS não avalia hospitais ou disponibilidade de especialistas por distrito.
-  \item \textbf{Dinâmicas culturais e linguísticas}: a integração social de imigrantes — especialmente em comunidades bilíngues guaraní/espanhol — não é quantificável pelo GSS.
-\end{itemize}
-
-\subsection{Frequência de Revisão dos Dados}
-
-Os dados do GSS têm diferentes ciclos de atualização:
-
-\begin{itemize}
-  \item \textbf{NASA POWER} (clima, irradiação): série histórica 2001–2020, estável. Revisão recomendada a cada 10 anos ou quando novas séries climatológicas forem publicadas.
-  \item \textbf{Censo DGEEC 2022}: próximo censo previsto para 2032. Dados de água, saneamento e densidade populacional desta edição são válidos para o período 2022–2030.
-  \item \textbf{EPHC/INE} (dados socioeconômicos): pesquisa anual. Scores da dimensão B (risco social) e E (IDH, internet) devem ser revisados anualmente.
-  \item \textbf{Ministerio Público} (homicídios): dados anuais. A variável B1 é atualizada anualmente.
-  \item \textbf{SoilGrids} (qualidade do solo): produto baseado em modelagem global com atualização irregular. Revisão recomendada com cada nova versão do produto (versão atual: SoilGrids 2.0, 2021).
-  \item \textbf{InSight Crime / SENAD} (crime organizado): relatórios anuais. A variável B3 deve ser revisada a cada 12–18 meses.
-\end{itemize}
-
-Esta edição utiliza os dados mais recentes disponíveis até dezembro de 2024. Os scores foram calculados entre janeiro e março de 2025.
-
-\subsection{Nota sobre Subjetividade Residual}
-
-Apesar da operacionalização com dados quantitativos, o GSS não elimina completamente o julgamento analítico. A definição dos limiares de pontuação (ex.: qual precipitação corresponde ao score C2 = 5,0?) envolve escolhas que outros analistas poderiam fazer diferentemente. O modelo é transparente sobre esses limiares — todos descritos neste capítulo — para que o leitor possa questionar, ajustar e replicar o raciocínio com seus próprios critérios.
-
-O GSS é uma ferramenta de apoio à decisão, não um oráculo. A decisão final de relocação deve integrar visitas presenciais, conversas com moradores locais e assessoria jurídica especializada.
+\subsubsection{Instruções para o Agente de
+IA}\label{instruuxe7uxf5es-para-o-agente-de-ia}
+
+Ao avaliar um novo local (ex: ``Departamento de Itapúa, Paraguai''), o
+agente deve:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Pesquisar Dados:} Coletar mapas de densidade populacional,
+  bases militares próximas, mapas geológicos e leis locais.
+\item
+  \textbf{Atribuir Notas:} Dar uma nota de 0 a 10 para cada uma das 5
+  categorias (A-E) justificando com dados.
+\item
+  \textbf{Aplicar a Fórmula:} Calcular o GSS.
+\item
+  \textbf{Relatório de Vulnerabilidades:} Identificar qual critério
+  baixou a nota e sugerir medidas de mitigação.
+\end{enumerate}
