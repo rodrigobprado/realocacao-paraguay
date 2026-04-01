@@ -133,10 +133,9 @@ def fix_content(text, filename):
 
 def main():
     if len(sys.argv) < 2:
-        files = sorted(glob.glob(
-            os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-                         'livro_latex', 'capitulos', 'dept_*.tex')
-        ))
+        base_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                                'livro_latex', 'capitulos')
+        files = sorted(glob.glob(os.path.join(base_dir, 'dept_*.tex')) + glob.glob(os.path.join(base_dir, 'apendice_*.tex')))
     else:
         files = sys.argv[1:]
 

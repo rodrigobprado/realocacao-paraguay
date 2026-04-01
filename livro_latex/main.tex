@@ -17,6 +17,9 @@
 \usepackage{hyperref}
 \hypersetup{
   hidelinks,
+  plainpages=false,
+  pdfpagelabels,
+  hypertexnames=false,
   pdftitle={Paraguai — Guia de Zonas Seguras · Realocação Estratégica na América do Sul},
   pdfauthor={Rodrigo Braga Prado},
   pdfsubject={Análise estratégica de 262 distritos do Paraguai — Primeira Edição, Revisão 2026},
@@ -31,6 +34,7 @@
 \usepackage{graphicx}
 \usepackage{fancyhdr}
 \usepackage{etoolbox}
+\usepackage{xparse}
 \usepackage{microtype}
 \usepackage{enumitem}
 \usepackage{hyphenat}
@@ -40,6 +44,7 @@
 \usepackage{calc}
 \usepackage{xfp}
 \newcommand{\real}[1]{#1}
+\newcounter{none} % contador fictício para blocos gerados com \LTcaptype{none}
 \usepackage{needspace}
 \usepackage{xurl}   % quebra URLs em qualquer ponto (/, ., -, _, ~, etc.)
 \urlstyle{same}     % usa a mesma fonte do texto nas URLs
@@ -282,10 +287,16 @@
   \end{tikzpicture}%
 }
 
-\newcommand{\secaoDiagnostico}[3]{%
+\NewDocumentCommand{\secaoDiagnostico}{m m +m o g}{%
   \section*{#1} % Título da Cidade
   \addcontentsline{toc}{section}{#1}
-  \label{dist:#1} % Label para links automáticos
+  \IfNoValueTF{#4}{%
+    \IfNoValueTF{#5}{}{%
+      \label{#5}%
+    }%
+  }{%
+    \label{#4}%
+  }%
   \noindent\textbf{Diagnóstico Integrado}\par\medskip % Título em largura total
   \begin{wrapfigure}{r}{0.35\textwidth}
     \centering

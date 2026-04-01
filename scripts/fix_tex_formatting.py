@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""
+r"""
 Corrige problemas de formatação nos arquivos dept_*.tex e outros capítulos:
 
 1. Remove \subsubsection{} vazios (heading sem título = linha em branco no PDF)
@@ -33,6 +33,14 @@ FOOTNOTE_MAP = {
 def fix_content(text, filename):
     changes = []
 
+    # Normaliza Unicode que quebra o pdflatex na árvore gerada.
+    if '′' in text:
+        text = text.replace('′', "'")
+        changes.append("  prime unicode: normalizado")
+    if 'H₂O' in text:
+        text = text.replace('H₂O', r'H$_2$O')
+        changes.append("  H2O unicode: normalizado")
+
     # 1. Remove \subsubsection{} vazios (heading sem texto)
     count_before = text.count(r'\subsubsection{}')
     text = re.sub(r'\n\\subsubsection\{\}\n', '\n', text)
@@ -40,6 +48,36 @@ def fix_content(text, filename):
     removed = count_before - count_after
     if removed:
         changes.append(f'  subsubsection{{}}: removidos {removed}')
+
+    # 1b. Remove labels automáticos repetidos em blocos climáticos.
+    # Esses labels são gerados em múltiplos distritos/chapters com o mesmo texto
+    # e não são usados como cross-reference no livro.
+    for label in (
+        'irradiauxe7uxe3o-solar-kwhmuxb2dia',
+        'precipitauxe7uxe3o-mmmuxeas',
+        'poluiuxe7uxe3o-luminosa',
+    ):
+        pattern = r'\\label\{' + re.escape(label) + r'\}'
+        count = len(re.findall(pattern, text))
+        if count:
+            text = re.sub(pattern, '', text)
+            changes.append(f'  label repetido {label}: removido(s) {count}')
+
+    # 1c. Remove labels de "Dossiê de Campo"; o texto não é alvo de hyperlink
+    # no livro e alguns distritos homônimos os repetiam em capítulos diferentes.
+    dossie_pattern = r'\\label\{dossie-[^}]+\}'
+    dossie_count = len(re.findall(dossie_pattern, text))
+    if dossie_count:
+        text = re.sub(dossie_pattern, '', text)
+        changes.append(f'  labels de dossie: removidos {dossie_count}')
+
+    # 1d. Remove labels de vulnerabilidade; eles não são referenciados por
+    # hyperlinks e algumas cidades homônimas os duplicavam.
+    vuln_pattern = r'\\label\{vuln-[^}]+\}'
+    vuln_count = len(re.findall(vuln_pattern, text))
+    if vuln_count:
+        text = re.sub(vuln_pattern, '', text)
+        changes.append(f'  labels de vuln: removidos {vuln_count}')
 
     # 2. Substitui footnotes repetidas por \fineXXX
     for footnote_text, cmd in FOOTNOTE_MAP.items():
