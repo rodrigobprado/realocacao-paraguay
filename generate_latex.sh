@@ -15,6 +15,18 @@ clean_geo() {
     echo "$1" | sed -E 's/^[0-9]+_//' | tr '_' ' '
 }
 
+district_label() {
+    local dept_id=$1
+    local raw_dist_name=$2
+    echo "dist:${dept_id}:${raw_dist_name}"
+}
+
+resolve_district_clave() {
+    local dept_id=$1
+    local district_name=$2
+    python3 scripts/resolve_district_clave.py "$dept_id" "$district_name"
+}
+
 # Nomes oficiais dos departamentos em espanhol
 dept_name_es() {
     case "$1" in
@@ -276,7 +288,9 @@ EOF
 fi
 
 # 4. Departamentos
-for dept_dir in $(ls -d Departamentos/*/ | sort); do
+shopt -s nullglob
+dept_dirs=(Departamentos/*/)
+for dept_dir in "${dept_dirs[@]}"; do
     dept_id_raw=$(basename "$dept_dir")
     dept_num=$(echo "$dept_id_raw" | cut -d'_' -f1 | sed 's/^0//') # Remove zero à esquerda para o ifnum do LaTeX
     [ -z "$dept_num" ] && dept_num=0
@@ -306,7 +320,8 @@ for dept_dir in $(ls -d Departamentos/*/ | sort); do
     fi
     rm -f t_dept_tables.tex
 
-    for dist_dir in $(ls -d "${dept_dir}"*/ | sort); do
+    district_dirs=("${dept_dir}"*/)
+    for dist_dir in "${district_dirs[@]}"; do
         dados_file="${dist_dir}DADOS.md"
         if [ -f "$dados_file" ]; then
             raw_dist_name=$(basename "$dist_dir")
@@ -349,14 +364,17 @@ for dept_dir in $(ls -d Departamentos/*/ | sort); do
             full_text=$(pandoc t_full_content.md -f markdown -t latex | sed 's/\\label{[^}]*}//g')
             
             # MAPA COM TIKZ
-            if [[ ! -z "$lat" ]] && [[ ! -z "$long" ]]; then
+            if clave=$(resolve_district_clave "$dept_id_raw" "$raw_dist_name" "$lat" "$long" 2>/dev/null); then
+                map_cmd="\mapaDistrito{${clave}}"
+            elif [[ ! -z "$lat" ]] && [[ ! -z "$long" ]]; then
                 map_cmd="\mapaConteudo{${lat}}{${long}}"
             else
-                map_cmd="\includegraphics[width=0.33\textwidth]{mapas/paraguai_base.pdf}"
+                map_cmd="\mapaConteudo{0}{0}"
             fi
 
             # CHAMADA DO COMANDO PADRONIZADO (CONTEÚDO COMPLETO SURFANDO NO WRAPFIG)
-            echo "\secaoDiagnostico{${dist_name}}{${map_cmd}}{${full_text}}" >> "$BASE/$tex_file"
+            dist_label=$(district_label "$dept_id_raw" "$raw_dist_name")
+            echo "\secaoDiagnostico{${dist_name}}{${map_cmd}}{${full_text}}{${dist_label}}" >> "$BASE/$tex_file"
             
             # 5. TABELA DE NOTAS GSS
             echo "\begin{table}[ht!]" >> "$BASE/$tex_file"

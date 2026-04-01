@@ -1,67 +1,95 @@
+import glob
 import os
 import re
 import sys
 
-def apply_safe_links(file_path):
-    with open(file_path, 'r', encoding='utf-8') as f:
+
+DEPT_DISPLAY_BY_ID = {
+    "00_Distrito_Capital": "Distrito Capital",
+    "01_Concepcion": "Concepción",
+    "02_San_Pedro": "San Pedro",
+    "03_Cordillera": "Cordillera",
+    "04_Guaira": "Guaira",
+    "05_Caaguazu": "Caaguazu",
+    "06_Caazapa": "Caazapa",
+    "07_Itapua": "Itapua",
+    "08_Misiones": "Misiones",
+    "09_Paraguari": "Paraguari",
+    "10_Alto_Parana": "Alto Parana",
+    "11_Central": "Central",
+    "12_Neembucu": "Neembucu",
+    "13_Amambay": "Amambay",
+    "14_Canindeyu": "Canindeyu",
+    "15_Presidente_Hayes": "Presidente Hayes",
+    "16_Boqueron": "Boqueron",
+    "17_Alto_Paraguay": "Alto Paraguay",
+}
+
+
+def build_district_index():
+    index = {}
+    base_dir = "Departamentos"
+
+    for dept_dir in sorted(glob.glob(os.path.join(base_dir, "*"))):
+        if not os.path.isdir(dept_dir):
+            continue
+
+        dept_id = os.path.basename(dept_dir)
+        dept_display = DEPT_DISPLAY_BY_ID.get(dept_id, dept_id.split("_", 1)[-1].replace("_", " "))
+
+        for district_dir in sorted(glob.glob(os.path.join(dept_dir, "*"))):
+            if not os.path.isdir(district_dir):
+                continue
+
+            raw_dist_name = os.path.basename(district_dir)
+            district_name = raw_dist_name.replace("_", " ")
+            label = f"dist:{dept_id}:{raw_dist_name}"
+            index.setdefault(district_name, []).append((dept_display, label))
+
+    return index
+
+
+def replace_links(file_path):
+    with open(file_path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # Coleta departamentos
-    depts = ["Distrito Capital", "Concepcion", "San Pedro", "Cordillera", "Guaira", "Caaguazu", "Caazapa", "Itapua", "Misiones", "Paraguari", "Alto Parana", "Central", "Neembucu", "Amambay", "Canindeyu", "Presidente Hayes", "Boqueron", "Alto Paraguay"]
-    
-    # Coleta distritos (pastas)
-    districts = []
-    base_dir = "Departamentos"
-    for root, dirs, files in os.walk(base_dir):
-        if root.count(os.sep) == 2: # Nível de distrito
-            districts.append(os.path.basename(root).replace('_', ' '))
+    district_index = build_district_index()
+    if not district_index:
+        raise RuntimeError("Nao foi possivel construir o indice de distritos para links.")
 
-    # Ordena por tamanho descendente para evitar substituir parte de nomes maiores
-    all_entities = []
-    for d in depts:
-        all_entities.append({'name': d, 'type': 'dept', 'id': d})
-    for dist in districts:
-        if dist not in depts: # Evita duplicatas se nomes forem iguais
-            all_entities.append({'name': dist, 'type': 'dist', 'id': dist})
-    
-    all_entities.sort(key=lambda x: len(x['name']), reverse=True)
+    def replacement(match, dept_display=None):
+        district_name = match.group(1)
+        display_name = match.group(2)
+        entry = district_index.get(district_name)
+        if not entry:
+            return match.group(0)
 
-    # Dicionário de tokens
-    tokens = {}
-    
-    def tokenize(text):
-        nonlocal tokens
-        for i, entity in enumerate(all_entities):
-            token = f"TOKEN_LINK_SAFE_{i}__"
-            # Regex: palavra exata, não precedida por \ ou dentro de { }
-            # Usando uma abordagem mais simples: se não houver \ na linha (aproximado)
-            pattern = r'\b' + re.escape(entity['name']) + r'\b'
-            
-            def replace_with_token(match):
-                tokens[token] = f"\\hyperref[{entity['type']}:{entity['id']}]{{{entity['name']}}}"
-                return token
+        if len(entry) == 1:
+            return f"\\hyperref[{entry[0][1]}]{{{display_name}}}"
 
-            # Processa linha por linha para ignorar comandos LaTeX
-            lines = text.split('\n')
-            new_lines = []
-            for line in lines:
-                if line.strip().startswith('\\') or '{' in line:
-                    new_lines.append(line)
-                else:
-                    new_lines.append(re.sub(pattern, replace_with_token, line))
-            text = '\n'.join(new_lines)
-        return text
+        # Desambigua pelo departamento mostrado na mesma linha.
+        if dept_display:
+            for known_dept, label in entry:
+                if known_dept == dept_display:
+                    return f"\\hyperref[{label}]{{{display_name}}}"
 
-    # Tokeniza
-    content = tokenize(content)
+        return f"\\hyperref[{entry[0][1]}]{{{display_name}}}"
 
-    # Substitui tokens pelos links finais
-    for token, link in tokens.items():
-        content = content.replace(token, link)
+    line_pattern = re.compile(r"\\hyperref\[dist:([^\]]+)\]\{([^}]+)\}")
+    lines = []
+    for line in content.splitlines():
+        if "\\hyperref[dist:" in line:
+            dept_match = re.search(r"\\hyperref\[dept:([^\]]+)\]\{([^}]+)\}", line)
+            dept_display = dept_match.group(2) if dept_match else None
+            line = line_pattern.sub(lambda m: replacement(m, dept_display), line)
+        lines.append(line)
 
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(content)
+    new_content = "\n".join(lines) + ("\n" if content.endswith("\n") else "")
+
+    with open(file_path, "w", encoding="utf-8") as f:
+        f.write(new_content)
+
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
-        apply_safe_links(sys.argv[1])
+        replace_links(sys.argv[1])
