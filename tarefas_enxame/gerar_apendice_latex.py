@@ -65,9 +65,33 @@ def md_table_to_latex(md_table_lines):
     if not rows:
         return ""
     ncols = len(rows[0])
-    col_spec = "l" + "X" * (ncols - 1)
-    tex = [f"\\begin{{tabularx}}{{\\linewidth}}{{{col_spec}}}",
-           "\\toprule"]
+    if ncols == 2:
+        col_spec = (
+            r">{\raggedright\arraybackslash}p{0.34\linewidth}"
+            r" >{\raggedright\arraybackslash}p{0.62\linewidth}"
+        )
+    elif ncols == 3:
+        col_spec = (
+            r">{\raggedright\arraybackslash}p{0.30\linewidth}"
+            r" >{\raggedright\arraybackslash}p{0.18\linewidth}"
+            r" >{\raggedright\arraybackslash}p{0.44\linewidth}"
+        )
+    elif ncols == 4:
+        col_spec = (
+            r">{\raggedright\arraybackslash}p{0.24\linewidth}"
+            r" >{\raggedright\arraybackslash}p{0.22\linewidth}"
+            r" >{\raggedright\arraybackslash}p{0.18\linewidth}"
+            r" >{\raggedright\arraybackslash}p{0.26\linewidth}"
+        )
+    else:
+        col_spec = "l" + "X" * (ncols - 1)
+    tex = [
+        "{\\small",
+        "\\setlength{\\tabcolsep}{3pt}",
+        "\\renewcommand{\\arraystretch}{1.12}",
+        f"\\begin{{tabularx}}{{\\linewidth}}{{{col_spec}}}",
+        "\\toprule",
+    ]
     for i, row in enumerate(rows):
         # Escapa caracteres especiais LaTeX
         cells = []
@@ -84,6 +108,7 @@ def md_table_to_latex(md_table_lines):
             tex.append("\\midrule")
     tex.append("\\bottomrule")
     tex.append("\\end{tabularx}")
+    tex.append("}")
     return "\n".join(tex)
 
 _SKIP_PATTERNS = re.compile(

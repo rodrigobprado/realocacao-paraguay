@@ -92,6 +92,10 @@ def refine_content(text):
         text
     )
 
+    # 3i. Evita que headings Markdown colados após blockquotes virem texto
+    # literal no PDF durante a conversão para LaTeX.
+    text = re.sub(r'(?m)^(>.*)\n(#{1,4} )', r'\1\n\n\2', text)
+
     # 4. Conversão de Precipitação mm/dia -> mm/mês
     # Abordagem mais robusta: iterar pelas linhas
     lines = text.split('\n')
