@@ -261,14 +261,11 @@ rm -f t_metod_refined.md
 # 2. Panorama Nacional
 refine_content_py tarefas_enxame/entregaveis_livro/CAPITULOS_LIVRO.md t_pan_refined.md
 grep -vE "Data:|GSS medio|Mediana" t_pan_refined.md | clean_content > t_pan.md
-echo -e "\n## Ranking Nacional\n" >> t_pan.md
-# Limpeza do Ranking preservando a estrutura
-cat tarefas_enxame/entregaveis_livro/RANK_NACIONAL.md | sed -E 's/[0-9]{2}_//g' | sed 's/Distrito_Capital/Distrito Capital/g' | tr '_' ' ' >> t_raw_rank.md
-clean_content < t_raw_rank.md >> t_pan.md
 pandoc t_pan.md -f markdown -t latex -o "$BASE/panorama_nacional.tex"
-rm -f t_raw_rank.md t_pan_refined.md
+rm -f t_pan_refined.md
 apply_glossary "$BASE/panorama_nacional.tex"
 apply_links "$BASE/panorama_nacional.tex"
+python3 scripts/generate_rank_nacional_tex.py tarefas_enxame/entregaveis_livro/RANK_NACIONAL.md >> "$BASE/panorama_nacional.tex"
 
 # 3. Expansão Editorial - Leituras Alfa (sem seção 2 — vai para cada capítulo de departamento)
 if [ -f "$LEITORES_ALFA_MD" ]; then
