@@ -92,6 +92,11 @@ def refine_content(text):
         text
     )
 
+    # Normaliza o símbolo de minuto/prime usado em coordenadas geográficas para
+    # evitar falha de codificação no pdfLaTeX.
+    text = text.replace('′', "'")
+    text = text.replace('H₂O', r'H$_2$O')
+
     # 3i. Evita que headings Markdown colados após blockquotes virem texto
     # literal no PDF durante a conversão para LaTeX.
     text = re.sub(r'(?m)^(>.*)\n(#{1,4} )', r'\1\n\n\2', text)
