@@ -9,52 +9,21 @@ departamental)}
 \textbf{Irradiância solar global --- (kWh/\allowbreak m²/\allowbreak dia):}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez \\
+\midrule
 6.76 & 6.20 & 5.42 & 4.44 & 3.36 & 2.83 & 3.21 & 3.93 & 4.61 & 5.49 &
 6.42 & 6.78 \\
-\end{longtable}
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
 Média anual: 4.95 kWh/\allowbreak m²/\allowbreak dia. Inclinação recomendada: 25° Norte (anual);
@@ -63,173 +32,436 @@ Média anual: 4.95 kWh/\allowbreak m²/\allowbreak dia. Inclinação recomendada
 \textbf{Precipitação --- (mm/\allowbreak mês):}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 22\tabcolsep) * \real{0.0833}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez \\
+\midrule
 123 & 149 & 130 & 143 & 143 & 71 & 59 & 33 & 70 & 161 & 197 & 182 \\
-\end{longtable}
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
 Média anual: \textasciitilde1.460 mm/\allowbreak ano. Estação chuvosa Out-Nov; seca
 Jul-Ago.
 \clearpage
 \subsection*{Dados Departamentais}
-\subsubsection{Desenvolvimento Humano e
-Social}
 
-\subsection{IDH Departamental}
+\subsection*{Segurança Pública}
 
-{\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}ll@{}}
-\toprule\noalign{}
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.34\linewidth} >{\raggedright\arraybackslash}p{0.62\linewidth}}
+\toprule
 Indicador & Valor \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+\midrule
+Taxa de homicídios (por 100k hab) & 5,5--5,6 (2019--2020, fonte INE --- próxima à média nacional) \\
+Crimes registrados (total/ano) & baixo em números absolutos (população esparsa) \\
+Número de comisarías & ~8 (estimativa --- vasto território com baixa densidade) \\
+Índice segurança relativo & médio \\
+\bottomrule
+\end{tabularx}
+}
+
+Presidente Hayes é o maior departamento do Paraguai Oriental (parte leste do Chaco) e possui uma das menores densidades populacionais do país. A taxa de homicídios de \textbf{5,5--5,6 por 100 mil habitantes} (2019--2020) está próxima da média nacional, mas em números absolutos os crimes são raros dado o pequeno contingente populacional.
+
+O Ministerio Público registra que o departamento responde por \textbf{aproximadamente 4\% das causas de homicídio doloso} nacional (2019--2024) --- proporção moderada para um departamento com ~2\% da população. O Chaco paraguaio é identificado como área de transito de cocaína: avionetas oriundas de Bolívia e Peru utilizam pistas clandestinas na região para abastecer mercados do Brasil e Argentina. No entanto, a violência armada entre facções é menor que nos departamentos do nordeste.
+
+Villa Hayes, capital departamental, é uma pequena cidade às margens do Rio Paraguai, a ~30 km de Asunción. O restante do departamento é área rural e de comunidades indígenas/menonitas com baixíssima densidade.
+
+\subsection*{IDH e Desenvolvimento Humano}
+
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.34\linewidth} >{\raggedright\arraybackslash}p{0.62\linewidth}}
+\toprule
+Indicador & Valor \\
+\midrule
 IDH & 0,693 \\
 Classificação IDH & médio \\
-Ranking nacional (1=melhor) & 13/\allowbreak 18 \\
+Ranking nacional (1=melhor) & 13/18 \\
 Esperança de vida & 71,8 anos \\
 Anos de escolaridade média & 7,8 anos \\
 RNB per capita (USD PPA) & 7.900 \\
-\end{longtable}
+\bottomrule
+\end{tabularx}
 }
 
-\subsection{Indicadores de Pobreza}
+> Nota: IDH estimado com base no relatório PNUD 2020 e dados da Global Data Lab para a região do Chaco. Presidente Hayes é o maior departamento do Chaco em população, beneficiando-se da proximidade com Asunción (Villa Hayes a 35 km da capital) e expansão da pecuária chaqueña.
 
-{\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}ll@{}}
-\toprule\noalign{}
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.34\linewidth} >{\raggedright\arraybackslash}p{0.62\linewidth}}
+\toprule
 Indicador & Valor \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+\midrule
 Taxa de pobreza total (\%) & 29,4\% \\
 Taxa de pobreza extrema (\%) & 7,2\% \\
 Índice de Gini & 0,453 \\
-\end{longtable}
+\bottomrule
+\end{tabularx}
 }
 
-\subsection{Infraestrutura Básica}
+> Fonte: INE --- EPHC 2023 (Presidente Hayes com aumento de pobreza entre 2022--2023). Nota: A EPHC não inclui dados de Boquerón e Alto Paraguay, porém inclui Presidente Hayes como o departamento chaqueño com maior cobertura estatística.
 
-{\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}ll@{}}
-\toprule\noalign{}
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.34\linewidth} >{\raggedright\arraybackslash}p{0.62\linewidth}}
+\toprule
 Indicador & Valor \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+\midrule
 Acesso a água potável (\%) & 71,3\% \\
 Acesso a saneamento (\%) & 68,9\% \\
-\end{longtable}
+\bottomrule
+\end{tabularx}
 }
 
-\subsubsection{Segurança Pública}
+> Estimativa baseada em dados do Censo 2022. O desafio hídrico é crítico no Chaco --- a água subterrânea é salobra em grande parte da região, exigindo tecnologias de dessalinização. Villa Hayes, próxima ao Rio Paraguai, tem melhor acesso.
 
-\subsection{Indicadores}
+Presidente Hayes é o departamento chaqueño mais acessível, com Villa Hayes a apenas 35 km de Asunción cruzando o Rio Paraguai. A proximidade com a capital é a principal vantagem: pode-se viver no Chaco com custo de vida muito baixo e acessar Asunción facilmente. O departamento tem grande expansão de pecuária intensiva, soja e grãos, sendo uma fronteira agrícola em desenvolvimento. A infraestrutura é limitada fora de Villa Hayes e Benjamín Aceval. O desafio maior é hídrico --- água potável (71,3\%) tem cobertura limitada pela natureza salobra das águas subterrâneas chaqueñas. Para brasileiros no agronegócio, o Chaco de Presidente Hayes oferece terras muito baratas com grande potencial. O IDH médio (0,693) reflete os desafios de desenvolvimento da região.
 
-{\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.6111}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.3889}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Indicador
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Valor
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-Taxa de homicídios (por 100k hab) & 5,5--5,6 (2019--2020, fonte INE\footnote{\fineINE} ---
-próxima à média nacional) \\
-Crimes registrados (total/\allowbreak ano) & baixo em números absolutos (população
-esparsa) \\
-Número de comisarías & \textasciitilde8 (estimativa --- vasto território
-com baixa densidade) \\
-Índice segurança relativo & médio \\
-\end{longtable}
+\subsection*{Sistema Prisional}
+
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+{\small
+\begin{tabularx}{\linewidth}{lXXXX}
+\toprule
+Nome & Município & Capacidade & População & Superlotação \\
+\midrule
+Penitenciaría Regional de Villa Hayes & Villa Hayes & 80 & ~140 & ~175\% \\
+\bottomrule
+\end{tabularx}
+}
 }
 
-\subsubsection{Mercado de Terra Rural}
-
-\subsection{Preços por Tipo de Terra}
-
-{\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}llll@{}}
-\toprule\noalign{}
-Tipo & Preço (USD/\allowbreak ha) & Faixa & Tendência \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-Agrícola alta produtividade & 2.500 & 1.500 -- 4.000 & ↑ \\
-Pastagem (campo nativo) & 1.200 & 700 -- 2.000 & ↑ \\
-Terra bruta /\allowbreak  arbustiva & 500 & 250 -- 900 & → \\
-\end{longtable}
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.34\linewidth} >{\raggedright\arraybackslash}p{0.62\linewidth}}
+\toprule
+Indicador & Valor \\
+\midrule
+Total de estabelecimentos & 1 \\
+Capacidade total (vagas) & ~80 \\
+População carcerária total & ~140 \\
+Taxa de superlotação & ~175\% \\
+\% presos provisórios & ~69\% \\
+\bottomrule
+\end{tabularx}
 }
 
-\subsection{Características do
-Mercado}
+Presidente Hayes é o maior departamento do Paraguai em área (72.907 km$^2$), mas um dos menos populosos. Localizado no Chaco paraguaio (região ocidental), tem economia baseada em pecuária bovina intensiva, tânninhas e, mais recentemente, agricultura mecanizada.
 
-{\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}ll@{}}
-\toprule\noalign{}
+A única penitenciaría regional está em Villa Hayes, capital departamental e cidade industrial próxima a Asunción (~30 km pela Ruta 9). O estabelecimento é pequeno e recebe detentos principalmente de Villa Hayes e de comunidades do Chaco Central.
+
+O perfil da criminalidade local inclui crimes contra a propriedade rural, abigeato (roubo de gado) e casos de violência relacionados a disputas de terras. O crime organizado tem presença limitada comparada a departamentos de fronteira com o Brasil.
+
+Detentos do interior profundo do departamento (Benjamín Aceval, Pozo Colorado, Tte. Primero Manuel Irala Fernández) enfrentam longas distâncias para chegar ao presídio de referência, e muitos com penas curtas ou prisão preventiva ficam alojados em delegacias municipais.
+
+\textbf{Para imigrantes:} Presidente Hayes oferece oportunidades únicas no setor pecuário e agroindustrial do Chaco. Villa Hayes tem boa infraestrutura relativa para o Chaco e fica próxima de Asunción. O sistema prisional tem impacto mínimo na segurança geral do departamento. Municípios do interior do Chaco têm infraestrutura limitada mas ambiente tranquilo.
+
+\subsection*{Recursos Hídricos Subterrâneos}
+
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.24\linewidth} >{\raggedright\arraybackslash}p{0.22\linewidth} >{\raggedright\arraybackslash}p{0.18\linewidth} >{\raggedright\arraybackslash}p{0.26\linewidth}}
+\toprule
+Aquífero & Cobertura no Dept. & Profundidade Média & Vazão Típica \\
+\midrule
+Yrenda-Toba-Tarijeño (SAYTT) --- confinado & ~70\% & 100--300 m & 20--80 m$^3$/h \\
+Aluvial (rios Paraguay / Pilcomayo) & Faixas ribeirinhas & 8--25 m & 3--12 m$^3$/h \\
+Aquíferos freáticos rasos (Chaco) & ~30\% & 20--60 m & 3--10 m$^3$/h \\
+\bottomrule
+\end{tabularx}
+}
+
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.34\linewidth} >{\raggedright\arraybackslash}p{0.62\linewidth}}
+\toprule
 Parâmetro & Valor \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+\midrule
+Profundidade média --- SAYTT (m) & 100--300 \\
+Profundidade máxima recomendada (m) & 400 \\
+Vazão típica (m$^3$/h) & 15--60 \\
+Custo estimado perfuração (USD) & 4.000 -- 14.000 \\
+Qualidade da água --- superficial (0--100 m) & ruim a imprópria (salina/salobra) \\
+Qualidade da água --- profunda (>150 m) & moderada a boa (requer dessalinização em áreas centrais) \\
+pH médio & 7,0--8,5 \\
+Condutividade elétrica típica (µS/cm) & 500--5.000 \\
+Outorga necessária & sim \\
+Órgão regulador & MADES --- DGPCRH \\
+\bottomrule
+\end{tabularx}
+}
+
+Presidente Hayes é o departamento mais próximo de Asunción no Chaco, com a capital Villa Hayes. O Sistema Acuífero Yrenda (SAY) cobre cerca de 2/3 da Região Occidental (Chaco) paraguaia, incluindo este departamento. A salinidade da água subterrânea aumenta de oeste para leste (direção do fluxo), tornando a água em profundidades rasas (0--100 m) frequentemente salobra ou salina e imprópria para consumo humano e animal sem tratamento. Em profundidades superiores a 150--200 m, a qualidade melhora em algumas localidades. O Governo paraguaio instalou dessalinizadoras no Chaco para remediar esse problema, com resultados variados. As faixas ribeirinhas do rio Paraguay têm água superficial de qualidade razoável e maior acessibilidade por captação aluvial. Uso principal: dessedentação animal (gado bovino), abastecimento doméstico com tratamento.
+
+Presidente Hayes é o portão de entrada do Chaco, com fazendas de gado bovino extensivo. A questão hídrica é o maior desafio: água subterrânea é frequentemente salobra, exigindo dessalinização. O custo de perfuração (USD 4.000--14.000) não inclui o sistema de dessalinização (USD 5.000--30.000 adicionais dependendo da capacidade). Para propriedades rurais, é essencial contratar hidrogeólogo para localizar zonas com menor salinidade. Villa Hayes e cidades próximas ao rio Paraguay têm acesso mais fácil a água de qualidade. Para imigrantes sem experiência no Chaco, recomenda-se consultar produtores locais e o SENASA antes de investir.
+
+\subsection*{Aptidão do Solo}
+
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.30\linewidth} >{\raggedright\arraybackslash}p{0.18\linewidth} >{\raggedright\arraybackslash}p{0.44\linewidth}}
+\toprule
+Tipo de Solo & \% do Território & Características \\
+\midrule
+Cambissolos / Luvissolos & 35\% & Solos de textura siltosa a argilosa; profundos e férteis; carbonatos abaixo de 70 cm; alta capilaridade e risco de salinização \\
+Fluvissolos (Aluviais) & 25\% & Solos aluviais das planícies do Rio Paraguai e Rio Pilcomayo; fertilidade moderada a alta; salinidade variável \\
+Arenossolos / Regossolos & 25\% & Solos arenosos do interior do Chaco; baixa fertilidade natural; drenagem boa, mas baixa retenção \\
+Solonetz / Salinos & 15\% & Solos salino-sódicos em zonas de lençol freático raso; limitações severas para maioria das culturas \\
+\bottomrule
+\end{tabularx}
+}
+
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.30\linewidth} >{\raggedright\arraybackslash}p{0.18\linewidth} >{\raggedright\arraybackslash}p{0.44\linewidth}}
+\toprule
+Classe & \% Território & Uso Recomendado \\
+\midrule
+Lavoura intensiva & 10\% & Soja no sul (zona de transição Chaco-Oriental), cultivos tolerantes à salinidade leve \\
+Lavoura extensiva & 15\% & Sorgo, algodão, girassol em áreas de menor salinidade \\
+Pastagem natural/melhorada & 55\% & Pecuária extensiva --- vocação principal; gramíneas nativas do Chaco \\
+Floresta / reserva & 15\% & Bosque nativo do Chaco Úmido; florestamento com espécies nativas \\
+Sem aptidão agrícola & 5\% & Áreas salinas severas, áreas inundáveis permanentes \\
+\bottomrule
+\end{tabularx}
+}
+
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.34\linewidth} >{\raggedright\arraybackslash}p{0.62\linewidth}}
+\toprule
+Parâmetro & Valor \\
+\midrule
+pH médio & 6,5 -- 8,5 \\
+Fertilidade natural & média-alta (exceto zonas salinas) \\
+Teor de matéria orgânica & baixo a médio \\
+Necessidade de calcário & não (solos já alcalinos/neutros) \\
+\bottomrule
+\end{tabularx}
+}
+
+Presidente Hayes é o Chaco mais próximo de Asunción --- parte do território fica a menos de 30 km da capital. Possui características intermediárias entre o Chaco seco e a região oriental. Para imigrantes brasileiros, o interesse é principalmente em pecuária extensiva de grande escala. O preço da terra é muito inferior ao da região oriental. Quem tem experiência com o Pantanal ou com o Cerrado mato-grossense encontrará similaridades. Para grãos, apenas no extremo sul (transição com Oriental). A questão hídrica é central: qualquer projeto agrícola exige avaliação cuidadosa de água para irrigação e dessedentação animal.
+
+\subsection*{Terra Rural}
+
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.24\linewidth} >{\raggedright\arraybackslash}p{0.22\linewidth} >{\raggedright\arraybackslash}p{0.18\linewidth} >{\raggedright\arraybackslash}p{0.26\linewidth}}
+\toprule
+Tipo & Preço (USD/ha) & Faixa & Tendência \\
+\midrule
+Agrícola alta produtividade & 2.500 & 1.500 -- 4.000 & $\uparrow$ \\
+Pastagem (campo nativo) & 1.200 & 700 -- 2.000 & $\uparrow$ \\
+Terra bruta / arbustiva & 500 & 250 -- 900 & $\rightarrow$ \\
+\bottomrule
+\end{tabularx}
+}
+
+> Referência de listagem: estabelecimento pecuário em Villa Hayes a USD 1.800/ha; estância de 1.969 ha a USD 5.500/ha (zona mais valorizada); terra bruta Pilcomayo: USD 500--700/ha.
+
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.34\linewidth} >{\raggedright\arraybackslash}p{0.62\linewidth}}
+\toprule
+Parâmetro & Valor \\
+\midrule
 Valorização anual média (\%) & 5--8\% \\
 Lote mínimo rural (ha) & 20 (zona de chaco central) \\
 Imposto territorial rural (\%) & 1\% sobre valor fiscal \\
 Liquidez do mercado & média \\
-\end{longtable}
+\bottomrule
+\end{tabularx}
 }
+
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.24\linewidth} >{\raggedright\arraybackslash}p{0.22\linewidth} >{\raggedright\arraybackslash}p{0.18\linewidth} >{\raggedright\arraybackslash}p{0.26\linewidth}}
+\toprule
+Indicador & Presidente Hayes (PY) & Mato Grosso (BR) --- Pantanal & Mato Grosso do Sul (BR) --- Pantanal \\
+\midrule
+Terra pastagem (USD/ha) & 700--2.000 & 5.000--12.000 & 4.000--9.000 \\
+Terra bruta (USD/ha) & 250--900 & 2.000--5.000 & 1.500--4.000 \\
+Custo relativo & ~15--20\% do MT & referência MT & referência MS \\
+\bottomrule
+\end{tabularx}
+}
+
+Presidente Hayes oferece terra para pecuária extensiva a custo muito reduzido. Ideal para quem busca grandes extensões para bovinocultura de corte com baixo investimento inicial em terra.
+
+\subsection*{Mercado Imobiliário}
+
+\textbf{Capital:} Villa Hayes
+
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.30\linewidth} >{\raggedright\arraybackslash}p{0.18\linewidth} >{\raggedright\arraybackslash}p{0.44\linewidth}}
+\toprule
+Tipo & Preço (USD/m$^2$) & Aluguel (USD/mês) \\
+\midrule
+Apartamento 2 quartos & 500 -- 800 & 200 -- 380 \\
+Casa 3 quartos & 450 -- 750 & 180 -- 340 \\
+\bottomrule
+\end{tabularx}
+}
+
+> Nota: Listagens de alto padrão (casas de 500--800m$^2$) chegam a USD 625.000--682.000, mas representam segmento premium não representativo do mercado médio.
+
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.34\linewidth} >{\raggedright\arraybackslash}p{0.62\linewidth}}
+\toprule
+Parâmetro & Valor \\
+\midrule
+Valorização anual (\%) & 5--7\% \\
+Disponibilidade de financiamento & limitada--boa (proximidade com Asunción, atravessando o Rio Paraguay) \\
+Bairros mais valorizados & Centro, Barrio Paloma (beira do rio), zonas industriais \\
+\bottomrule
+\end{tabularx}
+}
+
+\textbf{Vale a pena comprar ou alugar?}
+Villa Hayes é a capital do Chaco paraguaio do lado oriental --- fica a apenas 30 km de Asunción em linha reta, mas separada pelo Rio Paraguay. Com a ponte (Puente Héroes del Chaco) o acesso é direto. A cidade tem crescimento impulsionado pela zona industrial do Chaco e pela expansão da fronteira agropecuária.
+
+\textbf{Áreas recomendadas:}
+
+\textbf{Armadilhas comuns:}
+
+\subsection*{Cobertura Celular}
+
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+{\small
+\begin{tabularx}{\linewidth}{lXXXXX}
+\toprule
+Operadora & 2G & 3G & 4G & 5G & Cobertura Pop. \\
+\midrule
+Tigo & 55\% & 38\% & 22\% & --- & 48\% \\
+Personal/Claro & 42\% & 28\% & 15\% & --- & 35\% \\
+VOX & 18\% & 10\% & 5\% & --- & 15\% \\
+\bottomrule
+\end{tabularx}
+}
+}
+
+> \textbf{Nota:} Presidente Hayes é o maior departamento do Paraguai Oriental em área e cobre parte do Chaco. Villa Hayes (capital, ~50k hab.) está na margem do rio Paraguai, muito próxima a Asunción, e tem boa cobertura. O Chaco Boreal --- vasto território a oeste --- tem cobertura extremamente limitada, com apenas algumas radiobases instaladas via projeto FSU (Fundo de Serviço Universal) da CONATEL.
+
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.34\linewidth} >{\raggedright\arraybackslash}p{0.62\linewidth}}
+\toprule
+Parâmetro & Valor \\
+\midrule
+Melhor operadora rural & Tigo (único com cobertura razoável via FSU) \\
+Velocidade 4G média (Mbps) & 8--20 (Villa Hayes) / <5 (interior Chaco) \\
+Áreas sem cobertura & 70\%+ do território chaquenho; imensas áreas sem sinal \\
+Sinal em propriedade rural & ruim (Chaco) a bom (próximo a Villa Hayes) \\
+\bottomrule
+\end{tabularx}
+}
+
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.24\linewidth} >{\raggedright\arraybackslash}p{0.22\linewidth} >{\raggedright\arraybackslash}p{0.18\linewidth} >{\raggedright\arraybackslash}p{0.26\linewidth}}
+\toprule
+Plano & Operadora & USD/mês & Dados \\
+\midrule
+Pré-pago básico (7 dias) & Tigo & ~2,50 & 3 GB \\
+Pré-pago intermediário (30 dias) & Personal & ~5,00 & 8 GB \\
+Pós-pago entrada & Tigo & ~12,00 & 15 GB + chamadas \\
+Pós-pago intermediário & Personal/Claro & ~18,00 & 30 GB + chamadas \\
+\bottomrule
+\end{tabularx}
+}
+
+\subsection*{Internet}
+
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.34\linewidth} >{\raggedright\arraybackslash}p{0.62\linewidth}}
+\toprule
+Indicador & Valor \\
+\midrule
+\% população com internet & ~45\% \\
+\% com banda larga fixa & ~15\% dos domicílios (concentrado em Villa Hayes) \\
+Velocidade média download (Mbps) & 25--55 (Villa Hayes) / <5 (interior Chaco) \\
+Velocidade média upload (Mbps) & 8--20 (Villa Hayes) \\
+\bottomrule
+\end{tabularx}
+}
+
+> O percentual de 45\% representa principalmente Villa Hayes e municípios próximos à capital. A vasta maioria do território chaquenho tem índice de acesso à internet muito inferior --- estimado em menos de 5\% dos domicílios no interior.
+
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.30\linewidth} >{\raggedright\arraybackslash}p{0.18\linewidth} >{\raggedright\arraybackslash}p{0.44\linewidth}}
+\toprule
+Tecnologia & Disponibilidade & Velocidade Típica \\
+\midrule
+Fibra ótica (FTTH) & Villa Hayes & 50--300 Mbps \\
+Cabo HFC & Villa Hayes (limitado) & 20--100 Mbps \\
+Rádio/Wireless & Villa Hayes e municípios próximos & 5--40 Mbps \\
+ADSL (Copaco) & Villa Hayes + municípios com central & 2--10 Mbps \\
+3G Solar (Tigo-FSU) & Pontos isolados no Chaco & 1--5 Mbps \\
+Satélite (Starlink) & Todo o departamento & 50--200 Mbps \\
+\bottomrule
+\end{tabularx}
+}
+
+{\small
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{0.24\linewidth} >{\raggedright\arraybackslash}p{0.22\linewidth} >{\raggedright\arraybackslash}p{0.18\linewidth} >{\raggedright\arraybackslash}p{0.26\linewidth}}
+\toprule
+Provedor & Tecnologia & Área de cobertura & Preço ref. (USD/mês) \\
+\midrule
+Tigo & Fibra/HFC/Rádio & Villa Hayes + municípios leste & 18--50 \\
+Claro/Personal & Fibra/Rádio & Villa Hayes & 15--45 \\
+Copaco & ADSL/Fibra & Villa Hayes + municípios (rede legada) & 10--28 \\
+Tigo FSU & 3G solar & Pontos isolados no Chaco & subsidiado/gratuito (pop. indígena) \\
+Starlink & Satélite LEO & TODO o departamento & ~44 + equip. ~370 \\
+\bottomrule
+\end{tabularx}
+}
+
+A situação de internet rural em Presidente Hayes é \textbf{dramaticamente dividida}:
+
+\textbf{Villa Hayes e margem leste:} Boa conectividade, beneficiada pela proximidade com Asunción.
+
+\textbf{Chaco Boreal (maioria do território):}
+
+\textbf{Alerta para imigrantes:} A conectividade no Chaco de Presidente Hayes é uma das maiores limitações práticas para quem considera adquirir terras na região. Planejar obrigatoriamente com Starlink.
+
 \clearpage
 \newpage
 \secaoDiagnostico{Benjamin Aceval}{\mapaDistrito{1502}}{Benjamin Aceval (Presidente Hayes) apresenta perfil operacional
@@ -407,55 +639,21 @@ Mitigação}
 (kWh/\allowbreak m²/\allowbreak dia)}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Média
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez & Média \\
+\midrule
 6.64 & 6.12 & 5.48 & 4.54 & 3.38 & 2.87 & 3.21 & 3.93 & 4.62 & 5.45 &
 6.37 & 6.67 & \textbf{4.94} \\
-\end{longtable}
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
 \textbf{Inclinação solar recomendada:} 25° N (anual) · 35° N (inverno
@@ -464,55 +662,21 @@ jun-ago) · 15° N (verão nov-jan)
 \paragraph{Precipitação (mm/\allowbreak mês)}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Total/\allowbreak ano
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez & Total/\allowbreak ano \\
+\midrule
 123 & 149 & 130 & 143 & 143 & 71 & 59 & 33 & 70 & 161 & 197 & 182 &
 \textbf{1465 mm} \\
-\end{longtable}
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
 \paragraph{Poluição Luminosa}
@@ -540,7 +704,7 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-pH (H$_2$O) & 5.95 \\
+pH (H\(_2\)O) & 5.95 \\
 Carbono orgânico (SOC) & 14.02 g/\allowbreak kg \\
 Argila & 28.85 \% \\
 Areia & 39.68 \% \\
@@ -889,55 +1053,21 @@ Mitigação}
 (kWh/\allowbreak m²/\allowbreak dia)}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Média
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez & Média \\
+\midrule
 6.68 & 6.08 & 5.46 & 4.44 & 3.41 & 2.94 & 3.33 & 4.15 & 4.84 & 5.56 &
 6.36 & 6.59 & \textbf{4.99} \\
-\end{longtable}
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
 \textbf{Inclinação solar recomendada:} 23° N (anual) · 33° N (inverno
@@ -946,55 +1076,21 @@ jun-ago) · 13° N (verão nov-jan)
 \paragraph{Precipitação (mm/\allowbreak mês)}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Total/\allowbreak ano
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez & Total/\allowbreak ano \\
+\midrule
 104 & 122 & 110 & 79 & 58 & 21 & 16 & 11 & 19 & 69 & 97 & 114 &
 \textbf{825 mm} \\
-\end{longtable}
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
 \paragraph{Poluição Luminosa}
@@ -1022,7 +1118,7 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-pH (H$_2$O) & 6.85 \\
+pH (H\(_2\)O) & 6.85 \\
 Carbono orgânico (SOC) & 15.27 g/\allowbreak kg \\
 Argila & 33.08 \% \\
 Areia & 30.82 \% \\
@@ -1371,55 +1467,21 @@ Mitigação}
 (kWh/\allowbreak m²/\allowbreak dia)}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Média
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez & Média \\
+\midrule
 6.76 & 6.20 & 5.42 & 4.44 & 3.36 & 2.83 & 3.21 & 3.93 & 4.61 & 5.49 &
 6.42 & 6.78 & \textbf{4.95} \\
-\end{longtable}
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
 \textbf{Inclinação solar recomendada:} 25° N (anual) · 35° N (inverno
@@ -1428,55 +1490,21 @@ jun-ago) · 15° N (verão nov-jan)
 \paragraph{Precipitação (mm/\allowbreak mês)}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Total/\allowbreak ano
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez & Total/\allowbreak ano \\
+\midrule
 123 & 149 & 130 & 143 & 143 & 71 & 59 & 33 & 70 & 161 & 197 & 182 &
 \textbf{1465 mm} \\
-\end{longtable}
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
 \paragraph{Poluição Luminosa}
@@ -1504,7 +1532,7 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-pH (H$_2$O) & 5.98 \\
+pH (H\(_2\)O) & 5.98 \\
 Carbono orgânico (SOC) & 14.32 g/\allowbreak kg \\
 Argila & 24.73 \% \\
 Areia & 43.82 \% \\
@@ -1853,55 +1881,21 @@ Mitigação}
 (kWh/\allowbreak m²/\allowbreak dia)}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Média
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez & Média \\
+\midrule
 6.76 & 6.20 & 5.42 & 4.44 & 3.36 & 2.83 & 3.21 & 3.93 & 4.61 & 5.49 &
 6.42 & 6.78 & \textbf{4.95} \\
-\end{longtable}
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
 \textbf{Inclinação solar recomendada:} 25° N (anual) · 35° N (inverno
@@ -1910,55 +1904,21 @@ jun-ago) · 15° N (verão nov-jan)
 \paragraph{Precipitação (mm/\allowbreak mês)}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Total/\allowbreak ano
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez & Total/\allowbreak ano \\
+\midrule
 123 & 149 & 130 & 143 & 143 & 71 & 59 & 33 & 70 & 161 & 197 & 182 &
 \textbf{1465 mm} \\
-\end{longtable}
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
 \paragraph{Poluição Luminosa}
@@ -1986,7 +1946,7 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-pH (H$_2$O) & 6.05 \\
+pH (H\(_2\)O) & 6.05 \\
 Carbono orgânico (SOC) & 14.09 g/\allowbreak kg \\
 Argila & 28.1 \% \\
 Areia & 38.17 \% \\
@@ -2233,62 +2193,40 @@ Mitigação}
 \begin{itemize}
 \tightlist
 \item
-  \textbf{Centralização Política:} Alvo óbvio em crises institucionais
-  ou conflitos (Mitigação: manter residência secundária em zona
-  rural/\allowbreak periférica).
+  \textbf{Vulnerabilidade Hídrica Extrema:} Dependência total de muros
+  de contenção (Mitigação: não recomendada para residência primária;
+  manter apenas base logística de curto prazo).
 \item
-  \textbf{Dependência de Serviços:} Colapso de rede elétrica ou água
-  atinge o núcleo urbano rapidamente (Mitigação: geradores solares e
-  cisternas).
+  \textbf{Dependência de Redes:} Vulnerabilidade ao colapso sistêmico de
+  energia e água metropolitana (Mitigação: instalação de sistemas
+  solares potentes e estocagem robusta de suprimentos
+  argentinos/\allowbreak nacionais).
 \item
-  \textbf{Risco de Inundação:} Evitar áreas de baixa cota próximas ao
-  rio.
-\item
-  \textbf{Agitação Social:} Centro de manifestações nacionais
-  (Mitigação: localização fora do eixo central/\allowbreak administrativo).
+  \textbf{Gargalo Logístico:} Risco de isolamento por bloqueio da ponte
+  ou fronteira (Mitigação: mapeamento de rotas fluviais alternativas via
+  Rio Pilcomayo).
 \end{itemize}
 
 \subsubsection{Dossiê de Campo}
 \begin{description}[style=nextline,leftmargin=0.5cm,font=\bfseries]
-\item[Coordenadas]  25°16'S 57°38'W.
-\item[Topografia]  Colinas suaves (geologicamente estável, risco sísmico desprezível). Margeada pelo Rio Paraguai.
-\item[Alvos Estratégicos]  Palácio de los López (Governo), Porto Sajonia (Marinha), Base Ñu Guasu (Aeronáutica/\allowbreak Exército), Aeroporto Silvio Pettirossi (Luque), Hub elétrico de transmissão de Itaipu.
-\item[Fallout]  Ventos predominantes: Nordeste (verão - Sirocco, quente) e Sul (inverno - Pampero, frio). Baixo risco de fallout global, mas vulnerável se houver ataques a centros de comando nacionais.
-\item[Mídia local]  Principais meios incluem ABC Color, Última Hora, NPY, SNT e rádios AM/\allowbreak FM locais. Cobertura 4G ampla na área urbana.
-\item[População]  464.185 em 2025 (INE\footnote{\fineINE}). Censo 2022 Final: 462.241. Área metropolitana (Gran Asunción) com \textasciitilde 2.200.000.
-\item[Densidade]  \textasciitilde 3.950 hab/\allowbreak km² (Núcleo urbano denso).
-\item[Vias de Acesso]  Hub central do país. Rutas PY01, PY02, PY03. Gargalos em pontes sobre o Rio Paraguai (Remanso, Héroes del Chaco).
-\item[Serviços]  Melhor infraestrutura hospitalar e educacional do país. Investimentos maciços em novos centros de saúde.
-\item[Custo de Vida]  US\$ 600-1.550/\allowbreak mês (dependendo do padrão). Terrenos urbanos: US\$ 400-650/\allowbreak m².
-\item[Saúde de alta complexidade]  IMT, INCAN, INE\footnote{\fineINE}RAM, Hospital General Barrio Obrero, Hospital del Trauma, Hospital Materno Infantil San Pablo, Hospital Materno Infantil Santísima Trinidad, Hospital Materno Infantil Loma Pyta, Hospital Psiquiátrico e Hospital del Indígena concentram oferta especializada na capital.
-\item[Universidades habilitadas]  Asunción concentra oferta do CONES, com instituições como Universidad Americana, Universidad Autónoma de Asunción e Universidad Adventista del Paraguay.
-\item[Conexões logísticas]  Porto de Asunción, sistema 911 e Aeroporto Internacional Silvio Pettirossi reforçam a função de nó administrativo, portuário e metropolitano.
-\item[Idade mediana]  33 anos em 2025, segundo projeções do INE\footnote{\fineINE}.
-\item[Fecundidade]  1,64 filho por mulher em 2022 e 1,68 em 2025 nas projeções do INE\footnote{\fineINE}.
-\item[Escolaridade]  11,7 anos de estudo em homens e 11,4 em mulheres na faixa de 15+ anos; a cidade concentra o maior capital educacional do país.
-\item[Assistência escolar]  os indicadores nacionais da EPHC 2025 mostram 39,4\% de frequência geral e 97,7\% de assistência entre 5 e 9 anos.
-\item[Hidrologia]  Risco de Inundação Recorrente. Áreas ribeirinhas (Bañados) sofrem cheias periódicas ligadas ao El Niño.
-\item[Clima]  Tropical/\allowbreak Subtropical. Verões com temperaturas >40°C. Tempestades severas com rajadas de vento de até 160 km/\allowbreak h.
-\item[Sismicidade]  Muito baixa. Região tectonicamente estável.
-\item[Inclinação recomendada para placas solares]  25° voltado para o Norte (anual); 35° no inverno (Jun-Ago); 15° no verão (Nov-Jan). Base: latitude local -25.28°S.
-\item[Energia]  Dependência total da rede nacional (Itaipu), mas com a energia mais barata da região (\textasciitilde US\$ 0,05/\allowbreak kWh).
-\item[Água]  Abundante (Rio Paraguai), tratamento centralizado pela ESSAP\footnote{\fineESSAP}.
-\item[Solo]  Solo fértil na Região Oriental, mas área urbana saturada. Potencial agrícola nos arredores (Central/\allowbreak Chaco'i).
-\item[Autossuficiência]  Baixa no núcleo urbano; alta dependência de suprimentos logísticos nacionais e internacionais.
-\item[Internet de alta velocidade]  110 pontos de WiFi libre foram habilitados em Asunción pelo MITIC; 320 novos pontos chegaram ao país em 2023, com cobertura nacional ampliada.
-\item[Rede celular]  a tecnologia 5G foi lançada oficialmente no país em dezembro de 2025 e teve ato em Asunción, no Paseo La Galería.
-\item[Poços e águas subterrâneas]  não há profundidade média oficial consolidada para poços artesianos em Asunción; a regulação permanece com MADES e Lei 3239/\allowbreak 07.
-\item[Combustível e gás]  não foi identificado inventário oficial único por distrito para postos, eletropostos e distribuição de gás encanado.
-\item[Serviço público digital]  a municipalidade de Asunción iniciou processo de transformação digital com apoio do MITIC em 2025.
-\item[Segurança]  Taxa de homicídios baixa para padrões latinos (7.1/\allowbreak 100k). Criminalidade focada em delitos contra o patrimônio. Áreas nobres e corporativas são consideradas seguras.
-\item[Leis Local]  Sede do governo central. Direitos de propriedade bem definidos. Incentivos fiscais (Lei 60/\allowbreak 90).
-\item[Delegacias]  Dirección de Policía de Asunción com 23 comisarías jurisdicionais listadas pela Policía Nacional.
-\item[Presídios]  Tacumbú concentra 2.151 PPL em censo recente do Ministério de Justicia; o conjunto penitenciário de Asunción também inclui UPIE e Granja Ko'e Pyahu, com mais de 2.200 PPL em visita institucional de 2025.
-\item[Correios e entregas]  Correos del Paraguay opera cobertura nacional e atende a capital; não há tabela oficial única de desempenho local por bairro.
-\item[Comércio urbano]  o MIC publicou o REPSE do 1º quadrimestre de 2025 com Asunción concentrando 32,2\% dos novos prestadores de serviços do país, o que funciona como proxy oficial de dinamismo comercial formal; o inventário centralizado de cinemas, shoppings e atacados segue sem tabela única.
-\item[Escolaridade e ensino superior]  INE\footnote{\fineINE} e CONES são as bases centrais para alfabetização, escolaridade e oferta universitária; a extração fina por recorte territorial permanece parcial.
-\item[Demografia social]  idade mediana de 33 anos e fecundidade de 1,68 filho por mulher em 2025; o item já saiu da zona de lacuna aberta.
-\item[Poluição luminosa]  Bortle 8 (céu urbano), radiância artificial estimada em 100 nW/\allowbreak cm²/\allowbreak sr. Fonte: World Atlas of Artificial Night Sky Brightness.
+\item[Coordenadas]  25°14'S 57°40'W.
+\item[Topografia]  Relevo plano, zona de baixada situada na confluência dos rios Paraguai e Pilcomayo. Altitude \textasciitilde 55m. Área reduzida de \textasciitilde 20 km². Geologicamente estável, risco sísmico desprezível.
+\item[Alvos Estratégicos]  Ponto de Fronteira Internacional (Conexão direta com Clorinda, Argentina); Hub de comércio transfronteiriço vicinal; Proximidade tática com o novo Ponte Héroes del Chaco (conexão vital com Assunção). Ausência de bases militares massivas, mas zona de alto controle policial, aduaneiro e de inteligência de fronteira.
+\item[Fallout]  Ventos predominantes do Norte (NE) e Leste. Risco elevado de fallout indireto devido à proximidade imediata com a capital Assunção (\textasciitilde 15 km).
+\item[População]  6.005 habitantes (Censo 2022 Final). População urbana consolidada com perfil estritamente comercial e mercantil.
+\item[Densidade]  \textasciitilde 300,3 hab/\allowbreak km² (Densidade urbana elevada para a região, indicando alta vulnerabilidade social e risco de desabastecimento em crises).
+\item[Vias de Acesso]  Localização estratégica próxima à Ruta PY09 (Transchaco) e acesso direto via Ponte Héroes del Chaco para Assunção. Conectividade fluvial intensa com a Argentina. Risco extremo de paralisia logística em cenários de fechamento de fronteira ou crises diplomáticas.
+\item[Serviços]  Infraestrutura básica voltada ao suporte comercial. Dependência total de serviços de saúde de alta complexidade em Assunção ou Clorinda (Arg). Rede comercial densa, mas dependente de fluxos externos.
+\item[Custo de Vida]  Médio; economia sensível à paridade cambial Peso/\allowbreak Guarani, com acesso facilitado a suprimentos argentinos básicos.
+\item[Preço da Terra]  US\$ 100-250/\allowbreak m² (Urbano/\allowbreak Comercial).
+\item[Hidrologia]  Risco Crítico de Inundação. Localidade historicamente vulnerável às cheias extraordinárias dos rios Paraguai e Pilcomayo. A integridade urbana depende vitalmente de sistemas de defesa costeira e bombas de drenagem ativa.
+\item[Clima]  Tropical Semi-Úmido (Bajo Chaco). Verões extremamente quentes (>40°C comuns) com alta umidade influenciada pelos rios.
+\item[Energia]  Rede nacional (Itaipu). Total dependência da integridade da rede metropolitana/\allowbreak Bajo Chaco.
+\item[Água]  Captação fluvial tratada e poços artesianos. Vulnerabilidade alta em contaminação hídrica em grandes cheias sazonais.
+\item[Qualidade do Solo]  Solo aluvial e hidromórfico; aptidão agrícola interna quase nula devido à urbanização e risco de inundação.
+\item[Recursos Locais]  Gigantesco hub comercial de suprimentos básicos e tecnologia. Contudo, a resiliência de autossuficiência alimentar interna é zero; dependência absoluta de logística externa para abastecimento de víveres.
+\item[Segurança]  Cidade comercial de fronteira com índices de criminalidade urbana metropolitana. Sensibilidade extrema a tensões geopolíticas regionais. Coesão social baseada na atividade mercantil transfronteiriça. Presença institucional permanente de forças de segurança de fronteira.
+\item[Leis Local]  Município consolidado com regime aduaneiro especial tático. \\ \textbf{Livre de Restrição} de Fronteira para propriedades urbanas centrais. \\ \textit{Aquisição de terra rural proibida para estrangeiros limítrofes.}
 \end{description}
 \textbf{Fonte climática:} NASA POWER Climatology API (período 2001-2020)
 
@@ -2298,55 +2236,21 @@ Mitigação}
 (kWh/\allowbreak m²/\allowbreak dia)}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Média
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez & Média \\
+\midrule
 6.76 & 6.20 & 5.42 & 4.44 & 3.36 & 2.83 & 3.21 & 3.93 & 4.61 & 5.49 &
 6.42 & 6.78 & \textbf{4.95} \\
-\end{longtable}
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
 \textbf{Inclinação solar recomendada:} 25° N (anual) · 35° N (inverno
@@ -2355,55 +2259,21 @@ jun-ago) · 15° N (verão nov-jan)
 \paragraph{Precipitação (mm/\allowbreak mês)}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Total/\allowbreak ano
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez & Total/\allowbreak ano \\
+\midrule
 126 & 139 & 135 & 149 & 143 & 74 & 63 & 38 & 73 & 163 & 190 & 179 &
 \textbf{1477 mm} \\
-\end{longtable}
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
 \paragraph{Poluição Luminosa}
@@ -2416,8 +2286,8 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Escala Bortle & 8 --- Céu urbano \\
-Radiância artificial & 100.0 nW/\allowbreak cm²/\allowbreak sr \\
+Escala Bortle & 2 --- Céu tipicamente escuro \\
+Radiância artificial & 0.3 nW/\allowbreak cm²/\allowbreak sr \\
 \end{longtable}
 }
 \paragraph{Solo (SoilGrids 2.0, média ponderada 0--30
@@ -2431,46 +2301,22 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-pH (H$_2$O) & 5.72 \\
-Carbono orgânico (SOC) & 24.33 g/\allowbreak kg \\
-Argila & 19.82 \% \\
-Areia & 56.72 \% \\
-Silte (calc.) & 23.5 \% \\
-Densidade aparente & 1.21 g/\allowbreak cm³ \\
+pH (H\(_2\)O) & 5.95 \\
+Carbono orgânico (SOC) & 16.12 g/\allowbreak kg \\
+Argila & 19.47 \% \\
+Areia & 41.49 \% \\
+Silte (calc.) & 39.0 \% \\
+Densidade aparente & 1.37 g/\allowbreak cm³ \\
 \textbf{Aptidão agrícola} & \textbf{Alta} \\
 \end{longtable}
 }
 
-\begin{itemize}
-\tightlist
-\item
-  \textbf{Autossuficiência:} Baixa no núcleo urbano; alta dependência de
-  suprimentos logísticos nacionais e internacionais.
-\item
-  \textbf{Internet de alta velocidade:} 110 pontos de WiFi libre foram
-  habilitados em Asunción pelo MITIC; 320 novos pontos chegaram ao país
-  em 2023, com cobertura nacional ampliada.
-\item
-  \textbf{Rede celular:} a tecnologia 5G foi lançada oficialmente no
-  país em dezembro de 2025 e teve ato em Asunción, no Paseo La Galería.
-\item
-  \textbf{Poços e águas subterrâneas:} não há profundidade média oficial
-  consolidada para poços artesianos em Asunción; a regulação permanece
-  com MADES e Lei 3239/\allowbreak 07.
-\item
-  \textbf{Combustível e gás:} não foi identificado inventário oficial
-  único por distrito para postos, eletropostos e distribuição de gás
-  encanado.
-\item
-  \textbf{Serviço público digital:} a municipalidade de Asunción iniciou
-  processo de transformação digital com apoio do MITIC em 2025.
-\end{itemize}
 \subsubsection{Indicadores Sociais}
 
 \textbf{Fontes:} PNUD 2020, INE\footnote{\fineINE} Censo 2022, INE\footnote{\fineINE} EPHC 2023, Ministerio
 Público 2024\\
 \textbf{Nota:} Valores marcados como \emph{(dept.)} referem-se ao
-departamento de Distrito Capital; valores \emph{(dist.)} são específicos
+departamento de Presidente Hayes; valores \emph{(dist.)} são específicos
 deste distrito. Dados marcados \emph{(est.)} são estimativas.
 
 {\def\LTcaptype{none} % do not increment counter
@@ -2490,29 +2336,28 @@ Valor
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-IDH (2020) & 0,835 & dept. \\
-Ranking IDH nacional & 1/\allowbreak 18 & dept. \\
-Esperança de vida & 76,2 anos & dept. \\
-Escolaridade média & 11,6 anos (média homens 11,7 /\allowbreak  mulheres 11,4) &
-dist. \\
-RNB per capita (USD PPA) & 18.200 & dept. \\
-Pobreza monetária (\%) & 7,3\% & dept. \\
-Pobreza extrema (\%) & 1,2\% & dept. \\
-Índice de Gini & 0,435 & dept. \\
-Acesso a água potável (\%) & 98,5\% & dept. \\
-Acesso a saneamento (\%) & 99,1\% & dept. \\
-Taxa de homicídios (est., /\allowbreak 100k hab) & \textasciitilde4,5 (estimativa) &
-dept. \\
+IDH (2020) & 0,693 & dept. \\
+Ranking IDH nacional & 13/\allowbreak 18 & dept. \\
+Esperança de vida & 71,8 anos & dept. \\
+Escolaridade média & 8.4 anos & dist. \\
+RNB per capita (USD PPA) & 7.900 & dept. \\
+Pobreza monetária (\%) & 29,4\% & dept. \\
+Pobreza extrema (\%) & 7,2\% & dept. \\
+Índice de Gini & 0,453 & dept. \\
+Acesso a água potável (\%) & 71,3\% & dept. \\
+Acesso a saneamento (\%) & 68,9\% & dept. \\
+Taxa de homicídios (est., /\allowbreak 100k hab) & 5,5--5,6 (2019--2020, fonte INE
+--- próxima à média nacional) & dept. \\
 Índice de segurança & médio & dept. \\
-População (Censo 2022) & 462.241 hab. & dist. \\
-Idade mediana & 33 anos & dist. \\
-Taxa de fecundidade & 1,64 filhos/\allowbreak mulher & dist. \\
+População (Censo 2022) & 6.005 habitantes & dist. \\
+Idade mediana & N/\allowbreak D & dist. \\
+Taxa de fecundidade & N/\allowbreak D & dist. \\
 \end{longtable}
 }
 \subsubsection{Combustível}
 
 \textbf{Referência:} PETROPAR /\allowbreak  postos locais (2024) \textbf{Tipo de
-localidade:} Capital departamental
+localidade:} Interior
 
 {\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}lll@{}}
@@ -2522,9 +2367,9 @@ Combustível & USD/\allowbreak litro & Gs/\allowbreak litro (aprox.) \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Gasolina 93 oct & 0.95 & 7,030 \\
-Gasolina 97 oct (premium) & 1.05 & 7,770 \\
-Diesel & 0.88 & 6,512 \\
+Gasolina 93 oct & 1.05 & 7,770 \\
+Gasolina 97 oct (premium) & 1.15 & 8,510 \\
+Diesel & 0.98 & 7,252 \\
 \end{longtable}
 }
 
@@ -2545,10 +2390,10 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Cobertura 4G população (dept.) & 98\% \\
-Cobertura 4G área rural & 95\% \\
-Melhor operadora & Tigo/\allowbreak Personal \\
-Qualidade rural & boa \\
+Cobertura 4G população (dept.) & 60\% \\
+Cobertura 4G área rural & 35\% \\
+Melhor operadora & Tigo \\
+Qualidade rural & limitada \\
 \end{longtable}
 }
 
@@ -2569,10 +2414,10 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Velocidade média download & 92 Mbps \\
-Domicílios com internet (dept.) & 89\% \\
-Tecnologia predominante & fibra/\allowbreak cabo \\
-Opção rural & fibra óptica disponível \\
+Velocidade média download & 25 Mbps \\
+Domicílios com internet (dept.) & 35\% \\
+Tecnologia predominante & rádio/\allowbreak satélite \\
+Opção rural & Starlink disponível (\textasciitilde USD 44/\allowbreak mês) \\
 \end{longtable}
 }
 
@@ -2589,9 +2434,9 @@ Tipo & Referência \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Terra agrícola alta prod. (USD/\allowbreak ha) & 36,000 \\
-Imóvel urbano (USD/\allowbreak m²) & 1,724 \\
-Aluguel 2 quartos (USD/\allowbreak mês) & 840 \\
+Terra agrícola alta prod. (USD/\allowbreak ha) & 2,000 \\
+Imóvel urbano (USD/\allowbreak m²) & 600 \\
+Aluguel 2 quartos (USD/\allowbreak mês) & 250 \\
 \end{longtable}
 }
 
@@ -2602,7 +2447,8 @@ preços 20--40\% abaixo da capital departamental.
 
 \subsubsection{Saúde}
 
-\textbf{Fonte:} MSPBS /\allowbreak  IPS Paraguay (2024)
+\textbf{Fonte:} MSPBS /\allowbreak  IPS Paraguay (2024-2026), consolidação
+departamental e proxy local
 
 {\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}ll@{}}
@@ -2613,25 +2459,21 @@ Serviço & Disponibilidade \\
 \bottomrule\noalign{}
 \endlastfoot
 USF /\allowbreak  Posto de Saúde & sim \\
-Hospital Regional & sim \\
-IPS (seguro social) & sim \\
+Hospital Regional & não \\
+IPS (seguro social) & não \\
 Farmácia & sim \\
-Distância ao hospital de referência & local \\
+Distância ao hospital de referência & \textasciitilde34 km (Villa
+Hayes) \\
 \end{longtable}
 }
 
-\textbf{Principais estabelecimentos:} Hospital Central do IPS (Santo
-Domingo), Hospital de Clínicas (UNA), IMT (Instituto de Medicina
-Tropical), INCAN (oncologia), INE\footnote{\fineINE}RAM (pneumologia), Hospital General
-Barrio Obrero, Hospital del Trauma, Hospital Materno Infantil San Pablo,
-Hospital Materno Infantil Santísima Trinidad, Hospital Materno Infantil
-Loma Pyta, Hospital Psiquiátrico
+\textbf{Principais estabelecimentos:} USF local; referencia hospitalar
+em Villa Hayes
 
-\textbf{Observação para imigrantes:} Asunción concentra a oferta de alta
-complexidade do país. IPS acessível para trabalhadores formais
-registrados. Cobertura privada recomendada para quem busca agilidade;
-planos nacionais (Tesãi, Medicall, etc.) disponíveis. Seguro saúde
-complementar desejável.
+\textbf{Observação para imigrantes:} Atendimento primario local ou em
+raio curto; casos de maior complexidade seguem para Villa Hayes.
+Cobertura privada continua recomendada para especialidades e urgências
+de maior complexidade.
 \newpage
 \secaoDiagnostico{Nueva Asunción}{\mapaDistrito{1511}}{Nueva Asunción (Chaco'i) é o novo epicentro do desenvolvimento
 metropolitano paraguaio. Oferece uma infraestrutura logística de elite e
@@ -2707,37 +2549,40 @@ Mitigação}
 \begin{itemize}
 \tightlist
 \item
-  \textbf{Insegurança Regional:} Conflitos entre insurgentes e forças de
-  segurança (Mitigação: residência próxima a perímetros controlados,
-  evitar áreas de mata densa desconhecidas, comunicação via rádio).
+  \textbf{Proximidade com Alvos Primários:} Distância ínfima de Assunção
+  atrai riscos militares e de fallout (Mitigação: residência construída
+  com bunker de proteção NBQ e sistemas de filtragem de ar).
 \item
-  \textbf{Isolamento Logístico:} Estradas internas precárias (Mitigação:
-  estoque de insumos para 30 dias e veículos 4x4 robustos).
+  \textbf{Vulnerabilidade Hidrológica Extrema:} Risco de isolamento por
+  cheias (Mitigação: construção exclusivamente em terrenos com
+  alteamento hidráulico - refulado - acima da cota histórica de 1983).
 \item
-  \textbf{Conflitos de Terra:} Histórico de tensões rurais (Mitigação:
-  verificação rigorosa da titulação legal/\allowbreak INDERT antes da aquisição).
+  \textbf{Dependência de Redes Metropolitanas:} Vulnerabilidade total ao
+  colapso de energia sistêmica (Mitigação: instalação de sistemas
+  solares fotovoltaicos potentes e armazenamento massivo de água e
+  alimentos).
 \end{itemize}
 
 \subsubsection{Dossiê de Campo}
 \begin{description}[style=nextline,leftmargin=0.5cm,font=\bfseries]
-\item[Coordenadas]  23°18'S 56°45'W.
-\item[Topografia]  Relevo ondulado, área de transição entre planícies e elevações do Norte. Altitude \textasciitilde 150m. Geologicamente estável, risco sísmico desprezível.
-\item[Alvos Estratégicos]  Bases da FTC (Força de Tarefa Conjunta) presentes na região para combate à insurgência. Proximidade com a Ruta PY05 (importante eixo Leste-Oeste).
-\item[Fallout]  Ventos predominantes do Norte (médias de 8 km/\allowbreak h).
-\item[População]  8.282 (Censo 2022 Final). População majoritariamente rural organizada em 7 núcleos de assentamento.
-\item[Densidade]  \textasciitilde 9,2 hab/\allowbreak km² (Baixa densidade, oferecendo isolamento relativo em áreas de mata e fazendas).
-\item[Vias de Acesso]  Acesso via Ruta PY05. Os caminhos internos entre os núcleos são de terra e tornam-se frequentemente intransitáveis em períodos de chuva severa.
-\item[Serviços]  Unidade de Saúde da Família (USF) local para atendimentos básicos. Dependência de Horqueta ou Concepción (78 km) para serviços complexos. Presença do Colégio Técnico Agropecuário no Núcleo 3.
-\item[Custo de Vida]  Baixo; economia baseada em agricultura familiar e subsistência.
-\item[Preço da Terra]  US\$ 3.000-5.000/\allowbreak ha (áreas mecanizáveis/\allowbreak agricultura familiar).
-\item[Hidrologia]  Risco de isolamento por transbordamento de arroios e lamaçais nas vias vicinais. Histórico de falta de água potável em alguns núcleos (ex: Núcleo 2).
-\item[Clima]  Tropical Úmido. Precipitação anual entre 1.300 e 1.500 mm. Suscetibilidade a temporais de verão com ventos fortes.
-\item[Energia]  Rede nacional (ANDE\footnote{\fineANDE}), sujeita a cortes por infraestrutura rural precária.
-\item[Água]  Poços artesianos e arroios locais; sistemas de distribuição comunitária nos núcleos de assentamento.
-\item[Qualidade do Solo]  Predomínio de latossolos vermelhos; férteis com correção, ideais para agricultura familiar, grãos e silvicultura.
-\item[Recursos Locais]  Agricultura familiar (tomate, mandioca, grãos) e pecuária de pequeno/\allowbreak médio porte. Elevado potencial para autossuficiência alimentar básica em nível comunitário.
-\item[Segurança]  Risco Crítico. Arroyito é historicamente uma das principais zonas de influência e operações do grupo guerrilheiro EPP\footnote{\fineEPP} (Exército do Povo Paraguaio). Presença militar massiva da FTC é necessária e constante. Taxa de homicídios regional de \textasciitilde 14/\allowbreak 100k.
-\item[Leis Local: Município de criação recente (2016) originado de assentamento camponês. Restrição de Fronteira (Lei 2532/\allowbreak 05)]  Proibição de compra de terras rurais por estrangeiros de países limítrofes na faixa de 50km.
+\item[Coordenadas]  25°15'S 57°37'W.
+\item[Topografia]  Relevo predominantemente plano, área de baixada (humedales) margeada pelo Rio Paraguai, situada diretamente em frente ao núcleo central de Assunção. Altitude \textasciitilde 55m. Área de \textasciitilde 75 km². Geologicamente estável, risco sísmico desprezível.
+\item[Alvos Estratégicos]  Ponte Héroes del Chaco (Conexão suspensa vital inaugurada em 2024, ligando o Chaco à capital); Eixo logístico da Ruta PY09 (Transchaco); Polo de expansão imobiliária de alto padrão e centros logísticos regionais. Ponto de estrangulamento tático para o controle de acesso à Região Ocidental a partir do centro de comando nacional.
+\item[Fallout]  Ventos predominantes do Norte (NE) e Leste. Risco crítico de fallout direto devido à proximidade imediata com a capital Assunção (\textasciitilde 5 km em linha reta).
+\item[População]  3.172 habitantes (Censo 2022 Final). Município de criação muito recente (2021), em processo de explosão demográfica urbana e comercial.
+\item[Densidade]  \textasciitilde 42,3 hab/\allowbreak km² (Densidade moderada em rápida ascensão, com transição de perfil rural para metropolitano de alto padrão).
+\item[Vias de Acesso]  Localização estratégica absoluta. Conexão direta com Assunção via Ponte Héroes del Chaco e com o norte do país via Ruta PY09. Risco extremo de paralisia tática e controle militar de fluxos em crises na capital.
+\item[Serviços]  Infraestrutura urbana em fase de implantação massiva. Forte investimento privado em condomínios fechados de luxo e polos logísticos. Dependência de Assunção ou Villa Hayes para serviços hospitalares de alta complexidade.
+\item[Custo de Vida]  Alto; economia impulsionada pela valorização imobiliária e investimentos corporativos.
+\item[Preço da Terra]  US\$ 150.000-300.000/\allowbreak ha (áreas industriais/\allowbreak logísticas); US\$ 150-400/\allowbreak m² (lotes em condomínios de luxo).
+\item[Hidrologia]  Risco Crítico de Inundação. Situado em zona de baixada extrema do Rio Paraguai. Exige infraestrutura pesada de alteamento hidráulico (refulado) e drenagem. Vulnerabilidade extrema em eventos de cheias extraordinárias que podem comprometer acessos terrestres secundários.
+\item[Clima]  Tropical Úmido/\allowbreak Seco (Chaco). Verões extremamente quentes (>40°C) com alta radiação solar e efeito de ilha de calor em formação.
+\item[Energia]  Rede nacional (Itaipu); infraestrutura elétrica em expansão acelerada, com nova subestação tática para atender Chaco'i.
+\item[Água]  Captação mista via Rio Paraguai e poços artesianos profundos (lençol freático produtivo em áreas de terra firme).
+\item[Qualidade do Solo]  Solo aluvial e arenoso; fértil mas área distrital sendo rapidamente impermeabilizada para uso urbano e logístico.
+\item[Recursos Locais]  Predominância de serviços e hubs logísticos. Resiliência de autossuficiência alimentar interna zero; dependência total de cadeias de suprimento metropolitanas para abastecimento básico.
+\item[Segurança]  Zona de transição com vigilância policial e privada intensificada devido ao valor dos ativos imobiliários. Criminalidade urbana em potencial crescimento. Estabilidade institucional alta garantida pelos investimentos estatais e privados de grande escala.
+\item[Leis Local]  Município consolidado e polo de incentivos para desenvolvimento metropolitano. \\ \textbf{Livre de Restrição} de Fronteira. \\ \textit{Aquisição de terra rural proibida para estrangeiros limítrofes.}
 \end{description}
 \textbf{Fonte climática:} NASA POWER Climatology API (período 2001-2020)
 
@@ -2747,112 +2592,44 @@ Mitigação}
 (kWh/\allowbreak m²/\allowbreak dia)}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Média
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-6.60 & 6.02 & 5.62 & 4.65 & 3.48 & 3.07 & 3.35 & 4.15 & 4.72 & 5.46 &
-6.29 & 6.53 & \textbf{4.99} \\
-\end{longtable}
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez & Média \\
+\midrule
+6.76 & 6.20 & 5.42 & 4.44 & 3.36 & 2.83 & 3.21 & 3.93 & 4.61 & 5.49 &
+6.42 & 6.78 & \textbf{4.95} \\
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
-\textbf{Inclinação solar recomendada:} 23° N (anual) · 33° N (inverno
-jun-ago) · 13° N (verão nov-jan)
+\textbf{Inclinação solar recomendada:} 25° N (anual) · 35° N (inverno
+jun-ago) · 15° N (verão nov-jan)
 
 \paragraph{Precipitação (mm/\allowbreak mês)}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Total/\allowbreak ano
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-165 & 157 & 117 & 134 & 112 & 71 & 46 & 32 & 73 & 146 & 205 & 165 &
-\textbf{1428 mm} \\
-\end{longtable}
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez & Total/\allowbreak ano \\
+\midrule
+126 & 139 & 135 & 149 & 143 & 74 & 63 & 38 & 73 & 163 & 190 & 179 &
+\textbf{1477 mm} \\
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
 \paragraph{Poluição Luminosa}
@@ -2865,8 +2642,8 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Escala Bortle & 3 --- Céu rural \\
-Radiância artificial & 1.5 nW/\allowbreak cm²/\allowbreak sr \\
+Escala Bortle & 2 --- Céu tipicamente escuro \\
+Radiância artificial & 0.3 nW/\allowbreak cm²/\allowbreak sr \\
 \end{longtable}
 }
 \paragraph{Solo (SoilGrids 2.0, média ponderada 0--30
@@ -2880,13 +2657,13 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-pH (H$_2$O) & 5.5 \\
-Carbono orgânico (SOC) & 17.31 g/\allowbreak kg \\
-Argila & 17.4 \% \\
-Areia & 62.82 \% \\
-Silte (calc.) & 19.8 \% \\
+pH (H\(_2\)O) & 5.77 \\
+Carbono orgânico (SOC) & 22.46 g/\allowbreak kg \\
+Argila & 19.54 \% \\
+Areia & 57.43 \% \\
+Silte (calc.) & 23.0 \% \\
 Densidade aparente & 1.28 g/\allowbreak cm³ \\
-\textbf{Aptidão agrícola} & \textbf{Média} \\
+\textbf{Aptidão agrícola} & \textbf{Alta} \\
 \end{longtable}
 }
 
@@ -2895,8 +2672,8 @@ Densidade aparente & 1.28 g/\allowbreak cm³ \\
 \textbf{Fontes:} PNUD 2020, INE\footnote{\fineINE} Censo 2022, INE\footnote{\fineINE} EPHC 2023, Ministerio
 Público 2024\\
 \textbf{Nota:} Valores marcados como \emph{(dept.)} referem-se ao
-departamento de Concepción; valores \emph{(dist.)} são específicos deste
-distrito. Dados marcados \emph{(est.)} são estimativas.
+departamento de Presidente Hayes; valores \emph{(dist.)} são específicos
+deste distrito. Dados marcados \emph{(est.)} são estimativas.
 
 {\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
@@ -2915,22 +2692,22 @@ Valor
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-IDH (2020) & 0.640 & dist. (est.) \\
-Ranking IDH nacional & 9/\allowbreak 18 & dept. \\
-Esperança de vida & 72,4 anos & dept. \\
-Escolaridade média & 7.6 anos & dist. \\
-RNB per capita (USD PPA) & 8.400 & dept. \\
-Pobreza monetária (\%) & 31,1\% & dept. \\
-Pobreza extrema (\%) & 7,8\% & dept. \\
-Índice de Gini & 0,460 & dept. \\
-Acesso a água potável (\%) & 74,2\% & dept. \\
-Acesso a saneamento (\%) & 71,8\% & dept. \\
-Taxa de homicídios (est., /\allowbreak 100k hab) & \textasciitilde12--15
-(estimativa, acima da média nacional) & dept. \\
-Índice de segurança & baixo & dept. \\
-População (Censo 2022) & 8.292 hab. & dist. \\
-Idade mediana & 28.0 anos & dist. \\
-Taxa de fecundidade & 2 & dist. \\
+IDH (2020) & 0,693 & dept. \\
+Ranking IDH nacional & 13/\allowbreak 18 & dept. \\
+Esperança de vida & 71,8 anos & dept. \\
+Escolaridade média & 9.1 anos & dist. \\
+RNB per capita (USD PPA) & 7.900 & dept. \\
+Pobreza monetária (\%) & 29,4\% & dept. \\
+Pobreza extrema (\%) & 7,2\% & dept. \\
+Índice de Gini & 0,453 & dept. \\
+Acesso a água potável (\%) & 71,3\% & dept. \\
+Acesso a saneamento (\%) & 68,9\% & dept. \\
+Taxa de homicídios (est., /\allowbreak 100k hab) & 5,5--5,6 (2019--2020, fonte INE
+--- próxima à média nacional) & dept. \\
+Índice de segurança & médio & dept. \\
+População (Censo 2022) & 3.172 habitantes & dist. \\
+Idade mediana & N/\allowbreak D & dist. \\
+Taxa de fecundidade & N/\allowbreak D & dist. \\
 \end{longtable}
 }
 \subsubsection{Combustível}
@@ -2946,9 +2723,9 @@ Combustível & USD/\allowbreak litro & Gs/\allowbreak litro (aprox.) \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Gasolina 93 oct & 1.01 & 7,474 \\
-Gasolina 97 oct (premium) & 1.11 & 8,214 \\
-Diesel & 0.94 & 6,956 \\
+Gasolina 93 oct & 1.05 & 7,770 \\
+Gasolina 97 oct (premium) & 1.15 & 8,510 \\
+Diesel & 0.98 & 7,252 \\
 \end{longtable}
 }
 
@@ -2969,10 +2746,10 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Cobertura 4G população (dept.) & 78\% \\
-Cobertura 4G área rural & 55\% \\
+Cobertura 4G população (dept.) & 60\% \\
+Cobertura 4G área rural & 35\% \\
 Melhor operadora & Tigo \\
-Qualidade rural & moderada \\
+Qualidade rural & limitada \\
 \end{longtable}
 }
 
@@ -2993,9 +2770,9 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Velocidade média download & 38 Mbps \\
-Domicílios com internet (dept.) & 48\% \\
-Tecnologia predominante & rádio \\
+Velocidade média download & 25 Mbps \\
+Domicílios com internet (dept.) & 35\% \\
+Tecnologia predominante & rádio/\allowbreak satélite \\
 Opção rural & Starlink disponível (\textasciitilde USD 44/\allowbreak mês) \\
 \end{longtable}
 }
@@ -3013,9 +2790,9 @@ Tipo & Referência \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Terra agrícola alta prod. (USD/\allowbreak ha) & 3,500 \\
-Imóvel urbano (USD/\allowbreak m²) & 650 \\
-Aluguel 2 quartos (USD/\allowbreak mês) & 260 \\
+Terra agrícola alta prod. (USD/\allowbreak ha) & 2,000 \\
+Imóvel urbano (USD/\allowbreak m²) & 600 \\
+Aluguel 2 quartos (USD/\allowbreak mês) & 250 \\
 \end{longtable}
 }
 
@@ -3026,7 +2803,8 @@ preços 20--40\% abaixo da capital departamental.
 
 \subsubsection{Saúde}
 
-\textbf{Fonte:} MSPBS /\allowbreak  IPS Paraguay (2024)
+\textbf{Fonte:} MSPBS /\allowbreak  IPS Paraguay (2024-2026), consolidação
+departamental e proxy local
 
 {\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}ll@{}}
@@ -3037,22 +2815,21 @@ Serviço & Disponibilidade \\
 \bottomrule\noalign{}
 \endlastfoot
 USF /\allowbreak  Posto de Saúde & sim \\
-Hospital Regional & não \\
+Hospital Regional & sim \\
 IPS (seguro social) & não \\
-Farmácia & sim (limitada) \\
-Distância ao hospital de referência & \textasciitilde78 km
-(Concepción) \\
+Farmácia & sim \\
+Distância ao hospital de referência & \textasciitilde27 km (Villa
+Hayes) \\
 \end{longtable}
 }
 
-\textbf{Principais estabelecimentos:} USF Arroyito (atendimento básico
-nos núcleos de assentamento); Hospital de Horqueta como referência
-intermediária (\textasciitilde30 km)
+\textbf{Principais estabelecimentos:} USF local; referencia hospitalar
+em Villa Hayes
 
-\textbf{Observação para imigrantes:} Cobertura privada indispensável.
-IPS inexistente localmente. Para emergências, deslocamento até Horqueta
-ou Concepción obrigatório; recomenda-se manter veículo 4x4 e kit de
-primeiros socorros completo.
+\textbf{Observação para imigrantes:} Atendimento primario local ou em
+raio curto; casos de maior complexidade seguem para Villa Hayes.
+Cobertura privada continua recomendada para especialidades e urgências
+de maior complexidade.
 \newpage
 \secaoDiagnostico{Puerto Pinasco}{\mapaDistrito{1503}}{Puerto Pinasco (Presidente Hayes) apresenta perfil operacional
 consolidado para comparacao territorial, com leitura conjunta de
@@ -3203,38 +2980,23 @@ Mitigação}
 \begin{itemize}
 \tightlist
 \item
-  \textbf{Conflitos Armados:} Hotspot de guerrilha rural e insurgência
-  (Mitigação: segurança privada armada em estâncias, residência em áreas
-  com proteção da FTC, planos de evacuação aérea/\allowbreak fluvial).
+  Exposicao hidrometeorologica moderada (45-64/\allowbreak 100).
 \item
-  \textbf{Insegurança Jurídica/\allowbreak Social:} Assentamentos com histórico de
-  conflitos agrários (Mitigação: aquisição apenas de terras com título
-  definitivo registrado no RGP).
+  Conectividade viaria intermediaria (50-69/\allowbreak 100).
 \item
-  \textbf{Gargalo Logístico:} Controle total do Cruce Azotey pode isolar
-  a movimentação Norte-Sul pela PY08.
+  Estoque de contingencia para 14 dias (agua/\allowbreak alimentos/\allowbreak combustivel),
+  priorizado quando risco hidro=50/\allowbreak 100.
+\item
+  Duplicar rotas/\allowbreak logistica quando conectividade viaria=62/\allowbreak 100 for
+  \textless70; manter rota secundaria mapeada e testada trimestralmente.
+\item
+  Plano de energia resiliente com autonomia minima de 72h
+  (geracao/\allowbreak backup), revisao semestral.
 \end{itemize}
 
 \subsubsection{Dossiê de Campo}
 \begin{description}[style=nextline,leftmargin=0.5cm,font=\bfseries]
-\item[Coordenadas]  23°13'S 56°30'W.
-\item[Topografia]  Relevo predominantemente plano com leves ondulações. Altitude \textasciitilde 180m. Geologicamente estável, risco sísmico muito baixo.
-\item[Alvos Estratégicos]  Cruce Azotey (Entroncamento tático na Ruta PY08); Base de operações da FTC (Força de Tarefa Conjunta); Proximidade com grandes estâncias pecuárias (ex: Paso Itá).
-\item[Fallout]  Ventos predominantes do Norte/\allowbreak Nordeste.
-\item[População]  \textasciitilde 9.100 habitantes (Estimativa baseada no Censo 2022). Perfil majoritariamente rural.
-\item[Densidade]  \textasciitilde 12,2 hab/\allowbreak km² (Baixa densidade, mas com concentração em núcleos de assentamento como Zanja Morotí).
-\item[Vias de Acesso]  Ruta PY08 (eixo asfáltico fundamental para o escoamento de grãos e gado). Estradas vicinais de terra com trafegabilidade crítica em dias de chuva.
-\item[Serviços]  Unidade de Saúde da Família (USF) para atenção básica. Casos graves dependem de Santa Rosa del Aguaray (San Pedro) ou Concepción (140 km).
-\item[Custo de Vida]  Baixo; economia estritamente vinculada ao agronegócio e pequena agricultura.
-\item[Preço da Terra]  US\$ 3.500-5.000/\allowbreak ha (áreas mecanizáveis ou pastagens de alta produtividade).
-\item[Hidrologia]  Risco de isolamento logístico por transbordamento de pequenos tributários e degradação das vias de terra.
-\item[Clima]  Tropical Úmido. Média de 1.300 a 1.600 mm de chuva anuais. Verões intensos com tempestades súbitas.
-\item[Energia]  Rede nacional (ANDE\footnote{\fineANDE}), com vulnerabilidades em áreas rurais remotas.
-\item[Água]  Poços artesianos; lençol freático acessível.
-\item[Qualidade do Solo]  Alfisois e Ultisois; fertilidade média, exige calagem e adubação para agricultura intensiva (soja/\allowbreak milho).
-\item[Recursos Locais]  Forte produção de gado de corte e grãos. Elevado potencial para autossuficiência alimentar básica em nível de estância ou comunidade protegida.
-\item[Segurança]  Zona de Risco Crítico. Azotey está no epicentro da área de influência do EPP\footnote{\fineEPP} (Ejército del Pueblo Paraguayo). Presença militar permanente da FTC é a norma de segurança. Taxa de homicídios regional entre as maiores do país (\textasciitilde 15/\allowbreak 100k).
-\item[Leis Local: Município criado em 2009. Restrição de Fronteira]  Zona limítrofe à faixa de 50km da Lei 2532/\allowbreak 05; exige verificação detalhada da localização das glebas.
+\item[Coordenadas]  22°39'S 57°50'W (geocodificado via Nominatim).
 \end{description}
 \textbf{Fonte climática:} NASA POWER Climatology API (período 2001-2020)
 
@@ -3244,55 +3006,21 @@ Mitigação}
 (kWh/\allowbreak m²/\allowbreak dia)}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Média
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-6.60 & 6.02 & 5.62 & 4.65 & 3.48 & 3.07 & 3.35 & 4.15 & 4.72 & 5.46 &
-6.29 & 6.53 & \textbf{4.99} \\
-\end{longtable}
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez & Média \\
+\midrule
+6.55 & 5.94 & 5.63 & 4.73 & 3.58 & 3.17 & 3.41 & 4.19 & 4.70 & 5.44 &
+6.28 & 6.49 & \textbf{5.01} \\
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
 \textbf{Inclinação solar recomendada:} 23° N (anual) · 33° N (inverno
@@ -3301,55 +3029,21 @@ jun-ago) · 13° N (verão nov-jan)
 \paragraph{Precipitação (mm/\allowbreak mês)}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Total/\allowbreak ano
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-156 & 171 & 120 & 138 & 129 & 81 & 54 & 43 & 85 & 166 & 195 & 170 &
-\textbf{1513 mm} \\
-\end{longtable}
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez & Total/\allowbreak ano \\
+\midrule
+152 & 149 & 120 & 118 & 106 & 57 & 38 & 23 & 55 & 130 & 202 & 167 &
+\textbf{1321 mm} \\
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
 \paragraph{Poluição Luminosa}
@@ -3362,8 +3056,8 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Escala Bortle & 3 --- Céu rural \\
-Radiância artificial & 1.5 nW/\allowbreak cm²/\allowbreak sr \\
+Escala Bortle & 2 --- Céu tipicamente escuro \\
+Radiância artificial & 0.3 nW/\allowbreak cm²/\allowbreak sr \\
 \end{longtable}
 }
 \paragraph{Solo (SoilGrids 2.0, média ponderada 0--30
@@ -3377,13 +3071,13 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-pH (H$_2$O) & 5.42 \\
-Carbono orgânico (SOC) & 14.85 g/\allowbreak kg \\
-Argila & 20.56 \% \\
-Areia & 58.92 \% \\
-Silte (calc.) & 20.5 \% \\
-Densidade aparente & 1.33 g/\allowbreak cm³ \\
-\textbf{Aptidão agrícola} & \textbf{Média} \\
+pH (H\(_2\)O) & 6.15 \\
+Carbono orgânico (SOC) & 18.97 g/\allowbreak kg \\
+Argila & 27.17 \% \\
+Areia & 34.14 \% \\
+Silte (calc.) & 38.7 \% \\
+Densidade aparente & 1.23 g/\allowbreak cm³ \\
+\textbf{Aptidão agrícola} & \textbf{Alta} \\
 \end{longtable}
 }
 
@@ -3392,8 +3086,8 @@ Densidade aparente & 1.33 g/\allowbreak cm³ \\
 \textbf{Fontes:} PNUD 2020, INE\footnote{\fineINE} Censo 2022, INE\footnote{\fineINE} EPHC 2023, Ministerio
 Público 2024\\
 \textbf{Nota:} Valores marcados como \emph{(dept.)} referem-se ao
-departamento de Concepción; valores \emph{(dist.)} são específicos deste
-distrito. Dados marcados \emph{(est.)} são estimativas.
+departamento de Presidente Hayes; valores \emph{(dist.)} são específicos
+deste distrito. Dados marcados \emph{(est.)} são estimativas.
 
 {\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
@@ -3412,22 +3106,22 @@ Valor
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-IDH (2020) & 0.635 & dist. (est.) \\
-Ranking IDH nacional & 9/\allowbreak 18 & dept. \\
-Esperança de vida & 72,4 anos & dept. \\
-Escolaridade média & 7 & dist. \\
-RNB per capita (USD PPA) & 8.400 & dept. \\
-Pobreza monetária (\%) & 31,1\% & dept. \\
-Pobreza extrema (\%) & 7,8\% & dept. \\
-Índice de Gini & 0,460 & dept. \\
-Acesso a água potável (\%) & 74,2\% & dept. \\
-Acesso a saneamento (\%) & 71,8\% & dept. \\
-Taxa de homicídios (est., /\allowbreak 100k hab) & \textasciitilde12--15
-(estimativa, acima da média nacional) & dept. \\
-Índice de segurança & baixo & dept. \\
-População (Censo 2022) & \textasciitilde9.100 habitantes & dist. \\
-Idade mediana & 22 anos & dist. \\
-Taxa de fecundidade & 3 & dist. \\
+IDH (2020) & 0,693 & dept. \\
+Ranking IDH nacional & 13/\allowbreak 18 & dept. \\
+Esperança de vida & 71,8 anos & dept. \\
+Escolaridade média & 4.7 anos & dist. \\
+RNB per capita (USD PPA) & 7.900 & dept. \\
+Pobreza monetária (\%) & 29,4\% & dept. \\
+Pobreza extrema (\%) & 7,2\% & dept. \\
+Índice de Gini & 0,453 & dept. \\
+Acesso a água potável (\%) & 71,3\% & dept. \\
+Acesso a saneamento (\%) & 68,9\% & dept. \\
+Taxa de homicídios (est., /\allowbreak 100k hab) & 5,5--5,6 (2019--2020, fonte INE
+--- próxima à média nacional) & dept. \\
+Índice de segurança & médio & dept. \\
+População (Censo 2022) & N/\allowbreak D & dist. \\
+Idade mediana & N/\allowbreak D & dist. \\
+Taxa de fecundidade & N/\allowbreak D & dist. \\
 \end{longtable}
 }
 \subsubsection{Combustível}
@@ -3443,9 +3137,9 @@ Combustível & USD/\allowbreak litro & Gs/\allowbreak litro (aprox.) \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Gasolina 93 oct & 1.01 & 7,474 \\
-Gasolina 97 oct (premium) & 1.11 & 8,214 \\
-Diesel & 0.94 & 6,956 \\
+Gasolina 93 oct & 1.05 & 7,770 \\
+Gasolina 97 oct (premium) & 1.15 & 8,510 \\
+Diesel & 0.98 & 7,252 \\
 \end{longtable}
 }
 
@@ -3466,10 +3160,10 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Cobertura 4G população (dept.) & 78\% \\
-Cobertura 4G área rural & 55\% \\
+Cobertura 4G população (dept.) & 60\% \\
+Cobertura 4G área rural & 35\% \\
 Melhor operadora & Tigo \\
-Qualidade rural & moderada \\
+Qualidade rural & limitada \\
 \end{longtable}
 }
 
@@ -3490,9 +3184,9 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Velocidade média download & 38 Mbps \\
-Domicílios com internet (dept.) & 48\% \\
-Tecnologia predominante & rádio \\
+Velocidade média download & 25 Mbps \\
+Domicílios com internet (dept.) & 35\% \\
+Tecnologia predominante & rádio/\allowbreak satélite \\
 Opção rural & Starlink disponível (\textasciitilde USD 44/\allowbreak mês) \\
 \end{longtable}
 }
@@ -3510,9 +3204,9 @@ Tipo & Referência \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Terra agrícola alta prod. (USD/\allowbreak ha) & 3,500 \\
-Imóvel urbano (USD/\allowbreak m²) & 650 \\
-Aluguel 2 quartos (USD/\allowbreak mês) & 260 \\
+Terra agrícola alta prod. (USD/\allowbreak ha) & 2,000 \\
+Imóvel urbano (USD/\allowbreak m²) & 600 \\
+Aluguel 2 quartos (USD/\allowbreak mês) & 250 \\
 \end{longtable}
 }
 
@@ -3536,18 +3230,18 @@ Serviço & Disponibilidade \\
 \endlastfoot
 USF /\allowbreak  Posto de Saúde & sim \\
 Hospital Regional & não \\
-IPS (seguro social) & sim \\
+IPS (seguro social) & não \\
 Farmácia & sim \\
-Distância ao hospital de referência & \textasciitilde122 km
-(Concepción) \\
+Distância ao hospital de referência & \textasciitilde343 km (Villa
+Hayes) \\
 \end{longtable}
 }
 
 \textbf{Principais estabelecimentos:} USF local; referencia hospitalar
-em Concepción
+em Villa Hayes
 
 \textbf{Observação para imigrantes:} Atendimento primario local ou em
-raio curto; casos de maior complexidade seguem para Concepción.
+raio curto; casos de maior complexidade seguem para Villa Hayes.
 Cobertura privada continua recomendada para especialidades e urgências
 de maior complexidade.
 \newpage
@@ -3626,37 +3320,40 @@ Mitigação}
 \begin{itemize}
 \tightlist
 \item
-  \textbf{Dependência Industrial:} Economia local muito vinculada ao
-  frigorífico (Mitigação: diversificação para agricultura de
-  subsistência e energia solar).
+  \textbf{Isolamento Geográfico Extremo:} Risco de ficar
+  ``desconectado'' por terra por longos períodos (Mitigação: posse de
+  veículo 4x4 robusto, trator e, preferencialmente, acesso a aviação
+  leve; manutenção de estoque logístico para 120 dias).
 \item
-  \textbf{Instabilidade Climática:} Temperaturas de verão exigem
-  construção com alta inércia térmica e sistemas de resfriamento
-  eficientes.
+  \textbf{Inexistência de Suporte Vital:} Distância crítica de qualquer
+  centro hospitalar paraguaio (Mitigação: manutenção de posto médico
+  avançado privado completo e sistema de evacuação aérea/\allowbreak fluvial).
 \item
-  \textbf{Segurança Regional:} Monitoramento de movimentos insurgentes
-  em distritos vizinhos (Mitigação: residência próxima ao perímetro
-  urbano e comunicação satelital).
+  \textbf{Escassez de Água Potável:} Risco de salinização e seca
+  (Mitigação: construção de sistemas massivos de captação de chuva e
+  poços com dessalinizadores solares).
 \end{itemize}
 
 \subsubsection{Dossiê de Campo}
 \begin{description}[style=nextline,leftmargin=0.5cm,font=\bfseries]
-\item[Coordenadas]  23°27'S 57°15'W (Ponto exato de passagem do Trópico de Capricórnio).
-\item[Topografia]  Relevo predominantemente plano com áreas de várzea próximas ao Rio Ypané. Altitude \textasciitilde 80m. Geologicamente estável, risco sísmico desprezível.
-\item[Alvos Estratégicos]  Frigorífico Athena Foods (ex-JBS) - motor econômico e polo de suprimento proteico; Cruzamento de rotas para Concepción e San Pedro.
-\item[Fallout]  Ventos predominantes do Norte, Leste e Sudeste.
-\item[População]  10.605 habitantes (Censo 2022 Final).
-\item[Densidade]  \textasciitilde 37,2 hab/\allowbreak km² (Moderada, com núcleo urbano consolidado e histórico).
-\item[Vias de Acesso]  Conectividade asfáltica eficiente com Concepción (21 km). Ponto de trânsito regional de carga pesada (gado e grãos).
-\item[Serviços]  Centro de saúde local para urgências básicas. Dependência direta do Hospital Regional de Concepción para alta complexidade.
-\item[Custo de Vida]  Significativamente baixo (30-40\% menor que o Brasil para alimentação).
-\item[Preço da Terra]  US\$ 4.000-10.000/\allowbreak ha (terras de alta produtividade agrícola/\allowbreak pastagem); US\$ 2.500-3.500/\allowbreak ha (áreas de reflorestamento).
-\item[Hidrologia]  Risco Moderado de Inundação. Presença do Rio Ypané; áreas ribeirinhas vulneráveis em anos de El Niño intenso. Praias fluviais são ativos de lazer.
-\item[Clima]  Tropical. Temperaturas extremas (máximas de 45°C e geadas ocasionais no inverno). Chuvas concentradas entre novembro e janeiro.
-\item[Energia]  Rede nacional (Itaipu). Estabilidade moderada para o núcleo industrial.
-\item[Água]  Abundante (Rio Ypané e poços artesianos).
-\item[Qualidade do Solo]  Solos podzólicos e lateríticos; profundos e ácidos, respondem muito bem a fertilizantes. Ideais para pastagens, erva-mate e fruticultura.
-\item[Recursos Locais]  Grande excedente de proteína animal (frigorífico local). Elevadíssimo potencial para autossuficiência e suprimento de longo prazo.
+\item[Coordenadas]  24°05'S 59°45'W.
+\item[Topografia]  Relevo plano, característico do Chaco Húmedo, com presença de extensos humedales, savanas e matas espinhosas. Situado às margens do Rio Pilcomayo. Altitude \textasciitilde 80m. Área massiva de \textasciitilde 8.142 km². Geologicamente estável.
+\item[Alvos Estratégicos]  Parque Nacional Tinfunqué (Reserva ambiental e hídrica vital do Bajo Chaco); Eixo da Ruta PY12 (Corredor de integração regional); Grandes estâncias de pecuária extensiva. Ausência total de infraestrutura industrial ou bases militares massivas, oferecendo o nível máximo de invisibilidade estratégica e anonimato tático.
+\item[Fallout]  Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto de alvos continentais devido ao extremo isolamento geográfico.
+\item[População]  2.743 habitantes (Censo 2022 Final). Perfil demográfico estritamente rural e disperso em vastas extensões de terra.
+\item[Densidade]  \textasciitilde 0,34 hab/\allowbreak km² (Densidade próxima de zero, garantindo privacidade absoluta e ausência total de riscos sociais de massa urbana).
+\item[Vias de Acesso]  Acesso via Ruta PY12. Infraestrutura viária historicamente precária e dependente de caminhos de terra que se tornam críticos ou intransitáveis durante grandes cheias do Rio Pilcomayo ou chuvas intensas.
+\item[Serviços]  Infraestrutura institucional e comercial quase inexistente. Dependência absoluta de Villa Hayes (\textasciitilde 250 km) ou Clorinda (Argentina) para serviços de saúde especializados, suprimentos técnicos e logística avançada. A vila urbana é um mic núcleo de apoio às estâncias.
+\item[Custo de Vida]  Muito baixo; economia baseada na pecuária bovina e subsistência rural.
+\item[Preço da Terra]  US\$ 250-450/\allowbreak ha (terras virgens/\allowbreak campo natural). Um dos menores valores de terra da Região Oriental/\allowbreak Bajo Chaco.
+\item[Hidrologia]  Risco de Inundação e Seca Severa. Vulnerabilidade extrema às oscilações do Rio Pilcomayo. Possibilidade de isolamento terrestre total por meses em cheias extraordinárias. Déficit hídrico crítico em períodos de seca prolongada, exigindo gestão de reservatórios (tajamares).
+\item[Clima]  Tropical de Savana (Chaco). Verões com calor extremo (>42°C comuns) e radiação solar altíssima.
+\item[Energia]  Rede nacional (Itaipu) em expansão, mas altamente vulnerável e sujeita a interrupções prolongadas. Uso obrigatório de painéis solares e geradores para autonomia mínima.
+\item[Água]  Dependência de poços artesianos (frequentemente salobros), tajamares e captação de águas pluviais (aljibes). Água potável é um recurso escasso que exige investimento em dessalinização ou filtragem massiva.
+\item[Qualidade do Solo]  Solo aluvial e argiloso; aptidão para pastagens naturais e gado de corte. Baixa aptidão para agricultura mecanizada sem vultosos investimentos em correção e irrigação.
+\item[Recursos Locais]  Grande excedente de gado bovino per capita. Elevadíssimo potencial para autossuficiência de proteína animal para a ínfima população local.
+\item[Segurança]  Zona rural excepcionalmente pacífica e segura. Criminalidade urbana inexistente. Estabilidade social máxima sustentada pela cultura da estância e pelo isolamento total. Localidade "invisível" para qualquer conflito sociopolítico nacional.
+\item[Leis Local: Município consolidado. Restrição de Fronteira (Lei 2532/\allowbreak 05)]  Aplicável a terras rurais na faixa de 50km da fronteira argentina (limite tático do Pilcomayo).
 \end{description}
 \textbf{Fonte climática:} NASA POWER Climatology API (período 2001-2020)
 
@@ -3666,112 +3363,44 @@ Mitigação}
 (kWh/\allowbreak m²/\allowbreak dia)}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Média
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-6.68 & 6.07 & 5.58 & 4.63 & 3.47 & 3.00 & 3.30 & 4.09 & 4.68 & 5.49 &
-6.34 & 6.61 & \textbf{5.0} \\
-\end{longtable}
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez & Média \\
+\midrule
+6.68 & 6.08 & 5.46 & 4.44 & 3.41 & 2.94 & 3.33 & 4.15 & 4.84 & 5.56 &
+6.36 & 6.59 & \textbf{4.99} \\
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
-\textbf{Inclinação solar recomendada:} 23° N (anual) · 33° N (inverno
-jun-ago) · 13° N (verão nov-jan)
+\textbf{Inclinação solar recomendada:} 24° N (anual) · 34° N (inverno
+jun-ago) · 14° N (verão nov-jan)
 
 \paragraph{Precipitação (mm/\allowbreak mês)}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Total/\allowbreak ano
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-157 & 151 & 120 & 139 & 116 & 71 & 48 & 31 & 73 & 151 & 204 & 167 &
-\textbf{1432 mm} \\
-\end{longtable}
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez & Total/\allowbreak ano \\
+\midrule
+126 & 129 & 130 & 99 & 72 & 25 & 23 & 15 & 28 & 80 & 117 & 133 &
+\textbf{980 mm} \\
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
 \paragraph{Poluição Luminosa}
@@ -3784,8 +3413,8 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Escala Bortle & 3 --- Céu rural \\
-Radiância artificial & 1.5 nW/\allowbreak cm²/\allowbreak sr \\
+Escala Bortle & 2 --- Céu tipicamente escuro \\
+Radiância artificial & 0.3 nW/\allowbreak cm²/\allowbreak sr \\
 \end{longtable}
 }
 \paragraph{Solo (SoilGrids 2.0, média ponderada 0--30
@@ -3799,13 +3428,13 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-pH (H$_2$O) & 5.7 \\
-Carbono orgânico (SOC) & 15.9 g/\allowbreak kg \\
-Argila & 16.88 \% \\
-Areia & 60.01 \% \\
-Silte (calc.) & 23.1 \% \\
-Densidade aparente & 1.32 g/\allowbreak cm³ \\
-\textbf{Aptidão agrícola} & \textbf{Média} \\
+pH (H\(_2\)O) & 6.18 \\
+Carbono orgânico (SOC) & 17.32 g/\allowbreak kg \\
+Argila & 38.34 \% \\
+Areia & 20.41 \% \\
+Silte (calc.) & 41.2 \% \\
+Densidade aparente & 1.33 g/\allowbreak cm³ \\
+\textbf{Aptidão agrícola} & \textbf{Alta} \\
 \end{longtable}
 }
 
@@ -3814,8 +3443,8 @@ Densidade aparente & 1.32 g/\allowbreak cm³ \\
 \textbf{Fontes:} PNUD 2020, INE\footnote{\fineINE} Censo 2022, INE\footnote{\fineINE} EPHC 2023, Ministerio
 Público 2024\\
 \textbf{Nota:} Valores marcados como \emph{(dept.)} referem-se ao
-departamento de Concepción; valores \emph{(dist.)} são específicos deste
-distrito. Dados marcados \emph{(est.)} são estimativas.
+departamento de Presidente Hayes; valores \emph{(dist.)} são específicos
+deste distrito. Dados marcados \emph{(est.)} são estimativas.
 
 {\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
@@ -3834,22 +3463,22 @@ Valor
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-IDH (2020) & 0.655 & dist. (est.) \\
-Ranking IDH nacional & 9/\allowbreak 18 & dept. \\
-Esperança de vida & 72,4 anos & dept. \\
-Escolaridade média & 8.6 anos & dist. \\
-RNB per capita (USD PPA) & 8.400 & dept. \\
-Pobreza monetária (\%) & 31,1\% & dept. \\
-Pobreza extrema (\%) & 7,8\% & dept. \\
-Índice de Gini & 0,460 & dept. \\
-Acesso a água potável (\%) & 74,2\% & dept. \\
-Acesso a saneamento (\%) & 71,8\% & dept. \\
-Taxa de homicídios (est., /\allowbreak 100k hab) & \textasciitilde12--15
-(estimativa, acima da média nacional) & dept. \\
-Índice de segurança & baixo & dept. \\
-População (Censo 2022) & 10.605 hab. & dist. \\
-Idade mediana & 28.0 anos & dist. \\
-Taxa de fecundidade & 2 & dist. \\
+IDH (2020) & 0,693 & dept. \\
+Ranking IDH nacional & 13/\allowbreak 18 & dept. \\
+Esperança de vida & 71,8 anos & dept. \\
+Escolaridade média & 7.4 anos & dist. \\
+RNB per capita (USD PPA) & 7.900 & dept. \\
+Pobreza monetária (\%) & 29,4\% & dept. \\
+Pobreza extrema (\%) & 7,2\% & dept. \\
+Índice de Gini & 0,453 & dept. \\
+Acesso a água potável (\%) & 71,3\% & dept. \\
+Acesso a saneamento (\%) & 68,9\% & dept. \\
+Taxa de homicídios (est., /\allowbreak 100k hab) & 5,5--5,6 (2019--2020, fonte INE
+--- próxima à média nacional) & dept. \\
+Índice de segurança & médio & dept. \\
+População (Censo 2022) & 2.743 habitantes & dist. \\
+Idade mediana & N/\allowbreak D & dist. \\
+Taxa de fecundidade & N/\allowbreak D & dist. \\
 \end{longtable}
 }
 \subsubsection{Combustível}
@@ -3865,9 +3494,9 @@ Combustível & USD/\allowbreak litro & Gs/\allowbreak litro (aprox.) \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Gasolina 93 oct & 1.01 & 7,474 \\
-Gasolina 97 oct (premium) & 1.11 & 8,214 \\
-Diesel & 0.94 & 6,956 \\
+Gasolina 93 oct & 1.05 & 7,770 \\
+Gasolina 97 oct (premium) & 1.15 & 8,510 \\
+Diesel & 0.98 & 7,252 \\
 \end{longtable}
 }
 
@@ -3888,10 +3517,10 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Cobertura 4G população (dept.) & 78\% \\
-Cobertura 4G área rural & 55\% \\
+Cobertura 4G população (dept.) & 60\% \\
+Cobertura 4G área rural & 35\% \\
 Melhor operadora & Tigo \\
-Qualidade rural & moderada \\
+Qualidade rural & limitada \\
 \end{longtable}
 }
 
@@ -3912,9 +3541,9 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Velocidade média download & 38 Mbps \\
-Domicílios com internet (dept.) & 48\% \\
-Tecnologia predominante & rádio \\
+Velocidade média download & 25 Mbps \\
+Domicílios com internet (dept.) & 35\% \\
+Tecnologia predominante & rádio/\allowbreak satélite \\
 Opção rural & Starlink disponível (\textasciitilde USD 44/\allowbreak mês) \\
 \end{longtable}
 }
@@ -3932,9 +3561,9 @@ Tipo & Referência \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Terra agrícola alta prod. (USD/\allowbreak ha) & 3,500 \\
-Imóvel urbano (USD/\allowbreak m²) & 650 \\
-Aluguel 2 quartos (USD/\allowbreak mês) & 260 \\
+Terra agrícola alta prod. (USD/\allowbreak ha) & 2,000 \\
+Imóvel urbano (USD/\allowbreak m²) & 600 \\
+Aluguel 2 quartos (USD/\allowbreak mês) & 250 \\
 \end{longtable}
 }
 
@@ -3957,19 +3586,19 @@ Serviço & Disponibilidade \\
 \bottomrule\noalign{}
 \endlastfoot
 USF /\allowbreak  Posto de Saúde & sim \\
-Hospital Regional & sim \\
-IPS (seguro social) & sim \\
+Hospital Regional & não \\
+IPS (seguro social) & não \\
 Farmácia & sim \\
-Distância ao hospital de referência & \textasciitilde24 km
-(Concepción) \\
+Distância ao hospital de referência & \textasciitilde322 km (Villa
+Hayes) \\
 \end{longtable}
 }
 
 \textbf{Principais estabelecimentos:} USF local; referencia hospitalar
-em Concepción
+em Villa Hayes
 
 \textbf{Observação para imigrantes:} Atendimento primario local ou em
-raio curto; casos de maior complexidade seguem para Concepción.
+raio curto; casos de maior complexidade seguem para Villa Hayes.
 Cobertura privada continua recomendada para especialidades e urgências
 de maior complexidade.
 \newpage
@@ -4048,32 +3677,40 @@ Mitigação}
 \begin{itemize}
 \tightlist
 \item
-  \textbf{Instabilidade Regional:} Presença de grupos armados no
-  departamento (Mitigação: residência no perímetro urbano controlado ou
-  segurança privada dedicada em zonas rurais).
+  \textbf{Escassez Hídrica Extrema:} Dependência de infraestrutura
+  externa (aqueduto) ou clima (chuva) (Mitigação: construção de
+  reservatórios massivos - tajamares - e sistemas de dessalinização
+  solar).
 \item
-  \textbf{Risco Hídrico:} Inundações severas (Mitigação: evitar áreas de
-  cota baixa, mapear rotas de saída para o Chaco ou Sul).
+  \textbf{Isolamento de Redes:} Fragilidade energética e logística
+  (Mitigação: instalação de sistemas fotovoltaicos de grande porte e
+  manutenção de estoque de combustível e peças para 90 dias).
 \item
-  \textbf{Pico Logístico:} Dependência de poucas pontes para cruzar o
-  Rio Paraguai.
+  \textbf{Distância de Saúde Especializada:} Necessidade de deslocamento
+  longo (Mitigação: manutenção de posto médico privado e treinamento em
+  primeiros socorros avançados).
 \end{itemize}
 
 \subsubsection{Dossiê de Campo}
 \begin{description}[style=nextline,leftmargin=0.5cm,font=\bfseries]
-\item[Coordenadas]  23°24'S 57°26'W.
-\item[Topografia]  Planície próxima ao Rio Paraguai. Altitude \textasciitilde 70m. Região tectonicamente estável, risco sísmico quase nulo.
-\item[Alvos Estratégicos]  Porto de Concepción (logística de grãos e cimento), Aeroporto ANC (em modernização), Sede do CODI (Comando de Operações de Defesa Interna), Regimento de Infantaria N° 10 "Sauce". Planta da Paracel (Celulose) em implantação.
-\item[Fallout]  Ventos predominantes do Norte/\allowbreak Nordeste (quentes) e Sul (frios no inverno).
-\item[População]  73.360 (Censo 2022 Final).
-\item[Densidade]  \textasciitilde 85 hab/\allowbreak km² (distrito total), zona urbana densa.
-\item[Vias de Acesso]  Ruta PY05 (Conexão Leste-Oeste), Ponte sobre o Rio Paraguai. Gargalos logísticos devido à dependência de poucas travessias fluviais.
-\item[Serviços]  Gran Hospital de Concepción (em construção, referência para o Norte). Sede administrativa regional.
-\item[Custo de Vida]  US\$ 800-1.200/\allowbreak mês. Lotes urbanos: US\$ 15-30/\allowbreak m². Terras rurais: US\$ 5.000-8.000/\allowbreak ha.
-\item[Hidrologia]  Risco Crítico de Inundação. Bairros ribeirinhos vulneráveis a cheias do Rio Paraguai e transbordamentos súbitos do Rio Ypané.
-\item[Clima]  Tropical Úmido. Verões com temperaturas extremas. Tempestades intensas frequentes entre outubro e maio.
-\item[Inclinação recomendada para placas solares]  23° voltado para o Norte (anual); 33° no inverno (Jun-Ago); 13° no verão (Nov-Jan). Base: latitude local -23.40°S.
-\item[Energia]  Rede nacional (Itaipu), com melhorias recentes mas picos de instabilidade no verão.
+\item[Coordenadas]  22°58'S 59°31'W.
+\item[Topografia]  Relevo predominantemente plano, característico da savana árida do Chaco Central. Altitude \textasciitilde 120m. Área massiva de \textasciitilde 13.278 km² (um dos maiores distritos do Paraguai em extensão). Geologicamente estável.
+\item[Alvos Estratégicos]  Eixo Logístico da Ruta PY09 (Transchaco - parte integrante do Corredor Bioceânico); Polo de produção pecuária e láctea intensiva; Ponto de passagem do Aqueduto do Chaco. Ausência de bases militares massivas, mas localização nevrálgica para o controle de tráfego e suprimentos no coração da Região Ocidental.
+\item[Fallout]  Ventos predominantes do Norte (NE) e Leste. Baixíssimo risco de fallout direto de alvos continentais primários devido ao isolamento geográfico.
+\item[População]  20.145 habitantes (Censo 2022 Final). Perfil demográfico jovem com alta proporção de comunidades indígenas originárias e produtores do agronegócio.
+\item[Densidade]  \textasciitilde 1,5 hab/\allowbreak km² (Densidade extremamente baixa, garantindo privacidade absoluta e ausência de riscos sociais de massa urbana, apesar de ser um centro de serviços regional).
+\item[Vias de Acesso]  Localização estratégica sobre a Ruta PY09 (Transchaco). Conectividade asfáltica eficiente para o Norte (Filadélfia) e Sul (Villa Hayes). Risco elevado de isolamento total se o eixo rodoviário principal for bloqueado ou destruído em crises nacionais.
+\item[Serviços]  Infraestrutura básica a média (Centro de Saúde local). Polo de apoio ao caminhoneiro e ao agronegócio. Dependência de Filadélfia (120 km) ou Villa Hayes para serviços hospitalares de alta complexidade.
+\item[Custo de Vida]  Baixo; economia baseada na pecuária extensiva e serviços de beira de estrada.
+\item[Preço da Terra]  US\$ 400-800/\allowbreak ha (terras desenvolvidas para pastagem); US\$ 250-400/\allowbreak ha (campos brutos).
+\item[Hidrologia]  Risco de Seca Severa. Escassez hídrica crônica é o maior desafio. Vulnerabilidade a inundações repentinas por falta de drenagem natural em eventos de chuva torrencial. Solo com alta concentração de sais em certas áreas.
+\item[Clima]  Tropical Semiárido (Chaco). Verões com calor extremo (>45°C recordes) e radiação UV altíssima.
+\item[Energia]  Rede nacional (Itaipu); instável devido às longas linhas de transmissão. Uso generalizado de energia fotovoltaica e geradores em estâncias.
+\item[Água]  Recurso Crítico. Dependência vital de tajamares (reservatórios a céu aberto), aljibes (captação de chuva) e do Aqueduto do Chaco. Poços artesianos frequentemente entregam água salobra.
+\item[Qualidade do Solo]  Solo argiloso e aluvial; excelente aptidão para pastagens e pecuária de corte/\allowbreak leite em grande escala.
+\item[Recursos Locais]  Gigantesca produção de carne bovina e leite (zona de influência das cooperativas menonitas). Elevadíssimo potencial para autossuficiência de proteína animal para a população local.
+\item[Segurança]  Zona de baixa criminalidade urbana comum, mas sensível a rotas de tráfico transnacional devido à imensidão do território. Forte resiliência das comunidades indígenas e produtores locais. Presença institucional policial focada no controle rodoviário.
+\item[Leis Local]  Município consolidado. \\ \textbf{Livre de Restrição} de Fronteira. \\ \textit{Aquisição de terra rural proibida para estrangeiros limítrofes.}
 \end{description}
 \textbf{Fonte climática:} NASA POWER Climatology API (período 2001-2020)
 
@@ -4083,55 +3720,21 @@ Mitigação}
 (kWh/\allowbreak m²/\allowbreak dia)}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Média
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-6.68 & 6.07 & 5.58 & 4.63 & 3.47 & 3.00 & 3.30 & 4.09 & 4.68 & 5.49 &
-6.34 & 6.61 & \textbf{5.0} \\
-\end{longtable}
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez & Média \\
+\midrule
+6.68 & 6.08 & 5.46 & 4.44 & 3.41 & 2.94 & 3.33 & 4.15 & 4.84 & 5.56 &
+6.36 & 6.59 & \textbf{4.99} \\
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
 \textbf{Inclinação solar recomendada:} 23° N (anual) · 33° N (inverno
@@ -4140,55 +3743,21 @@ jun-ago) · 13° N (verão nov-jan)
 \paragraph{Precipitação (mm/\allowbreak mês)}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Total/\allowbreak ano
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-157 & 151 & 120 & 139 & 116 & 71 & 48 & 31 & 73 & 151 & 204 & 167 &
-\textbf{1432 mm} \\
-\end{longtable}
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez & Total/\allowbreak ano \\
+\midrule
+104 & 122 & 110 & 79 & 58 & 21 & 16 & 11 & 19 & 69 & 97 & 114 &
+\textbf{825 mm} \\
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
 \paragraph{Poluição Luminosa}
@@ -4201,8 +3770,8 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Escala Bortle & 4 --- Céu rural-suburbano \\
-Radiância artificial & 3.0 nW/\allowbreak cm²/\allowbreak sr \\
+Escala Bortle & 2 --- Céu tipicamente escuro \\
+Radiância artificial & 0.3 nW/\allowbreak cm²/\allowbreak sr \\
 \end{longtable}
 }
 \paragraph{Solo (SoilGrids 2.0, média ponderada 0--30
@@ -4216,29 +3785,23 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-pH (H$_2$O) & 5.8 \\
-Carbono orgânico (SOC) & 14.59 g/\allowbreak kg \\
-Argila & 22.31 \% \\
-Areia & 52.33 \% \\
-Silte (calc.) & 25.4 \% \\
-Densidade aparente & 1.35 g/\allowbreak cm³ \\
+pH (H\(_2\)O) & 6.45 \\
+Carbono orgânico (SOC) & 17.66 g/\allowbreak kg \\
+Argila & 34.67 \% \\
+Areia & 32.97 \% \\
+Silte (calc.) & 32.4 \% \\
+Densidade aparente & 1.34 g/\allowbreak cm³ \\
 \textbf{Aptidão agrícola} & \textbf{Alta} \\
 \end{longtable}
 }
 
-\begin{itemize}
-\tightlist
-\item
-  \textbf{Autossuficiência:} Elevada em proteína animal (indústria
-  cárnea) e potencial agrícola de exportação.
-\end{itemize}
 \subsubsection{Indicadores Sociais}
 
 \textbf{Fontes:} PNUD 2020, INE\footnote{\fineINE} Censo 2022, INE\footnote{\fineINE} EPHC 2023, Ministerio
 Público 2024\\
 \textbf{Nota:} Valores marcados como \emph{(dept.)} referem-se ao
-departamento de Concepción; valores \emph{(dist.)} são específicos deste
-distrito. Dados marcados \emph{(est.)} são estimativas.
+departamento de Presidente Hayes; valores \emph{(dist.)} são específicos
+deste distrito. Dados marcados \emph{(est.)} são estimativas.
 
 {\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
@@ -4257,28 +3820,28 @@ Valor
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-IDH (2020) & 0.658 & dist. (est.) \\
-Ranking IDH nacional & 9/\allowbreak 18 & dept. \\
-Esperança de vida & 72,4 anos & dept. \\
-Escolaridade média & 10.5 anos & dist. \\
-RNB per capita (USD PPA) & 8.400 & dept. \\
-Pobreza monetária (\%) & 31,1\% & dept. \\
-Pobreza extrema (\%) & 7,8\% & dept. \\
-Índice de Gini & 0,460 & dept. \\
-Acesso a água potável (\%) & 74,2\% & dept. \\
-Acesso a saneamento (\%) & 71,8\% & dept. \\
-Taxa de homicídios (est., /\allowbreak 100k hab) & \textasciitilde12--15
-(estimativa, acima da média nacional) & dept. \\
-Índice de segurança & baixo & dept. \\
-População (Censo 2022) & 7.336 hab. & dist. \\
-Idade mediana & 27.0 anos & dist. \\
-Taxa de fecundidade & 2 & dist. \\
+IDH (2020) & 0,693 & dept. \\
+Ranking IDH nacional & 13/\allowbreak 18 & dept. \\
+Esperança de vida & 71,8 anos & dept. \\
+Escolaridade média & 7,8 anos & dept. \\
+RNB per capita (USD PPA) & 7.900 & dept. \\
+Pobreza monetária (\%) & 29,4\% & dept. \\
+Pobreza extrema (\%) & 7,2\% & dept. \\
+Índice de Gini & 0,453 & dept. \\
+Acesso a água potável (\%) & 71,3\% & dept. \\
+Acesso a saneamento (\%) & 68,9\% & dept. \\
+Taxa de homicídios (est., /\allowbreak 100k hab) & 5,5--5,6 (2019--2020, fonte INE
+--- próxima à média nacional) & dept. \\
+Índice de segurança & médio & dept. \\
+População (Censo 2022) & 20.145 habitantes & dist. \\
+Idade mediana & N/\allowbreak D & dist. \\
+Taxa de fecundidade & N/\allowbreak D & dist. \\
 \end{longtable}
 }
 \subsubsection{Combustível}
 
 \textbf{Referência:} PETROPAR /\allowbreak  postos locais (2024) \textbf{Tipo de
-localidade:} Capital departamental
+localidade:} Interior
 
 {\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}lll@{}}
@@ -4288,9 +3851,9 @@ Combustível & USD/\allowbreak litro & Gs/\allowbreak litro (aprox.) \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Gasolina 93 oct & 1.01 & 7,474 \\
-Gasolina 97 oct (premium) & 1.11 & 8,214 \\
-Diesel & 0.94 & 6,956 \\
+Gasolina 93 oct & 1.05 & 7,770 \\
+Gasolina 97 oct (premium) & 1.15 & 8,510 \\
+Diesel & 0.98 & 7,252 \\
 \end{longtable}
 }
 
@@ -4311,10 +3874,10 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Cobertura 4G população (dept.) & 78\% \\
-Cobertura 4G área rural & 55\% \\
+Cobertura 4G população (dept.) & 60\% \\
+Cobertura 4G área rural & 35\% \\
 Melhor operadora & Tigo \\
-Qualidade rural & moderada \\
+Qualidade rural & limitada \\
 \end{longtable}
 }
 
@@ -4335,9 +3898,9 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Velocidade média download & 38 Mbps \\
-Domicílios com internet (dept.) & 48\% \\
-Tecnologia predominante & rádio \\
+Velocidade média download & 25 Mbps \\
+Domicílios com internet (dept.) & 35\% \\
+Tecnologia predominante & rádio/\allowbreak satélite \\
 Opção rural & Starlink disponível (\textasciitilde USD 44/\allowbreak mês) \\
 \end{longtable}
 }
@@ -4355,9 +3918,9 @@ Tipo & Referência \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Terra agrícola alta prod. (USD/\allowbreak ha) & 3,500 \\
-Imóvel urbano (USD/\allowbreak m²) & 747 \\
-Aluguel 2 quartos (USD/\allowbreak mês) & 312 \\
+Terra agrícola alta prod. (USD/\allowbreak ha) & 2,000 \\
+Imóvel urbano (USD/\allowbreak m²) & 600 \\
+Aluguel 2 quartos (USD/\allowbreak mês) & 250 \\
 \end{longtable}
 }
 
@@ -4368,7 +3931,8 @@ preços 20--40\% abaixo da capital departamental.
 
 \subsubsection{Saúde}
 
-\textbf{Fonte:} MSPBS /\allowbreak  IPS Paraguay (2024)
+\textbf{Fonte:} MSPBS /\allowbreak  IPS Paraguay (2024-2026), consolidação
+departamental e proxy local
 
 {\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}ll@{}}
@@ -4380,23 +3944,81 @@ Serviço & Disponibilidade \\
 \endlastfoot
 USF /\allowbreak  Posto de Saúde & sim \\
 Hospital Regional & sim \\
-IPS (seguro social) & sim \\
+IPS (seguro social) & não \\
 Farmácia & sim \\
-Distância ao hospital de referência & local \\
+Distância ao hospital de referência & \textasciitilde387 km (Villa
+Hayes) \\
 \end{longtable}
 }
 
-\textbf{Principais estabelecimentos:} Hospital Regional de Concepción
-(referência para todo o Norte), IPS Concepción, clínicas privadas
-(CEDIMEC, Sanatorio San Antonio), Gran Hospital de Concepción (em
-implantação)
+\textbf{Principais estabelecimentos:} USF local; referencia hospitalar
+em Villa Hayes
 
-\textbf{Observação para imigrantes:} IPS acessível mediante contrato
-formal de trabalho. Cobertura privada recomendada para maior agilidade;
-serviços públicos funcionais mas com demanda elevada. Imigrantes sem
-vínculo empregatício devem contratar seguro privado.
+\textbf{Observação para imigrantes:} Atendimento primario local ou em
+raio curto; casos de maior complexidade seguem para Villa Hayes.
+Cobertura privada continua recomendada para especialidades e urgências
+de maior complexidade.
 \newpage
-\secaoDiagnostico{Villa Hayes}{\mapaDistrito{1504}}{}{dist:15_Presidente_Hayes:Villa_Hayes}
+\secaoDiagnostico{Villa Hayes}{\mapaDistrito{1504}}{Villa Hayes é a fortaleza industrial e energética do Chaco. Oferece uma
+infraestrutura institucional de primeiro nível e acesso massivo a
+recursos básicos (aço, energia, proteína), funcionando como o centro de
+gravidade logística para toda a Região Ocidental. Sua força absoluta
+reside na excepcional concentração de capital e suporte estatal
+(saúde/\allowbreak educação). Contudo, sua importância estratégica a torna um alvo
+tático de altíssima visibilidade em cenários de conflito. É o local
+ideal para bases operacionais e suprimentos de larga escala, exigindo do
+ocupante um posicionamento rural periférico para mitigar os riscos de
+sua relevância geopolítica.
+
+\subsubsection{Por que sim}
+
+\subsubsection{Por que não}
+
+\subsubsection{Recomendação
+Técnica}
+
+Altamente indicado como base logística ou administrativa de suporte.
+Para residência permanente, recomenda-se a zona rural do distrito em
+direção à Ruta PY12, mantendo autonomia hídrica e energética total. O
+GSS de 6.7 reflete o equilíbrio entre o poder dos recursos e a extrema
+visibilidade estratégica da localidade. Referência atual de score: GSS
+6.7.
+
+\begin{itemize}
+\tightlist
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi})}
+  \tightlist
+  \item
+    Dados censitários validados (INE\footnote{\fineINE} 2022).
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi})}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    Relatórios de operação industrial e siderúrgica (MIC).
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi})}
+  \setcounter{enumi}{2}
+  \tightlist
+  \item
+    Mapa de vulnerabilidades hidrológicas e registro sísmico (SEN\footnote{\fineSEN}/\allowbreak DMH).
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi})}
+  \setcounter{enumi}{3}
+  \tightlist
+  \item
+    Registro de segurança pública e governança administrativa
+    departamental.
+  \end{enumerate}
+\end{itemize}}{dist:15_Presidente_Hayes:Villa_Hayes}
 \begin{table}[ht!]
 \small \begin{tabular}{p{3.0cm}p{0.8cm}p{6.0cm}} \toprule
 \textbf{Critério} & \textbf{Nota} & \textbf{Justificativa} \\ \midrule
@@ -4413,170 +4035,89 @@ Mitigação}
 \begin{itemize}
 \tightlist
 \item
-  \textbf{Instabilidade Regional:} Atividade de grupos irregulares em
-  áreas rurais remotas (Mitigação: residência próxima ao centro urbano
-  ou segurança privada em fazendas mecanizadas).
+  \textbf{Alvo Estratégico Primário:} ACEPAR e a subestação elétrica são
+  alvos de sabotagem ou controle militar em conflitos (Mitigação:
+  residência rural afastada 15-20 km do perímetro industrial e
+  logístico).
 \item
-  \textbf{Dependência de Monocultura:} Economia sensível a preços de
-  commodities (Mitigação: implementação de hortas de subsistência e
-  diversificação de ativos).
+  \textbf{Vulnerabilidade de Massa:} Concentração urbana favorece o caos
+  social em crises de suprimento (Mitigação: estabelecimento de base em
+  áreas rurais extensas com autonomia alimentar).
 \item
-  \textbf{Risco Logístico:} Controle militar de rodovias em cenários de
-  crise (Mitigação: manutenção de veículos off-road e rotas secundárias
-  mapeadas).
+  \textbf{Risco Sísmico Residual:} Histórico recente de tremores
+  (Mitigação: construção com normas antissísmicas básicas e sistemas de
+  monitoramento).
 \end{itemize}
 
 \subsubsection{Dossiê de Campo}
 \begin{description}[style=nextline,leftmargin=0.5cm,font=\bfseries]
-\item[Coordenadas]  23°20'S 57°03'W.
-\item[Topografia]  Relevo ondulado ("lomadas"), solo profundo e bem drenado. Altitude \textasciitilde 170m. Geologicamente estável, risco sísmico muito baixo.
-\item[Alvos Estratégicos]  Cruzamento das Rutas PY05 e rodovias locais; Polo de processamento de Estévia (Ka'a He'e) e óleos vegetais; Sede tática da FTC (Força de Tarefa Conjunta) e base de operações do CODI.
-\item[Fallout]  Ventos predominantes do Norte (quentes) e Sul/\allowbreak Sudeste (frios).
-\item[População]  39.548 habitantes (Censo 2022 Final). Segunda cidade mais importante do departamento.
-\item[Densidade]  \textasciitilde 31,4 hab/\allowbreak km² (Moderada, com núcleo urbano dinâmico e vasta área rural produtiva).
-\item[Vias de Acesso]  Conectividade asfáltica de alta qualidade via Ruta PY05 (Concepción-Pedro Juan Caballero). Eixo logístico fundamental para o agronegócio do Norte.
-\item[Serviços]  Hospital Distrital de Horqueta, Unidade do IPS e clínicas privadas (CEDIMEC, San Antonio). Boa oferta de comércio e serviços financeiros.
-\item[Custo de Vida]  Baixo a Médio; economia baseada no agronegócio exportador e agricultura familiar.
-\item[Preço da Terra]  US\$ 4.000-5.500/\allowbreak ha (terras mecanizáveis de "tierra roja").
-\item[Hidrologia]  Baixo risco de inundações em comparação com o litoral do Rio Paraguai. Drenagem natural eficiente pelo relevo ondulado.
-\item[Clima]  Tropical. Temperaturas extremas no verão (>40°C). Chuvas bem distribuídas, com pico entre novembro e janeiro.
-\item[Energia]  Rede nacional (Itaipu). Subestação local com manutenção prioritária devido à agroindústria.
-\item[Água]  Abundante via poços artesianos e arroios locais.
-\item[Qualidade do Solo]  Latossolo Vermelho ("Tierra Roja"); alta fertilidade e excelente aptidão para agricultura mecanizada (soja, milho, stevia).
-\item[Recursos Locais]  Capital nacional da Estévia; grande produção de proteína animal (vizinhança com frigoríficos de Concepción) e grãos. Elevadíssimo potencial de autossuficiência.
-\item[Segurança]  Zona de segurança tática. Presença ostensiva da FTC devido ao histórico de insurgência (EPP\footnote{\fineEPP}) na região rural. Taxa de homicídios regional de \textasciitilde 20/\allowbreak 100k, influenciada por conflitos agrários. Perímetro urbano considerado seguro e controlado.
-\item[Leis Local: Município consolidado. Restrição de Fronteira]  Aplicação da Lei 2532/\allowbreak 05 exige verificação de distância da linha de fronteira para estrangeiros limítrofes.
+\item[Coordenadas]  25°05'S 57°34'W.
+\item[Topografia]  Relevo predominantemente plano, situado na zona do Bajo Chaco margeada pelo Rio Paraguai. Altitude \textasciitilde 60m. Área distrital remanescente vasta de \textasciitilde 20.002 km² (historicamente um dos maiores distritos, recentemente subdividido). Geologicamente estável, mas com registro de sismo significativo em março de 2022 (magnitude 3.5 a 4.6), sentido em toda a região metropolitana.
+\item[Alvos Estratégicos]  ACEPAR (Aceros del Paraguay - Indústria siderúrgica vital); Subestação Villa Hayes (Ponto nevrálgico do sistema elétrico Itaipu-Chaco); Porto industrial e estaleiros; Sede da Gobernación de Presidente Hayes. Considerada o "Portal do Chaco", é um alvo estratégico de altíssima visibilidade militar e logística nacional.
+\item[Fallout]  Ventos predominantes do Norte (NE) e Leste. Risco elevado de fallout indireto devido à proximidade com a capital Assunção (\textasciitilde 30 km) e presença de indústrias pesadas.
+\item[População]  47.967 habitantes (Censo 2022 Final). A maior cidade da Região Ocidental e principal centro administrativo.
+\item[Densidade]  \textasciitilde 2,4 hab/\allowbreak km² (Densidade total baixíssima, mas com extrema concentração urbana no núcleo histórico e industrial). Oferece isolamento social em áreas rurais extensas.
+\item[Vias de Acesso]  Ponto de entroncamento tático entre a Ruta PY09 (Transchaco), a Ruta PY12 e as conexões com a Região Oriental via Ponte Remanso. Risco extremo de paralisia rodoviária e controle militar em cenários de evacuação da capital.
+\item[Serviços]  Infraestrutura de saúde regional completa (Hospital Regional de Villa Hayes, IPS). Polo financeiro, administrativo e industrial pesado consolidado.
+\item[Custo de Vida]  Baixo-médio; economia baseada na indústria siderúrgica, serviços estatais e logística portuária.
+\item[Preço da Terra]  US\$ 1.500-3.500/\allowbreak ha (áreas industriais/\allowbreak logísticas); US\$ 400-700/\allowbreak ha (campos brutos de interior); US\$ 40-100/\allowbreak m² (Urbano).
+\item[Hidrologia]  Risco de Inundação Moderado. Vulnerável às cheias sazonais do Rio Paraguai e pântanos do Bajo Chaco. Sistemas de drenagem urbana sob pressão em eventos extremos (média 1.500 mm/\allowbreak ano).
+\item[Clima]  Tropical Úmido/\allowbreak Seco. Verões com calor extremo (>42°C comuns) e alta radiação solar.
+\item[Energia]  Rede nacional (Itaipu). Ponto de recepção nevrálgico; alta prioridade de manutenção tática da rede elétrica nacional.
+\item[Água]  Captação fluvial tratada (ESSAP\footnote{\fineESSAP}) e abundância de poços artesianos profundos.
+\item[Qualidade do Solo]  Solo aluvial e argiloso; fértil para pastagens e agricultura de subsistência em áreas drenadas.
+\item[Recursos Locais]  Grande produção de aço, gado bovino e subprodutos industriais. Elevado potencial para autossuficiência logística e de proteína animal em escala regional, mas dependente de logística externa para manutenção da ordem urbana densa.
+\item[Segurança]  Cidade industrial e administrativa com índices de criminalidade urbana típicos de zonas de transição metropolitana. Segurança institucional forte através da presença de comandos militares e polícia nacional ostensiva. Coesão social baseada na atividade industrial e tradição regionalista.
+\item[Leis Local]  Capital departamental. \\ \textbf{Livre de Restrição} de Fronteira em zonas urbanas, mas vigilância em zonas rurais ribeirinhas (Lei 2532/\allowbreak 05). \\ \textit{Aquisição de terra rural proibida para estrangeiros limítrofes.}
 \end{description}
-\textbf{Fonte climática:} NASA POWER Climatology API (período 2001-2020)
+Coordenadas: -25.10°S /\allowbreak  -57.57°W. Acesso em 2026-03-20.
 
-\textbf{Fonte luminosa:} estimativa world atlas
-
-\paragraph{Irradiação Solar
-(kWh/\allowbreak m²/\allowbreak dia)}
+\textbf{Irradiância solar global (kWh/\allowbreak m²/\allowbreak dia):}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0746}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1045}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Média
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-6.68 & 6.07 & 5.58 & 4.63 & 3.47 & 3.00 & 3.30 & 4.09 & 4.68 & 5.49 &
-6.34 & 6.61 & \textbf{5.0} \\
-\end{longtable}
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez \\
+\midrule
+6.76 & 6.20 & 5.42 & 4.44 & 3.36 & 2.83 & 3.21 & 3.93 & 4.61 & 5.49 &
+6.42 & 6.78 \\
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
-\textbf{Inclinação solar recomendada:} 23° N (anual) · 33° N (inverno
-jun-ago) · 13° N (verão nov-jan)
+Média anual: 4.95 kWh/\allowbreak m²/\allowbreak dia. Mínimo: Jun (2.83) \textbar{} Máximo: Dez
+(6.78).
 
-\paragraph{Precipitação (mm/\allowbreak mês)}
+\textbf{Precipitação (mm/\allowbreak mês → mm/\allowbreak ano \textasciitilde1.460):}
 
 {\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.0704}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 24\tabcolsep) * \real{0.1549}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-Jan
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Fev
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mar
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Abr
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Mai
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jun
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Jul
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Ago
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Set
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Out
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Nov
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Dez
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Total/\allowbreak ano
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-156 & 151 & 118 & 140 & 118 & 74 & 50 & 32 & 76 & 154 & 205 & 165 &
-\textbf{1446 mm} \\
-\end{longtable}
+
+\begin{center}
+\resizebox{\linewidth}{!}{%
+{\renewcommand{\arraystretch}{1.2}%
+\begin{tabular}{@{}c|c|c|c|c|c|c|c|c|c|c|c@{}}
+\toprule
+Jan & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov & Dez \\
+\midrule
+123 & 149 & 130 & 143 & 143 & 71 & 59 & 33 & 70 & 161 & 197 & 182 \\
+\bottomrule
+\end{tabular}}%
+}
+\end{center}
+
 }
 
-\paragraph{Poluição Luminosa}
+Estação chuvosa Out-Nov; seca Jul-Ago (mínimo em Ago).
 
-{\def\LTcaptype{none} % do not increment counter
-\begin{longtable}[]{@{}ll@{}}
-\toprule\noalign{}
-Parâmetro & Valor \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-Escala Bortle & 3 --- Céu rural \\
-Radiância artificial & 1.5 nW/\allowbreak cm²/\allowbreak sr \\
-\end{longtable}
-}
+\textbf{Inclinação solar recomendada:} 25° Norte (anual); 35° no inverno
+(Jun-Ago); 15° no verão (Nov-Jan). Base: latitude -25.10°S.
 \paragraph{Solo (SoilGrids 2.0, média ponderada 0--30
 cm)}
 
@@ -4588,28 +4129,23 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-pH (H$_2$O) & 5.78 \\
-Carbono orgânico (SOC) & 16.63 g/\allowbreak kg \\
-Argila & 17.8 \% \\
-Areia & 62.77 \% \\
-Silte (calc.) & 19.4 \% \\
-Densidade aparente & 1.27 g/\allowbreak cm³ \\
-\textbf{Aptidão agrícola} & \textbf{Média} \\
+pH (H\(_2\)O) & 5.97 \\
+Carbono orgânico (SOC) & 13.52 g/\allowbreak kg \\
+Argila & 25.65 \% \\
+Areia & 41.47 \% \\
+Silte (calc.) & 32.9 \% \\
+Densidade aparente & 1.38 g/\allowbreak cm³ \\
+\textbf{Aptidão agrícola} & \textbf{Alta} \\
 \end{longtable}
 }
 
-\begin{itemize}
-\tightlist
-\item
-  \textbf{Homicidios/\allowbreak 100k:} \textasciitilde20.0 (Regional/\allowbreak Rural).
-\end{itemize}
 \subsubsection{Indicadores Sociais}
 
 \textbf{Fontes:} PNUD 2020, INE\footnote{\fineINE} Censo 2022, INE\footnote{\fineINE} EPHC 2023, Ministerio
 Público 2024\\
 \textbf{Nota:} Valores marcados como \emph{(dept.)} referem-se ao
-departamento de Concepción; valores \emph{(dist.)} são específicos deste
-distrito. Dados marcados \emph{(est.)} são estimativas.
+departamento de Presidente Hayes; valores \emph{(dist.)} são específicos
+deste distrito. Dados marcados \emph{(est.)} são estimativas.
 
 {\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
@@ -4628,28 +4164,28 @@ Valor
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-IDH (2020) & 0.648 & dist. (est.) \\
-Ranking IDH nacional & 9/\allowbreak 18 & dept. \\
-Esperança de vida & 72,4 anos & dept. \\
+IDH (2020) & 0,693 & dept. \\
+Ranking IDH nacional & 13/\allowbreak 18 & dept. \\
+Esperança de vida & 71,8 anos & dept. \\
 Escolaridade média & 8.8 anos & dist. \\
-RNB per capita (USD PPA) & 8.400 & dept. \\
-Pobreza monetária (\%) & 31,1\% & dept. \\
-Pobreza extrema (\%) & 7,8\% & dept. \\
-Índice de Gini & 0,460 & dept. \\
-Acesso a água potável (\%) & 74,2\% & dept. \\
-Acesso a saneamento (\%) & 71,8\% & dept. \\
-Taxa de homicídios (est., /\allowbreak 100k hab) & \textasciitilde12--15
-(estimativa, acima da média nacional) & dept. \\
-Índice de segurança & baixo & dept. \\
-População (Censo 2022) & 39.548 hab. & dist. \\
-Idade mediana & 28.0 anos & dist. \\
-Taxa de fecundidade & 2 & dist. \\
+RNB per capita (USD PPA) & 7.900 & dept. \\
+Pobreza monetária (\%) & 29,4\% & dept. \\
+Pobreza extrema (\%) & 7,2\% & dept. \\
+Índice de Gini & 0,453 & dept. \\
+Acesso a água potável (\%) & 71,3\% & dept. \\
+Acesso a saneamento (\%) & 68,9\% & dept. \\
+Taxa de homicídios (est., /\allowbreak 100k hab) & 5,5--5,6 (2019--2020, fonte INE
+--- próxima à média nacional) & dept. \\
+Índice de segurança & médio & dept. \\
+População (Censo 2022) & 47.967 habitantes & dist. \\
+Idade mediana & N/\allowbreak D & dist. \\
+Taxa de fecundidade & N/\allowbreak D & dist. \\
 \end{longtable}
 }
 \subsubsection{Combustível}
 
 \textbf{Referência:} PETROPAR /\allowbreak  postos locais (2024) \textbf{Tipo de
-localidade:} Interior
+localidade:} Capital departamental
 
 {\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}lll@{}}
@@ -4659,9 +4195,9 @@ Combustível & USD/\allowbreak litro & Gs/\allowbreak litro (aprox.) \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Gasolina 93 oct & 1.01 & 7,474 \\
-Gasolina 97 oct (premium) & 1.11 & 8,214 \\
-Diesel & 0.94 & 6,956 \\
+Gasolina 93 oct & 1.05 & 7,770 \\
+Gasolina 97 oct (premium) & 1.15 & 8,510 \\
+Diesel & 0.98 & 7,252 \\
 \end{longtable}
 }
 
@@ -4682,10 +4218,10 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Cobertura 4G população (dept.) & 78\% \\
-Cobertura 4G área rural & 55\% \\
+Cobertura 4G população (dept.) & 60\% \\
+Cobertura 4G área rural & 35\% \\
 Melhor operadora & Tigo \\
-Qualidade rural & moderada \\
+Qualidade rural & limitada \\
 \end{longtable}
 }
 
@@ -4706,9 +4242,9 @@ Parâmetro & Valor \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Velocidade média download & 38 Mbps \\
-Domicílios com internet (dept.) & 48\% \\
-Tecnologia predominante & rádio \\
+Velocidade média download & 25 Mbps \\
+Domicílios com internet (dept.) & 35\% \\
+Tecnologia predominante & rádio/\allowbreak satélite \\
 Opção rural & Starlink disponível (\textasciitilde USD 44/\allowbreak mês) \\
 \end{longtable}
 }
@@ -4726,9 +4262,9 @@ Tipo & Referência \\
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Terra agrícola alta prod. (USD/\allowbreak ha) & 3,500 \\
-Imóvel urbano (USD/\allowbreak m²) & 650 \\
-Aluguel 2 quartos (USD/\allowbreak mês) & 260 \\
+Terra agrícola alta prod. (USD/\allowbreak ha) & 2,000 \\
+Imóvel urbano (USD/\allowbreak m²) & 690 \\
+Aluguel 2 quartos (USD/\allowbreak mês) & 300 \\
 \end{longtable}
 }
 
@@ -4754,15 +4290,14 @@ USF /\allowbreak  Posto de Saúde & sim \\
 Hospital Regional & sim \\
 IPS (seguro social) & sim \\
 Farmácia & sim \\
-Distância ao hospital de referência & \textasciitilde51 km
-(Concepción) \\
+Distância ao hospital de referência & local \\
 \end{longtable}
 }
 
-\textbf{Principais estabelecimentos:} USF local; referencia hospitalar
-em Concepción
+\textbf{Principais estabelecimentos:} Hospital distrital /\allowbreak  regional de
+Villa Hayes; rede de USF e farmacias locais
 
-\textbf{Observação para imigrantes:} Atendimento primario local ou em
-raio curto; casos de maior complexidade seguem para Concepción.
-Cobertura privada continua recomendada para especialidades e urgências
-de maior complexidade.
+\textbf{Observação para imigrantes:} Centro de referencia do
+departamento. Acesso a atendimento primario e, em geral, a maior oferta
+publica e privada da area. Cobertura privada continua recomendada para
+especialidades e urgências de maior complexidade.
