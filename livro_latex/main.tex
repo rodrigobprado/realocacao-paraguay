@@ -76,10 +76,10 @@
     %% === FUNDO NAVY ===
     \fill[navyblue] (current page.south west) rectangle (current page.north east);
 
-    %% === HEATMAP GSS — elemento visual principal (lado direito, semi-transparente) ===
-    \node[anchor=east, opacity=0.40, inner sep=0pt]
-      at ([xshift=1.0cm, yshift=-8.5cm]current page.north east)
-      {\includegraphics[width=10.5cm]{mapas/heatmap_gss_distrito.png}};
+    %% === HEATMAP GSS — elemento visual principal (lado direito, maior opacidade) ===
+    \node[anchor=east, opacity=0.70, inner sep=0pt]
+      at ([xshift=1.5cm, yshift=-9cm]current page.north east)
+      {\includegraphics[width=11cm]{mapas/heatmap_gss_distrito.png}};
 
     %% === FAIXAS DOURADAS SUPERIOR E INFERIOR ===
     \fill[goldcolor]
@@ -97,116 +97,111 @@
       ([yshift=1.05cm]current page.south west) --
       ([yshift=1.05cm]current page.south east);
 
-    %% === BARRA VERTICAL DOURADA (acento lateral, altura estendida) ===
-    \fill[goldcolor]
-      ([xshift=1.15cm, yshift=-1.6cm]current page.north west)
-      rectangle ([xshift=1.42cm, yshift=-14.0cm]current page.north west);
-
-    %% === NOME DA SÉRIE (faixa superior) ===
+    %% === NOME DA SÉRIE (faixa superior) — AUMENTADO PARA 8.5PT ===
     \node[anchor=west, color=navyblue,
-          font=\fontsize{6}{7.5}\selectfont\sffamily\bfseries,
+          font=\fontsize{8.5}{10}\selectfont\sffamily\bfseries,
           inner sep=0pt]
       at ([xshift=1.4cm, yshift=-0.44cm]current page.north west)
       {RELOCA\c{C}\~AO ESTRAT\'EGICA NA AM\'ERICA DO SUL: VOLUME PARAGUAI};
 
-    %% === TÍTULO PRINCIPAL ===
-    \node[anchor=north west, text width=10.8cm, align=left,
+    %% === TÍTULO PRINCIPAL — AUMENTADO PARA 52PT ===
+    \node[anchor=north west, text width=11cm, align=left,
           color=white,
-          font=\fontsize{42}{46}\selectfont\sffamily\bfseries,
+          font=\fontsize{52}{56}\selectfont\sffamily\bfseries,
           inner sep=0pt]
-      at ([xshift=1.8cm, yshift=-1.9cm]current page.north west)
+      at ([xshift=1.8cm, yshift=-2.2cm]current page.north west)
       {PARAGUAI};
 
-    %% === SUBTÍTULO ===
+    %% === SUBTÍTULO — MAIS DESCRITIVO ===
     \node[anchor=north west, text width=9.5cm, align=left,
           color=goldcolor,
-          font=\fontsize{13.5}{17}\selectfont\sffamily\bfseries,
+          font=\fontsize{14}{18}\selectfont\sffamily\bfseries,
           inner sep=0pt]
-      at ([xshift=1.8cm, yshift=-4.5cm]current page.north west)
-      {Guia de Zonas Seguras};
+      at ([xshift=1.8cm, yshift=-5.2cm]current page.north west)
+      {Guia Estrat\'egico de Realoca\c{c}\~ao};
 
-    %% === TAGLINE ===
-    \node[anchor=north west, text width=9.0cm, align=left,
-          color=white!75!navyblue,
-          font=\fontsize{8.5}{13}\selectfont\sffamily\itshape,
+    %% === TAGLINE — ESPECÍFICA E COM IMPACTO ===
+    \node[anchor=north west, text width=9.5cm, align=left,
+          color=white!85!navyblue,
+          font=\fontsize{9}{13}\selectfont\sffamily,
           inner sep=0pt]
-      at ([xshift=1.8cm, yshift=-5.6cm]current page.north west)
-      {Onde viver, investir e prosperar\\no cora\c{c}\~ao da Am\'erica do Sul};
+      at ([xshift=1.8cm, yshift=-6.4cm]current page.north west)
+      {262 distritos analisados para sua\\decis\~ao de vida e investimento};
 
     %% === LINHA SEPARADORA ===
     \draw[goldcolor!55!white, line width=0.45pt]
-      ([xshift=1.8cm, yshift=-7.3cm]current page.north west) --
-      ([xshift=7.8cm, yshift=-7.3cm]current page.north west);
+      ([xshift=1.8cm, yshift=-7.8cm]current page.north west) --
+      ([xshift=8.5cm, yshift=-7.8cm]current page.north west);
 
-    %% === BADGES ESTATÍSTICOS ===
+    %% === BADGES ESTATÍSTICOS — CONSOLIDADOS EM UMA LINHA ===
     %% Badge 1 — 262 DISTRITOS
     \node[
       fill=white!8!navyblue,
       draw=goldcolor!35!navyblue, line width=0.3pt,
       rounded corners=3.5pt,
-      minimum width=2.55cm, minimum height=1.6cm,
+      minimum width=2.8cm, minimum height=1.8cm,
       anchor=north west, inner sep=0pt
-    ] (b1) at ([xshift=1.8cm, yshift=-7.7cm]current page.north west) {};
+    ] (b1) at ([xshift=1.8cm, yshift=-8.3cm]current page.north west) {};
     \node[color=goldcolor,
-          font=\fontsize{20}{22}\selectfont\sffamily\bfseries,
+          font=\fontsize{24}{26}\selectfont\sffamily\bfseries,
           anchor=north, inner sep=0pt]
-      at ([yshift=-0.24cm]b1.north) {262};
+      at ([yshift=-0.28cm]b1.north) {262};
     \node[color=white!60!navyblue,
-          font=\fontsize{5.5}{7}\selectfont\sffamily\bfseries,
+          font=\fontsize{6}{8}\selectfont\sffamily\bfseries,
           anchor=south, inner sep=0pt]
-      at ([yshift=0.22cm]b1.south) {DISTRITOS};
+      at ([yshift=0.28cm]b1.south) {DISTRITOS};
 
     %% Badge 2 — 18 DEPARTAMENTOS
     \node[
       fill=white!8!navyblue,
       draw=goldcolor!35!navyblue, line width=0.3pt,
       rounded corners=3.5pt,
-      minimum width=2.55cm, minimum height=1.6cm,
+      minimum width=2.8cm, minimum height=1.8cm,
       anchor=north west, inner sep=0pt
-    ] (b2) at ([xshift=4.55cm, yshift=-7.7cm]current page.north west) {};
+    ] (b2) at ([xshift=4.9cm, yshift=-8.3cm]current page.north west) {};
     \node[color=goldcolor,
-          font=\fontsize{20}{22}\selectfont\sffamily\bfseries,
+          font=\fontsize{24}{26}\selectfont\sffamily\bfseries,
           anchor=north, inner sep=0pt]
-      at ([yshift=-0.24cm]b2.north) {18};
+      at ([yshift=-0.28cm]b2.north) {18};
     \node[color=white!60!navyblue,
-          font=\fontsize{5.5}{7}\selectfont\sffamily\bfseries,
+          font=\fontsize{6}{8}\selectfont\sffamily\bfseries,
           anchor=south, inner sep=0pt]
-      at ([yshift=0.22cm]b2.south) {DEPARTAMENTOS};
+      at ([yshift=0.28cm]b2.south) {DEPARTAMENTOS};
 
     %% Badge 3 — 7 MAPAS TEMÁTICOS
     \node[
       fill=white!8!navyblue,
       draw=goldcolor!35!navyblue, line width=0.3pt,
       rounded corners=3.5pt,
-      minimum width=2.55cm, minimum height=1.6cm,
+      minimum width=2.8cm, minimum height=1.8cm,
       anchor=north west, inner sep=0pt
-    ] (b3) at ([xshift=7.3cm, yshift=-7.7cm]current page.north west) {};
+    ] (b3) at ([xshift=8.0cm, yshift=-8.3cm]current page.north west) {};
     \node[color=goldcolor,
-          font=\fontsize{20}{22}\selectfont\sffamily\bfseries,
+          font=\fontsize{24}{26}\selectfont\sffamily\bfseries,
           anchor=north, inner sep=0pt]
-      at ([yshift=-0.24cm]b3.north) {7};
+      at ([yshift=-0.28cm]b3.north) {7};
     \node[color=white!60!navyblue,
-          font=\fontsize{5.5}{7}\selectfont\sffamily\bfseries,
+          font=\fontsize{6}{8}\selectfont\sffamily\bfseries,
           anchor=south, inner sep=0pt]
-      at ([yshift=0.22cm]b3.south) {MAPAS TEM\'ATICOS};
+      at ([yshift=0.28cm]b3.south) {MAPAS TEM\'ATICOS};
 
-    %% === DESCRIÇÃO DO CONTEÚDO ===
-    \node[anchor=north west, text width=9.5cm, align=left,
-          color=goldcolor!80!white,
-          font=\fontsize{9}{13}\selectfont\sffamily,
+    %% === DESCRIÇÃO DO CONTEÚDO — COM BULLETS ===
+    \node[anchor=north west, text width=10cm, align=left,
+          color=goldcolor!85!white,
+          font=\fontsize{8}{12}\selectfont\sffamily,
           inner sep=0pt]
-      at ([xshift=1.8cm, yshift=-9.6cm]current page.north west)
-      {An\'alise de cada distrito: qualidade de vida,\\
-       risco social, autossufici\^encia e potencial\\
-       de investimento.};
+      at ([xshift=1.8cm, yshift=-10.6cm]current page.north west)
+      {\textbf{An\'alise por distrito:}\\
+       Segurança $\cdot$ Solo e \'agua $\cdot$ Infraestrutura\\
+       Telecomunica\c{c}\~oes $\cdot$ Mercado imobili\'ario $\cdot$ GSS score};
 
-    %% === FONTES E METODOLOGIA ===
-    \node[anchor=north west, text width=9.5cm, align=left,
-          color=white!38!navyblue,
-          font=\fontsize{6.5}{10}\selectfont\sffamily,
+    %% === FONTES E METODOLOGIA — AUMENTADO PARA 7.5PT ===
+    \node[anchor=north west, text width=10cm, align=left,
+          color=white!45!navyblue,
+          font=\fontsize{7.5}{11}\selectfont\sffamily,
           inner sep=0pt]
-      at ([xshift=1.8cm, yshift=-11.5cm]current page.north west)
-      {Metodologia GSS (Skousen) $\cdot$ Censo DGEEC 2022\\
+      at ([xshift=1.8cm, yshift=-12.5cm]current page.north west)
+      {Metodologia GSS (Joel Skousen) $\cdot$ Censo DGEEC 2022\\
        NASA POWER $\cdot$ CONATEL $\cdot$ INDERT $\cdot$ DGM};
 
     %% === AUTOR (faixa inferior) ===
