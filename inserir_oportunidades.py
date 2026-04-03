@@ -203,17 +203,29 @@ def gerar_oportunidades(nome, clave, dept_num, intro, scores, recursos, preco_te
     # Recursos locais
     if recursos and len(recursos) > 30:
         rec_limpo = re.sub(r'\\[a-zA-Z]+\{?[^}]*\}?', '', recursos)[:200]
-        partes.append(f"Os recursos identificados incluem: {rec_limpo.strip('.')}.")
+        rec_limpo = rec_limpo.strip('.')
+        # Filtrar linguagem tática/militar
+        if not any(w in rec_limpo.lower() for w in ['fallout', 'tático', 'tatico', 'nuclear', 'militar']):
+            partes.append(f"Os principais recursos locais incluem: {rec_limpo}.")
 
     # Preço da terra
     if preco_terra and 'USD' in preco_terra:
         pt = re.sub(r'\\[a-zA-Z]+\{?[^}]*\}?', '', preco_terra)[:150]
-        partes.append(f"O mercado fundiário mostra: {pt.strip('.')}.")
+        pt = pt.strip('.')
+        # Filtrar linguagem de risco/tático que não cabe em Oportunidades
+        if not any(w in pt.lower() for w in ['risco', 'paralisia', 'militar', 'crise', 'conflito']):
+            partes.append(f"O mercado fundiário registra: {pt}.")
 
     # Vias de acesso / logística
     if vias and len(vias) > 20:
-        via_limpa = re.sub(r'\\[a-zA-Z]+\{?[^}]*\}?', '', vias)[:150]
-        partes.append(f"A conectividade logística compreende: {via_limpa.strip('.')}.")
+        via_limpa = re.sub(r'\\[a-zA-Z]+\{?[^}]*\}?', '', vias)[:200]
+        via_limpa = via_limpa.strip('.')
+        # Pegar apenas a primeira sentença se houver linguagem tática
+        if any(w in via_limpa.lower() for w in ['risco', 'paralisia', 'militar', 'crise', 'tático', 'tatico']):
+            # Usar apenas até o primeiro ponto ou vírgula antes da linguagem tática
+            via_limpa = via_limpa.split('.')[0][:120]
+        if len(via_limpa) > 20:
+            partes.append(f"A conectividade logística é dada por: {via_limpa}.")
 
     # GSS final
     partes.append(f"A {gss_label} posiciona {nome} como opção concreta para realocação estratégica no contexto regional.")
@@ -261,10 +273,13 @@ def gerar_diferenciais(nome, clave, dept_num, intro, scores, densidade, seguranc
         d2 = dimensoes_nomes.get(top2[0], top2[0])
         partes.append(f"Os diferenciais mais marcantes de {nome} estão na dimensão de {d1} ({top1[0]}={top1[1]:.1f}) e na de {d2} ({top2[0]}={top2[1]:.1f}), combinação pouco comum entre distritos de GSS equivalente.")
 
-    # Densidade / isolamento
+    # Densidade / isolamento — só incluir se tiver conteúdo real (números)
     if densidade and len(densidade) > 10:
-        dens_limpa = re.sub(r'\\[a-zA-Z]+\{?[^}]*\}?', '', densidade)[:150]
-        partes.append(f"A densidade demográfica — {dens_limpa.strip()} — é um fator relevante para quem valoriza privacidade e baixo índice de conflito social.")
+        dens_limpa = re.sub(r'\\[a-zA-Z]+\{?[^}]*\}?', '', densidade).strip()
+        dens_limpa = re.sub(r'\s+', ' ', dens_limpa)[:150]
+        # Verificar se tem conteúdo substancial (números ou texto descritivo)
+        if re.search(r'\d', dens_limpa) and len(dens_limpa) > 8:
+            partes.append(f"A densidade demográfica ({dens_limpa.strip('.')}) é um indicador relevante do nível de privacidade e pressão social do território.")
 
     # Segurança local
     if seguranca and len(seguranca) > 20:
@@ -290,13 +305,27 @@ def processar_arquivo(filepath, force=False):
     with open(filepath, 'r', encoding='utf-8') as f:
         conteudo = f.read()
 
-    # Verificar se já tem seções completas
-    if r'\subsubsection*{Oportunidades}' in conteudo and not force:
-        count_existente = conteudo.count(r'\subsubsection*{Oportunidades}')
-        count_total = conteudo.count(r'\secaoDiagnostico')
-        if count_existente == count_total:
-            print(f"  SKIP {os.path.basename(filepath)}: já completo ({count_existente}/{count_total})")
-            return 0
+    # Verificar se já tem seções
+    tem_secoes = r'\subsubsection*{Oportunidades}' in conteudo
+    if tem_secoes:
+        if not force:
+            count_existente = conteudo.count(r'\subsubsection*{Oportunidades}')
+            count_total = conteudo.count(r'\secaoDiagnostico')
+            if count_existente == count_total:
+                print(f"  SKIP {os.path.basename(filepath)}: já completo ({count_existente}/{count_total})")
+                return 0
+        else:
+            # Remover todas as seções Oportunidades/Diferenciais existentes
+            # Padrão: \n\subsubsection*{Oportunidades}...\n até a próxima \secaoDiagnostico ou \chapter
+            conteudo = re.sub(
+                r'\n\\subsubsection\*\{Oportunidades\}[^\n]*\n.*?(?=\n\\(?:secaoDiagnostico|chapter|subsubsection\*\{Oportunidades\})|\Z)',
+                '', conteudo, flags=re.DOTALL
+            )
+            # Remover Diferenciais soltos restantes
+            conteudo = re.sub(
+                r'\n\\subsubsection\*\{Diferenciais\}[^\n]*\n.*?(?=\n\\(?:secaoDiagnostico|chapter|subsubsection\*\{Oportunidades\})|\Z)',
+                '', conteudo, flags=re.DOTALL
+            )
 
     # Extrair número do departamento do nome do arquivo
     fname = os.path.basename(filepath)
